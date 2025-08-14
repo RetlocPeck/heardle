@@ -117,8 +117,8 @@ twice-heardle/
 - 1st try: 1 second
 - 2nd try: 2 seconds
 - 3rd try: 4 seconds
-- 4th try: 8 seconds
-- 5th try: 15 seconds
+- 4th try: 7 seconds
+- 5th try: 10 seconds
 - 6th try: 15 seconds
 
 ## Technologies Used
