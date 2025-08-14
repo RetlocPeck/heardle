@@ -8,7 +8,6 @@ interface Artist {
   name: string;
   displayName: string;
   description: string;
-  imageUrl: string;
   color: string;
   songCount: number;
   releaseYear: number;
@@ -20,7 +19,6 @@ const artists: Artist[] = [
     name: 'TWICE',
     displayName: 'TWICE',
     description: 'K-pop girl group known for their catchy songs and energetic performances',
-    imageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/8f/8c/8f/8f8c8f8c-8f8c-8f8c-8f8c-8f8c8f8c8f8c/1203816887.jpg/300x300bb.jpg',
     color: 'pink',
     songCount: 100,
     releaseYear: 2015
@@ -30,12 +28,27 @@ const artists: Artist[] = [
     name: 'LE SSERAFIM',
     displayName: 'LE SSERAFIM',
     description: 'Dynamic K-pop quintet specializing in self-assured, bass-heavy dance-pop',
-    imageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/8f/8c/8f/8f8c8f8c-8f8c-8f8c-8f8c-8f8c8f8c8f8c/1616740364.jpg/300x300bb.jpg',
     color: 'purple',
     songCount: 50,
     releaseYear: 2022
   }
 ];
+
+// Color mapping for Tailwind classes
+const colorClasses = {
+  pink: {
+    border: 'border-pink-500',
+    bg: 'bg-pink-500',
+    bgHover: 'hover:bg-pink-600',
+    badge: 'bg-pink-100 text-pink-800'
+  },
+  purple: {
+    border: 'border-purple-500',
+    bg: 'bg-purple-500',
+    bgHover: 'hover:bg-purple-600',
+    badge: 'bg-purple-100 text-purple-800'
+  }
+};
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -97,59 +110,72 @@ export default function HomePage() {
 
         {/* Artists Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredArtists.map((artist) => (
-            <div
-              key={artist.id}
-              className={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-${artist.color}-500`}
-            >
-              {/* Artist Image */}
-              <div className="relative">
-                <img
-                  src={artist.imageUrl}
-                  alt={artist.displayName}
-                  className="w-full h-48 object-cover rounded-t-xl"
-                  onError={(e) => {
-                    // Fallback to a gradient if image fails to load
-                    const target = e.target as HTMLImageElement;
-                    target.style.background = `linear-gradient(135deg, var(--tw-gradient-from), var(--tw-gradient-to))`;
-                    target.style.display = 'none';
-                  }}
-                />
-                <div className="absolute top-4 right-4">
-                  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-${artist.color}-100 text-${artist.color}-800`}>
-                    {artist.songCount}+ songs
-                  </span>
+          {filteredArtists.map((artist) => {
+            const colors = colorClasses[artist.color as keyof typeof colorClasses];
+            return (
+              <div
+                key={artist.id}
+                className={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 ${colors.border}`}
+              >
+                {/* Artist Image */}
+                <div className="relative">
+                  <img
+                    src={`/images/artists/${artist.id}.jpg`}
+                    alt={artist.displayName}
+                    className="w-full h-48 object-cover rounded-t-xl"
+                    onError={(e) => {
+                      // Hide the image and show placeholder if it fails to load
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      
+                      // Show loading placeholder
+                      const placeholder = document.createElement('div');
+                      placeholder.className = 'w-full h-48 bg-gradient-to-br from-gray-200 to-gray-300 rounded-t-xl flex items-center justify-center';
+                      placeholder.innerHTML = `
+                        <div class="text-center">
+                          <div class="w-16 h-16 border-4 border-gray-400 border-t-transparent rounded-full animate-spin mx-auto mb-2"></div>
+                          <span class="text-sm text-gray-500">Add ${artist.displayName} image</span>
+                        </div>
+                      `;
+                      target.parentNode?.appendChild(placeholder);
+                    }}
+                  />
+                  <div className="absolute top-4 right-4">
+                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${colors.badge}`}>
+                      {artist.songCount}+ songs
+                    </span>
+                  </div>
                 </div>
-              </div>
 
-              {/* Artist Info */}
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-2xl font-bold text-gray-900">{artist.displayName}</h3>
-                  <span className="text-sm text-gray-500">{artist.releaseYear}</span>
-                </div>
-                
-                <p className="text-gray-600 mb-4 line-clamp-2">
-                  {artist.description}
-                </p>
-
-                {/* Game Modes */}
-                <div className="space-y-3">
-                  <Link
-                    href={`/${artist.id}`}
-                    className={`w-full block text-center px-4 py-2 bg-${artist.color}-500 text-white font-semibold rounded-lg hover:bg-${artist.color}-600 transition-colors duration-200`}
-                  >
-                    🎯 Play {artist.displayName} Heardle
-                  </Link>
+                {/* Artist Info */}
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="text-2xl font-bold text-gray-900">{artist.displayName}</h3>
+                    <span className="text-sm text-gray-500">{artist.releaseYear}</span>
+                  </div>
                   
-                  <div className="text-center">
-                    <p className="text-sm text-gray-500 mb-2">Choose your mode on the next page</p>
-                    <p className="text-xs text-gray-400">Daily Challenge • Practice Mode</p>
+                  <p className="text-gray-600 mb-4 line-clamp-2">
+                    {artist.description}
+                  </p>
+
+                  {/* Game Modes */}
+                  <div className="space-y-3">
+                    <Link
+                      href={`/${artist.id}`}
+                      className={`w-full block text-center px-4 py-2 ${colors.bg} text-white font-semibold rounded-lg ${colors.bgHover} transition-colors duration-200`}
+                    >
+                      🎯 Play {artist.displayName} Heardle
+                    </Link>
+                    
+                    <div className="text-center">
+                      <p className="text-sm text-gray-500 mb-2">Choose your mode on the next page</p>
+                      <p className="text-xs text-gray-400">Daily Challenge • Practice Mode</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Coming Soon Section */}

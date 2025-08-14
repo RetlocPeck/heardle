@@ -230,7 +230,15 @@ export default function GuessInput({
 
           <button
             type="button"
-            onClick={onSkip}
+            onClick={() => {
+              console.log('🔘 Skip button clicked');
+              console.log('🔘 onSkip function:', onSkip);
+              if (onSkip) {
+                onSkip();
+              } else {
+                console.error('❌ onSkip function is not defined');
+              }
+            }}
             disabled={disabled}
             className={`
               px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg

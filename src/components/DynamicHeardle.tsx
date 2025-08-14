@@ -36,8 +36,8 @@ const ARTISTS: ArtistConfig[] = [
 
 export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
   const params = useParams();
-  const [gameLogic] = useState(() => new GameLogic(mode));
-  const [gameState, setGameState] = useState<GameState>(gameLogic.getGameState());
+  const [gameLogic, setGameLogic] = useState<GameLogic | null>(null);
+  const [gameState, setGameState] = useState<GameState | null>(null);
   const [currentSong, setCurrentSong] = useState<TWICESong | null>(null);
   const [availableSongs, setAvailableSongs] = useState<TWICESong[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -49,12 +49,28 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
     const foundArtist = ARTISTS.find(a => a.id === artistId);
     if (foundArtist) {
       setArtist(foundArtist);
-      loadSong(artistId);
-      loadAvailableSongs(artistId);
+      
+      // Initialize GameLogic with artistId
+      const newGameLogic = new GameLogic(artistId, mode);
+      setGameLogic(newGameLogic);
+      setGameState(newGameLogic.getGameState());
+      
+      // Load song and songs after GameLogic is initialized
+      const initializeGame = async () => {
+        await loadSong(artistId, newGameLogic);
+        await loadAvailableSongs(artistId);
+      };
+      
+      initializeGame();
     }
-  }, [params.artist, mode, gameLogic]);
+    
+    // Cleanup function to prevent memory leaks
+    return () => {
+      console.log('🧹 Cleaning up DynamicHeardle useEffect');
+    };
+  }, [params.artist, mode]); // Only run when artist or mode changes
 
-  const loadSong = async (artistId: string) => {
+  const loadSong = async (artistId: string, gameLogicInstance?: GameLogic) => {
     setIsLoading(true);
     setError(null);
     
@@ -79,8 +95,13 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
       console.log(`iTunes URL: ${song.itunesUrl}`);
       
       setCurrentSong(song);
-      gameLogic.startGame(song);
-      setGameState(gameLogic.getGameState());
+      
+      // Use the passed instance or the one from state
+      const logicToUse = gameLogicInstance || gameLogic;
+      if (logicToUse) {
+        logicToUse.startGame(song);
+        setGameState(logicToUse.getGameState());
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
@@ -111,6 +132,7 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
   };
 
   const handleGuess = (guess: string) => {
+    if (!gameLogic) return;
     const isCorrect = gameLogic.makeGuess(guess);
     setGameState(gameLogic.getGameState());
     
@@ -122,12 +144,28 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
   };
 
   const handleSkip = () => {
-    gameLogic.makeGuess(''); // Empty guess counts as a skip
-    setGameState(gameLogic.getGameState());
-    console.log(`Skipped turn. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
+    console.log('🎯 handleSkip called');
+    console.log('🎯 gameLogic:', gameLogic);
+    console.log('🎯 gameState:', gameState);
+    
+    if (!gameLogic) {
+      console.error('❌ gameLogic is null, cannot skip');
+      return;
+    }
+    
+    console.log('🎯 Calling gameLogic.makeGuess("")');
+    const result = gameLogic.makeGuess(''); // Empty guess counts as a skip
+    console.log('🎯 makeGuess result:', result);
+    
+    const newGameState = gameLogic.getGameState();
+    console.log('🎯 New game state:', newGameState);
+    
+    setGameState(newGameState);
+    console.log(`🎯 Skipped turn. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
   };
 
   const handleNewGame = () => {
+    if (!gameLogic) return;
     if (mode === 'practice') {
       loadSong(params.artist as string);
     } else {
@@ -203,25 +241,25 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
         {/* Left Column - Audio Player */}
         <div className="space-y-6">
           <AudioPlayer
-            key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
+            key={`${currentSong?.id}-${gameLogic?.getCurrentAudioDuration() || 0}`}
             song={currentSong}
-            duration={gameLogic.getCurrentAudioDuration()}
+            duration={gameLogic?.getCurrentAudioDuration() || 0}
             onEnded={handleAudioEnded}
-            disabled={gameState.isGameOver}
-            isGameWon={gameState.hasWon}
+            disabled={gameState?.isGameOver || false}
+            isGameWon={gameState?.hasWon || false}
           />
           
-          {!gameState.isGameOver && (
+          {!gameState?.isGameOver && (
             <GuessInput
               onSubmit={handleGuess}
               onSkip={handleSkip}
-              disabled={gameState.isGameOver}
+              disabled={gameState?.isGameOver}
               placeholder={`Guess the ${artist.displayName} song...`}
               availableSongs={availableSongs}
             />
           )}
           
-          {gameState.isGameOver && (
+          {gameState?.isGameOver && (
             <div className="text-center">
               <button
                 onClick={handleNewGame}
@@ -235,7 +273,9 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
 
         {/* Right Column - Game Board */}
         <div className="flex justify-center">
-          <GameBoard gameState={gameState} />
+          {gameState && (
+            <GameBoard gameState={gameState} />
+          )}
         </div>
       </div>
 

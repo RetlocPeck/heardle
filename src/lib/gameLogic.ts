@@ -33,8 +33,10 @@ const DURATION_PROGRESSION = [1000, 2000, 4000, 7000, 10000, 15000];
 export class GameLogic {
   private state: GameState;
   private settings: GameSettings;
+  private artistId: string;
 
-  constructor(mode: GameMode = 'practice', settings: GameSettings = DEFAULT_GAME_SETTINGS) {
+  constructor(artistId: string, mode: GameMode = 'practice', settings: GameSettings = DEFAULT_GAME_SETTINGS) {
+    this.artistId = artistId;
     this.settings = settings;
     this.state = this.createInitialState(mode);
   }
@@ -55,39 +57,55 @@ export class GameLogic {
   }
 
   startGame(song: TWICESong): void {
+    console.log('🎵 GameLogic.startGame called with song:', song.name);
+    console.log('🎵 Current state before startGame:', this.state);
+    
     this.state = {
       ...this.createInitialState(this.state.mode),
       currentSong: song,
       startTime: Date.now(),
     };
+    
+    console.log('🎵 New state after startGame:', this.state);
   }
 
   makeGuess(guess: string): boolean {
+    console.log('🎵 GameLogic.makeGuess called with guess:', `"${guess}"`);
+    console.log('🎵 Current state:', this.state);
+    
     if (this.state.isGameOver || !this.state.currentSong) {
+      console.log('🎵 Game is over or no current song, returning false');
       return false;
     }
 
     // Handle skip (empty guess)
     if (!guess.trim()) {
-      // Don't increment try count for skip if we're already at max tries
-      if (this.state.currentTry >= this.state.maxTries) {
+      console.log('🎵 Handling skip (empty guess)');
+      
+      // Check if we're already at max tries before incrementing
+      if (this.state.currentTry >= this.state.maxTries - 1) {
+        console.log('🎵 Max tries reached, ending game');
         this.state.isGameOver = true;
         this.state.endTime = Date.now();
         return false;
       }
       
+      // Add skip to guesses array to maintain order
+      this.state.guesses.push('(Skipped)');
+      console.log('🎵 Added skip to guesses array. New guesses:', this.state.guesses);
+      
       this.state.currentTry++;
+      console.log('🎵 Incremented currentTry to:', this.state.currentTry);
       
       // Set audio duration for next try based on progression
       const nextTryIndex = this.state.currentTry;
       if (nextTryIndex < DURATION_PROGRESSION.length) {
         this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];
-        console.log(`🎵 GameLogic: Turn ${this.state.currentTry} skipped. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s)`);
       } else {
         this.state.audioDuration = this.settings.maxDuration;
-        console.log(`🎵 GameLogic: Turn ${this.state.currentTry} skipped. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s) - max reached`);
       }
       
+      console.log('🎵 Set next audio duration to:', this.state.audioDuration, 'ms');
       return false;
     }
 
@@ -99,29 +117,26 @@ export class GameLogic {
       this.state.hasWon = true;
       this.state.isGameOver = true;
       this.state.endTime = Date.now();
-      console.log(`🎵 GameLogic: User won on try ${this.state.currentTry + 1}!`);
       return true;
     }
 
-    // User guessed wrong, increment try count
-    this.state.currentTry++;
-
-    // Check if game is over after wrong guess
-    if (this.state.currentTry >= this.state.maxTries) {
+    // Check if this was the last try BEFORE incrementing
+    if (this.state.currentTry >= this.state.maxTries - 1) {
+      // This was the last try and they got it wrong
       this.state.isGameOver = true;
       this.state.endTime = Date.now();
-      console.log(`🎵 GameLogic: Game over after ${this.state.currentTry} tries. User lost.`);
       return false;
     }
+
+    // User guessed wrong, increment try count (only if not the last try)
+    this.state.currentTry++;
 
     // Set audio duration for next try based on progression
     const nextTryIndex = this.state.currentTry;
     if (nextTryIndex < DURATION_PROGRESSION.length) {
       this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];
-      console.log(`🎵 GameLogic: Try ${this.state.currentTry} completed. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s)`);
     } else {
       this.state.audioDuration = this.settings.maxDuration;
-      console.log(`🎵 GameLogic: Try ${this.state.currentTry} completed. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s) - max reached`);
     }
 
     return false;
