@@ -11,7 +11,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
 
   const renderGuessRow = (index: number, guess: string | null, isCorrect: boolean | null) => {
     const isCurrentRow = index === currentTry && !isGameOver;
-    const isPastRow = index < currentTry;
+    const isPastRow = index < currentTry || (isGameOver && guess !== null);
     
     return (
       <div 
