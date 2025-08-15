@@ -241,14 +241,14 @@ export default function AudioPlayer({
   // Calculate progress based on current time vs duration
   const progress = duration > 0 ? Math.min((currentTime / (duration / 1000)) * 100, 100) : 0;
 
-  // For full preview (game won), calculate progress based on actual preview duration (30 seconds)
-  const fullPreviewProgress = isGameWon 
+  // For full preview (game won or over), calculate progress based on actual preview duration (30 seconds)
+  const fullPreviewProgress = (isGameWon || disabled) 
     ? Math.min((currentTime / 30) * 100, 100) 
     : progress;
 
-  // Use full preview progress when game is won, otherwise use limited duration progress
-  const displayProgress = isGameWon ? fullPreviewProgress : progress;
-  const displayDuration = isGameWon ? 30 : duration / 1000;
+  // Use full preview progress when game is won or over, otherwise use limited duration progress
+  const displayProgress = (isGameWon || disabled) ? fullPreviewProgress : progress;
+  const displayDuration = (isGameWon || disabled) ? 30 : duration / 1000;
 
   if (!song.previewUrl) {
     return (
