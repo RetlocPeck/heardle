@@ -12,6 +12,12 @@ interface Artist {
   color: string;
   songCount: number;
   releaseYear: number;
+  gradientFrom: string;
+  gradientTo: string;
+  accentColor: string;
+  borderColor: string;
+  bgColor: string;
+  textColor: string;
 }
 
 const artists: Artist[] = [
@@ -22,6 +28,12 @@ const artists: Artist[] = [
     description: 'K-pop girl group known for their catchy songs and energetic performances',
     imageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/8f/8c/8f/8f8c8f8c-8f8c-8f8c-8f8c-8f8c8f8c8f8c/1203816887.jpg/300x300bb.jpg',
     color: 'pink',
+    gradientFrom: 'from-pink-500',
+    gradientTo: 'to-rose-600',
+    accentColor: 'bg-pink-500 hover:bg-pink-600',
+    borderColor: 'border-pink-400',
+    bgColor: 'bg-pink-50',
+    textColor: 'text-pink-800',
     songCount: 100,
     releaseYear: 2015
   },
@@ -32,6 +44,12 @@ const artists: Artist[] = [
     description: 'Dynamic K-pop quintet specializing in self-assured, bass-heavy dance-pop',
     imageUrl: 'https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/8f/8c/8f/8f8c8f8c-8f8c-8f8c-8f8c-8f8c8f8c8f8c/1616740364.jpg/300x300bb.jpg',
     color: 'purple',
+    gradientFrom: 'from-purple-500',
+    gradientTo: 'to-indigo-600',
+    accentColor: 'bg-purple-500 hover:bg-purple-600',
+    borderColor: 'border-purple-400',
+    bgColor: 'bg-purple-50',
+    textColor: 'text-purple-800',
     songCount: 50,
     releaseYear: 2022
   }
@@ -46,18 +64,25 @@ export default function HomePage() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+      </div>
+
       {/* Header */}
-      <div className="bg-white shadow-sm border-b">
+      <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <h1 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
                 K-Pop Heardle
               </h1>
-              <span className="ml-2 text-2xl">🎵</span>
+              <span className="ml-3 text-3xl animate-pulse">🎵</span>
             </div>
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-white/80 font-medium">
               Test your K-pop knowledge!
             </div>
           </div>
@@ -65,30 +90,33 @@ export default function HomePage() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Hero Section */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Welcome to K-Pop Heardle
+        <div className="text-center mb-20">
+          <h2 className="text-6xl font-bold text-white mb-6 leading-tight">
+            Welcome to 
+            <span className="block bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+              K-Pop Heardle
+            </span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-white/80 max-w-4xl mx-auto leading-relaxed">
             Challenge yourself with music guessing games featuring your favorite K-pop artists. 
             Listen to short previews and test your knowledge of their discographies!
           </p>
         </div>
 
         {/* Search Bar */}
-        <div className="max-w-md mx-auto mb-12">
+        <div className="max-w-lg mx-auto mb-16">
           <div className="relative">
             <input
               type="text"
               placeholder="Search artists..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-3 pl-12 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent transition-all duration-200"
+              className="w-full px-6 py-4 pl-14 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl text-white placeholder-white/60 focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-300 focus:bg-white/20"
             />
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+              <svg className="h-6 w-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
@@ -96,55 +124,76 @@ export default function HomePage() {
         </div>
 
         {/* Artists Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredArtists.map((artist) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          {filteredArtists.map((artist, index) => (
             <div
               key={artist.id}
-              className={`bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-l-4 border-${artist.color}-500`}
+              className="group relative"
+              style={{ animationDelay: `${index * 200}ms` }}
             >
-              {/* Artist Image */}
-              <div className="relative">
-                <img
-                  src={artist.imageUrl}
-                  alt={artist.displayName}
-                  className="w-full h-48 object-cover rounded-t-xl"
-                  onError={(e) => {
-                    // Fallback to a gradient if image fails to load
-                    const target = e.target as HTMLImageElement;
-                    target.style.background = `linear-gradient(135deg, var(--tw-gradient-from), var(--tw-gradient-to))`;
-                    target.style.display = 'none';
-                  }}
-                />
-                <div className="absolute top-4 right-4">
-                  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-${artist.color}-100 text-${artist.color}-800`}>
-                    {artist.songCount}+ songs
-                  </span>
-                </div>
-              </div>
-
-              {/* Artist Info */}
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-2xl font-bold text-gray-900">{artist.displayName}</h3>
-                  <span className="text-sm text-gray-500">{artist.releaseYear}</span>
-                </div>
+              {/* Glassmorphism Card */}
+              <div className="relative backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20 overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+                {/* Gradient Border Effect */}
+                <div className={`absolute inset-0 bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
                 
-                <p className="text-gray-600 mb-4 line-clamp-2">
-                  {artist.description}
-                </p>
+                {/* Artist Image */}
+                <div className="relative h-64 overflow-hidden">
+                  <img
+                    src={artist.imageUrl}
+                    alt={artist.displayName}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.background = `linear-gradient(135deg, rgb(168, 85, 247), rgb(236, 72, 153))`;
+                      target.style.display = 'none';
+                    }}
+                  />
+                  {/* Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                  
+                  {/* Stats Badge */}
+                  <div className="absolute top-4 right-4">
+                    <div className={`backdrop-blur-md ${artist.bgColor} ${artist.textColor} px-3 py-1 rounded-full text-sm font-semibold border border-white/30`}>
+                      {artist.songCount}+ songs
+                    </div>
+                  </div>
 
-                {/* Game Modes */}
-                <div className="space-y-3">
+                  {/* Year Badge */}
+                  <div className="absolute top-4 left-4">
+                    <div className="backdrop-blur-md bg-black/30 text-white px-3 py-1 rounded-full text-sm font-medium border border-white/20">
+                      {artist.releaseYear}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Artist Info */}
+                <div className="p-8">
+                  <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-purple-400 group-hover:bg-clip-text transition-all duration-300">
+                    {artist.displayName}
+                  </h3>
+                  
+                  <p className="text-white/80 mb-6 leading-relaxed">
+                    {artist.description}
+                  </p>
+
+                  {/* Play Button */}
                   <Link
                     href={`/${artist.id}`}
-                    className={`w-full block text-center px-4 py-2 bg-${artist.color}-500 text-white font-semibold rounded-lg hover:bg-${artist.color}-600 transition-colors duration-200`}
+                    className={`group/btn relative w-full block text-center px-6 py-4 bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 overflow-hidden`}
                   >
-                    🎯 Play {artist.displayName} Heardle
+                    <span className="relative z-10 flex items-center justify-center space-x-2">
+                      <span className="text-xl">🎯</span>
+                      <span>Play {artist.displayName} Heardle</span>
+                    </span>
+                    <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
                   </Link>
                   
-                  <div className="text-center">
-                    <p className="text-sm text-gray-500 mb-2">Choose your mode on the next page</p>
-                    <p className="text-xs text-gray-400">Daily Challenge • Practice Mode</p>
+                  <div className="text-center mt-4">
+                    <p className="text-white/60 text-sm mb-1">Choose your mode on the next page</p>
+                    <div className="flex justify-center space-x-2 text-xs">
+                      <span className="px-2 py-1 bg-white/10 rounded-full text-white/70">Daily Challenge</span>
+                      <span className="px-2 py-1 bg-white/10 rounded-full text-white/70">Practice Mode</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -153,29 +202,25 @@ export default function HomePage() {
         </div>
 
         {/* Coming Soon Section */}
-        <div className="mt-16 text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">
-            More Artists Coming Soon!
-          </h3>
-          <p className="text-gray-600 mb-6">
-            We're working on adding more K-pop artists to expand your Heardle experience.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
-              NewJeans
-            </span>
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
-              IVE
-            </span>
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
-              aespa
-            </span>
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
-              ITZY
-            </span>
-            <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
-              Red Velvet
-            </span>
+        <div className="mt-20 text-center">
+          <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/10 p-10 max-w-3xl mx-auto">
+            <h3 className="text-3xl font-bold text-white mb-6">
+              More Artists Coming Soon! ✨
+            </h3>
+            <p className="text-white/80 mb-8 text-lg">
+              We're working on adding more K-pop artists to expand your Heardle experience.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              {['NewJeans', 'IVE', 'aespa', 'ITZY', 'Red Velvet'].map((artist, index) => (
+                <span 
+                  key={artist}
+                  className="px-4 py-2 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md text-white rounded-2xl text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
+                  style={{ animationDelay: `${index * 100}ms` }}
+                >
+                  {artist}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </div>

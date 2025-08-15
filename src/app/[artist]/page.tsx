@@ -11,6 +11,9 @@ interface ArtistConfig {
   name: string;
   displayName: string;
   color: string;
+  gradientFrom: string;
+  gradientTo: string;
+  accentColor: string;
 }
 
 const artists: ArtistConfig[] = [
@@ -18,13 +21,19 @@ const artists: ArtistConfig[] = [
     id: 'twice',
     name: 'TWICE',
     displayName: 'TWICE',
-    color: 'pink'
+    color: 'pink',
+    gradientFrom: 'from-pink-500',
+    gradientTo: 'to-rose-600',
+    accentColor: 'bg-pink-500 hover:bg-pink-600'
   },
   {
     id: 'le-sserafim',
     name: 'LE SSERAFIM',
     displayName: 'LE SSERAFIM',
-    color: 'purple'
+    color: 'purple',
+    gradientFrom: 'from-purple-500',
+    gradientTo: 'to-indigo-600',
+    accentColor: 'bg-purple-500 hover:bg-purple-600'
   }
 ];
 
@@ -46,10 +55,15 @@ export default function ArtistPage() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-8 h-8 border-4 border-pink-500 border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading artist...</p>
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        </div>
+        <div className="relative z-10 text-center">
+          <div className="w-12 h-12 border-4 border-pink-400 border-t-transparent rounded-full animate-spin mx-auto mb-6"></div>
+          <p className="text-white/80 text-lg">Loading artist...</p>
         </div>
       </div>
     );
@@ -57,43 +71,62 @@ export default function ArtistPage() {
 
   if (!artist) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Artist Not Found</h1>
-          <p className="text-gray-600 mb-6">The artist you're looking for doesn't exist.</p>
-          <a
-            href="/"
-            className="px-6 py-3 bg-pink-500 text-white rounded-lg hover:bg-pink-600 transition-colors"
-          >
-            Back to Home
-          </a>
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        </div>
+        <div className="relative z-10 text-center">
+          <div className="backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20 p-12">
+            <h1 className="text-5xl font-bold text-white mb-6">Artist Not Found</h1>
+            <p className="text-white/80 mb-8 text-lg">The artist you're looking for doesn't exist.</p>
+            <a
+              href="/"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
+            >
+              ← Back to Home
+            </a>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+      {/* Animated Background Elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+      </div>
+
       {/* Header */}
-      <div className="bg-white shadow-sm border-b">
+      <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
-              <a href="/" className="text-2xl font-bold text-gray-600 hover:text-gray-800 transition-colors">
-                ← Back to Artists
+              <a href="/" className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+                <span>Back to Artists</span>
               </a>
             </div>
             <div className="text-center">
-              <h1 className="text-3xl font-bold text-gray-900">{artist.displayName} Heardle</h1>
-              <p className="text-sm text-gray-600">Test your {artist.displayName} knowledge!</p>
+              <h1 className={`text-4xl font-bold bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} bg-clip-text text-transparent`}>
+                {artist.displayName} Heardle
+              </h1>
+              <p className="text-white/80 font-medium">Test your {artist.displayName} knowledge! 🎵</p>
             </div>
-            <div className="w-24"></div> {/* Spacer for centering */}
+            <div className="w-32"></div> {/* Spacer for centering */}
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="container mx-auto py-8">
+      <div className="relative z-10 container mx-auto py-8">
         <ModeSelector 
           selectedMode={selectedMode} 
           onModeChange={setSelectedMode} 
