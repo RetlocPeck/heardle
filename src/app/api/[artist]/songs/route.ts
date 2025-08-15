@@ -3,15 +3,17 @@ import ITunesService from '@/lib/itunes';
 
 export async function GET(
   request: Request,
-  { params }: { params: { artist: string } }
+  { params }: { params: Promise<{ artist: string }> }
 ) {
   try {
+    const { artist } = await params;
     const itunesService = ITunesService.getInstance();
-    const songs = await itunesService.searchSongs(params.artist);
+    const songs = await itunesService.searchSongs(artist);
 
     return NextResponse.json({ songs });
   } catch (error) {
-    console.error(`Failed to get songs for ${params.artist}:`, error);
+    const { artist } = await params;
+    console.error(`Failed to get songs for ${artist}:`, error);
     return NextResponse.json(
       { error: 'Failed to get songs' },
       { status: 500 }
