@@ -65,7 +65,7 @@ export default function AudioPlayer({
       audio.removeEventListener('loadstart', handleLoadStart);
       audio.removeEventListener('canplay', handleCanPlay);
     };
-  }, [onEnded]);
+  }, []);
 
   // Handle audio source and duration control
   useEffect(() => {
