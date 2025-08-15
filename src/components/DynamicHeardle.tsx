@@ -2,63 +2,33 @@
 
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import { TWICESong } from '@/lib/itunes';
+import { Song } from '@/types/song';
 import { GameLogic, GameMode, GameState } from '@/lib/gameLogic';
 import AudioPlayer from './AudioPlayer';
 import GuessInput from './GuessInput';
 import GameBoard from './GameBoard';
+import { ArtistLoadingSpinner } from './ui/LoadingSpinner';
+import ErrorBoundary from './ui/ErrorBoundary';
+import { getArtistById } from '@/config/artists';
+import type { ArtistConfig } from '@/config/artists';
 
 interface DynamicHeardleProps {
   mode: GameMode;
 }
 
-interface ArtistConfig {
-  id: string;
-  name: string;
-  displayName: string;
-  color: string;
-  gradientFrom: string;
-  gradientTo: string;
-  accentColor: string;
-  spinnerColor: string;
-}
-
-const ARTISTS: ArtistConfig[] = [
-  {
-    id: 'twice',
-    name: 'TWICE',
-    displayName: 'TWICE',
-    color: 'pink',
-    gradientFrom: 'from-pink-500',
-    gradientTo: 'to-rose-600',
-    accentColor: 'bg-pink-500 hover:bg-pink-600',
-    spinnerColor: 'border-pink-400'
-  },
-  {
-    id: 'le-sserafim',
-    name: 'LE SSERAFIM',
-    displayName: 'LE SSERAFIM',
-    color: 'purple',
-    gradientFrom: 'from-purple-500',
-    gradientTo: 'to-indigo-600',
-    accentColor: 'bg-purple-500 hover:bg-purple-600',
-    spinnerColor: 'border-purple-400'
-  }
-];
-
 export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
   const params = useParams();
   const [gameLogic] = useState(() => new GameLogic(mode));
   const [gameState, setGameState] = useState<GameState>(gameLogic.getGameState());
-  const [currentSong, setCurrentSong] = useState<TWICESong | null>(null);
-  const [availableSongs, setAvailableSongs] = useState<TWICESong[]>([]);
+  const [currentSong, setCurrentSong] = useState<Song | null>(null);
+  const [availableSongs, setAvailableSongs] = useState<Song[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
 
   useEffect(() => {
     const artistId = params.artist as string;
-    const foundArtist = ARTISTS.find(a => a.id === artistId);
+    const foundArtist = getArtistById(artistId);
     if (foundArtist) {
       setArtist(foundArtist);
       loadSong(artistId);
@@ -162,12 +132,9 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
 
   if (isLoading) {
     return (
-      <div className="flex items-center justify-center min-h-64">
-        <div className="text-center">
-          <div className={`w-12 h-12 border-4 ${artist.spinnerColor} border-t-transparent rounded-full animate-spin mx-auto mb-6`}></div>
-          <p className="text-white/80 text-lg">Loading {artist.displayName} song...</p>
-        </div>
-      </div>
+      <ArtistLoadingSpinner 
+        artistName={artist?.displayName} 
+      />
     );
   }
 
@@ -178,7 +145,7 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
           <div className="text-red-400 text-lg mb-6">Error: {error}</div>
           <button
             onClick={() => loadSong(artist.id)}
-            className={`px-8 py-4 ${artist.accentColor} text-white rounded-2xl font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
+            className={`px-8 py-4 ${artist.theme.accentColor} text-white rounded-2xl font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
           >
             Try Again
           </button>
@@ -198,11 +165,12 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
   }
 
   return (
-    <div className="max-w-6xl mx-auto p-6 space-y-10">
+    <ErrorBoundary>
+      <div className="max-w-6xl mx-auto p-6 space-y-10">
       {/* Header */}
       <div className="text-center">
         <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-8 mb-8">
-          <h1 className={`text-5xl font-bold bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} bg-clip-text text-transparent mb-4`}>
+          <h1 className={`text-5xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent mb-4`}>
             {artist.displayName} Heardle
           </h1>
           <p className="text-white text-xl mb-2">
@@ -247,7 +215,7 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
             <div className="text-center">
               <button
                 onClick={handleNewGame}
-                className={`px-10 py-4 bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25`}
+                className={`px-10 py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25`}
               >
                 {mode === 'daily' ? '🔄 Play Again' : '🎵 New Song'}
               </button>
@@ -307,6 +275,7 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
           </div>
         )}
       </div>
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 }

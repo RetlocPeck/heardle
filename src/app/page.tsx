@@ -2,65 +2,15 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-
-interface Artist {
-  id: string;
-  name: string;
-  displayName: string;
-  description: string;
-  imageUrl: string;
-  color: string;
-  songCount: number;
-  releaseYear: number;
-  gradientFrom: string;
-  gradientTo: string;
-  accentColor: string;
-  borderColor: string;
-  bgColor: string;
-  textColor: string;
-}
-
-const artists: Artist[] = [
-  {
-    id: 'twice',
-    name: 'TWICE',
-    displayName: 'TWICE',
-    description: 'K-pop girl group known for their catchy songs and energetic performances',
-    imageUrl: '/groups/twice.jpg',
-    color: 'pink',
-    gradientFrom: 'from-pink-500',
-    gradientTo: 'to-rose-600',
-    accentColor: 'bg-pink-500 hover:bg-pink-600',
-    borderColor: 'border-pink-400',
-    bgColor: 'bg-pink-50',
-    textColor: 'text-pink-800',
-    songCount: 100,
-    releaseYear: 2015
-  },
-  {
-    id: 'le-sserafim',
-    name: 'LE SSERAFIM',
-    displayName: 'LE SSERAFIM',
-    description: 'Dynamic K-pop quintet specializing in self-assured, bass-heavy dance-pop',
-    imageUrl: '/groups/lesserafim.jpg',
-    color: 'purple',
-    gradientFrom: 'from-purple-500',
-    gradientTo: 'to-indigo-600',
-    accentColor: 'bg-purple-500 hover:bg-purple-600',
-    borderColor: 'border-purple-400',
-    bgColor: 'bg-purple-50',
-    textColor: 'text-purple-800',
-    songCount: 50,
-    releaseYear: 2022
-  }
-];
+import { ARTISTS } from '@/config/artists';
+import type { ArtistConfig } from '@/config/artists';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredArtists = artists.filter(artist =>
+  const filteredArtists = ARTISTS.filter(artist =>
     artist.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.description.toLowerCase().includes(searchTerm.toLowerCase())
+    artist.metadata.description.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -134,12 +84,12 @@ export default function HomePage() {
               {/* Glassmorphism Card */}
               <div className="relative backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20 overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
                 {/* Gradient Border Effect */}
-                <div className={`absolute inset-0 bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
+                <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
                 
                 {/* Artist Image */}
                 <div className="relative h-64 overflow-hidden">
                   <img
-                    src={artist.imageUrl}
+                    src={artist.metadata.imageUrl}
                     alt={artist.displayName}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                     onError={(e) => {
@@ -153,15 +103,15 @@ export default function HomePage() {
                   
                   {/* Stats Badge */}
                   <div className="absolute top-4 right-4">
-                    <div className={`backdrop-blur-md ${artist.bgColor} ${artist.textColor} px-3 py-1 rounded-full text-sm font-semibold border border-white/30`}>
-                      {artist.songCount}+ songs
+                    <div className={`backdrop-blur-md ${artist.theme.bgColor} ${artist.theme.textColor} px-3 py-1 rounded-full text-sm font-semibold border border-white/30`}>
+                      {artist.metadata.songCount}+ songs
                     </div>
                   </div>
 
                   {/* Year Badge */}
                   <div className="absolute top-4 left-4">
                     <div className="backdrop-blur-md bg-black/30 text-white px-3 py-1 rounded-full text-sm font-medium border border-white/20">
-                      {artist.releaseYear}
+                      {artist.metadata.releaseYear}
                     </div>
                   </div>
                 </div>
@@ -173,13 +123,13 @@ export default function HomePage() {
                   </h3>
                   
                   <p className="text-white/80 mb-6 leading-relaxed">
-                    {artist.description}
+                    {artist.metadata.description}
                   </p>
 
                   {/* Play Button */}
                   <Link
                     href={`/${artist.id}`}
-                    className={`group/btn relative w-full block text-center px-6 py-4 bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 overflow-hidden`}
+                    className={`group/btn relative w-full block text-center px-6 py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 overflow-hidden`}
                   >
                     <span className="relative z-10 flex items-center justify-center space-x-2">
                       <span className="text-xl">🎯</span>

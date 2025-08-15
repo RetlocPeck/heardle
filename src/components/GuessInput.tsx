@@ -1,14 +1,14 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { TWICESong } from '@/lib/itunes';
+import { Song } from '@/types/song';
 
 interface GuessInputProps {
   onSubmit: (guess: string) => void;
   onSkip?: () => void;
   disabled?: boolean;
   placeholder?: string;
-  availableSongs?: TWICESong[];
+  availableSongs?: Song[];
   currentTry?: number;
   maxTries?: number;
 }
@@ -24,7 +24,7 @@ export default function GuessInput({
 }: GuessInputProps) {
   const [guess, setGuess] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
-  const [filteredSongs, setFilteredSongs] = useState<TWICESong[]>([]);
+  const [filteredSongs, setFilteredSongs] = useState<Song[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -39,7 +39,7 @@ export default function GuessInput({
       );
       
       // Deduplicate by song title - keep only one entry per unique song name
-      const uniqueSongs = filtered.reduce((acc: TWICESong[], currentSong) => {
+      const uniqueSongs = filtered.reduce((acc: Song[], currentSong) => {
         const existingSong = acc.find(song => 
           song.name.toLowerCase() === currentSong.name.toLowerCase()
         );
@@ -121,7 +121,7 @@ export default function GuessInput({
     }
   };
 
-  const handleSongSelect = (song: TWICESong) => {
+  const handleSongSelect = (song: Song) => {
     setGuess(song.name);
     setShowDropdown(false);
     onSubmit(song.name);
