@@ -5,37 +5,9 @@ import { useParams } from 'next/navigation';
 import { GameMode } from '@/lib/gameLogic';
 import ModeSelector from '@/components/ModeSelector';
 import DynamicHeardle from '@/components/DynamicHeardle';
-
-interface ArtistConfig {
-  id: string;
-  name: string;
-  displayName: string;
-  color: string;
-  gradientFrom: string;
-  gradientTo: string;
-  accentColor: string;
-}
-
-const artists: ArtistConfig[] = [
-  {
-    id: 'twice',
-    name: 'TWICE',
-    displayName: 'TWICE',
-    color: 'pink',
-    gradientFrom: 'from-pink-500',
-    gradientTo: 'to-rose-600',
-    accentColor: 'bg-pink-500 hover:bg-pink-600'
-  },
-  {
-    id: 'le-sserafim',
-    name: 'LE SSERAFIM',
-    displayName: 'LE SSERAFIM',
-    color: 'purple',
-    gradientFrom: 'from-purple-500',
-    gradientTo: 'to-indigo-600',
-    accentColor: 'bg-purple-500 hover:bg-purple-600'
-  }
-];
+import { PageLoadingSpinner } from '@/components/ui/LoadingSpinner';
+import { getArtistById } from '@/config/artists';
+import type { ArtistConfig } from '@/config/artists';
 
 export default function ArtistPage() {
   const params = useParams();
@@ -45,7 +17,7 @@ export default function ArtistPage() {
 
   useEffect(() => {
     const artistId = params.artist as string;
-    const foundArtist = artists.find(a => a.id === artistId);
+    const foundArtist = getArtistById(artistId);
     
     if (foundArtist) {
       setArtist(foundArtist);
@@ -54,19 +26,7 @@ export default function ArtistPage() {
   }, [params.artist]);
 
   if (isLoading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        </div>
-        <div className="relative z-10 text-center">
-          <div className="w-12 h-12 border-4 border-pink-400 border-t-transparent rounded-full animate-spin mx-auto mb-6"></div>
-          <p className="text-white/80 text-lg">Loading artist...</p>
-        </div>
-      </div>
-    );
+    return <PageLoadingSpinner />;
   }
 
   if (!artist) {
@@ -115,7 +75,7 @@ export default function ArtistPage() {
               </a>
             </div>
             <div className="text-center">
-              <h1 className={`text-4xl font-bold bg-gradient-to-r ${artist.gradientFrom} ${artist.gradientTo} bg-clip-text text-transparent`}>
+              <h1 className={`text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent`}>
                 {artist.displayName} Heardle
               </h1>
               <p className="text-white/80 font-medium">Test your {artist.displayName} knowledge! 🎵</p>

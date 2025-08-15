@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useRef, useEffect, useState } from 'react';
-import { TWICESong } from '@/lib/itunes';
+import { Song } from '@/types/song';
 
 interface AudioPlayerProps {
-  song: TWICESong;
+  song: Song;
   duration: number;
   onPlay?: () => void;
   onPause?: () => void;

@@ -1,81 +1,15 @@
-export interface TWICESong {
-  id: string;
-  name: string;
-  artists: string[];
-  album: string;
-  previewUrl: string;
-  duration: number;
-  itunesUrl: string;
-  artworkUrl: string;
-  trackId: number;
-}
+import { Song, ITunesTrack, ITunesResponse, convertITunesTrackToSong } from '@/types/song';
+import { ConfigService } from '@/lib/services/configService';
+import { hashCode } from '@/lib/utils/stringUtils';
 
-interface ITunesTrack {
-  wrapperType: string;
-  kind: string;
-  artistId: number;
-  collectionId: number;
-  trackId: number;
-  artistName: string;
-  collectionName: string;
-  trackName: string;
-  collectionCensoredName: string;
-  trackCensoredName: string;
-  artistViewUrl: string;
-  collectionViewUrl: string;
-  trackViewUrl: string;
-  previewUrl: string;
-  artworkUrl60: string;
-  artworkUrl100: string;
-  collectionPrice: number;
-  trackPrice: number;
-  collectionExplicitness: string;
-  trackExplicitness: string;
-  discCount: number;
-  discNumber: number;
-  trackCount: number;
-  trackNumber: number;
-  trackTimeMillis: number;
-  country: string;
-  currency: string;
-  primaryGenreName: string;
-  releaseDate: string;
-}
-
-interface ITunesResponse {
-  resultCount: number;
-  results: ITunesTrack[];
-}
-
-interface ArtistConfig {
-  id: string;
-  name: string;
-  displayName: string;
-  artistId: string;
-  searchTerms: string[];
-}
-
-const ARTISTS: ArtistConfig[] = [
-  {
-    id: 'twice',
-    name: 'TWICE',
-    displayName: 'TWICE',
-    artistId: '1203816887',
-    searchTerms: ['TWICE', '트와이스']
-  },
-  {
-    id: 'le-sserafim',
-    name: 'LE SSERAFIM',
-    displayName: 'LE SSERAFIM',
-    artistId: '1616740364',
-    searchTerms: ['LE SSERAFIM', '르세라핌']
-  }
-];
+// Re-export Song type for backward compatibility during transition
+export type TWICESong = Song;
 
 export class ITunesService {
   private static instance: ITunesService;
-  private availableTracks: Map<string, TWICESong[]> = new Map();
+  private availableTracks: Map<string, Song[]> = new Map();
   private lookupUrl = 'https://itunes.apple.com/lookup';
+  private configService: ConfigService;
 
   static getInstance(): ITunesService {
     if (!ITunesService.instance) {
@@ -85,6 +19,8 @@ export class ITunesService {
   }
 
   constructor() {
+    this.configService = ConfigService.getInstance();
+    
     // Initialize with some known tracks for immediate testing
     this.availableTracks.set('twice', [
       {
@@ -114,11 +50,11 @@ export class ITunesService {
       }
     ]);
     
-    console.log('🎵 iTunes Service initialized with sample tracks for multiple artists');
+    console.log('🎵 iTunes Service initialized with configuration-driven system');
     console.log('💡 Will lookup iTunes for real tracks on first use');
   }
 
-  async searchSongs(artistId: string = 'twice'): Promise<TWICESong[]> {
+  async searchSongs(artistId: string = 'twice'): Promise<Song[]> {
     // If we already have tracks, return them
     const cachedTracks = this.availableTracks.get(artistId);
     if (cachedTracks && cachedTracks.length > 1) {
@@ -126,9 +62,9 @@ export class ITunesService {
       return cachedTracks;
     }
 
-    const artist = ARTISTS.find(a => a.id === artistId);
+    const artist = this.configService.getArtist(artistId);
     if (!artist) {
-      console.error(`Artist ${artistId} not found`);
+      console.error(`Artist ${artistId} not found in configuration`);
       return [];
     }
 
@@ -165,12 +101,12 @@ export class ITunesService {
     }
   }
 
-  private async lookupArtistSongs(artist: ArtistConfig): Promise<ITunesTrack[]> {
+  private async lookupArtistSongs(artist: any): Promise<ITunesTrack[]> {
     try {
       // Use the lookup endpoint as per API documentation
       // This is the most reliable way to get all songs by an artist
       const response = await fetch(
-        `${this.lookupUrl}?id=${artist.artistId}&entity=song&limit=200`
+        `${this.lookupUrl}?id=${artist.itunesArtistId}&entity=song&limit=200`
       );
       
       if (!response.ok) {
@@ -201,7 +137,7 @@ export class ITunesService {
     }
   }
 
-  private async searchByArtistName(artist: ArtistConfig): Promise<ITunesTrack[]> {
+  private async searchByArtistName(artist: any): Promise<ITunesTrack[]> {
     try {
       let allTracks: ITunesTrack[] = [];
 
@@ -230,7 +166,7 @@ export class ITunesService {
       // Filter for the specific artist's songs only
       const artistSongs = allTracks.filter(track => {
         const artistName = track.artistName?.toLowerCase().trim();
-        const isArtist = artist.searchTerms.some(term => 
+        const isArtist = artist.searchTerms.some((term: string) => 
           artistName === term.toLowerCase()
         );
         
@@ -247,7 +183,7 @@ export class ITunesService {
   }
 
   private processAndCacheTracks(tracks: ITunesTrack[], artistId: string): void {
-    const artist = ARTISTS.find(a => a.id === artistId);
+    const artist = this.configService.getArtist(artistId);
     if (!artist) return;
 
     // Filter for valid songs with simple filtering
@@ -304,17 +240,7 @@ export class ITunesService {
     console.log(`✨ Found ${uniqueById.length} unique tracks by ID`);
 
     // Convert to our format with proper validation
-    const processedTracks = uniqueById.map(track => ({
-      id: `itunes-${track.trackId}`,
-      name: track.trackName || 'Unknown Track',
-      artists: [track.artistName || artist.displayName],
-      album: track.collectionName || 'Unknown Album',
-      previewUrl: track.previewUrl,
-      duration: track.trackTimeMillis || 0,
-      itunesUrl: track.trackViewUrl || '',
-      artworkUrl: track.artworkUrl100?.replace('100x100', '300x300') || '',
-      trackId: track.trackId
-    }));
+    const processedTracks = uniqueById.map(track => convertITunesTrackToSong(track));
 
     this.availableTracks.set(artistId, processedTracks);
     console.log(`✅ iTunes: Successfully loaded ${processedTracks.length} ${artist.displayName} tracks`);
@@ -331,18 +257,18 @@ export class ITunesService {
     }
   }
 
-  async getRandomSong(artistId: string = 'twice'): Promise<TWICESong> {
+  async getRandomSong(artistId: string = 'twice'): Promise<Song> {
     const songs = await this.searchSongs(artistId);
     
     if (songs.length === 0) {
-      const artist = ARTISTS.find(a => a.id === artistId);
+      const artist = this.configService.getArtist(artistId);
       throw new Error(`No ${artist?.displayName || artistId} songs found in iTunes`);
     }
     
     const randomIndex = Math.floor(Math.random() * songs.length);
     const song = songs[randomIndex];
     
-    const artist = ARTISTS.find(a => a.id === artistId);
+    const artist = this.configService.getArtist(artistId);
     console.log(`\n=== ITUNES RANDOM SONG (${artist?.displayName}) ===`);
     console.log(`Song: ${song.name}`);
     console.log(`Album: ${song.album}`);
@@ -351,20 +277,20 @@ export class ITunesService {
     return song;
   }
 
-  async getDailySong(date: string, artistId: string = 'twice'): Promise<TWICESong> {
+  async getDailySong(date: string, artistId: string = 'twice'): Promise<Song> {
     // Use date as seed for consistent daily song
-    const seed = this.hashCode(date);
+    const seed = hashCode(date);
     const songs = await this.searchSongs(artistId);
     
     if (songs.length === 0) {
-      const artist = ARTISTS.find(a => a.id === artistId);
+      const artist = this.configService.getArtist(artistId);
       throw new Error(`No ${artist?.displayName || artistId} songs found in iTunes`);
     }
     
     const index = seed % songs.length;
     const song = songs[index];
     
-    const artist = ARTISTS.find(a => a.id === artistId);
+    const artist = this.configService.getArtist(artistId);
     console.log(`\n=== ITUNES DAILY SONG (${artist?.displayName}) ===`);
     console.log(`Date: ${date}, Seed: ${seed}`);
     console.log(`Song: ${song.name}`);
@@ -375,7 +301,7 @@ export class ITunesService {
   }
 
   // Helper method to manually add tracks
-  addTrack(track: TWICESong, artistId: string = 'twice') {
+  addTrack(track: Song, artistId: string = 'twice') {
     const currentTracks = this.availableTracks.get(artistId) || [];
     currentTracks.push(track);
     this.availableTracks.set(artistId, currentTracks);
@@ -383,7 +309,7 @@ export class ITunesService {
   }
 
   // Helper method to search for specific songs within an artist's catalog
-  async searchSpecificSong(songName: string, artistId: string = 'twice'): Promise<TWICESong[]> {
+  async searchSpecificSong(songName: string, artistId: string = 'twice'): Promise<Song[]> {
     try {
       // First, ensure we have all songs loaded
       const allSongs = await this.searchSongs(artistId);
@@ -399,7 +325,7 @@ export class ITunesService {
         song.album.toLowerCase().includes(searchTerm)
       );
       
-      const artist = ARTISTS.find(a => a.id === artistId);
+      const artist = this.configService.getArtist(artistId);
       console.log(`🔍 Found ${matchingSongs.length} ${artist?.displayName} songs matching "${songName}"`);
       
       return matchingSongs;
@@ -410,7 +336,7 @@ export class ITunesService {
   }
 
   // Get songs by album
-  async getSongsByAlbum(albumName: string, artistId: string = 'twice'): Promise<TWICESong[]> {
+  async getSongsByAlbum(albumName: string, artistId: string = 'twice'): Promise<Song[]> {
     try {
       const allSongs = await this.searchSongs(artistId);
       
@@ -444,27 +370,19 @@ export class ITunesService {
   }
 
   // Clear cache and reload songs for an artist
-  async refreshSongs(artistId: string = 'twice'): Promise<TWICESong[]> {
-    const artist = ARTISTS.find(a => a.id === artistId);
+  async refreshSongs(artistId: string = 'twice'): Promise<Song[]> {
+    const artist = this.configService.getArtist(artistId);
     console.log(`🔄 Refreshing ${artist?.displayName} songs from iTunes...`);
     this.availableTracks.delete(artistId);
     return await this.searchSongs(artistId);
   }
 
   // Get all available artists
-  getAvailableArtists(): ArtistConfig[] {
-    return ARTISTS;
+  getAvailableArtists() {
+    return this.configService.getAllArtists();
   }
 
-  private hashCode(str: string): number {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-      const char = str.charCodeAt(i);
-      hash = ((hash << 5) - hash) + char;
-      hash = hash & hash; // Convert to 32-bit integer
-    }
-    return Math.abs(hash);
-  }
+
 }
 
 export default ITunesService;

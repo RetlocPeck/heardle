@@ -1,10 +1,11 @@
-import { TWICESong } from '@/lib/itunes';
+import { Song } from '@/types/song';
+import { normalizedStringMatch } from '@/lib/utils/stringUtils';
 
 export type GameMode = 'daily' | 'practice';
 
 export interface GameState {
   mode: GameMode;
-  currentSong: TWICESong | null;
+  currentSong: Song | null;
   currentTry: number;
   maxTries: number;
   isGameOver: boolean;
@@ -54,7 +55,7 @@ export class GameLogic {
     };
   }
 
-  startGame(song: TWICESong): void {
+  startGame(song: Song): void {
     this.state = {
       ...this.createInitialState(this.state.mode),
       currentSong: song,
@@ -148,20 +149,9 @@ export class GameLogic {
     return false;
   }
 
-  private checkGuess(guess: string, song: TWICESong): boolean {
-    const normalizedGuess = this.normalizeString(guess);
-    const normalizedSongName = this.normalizeString(song.name);
-    
+  private checkGuess(guess: string, song: Song): boolean {
     // Only accept exact matches of the song title
-    return normalizedGuess === normalizedSongName;
-  }
-
-  private normalizeString(str: string): string {
-    return str
-      .toLowerCase()
-      .replace(/[^\w\s]/g, '') // Remove special characters
-      .replace(/\s+/g, ' ') // Normalize whitespace
-      .trim();
+    return normalizedStringMatch(guess, song.name);
   }
 
   getCurrentAudioDuration(): number {
