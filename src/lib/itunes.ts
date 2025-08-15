@@ -186,48 +186,58 @@ export class ITunesService {
     const artist = this.configService.getArtist(artistId);
     if (!artist) return;
 
-    // Filter for valid songs with simple filtering
+    // Filter for valid songs with enhanced filtering
     const validTracks = tracks.filter((track: ITunesTrack) => {
       if (!track.trackName || !track.previewUrl) {
         return false;
       }
       
       const trackName = track.trackName.toLowerCase();
+      const originalTrackName = track.trackName; // Keep original for case-sensitive checks
       const collectionName = track.collectionName?.toLowerCase() || '';
       
-      // Exclude only obvious unwanted versions that are in parentheses or brackets
+      // 1. Exclude tracks with square brackets anywhere in the title
+      if (/\[.*\]/.test(originalTrackName)) {
+        return false;
+      }
+      
+      // 2. Exclude tracks with "ver." anywhere in the song name
+      if (/ver\./i.test(originalTrackName)) {
+        return false;
+      }
+      
+      // 3. Exclude tracks with unwanted words between hyphens - -
+      const hyphenPattern = /-\s*(version|ver\.|japanese|kor|korean|english|eng|instrumental|inst\.|remix|mix|edit)\s*-/i;
+      if (hyphenPattern.test(originalTrackName)) {
+        return false;
+      }
+      
+      // 4. Exclude unwanted patterns in parentheses or brackets
       const unwantedPatterns = [
-        'remix', 'version', 'ver.', 'edit', 'mixed', 'mix'
+        'remix', 'version', 'ver\\.', 'edit', 'mixed', 'mix', 'instrumental', 'inst\\.',
+        'japanese', 'korean', 'english', 'kor', 'eng', 'jap'
       ];
       
-      // Check if track name contains any unwanted patterns inside parentheses or brackets
       const hasUnwantedPattern = unwantedPatterns.some(pattern => {
         // Look for patterns inside parentheses: (remix), (version), etc.
-        const inParentheses = new RegExp(`\\([^)]*${pattern.replace('.', '\\.')}[^)]*\\)`, 'i');
+        const inParentheses = new RegExp(`\\([^)]*${pattern}[^)]*\\)`, 'i');
         // Look for patterns inside square brackets: [remix], [version], etc.
-        const inBrackets = new RegExp(`\\[[^\\]]*${pattern.replace('.', '\\.')}[^\\]]*\\]`, 'i');
+        const inBrackets = new RegExp(`\\[[^\\]]*${pattern}[^\\]]*\\]`, 'i');
         
         return inParentheses.test(trackName) || inBrackets.test(trackName);
       });
       
-      // Additional filter: exclude tracks with "instrumental" in parentheses
-      const hasInstrumentalInParentheses = /\([^)]*instrumental[^)]*\)/i.test(trackName);
+      if (hasUnwantedPattern) {
+        return false;
+      }
       
-      // Additional filter: exclude albums with "remix" in parentheses
+      // 5. Exclude albums with remix in parentheses
       const hasRemixInAlbumParentheses = /\([^)]*remix[^)]*\)/i.test(collectionName);
+      if (hasRemixInAlbumParentheses) {
+        return false;
+      }
       
-      // Additional filter: exclude tracks with language indicators in parentheses or brackets
-      const languagePatterns = ['eng', 'english', 'kor', 'korean', 'jap', 'japanese'];
-      const hasLanguageIndicator = languagePatterns.some(lang => {
-        // Look for language patterns inside parentheses: (ENG), (English), etc.
-        const inParentheses = new RegExp(`\\([^)]*${lang}[^)]*\\)`, 'i');
-        // Look for language patterns inside square brackets: [ENG], [English], etc.
-        const inBrackets = new RegExp(`\\[[^\\]]*${lang}[^\\]]*\\]`, 'i');
-        
-        return inParentheses.test(trackName) || inBrackets.test(trackName);
-      });
-      
-      return !hasUnwantedPattern && !hasInstrumentalInParentheses && !hasRemixInAlbumParentheses && !hasLanguageIndicator;
+      return true;
     });
 
     console.log(`🔍 Filtered to ${validTracks.length} valid ${artist.displayName} tracks`);

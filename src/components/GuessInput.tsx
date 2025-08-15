@@ -193,14 +193,6 @@ export default function GuessInput({
                         <div className="font-semibold text-white">{song.name}</div>
                       </div>
                     ))}
-                    {/* Show info about deduplication if there were many results */}
-                    {availableSongs.filter(song => 
-                      song.name.toLowerCase().startsWith(guess.toLowerCase())
-                    ).length > filteredSongs.length && (
-                      <div className="px-6 py-3 text-sm text-white/60 bg-white/5 border-t border-white/10 rounded-b-2xl">
-                        Showing {filteredSongs.length} unique songs (duplicates removed)
-                      </div>
-                    )}
                   </>
                 ) : (
                   <div className="px-6 py-4 text-white/60 text-center">
