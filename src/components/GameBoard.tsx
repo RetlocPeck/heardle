@@ -76,7 +76,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
           {hasWon ? (
             <div className="text-green-400">
               <div className="text-4xl font-bold mb-3">🎉 Correct! 🎉</div>
-              <div className="text-xl text-white">You got it in {currentTry} tries!</div>
+              <div className="text-xl text-white">You got it in {guesses.length} tries!</div>
             </div>
           ) : (
             <div className="text-red-400">
@@ -121,8 +121,9 @@ export default function GameBoard({ gameState }: GameBoardProps) {
       {Array.from({ length: maxTries }, (_, index) => {
         const guess = guesses[index] || null;
         const isCorrect = guess ? 
-          (gameState.currentSong && 
-           gameState.currentSong.name.toLowerCase().includes(guess.toLowerCase())) : null;
+          (guess === '(Skipped)' ? false : // Skipped guesses are always incorrect
+           (gameState.currentSong && 
+            gameState.currentSong.name.toLowerCase().includes(guess.toLowerCase()))) : null;
         
         return renderGuessRow(index, guess, isCorrect);
       })}
