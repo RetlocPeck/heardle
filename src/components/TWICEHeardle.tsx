@@ -95,9 +95,16 @@ export default function TWICEHeardle({ mode }: TWICEHeardleProps) {
 
   const handleSkip = () => {
     // Skip current turn - move to next audio duration
+    console.log(`🎵 TWICEHeardle: Skipping turn ${gameState.currentTry + 1} of ${gameState.maxTries}`);
     gameLogic.makeGuess(''); // Empty guess counts as a skip
-    setGameState(gameLogic.getGameState());
-    console.log(`Skipped turn. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
+    const newGameState = gameLogic.getGameState();
+    setGameState(newGameState);
+    console.log(`🎵 TWICEHeardle: Skip completed. New state:`, {
+      currentTry: newGameState.currentTry,
+      maxTries: newGameState.maxTries,
+      isGameOver: newGameState.isGameOver,
+      audioDuration: gameLogic.getCurrentAudioDuration()
+    });
   };
 
   const handleNewGame = () => {
@@ -184,6 +191,8 @@ export default function TWICEHeardle({ mode }: TWICEHeardleProps) {
               disabled={gameState.isGameOver}
               placeholder="Guess the TWICE song..."
               availableSongs={availableSongs}
+              currentTry={gameState.currentTry}
+              maxTries={gameState.maxTries}
             />
           )}
           

@@ -77,6 +77,8 @@ export class GameLogic {
 
     // Handle skip (empty guess)
     if (!guess.trim()) {
+      console.log(`🎵 GameLogic: Processing skip. Current try: ${this.state.currentTry}, Max tries: ${this.state.maxTries}`);
+      
       // Add skip to guesses array to maintain order
       this.state.guesses.push('(Skipped)');
       
@@ -91,7 +93,7 @@ export class GameLogic {
         return false;
       }
       
-      // Set audio duration for next try based on progression
+      // Set audio duration for next try
       const nextTryIndex = this.state.currentTry;
       if (nextTryIndex < DURATION_PROGRESSION.length) {
         this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];
@@ -101,6 +103,7 @@ export class GameLogic {
         console.log(`🎵 GameLogic: Turn ${this.state.currentTry} skipped. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s) - max reached`);
       }
       
+      console.log(`🎵 GameLogic: Skip completed. New state: currentTry=${this.state.currentTry}, isGameOver=${this.state.isGameOver}, audioDuration=${this.state.audioDuration}`);
       return false;
     }
 
@@ -117,7 +120,7 @@ export class GameLogic {
       return true;
     }
 
-    // User guessed wrong, increment try count
+    // Increment try count for wrong guess
     this.state.currentTry++;
 
     // Check if game is over after wrong guess
@@ -128,7 +131,7 @@ export class GameLogic {
       return false;
     }
 
-    // Set audio duration for next try based on progression
+    // Set audio duration for next try
     const nextTryIndex = this.state.currentTry;
     if (nextTryIndex < DURATION_PROGRESSION.length) {
       this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];

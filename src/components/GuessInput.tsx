@@ -9,6 +9,8 @@ interface GuessInputProps {
   disabled?: boolean;
   placeholder?: string;
   availableSongs?: TWICESong[];
+  currentTry?: number;
+  maxTries?: number;
 }
 
 export default function GuessInput({ 
@@ -16,7 +18,9 @@ export default function GuessInput({
   onSkip,
   disabled = false, 
   placeholder = "Enter your guess...",
-  availableSongs = []
+  availableSongs = [],
+  currentTry = 0,
+  maxTries = 6
 }: GuessInputProps) {
   const [guess, setGuess] = useState('');
   const [showDropdown, setShowDropdown] = useState(false);
@@ -234,7 +238,8 @@ export default function GuessInput({
             <button
               type="button"
               onClick={onSkip}
-              disabled={disabled}
+              disabled={disabled || (currentTry + 1 >= maxTries)}
+              title={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               className={`
                 flex-1 px-8 py-4 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-2xl text-lg
                 hover:shadow-2xl hover:shadow-gray-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
