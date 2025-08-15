@@ -1,15 +1,16 @@
 # K-Pop Heardle 🎵
 
-A fun and challenging music guessing game featuring your favorite K-pop artists! Test your knowledge of K-pop discographies by guessing songs from short audio previews.
+A stunning music guessing game featuring your favorite K-pop artists! Test your knowledge of K-pop discographies by guessing songs from short audio previews.
 
-## Features
+## ✨ Features
 
 - **Multiple Artists**: Play with TWICE, LE SSERAFIM, and more coming soon!
 - **Daily Challenges**: New song every day at midnight for each artist
 - **Practice Mode**: Play unlimited games with random songs
 - **Progressive Audio**: Start with 1 second, gradually increase to 15 seconds
 - **Smart Autocomplete**: Search through each artist's entire catalog
-- **Beautiful UI**: Modern, responsive design with artist-specific color themes
+- **Modern Design**: Beautiful glassmorphism UI with dark theme, gradients, and smooth animations
+- **Responsive**: Looks amazing on all devices with mobile-first design
 
 ## Available Artists
 
@@ -61,7 +62,7 @@ We're working on adding more K-pop artists to expand your Heardle experience:
 
 ```bash
 git clone <your-repo-url>
-cd twice-heardle
+cd heardle
 ```
 
 ### 2. Install dependencies
@@ -81,23 +82,35 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Project Structure
 
 ```
-twice-heardle/
+heardle/
 ├── src/
 │   ├── app/                    # Next.js app directory
+│   │   ├── [artist]/          # Dynamic artist pages
+│   │   │   └── page.tsx       # Individual artist game page
 │   │   ├── api/               # API routes
+│   │   │   ├── [artist]/      # Artist-specific API endpoints
+│   │   │   │   ├── daily/     # Daily challenge endpoints
+│   │   │   │   ├── random/    # Random song endpoints
+│   │   │   │   └── songs/     # Artist song catalog
 │   │   │   └── itunes/        # iTunes Search API endpoints
-│   │   ├── layout.tsx         # Root layout
-│   │   └── page.tsx           # Main page
+│   │   ├── globals.css        # Global styles with animations
+│   │   ├── layout.tsx         # Root layout with metadata
+│   │   └── page.tsx           # Homepage with artist selection
 │   ├── components/             # React components
-│   │   ├── AudioPlayer.tsx    # HTML5 audio player for previews
+│   │   ├── AudioPlayer.tsx    # Modern audio player with glassmorphism
+│   │   ├── DynamicHeardle.tsx # Dynamic game component for any artist
 │   │   ├── GameBoard.tsx      # Game progress display
-│   │   ├── GuessInput.tsx     # Guess input form
-│   │   ├── ModeSelector.tsx   # Game mode selector
-│   │   └── TWICEHeardle.tsx   # Main game component
+│   │   ├── GuessInput.tsx     # Guess input with autocomplete
+│   │   └── ModeSelector.tsx   # Game mode selector
 │   └── lib/                   # Utility libraries
-│       ├── gameLogic.ts       # Game logic and state
+│       ├── gameLogic.ts       # Game logic and state management
 │       └── itunes.ts          # iTunes Search API service
 ├── public/                     # Static assets
+│   └── groups/                # Artist group photos
+│       ├── twice.jpg          # TWICE group photo
+│       └── lesserafim.jpg     # LE SSERAFIM group photo
+├── .github/                    # GitHub templates
+│   └── pull_request_template.md
 └── package.json               # Dependencies and scripts
 ```
 
@@ -109,7 +122,7 @@ twice-heardle/
 - New song automatically selected at midnight
 
 ### Practice Mode
-- Randomly selects songs from TWICE's iTunes catalog
+- Randomly selects songs from the artist's iTunes catalog
 - New song for each game
 - Unlimited play sessions
 
@@ -125,16 +138,26 @@ twice-heardle/
 
 - **Next.js 15** - React framework with App Router
 - **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS** - Utility-first CSS framework
+- **Tailwind CSS 4** - Modern utility-first CSS framework
+- **Glassmorphism Design** - Modern UI with backdrop blur effects
+- **CSS Animations** - Custom keyframe animations and transitions
 - **iTunes Search API** - Free music data and 30-second previews
 - **HTML5 Audio API** - Native browser audio playback
 - **React Hooks** - State management and side effects
 
 ## API Endpoints
 
-- `GET /api/itunes/daily` - Get today's daily song
-- `GET /api/itunes/random` - Get a random TWICE song
-- `GET /api/itunes/songs` - Get all available TWICE songs
+### Artist-Specific Endpoints
+- `GET /api/[artist]/daily` - Get today's daily song for specific artist
+- `GET /api/[artist]/random` - Get a random song for specific artist  
+- `GET /api/[artist]/songs` - Get all available songs for specific artist
+
+### General iTunes Endpoints
+- `GET /api/itunes/daily` - Legacy iTunes daily endpoint
+- `GET /api/itunes/random` - Legacy iTunes random endpoint
+- `GET /api/itunes/songs` - Legacy iTunes songs endpoint
+
+Available artists: `twice`, `le-sserafim`
 
 ## iTunes Search API
 
@@ -148,10 +171,11 @@ This project uses Apple's free iTunes Search API which provides:
 
 ### How It Works
 
-1. **Automatic Search**: The app searches iTunes for TWICE tracks on first use
+1. **Automatic Search**: The app searches iTunes for artist tracks on first use
 2. **Preview URLs**: Each track includes a 30-second preview URL
-3. **Native Audio**: Uses HTML5 audio for reliable playback
+3. **Native Audio**: Uses HTML5 audio for reliable playback with custom controls
 4. **Caching**: Results are cached for better performance
+5. **Multi-Artist Support**: Dynamic routing supports multiple K-pop artists
 
 ## Contributing
 
@@ -167,9 +191,10 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- TWICE and JYP Entertainment for the music
+- TWICE (JYP Entertainment) and LE SSERAFIM (Source Music/HYBE) for the music
 - Apple for the free iTunes Search API
-- The Heardle game for inspiration
+- The original Heardle game for inspiration
+- K-pop community for endless musical inspiration
 
 ## Support
 
@@ -184,10 +209,11 @@ If you encounter any issues:
 
 ### Common Issues:
 
-1. **"No TWICE songs found"** - Check internet connection and iTunes API status
+1. **"No songs found"** - Check internet connection and iTunes API status
 2. **Audio not playing** - Verify browser supports HTML5 audio and preview URLs are accessible
 3. **Preview URLs not working** - Some tracks may not have previews available
 4. **Search failures** - iTunes API may be temporarily unavailable
+5. **Artist photos not loading** - Ensure group photos are in `public/groups/` folder
 
 ### Browser Compatibility:
 

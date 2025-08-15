@@ -142,10 +142,10 @@ export default function GuessInput({
   };
 
   return (
-    <div className="w-full max-w-md relative">
+    <div className="w-full relative">
       <form onSubmit={handleSubmit}>
-        <div className="flex space-x-2">
-          <div className="flex-1 relative">
+        <div className="flex flex-col space-y-4">
+          <div className="relative">
             <input
               ref={inputRef}
               type="text"
@@ -157,12 +157,12 @@ export default function GuessInput({
               placeholder={placeholder}
               disabled={disabled}
               className={`
-                w-full px-4 py-3 border-2 rounded-lg text-lg font-medium
-                focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent
-                transition-all duration-200
+                w-full px-6 py-4 backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl text-white text-lg font-medium placeholder-white/60
+                focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent focus:bg-white/20
+                transition-all duration-300
                 ${disabled 
-                  ? 'bg-gray-100 border-gray-300 text-gray-500 cursor-not-allowed' 
-                  : 'border-gray-300 hover:border-pink-300 focus:border-pink-500'
+                  ? 'bg-gray-500/20 cursor-not-allowed opacity-50' 
+                  : 'hover:bg-white/15'
                 }
               `}
             />
@@ -171,7 +171,7 @@ export default function GuessInput({
             {showDropdown && (
               <div
                 ref={dropdownRef}
-                className="absolute z-50 w-full mt-1 bg-white border border-gray-200 rounded-lg shadow-lg max-h-60 overflow-y-auto"
+                className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl max-h-64 overflow-y-auto"
               >
                 {filteredSongs.length > 0 ? (
                   <>
@@ -180,26 +180,26 @@ export default function GuessInput({
                         key={song.id}
                         onClick={() => handleSongSelect(song)}
                         className={`
-                          px-4 py-3 cursor-pointer hover:bg-pink-50 transition-colors
-                          ${index === selectedIndex ? 'bg-pink-100' : ''}
-                          ${index === 0 ? 'rounded-t-lg' : ''}
-                          ${index === filteredSongs.length - 1 ? 'rounded-b-lg' : ''}
+                          px-6 py-4 cursor-pointer hover:bg-white/20 transition-all duration-200
+                          ${index === selectedIndex ? 'bg-white/20' : ''}
+                          ${index === 0 ? 'rounded-t-2xl' : ''}
+                          ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
                         `}
                       >
-                        <div className="font-medium text-gray-800">{song.name}</div>
+                        <div className="font-semibold text-white">{song.name}</div>
                       </div>
                     ))}
                     {/* Show info about deduplication if there were many results */}
                     {availableSongs.filter(song => 
                       song.name.toLowerCase().startsWith(guess.toLowerCase())
                     ).length > filteredSongs.length && (
-                      <div className="px-4 py-2 text-xs text-gray-500 bg-gray-50 border-t border-gray-200">
+                      <div className="px-6 py-3 text-sm text-white/60 bg-white/5 border-t border-white/10 rounded-b-2xl">
                         Showing {filteredSongs.length} unique songs (duplicates removed)
                       </div>
                     )}
                   </>
                 ) : (
-                  <div className="px-4 py-3 text-gray-500 text-center">
+                  <div className="px-6 py-4 text-white/60 text-center">
                     No songs found starting with "{guess}"
                   </div>
                 )}
@@ -208,38 +208,44 @@ export default function GuessInput({
             
             {/* Show message when no songs are available for autocomplete */}
             {!showDropdown && availableSongs.length === 0 && guess.trim() && (
-              <div className="absolute z-50 w-full mt-1 bg-yellow-50 border border-yellow-200 rounded-lg p-3">
-                <div className="text-sm text-yellow-800 text-center">
-                  Autocomplete unavailable - you can still type and guess manually!
+              <div className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-4">
+                <div className="text-sm text-yellow-200 text-center">
+                  💡 Autocomplete unavailable - you can still type and guess manually!
                 </div>
               </div>
             )}
           </div>
           
-          <button
-            type="submit"
-            disabled={disabled || !guess.trim()}
-            className={`
-              px-6 py-3 bg-pink-500 text-white font-semibold rounded-lg
-              hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2
-              transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed
-            `}
-          >
-            Guess
-          </button>
+          <div className="flex space-x-3">
+            <button
+              type="submit"
+              disabled={disabled || !guess.trim()}
+              className={`
+                flex-1 px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-2xl text-lg
+                hover:shadow-2xl hover:shadow-purple-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
+                disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
+                flex items-center justify-center space-x-2
+              `}
+            >
+              <span>🎯</span>
+              <span>Guess</span>
+            </button>
 
-          <button
-            type="button"
-            onClick={onSkip}
-            disabled={disabled}
-            className={`
-              px-6 py-3 bg-gray-500 text-white font-semibold rounded-lg
-              hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2
-              transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed
-            `}
-          >
-            Skip
-          </button>
+            <button
+              type="button"
+              onClick={onSkip}
+              disabled={disabled}
+              className={`
+                flex-1 px-8 py-4 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-2xl text-lg
+                hover:shadow-2xl hover:shadow-gray-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
+                disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
+                flex items-center justify-center space-x-2
+              `}
+            >
+              <span>⏭️</span>
+              <span>Skip</span>
+            </button>
+          </div>
         </div>
       </form>
     </div>

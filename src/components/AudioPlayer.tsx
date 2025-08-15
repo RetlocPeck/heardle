@@ -233,53 +233,66 @@ export default function AudioPlayer({
 
   if (!song.previewUrl) {
     return (
-      <div className="text-center p-6 bg-gray-50 rounded-lg">
-        <div className="text-red-600 text-lg font-semibold mb-2">
-          Song Preview Unavailable
+      <div className="text-center p-8 backdrop-blur-xl bg-red-500/10 border border-red-400/30 rounded-3xl">
+        <div className="text-red-300 text-xl font-bold mb-4">
+          🚫 Song Preview Unavailable
         </div>
-        <div className="text-gray-600 text-sm">
+        <div className="text-white/80 mb-6">
           No preview available for this song on iTunes.
         </div>
-        <div className="mt-3">
-          <a
-            href={song.itunesUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors"
-          >
-            Listen on iTunes
-          </a>
-        </div>
+        <a
+          href={song.itunesUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-2xl font-bold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
+        >
+          🎵 Listen on iTunes
+        </a>
       </div>
     );
   }
 
   return (
-    <div className="flex flex-col items-center space-y-4 p-6 bg-white rounded-lg shadow-lg">
+    <div className="flex flex-col items-center space-y-6 p-8">
       <div className="text-center">
-        <h3 className="text-lg font-semibold text-gray-800 mb-2">
+        <h3 className="text-2xl font-bold text-white mb-3">
           {isGameWon ? (
-            <div>
-              <div className="text-pink-600 mb-1">🎉 You got it! 🎉</div>
-              <div className="text-xl">{song.name}</div>
+            <div className="space-y-2">
+              <div className="text-3xl">🎉 You got it! 🎉</div>
+              <div className="text-2xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+                {song.name}
+              </div>
             </div>
           ) : (
-            'Listen to the song preview'
+            <div className="flex items-center justify-center space-x-2">
+              <span>🎵</span>
+              <span>Listen to the song preview</span>
+            </div>
           )}
         </h3>
-        <p className="text-sm text-gray-600">
-          {isGameWon ? song.album : `Duration: ${formatTime(duration / 1000)}s`}
+        <p className="text-white/70 text-lg">
+          {isGameWon ? (
+            <span className="flex items-center justify-center space-x-2">
+              <span>💿</span>
+              <span>{song.album}</span>
+            </span>
+          ) : (
+            <span className="flex items-center justify-center space-x-2">
+              <span>⏱️</span>
+              <span>Duration: {formatTime(duration / 1000)}s</span>
+            </span>
+          )}
         </p>
       </div>
 
-      <div className="relative w-full max-w-md">
-        <div className="bg-gray-200 rounded-full h-2">
+      <div className="relative w-full max-w-sm">
+        <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm">
           <div 
-            className="bg-pink-500 h-2 rounded-full transition-all duration-100"
+            className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-100 shadow-lg"
             style={{ width: `${displayProgress}%` }}
           />
         </div>
-        <div className="flex justify-between text-xs text-gray-500 mt-1">
+        <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
           <span>{formatTime(currentTime)}</span>
           <span>{formatTime(displayDuration)}</span>
         </div>
@@ -289,30 +302,30 @@ export default function AudioPlayer({
         onClick={togglePlay}
         disabled={disabled || isLoading || !song.previewUrl}
         className={`
-          px-8 py-3 rounded-full font-semibold text-white transition-all duration-200
+          px-10 py-4 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 text-lg
           ${disabled || isLoading || !song.previewUrl
-            ? 'bg-gray-400 cursor-not-allowed' 
+            ? 'bg-gray-500/50 cursor-not-allowed' 
             : isPlaying 
-              ? 'bg-red-500 hover:bg-red-600' 
-              : 'bg-pink-500 hover:bg-pink-600'
+              ? 'bg-gradient-to-r from-red-500 to-red-600 hover:shadow-2xl hover:shadow-red-500/25' 
+              : 'bg-gradient-to-r from-pink-500 to-purple-600 hover:shadow-2xl hover:shadow-purple-500/25'
           }
         `}
       >
         {isLoading ? (
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+          <>
+            <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
             <span>Loading...</span>
-          </div>
+          </>
         ) : isPlaying ? (
-          <div className="flex items-center space-x-2">
-            <div className="w-4 h-4 bg-white rounded-sm" />
+          <>
+            <div className="w-5 h-5 bg-white rounded-sm" />
             <span>Pause</span>
-          </div>
+          </>
         ) : (
-          <div className="flex items-center space-x-2">
-            <div className="w-0 h-0 border-l-[8px] border-l-white border-y-[6px] border-y-transparent ml-1" />
+          <>
+            <div className="w-0 h-0 border-l-[10px] border-l-white border-y-[8px] border-y-transparent ml-1" />
             <span>Play</span>
-          </div>
+          </>
         )}
       </button>
 
