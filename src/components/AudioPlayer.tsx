@@ -112,7 +112,7 @@ export default function AudioPlayer({
         timeoutRef.current = null;
       }
     };
-  }, [song.previewUrl, duration, onEnded, isGameWon]);
+  }, [song.previewUrl, duration, isGameWon, disabled]);
 
   const forceStop = () => {
     const audio = audioRef.current;
@@ -160,7 +160,7 @@ export default function AudioPlayer({
         onPlay?.();
       }
     }
-  }, [isGameWon, disabled, song.previewUrl, onPlay]);
+  }, [isGameWon, disabled, song.previewUrl]);
 
   const togglePlay = () => {
     const audio = audioRef.current;
