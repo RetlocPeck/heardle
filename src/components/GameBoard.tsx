@@ -114,7 +114,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
           🎯 Game Progress
         </h3>
         <p className="text-white/70 text-lg">
-          Try {currentTry + 1} of {maxTries}
+          Try {Math.min(currentTry + 1, maxTries)} of {maxTries}
         </p>
       </div>
 
