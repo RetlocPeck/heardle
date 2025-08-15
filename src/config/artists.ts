@@ -72,6 +72,29 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 50,
       releaseYear: 2022
     }
+  },
+  {
+    id: 'itzy',
+    name: 'ITZY',
+    displayName: 'ITZY',
+    itunesArtistId: '1451964345',
+    searchTerms: ['ITZY', '있지', 'itzy'],
+    theme: {
+      primaryColor: 'orange',
+      gradientFrom: 'from-orange-500',
+      gradientTo: 'to-red-600',
+      accentColor: 'bg-orange-500 hover:bg-orange-600',
+      spinnerColor: 'border-orange-400',
+      borderColor: 'border-orange-400',
+      bgColor: 'bg-orange-50',
+      textColor: 'text-orange-800'
+    },
+    metadata: {
+      description: 'Fierce K-pop girl group known for their teen crush concept and empowering anthems',
+      imageUrl: '/groups/itzy.jpg',
+      songCount: 40,
+      releaseYear: 2019
+    }
   }
 ];
 
