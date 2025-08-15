@@ -72,9 +72,10 @@ export default function AudioPlayer({
     const audio = audioRef.current;
     if (!audio || !song.previewUrl) return;
 
-    // Skip duration control if game is won (full preview)
-    if (isGameWon) {
-      console.log('🎵 AudioPlayer: Game won - skipping duration control for full preview');
+    // Skip duration control if game is won or over (full preview)
+    if (isGameWon || disabled) {
+      const message = isGameWon ? 'Game won' : 'Game over';
+      console.log(`🎵 AudioPlayer: ${message} - skipping duration control for full preview`);
       return;
     }
 
@@ -132,17 +133,18 @@ export default function AudioPlayer({
 
   // Force stop audio when duration changes (new game state)
   useEffect(() => {
-    if (timeoutRef.current && !isGameWon) {
+    if (timeoutRef.current && !isGameWon && !disabled) {
       forceStop();
     }
-  }, [duration, isGameWon]);
+  }, [duration, isGameWon, disabled]);
 
-  // Auto-play full preview when game is won
+  // Auto-play full preview when game is won or over
   useEffect(() => {
-    if (isGameWon && song.previewUrl) {
+    if ((isGameWon || disabled) && song.previewUrl) {
       const audio = audioRef.current;
       if (audio) {
-        console.log('🎵 AudioPlayer: Game won! Auto-playing full preview');
+        const message = isGameWon ? 'Game won!' : 'Game over!';
+        console.log(`🎵 AudioPlayer: ${message} Auto-playing full preview`);
         
         // Clear any existing timeout
         if (timeoutRef.current) {
@@ -158,11 +160,28 @@ export default function AudioPlayer({
         onPlay?.();
       }
     }
-  }, [isGameWon, song.previewUrl, onPlay]);
+  }, [isGameWon, disabled, song.previewUrl, onPlay]);
 
   const togglePlay = () => {
     const audio = audioRef.current;
-    if (!audio || disabled || !song.previewUrl) return;
+    if (!audio || !song.previewUrl) return;
+    
+    // If disabled (game over but not won), allow full preview playback
+    if (disabled && !isGameWon) {
+      // Game is over, allow full preview playback
+      if (isPlaying) {
+        audio.pause();
+        setIsPlaying(false);
+        onPause?.();
+      } else {
+        audio.currentTime = 0;
+        setCurrentTime(0);
+        audio.play().catch(console.error);
+        setIsPlaying(true);
+        onPlay?.();
+      }
+      return;
+    }
 
     if (isPlaying) {
       // Pause the audio
@@ -222,14 +241,14 @@ export default function AudioPlayer({
   // Calculate progress based on current time vs duration
   const progress = duration > 0 ? Math.min((currentTime / (duration / 1000)) * 100, 100) : 0;
 
-  // For full preview (game won), calculate progress based on actual preview duration (30 seconds)
-  const fullPreviewProgress = isGameWon 
+  // For full preview (game won or over), calculate progress based on actual preview duration (30 seconds)
+  const fullPreviewProgress = (isGameWon || disabled) 
     ? Math.min((currentTime / 30) * 100, 100) 
     : progress;
 
-  // Use full preview progress when game is won, otherwise use limited duration progress
-  const displayProgress = isGameWon ? fullPreviewProgress : progress;
-  const displayDuration = isGameWon ? 30 : duration / 1000;
+  // Use full preview progress when game is won or over, otherwise use limited duration progress
+  const displayProgress = (isGameWon || disabled) ? fullPreviewProgress : progress;
+  const displayDuration = (isGameWon || disabled) ? 30 : duration / 1000;
 
   if (!song.previewUrl) {
     return (
@@ -263,6 +282,13 @@ export default function AudioPlayer({
                 {song.name}
               </div>
             </div>
+          ) : disabled ? (
+            <div className="space-y-2">
+              <div className="text-3xl">😔 Game Over</div>
+              <div className="text-2xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+                {song.name}
+              </div>
+            </div>
           ) : (
             <div className="flex items-center justify-center space-x-2">
               <span>🎵</span>
@@ -271,7 +297,7 @@ export default function AudioPlayer({
           )}
         </h3>
         <p className="text-white/70 text-lg">
-          {isGameWon ? (
+          {isGameWon || disabled ? (
             <span className="flex items-center justify-center space-x-2">
               <span>💿</span>
               <span>{song.album}</span>
@@ -285,25 +311,42 @@ export default function AudioPlayer({
         </p>
       </div>
 
-      <div className="relative w-full max-w-sm">
-        <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm">
-          <div 
-            className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-100 shadow-lg"
-            style={{ width: `${displayProgress}%` }}
-          />
+      {(isGameWon || disabled) && (
+        <div className="relative w-full max-w-sm">
+          <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm">
+            <div 
+              className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-100 shadow-lg"
+              style={{ width: `${fullPreviewProgress}%` }}
+            />
+          </div>
+          <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
+            <span>{formatTime(currentTime)}</span>
+            <span>{formatTime(30)}</span>
+          </div>
         </div>
-        <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
-          <span>{formatTime(currentTime)}</span>
-          <span>{formatTime(displayDuration)}</span>
+      )}
+      
+      {!isGameWon && !disabled && (
+        <div className="relative w-full max-w-sm">
+          <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm">
+            <div 
+              className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-100 shadow-lg"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
+          <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
+            <span>{formatTime(currentTime)}</span>
+            <span>{formatTime(duration / 1000)}</span>
+          </div>
         </div>
-      </div>
+      )}
 
       <button
         onClick={togglePlay}
-        disabled={disabled || isLoading || !song.previewUrl}
+        disabled={isLoading || !song.previewUrl}
         className={`
           px-10 py-4 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 text-lg
-          ${disabled || isLoading || !song.previewUrl
+          ${isLoading || !song.previewUrl
             ? 'bg-gray-500/50 cursor-not-allowed' 
             : isPlaying 
               ? 'bg-gradient-to-r from-red-500 to-red-600 hover:shadow-2xl hover:shadow-red-500/25' 

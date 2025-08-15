@@ -67,18 +67,35 @@ export class GameLogic {
       return false;
     }
 
+    // Check if we've already reached max tries
+    if (this.state.currentTry >= this.state.maxTries) {
+      this.state.isGameOver = true;
+      this.state.endTime = Date.now();
+      console.log(`🎵 GameLogic: Game over - max tries reached (${this.state.maxTries})`);
+      return false;
+    }
+
     // Handle skip (empty guess)
     if (!guess.trim()) {
-      // Don't increment try count for skip if we're already at max tries
-      if (this.state.currentTry >= this.state.maxTries) {
+      console.log(`🎵 GameLogic: Processing skip. Current try: ${this.state.currentTry}, Max tries: ${this.state.maxTries}`);
+      
+      // Add skip to guesses array to maintain order
+      this.state.guesses.push('(Skipped)');
+      
+      // Check if this skip would be the last try
+      if (this.state.currentTry + 1 >= this.state.maxTries) {
+        // This skip would be the last try, so game is over
+        this.state.currentTry++;
         this.state.isGameOver = true;
         this.state.endTime = Date.now();
+        console.log(`🎵 GameLogic: Game over after skip on try ${this.state.currentTry}`);
         return false;
       }
       
+      // Increment try count for skip
       this.state.currentTry++;
       
-      // Set audio duration for next try based on progression
+      // Set audio duration for next try
       const nextTryIndex = this.state.currentTry;
       if (nextTryIndex < DURATION_PROGRESSION.length) {
         this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];
@@ -88,9 +105,11 @@ export class GameLogic {
         console.log(`🎵 GameLogic: Turn ${this.state.currentTry} skipped. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s) - max reached`);
       }
       
+      console.log(`🎵 GameLogic: Skip completed. New state: currentTry=${this.state.currentTry}, isGameOver=${this.state.isGameOver}, audioDuration=${this.state.audioDuration}`);
       return false;
     }
 
+    // Handle actual guess
     const isCorrect = this.checkGuess(guess, this.state.currentSong);
     this.state.guesses.push(guess);
     
@@ -103,18 +122,20 @@ export class GameLogic {
       return true;
     }
 
-    // User guessed wrong, increment try count
-    this.state.currentTry++;
-
-    // Check if game is over after wrong guess
-    if (this.state.currentTry >= this.state.maxTries) {
+    // Check if this wrong guess would be the last try
+    if (this.state.currentTry + 1 >= this.state.maxTries) {
+      // This wrong guess would be the last try, so game is over
+      this.state.currentTry++;
       this.state.isGameOver = true;
       this.state.endTime = Date.now();
       console.log(`🎵 GameLogic: Game over after ${this.state.currentTry} tries. User lost.`);
       return false;
     }
 
-    // Set audio duration for next try based on progression
+    // Increment try count for wrong guess
+    this.state.currentTry++;
+
+    // Set audio duration for next try
     const nextTryIndex = this.state.currentTry;
     if (nextTryIndex < DURATION_PROGRESSION.length) {
       this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];

@@ -11,7 +11,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
 
   const renderGuessRow = (index: number, guess: string | null, isCorrect: boolean | null) => {
     const isCurrentRow = index === currentTry && !isGameOver;
-    const isPastRow = index < currentTry;
+    const isPastRow = index < currentTry || (isGameOver && guess !== null);
     
     return (
       <div 
@@ -76,7 +76,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
           {hasWon ? (
             <div className="text-green-400">
               <div className="text-4xl font-bold mb-3">🎉 Correct! 🎉</div>
-              <div className="text-xl text-white">You got it in {currentTry} tries!</div>
+              <div className="text-xl text-white">You got it in {guesses.length} tries!</div>
             </div>
           ) : (
             <div className="text-red-400">
@@ -114,15 +114,16 @@ export default function GameBoard({ gameState }: GameBoardProps) {
           🎯 Game Progress
         </h3>
         <p className="text-white/70 text-lg">
-          Try {currentTry + 1} of {maxTries}
+          Try {Math.min(currentTry + 1, maxTries)} of {maxTries}
         </p>
       </div>
 
       {Array.from({ length: maxTries }, (_, index) => {
         const guess = guesses[index] || null;
         const isCorrect = guess ? 
-          (gameState.currentSong && 
-           gameState.currentSong.name.toLowerCase().includes(guess.toLowerCase())) : null;
+          (guess === '(Skipped)' ? false : // Skipped guesses are always incorrect
+           (gameState.currentSong && 
+            gameState.currentSong.name.toLowerCase().includes(guess.toLowerCase()))) : null;
         
         return renderGuessRow(index, guess, isCorrect);
       })}
