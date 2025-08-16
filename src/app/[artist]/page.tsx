@@ -86,7 +86,7 @@ export default function ArtistPage() {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 container mx-auto py-8">
+      <div className="relative z-10 container mx-auto py-4">
         <ModeSelector 
           selectedMode={selectedMode} 
           onModeChange={setSelectedMode} 
