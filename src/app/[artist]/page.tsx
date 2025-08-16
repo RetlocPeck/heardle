@@ -9,6 +9,7 @@ import { PageLoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
+import StatisticsButton from '@/components/StatisticsButton';
 
 // Component to show daily challenge completion status
 function DailyChallengeStatus({ artistId }: { artistId: string }) {
@@ -147,7 +148,9 @@ export default function ArtistPage() {
                 <DailyChallengeStatus artistId={artist.id} />
               )}
             </div>
-            <div className="w-32"></div> {/* Spacer for centering */}
+            <div className="flex items-center">
+              <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
+            </div>
           </div>
         </div>
       </div>

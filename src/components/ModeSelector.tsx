@@ -23,7 +23,7 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
             `}
           >
             <span className="flex items-center space-x-2">
-              <span>🌟</span>
+              <span>📅</span>
               <span>Daily Challenge</span>
             </span>
           </button>
