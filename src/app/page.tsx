@@ -10,7 +10,8 @@ export default function HomePage() {
 
   const filteredArtists = ARTISTS.filter(artist =>
     artist.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.metadata.description.toLowerCase().includes(searchTerm.toLowerCase())
+    artist.displayName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    artist.searchTerms.some(term => term.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
   return (
@@ -122,9 +123,7 @@ export default function HomePage() {
                     {artist.displayName}
                   </h3>
                   
-                  <p className="text-white/80 mb-6 leading-relaxed">
-                    {artist.metadata.description}
-                  </p>
+
 
                   {/* Play Button */}
                   <Link
