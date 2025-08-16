@@ -87,9 +87,17 @@ export default function AudioPlayer({
       timeoutRef.current = null;
     }
 
+    // Ensure audio is properly reset and stopped
+    audio.pause();
+    audio.currentTime = 0;
+    audio.load(); // Reload to ensure clean state
+    
+    // Reset playing state to ensure button shows play
+    setIsPlaying(false);
+    setCurrentTime(0);
+
     // Set the audio source
     audio.src = song.previewUrl;
-    audio.currentTime = 0;
     
     // Set a timeout to stop the audio after the specified duration
     timeoutRef.current = setTimeout(() => {
@@ -161,6 +169,25 @@ export default function AudioPlayer({
       }
     }
   }, [isGameWon, disabled, song.previewUrl]);
+
+  // Reset audio state when song changes (e.g., loading saved game)
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    
+    // Reset audio state when song changes
+    audio.pause();
+    audio.currentTime = 0;
+    audio.load();
+    setIsPlaying(false);
+    setCurrentTime(0);
+    
+    // Clear any existing timeout
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  }, [song.id]); // Only reset when song ID changes
 
   const togglePlay = () => {
     const audio = audioRef.current;

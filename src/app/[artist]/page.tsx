@@ -17,6 +17,20 @@ function DailyChallengeStatus({ artistId }: { artistId: string }) {
   useEffect(() => {
     const storage = DailyChallengeStorage.getInstance();
     setIsCompleted(storage.isDailyChallengeCompleted(artistId));
+    
+    // Listen for storage changes to update the status immediately
+    const handleStorageChange = () => {
+      const newStatus = storage.isDailyChallengeCompleted(artistId);
+      console.log(`📡 DailyChallengeStatus received event, updating status for ${artistId}:`, newStatus);
+      setIsCompleted(newStatus);
+    };
+    
+    // Listen for custom storage event
+    window.addEventListener('daily-challenge-updated', handleStorageChange);
+    
+    return () => {
+      window.removeEventListener('daily-challenge-updated', handleStorageChange);
+    };
   }, [artistId]);
   
   if (isCompleted) {
@@ -31,7 +45,7 @@ function DailyChallengeStatus({ artistId }: { artistId: string }) {
     <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
       <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
     </div>
-    );
+  );
 }
 
 export default function ArtistPage() {
@@ -121,7 +135,19 @@ export default function ArtistPage() {
           selectedMode={selectedMode} 
           onModeChange={setSelectedMode} 
         />
-        <DynamicHeardle mode={selectedMode} />
+        <DynamicHeardle 
+          mode={selectedMode} 
+          onGameStateChange={(gameState) => {
+            // Force update of the DailyChallengeStatus component
+            if (gameState.isGameOver) {
+              const event = new CustomEvent('daily-challenge-updated', {
+                detail: { artistId: artist.id, date: new Date().toISOString().split('T')[0], completed: gameState.isGameOver }
+              });
+              window.dispatchEvent(event);
+              console.log(`📡 Artist page dispatched daily-challenge-updated event:`, event.detail);
+            }
+          }}
+        />
       </div>
     </div>
   );

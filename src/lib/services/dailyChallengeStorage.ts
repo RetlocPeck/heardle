@@ -59,6 +59,15 @@ export class DailyChallengeStorage {
       const key = this.getStorageKey(artistId, today);
       localStorage.setItem(key, JSON.stringify(data));
       
+      // Dispatch custom event to notify components of the update
+      if (typeof window !== 'undefined') {
+        const event = new CustomEvent('daily-challenge-updated', {
+          detail: { artistId, date: today, completed: data.completed }
+        });
+        window.dispatchEvent(event);
+        console.log(`📡 Dispatched daily-challenge-updated event for ${artistId}:`, event.detail);
+      }
+      
       console.log(`💾 Saved daily challenge for ${artistId} on ${today}`);
     } catch (error) {
       console.error('Failed to save daily challenge:', error);

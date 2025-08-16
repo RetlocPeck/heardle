@@ -15,9 +15,10 @@ import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 
 interface DynamicHeardleProps {
   mode: GameMode;
+  onGameStateChange?: (gameState: GameState) => void;
 }
 
-export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
+export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeardleProps) {
   const params = useParams();
   const [gameLogic] = useState(() => new GameLogic(mode));
   const [gameState, setGameState] = useState<GameState>(gameLogic.getGameState());
@@ -52,7 +53,12 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
           console.log(`📂 Loading saved daily challenge for ${artistId}`);
           setCurrentSong(savedChallenge.gameState.currentSong);
           gameLogic.loadGameState(savedChallenge.gameState);
-          setGameState(gameLogic.getGameState());
+          const loadedGameState = gameLogic.getGameState();
+          setGameState(loadedGameState);
+          
+          // Notify parent component of loaded game state
+          onGameStateChange?.(loadedGameState);
+          
           setIsLoading(false);
           return;
         }
@@ -121,6 +127,9 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
       storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
     }
     
+    // Notify parent component of game state change
+    onGameStateChange?.(newGameState);
+    
     if (isCorrect) {
       console.log('Correct guess!');
     } else {
@@ -134,10 +143,13 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
     setGameState(newGameState);
     
     // Save daily challenge state if in daily mode
-    if (mode === 'daily' && currentSong) {
+    if (mode && currentSong) {
       const storage = DailyChallengeStorage.getInstance();
       storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
     }
+    
+    // Notify parent component of game state change
+    onGameStateChange?.(newGameState);
     
     console.log(`Skipped turn. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
   };
