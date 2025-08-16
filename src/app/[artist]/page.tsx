@@ -2,22 +2,22 @@
 
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import { GameMode } from '@/lib/gameLogic';
-import ModeSelector from '@/components/ModeSelector';
-import DynamicHeardle from '@/components/DynamicHeardle';
-import { PageLoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
-import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
+import DynamicHeardle from '@/components/DynamicHeardle';
+import ModeSelector from '@/components/ModeSelector';
 import StatisticsButton from '@/components/StatisticsButton';
-import { getTodayString } from '@/lib/utils/dateUtils';
+import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
+import { useClientDate } from '@/lib/hooks/useClientDate';
+import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import { GameMode, GameState } from '@/lib/gameLogic';
 
 // Component to show daily challenge completion status
 function DailyChallengeStatus({ artistId }: { artistId: string }) {
   const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
   
   useEffect(() => {
-    const storage = DailyChallengeStorage.getInstance();
+    const storage = ClientDailyChallengeStorage.getInstance();
     const isCompleted = storage.isDailyChallengeCompleted(artistId);
     const challenge = storage.loadDailyChallenge(artistId);
     const hasWon = challenge?.gameState.hasWon || false;
@@ -78,6 +78,7 @@ export default function ArtistPage() {
   const [selectedMode, setSelectedMode] = useState<GameMode>('daily');
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const { getTodayString } = useClientDate();
 
   useEffect(() => {
     const artistId = params.artist as string;

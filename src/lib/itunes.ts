@@ -55,7 +55,7 @@ export class ITunesService {
     console.log('💡 Will lookup iTunes for real tracks on first use');
   }
 
-  async searchSongs(artistId: string = 'twice'): Promise<Song[]> {
+  async searchSongs(artistId: string): Promise<Song[]> {
     // If we already have tracks, return them
     const cachedTracks = this.availableTracks.get(artistId);
     if (cachedTracks && cachedTracks.length > 1) {
@@ -300,7 +300,7 @@ export class ITunesService {
     console.log(`✅ ${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs`);
   }
 
-  async getRandomSong(artistId: string = 'twice'): Promise<Song> {
+  async getRandomSong(artistId: string): Promise<Song> {
     const songs = await this.searchSongs(artistId);
     
     if (songs.length === 0) {
@@ -320,7 +320,7 @@ export class ITunesService {
     return song;
   }
 
-  async getDailySong(date: string, artistId: string = 'twice'): Promise<Song> {
+  async getDailySong(date: string, artistId: string): Promise<Song> {
     // Use date as seed for consistent daily song
     const seed = hashCode(date);
     const songs = await this.searchSongs(artistId);
@@ -347,7 +347,7 @@ export class ITunesService {
   }
 
   // Helper method to manually add tracks
-  addTrack(track: Song, artistId: string = 'twice') {
+  addTrack(track: Song, artistId: string) {
     const currentTracks = this.availableTracks.get(artistId) || [];
     currentTracks.push(track);
     this.availableTracks.set(artistId, currentTracks);
@@ -355,7 +355,7 @@ export class ITunesService {
   }
 
   // Helper method to search for specific songs within an artist's catalog
-  async searchSpecificSong(songName: string, artistId: string = 'twice'): Promise<Song[]> {
+  async searchSpecificSong(songName: string, artistId: string): Promise<Song[]> {
     try {
       // First, ensure we have all songs loaded
       const allSongs = await this.searchSongs(artistId);
@@ -382,7 +382,7 @@ export class ITunesService {
   }
 
   // Get songs by album
-  async getSongsByAlbum(albumName: string, artistId: string = 'twice'): Promise<Song[]> {
+  async getSongsByAlbum(albumName: string, artistId: string): Promise<Song[]> {
     try {
       const allSongs = await this.searchSongs(artistId);
       
@@ -405,7 +405,7 @@ export class ITunesService {
   }
 
   // Get total count of available songs for an artist
-  async getTotalSongCount(artistId: string = 'twice'): Promise<number> {
+  async getTotalSongCount(artistId: string): Promise<number> {
     try {
       const songs = await this.searchSongs(artistId);
       return songs.length;
@@ -416,7 +416,7 @@ export class ITunesService {
   }
 
   // Check iTunes API pagination limits and get total available songs
-  async checkArtistPagination(artistId: string = 'twice'): Promise<{ totalAvailable: number; fetched: number; pages: number }> {
+  async checkArtistPagination(artistId: string): Promise<{ totalAvailable: number; fetched: number; pages: number }> {
     try {
       const artist = this.configService.getArtist(artistId);
       if (!artist) {
@@ -458,7 +458,7 @@ export class ITunesService {
   }
 
   // Clear cache and reload songs for an artist
-  async refreshSongs(artistId: string = 'twice'): Promise<Song[]> {
+  async refreshSongs(artistId: string): Promise<Song[]> {
     const artist = this.configService.getArtist(artistId);
     console.log(`🔄 Refreshing ${artist?.displayName} songs from iTunes...`);
     this.availableTracks.delete(artistId);
