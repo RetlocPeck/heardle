@@ -11,7 +11,7 @@ import { ArtistLoadingSpinner } from './ui/LoadingSpinner';
 import ErrorBoundary from './ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
-import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
+import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 
 interface DynamicHeardleProps {
@@ -46,7 +46,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     try {
       // For daily mode, check if we have a saved game state
       if (mode === 'daily') {
-        const storage = DailyChallengeStorage.getInstance();
+        const storage = ClientDailyChallengeStorage.getInstance();
         const savedChallenge = storage.loadDailyChallenge(artistId);
         
         if (savedChallenge) {
@@ -124,7 +124,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     
     // Save daily challenge state if in daily mode
     if (mode === 'daily' && currentSong) {
-      const storage = DailyChallengeStorage.getInstance();
+      const storage = ClientDailyChallengeStorage.getInstance();
       storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
     }
     
@@ -157,7 +157,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     
     // Save daily challenge state if in daily mode
     if (mode === 'daily' && currentSong) {
-      const storage = DailyChallengeStorage.getInstance();
+      const storage = ClientDailyChallengeStorage.getInstance();
       storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
     }
     
