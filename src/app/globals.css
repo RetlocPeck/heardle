@@ -25,6 +25,19 @@ body {
   font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Fluid root font size for tiny screens */
+@media (max-width: 380px) {
+  html {
+    font-size: 14px; /* Reduce root font size to scale down all rem-based sizes */
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 12px; /* Even smaller for very tiny screens */
+  }
+}
+
 /* Modern CSS Animations */
 @keyframes blob {
   0% {

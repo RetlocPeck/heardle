@@ -27,7 +27,7 @@ export default function HomePage() {
 
       {/* Header */}
       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
@@ -46,7 +46,7 @@ export default function HomePage() {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-16">
         {/* Hero Section */}
         <div className="text-center mb-20">
           <h2 className="text-6xl font-bold text-white mb-6 leading-tight">
@@ -80,7 +80,10 @@ export default function HomePage() {
         </div>
 
         {/* Artists Grid */}
-        <div className="grid gap-6 mx-auto px-4 max-w-none" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))' }}>
+        <div className="grid gap-6 mx-auto px-4 max-w-none" style={{ 
+          gridTemplateColumns: 'repeat(auto-fill, minmax(380px, 1fr))',
+          maxWidth: 'none'
+        }}>
           {filteredArtists.map((artist, index) => (
             <div
               key={artist.id}

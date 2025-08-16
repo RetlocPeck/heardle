@@ -129,7 +129,7 @@ export default function ArtistPage() {
 
              {/* Header */}
        <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+         <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
            <div className="flex justify-between items-center py-6">
              <div className="flex items-center w-1/3">
                <a href="/" className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium">
@@ -158,7 +158,7 @@ export default function ArtistPage() {
        </div>
 
              {/* Main Content */}
-       <div className="relative z-10 container mx-auto py-4">
+       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-4">
          <ModeSelector 
           selectedMode={selectedMode} 
           onModeChange={setSelectedMode} 

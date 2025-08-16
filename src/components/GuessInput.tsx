@@ -148,7 +148,7 @@ export default function GuessInput({
   return (
     <div className="w-full relative">
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-3 max-[400px]:space-y-2">
           <div className="relative">
             <input
               ref={inputRef}
@@ -161,7 +161,7 @@ export default function GuessInput({
               placeholder={placeholder}
               disabled={disabled}
               className={`
-                w-full px-6 py-4 backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl text-white text-lg font-medium placeholder-white/60
+                w-full px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl text-white text-base max-[400px]:text-sm font-medium placeholder-white/60
                 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent focus:bg-white/20
                 transition-all duration-300
                 ${disabled 
@@ -175,7 +175,7 @@ export default function GuessInput({
             {showDropdown && (
               <div
                 ref={dropdownRef}
-                className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl max-h-64 overflow-y-auto"
+                className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl max-h-48 max-[400px]:max-h-40 overflow-y-auto"
               >
                 {filteredSongs.length > 0 ? (
                   <>
@@ -184,18 +184,18 @@ export default function GuessInput({
                         key={song.id}
                         onClick={() => handleSongSelect(song)}
                         className={`
-                          px-6 py-4 cursor-pointer hover:bg-white/20 transition-all duration-200
+                          px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 cursor-pointer hover:bg-white/20 transition-all duration-200
                           ${index === selectedIndex ? 'bg-white/20' : ''}
                           ${index === 0 ? 'rounded-t-2xl' : ''}
                           ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
                         `}
                       >
-                        <div className="font-semibold text-white">{song.name}</div>
+                        <div className="font-semibold text-white text-sm max-[400px]:text-xs">{song.name}</div>
                       </div>
                     ))}
                   </>
                 ) : (
-                  <div className="px-6 py-4 text-white/60 text-center">
+                  <div className="px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 text-white/60 text-center text-sm max-[400px]:text-xs">
                     No songs found starting with "{guess}"
                   </div>
                 )}
@@ -204,23 +204,23 @@ export default function GuessInput({
             
             {/* Show message when no songs are available for autocomplete */}
             {!showDropdown && availableSongs.length === 0 && guess.trim() && (
-              <div className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-4">
-                <div className="text-sm text-yellow-200 text-center">
+              <div className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-3 max-[400px]:p-2">
+                <div className="text-xs max-[400px]:text-xs sm:text-sm text-yellow-200 text-center">
                   💡 Autocomplete unavailable - you can still type and guess manually!
                 </div>
               </div>
             )}
           </div>
           
-          <div className="flex space-x-3">
+          <div className="flex space-x-2 max-[400px]:space-x-2 sm:space-x-3">
             <button
               type="submit"
               disabled={disabled || !guess.trim()}
               className={`
-                flex-1 px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-2xl text-lg
+                flex-1 px-6 max-[400px]:px-4 py-3 max-[400px]:py-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-2xl text-base max-[400px]:text-sm
                 hover:shadow-2xl hover:shadow-purple-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
-                flex items-center justify-center space-x-2
+                flex items-center justify-center space-x-1 max-[400px]:space-x-1 sm:space-x-2
               `}
             >
               <span>🎯</span>
@@ -233,10 +233,10 @@ export default function GuessInput({
               disabled={disabled || (currentTry + 1 >= maxTries)}
               title={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               className={`
-                flex-1 px-8 py-4 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-2xl text-lg
+                flex-1 px-6 max-[400px]:px-4 py-3 max-[400px]:py-2 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-2xl text-base max-[400px]:text-sm
                 hover:shadow-2xl hover:shadow-gray-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
-                flex items-center justify-center space-x-2
+                flex items-center justify-center space-x-1 max-[400px]:space-x-2
               `}
             >
               <span>⏭️</span>
