@@ -125,39 +125,39 @@ export default function ArtistPage() {
            <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
          </div>
 
-      {/* Header */}
-      <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-6">
-            <div className="flex items-center">
-              <a href="/" className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                <span>Back to Artists</span>
-              </a>
-            </div>
-            <div className="text-center">
-              <h1 className={`text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent`}>
-                {artist.displayName} Heardle
-              </h1>
-              <p className="text-white/80 font-medium">Test your {artist.displayName} knowledge! 🎵</p>
-              
-              {/* Daily Challenge Status */}
-              {selectedMode === 'daily' && (
-                <DailyChallengeStatus artistId={artist.id} />
-              )}
-            </div>
-            <div className="flex items-center">
-              <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
-            </div>
-          </div>
-        </div>
-      </div>
+             {/* Header */}
+       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div className="flex justify-between items-center py-6">
+             <div className="flex items-center w-1/3">
+               <a href="/" className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium">
+                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                 </svg>
+                 <span>Back to Artists</span>
+               </a>
+             </div>
+             <div className="text-center w-1/3">
+               <h1 className={`text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent`}>
+                 {artist.displayName} Heardle
+               </h1>
+               <p className="text-white/80 font-medium">Test your {artist.displayName} knowledge! 🎵</p>
+               
+               {/* Daily Challenge Status */}
+               {selectedMode === 'daily' && (
+                 <DailyChallengeStatus artistId={artist.id} />
+               )}
+             </div>
+             <div className="flex items-center justify-end w-1/3">
+               <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
+             </div>
+           </div>
+         </div>
+       </div>
 
-      {/* Main Content */}
-      <div className="relative z-10 container mx-auto py-4">
-        <ModeSelector 
+             {/* Main Content */}
+       <div className="relative z-10 container mx-auto py-4">
+         <ModeSelector 
           selectedMode={selectedMode} 
           onModeChange={setSelectedMode} 
         />

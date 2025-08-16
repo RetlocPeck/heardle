@@ -239,15 +239,9 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       <div className="max-w-7xl mx-auto p-4 lg:p-6">
         {/* Header - More Compact */}
         <div className="text-center mb-6">
-          <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6">
-            <h1 className={`text-4xl lg:text-5xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent mb-2`}>
-              {artist.displayName} Heardle
-            </h1>
-            <p className="text-white text-lg lg:text-xl">
-              {mode === 'daily' ? '📅 Daily Challenge' : '🎮 Practice Mode'}
-              {mode === 'daily' && <span className="text-white/60 ml-2">• New song every day at midnight</span>}
-            </p>
-          </div>
+          <p className="text-white/60 text-lg lg:text-xl">
+            {mode === 'daily' && 'New song every day at midnight'}
+          </p>
         </div>
 
         {/* Main Game Layout - Three columns on larger screens */}
