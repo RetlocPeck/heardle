@@ -8,6 +8,31 @@ import DynamicHeardle from '@/components/DynamicHeardle';
 import { PageLoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
+
+// Component to show daily challenge completion status
+function DailyChallengeStatus({ artistId }: { artistId: string }) {
+  const [isCompleted, setIsCompleted] = useState(false);
+  
+  useEffect(() => {
+    const storage = DailyChallengeStorage.getInstance();
+    setIsCompleted(storage.isDailyChallengeCompleted(artistId));
+  }, [artistId]);
+  
+  if (isCompleted) {
+    return (
+      <div className="mt-2 inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
+        <span className="text-green-300 text-sm font-medium">✅ Daily Challenge Completed</span>
+      </div>
+    );
+  }
+  
+  return (
+    <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
+      <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
+    </div>
+    );
+}
 
 export default function ArtistPage() {
   const params = useParams();
@@ -79,6 +104,11 @@ export default function ArtistPage() {
                 {artist.displayName} Heardle
               </h1>
               <p className="text-white/80 font-medium">Test your {artist.displayName} knowledge! 🎵</p>
+              
+              {/* Daily Challenge Status */}
+              {selectedMode === 'daily' && (
+                <DailyChallengeStatus artistId={artist.id} />
+              )}
             </div>
             <div className="w-32"></div> {/* Spacer for centering */}
           </div>

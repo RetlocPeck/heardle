@@ -63,6 +63,13 @@ export class GameLogic {
     };
   }
 
+  /**
+   * Load game state from external source (for persistence)
+   */
+  loadGameState(state: GameState): void {
+    this.state = { ...state };
+  }
+
   makeGuess(guess: string): boolean {
     if (this.state.isGameOver || !this.state.currentSong) {
       return false;

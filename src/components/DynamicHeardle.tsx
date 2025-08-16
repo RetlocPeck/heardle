@@ -11,6 +11,7 @@ import { ArtistLoadingSpinner } from './ui/LoadingSpinner';
 import ErrorBoundary from './ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -41,6 +42,23 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
     setError(null);
     
     try {
+      // For daily mode, check if we have a saved game state
+      if (mode === 'daily') {
+        const storage = DailyChallengeStorage.getInstance();
+        const savedChallenge = storage.loadDailyChallenge(artistId);
+        
+        if (savedChallenge) {
+          // Load saved game state
+          console.log(`📂 Loading saved daily challenge for ${artistId}`);
+          setCurrentSong(savedChallenge.gameState.currentSong);
+          gameLogic.loadGameState(savedChallenge.gameState);
+          setGameState(gameLogic.getGameState());
+          setIsLoading(false);
+          return;
+        }
+      }
+      
+      // Load new song from API
       const endpoint = mode === 'daily' ? `/api/${artistId}/daily` : `/api/${artistId}/random`;
       const response = await fetch(endpoint);
       
@@ -94,7 +112,14 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
 
   const handleGuess = (guess: string) => {
     const isCorrect = gameLogic.makeGuess(guess);
-    setGameState(gameLogic.getGameState());
+    const newGameState = gameLogic.getGameState();
+    setGameState(newGameState);
+    
+    // Save daily challenge state if in daily mode
+    if (mode === 'daily' && currentSong) {
+      const storage = DailyChallengeStorage.getInstance();
+      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
+    }
     
     if (isCorrect) {
       console.log('Correct guess!');
@@ -105,7 +130,15 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
 
   const handleSkip = () => {
     gameLogic.makeGuess(''); // Empty guess counts as a skip
-    setGameState(gameLogic.getGameState());
+    const newGameState = gameLogic.getGameState();
+    setGameState(newGameState);
+    
+    // Save daily challenge state if in daily mode
+    if (mode === 'daily' && currentSong) {
+      const storage = DailyChallengeStorage.getInstance();
+      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
+    }
+    
     console.log(`Skipped turn. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
   };
 
@@ -207,16 +240,33 @@ export default function DynamicHeardle({ mode }: DynamicHeardleProps) {
               </div>
             )}
             
-            {gameState.isGameOver && (
-              <div className="text-center">
+                      {gameState.isGameOver && (
+            <div className="text-center space-y-4">
+              {mode === 'daily' && gameState.hasWon && (
+                <div className="backdrop-blur-xl bg-green-500/20 border border-green-400/30 rounded-2xl p-4">
+                  <p className="text-green-200 font-semibold">🎉 Daily Challenge Completed!</p>
+                  <p className="text-green-300 text-sm">Come back tomorrow for a new challenge!</p>
+                </div>
+              )}
+              
+              {mode === 'daily' && !gameState.hasWon && (
+                <div className="backdrop-blur-xl bg-red-500/20 border border-red-400/30 rounded-2xl p-4">
+                  <p className="text-red-200 font-semibold">💔 Daily Challenge Failed</p>
+                  <p className="text-red-300 text-sm">The answer was: {currentSong?.name}</p>
+                  <p className="text-red-300 text-sm">Try again tomorrow!</p>
+                </div>
+              )}
+              
+              {mode === 'practice' && (
                 <button
                   onClick={handleNewGame}
                   className={`px-8 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25`}
                 >
-                  {mode === 'daily' ? '🔄 Play Again' : '🎵 New Song'}
+                  🎵 New Song
                 </button>
-              </div>
-            )}
+              )}
+            </div>
+          )}
           </div>
 
           {/* Middle Column - Game Board */}
