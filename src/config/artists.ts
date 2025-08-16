@@ -185,6 +185,28 @@ export const ARTISTS: ArtistConfig[] = [
     }
   },
   {
+    id: 'i-dle',
+    name: 'i-dle',
+    displayName: 'i-dle',
+    itunesArtistId: '1378887586',
+    searchTerms: ['i-dle', '아이들', 'idle', 'G-idle', '(G)-idle', 'GIDLE'],
+    theme: {
+      primaryColor: 'emerald',
+      gradientFrom: 'from-emerald-500',
+      gradientTo: 'to-teal-600',
+      accentColor: 'bg-emerald-500 hover:bg-emerald-600',
+      spinnerColor: 'border-emerald-400',
+      borderColor: 'border-emerald-400',
+      bgColor: 'bg-emerald-50',
+      textColor: 'text-emerald-800'
+    },
+    metadata: {
+      imageUrl: '/groups/i-dle.jpg',
+      songCount: 45,
+      releaseYear: 2018
+    }
+  },
+  {
     id: 'dreamcatcher',
     name: 'Dreamcatcher',
     displayName: 'Dreamcatcher',

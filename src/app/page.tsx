@@ -202,28 +202,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* Coming Soon Section */}
-        <div className="mt-20 text-center">
-          <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/10 p-10 max-w-3xl mx-auto">
-            <h3 className="text-3xl font-bold text-white mb-6">
-              More Artists Coming Soon! ✨
-            </h3>
-            <p className="text-white/80 mb-8 text-lg">
-              We're working on adding more K-pop artists to expand your Heardle experience.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              {['NewJeans', 'IVE', 'aespa', 'ITZY', 'Red Velvet'].map((artist, index) => (
-                <span 
-                  key={artist}
-                  className="px-4 py-2 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md text-white rounded-2xl text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  {artist}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   );
