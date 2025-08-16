@@ -23,15 +23,19 @@ export interface ArtistConfig {
   searchTerms: string[];
   theme: ArtistTheme;
   metadata: ArtistMetadata;
+  featured?: boolean;
 }
 
 export const ARTISTS: ArtistConfig[] = [
+  // Featured artists will appear first in the list
+  // To add more featured artists, simply set featured: true
   {
     id: 'twice',
     name: 'TWICE',
     displayName: 'TWICE',
     itunesArtistId: '1203816887',
     searchTerms: ['TWICE', '트와이스'],
+    featured: true,
     theme: {
       primaryColor: 'pink',
       gradientFrom: 'from-pink-500',
@@ -181,6 +185,28 @@ export const ARTISTS: ArtistConfig[] = [
     }
   },
   {
+    id: 'i-dle',
+    name: 'i-dle',
+    displayName: 'i-dle',
+    itunesArtistId: '1378887586',
+    searchTerms: ['i-dle', '아이들', 'idle', 'G-idle', '(G)-idle', 'GIDLE'],
+    theme: {
+      primaryColor: 'emerald',
+      gradientFrom: 'from-emerald-500',
+      gradientTo: 'to-teal-600',
+      accentColor: 'bg-emerald-500 hover:bg-emerald-600',
+      spinnerColor: 'border-emerald-400',
+      borderColor: 'border-emerald-400',
+      bgColor: 'bg-emerald-50',
+      textColor: 'text-emerald-800'
+    },
+    metadata: {
+      imageUrl: '/groups/i-dle.jpg',
+      songCount: 45,
+      releaseYear: 2018
+    }
+  },
+  {
     id: 'dreamcatcher',
     name: 'Dreamcatcher',
     displayName: 'Dreamcatcher',
@@ -286,6 +312,17 @@ export function getAllArtistIds(): string[] {
   return ARTISTS.map(artist => artist.id);
 }
 
+export function getArtistsSorted(): ArtistConfig[] {
+  return [...ARTISTS].sort((a, b) => {
+    // Featured artists come first
+    if (a.featured && !b.featured) return -1;
+    if (!a.featured && b.featured) return 1;
+    
+    // Then sort alphabetically by display name
+    return a.displayName.localeCompare(b.displayName);
+  });
+}
+
 export function isValidArtistId(id: string): boolean {
   return ARTISTS.some(artist => artist.id === id);
 }
@@ -330,6 +367,8 @@ export function validateArtistConfig(config: ArtistConfig): string[] {
   if (typeof config.metadata.releaseYear !== 'number' || config.metadata.releaseYear < 1900 || config.metadata.releaseYear > new Date().getFullYear()) {
     errors.push('Release year must be a valid year');
   }
+  
+  // featured property is optional, so no validation needed
   
   return errors;
 }

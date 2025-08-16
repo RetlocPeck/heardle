@@ -130,14 +130,27 @@ export default function AudioPlayer({
     // Ensure audio is properly reset and stopped
     audio.pause();
     audio.currentTime = 0;
-    audio.load(); // Reload to ensure clean state
     
     // Reset playing state to ensure button shows play
     setIsPlaying(false);
     setCurrentTime(0);
 
+    // Set audio attributes to prevent autoplay
+    audio.preload = 'metadata';
+    audio.muted = true; // Mute while setting up to prevent any audio output
+    
     // Set the audio source
     audio.src = song.previewUrl;
+    
+    // Load the audio without playing
+    audio.load();
+    
+    // Unmute after a brief delay to ensure setup is complete
+    setTimeout(() => {
+      if (audio) {
+        audio.muted = false;
+      }
+    }, 100);
     
     // Set a timeout to stop the audio after the specified duration
     timeoutRef.current = setTimeout(() => {
@@ -200,17 +213,29 @@ export default function AudioPlayer({
           timeoutRef.current = null;
         }
         
-        // Set audio source and play full preview
+        // Set audio attributes to prevent autoplay during setup
+        audio.preload = 'metadata';
+        audio.muted = true;
+        
+        // Set audio source and prepare
         audio.src = song.previewUrl;
         audio.currentTime = 0;
-        audio.play().catch((error) => {
-          // Handle AbortError gracefully (audio was interrupted)
-          if (error.name !== 'AbortError') {
-            console.error('Audio auto-play error:', error);
+        audio.load();
+        
+        // Unmute and play after setup
+        setTimeout(() => {
+          if (audio) {
+            audio.muted = false;
+            audio.play().catch((error) => {
+              // Handle AbortError gracefully (audio was interrupted)
+              if (error.name !== 'AbortError') {
+                console.error('Audio auto-play error:', error);
+              }
+            });
+            setIsPlaying(true);
+            onPlay?.();
           }
-        });
-        setIsPlaying(true);
-        onPlay?.();
+        }, 100);
       }
     }
   }, [isGameWon, disabled, song.previewUrl]);
@@ -360,18 +385,18 @@ export default function AudioPlayer({
 
   if (!song.previewUrl) {
     return (
-      <div className="text-center p-8 backdrop-blur-xl bg-red-500/10 border border-red-400/30 rounded-3xl">
-        <div className="text-red-300 text-xl font-bold mb-4">
+      <div className="text-center p-4 max-[400px]:p-3 backdrop-blur-xl bg-red-500/10 border border-red-400/30 rounded-3xl">
+        <div className="text-red-300 text-lg max-[400px]:text-base font-bold mb-3 max-[400px]:mb-2">
           🚫 Song Preview Unavailable
         </div>
-        <div className="text-white/80 mb-6">
+        <div className="text-white/80 mb-4 max-[400px]:mb-3 text-sm max-[400px]:text-xs">
           No preview available for this song on iTunes.
         </div>
         <a
           href={song.itunesUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-2xl font-bold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
+          className="inline-block px-4 max-[400px]:px-3 py-2 max-[400px]:py-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-2xl font-bold text-sm max-[400px]:text-xs hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
         >
           🎵 Listen on iTunes
         </a>
@@ -380,38 +405,38 @@ export default function AudioPlayer({
   }
 
   return (
-    <div className="flex flex-col items-center space-y-6 p-8">
+    <div className="flex flex-col items-center space-y-4 max-[400px]:space-y-3 p-4 max-[400px]:p-3">
       <div className="text-center">
-        <h3 className="text-2xl font-bold text-white mb-3">
+        <h3 className="text-xl max-[400px]:text-lg font-bold text-white mb-2 max-[400px]:mb-1">
           {isGameWon ? (
-            <div className="space-y-2">
-              <div className="text-3xl">🎉 You got it! 🎉</div>
-              <div className="text-2xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+            <div className="space-y-1 max-[400px]:space-y-1">
+              <div className="text-2xl max-[400px]:text-xl">🎉 You got it! 🎉</div>
+              <div className="text-xl max-[400px]:text-lg bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
                 {song.name}
               </div>
             </div>
           ) : disabled ? (
-            <div className="space-y-2">
-              <div className="text-3xl">😔 Game Over</div>
-              <div className="text-2xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+            <div className="space-y-1 max-[400px]:space-y-1">
+              <div className="text-2xl max-[400px]:text-xl">😔 Game Over</div>
+              <div className="text-xl max-[400px]:text-lg bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
                 {song.name}
               </div>
             </div>
           ) : (
-            <div className="flex items-center justify-center space-x-2">
+            <div className="flex items-center justify-center space-x-1 max-[400px]:space-x-1 sm:space-x-2">
               <span>🎵</span>
-              <span>Listen to the song preview</span>
+              <span className="text-sm max-[400px]:text-xs">Listen to the song preview</span>
             </div>
           )}
         </h3>
-        <p className="text-white/70 text-lg">
+        <p className="text-white/70 text-base max-[400px]:text-sm">
           {isGameWon || disabled ? (
-            <span className="flex items-center justify-center space-x-2">
+            <span className="flex items-center justify-center space-x-1 max-[400px]:space-x-1 sm:space-x-2">
               <span>💿</span>
               <span>{song.album}</span>
             </span>
           ) : (
-            <span className="flex items-center justify-center space-x-2">
+            <span className="flex items-center justify-center space-x-1 max-[400px]:space-x-1 sm:space-x-2">
               <span>⏱️</span>
               <span>Duration: {formatTime(duration / 1000)}s</span>
             </span>
@@ -427,7 +452,7 @@ export default function AudioPlayer({
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
-           <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
+           <div className="flex justify-between text-xs max-[400px]:text-xs sm:text-sm text-white/60 mt-2 font-medium">
              <span>{formatTime(currentTime)}</span>
              <span>{formatTime(30)}</span>
            </div>
@@ -442,7 +467,7 @@ export default function AudioPlayer({
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
-           <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
+           <div className="flex justify-between text-xs max-[400px]:text-xs sm:text-sm text-white/60 mt-2 font-medium">
              <span>{formatTime(currentTime)}</span>
              <span>{formatTime(duration / 1000)}</span>
            </div>
@@ -453,7 +478,7 @@ export default function AudioPlayer({
         onClick={togglePlay}
         disabled={isLoading || !song.previewUrl}
         className={`
-          px-10 py-4 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 text-lg
+          px-8 max-[400px]:px-6 py-3 max-[400px]:py-2 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 max-[400px]:space-x-1 sm:space-x-3 text-base max-[400px]:text-sm
           ${isLoading || !song.previewUrl
             ? 'bg-gray-500/50 cursor-not-allowed' 
             : isPlaying 
@@ -464,23 +489,29 @@ export default function AudioPlayer({
       >
         {isLoading ? (
           <>
-            <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+            <div className="w-4 max-[400px]:w-4 h-4 max-[400px]:h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
             <span>Loading...</span>
           </>
         ) : isPlaying ? (
           <>
-            <div className="w-5 h-5 bg-white rounded-sm" />
+            <div className="w-4 max-[400px]:w-4 h-4 max-[400px]:h-4 bg-white rounded-sm" />
             <span>Pause</span>
           </>
         ) : (
           <>
-            <div className="w-0 h-0 border-l-[10px] border-l-white border-y-[8px] border-y-transparent ml-1" />
+            <div className="w-0 h-0 border-l-[8px] max-[400px]:border-l-[6px] border-l-white border-y-[6px] max-[400px]:border-y-[5px] border-y-transparent ml-1" />
             <span>Play</span>
           </>
         )}
       </button>
 
-      <audio ref={audioRef} preload="metadata" />
+      <audio 
+        ref={audioRef} 
+        preload="metadata" 
+        muted={true}
+        autoPlay={false}
+        playsInline={true}
+      />
     </div>
   );
 }

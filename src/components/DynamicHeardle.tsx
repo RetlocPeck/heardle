@@ -236,19 +236,19 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
 
   return (
     <ErrorBoundary>
-      <div className="max-w-7xl mx-auto p-4 lg:p-6">
+             <div className="w-full p-2 sm:p-4 lg:p-6 xl:p-8 2xl:p-12 max-w-[1400px] mx-auto">
         {/* Header - More Compact */}
-        <div className="text-center mb-6">
-          <p className="text-white/60 text-lg lg:text-xl">
-            {mode === 'daily' && 'New song every day at midnight'}
-          </p>
-        </div>
+                 <div className="text-center mb-4 max-[400px]:mb-3">
+           <p className="text-white/60 text-base max-[400px]:text-sm lg:text-lg xl:text-xl">
+             {mode === 'daily' && 'New song every day at midnight'}
+           </p>
+         </div>
 
-        {/* Main Game Layout - Three columns on larger screens */}
-        <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
+        {/* Main Game Layout - Adaptive columns for different screen sizes */}
+        <div className="grid grid-cols-1 max-[400px]:grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-12 2xl:grid-cols-3 gap-2 max-[400px]:gap-2 sm:gap-3 lg:gap-6">
           {/* Left Column - Audio Player & Input */}
-          <div className="xl:col-span-4 space-y-4">
-            <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6">
+          <div className="col-span-1 sm:col-span-1 lg:col-span-1 xl:col-span-4 2xl:col-span-1 space-y-1 max-[400px]:space-y-1 sm:space-y-2">
+            <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-2 max-[400px]:p-2 sm:p-3 lg:p-6">
               <AudioPlayer
                 key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
                 song={currentSong}
@@ -260,8 +260,8 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
             </div>
             
                          {!gameState.isGameOver && (
-               <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6">
-                 <GuessInput
+                                                               <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-2 max-[400px]:p-2 sm:p-3 lg:p-6">
+                  <GuessInput
                    onSubmit={handleGuess}
                    onSkip={handleSkip}
                    disabled={gameState.isGameOver}
@@ -276,23 +276,70 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                 <div className="text-center">
                   <button
                     onClick={handleNewGame}
-                    className={`px-8 py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
+                    className={`px-6 max-[400px]:px-4 py-3 max-[400px]:py-2 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-base max-[400px]:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
                   >
                     🎵 New Song
                   </button>
                 </div>
               )}
+
+            {/* How to Play Card - Below guess input on mobile/tablet */}
+            {!gameState.isGameOver && (
+                                                           <div className="lg:hidden backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-2 max-[400px]:p-2 sm:p-3 lg:p-6">
+                <h3 className="text-lg max-[400px]:text-base font-bold text-white mb-3 max-[400px]:mb-2 text-center">🎯 How to Play</h3>
+                <ul className="space-y-1 max-[400px]:space-y-1 sm:space-y-2 text-white/80 text-xs max-[400px]:text-xs sm:text-sm lg:text-base mx-auto max-w-md">
+                  <li className="flex items-start space-x-1 max-[400px]:space-x-1 sm:space-x-2">
+                    <span className="text-pink-400 mt-0.5 text-sm max-[400px]:text-xs">🎵</span>
+                    <span className="text-xs max-[400px]:text-xs sm:text-sm">Listen to the song preview (starts with 1 second)</span>
+                  </li>
+                  <li className="flex items-start space-x-1 max-[400px]:space-x-1 sm:space-x-2">
+                    <span className="text-purple-400 mt-0.5 text-sm max-[400px]:text-xs">💭</span>
+                    <span className="text-xs max-[400px]:text-xs sm:text-sm">Guess the {artist.displayName} song title or click Skip</span>
+                  </li>
+                  <li className="flex items-start space-x-1 max-[400px]:space-x-1 sm:space-x-2">
+                    <span className="text-indigo-400 mt-0.5 text-sm max-[400px]:text-xs">⏰</span>
+                    <span className="text-xs max-[400px]:text-xs sm:text-sm">Each wrong guess or skip gives you more time</span>
+                  </li>
+                  <li className="flex items-start space-x-1 max-[400px]:space-x-1 sm:space-x-2">
+                    <span className="text-rose-400 mt-0.5 text-sm max-[400px]:text-xs">🎯</span>
+                    <span className="text-xs max-[400px]:text-xs sm:text-sm">You have 6 tries to get it right</span>
+                  </li>
+                  <li className="flex items-start space-x-1 max-[400px]:space-x-1 sm:space-x-2">
+                    <span className="text-cyan-400 mt-0.5 text-sm max-[400px]:text-xs">⏭️</span>
+                    <span className="text-xs max-[400px]:text-xs sm:text-sm">Use Skip to hear more before guessing</span>
+                  </li>
+                </ul>
+                
+                {availableSongs.length === 0 && (
+                  <div className="mt-3 max-[400px]:mt-2 p-2 max-[400px]:p-2 sm:p-3 bg-blue-500/20 border border-blue-400/30 rounded-2xl">
+                    <p className="text-blue-200 text-xs max-[400px]:text-xs sm:text-sm">
+                      <strong>💡 Note:</strong> Song autocomplete is currently unavailable. 
+                      You can still play by typing the exact song title manually!
+                    </p>
+                  </div>
+                )}
+                
+                {currentSong && !currentSong.previewUrl && (
+                  <div className="mt-3 max-[400px]:mt-2 p-2 max-[400px]:p-2 sm:p-3 bg-yellow-500/20 border border-yellow-400/30 rounded-2xl">
+                    <p className="text-yellow-200 text-xs max-[400px]:text-xs sm:text-sm">
+                      <strong>⚠️ Note:</strong> Song preview is not available for this track. 
+                      You can still play by guessing the song title!
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
-          {/* Middle Column - Game Board */}
-          <div className="xl:col-span-4">
-            <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
+          {/* Right Column - Game Board (full height on mobile/tablet) */}
+          <div className="col-span-1 sm:col-span-1 lg:col-span-1 xl:col-span-4 2xl:col-span-1">
+            <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-2 max-[400px]:p-2 sm:p-3 lg:p-6 h-full">
               <GameBoard gameState={gameState} />
             </div>
           </div>
 
-                     {/* Right Column - Game Instructions or Game Results */}
-           <div className="xl:col-span-4">
+                     {/* Right Column - Game Instructions or Game Results (hidden on mobile/tablet) */}
+           <div className="hidden lg:block xl:col-span-4 2xl:col-span-1">
              {gameState.isGameOver ? (
                // Game Results Card
                <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
@@ -348,11 +395,11 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
              ) : (
                // How to Play Card
                <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
-                 <h3 className="text-xl font-bold text-white mb-4 text-center">🎯 How to Play</h3>
-                 <ul className="space-y-2 text-white/80 text-sm lg:text-base">
-                   <li className="flex items-start space-x-2">
-                     <span className="text-pink-400 mt-0.5">🎵</span>
-                     <span>Listen to the song preview (starts with 1 second)</span>
+                 <h3 className="text-lg max-[400px]:text-base font-bold text-white mb-3 max-[400px]:mb-2 text-center">🎯 How to Play</h3>
+                 <ul className="space-y-1 max-[400px]:space-y-1 sm:space-y-2 text-white/80 text-xs max-[400px]:text-xs sm:text-sm lg:text-base mx-auto max-w-md">
+                   <li className="flex items-start space-x-1 max-[400px]:space-x-1 sm:space-x-2">
+                     <span className="text-pink-400 mt-0.5 text-sm max-[400px]:text-xs">🎵</span>
+                     <span className="text-xs max-[400px]:text-xs sm:text-sm">Listen to the song preview (starts with 1 second)</span>
                    </li>
                    <li className="flex items-start space-x-2">
                      <span className="text-purple-400 mt-0.5">💭</span>

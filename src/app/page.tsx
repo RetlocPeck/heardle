@@ -2,17 +2,18 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { ARTISTS } from '@/config/artists';
+import { getArtistsSorted } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import StatisticsButton from '@/components/StatisticsButton';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredArtists = ARTISTS.filter(artist =>
-    artist.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.displayName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.searchTerms.some(term => term.toLowerCase().includes(searchTerm.toLowerCase()))
+  const allArtists = getArtistsSorted();
+  const filteredArtists = allArtists.filter(artist =>
+    artist.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+    artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+    artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
   );
 
   return (
@@ -26,7 +27,7 @@ export default function HomePage() {
 
       {/* Header */}
       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <h1 className="text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
@@ -45,7 +46,7 @@ export default function HomePage() {
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-16">
         {/* Hero Section */}
         <div className="text-center mb-20">
           <h2 className="text-6xl font-bold text-white mb-6 leading-tight">
@@ -79,7 +80,10 @@ export default function HomePage() {
         </div>
 
         {/* Artists Grid */}
-        <div className="grid gap-6 mx-auto px-4 max-w-none" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))' }}>
+        <div className="grid gap-6 mx-auto px-4 max-w-none" style={{ 
+          gridTemplateColumns: 'repeat(auto-fill, minmax(380px, 1fr))',
+          maxWidth: 'none'
+        }}>
           {filteredArtists.map((artist, index) => (
             <div
               key={artist.id}
@@ -87,9 +91,52 @@ export default function HomePage() {
               style={{ animationDelay: `${index * 200}ms` }}
             >
               {/* Glassmorphism Card */}
-              <div className="relative backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20 overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2">
+              <div className={`group relative backdrop-blur-xl rounded-3xl overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${
+                artist.featured 
+                  ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20' 
+                  : 'bg-white/10 border border-white/20'
+              }`}>
                 {/* Gradient Border Effect */}
                 <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
+                
+                {/* Top-left stack (inside the card) */}
+                <div className="absolute left-3 top-3 flex items-center gap-2 z-30">
+                  {artist.featured && (
+                    <div
+                      className="
+                        group/feat inline-flex items-center h-7 rounded-full bg-yellow-400 text-black
+                        pl-2 pr-2 overflow-hidden whitespace-nowrap
+                        transition-[max-width] duration-300 ease-out
+                        max-w-[32px]                 /* collapsed: icon(16) + padding(8+8) */
+                        group-hover:max-w-[132px]    /* expanded: enough for 'Featured' */
+                        gap-0 group-hover:gap-1      /* tighten star–text spacing */
+                      "
+                    >
+                      {/* Star icon */}
+                      <svg className="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                      </svg>
+
+                      {/* Label: hidden until hover so no letters leak */}
+                      <span
+                        className="
+                          text-sm font-semibold
+                          opacity-0 text-transparent
+                          transition-opacity duration-150
+                          group-hover:opacity-100 group-hover:text-current
+                        "
+                        aria-hidden="true"
+                      >
+                        Featured
+                      </span>
+                    </div>
+                  )}
+                  
+                  {/* Year Pill */}
+                  <div className="inline-flex items-center h-7 rounded-full bg-neutral-800/90 text-white px-3 text-sm font-semibold">
+                    {artist.metadata.releaseYear}
+                  </div>
+                </div>
                 
                 {/* Artist Image */}
                 <div className="relative h-64 overflow-hidden">
@@ -112,18 +159,15 @@ export default function HomePage() {
                       {artist.metadata.songCount}+ songs
                     </div>
                   </div>
-
-                  {/* Year Badge */}
-                  <div className="absolute top-4 left-4">
-                    <div className="backdrop-blur-md bg-black/30 text-white px-3 py-1 rounded-full text-sm font-medium border border-white/20">
-                      {artist.metadata.releaseYear}
-                    </div>
-                  </div>
                 </div>
 
                 {/* Artist Info */}
                 <div className="p-8">
-                  <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-purple-400 group-hover:bg-clip-text transition-all duration-300">
+                  <h3 className={`text-3xl font-bold mb-3 transition-all duration-300 ${
+                    artist.featured
+                      ? 'text-amber-100 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-amber-300 group-hover:to-yellow-400 group-hover:bg-clip-text'
+                      : 'text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-purple-400 group-hover:bg-clip-text'
+                  }`}>
                     {artist.displayName}
                   </h3>
                   
@@ -132,11 +176,15 @@ export default function HomePage() {
                   {/* Play Button */}
                   <Link
                     href={`/${artist.id}`}
-                    className={`group/btn relative w-full block text-center px-6 py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-bold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105 overflow-hidden`}
+                    className={`group/btn relative w-full block text-center px-6 py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-bold rounded-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden ${
+                      artist.featured
+                        ? 'hover:shadow-2xl hover:shadow-amber-400/30 border border-amber-300/30'
+                        : 'hover:shadow-2xl hover:shadow-purple-500/25'
+                    }`}
                   >
                     <span className="relative z-10 flex items-center justify-center space-x-2">
                       <span className="text-xl">🎯</span>
-                      <span>Play {artist.displayName} Heardle</span>
+                      <span>Play Heardle</span>
                     </span>
                     <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
                   </Link>
@@ -154,28 +202,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        {/* Coming Soon Section */}
-        <div className="mt-20 text-center">
-          <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/10 p-10 max-w-3xl mx-auto">
-            <h3 className="text-3xl font-bold text-white mb-6">
-              More Artists Coming Soon! ✨
-            </h3>
-            <p className="text-white/80 mb-8 text-lg">
-              We're working on adding more K-pop artists to expand your Heardle experience.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              {['NewJeans', 'IVE', 'aespa', 'ITZY', 'Red Velvet'].map((artist, index) => (
-                <span 
-                  key={artist}
-                  className="px-4 py-2 bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-md text-white rounded-2xl text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105"
-                  style={{ animationDelay: `${index * 100}ms` }}
-                >
-                  {artist}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   );
