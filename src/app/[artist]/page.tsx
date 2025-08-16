@@ -12,17 +12,24 @@ import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 
 // Component to show daily challenge completion status
 function DailyChallengeStatus({ artistId }: { artistId: string }) {
-  const [isCompleted, setIsCompleted] = useState(false);
+  const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
   
   useEffect(() => {
     const storage = DailyChallengeStorage.getInstance();
-    setIsCompleted(storage.isDailyChallengeCompleted(artistId));
+    const isCompleted = storage.isDailyChallengeCompleted(artistId);
+    const challenge = storage.loadDailyChallenge(artistId);
+    const hasWon = challenge?.gameState.hasWon || false;
+    
+    setChallengeData({ isCompleted, hasWon });
     
     // Listen for storage changes to update the status immediately
     const handleStorageChange = () => {
-      const newStatus = storage.isDailyChallengeCompleted(artistId);
-      console.log(`📡 DailyChallengeStatus received event, updating status for ${artistId}:`, newStatus);
-      setIsCompleted(newStatus);
+      const newIsCompleted = storage.isDailyChallengeCompleted(artistId);
+      const newChallenge = storage.loadDailyChallenge(artistId);
+      const newHasWon = newChallenge?.gameState.hasWon || false;
+      
+      console.log(`📡 DailyChallengeStatus received event, updating status for ${artistId}:`, { isCompleted: newIsCompleted, hasWon: newHasWon });
+      setChallengeData({ isCompleted: newIsCompleted, hasWon: newHasWon });
     };
     
     // Listen for custom storage event
@@ -33,12 +40,28 @@ function DailyChallengeStatus({ artistId }: { artistId: string }) {
     };
   }, [artistId]);
   
-  if (isCompleted) {
+  if (!challengeData) {
     return (
-      <div className="mt-2 inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
-        <span className="text-green-300 text-sm font-medium">✅ Daily Challenge Completed</span>
+      <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
+        <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
       </div>
     );
+  }
+  
+  if (challengeData.isCompleted) {
+    if (challengeData.hasWon) {
+      return (
+        <div className="mt-2 inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
+          <span className="text-green-300 text-sm font-medium">✅ Daily Challenge Completed</span>
+        </div>
+      );
+    } else {
+      return (
+        <div className="mt-2 inline-flex items-center px-3 py-1 bg-red-500/20 border border-red-400/30 rounded-full">
+          <span className="text-red-300 text-sm font-medium">❌ Daily Challenge Failed</span>
+        </div>
+      );
+    }
   }
   
   return (
