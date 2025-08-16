@@ -7,7 +7,7 @@ interface GameBoardProps {
 }
 
 export default function GameBoard({ gameState }: GameBoardProps) {
-  const { guesses, currentTry, maxTries, isGameOver, hasWon, currentSong } = gameState;
+  const { guesses, currentTry, maxTries, isGameOver, hasWon } = gameState;
 
   const renderGuessRow = (index: number, guess: string | null, isCorrect: boolean | null) => {
     const isCurrentRow = index === currentTry && !isGameOver;
@@ -67,45 +67,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
     );
   };
 
-  const renderGameResult = () => {
-    if (!isGameOver) return null;
 
-    return (
-      <div className="mt-8 p-8 backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20">
-        <div className="text-center">
-          {hasWon ? (
-            <div className="text-green-400">
-              <div className="text-4xl font-bold mb-3">🎉 Correct! 🎉</div>
-              <div className="text-xl text-white">You got it in {guesses.length} tries!</div>
-            </div>
-          ) : (
-            <div className="text-red-400">
-              <div className="text-4xl font-bold mb-3">😔 Game Over</div>
-              <div className="text-xl text-white">Better luck next time!</div>
-            </div>
-          )}
-          
-          {currentSong && (
-            <div className="mt-6 p-6 backdrop-blur-md bg-white/5 rounded-2xl border border-white/10">
-              <div className="font-bold text-white/80 text-lg mb-2">The song was:</div>
-              <div className="text-2xl font-bold text-white mb-2">{currentSong.name}</div>
-              <div className="text-white/70 mb-4">
-                by {currentSong.artists.join(', ')} • {currentSong.album}
-              </div>
-              <a
-                href={currentSong.itunesUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-2xl font-bold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
-              >
-                🎵 Listen on iTunes
-              </a>
-            </div>
-          )}
-        </div>
-      </div>
-    );
-  };
 
   return (
     <div className="w-full max-w-lg space-y-4">
@@ -127,8 +89,6 @@ export default function GameBoard({ gameState }: GameBoardProps) {
         
         return renderGuessRow(index, guess, isCorrect);
       })}
-
-      {renderGameResult()}
     </div>
   );
 }
