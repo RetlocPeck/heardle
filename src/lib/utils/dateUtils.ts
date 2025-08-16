@@ -4,23 +4,33 @@
 
 /**
  * Get today's date in YYYY-MM-DD format for daily song consistency
+ * Uses local timezone to ensure song changes at local midnight
  */
 export function getTodayString(): string {
-  return new Date().toISOString().split('T')[0];
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 /**
- * Get date string for a specific date
+ * Get date string for a specific date in local timezone
  */
 export function getDateString(date: Date): string {
-  return date.toISOString().split('T')[0];
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
 }
 
 /**
  * Parse a date string back to a Date object
+ * Creates date at local midnight
  */
 export function parseDateString(dateString: string): Date {
-  return new Date(dateString + 'T00:00:00.000Z');
+  const [year, month, day] = dateString.split('-').map(Number);
+  return new Date(year, month - 1, day, 0, 0, 0, 0);
 }
 
 /**
@@ -83,4 +93,51 @@ export function getWeekStart(dateString: string): string {
  */
 export function isSameWeek(date1: string, date2: string): boolean {
   return getWeekStart(date1) === getWeekStart(date2);
+}
+
+/**
+ * Get the next day's date string
+ */
+export function getNextDayString(): string {
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  return getDateString(tomorrow);
+}
+
+/**
+ * Get the previous day's date string
+ */
+export function getPreviousDayString(): string {
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  return getDateString(yesterday);
+}
+
+/**
+ * Check if a date string represents today in the user's local timezone
+ * This is the main function used throughout the app for daily song consistency
+ */
+export function isTodayInLocalTimezone(dateString: string): boolean {
+  return dateString === getTodayString();
+}
+
+/**
+ * Get the current local time in HH:MM format for debugging
+ */
+export function getCurrentLocalTime(): string {
+  const now = new Date();
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  return `${hours}:${minutes}`;
+}
+
+/**
+ * Get the time until next midnight in milliseconds
+ */
+export function getTimeUntilMidnight(): number {
+  const now = new Date();
+  const tomorrow = new Date(now);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(0, 0, 0, 0);
+  return tomorrow.getTime() - now.getTime();
 }

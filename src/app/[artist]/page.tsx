@@ -10,6 +10,7 @@ import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import StatisticsButton from '@/components/StatisticsButton';
+import { getTodayString } from '@/lib/utils/dateUtils';
 
 // Component to show daily challenge completion status
 function DailyChallengeStatus({ artistId }: { artistId: string }) {
@@ -167,7 +168,7 @@ export default function ArtistPage() {
             // Force update of the DailyChallengeStatus component
             if (gameState.isGameOver) {
               const event = new CustomEvent('daily-challenge-updated', {
-                detail: { artistId: artist.id, date: new Date().toISOString().split('T')[0], completed: gameState.isGameOver }
+                detail: { artistId: artist.id, date: getTodayString(), completed: gameState.isGameOver }
               });
               window.dispatchEvent(event);
               console.log(`📡 Artist page dispatched daily-challenge-updated event:`, event.detail);

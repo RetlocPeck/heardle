@@ -1,4 +1,5 @@
 import { GameState } from '@/lib/gameLogic';
+import { getTodayString, isTodayInLocalTimezone } from '@/lib/utils/dateUtils';
 
 export interface DailyChallengeData {
   date: string; // YYYY-MM-DD format
@@ -25,14 +26,14 @@ export class DailyChallengeStorage {
    * Get today's date in YYYY-MM-DD format
    */
   private getTodayDate(): string {
-    return new Date().toISOString().split('T')[0];
+    return getTodayString();
   }
 
   /**
    * Check if a date is today
    */
   private isToday(date: string): boolean {
-    return date === this.getTodayDate();
+    return isTodayInLocalTimezone(date);
   }
 
   /**

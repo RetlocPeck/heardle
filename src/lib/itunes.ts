@@ -336,9 +336,12 @@ export class ITunesService {
     const artist = this.configService.getArtist(artistId);
     console.log(`\n=== ITUNES DAILY SONG (${artist?.displayName}) ===`);
     console.log(`Date: ${date}, Seed: ${seed}`);
+    console.log(`Total songs available: ${songs.length}`);
+    console.log(`Selected song index: ${index}`);
     console.log(`Song: ${song.name}`);
     console.log(`Album: ${song.album}`);
     console.log(`Preview URL: ${song.previewUrl ? 'Available' : 'Not available'}`);
+    console.log(`Local timezone date used for song selection`);
     
     return song;
   }
