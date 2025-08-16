@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import ITunesService from '@/lib/itunes';
+import { getTodayString } from '@/lib/utils/dateUtils';
 
 export async function GET(
   request: Request,
@@ -8,7 +9,7 @@ export async function GET(
   try {
     const { artist } = await params;
     const itunesService = ITunesService.getInstance();
-    const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD format
+    const today = getTodayString(); // Uses local timezone
     const dailySong = await itunesService.getDailySong(today, artist);
     
     return NextResponse.json({ song: dailySong });
