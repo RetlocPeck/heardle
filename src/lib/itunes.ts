@@ -412,6 +412,48 @@ export class ITunesService {
     }
   }
 
+  // Check iTunes API pagination limits and get total available songs
+  async checkArtistPagination(artistId: string = 'twice'): Promise<{ totalAvailable: number; fetched: number; pages: number }> {
+    try {
+      const artist = this.configService.getArtist(artistId);
+      if (!artist) {
+        throw new Error(`Artist ${artistId} not found in configuration`);
+      }
+
+      console.log(`🔍 Checking pagination for ${artist.displayName} (ID: ${artist.itunesArtistId})`);
+      
+      // First, try to get the total count from a single request
+      const testUrl = `${this.lookupUrl}?id=${artist.itunesArtistId}&entity=song&limit=1`;
+      const testResponse = await fetch(testUrl);
+      
+      if (!testResponse.ok) {
+        throw new Error(`Failed to check pagination: ${testResponse.status}`);
+      }
+      
+      const testData: ITunesResponse = await testResponse.json();
+      const totalAvailable = testData.resultCount || 0;
+      
+      // Get the actual songs we have cached
+      const cachedSongs = this.availableTracks.get(artistId) || [];
+      const fetched = cachedSongs.length;
+      
+      // Calculate pages (assuming 200 per page)
+      const pages = Math.ceil(totalAvailable / 200);
+      
+      console.log(`📊 Pagination Info for ${artist.displayName}:`);
+      console.log(`   Total available on iTunes: ${totalAvailable}`);
+      console.log(`   Currently fetched: ${fetched}`);
+      console.log(`   Estimated pages: ${pages}`);
+      console.log(`   Coverage: ${((fetched / totalAvailable) * 100).toFixed(1)}%`);
+      
+      return { totalAvailable, fetched, pages };
+      
+    } catch (error) {
+      console.error('Failed to check artist pagination:', error);
+      return { totalAvailable: 0, fetched: 0, pages: 0 };
+    }
+  }
+
   // Clear cache and reload songs for an artist
   async refreshSongs(artistId: string = 'twice'): Promise<Song[]> {
     const artist = this.configService.getArtist(artistId);
@@ -428,6 +470,12 @@ export class ITunesService {
 
 
 
+}
+
+// Make the service available globally for debugging in development
+if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
+  (window as any).itunesService = ITunesService.getInstance();
+  console.log('🔧 iTunes service available globally as window.itunesService');
 }
 
 export default ITunesService;

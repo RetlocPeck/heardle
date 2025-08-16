@@ -16,11 +16,11 @@ export function clearAllDailyChallenges() {
 }
 
 // Show daily challenge stats
-export function showDailyChallengeStats() {
+export function showDailyChallengeStats(artistId: string = 'twice') {
   if (typeof window === 'undefined') return;
   
   const storage = DailyChallengeStorage.getInstance();
-  const stats = storage.getCompletionStats();
+  const stats = storage.getCompletionStats(artistId);
   console.log('📊 Daily Challenge Stats:', stats);
 }
 
@@ -122,6 +122,32 @@ export function generateSampleStatistics() {
   console.log('🎉 Sample statistics generated! Check the statistics modal to see the data.');
 }
 
+// iTunes debugging utilities
+export function checkITunesPagination(artistId: string = 'twice') {
+  if (typeof window === 'undefined') return;
+  
+  const itunesService = (window as any).itunesService;
+  if (itunesService) {
+    itunesService.checkArtistPagination(artistId);
+  } else {
+    console.log('🔧 iTunes service not available. Use window.itunesService.* to access it.');
+  }
+}
+
+export function refreshITunesSongs(artistId: string = 'twice') {
+  if (typeof window === 'undefined') return;
+  
+  const itunesService = (window as any).itunesService;
+  if (itunesService) {
+    console.log(`🔄 Refreshing iTunes songs for ${artistId}...`);
+    itunesService.refreshSongs(artistId).then((songs: any[]) => {
+      console.log(`✅ Refreshed ${songs.length} songs for ${artistId}`);
+    });
+  } else {
+    console.log('🔧 iTunes service not available. Use window.itunesService.* to access it.');
+  }
+}
+
 // Make functions available globally for debugging
 if (typeof window !== 'undefined') {
   (window as any).debugUtils = {
@@ -132,17 +158,21 @@ if (typeof window !== 'undefined') {
     showStatistics,
     clearAllStatistics,
     simulatePracticeGames,
-    generateSampleStatistics
+    generateSampleStatistics,
+    checkITunesPagination,
+    refreshITunesSongs
   };
   
   console.log('🔧 Debug utilities loaded. Use window.debugUtils.* to access them.');
   console.log('Available functions:');
   console.log('- clearAllDailyChallenges()');
-  console.log('- showDailyChallengeStats()');
+  console.log('- showDailyChallengeStats(artistId?)');
   console.log('- checkTodayCompletion(artistId)');
   console.log('- simulateCompletedChallenge(artistId, hasWon, tries)');
   console.log('- showStatistics(artistId?)');
   console.log('- clearAllStatistics()');
   console.log('- simulatePracticeGames(artistId, count)');
   console.log('- generateSampleStatistics()');
+  console.log('- checkITunesPagination(artistId?)');
+  console.log('- refreshITunesSongs(artistId?)');
 }

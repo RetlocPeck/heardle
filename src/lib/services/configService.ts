@@ -112,7 +112,6 @@ export class ConfigService {
     return ARTISTS.filter(artist =>
       artist.name.toLowerCase().includes(searchTerm) ||
       artist.displayName.toLowerCase().includes(searchTerm) ||
-      artist.metadata.description.toLowerCase().includes(searchTerm) ||
       artist.searchTerms.some(term => term.toLowerCase().includes(searchTerm))
     );
   }
