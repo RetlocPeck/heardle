@@ -68,6 +68,15 @@ body {
   }
 }
 
+@keyframes featured-glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(245, 158, 11, 0.9), 0 0 35px rgba(245, 158, 11, 0.6);
+  }
+}
+
 .animate-blob {
   animation: blob 7s infinite;
 }
@@ -86,6 +95,10 @@ body {
 
 .animate-glow {
   animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animate-featured-glow {
+  animation: featured-glow 3s ease-in-out infinite alternate;
 }
 
 /* Custom scrollbar for webkit browsers */
