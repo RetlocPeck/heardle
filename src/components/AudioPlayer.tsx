@@ -130,14 +130,27 @@ export default function AudioPlayer({
     // Ensure audio is properly reset and stopped
     audio.pause();
     audio.currentTime = 0;
-    audio.load(); // Reload to ensure clean state
     
     // Reset playing state to ensure button shows play
     setIsPlaying(false);
     setCurrentTime(0);
 
+    // Set audio attributes to prevent autoplay
+    audio.preload = 'metadata';
+    audio.muted = true; // Mute while setting up to prevent any audio output
+    
     // Set the audio source
     audio.src = song.previewUrl;
+    
+    // Load the audio without playing
+    audio.load();
+    
+    // Unmute after a brief delay to ensure setup is complete
+    setTimeout(() => {
+      if (audio) {
+        audio.muted = false;
+      }
+    }, 100);
     
     // Set a timeout to stop the audio after the specified duration
     timeoutRef.current = setTimeout(() => {
@@ -200,17 +213,29 @@ export default function AudioPlayer({
           timeoutRef.current = null;
         }
         
-        // Set audio source and play full preview
+        // Set audio attributes to prevent autoplay during setup
+        audio.preload = 'metadata';
+        audio.muted = true;
+        
+        // Set audio source and prepare
         audio.src = song.previewUrl;
         audio.currentTime = 0;
-        audio.play().catch((error) => {
-          // Handle AbortError gracefully (audio was interrupted)
-          if (error.name !== 'AbortError') {
-            console.error('Audio auto-play error:', error);
+        audio.load();
+        
+        // Unmute and play after setup
+        setTimeout(() => {
+          if (audio) {
+            audio.muted = false;
+            audio.play().catch((error) => {
+              // Handle AbortError gracefully (audio was interrupted)
+              if (error.name !== 'AbortError') {
+                console.error('Audio auto-play error:', error);
+              }
+            });
+            setIsPlaying(true);
+            onPlay?.();
           }
-        });
-        setIsPlaying(true);
-        onPlay?.();
+        }, 100);
       }
     }
   }, [isGameWon, disabled, song.previewUrl]);
@@ -480,7 +505,13 @@ export default function AudioPlayer({
         )}
       </button>
 
-      <audio ref={audioRef} preload="metadata" />
+      <audio 
+        ref={audioRef} 
+        preload="metadata" 
+        muted={true}
+        autoPlay={false}
+        playsInline={true}
+      />
     </div>
   );
 }
