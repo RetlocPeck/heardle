@@ -1,6 +1,7 @@
 import { Song, ITunesTrack, ITunesResponse, convertITunesTrackToSong } from '@/types/song';
 import { ConfigService } from '@/lib/services/configService';
 import { hashCode } from '@/lib/utils/stringUtils';
+import { deduplicateSongVersions, FilteredTrack } from '@/lib/utils/songDeduplication';
 
 // Re-export Song type for backward compatibility during transition
 export type TWICESong = Song;
@@ -186,85 +187,117 @@ export class ITunesService {
     const artist = this.configService.getArtist(artistId);
     if (!artist) return;
 
-    // Filter for valid songs with enhanced filtering
-    const validTracks = tracks.filter((track: ITunesTrack) => {
-      if (!track.trackName || !track.previewUrl) {
-        return false;
-      }
-      
-      const trackName = track.trackName.toLowerCase();
-      const originalTrackName = track.trackName; // Keep original for case-sensitive checks
+    // Enhanced filtering with hard filtering + smart deduplication
+    const filteredOutTracks: FilteredTrack[] = [];
+    const validTracks: ITunesTrack[] = [];
+
+    // Step 1: Hard filtering for known bad patterns
+    tracks.forEach((track: ITunesTrack) => {
+      const originalTrackName = track.trackName;
+      const trackName = track.trackName?.toLowerCase() || '';
       const collectionName = track.collectionName?.toLowerCase() || '';
       
-      // 1. Exclude tracks with square brackets anywhere in the title
+      // Check 1: Missing track name or preview URL
+      if (!track.trackName || !track.previewUrl) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: `Missing ${!track.trackName ? 'track name' : 'preview URL'}` 
+        });
+        return;
+      }
+      
+      // Check 2: Square brackets anywhere in the title
       if (/\[.*\]/.test(originalTrackName)) {
-        return false;
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains square brackets [...]' 
+        });
+        return;
       }
       
-      // 2. Exclude tracks with "ver." anywhere in the song name
+      // Check 3: "ver." anywhere in the song name
       if (/ver\./i.test(originalTrackName)) {
-        return false;
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains "ver." anywhere in title' 
+        });
+        return;
       }
       
-      // 3. Exclude tracks with unwanted words between hyphens - -
+      // Check 4: Unwanted words between hyphens - -
       const hyphenPattern = /-\s*(version|ver\.|japanese|kor|korean|english|eng|instrumental|inst\.|remix|mix|edit)\s*-/i;
-      if (hyphenPattern.test(originalTrackName)) {
-        return false;
+      const hyphenMatch = hyphenPattern.exec(originalTrackName);
+      if (hyphenMatch) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: `Contains "${hyphenMatch[1]}" between hyphens` 
+        });
+        return;
       }
       
-      // 4. Exclude unwanted patterns in parentheses or brackets
+      // Check 5: Unwanted patterns in parentheses or brackets (HARD FILTER)
       const unwantedPatterns = [
         'remix', 'version', 'ver\\.', 'edit', 'mixed', 'mix', 'instrumental', 'inst\\.',
         'japanese', 'korean', 'english', 'kor', 'eng', 'jap'
       ];
       
-      const hasUnwantedPattern = unwantedPatterns.some(pattern => {
-        // Look for patterns inside parentheses: (remix), (version), etc.
+      let foundUnwantedPattern = false;
+      let unwantedReason = '';
+      
+      for (const pattern of unwantedPatterns) {
         const inParentheses = new RegExp(`\\([^)]*${pattern}[^)]*\\)`, 'i');
-        // Look for patterns inside square brackets: [remix], [version], etc.
         const inBrackets = new RegExp(`\\[[^\\]]*${pattern}[^\\]]*\\]`, 'i');
         
-        return inParentheses.test(trackName) || inBrackets.test(trackName);
-      });
-      
-      if (hasUnwantedPattern) {
-        return false;
+        if (inParentheses.test(trackName)) {
+          foundUnwantedPattern = true;
+          unwantedReason = `Contains "${pattern.replace('\\\\', '')}" in parentheses`;
+          break;
+        }
+        
+        if (inBrackets.test(trackName)) {
+          foundUnwantedPattern = true;
+          unwantedReason = `Contains "${pattern.replace('\\\\', '')}" in brackets`;
+          break;
+        }
       }
       
-      // 5. Exclude albums with remix in parentheses
+      if (foundUnwantedPattern) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: unwantedReason 
+        });
+        return;
+      }
+      
+      // Check 6: Albums with remix in parentheses
       const hasRemixInAlbumParentheses = /\([^)]*remix[^)]*\)/i.test(collectionName);
       if (hasRemixInAlbumParentheses) {
-        return false;
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Album contains "remix" in parentheses' 
+        });
+        return;
       }
       
-      return true;
+      // If we get here, the track passed all hard filters
+      validTracks.push(track);
     });
 
-    console.log(`🔍 Filtered to ${validTracks.length} valid ${artist.displayName} tracks`);
+    // Step 2: Smart deduplication - remove duplicate versions and keep the best one
+    const deduplicatedTracks = deduplicateSongVersions(validTracks, filteredOutTracks);
 
-    // Remove duplicates based on track ID first
-    const uniqueById = validTracks.filter((track, index, self) =>
+    console.log(`🎵 ${artist.displayName}: ${tracks.length} → ${deduplicatedTracks.length} songs (${((deduplicatedTracks.length / tracks.length) * 100).toFixed(1)}% kept)`);
+
+    // Remove duplicates based on track ID (final safety check)
+    const uniqueById = deduplicatedTracks.filter((track, index, self) =>
       index === self.findIndex(t => t.trackId === track.trackId)
     );
-
-    console.log(`✨ Found ${uniqueById.length} unique tracks by ID`);
 
     // Convert to our format with proper validation
     const processedTracks = uniqueById.map(track => convertITunesTrackToSong(track));
 
     this.availableTracks.set(artistId, processedTracks);
-    console.log(`✅ iTunes: Successfully loaded ${processedTracks.length} ${artist.displayName} tracks`);
-    
-    // Log some sample tracks for verification
-    if (processedTracks.length > 0) {
-      console.log(`📋 Sample ${artist.displayName} tracks loaded:`);
-      processedTracks.slice(0, 5).forEach((track, index) => {
-        console.log(`  ${index + 1}. ${track.name} - ${track.album}`);
-      });
-      if (processedTracks.length > 5) {
-        console.log(`  ... and ${processedTracks.length - 5} more tracks`);
-      }
-    }
+    console.log(`✅ ${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs`);
   }
 
   async getRandomSong(artistId: string = 'twice'): Promise<Song> {
@@ -391,6 +424,8 @@ export class ITunesService {
   getAvailableArtists() {
     return this.configService.getAllArtists();
   }
+
+
 
 
 }
