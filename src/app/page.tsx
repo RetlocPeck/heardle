@@ -11,9 +11,9 @@ export default function HomePage() {
 
   const allArtists = getArtistsSorted();
   const filteredArtists = allArtists.filter(artist =>
-    artist.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.displayName.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.searchTerms.some(term => term.toLowerCase().includes(searchTerm.toLowerCase()))
+    artist.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+    artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+    artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
   );
 
   return (
