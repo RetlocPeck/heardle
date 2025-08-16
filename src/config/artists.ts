@@ -10,7 +10,6 @@ export interface ArtistTheme {
 }
 
 export interface ArtistMetadata {
-  description: string;
   imageUrl: string;
   songCount: number;
   releaseYear: number;
@@ -44,7 +43,6 @@ export const ARTISTS: ArtistConfig[] = [
       textColor: 'text-pink-800'
     },
     metadata: {
-      description: 'K-pop girl group known for their catchy songs and energetic performances',
       imageUrl: '/groups/twice.jpg',
       songCount: 100,
       releaseYear: 2015
@@ -67,7 +65,6 @@ export const ARTISTS: ArtistConfig[] = [
       textColor: 'text-purple-800'
     },
     metadata: {
-      description: 'Dynamic K-pop quintet specializing in self-assured, bass-heavy dance-pop',
       imageUrl: '/groups/lesserafim.jpg',
       songCount: 50,
       releaseYear: 2022
@@ -90,7 +87,6 @@ export const ARTISTS: ArtistConfig[] = [
       textColor: 'text-orange-800'
     },
     metadata: {
-      description: 'Fierce K-pop girl group known for their teen crush concept and empowering anthems',
       imageUrl: '/groups/itzy.jpg',
       songCount: 40,
       releaseYear: 2019
@@ -147,10 +143,6 @@ export function validateArtistConfig(config: ArtistConfig): string[] {
   }
   
   // Validate metadata properties
-  if (!config.metadata.description || config.metadata.description.trim() === '') {
-    errors.push('Artist description is required');
-  }
-  
   if (!config.metadata.imageUrl || config.metadata.imageUrl.trim() === '') {
     errors.push('Artist image URL is required');
   }

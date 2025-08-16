@@ -10,7 +10,8 @@ export default function HomePage() {
 
   const filteredArtists = ARTISTS.filter(artist =>
     artist.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    artist.metadata.description.toLowerCase().includes(searchTerm.toLowerCase())
+    artist.displayName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    artist.searchTerms.some(term => term.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
   return (
@@ -74,7 +75,7 @@ export default function HomePage() {
         </div>
 
         {/* Artists Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid gap-6 mx-auto px-4 max-w-none" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))' }}>
           {filteredArtists.map((artist, index) => (
             <div
               key={artist.id}
@@ -122,9 +123,7 @@ export default function HomePage() {
                     {artist.displayName}
                   </h3>
                   
-                  <p className="text-white/80 mb-6 leading-relaxed">
-                    {artist.metadata.description}
-                  </p>
+
 
                   {/* Play Button */}
                   <Link
