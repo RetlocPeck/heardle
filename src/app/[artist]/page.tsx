@@ -8,6 +8,68 @@ import DynamicHeardle from '@/components/DynamicHeardle';
 import { PageLoadingSpinner } from '@/components/ui/LoadingSpinner';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
+
+// Component to show daily challenge completion status
+function DailyChallengeStatus({ artistId }: { artistId: string }) {
+  const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
+  
+  useEffect(() => {
+    const storage = DailyChallengeStorage.getInstance();
+    const isCompleted = storage.isDailyChallengeCompleted(artistId);
+    const challenge = storage.loadDailyChallenge(artistId);
+    const hasWon = challenge?.gameState.hasWon || false;
+    
+    setChallengeData({ isCompleted, hasWon });
+    
+    // Listen for storage changes to update the status immediately
+    const handleStorageChange = () => {
+      const newIsCompleted = storage.isDailyChallengeCompleted(artistId);
+      const newChallenge = storage.loadDailyChallenge(artistId);
+      const newHasWon = newChallenge?.gameState.hasWon || false;
+      
+      console.log(`📡 DailyChallengeStatus received event, updating status for ${artistId}:`, { isCompleted: newIsCompleted, hasWon: newHasWon });
+      setChallengeData({ isCompleted: newIsCompleted, hasWon: newHasWon });
+    };
+    
+    // Listen for custom storage event
+    window.addEventListener('daily-challenge-updated', handleStorageChange);
+    
+    return () => {
+      window.removeEventListener('daily-challenge-updated', handleStorageChange);
+    };
+  }, [artistId]);
+  
+  if (!challengeData) {
+    return (
+      <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
+        <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
+      </div>
+    );
+  }
+  
+  if (challengeData.isCompleted) {
+    if (challengeData.hasWon) {
+      return (
+        <div className="mt-2 inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
+          <span className="text-green-300 text-sm font-medium">✅ Daily Challenge Completed</span>
+        </div>
+      );
+    } else {
+      return (
+        <div className="mt-2 inline-flex items-center px-3 py-1 bg-red-500/20 border border-red-400/30 rounded-full">
+          <span className="text-red-300 text-sm font-medium">❌ Daily Challenge Failed</span>
+        </div>
+      );
+    }
+  }
+  
+  return (
+    <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
+      <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
+    </div>
+  );
+}
 
 export default function ArtistPage() {
   const params = useParams();
@@ -32,11 +94,11 @@ export default function ArtistPage() {
   if (!artist) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        </div>
+                 {/* Animated Background Elements */}
+         <div className="absolute inset-0 overflow-hidden">
+           <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/30 rounded-full filter blur-xl opacity-70 animate-blob"></div>
+           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+         </div>
         <div className="relative z-10 text-center">
           <div className="backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20 p-12">
             <h1 className="text-5xl font-bold text-white mb-6">Artist Not Found</h1>
@@ -55,12 +117,12 @@ export default function ArtistPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-      </div>
+               {/* Animated Background Elements */}
+         <div className="absolute inset-0 overflow-hidden">
+           <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/30 rounded-full filter blur-xl opacity-70 animate-blob"></div>
+           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+           <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+         </div>
 
       {/* Header */}
       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
@@ -79,6 +141,11 @@ export default function ArtistPage() {
                 {artist.displayName} Heardle
               </h1>
               <p className="text-white/80 font-medium">Test your {artist.displayName} knowledge! 🎵</p>
+              
+              {/* Daily Challenge Status */}
+              {selectedMode === 'daily' && (
+                <DailyChallengeStatus artistId={artist.id} />
+              )}
             </div>
             <div className="w-32"></div> {/* Spacer for centering */}
           </div>
@@ -91,7 +158,19 @@ export default function ArtistPage() {
           selectedMode={selectedMode} 
           onModeChange={setSelectedMode} 
         />
-        <DynamicHeardle mode={selectedMode} />
+        <DynamicHeardle 
+          mode={selectedMode} 
+          onGameStateChange={(gameState) => {
+            // Force update of the DailyChallengeStatus component
+            if (gameState.isGameOver) {
+              const event = new CustomEvent('daily-challenge-updated', {
+                detail: { artistId: artist.id, date: new Date().toISOString().split('T')[0], completed: gameState.isGameOver }
+              });
+              window.dispatchEvent(event);
+              console.log(`📡 Artist page dispatched daily-challenge-updated event:`, event.detail);
+            }
+          }}
+        />
       </div>
     </div>
   );

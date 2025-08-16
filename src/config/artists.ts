@@ -91,6 +91,28 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 40,
       releaseYear: 2019
     }
+  },
+  {
+    id: 'bts',
+    name: 'BTS',
+    displayName: 'BTS',
+    itunesArtistId: '883131348',
+    searchTerms: ['BTS', '방탄소년단', 'Bangtan Boys', 'Beyond The Scene'],
+    theme: {
+      primaryColor: 'purple',
+      gradientFrom: 'from-purple-600',
+      gradientTo: 'to-blue-600',
+      accentColor: 'bg-purple-600 hover:bg-purple-700',
+      spinnerColor: 'border-purple-400',
+      borderColor: 'border-purple-400',
+      bgColor: 'bg-purple-50',
+      textColor: 'text-purple-800'
+    },
+    metadata: {
+      imageUrl: '/groups/bts.jpg',
+      songCount: 150,
+      releaseYear: 2013
+    }
   }
 ];
 

@@ -27,12 +27,17 @@ export default function AudioPlayer({
   const [currentTime, setCurrentTime] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const animationFrameRef = useRef<number | null>(null);
+  const lastUpdateTimeRef = useRef<number>(0);
 
   // Clear any existing timeout when component unmounts or duration changes
   useEffect(() => {
     return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
+      }
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
       }
     };
   }, [duration]);
@@ -67,6 +72,41 @@ export default function AudioPlayer({
     };
   }, []);
 
+  // Smooth progress animation using requestAnimationFrame
+  useEffect(() => {
+    if (!isPlaying || !song.previewUrl) {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+        animationFrameRef.current = null;
+      }
+      return;
+    }
+
+    const animateProgress = (timestamp: number) => {
+      if (!animationFrameRef.current) return;
+      
+      const audio = audioRef.current;
+      if (!audio) return;
+
+      // Update every 16ms (60fps) for smooth animation
+      if (timestamp - lastUpdateTimeRef.current >= 16) {
+        setCurrentTime(audio.currentTime);
+        lastUpdateTimeRef.current = timestamp;
+      }
+
+      animationFrameRef.current = requestAnimationFrame(animateProgress);
+    };
+
+    animationFrameRef.current = requestAnimationFrame(animateProgress);
+
+    return () => {
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+        animationFrameRef.current = null;
+      }
+    };
+  }, [isPlaying, song.previewUrl]);
+
   // Handle audio source and duration control
   useEffect(() => {
     const audio = audioRef.current;
@@ -87,9 +127,17 @@ export default function AudioPlayer({
       timeoutRef.current = null;
     }
 
+    // Ensure audio is properly reset and stopped
+    audio.pause();
+    audio.currentTime = 0;
+    audio.load(); // Reload to ensure clean state
+    
+    // Reset playing state to ensure button shows play
+    setIsPlaying(false);
+    setCurrentTime(0);
+
     // Set the audio source
     audio.src = song.previewUrl;
-    audio.currentTime = 0;
     
     // Set a timeout to stop the audio after the specified duration
     timeoutRef.current = setTimeout(() => {
@@ -155,12 +203,53 @@ export default function AudioPlayer({
         // Set audio source and play full preview
         audio.src = song.previewUrl;
         audio.currentTime = 0;
-        audio.play().catch(console.error);
+        audio.play().catch((error) => {
+          // Handle AbortError gracefully (audio was interrupted)
+          if (error.name !== 'AbortError') {
+            console.error('Audio auto-play error:', error);
+          }
+        });
         setIsPlaying(true);
         onPlay?.();
       }
     }
   }, [isGameWon, disabled, song.previewUrl]);
+
+  // Reset audio state when song changes (e.g., loading saved game)
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+    
+         // Add a small delay to prevent rapid state changes
+     const timeoutId = setTimeout(() => {
+       // Reset audio state when song changes
+       audio.pause();
+       audio.currentTime = 0;
+       audio.load();
+       setIsPlaying(false);
+       setCurrentTime(0);
+       
+       // Clear any existing timeout
+       if (timeoutRef.current) {
+         clearTimeout(timeoutRef.current);
+         timeoutRef.current = null;
+       }
+       
+       // Clear animation frame
+       if (animationFrameRef.current) {
+         cancelAnimationFrame(animationFrameRef.current);
+         animationFrameRef.current = null;
+       }
+     }, 100); // 100ms delay to prevent rapid state changes
+     
+     return () => {
+       clearTimeout(timeoutId);
+       if (animationFrameRef.current) {
+         cancelAnimationFrame(animationFrameRef.current);
+         animationFrameRef.current = null;
+       }
+     };
+  }, [song.id]); // Only reset when song ID changes
 
   const togglePlay = () => {
     const audio = audioRef.current;
@@ -176,7 +265,12 @@ export default function AudioPlayer({
       } else {
         audio.currentTime = 0;
         setCurrentTime(0);
-        audio.play().catch(console.error);
+        audio.play().catch((error) => {
+          // Handle AbortError gracefully (audio was interrupted)
+          if (error.name !== 'AbortError') {
+            console.error('Audio play error:', error);
+          }
+        });
         setIsPlaying(true);
         onPlay?.();
       }
@@ -203,7 +297,12 @@ export default function AudioPlayer({
       if (isGameWon) {
         // For full preview (game won), no timeout - let it play to the end
         console.log('🎵 AudioPlayer: Playing full preview (game won)');
-        audio.play().catch(console.error);
+        audio.play().catch((error) => {
+          // Handle AbortError gracefully (audio was interrupted)
+          if (error.name !== 'AbortError') {
+            console.error('Audio play error:', error);
+          }
+        });
         setIsPlaying(true);
         onPlay?.();
       } else {
@@ -225,7 +324,12 @@ export default function AudioPlayer({
           timeoutRef.current = null;
         }, duration);
         
-        audio.play().catch(console.error);
+        audio.play().catch((error) => {
+          // Handle AbortError gracefully (audio was interrupted)
+          if (error.name !== 'AbortError') {
+            console.error('Audio play error:', error);
+          }
+        });
         setIsPlaying(true);
         onPlay?.();
       }
@@ -239,8 +343,9 @@ export default function AudioPlayer({
   };
 
   // Calculate progress based on current time vs duration
+  // Ensure progress reaches 100% before disappearing by using a small buffer
   const progress = duration > 0 ? Math.min((currentTime / (duration / 1000)) * 100, 100) : 0;
-
+  
   // For full preview (game won or over), calculate progress based on actual preview duration (30 seconds)
   const fullPreviewProgress = (isGameWon || disabled) 
     ? Math.min((currentTime / 30) * 100, 100) 
@@ -249,6 +354,9 @@ export default function AudioPlayer({
   // Use full preview progress when game is won or over, otherwise use limited duration progress
   const displayProgress = (isGameWon || disabled) ? fullPreviewProgress : progress;
   const displayDuration = (isGameWon || disabled) ? 30 : duration / 1000;
+
+  // Ensure progress bar reaches 100% by adding a small buffer
+  const smoothProgress = Math.min(displayProgress, 100);
 
   if (!song.previewUrl) {
     return (
@@ -311,35 +419,35 @@ export default function AudioPlayer({
         </p>
       </div>
 
-      {(isGameWon || disabled) && (
-        <div className="relative w-full max-w-sm">
-          <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm">
-            <div 
-              className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-100 shadow-lg"
-              style={{ width: `${fullPreviewProgress}%` }}
-            />
-          </div>
-          <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
-            <span>{formatTime(currentTime)}</span>
-            <span>{formatTime(30)}</span>
-          </div>
-        </div>
-      )}
-      
-      {!isGameWon && !disabled && (
-        <div className="relative w-full max-w-sm">
-          <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm">
-            <div 
-              className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-100 shadow-lg"
-              style={{ width: `${progress}%` }}
-            />
-          </div>
-          <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
-            <span>{formatTime(currentTime)}</span>
-            <span>{formatTime(duration / 1000)}</span>
-          </div>
-        </div>
-      )}
+                    {(isGameWon || disabled) && (
+         <div className="relative w-full max-w-sm">
+           <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
+             <div 
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-75 ease-out shadow-lg"
+               style={{ width: `${smoothProgress}%` }}
+             />
+           </div>
+           <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
+             <span>{formatTime(currentTime)}</span>
+             <span>{formatTime(30)}</span>
+           </div>
+         </div>
+       )}
+       
+              {!isGameWon && !disabled && (
+         <div className="relative w-full max-w-sm">
+           <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
+             <div 
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-75 ease-out shadow-lg"
+               style={{ width: `${smoothProgress}%` }}
+             />
+           </div>
+           <div className="flex justify-between text-sm text-white/60 mt-2 font-medium">
+             <span>{formatTime(currentTime)}</span>
+             <span>{formatTime(duration / 1000)}</span>
+           </div>
+         </div>
+       )}
 
       <button
         onClick={togglePlay}
