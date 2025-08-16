@@ -113,6 +113,160 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 150,
       releaseYear: 2013
     }
+  },
+  {
+    id: 'kpop-demon-hunters',
+    name: 'Kpop Demon Hunters',
+    displayName: 'Kpop Demon Hunters',
+    itunesArtistId: '1820264140',
+    searchTerms: ['Kpop Demon Hunters', 'K-pop Demon Hunters'],
+    theme: {
+      primaryColor: 'red',
+      gradientFrom: 'from-red-600',
+      gradientTo: 'to-red-800',
+      accentColor: 'bg-red-600 hover:bg-red-700',
+      spinnerColor: 'border-red-500',
+      borderColor: 'border-red-500',
+      bgColor: 'bg-red-50',
+      textColor: 'text-red-800'
+    },
+    metadata: {
+      imageUrl: '/groups/kpop-demon-hunters.jpg',
+      songCount: 30,
+      releaseYear: 2025
+    }
+  },
+  {
+    id: 'blackpink',
+    name: 'BLACKPINK',
+    displayName: 'BLACKPINK',
+    itunesArtistId: '1141774019',
+    searchTerms: ['BLACKPINK', '블랙핑크', 'Black Pink'],
+    theme: {
+      primaryColor: 'black',
+      gradientFrom: 'from-gray-800',
+      gradientTo: 'to-black',
+      accentColor: 'bg-black hover:bg-gray-800',
+      spinnerColor: 'border-gray-600',
+      borderColor: 'border-gray-600',
+      bgColor: 'bg-gray-50',
+      textColor: 'text-gray-800'
+    },
+    metadata: {
+      imageUrl: '/groups/blackpink.jpg',
+      songCount: 60,
+      releaseYear: 2016
+    }
+  },
+  {
+    id: 'aespa',
+    name: 'aespa',
+    displayName: 'aespa',
+    itunesArtistId: '1540251304',
+    searchTerms: ['aespa', '에스파', 'AESPA'],
+    theme: {
+      primaryColor: 'blue',
+      gradientFrom: 'from-blue-500',
+      gradientTo: 'to-cyan-600',
+      accentColor: 'bg-blue-500 hover:bg-blue-600',
+      spinnerColor: 'border-blue-400',
+      borderColor: 'border-blue-400',
+      bgColor: 'bg-blue-50',
+      textColor: 'text-blue-800'
+    },
+    metadata: {
+      imageUrl: '/groups/aespa.jpg',
+      songCount: 35,
+      releaseYear: 2020
+    }
+  },
+  {
+    id: 'dreamcatcher',
+    name: 'Dreamcatcher',
+    displayName: 'Dreamcatcher',
+    itunesArtistId: '1194912387',
+    searchTerms: ['Dreamcatcher', '드림캐쳐', 'Dream Catcher'],
+    theme: {
+      primaryColor: 'indigo',
+      gradientFrom: 'from-indigo-600',
+      gradientTo: 'to-purple-700',
+      accentColor: 'bg-indigo-600 hover:bg-indigo-700',
+      spinnerColor: 'border-indigo-500',
+      borderColor: 'border-indigo-500',
+      bgColor: 'bg-indigo-50',
+      textColor: 'text-indigo-800'
+    },
+    metadata: {
+      imageUrl: '/groups/dreamcatcher.jpg',
+      songCount: 45,
+      releaseYear: 2017
+    }
+  },
+  {
+    id: 'newjeans',
+    name: 'NewJeans',
+    displayName: 'NewJeans',
+    itunesArtistId: '1635469693',
+    searchTerms: ['NewJeans', '뉴진스', 'New Jeans'],
+    theme: {
+      primaryColor: 'green',
+      gradientFrom: 'from-green-500',
+      gradientTo: 'to-emerald-600',
+      accentColor: 'bg-green-500 hover:bg-green-600',
+      spinnerColor: 'border-green-400',
+      borderColor: 'border-green-400',
+      bgColor: 'bg-green-50',
+      textColor: 'text-green-800'
+    },
+    metadata: {
+      imageUrl: '/groups/newjeans.jpg',
+      songCount: 25,
+      releaseYear: 2022
+    }
+  },
+  {
+    id: 'ive',
+    name: 'IVE',
+    displayName: 'IVE',
+    itunesArtistId: '1594159996',
+    searchTerms: ['IVE', '아이브', 'Ive'],
+    theme: {
+      primaryColor: 'rose',
+      gradientFrom: 'from-rose-500',
+      gradientTo: 'to-pink-600',
+      accentColor: 'bg-rose-500 hover:bg-rose-600',
+      spinnerColor: 'border-rose-400',
+      borderColor: 'border-rose-400',
+      bgColor: 'bg-rose-50',
+      textColor: 'text-rose-800'
+    },
+    metadata: {
+      imageUrl: '/groups/ive.jpg',
+      songCount: 30,
+      releaseYear: 2021
+    }
+  },
+  {
+    id: 'red-velvet',
+    name: 'Red Velvet',
+    displayName: 'Red Velvet',
+    itunesArtistId: '906961899',
+    searchTerms: ['Red Velvet', '레드벨벳', 'RedVelvet'],
+    theme: {
+      primaryColor: 'red',
+      gradientFrom: 'from-red-500',
+      gradientTo: 'to-pink-600',
+      accentColor: 'bg-red-500 hover:bg-red-600',
+      spinnerColor: 'border-red-400',
+      borderColor: 'border-red-400',
+      bgColor: 'bg-red-50',
+      textColor: 'text-red-800'
+    },
+    metadata: {
+      imageUrl: '/groups/red-velvet.jpg',
+      songCount: 80,
+      releaseYear: 2014
+    }
   }
 ];
 
