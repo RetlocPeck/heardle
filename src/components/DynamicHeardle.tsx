@@ -12,6 +12,7 @@ import ErrorBoundary from './ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
+import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -127,6 +128,18 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
     }
     
+    // Record statistics when game ends
+    if (newGameState.isGameOver && currentSong) {
+      const statsStorage = StatisticsStorage.getInstance();
+      const tries = newGameState.currentTry + 1; // +1 because currentTry is 0-indexed
+      
+      if (mode === 'daily') {
+        statsStorage.recordDailyChallenge(params.artist as string, newGameState.hasWon, tries);
+      } else {
+        statsStorage.recordPracticeGame(params.artist as string, newGameState.hasWon, tries);
+      }
+    }
+    
     // Notify parent component of game state change
     onGameStateChange?.(newGameState);
     
@@ -143,9 +156,21 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     setGameState(newGameState);
     
     // Save daily challenge state if in daily mode
-    if (mode && currentSong) {
+    if (mode === 'daily' && currentSong) {
       const storage = DailyChallengeStorage.getInstance();
       storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
+    }
+    
+    // Record statistics when game ends
+    if (newGameState.isGameOver && currentSong) {
+      const statsStorage = StatisticsStorage.getInstance();
+      const tries = newGameState.currentTry + 1; // +1 because currentTry is 0-indexed
+      
+      if (mode === 'daily') {
+        statsStorage.recordDailyChallenge(params.artist as string, newGameState.hasWon, tries);
+      } else {
+        statsStorage.recordPracticeGame(params.artist as string, newGameState.hasWon, tries);
+      }
     }
     
     // Notify parent component of game state change
@@ -219,7 +244,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
               {artist.displayName} Heardle
             </h1>
             <p className="text-white text-lg lg:text-xl">
-              {mode === 'daily' ? '🌟 Daily Challenge' : '🎮 Practice Mode'}
+              {mode === 'daily' ? '📅 Daily Challenge' : '🎮 Practice Mode'}
               {mode === 'daily' && <span className="text-white/60 ml-2">• New song every day at midnight</span>}
             </p>
           </div>
