@@ -136,7 +136,7 @@ export default function HomePage() {
                   >
                     <span className="relative z-10 flex items-center justify-center space-x-2">
                       <span className="text-xl">🎯</span>
-                      <span>Play {artist.displayName} Heardle</span>
+                      <span>Play Heardle</span>
                     </span>
                     <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
                   </Link>
