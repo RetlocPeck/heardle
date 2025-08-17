@@ -78,7 +78,8 @@ export class ITunesClient {
    * NEW: paginate by artistId using search (filter on artistId) - with flexible filtering
    */
   async searchAllByArtistId(artistId: number, displayName: string, opts: PageOpts = {}): Promise<any[]> {
-    const { limit = 200, countries = ['US','JP','KR','GB','CA'] } = opts;
+    // Search across multiple countries for maximum coverage
+    const { limit = 200, countries = ['US', 'JP', 'KR', 'GB', 'CA'] } = opts;
     const all: any[] = [];
     const seen = new Set<number>();
 

@@ -80,7 +80,7 @@ export class ITunesService {
       return [];
     }
 
-    DebugHelper.info(`Looking up iTunes for ALL ${artist.displayName} tracks using search-based pagination...`);
+    DebugHelper.info(`Looking up iTunes for ALL ${artist.displayName} tracks using multi-country search-based pagination...`);
 
     try {
       // Use search pipeline to execute strategies with pagination
@@ -116,7 +116,7 @@ export class ITunesService {
     const processedTracks = filteredTracks.map(track => convertITunesTrackToSong(track));
 
     this.repository.set(artistId, processedTracks);
-    DebugHelper.success(`${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs with search-based pagination`);
+    DebugHelper.success(`${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs with multi-country search-based pagination`);
   }
 
   async getRandomSong(artistId: string): Promise<Song> {
@@ -271,7 +271,7 @@ export class ITunesService {
   // Clear cache and reload songs for an artist
   async refreshSongs(artistId: string): Promise<Song[]> {
     const artist = this.configService.getArtist(artistId);
-    DebugHelper.info(`Refreshing ${artist?.displayName} songs from iTunes with search-based pagination...`);
+    DebugHelper.info(`Refreshing ${artist?.displayName} songs from iTunes with multi-country search-based pagination...`);
     this.repository.delete(artistId);
     return await this.searchSongs(artistId);
   }

@@ -7,17 +7,18 @@ import { DebugHelper } from './debug';
  * Strategy 1: Search by artist ID with display name (most reliable) with pagination
  */
 export class ArtistIdLookupStrategy implements SearchStrategy {
-  name = 'Artist ID Search with Pagination';
+  name = 'Artist ID Search with Pagination (Multi-Country)';
   
   constructor(private client: ITunesClient) {}
   
   async execute(artist: any, opts: PageOpts = {}): Promise<any[]> {
     try {
+      // Search across multiple countries for maximum coverage
       const { countries = ['US', 'JP', 'KR', 'GB', 'CA'] } = opts;
       const allTracks: any[] = [];
       const seenTrackIds = new Set<number>();
       
-      DebugHelper.strategy(this.name, `Starting execution for ${artist.displayName} with ${artist.searchTerms.length} search terms`);
+      DebugHelper.strategy(this.name, `Starting execution for ${artist.displayName} with ${artist.searchTerms.length} search terms across multiple countries`);
       
       // Try each search term with each country for maximum coverage
       for (const searchTerm of artist.searchTerms) {
@@ -165,7 +166,7 @@ export class SearchPipeline {
   getStrategies(): Array<{ name: string; description: string }> {
     return this.strategies.map(strategy => ({
       name: strategy.name,
-      description: strategy.name === 'Artist ID Search with Pagination' 
+      description: strategy.name === 'Artist ID Search with Pagination (Multi-Country)' 
         ? 'Most reliable method using iTunes search with artist ID filtering and multi-country pagination'
         : 'Fallback method using artist name search terms with pagination'
     }));
