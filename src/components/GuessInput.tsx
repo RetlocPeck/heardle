@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { Song } from '@/types/song';
 
 interface GuessInputProps {
@@ -26,6 +27,7 @@ export default function GuessInput({
   const [showDropdown, setShowDropdown] = useState(false);
   const [filteredSongs, setFilteredSongs] = useState<Song[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
+  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -64,7 +66,12 @@ export default function GuessInput({
       }, []);
       
       setFilteredSongs(uniqueSongs);
-      setShowDropdown(uniqueSongs.length > 0);
+      if (uniqueSongs.length > 0) {
+        updateDropdownPosition();
+        setShowDropdown(true);
+      } else {
+        setShowDropdown(false);
+      }
       setSelectedIndex(-1);
       console.log(`🔍 GuessInput: Found ${filtered.length} songs, deduplicated to ${uniqueSongs.length} unique titles starting with "${guess}"`);
     } else {
@@ -76,6 +83,18 @@ export default function GuessInput({
       }
     }
   }, [guess, availableSongs]);
+
+  // Update dropdown position on window resize
+  useEffect(() => {
+    const handleResize = () => {
+      if (showDropdown) {
+        updateDropdownPosition();
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [showDropdown]);
 
   // Handle keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -132,8 +151,20 @@ export default function GuessInput({
     setGuess(e.target.value);
   };
 
+  const updateDropdownPosition = () => {
+    if (inputRef.current) {
+      const rect = inputRef.current.getBoundingClientRect();
+      setDropdownPosition({
+        top: rect.bottom + window.scrollY,
+        left: rect.left + window.scrollX,
+        width: rect.width
+      });
+    }
+  };
+
   const handleInputFocus = () => {
     console.log(`🔍 GuessInput: Input focused. Guess: "${guess}", Filtered songs: ${filteredSongs.length}`);
+    updateDropdownPosition();
     if (guess.trim() && filteredSongs.length > 0) {
       setShowDropdown(true);
       console.log(`🔍 GuessInput: Showing dropdown with ${filteredSongs.length} songs`);
@@ -171,40 +202,9 @@ export default function GuessInput({
               `}
             />
             
-            {/* Autocomplete Dropdown */}
-            {showDropdown && (
-              <div
-                ref={dropdownRef}
-                className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl max-h-48 max-[400px]:max-h-40 overflow-y-auto"
-              >
-                {filteredSongs.length > 0 ? (
-                  <>
-                    {filteredSongs.map((song, index) => (
-                      <div
-                        key={song.id}
-                        onClick={() => handleSongSelect(song)}
-                        className={`
-                          px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 cursor-pointer hover:bg-white/20 transition-all duration-200
-                          ${index === selectedIndex ? 'bg-white/20' : ''}
-                          ${index === 0 ? 'rounded-t-2xl' : ''}
-                          ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
-                        `}
-                      >
-                        <div className="font-semibold text-white text-sm max-[400px]:text-xs">{song.name}</div>
-                      </div>
-                    ))}
-                  </>
-                ) : (
-                  <div className="px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 text-white/60 text-center text-sm max-[400px]:text-xs">
-                    No songs found starting with "{guess}"
-                  </div>
-                )}
-              </div>
-            )}
-            
             {/* Show message when no songs are available for autocomplete */}
             {!showDropdown && availableSongs.length === 0 && guess.trim() && (
-              <div className="absolute z-50 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-3 max-[400px]:p-2">
+              <div className="absolute z-[9999] w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-3 max-[400px]:p-2">
                 <div className="text-xs max-[400px]:text-xs sm:text-sm text-yellow-200 text-center">
                   💡 Autocomplete unavailable - you can still type and guess manually!
                 </div>
@@ -243,8 +243,45 @@ export default function GuessInput({
               <span>Skip</span>
             </button>
           </div>
-        </div>
-      </form>
-    </div>
-  );
-}
+                 </div>
+       </form>
+       
+               {/* Portal-based Autocomplete Dropdown */}
+        {showDropdown && typeof window !== 'undefined' && createPortal(
+          <div
+            ref={dropdownRef}
+            className="fixed backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl max-h-48 max-[400px]:max-h-40 overflow-y-auto z-[9999]"
+            style={{
+              top: dropdownPosition.top + 10, // Add 4px gap between input and dropdown
+              left: dropdownPosition.left,
+              width: dropdownPosition.width
+            }}
+          >
+           {filteredSongs.length > 0 ? (
+             <>
+               {filteredSongs.map((song, index) => (
+                 <div
+                   key={song.id}
+                   onClick={() => handleSongSelect(song)}
+                   className={`
+                     px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 cursor-pointer hover:bg-white/20 transition-all duration-200
+                     ${index === selectedIndex ? 'bg-white/20' : ''}
+                     ${index === 0 ? 'rounded-t-2xl' : ''}
+                     ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
+                   `}
+                 >
+                   <div className="font-semibold text-white text-sm max-[400px]:text-xs">{song.name}</div>
+                 </div>
+               ))}
+             </>
+           ) : (
+             <div className="px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 text-white/60 text-center text-sm max-[400px]:text-xs">
+               No songs found starting with "{guess}"
+             </div>
+           )}
+         </div>,
+         document.body
+       )}
+     </div>
+   );
+ }
