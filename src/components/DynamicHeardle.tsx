@@ -332,7 +332,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                        artist?.displayName || 'Unknown Artist',
                        getPuzzleNumber()
                      )}
-                     className="mt-4 w-full rounded-xl bg-green-500 text-white px-4 py-3 font-medium hover:opacity-90 transition"
+                     className="mt-4 rounded-xl bg-green-500 text-white px-4 py-3 font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
                    />
                  </div>
                </div>
@@ -418,7 +418,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                       artist?.displayName || 'Unknown Artist',
                       getPuzzleNumber()
                     )}
-                    className="mt-4 w-full rounded-xl bg-green-500 text-white px-4 py-3 font-medium hover:opacity-90 transition"
+                    className="mt-4 rounded-xl bg-green-500 text-white px-4 py-3 font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
                   />
                 </div>
               </div>

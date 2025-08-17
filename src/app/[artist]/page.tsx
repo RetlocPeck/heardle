@@ -8,70 +8,11 @@ import DynamicHeardle from '@/components/DynamicHeardle';
 import ModeSelector from '@/components/ModeSelector';
 import StatisticsButton from '@/components/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
+import ArtistHeader from '@/components/ArtistHeader';
 import { useClientDate } from '@/lib/hooks/useClientDate';
-import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
-import { GameMode, GameState } from '@/lib/gameLogic';
+import { GameMode } from '@/lib/gameLogic';
 
-// Component to show daily challenge completion status
-function DailyChallengeStatus({ artistId }: { artistId: string }) {
-  const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
-  
-  useEffect(() => {
-    const storage = ClientDailyChallengeStorage.getInstance();
-    const isCompleted = storage.isDailyChallengeCompleted(artistId);
-    const challenge = storage.loadDailyChallenge(artistId);
-    const hasWon = challenge?.gameState.hasWon || false;
-    
-    setChallengeData({ isCompleted, hasWon });
-    
-    // Listen for storage changes to update the status immediately
-    const handleStorageChange = () => {
-      const newIsCompleted = storage.isDailyChallengeCompleted(artistId);
-      const newChallenge = storage.loadDailyChallenge(artistId);
-      const newHasWon = newChallenge?.gameState.hasWon || false;
-      
-      console.log(`📡 DailyChallengeStatus received event, updating status for ${artistId}:`, { isCompleted: newIsCompleted, hasWon: newHasWon });
-      setChallengeData({ isCompleted: newIsCompleted, hasWon: newHasWon });
-    };
-    
-    // Listen for custom storage event
-    window.addEventListener('daily-challenge-updated', handleStorageChange);
-    
-    return () => {
-      window.removeEventListener('daily-challenge-updated', handleStorageChange);
-    };
-  }, [artistId]);
-  
-  if (!challengeData) {
-    return (
-      <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
-        <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
-      </div>
-    );
-  }
-  
-  if (challengeData.isCompleted) {
-    if (challengeData.hasWon) {
-      return (
-        <div className="mt-2 inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
-          <span className="text-green-300 text-sm font-medium">✅ Daily Challenge Completed</span>
-        </div>
-      );
-    } else {
-      return (
-        <div className="mt-2 inline-flex items-center px-3 py-1 bg-red-500/20 border border-red-400/30 rounded-full">
-          <span className="text-red-300 text-sm font-medium">❌ Daily Challenge Failed</span>
-        </div>
-      );
-    }
-  }
-  
-  return (
-    <div className="mt-2 inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
-      <span className="text-blue-300 text-sm font-medium">🎯 Daily Challenge Available</span>
-    </div>
-  );
-}
+
 
 export default function ArtistPage() {
   const params = useParams();
@@ -130,54 +71,26 @@ export default function ArtistPage() {
                {/* Header */}
        <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
          <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-                       <div className="flex justify-between items-center py-6 sm:py-8">
-             {/* Back Button - Smaller on mobile */}
-             <div className="flex items-center flex-shrink-0">
-               <a href="/" className="flex items-center space-x-1 sm:space-x-2 text-white/80 hover:text-white transition-colors font-medium">
-                 <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                 </svg>
-                 <span className="text-sm sm:text-base hidden sm:inline">Back to Artists</span>
-                 <span className="sm:hidden">Back</span>
-               </a>
-             </div>
-             
-                           {/* Title - Responsive sizing */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
-                <h1 className={`text-lg sm:text-2xl lg:text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent leading-tight`}>
-                  <span className="hidden sm:inline">{artist.displayName} Heardle</span>
-                  <span className="sm:hidden">{artist.displayName}</span>
-                </h1>
-                <p className="text-white/80 font-medium text-xs sm:text-sm lg:text-base hidden sm:block">
-                  Test your {artist.displayName} knowledge! 🎵
-                </p>
-                
-                {/* Daily Challenge Status */}
-                {selectedMode === 'daily' && (
-                  <div className="hidden sm:block">
-                    <DailyChallengeStatus artistId={artist.id} />
-                  </div>
-                )}
+                       <div className="flex justify-between items-center py-8 md:py-12">
+              {/* Back Button - Smaller on mobile */}
+              <div className="flex items-center flex-shrink-0">
+                <a href="/" className="flex items-center space-x-1 sm:space-x-2 text-white/80 hover:text-white transition-colors font-medium">
+                  <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                  <span className="text-sm sm:text-base hidden sm:inline">Back to Artists</span>
+                  <span className="sm:hidden">Back</span>
+                </a>
               </div>
-             
-             {/* Statistics Button - Smaller on mobile */}
-             <div className="flex items-center justify-end flex-shrink-0">
-               <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
-             </div>
-           </div>
-           
-                       {/* Mobile-only daily challenge status and subtitle */}
-            <div className="sm:hidden pb-4 text-center">
-              <p className="text-white/80 font-medium text-xs mb-2">
-                Test your {artist.displayName} knowledge! 🎵
-              </p>
-              {selectedMode === 'daily' && (
-                <DailyChallengeStatus artistId={artist.id} />
-              )}
+              
+              {/* Centered Header Stack - Absolutely positioned */}
+              <ArtistHeader artist={artist} selectedMode={selectedMode} />
+              
+              {/* Statistics Button - Smaller on mobile */}
+              <div className="flex items-center justify-end flex-shrink-0">
+                <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
+              </div>
             </div>
-            
-            {/* Add bottom padding for desktop to ensure title fits */}
-            <div className="hidden sm:block pb-4"></div>
          </div>
        </div>
 

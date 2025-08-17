@@ -26,7 +26,7 @@ export default function ShareButton({ state, className }: { state: ShareGameStat
   return (
     <button
       onClick={onShare}
-      className={className ?? 'mt-3 w-full rounded-xl bg-green-500 text-white px-4 py-2 hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-green-500/25'}
+      className={className ?? 'mt-3 rounded-xl bg-green-500 text-white px-4 py-2 hover:opacity-90 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25'}
       aria-label="Share your result"
       title="Share your result"
       disabled={isCopied}
