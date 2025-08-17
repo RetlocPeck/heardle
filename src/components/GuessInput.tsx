@@ -27,7 +27,8 @@ export default function GuessInput({
   const [showDropdown, setShowDropdown] = useState(false);
   const [filteredSongs, setFilteredSongs] = useState<Song[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0, width: 0 });
+  const [openAbove, setOpenAbove] = useState(false);
+  const [coords, setCoords] = useState<{top:number; left:number; width:number}>({top:0,left:0,width:0});
   const inputRef = useRef<HTMLInputElement>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -84,16 +85,27 @@ export default function GuessInput({
     }
   }, [guess, availableSongs]);
 
-  // Update dropdown position on window resize
+  // Update dropdown position on visual viewport + scroll/resize
   useEffect(() => {
-    const handleResize = () => {
-      if (showDropdown) {
-        updateDropdownPosition();
-      }
-    };
+    if (!showDropdown) return;
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    const vv = (window as any).visualViewport;
+    const handlers = [
+      ['resize', updateDropdownPosition],
+      ['scroll', updateDropdownPosition],
+    ] as const;
+
+    handlers.forEach(([ev, fn]) => window.addEventListener(ev, fn, { passive: true }));
+    vv?.addEventListener?.('resize', updateDropdownPosition);
+    vv?.addEventListener?.('scroll', updateDropdownPosition);
+
+    updateDropdownPosition();
+
+    return () => {
+      handlers.forEach(([ev, fn]) => window.removeEventListener(ev, fn as any));
+      vv?.removeEventListener?.('resize', updateDropdownPosition as any);
+      vv?.removeEventListener?.('scroll', updateDropdownPosition as any);
+    };
   }, [showDropdown]);
 
   // Handle keyboard navigation
@@ -151,15 +163,26 @@ export default function GuessInput({
     setGuess(e.target.value);
   };
 
+  const GAP = 8; // px
+
   const updateDropdownPosition = () => {
-    if (inputRef.current) {
-      const rect = inputRef.current.getBoundingClientRect();
-      setDropdownPosition({
-        top: rect.bottom + window.scrollY,
-        left: rect.left + window.scrollX,
-        width: rect.width
-      });
-    }
+    if (!inputRef.current) return;
+    const rect = inputRef.current.getBoundingClientRect();
+    const vv = (window as any).visualViewport;
+    const viewportH = vv?.height ?? window.innerHeight;
+
+    const spaceBelow = viewportH - rect.bottom;
+    const spaceAbove = rect.top;
+    const openUp = spaceBelow < 220 && spaceAbove > spaceBelow;
+    setOpenAbove(openUp);
+
+    const left = Math.round(rect.left + window.scrollX);
+    const width = Math.round(rect.width);
+    const top = openUp
+      ? Math.round(rect.top + window.scrollY - GAP) // we'll anchor above using translateY(-100%)
+      : Math.round(rect.bottom + window.scrollY + GAP);
+
+    setCoords({ top, left, width });
   };
 
   const handleInputFocus = () => {
@@ -192,19 +215,20 @@ export default function GuessInput({
               placeholder={placeholder}
               disabled={disabled}
               className={`
-                w-full px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl text-white text-base max-[400px]:text-sm font-medium placeholder-white/60
+                w-full px-4 max-[400px]:px-3 py-3 max-[400px]:py-2
+                backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl
+                text-white text-base max-[400px]:text-sm font-medium placeholder-white/60
                 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent focus:bg-white/20
                 transition-all duration-300
-                ${disabled 
-                  ? 'bg-gray-500/20 cursor-not-allowed opacity-50' 
-                  : 'hover:bg-white/15'
-                }
+                ${disabled ? 'bg-gray-500/20 cursor-not-allowed opacity-50' : 'hover:bg-white/15'}
               `}
             />
-            
-            {/* Show message when no songs are available for autocomplete */}
+
+
+
+            {/* Autocomplete unavailable message (kept; positioned under input) */}
             {!showDropdown && availableSongs.length === 0 && guess.trim() && (
-              <div className="absolute z-[9999] w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-3 max-[400px]:p-2">
+              <div className="absolute z-10 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-3 max-[400px]:p-2">
                 <div className="text-xs max-[400px]:text-xs sm:text-sm text-yellow-200 text-center">
                   💡 Autocomplete unavailable - you can still type and guess manually!
                 </div>
@@ -244,44 +268,86 @@ export default function GuessInput({
             </button>
           </div>
                  </div>
-       </form>
-       
-               {/* Portal-based Autocomplete Dropdown */}
+               </form>
+
+        {/* Portal-based Autocomplete Dropdown Overlay */}
         {showDropdown && typeof window !== 'undefined' && createPortal(
-          <div
-            ref={dropdownRef}
-            className="fixed backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl shadow-2xl max-h-48 max-[400px]:max-h-40 overflow-y-auto z-[9999]"
-            style={{
-              top: dropdownPosition.top + 10, // Add 4px gap between input and dropdown
-              left: dropdownPosition.left,
-              width: dropdownPosition.width
-            }}
-          >
-           {filteredSongs.length > 0 ? (
-             <>
-               {filteredSongs.map((song, index) => (
+          <>
+            {/* full-screen click-away (below panel but above page) */}
+            <div
+              style={{ position: 'fixed', inset: 0, zIndex: 2147483646, pointerEvents: 'auto' }}
+              onMouseDown={() => setShowDropdown(false)}
+              onTouchStart={() => setShowDropdown(false)}
+            />
+
+            {/* overlay root: holds absolutely positioned dropdown */}
+            <div
+              style={{
+                position: 'fixed',
+                inset: 0,
+                zIndex: 2147483647, // sit above any stacking context
+                pointerEvents: 'none',
+              }}
+            >
+                             <div
+                 ref={dropdownRef}
+                 style={{
+                   position: 'absolute',
+                   left: coords.left,
+                   top: coords.top,
+                   width: coords.width,
+                   transform: openAbove ? 'translateY(-100%)' : 'none',
+                   pointerEvents: 'auto',
+                 }}
+                 className="
+                   rounded-2xl border border-white/20 shadow-2xl
+                   backdrop-blur-xl bg-white/10
+                   overflow-hidden                 /* <-- clip scrollbar to radius */
+                   bg-clip-padding
+                 "
+               >
+                 {/* inner scroll area */}
                  <div
-                   key={song.id}
-                   onClick={() => handleSongSelect(song)}
-                   className={`
-                     px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 cursor-pointer hover:bg-white/20 transition-all duration-200
-                     ${index === selectedIndex ? 'bg-white/20' : ''}
-                     ${index === 0 ? 'rounded-t-2xl' : ''}
-                     ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
-                   `}
+                   className="
+                     dropdown-scroll               /* for custom scrollbar */
+                     max-h-56 max-[400px]:max-h-40
+                     overflow-y-auto overscroll-contain
+                     pr-1                          /* room for scrollbar so it doesn't overlap border */
+                   "
+                   style={{
+                     WebkitOverflowScrolling: 'touch',
+                     scrollbarGutter: 'stable',    // keeps gutter inside the box (supported most places)
+                   }}
                  >
-                   <div className="font-semibold text-white text-sm max-[400px]:text-xs">{song.name}</div>
+                   {filteredSongs.length > 0 ? (
+                     filteredSongs.map((song, index) => (
+                       <div
+                         key={song.id}
+                         onMouseDown={(e) => e.preventDefault()}
+                         onClick={() => handleSongSelect(song)}
+                         className={`
+                           px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 cursor-pointer hover:bg-white/20 transition-all duration-200
+                           ${index === selectedIndex ? 'bg-white/20' : ''}
+                           ${index === 0 ? 'rounded-t-2xl' : ''}
+                           ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
+                         `}
+                       >
+                         <div className="font-semibold text-white text-sm max-[400px]:text-xs">
+                           {song.name}
+                         </div>
+                       </div>
+                     ))
+                   ) : (
+                     <div className="px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 text-white/60 text-center text-sm max-[400px]:text-xs">
+                       No songs found starting with "{guess}"
+                     </div>
+                   )}
                  </div>
-               ))}
-             </>
-           ) : (
-             <div className="px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 text-white/60 text-center text-sm max-[400px]:text-xs">
-               No songs found starting with "{guess}"
-             </div>
-           )}
-         </div>,
-         document.body
-       )}
+               </div>
+            </div>
+          </>,
+          document.body
+        )}
      </div>
    );
  }
