@@ -273,6 +273,28 @@ export const ARTISTS: ArtistConfig[] = [
     }
   },
   {
+    id: 'katseye',
+    name: 'KATSEYE',
+    displayName: 'KATSEYE',
+    itunesArtistId: '1754284416',
+    searchTerms: ['KATSEYE', 'Katseye', 'katseye'],
+    theme: {
+      primaryColor: 'violet',
+      gradientFrom: 'from-violet-500',
+      gradientTo: 'to-purple-600',
+      accentColor: 'bg-violet-500 hover:bg-violet-600',
+      spinnerColor: 'border-violet-400',
+      borderColor: 'border-violet-400',
+      bgColor: 'bg-violet-50',
+      textColor: 'text-violet-800'
+    },
+    metadata: {
+      imageUrl: '/groups/katseye.jpg',
+      songCount: 15,
+      releaseYear: 2024
+    }
+  },
+  {
     id: 'red-velvet',
     name: 'Red Velvet',
     displayName: 'Red Velvet',
