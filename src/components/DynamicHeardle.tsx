@@ -261,7 +261,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
           {/* Left Column - Audio Player & Input/Results */}
           <div className="col-span-1 space-y-3 sm:space-y-4">
             {/* Audio Player Card */}
-            <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6">
+            <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6">
               <AudioPlayer
                 key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
                 song={currentSong}
@@ -274,7 +274,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
             
                          {/* Guess Input Card (when game is not over) OR Results Card (when game is over - mobile only) */}
              {!gameState.isGameOver ? (
-               <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6">
+               <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6">
                  <GuessInput
                    onSubmit={handleGuess}
                    onSkip={handleSkip}
@@ -285,7 +285,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                </div>
              ) : (
                // Game Results Card - Only show on mobile/tablet (hidden on desktop)
-               <div className="lg:hidden backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6">
+               <div className="relative z-10 overflow-visible lg:hidden backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6">
                  <div className="text-center space-y-4">
                    {gameState.hasWon ? (
                      <div className="space-y-3">
@@ -362,7 +362,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
 
           {/* Right Column - Game Board */}
           <div className="col-span-1">
-            <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6 h-full">
+            <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-3 sm:p-4 lg:p-6 h-full">
               <GameBoard gameState={gameState} />
             </div>
           </div>
@@ -371,7 +371,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
           <div className="hidden lg:block">
             {gameState.isGameOver ? (
               // Game Results Card (replaces How to Play when game ends)
-              <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
+              <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
                 <div className="text-center space-y-4">
                   {gameState.hasWon ? (
                     <div className="space-y-3">
@@ -433,7 +433,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
               </div>
             ) : (
               // How to Play Card (shown when game is not over)
-              <div className="backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
+              <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
                 <h3 className="text-lg font-bold text-white mb-3 text-center">🎯 How to Play</h3>
                 <ul className="space-y-2 text-white/80 text-sm mx-auto max-w-md">
                   <li className="flex items-start space-x-2">

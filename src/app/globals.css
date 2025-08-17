@@ -149,3 +149,22 @@ html {
   outline: 2px solid rgba(168, 85, 247, 0.8);
   outline-offset: 2px;
 }
+
+/* Keep dropdown scrollbar thin and inside the panel */
+.dropdown-scroll {
+  scrollbar-width: thin;                       /* Firefox */
+  scrollbar-color: rgba(255,255,255,.35) transparent;
+}
+
+.dropdown-scroll::-webkit-scrollbar {          /* WebKit/Chromium */
+  width: 8px;
+}
+.dropdown-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dropdown-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,.35);
+  border-radius: 9999px;
+  border: 2px solid transparent;               /* inset look */
+  background-clip: padding-box;
+}
