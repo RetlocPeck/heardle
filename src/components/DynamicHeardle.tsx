@@ -13,6 +13,7 @@ import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
+import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import ShareButton from './ShareButton';
 import { convertGameStateToShareState } from '@/utils/share';
 import { getPuzzleNumber } from '@/utils/puzzle';
@@ -54,7 +55,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
         
         if (savedChallenge) {
           // Load saved game state
-          console.log(`📂 Loading saved daily challenge for ${artistId}`);
+
           setCurrentSong(savedChallenge.gameState.currentSong);
           gameLogic.loadGameState(savedChallenge.gameState);
           const loadedGameState = gameLogic.getGameState();
@@ -69,7 +70,19 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       }
       
       // Load new song from API
-      const endpoint = mode === 'daily' ? `/api/${artistId}/daily` : `/api/${artistId}/random`;
+      let endpoint = mode === 'daily' ? `/api/${artistId}/daily` : `/api/${artistId}/random`;
+      
+      // For practice mode, exclude recently played songs
+      if (mode === 'practice') {
+        const practiceStorage = PracticeModeStorage.getInstance();
+        const recentSongs = practiceStorage.getRecentSongs(artistId);
+        
+        if (recentSongs.length > 0) {
+          const excludeParams = new URLSearchParams({ exclude: recentSongs.join(',') });
+          endpoint = `${endpoint}?${excludeParams.toString()}`;
+        }
+      }
+      
       const response = await fetch(endpoint);
       
       if (!response.ok) {
@@ -79,14 +92,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       const data = await response.json();
       const song = data.song;
       
-      console.log(`\n=== ${artist?.displayName || artistId.toUpperCase()} GAME SONG LOADED ===`);
-      console.log(`Song: ${song.name}`);
-      console.log(`Album: ${song.album}`);
-      console.log(`Artists: ${song.artists.join(', ')}`);
-      console.log(`Duration: ${Math.round(song.duration / 1000)}s`);
-      console.log(`Track ID: ${song.trackId}`);
-      console.log(`Preview URL: ${song.previewUrl || 'NONE'}`);
-      console.log(`iTunes URL: ${song.itunesUrl}`);
+
       
       setCurrentSong(song);
       gameLogic.startGame(song);
@@ -105,7 +111,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
         const data = await response.json();
         const songs = data.songs || [];
         setAvailableSongs(songs);
-        console.log(`Loaded ${songs.length} available ${artist?.displayName || artistId} songs from iTunes for autocomplete`);
+
         
         if (songs.length === 0) {
           console.warn('No songs loaded for autocomplete - users will need to type manually');
@@ -146,11 +152,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     // Notify parent component of game state change
     onGameStateChange?.(newGameState);
     
-    if (isCorrect) {
-      console.log('Correct guess!');
-    } else {
-      console.log(`Wrong guess. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
-    }
+
   };
 
   const handleSkip = () => {
@@ -179,11 +181,18 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     // Notify parent component of game state change
     onGameStateChange?.(newGameState);
     
-    console.log(`Skipped turn. Next audio duration: ${gameLogic.getCurrentAudioDuration()}ms`);
+
   };
 
   const handleNewGame = () => {
     if (mode === 'practice') {
+      // Record the current song before loading a new one (to prevent immediate repeats)
+      if (currentSong) {
+        const practiceStorage = PracticeModeStorage.getInstance();
+        practiceStorage.recordPlayedSong(params.artist as string, currentSong.trackId.toString());
+
+      }
+      
       loadSong(params.artist as string);
     } else {
       gameLogic.resetGame();

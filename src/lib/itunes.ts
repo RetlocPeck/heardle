@@ -351,7 +351,7 @@ export class ITunesService {
     this.availableTracks.set(artistId, processedTracks);
   }
 
-  async getRandomSong(artistId: string): Promise<Song> {
+  async getRandomSong(artistId: string, excludeTrackIds: string[] = []): Promise<Song> {
     const songs = await this.searchSongs(artistId);
     
     if (songs.length === 0) {
@@ -359,8 +359,25 @@ export class ITunesService {
       throw new Error(`No ${artist?.displayName || artistId} songs found in iTunes`);
     }
     
-    const randomIndex = Math.floor(Math.random() * songs.length);
-    const song = songs[randomIndex];
+    // Filter out excluded songs
+    let availableSongs = songs.filter(song => !excludeTrackIds.includes(song.trackId.toString()));
+    
+    // If all songs are excluded (or we have very few songs), allow recently played songs
+    if (availableSongs.length === 0) {
+      console.warn(`🎵 All songs excluded for ${artistId}, falling back to full catalog`);
+      availableSongs = songs;
+    } else if (availableSongs.length < 3 && songs.length > 3) {
+      // If we have very few available songs but many total songs, be less restrictive
+      console.log(`🎵 Only ${availableSongs.length} songs available for ${artistId}, may need to reduce exclusions`);
+    }
+    
+    const randomIndex = Math.floor(Math.random() * availableSongs.length);
+    const song = availableSongs[randomIndex];
+    
+    // Only log if there are excluded songs or if fallback was used
+    if (excludeTrackIds.length > 0 && excludeTrackIds.includes(song.trackId.toString())) {
+      console.warn(`🎵 Fallback used for ${artistId}: selected excluded song "${song.name}" (${song.trackId})`);
+    }
     
     const artist = this.configService.getArtist(artistId);
     return song;
