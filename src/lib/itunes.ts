@@ -51,15 +51,12 @@ export class ITunesService {
       }
     ]);
     
-    console.log('🎵 iTunes Service initialized with configuration-driven system');
-    console.log('💡 Will lookup iTunes for real tracks on first use');
   }
 
   async searchSongs(artistId: string): Promise<Song[]> {
     // If we already have tracks, return them
     const cachedTracks = this.availableTracks.get(artistId);
     if (cachedTracks && cachedTracks.length > 1) {
-      console.log(`🎵 iTunes: Found ${cachedTracks.length} ${artistId} tracks in cache`);
       return cachedTracks;
     }
 
@@ -70,25 +67,19 @@ export class ITunesService {
     }
 
     // Use the lookup endpoint to get ALL tracks by artist ID
-    console.log(`🔍 Looking up iTunes for ALL ${artist.displayName} tracks using artist ID...`);
-
     try {
       // Strategy 1: Lookup all songs by artist ID (most reliable)
-      console.log(`📡 Strategy 1: Looking up songs by artist ID...`);
       const artistSongs = await this.lookupArtistSongs(artist);
       
       if (artistSongs.length > 0) {
-        console.log(`✅ Artist ID lookup found ${artistSongs.length} tracks`);
         this.processAndCacheTracks(artistSongs, artistId);
         return this.availableTracks.get(artistId) || [];
       }
 
       // Strategy 2: Fallback to search by artist name
-      console.log(`📡 Strategy 2: Fallback to search by artist name...`);
       const searchResults = await this.searchByArtistName(artist);
       
       if (searchResults.length > 0) {
-        console.log(`✅ Artist name search found ${searchResults.length} tracks`);
         this.processAndCacheTracks(searchResults, artistId);
         return this.availableTracks.get(artistId) || [];
       }
@@ -116,7 +107,6 @@ export class ITunesService {
       }
       
       const data: ITunesResponse = await response.json();
-      console.log(`📊 Artist lookup found ${data.resultCount || 0} total tracks`);
       
       if (!data.results || !Array.isArray(data.results)) {
         return [];
@@ -129,7 +119,6 @@ export class ITunesService {
         track.previewUrl // Only include tracks with preview URLs
       );
 
-      console.log(`🎵 Filtered to ${songs.length} valid song tracks with preview URLs`);
       return songs;
       
     } catch (error) {
@@ -162,8 +151,6 @@ export class ITunesService {
         await new Promise(resolve => setTimeout(resolve, 100));
       }
 
-      console.log(`📊 Artist name search found ${allTracks.length} total tracks`);
-      
       // Filter for the specific artist's songs only
       const artistSongs = allTracks.filter(track => {
         const artistName = track.artistName?.toLowerCase().trim();
@@ -174,7 +161,6 @@ export class ITunesService {
         return isArtist && track.previewUrl;
       });
 
-      console.log(`🎵 Filtered to ${artistSongs.length} ${artist.displayName} songs with preview URLs`);
       return artistSongs;
       
     } catch (error) {
@@ -224,29 +210,56 @@ export class ITunesService {
         return;
       }
       
-      // Check 4: Unwanted words between hyphens - -
-      const hyphenPattern = /-\s*(version|ver\.|japanese|kor|korean|english|eng|instrumental|inst\.|remix|mix|edit)\s*-/i;
-      const hyphenMatch = hyphenPattern.exec(originalTrackName);
+      // Check 4: Enhanced unwanted words between hyphens - - (including all dash variants)
+      // Use a more robust approach that catches any dash-like character
+      const dashLikeChars = /[‑\-–—‒―]/; // Include more dash variants
+      const enhancedHyphenPattern = new RegExp(`${dashLikeChars.source}\\s*(version|ver\\.|versión|japanese|kor|korean|english|eng|spanish|español|instrumental|inst\\.|remix|mix|edit|acoustic|acapella|live|demo|radio|extended|short|long|rem)\\s*${dashLikeChars.source}`, 'i');
+      const hyphenMatch = enhancedHyphenPattern.exec(originalTrackName);
       if (hyphenMatch) {
         filteredOutTracks.push({ 
           track, 
-          reason: `Contains "${hyphenMatch[1]}" between hyphens` 
+          reason: `Contains "${hyphenMatch[1]}" between hyphens/dashes` 
         });
         return;
       }
       
-      // Check 5: Unwanted patterns in parentheses or brackets (HARD FILTER)
-      const unwantedPatterns = [
-        'remix', 'version', 'ver\\.', 'edit', 'mixed', 'mix', 'instrumental', 'inst\\.',
-        'japanese', 'korean', 'english', 'kor', 'eng', 'jap'
+      // Check 4.5: Specific check for Japanese versions with any dash character
+      const japaneseDashPattern = new RegExp(`${dashLikeChars.source}\\s*japanese\\s*${dashLikeChars.source}`, 'i');
+      if (japaneseDashPattern.test(originalTrackName)) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains "japanese" between hyphens/dashes' 
+        });
+        return;
+      }
+      
+      // Check 4.6: Fallback check for Japanese versions anywhere in title (catch any that slip through)
+      if (/japanese/i.test(originalTrackName)) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains "japanese" in title' 
+        });
+        return;
+      }
+      
+      // Check 5: Enhanced unwanted patterns in parentheses, brackets, or hyphens (HARD FILTER)
+      const enhancedUnwantedPatterns = [
+        'remix', 'version', 'ver\\.', 'versión', 'edit', 'mixed', 'mix', 'instrumental', 'inst\\.',
+        'japanese', 'korean', 'english', 'kor', 'eng', 'jap', 'spanish', 'español', 'acoustic', 'acapella',
+        'live', 'demo', 'radio', 'extended', 'short', 'long', 'original', 'clean',
+        'explicit', 'clean version', 'radio edit', 'club mix', 'dance mix', 'rem'
       ];
       
       let foundUnwantedPattern = false;
       let unwantedReason = '';
       
-      for (const pattern of unwantedPatterns) {
+      for (const pattern of enhancedUnwantedPatterns) {
+        // Check in parentheses ()
         const inParentheses = new RegExp(`\\([^)]*${pattern}[^)]*\\)`, 'i');
+        // Check in brackets []
         const inBrackets = new RegExp(`\\[[^\\]]*${pattern}[^\\]]*\\]`, 'i');
+        // Check between hyphens - -
+        const betweenHyphens = new RegExp(`[‑\\-–—]\\s*${pattern}\\s*[‑\\-–—]`, 'i');
         
         if (inParentheses.test(trackName)) {
           foundUnwantedPattern = true;
@@ -257,6 +270,12 @@ export class ITunesService {
         if (inBrackets.test(trackName)) {
           foundUnwantedPattern = true;
           unwantedReason = `Contains "${pattern.replace('\\\\', '')}" in brackets`;
+          break;
+        }
+        
+        if (betweenHyphens.test(trackName)) {
+          foundUnwantedPattern = true;
+          unwantedReason = `Contains "${pattern.replace('\\\\', '')}" between hyphens`;
           break;
         }
       }
@@ -279,14 +298,47 @@ export class ITunesService {
         return;
       }
       
+      // Check 7: Additional unwanted patterns anywhere in the title
+      const additionalUnwantedPatterns = [
+        'acoustic version', 'live version', 'demo version', 'radio edit',
+        'club mix', 'dance mix', 'extended mix', 'short version', 'long version',
+        'original mix', 'clean version', 'explicit version', 'instrumental version'
+      ];
+      
+      for (const pattern of additionalUnwantedPatterns) {
+        if (new RegExp(pattern, 'i').test(trackName)) {
+          filteredOutTracks.push({ 
+            track, 
+            reason: `Contains "${pattern}" in title` 
+          });
+          return;
+        }
+      }
+      
+      // Check 8: Songs with excessive punctuation or formatting
+      if (/([.,\-_&+]){3,}/.test(trackName)) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains excessive punctuation or formatting' 
+        });
+        return;
+      }
+      
+      // Check 9: Songs that are clearly not the main version
+      if (/\(main\s+version\)|\(original\s+version\)|\(standard\s+version\)/i.test(trackName)) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Explicitly marked as main/original/standard version (likely duplicate)' 
+        });
+        return;
+      }
+      
       // If we get here, the track passed all hard filters
       validTracks.push(track);
     });
 
     // Step 2: Smart deduplication - remove duplicate versions and keep the best one
     const deduplicatedTracks = deduplicateSongVersions(validTracks, filteredOutTracks);
-
-    console.log(`🎵 ${artist.displayName}: ${tracks.length} → ${deduplicatedTracks.length} songs (${((deduplicatedTracks.length / tracks.length) * 100).toFixed(1)}% kept)`);
 
     // Remove duplicates based on track ID (final safety check)
     const uniqueById = deduplicatedTracks.filter((track, index, self) =>
@@ -297,7 +349,6 @@ export class ITunesService {
     const processedTracks = uniqueById.map(track => convertITunesTrackToSong(track));
 
     this.availableTracks.set(artistId, processedTracks);
-    console.log(`✅ ${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs`);
   }
 
   async getRandomSong(artistId: string): Promise<Song> {
@@ -312,11 +363,6 @@ export class ITunesService {
     const song = songs[randomIndex];
     
     const artist = this.configService.getArtist(artistId);
-    console.log(`\n=== ITUNES RANDOM SONG (${artist?.displayName}) ===`);
-    console.log(`Song: ${song.name}`);
-    console.log(`Album: ${song.album}`);
-    console.log(`Preview URL: ${song.previewUrl ? 'Available' : 'Not available'}`);
-    
     return song;
   }
 
@@ -334,15 +380,6 @@ export class ITunesService {
     const song = songs[index];
     
     const artist = this.configService.getArtist(artistId);
-    console.log(`\n=== ITUNES DAILY SONG (${artist?.displayName}) ===`);
-    console.log(`Date: ${date}, Seed: ${seed}`);
-    console.log(`Total songs available: ${songs.length}`);
-    console.log(`Selected song index: ${index}`);
-    console.log(`Song: ${song.name}`);
-    console.log(`Album: ${song.album}`);
-    console.log(`Preview URL: ${song.previewUrl ? 'Available' : 'Not available'}`);
-    console.log(`Local timezone date used for song selection`);
-    
     return song;
   }
 
@@ -351,7 +388,6 @@ export class ITunesService {
     const currentTracks = this.availableTracks.get(artistId) || [];
     currentTracks.push(track);
     this.availableTracks.set(artistId, currentTracks);
-    console.log(`Added track: ${track.name} (ID: ${track.trackId}) to ${artistId}`);
   }
 
   // Helper method to search for specific songs within an artist's catalog
@@ -372,8 +408,6 @@ export class ITunesService {
       );
       
       const artist = this.configService.getArtist(artistId);
-      console.log(`🔍 Found ${matchingSongs.length} ${artist?.displayName} songs matching "${songName}"`);
-      
       return matchingSongs;
     } catch (error) {
       console.error('Failed to search for specific song:', error);
@@ -394,8 +428,6 @@ export class ITunesService {
       const albumSongs = allSongs.filter(song => 
         song.album.toLowerCase().includes(searchTerm)
       );
-      
-      console.log(`📀 Found ${albumSongs.length} songs from album "${albumName}"`);
       
       return albumSongs;
     } catch (error) {
@@ -423,8 +455,6 @@ export class ITunesService {
         throw new Error(`Artist ${artistId} not found in configuration`);
       }
 
-      console.log(`🔍 Checking pagination for ${artist.displayName} (ID: ${artist.itunesArtistId})`);
-      
       // First, try to get the total count from a single request
       const testUrl = `${this.lookupUrl}?id=${artist.itunesArtistId}&entity=song&limit=1`;
       const testResponse = await fetch(testUrl);
@@ -443,12 +473,6 @@ export class ITunesService {
       // Calculate pages (assuming 200 per page)
       const pages = Math.ceil(totalAvailable / 200);
       
-      console.log(`📊 Pagination Info for ${artist.displayName}:`);
-      console.log(`   Total available on iTunes: ${totalAvailable}`);
-      console.log(`   Currently fetched: ${fetched}`);
-      console.log(`   Estimated pages: ${pages}`);
-      console.log(`   Coverage: ${((fetched / totalAvailable) * 100).toFixed(1)}%`);
-      
       return { totalAvailable, fetched, pages };
       
     } catch (error) {
@@ -460,7 +484,6 @@ export class ITunesService {
   // Clear cache and reload songs for an artist
   async refreshSongs(artistId: string): Promise<Song[]> {
     const artist = this.configService.getArtist(artistId);
-    console.log(`🔄 Refreshing ${artist?.displayName} songs from iTunes...`);
     this.availableTracks.delete(artistId);
     return await this.searchSongs(artistId);
   }
@@ -469,16 +492,11 @@ export class ITunesService {
   getAvailableArtists() {
     return this.configService.getAllArtists();
   }
-
-
-
-
 }
 
-// Make the service available globally for debugging in development
+// Make the service available globally for debugging in development only
 if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
   (window as any).itunesService = ITunesService.getInstance();
-  console.log('🔧 iTunes service available globally as window.itunesService');
 }
 
 export default ITunesService;
