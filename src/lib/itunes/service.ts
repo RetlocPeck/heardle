@@ -6,7 +6,7 @@ import { SearchPipeline } from './searchPipeline';
 import { SongFilters } from './filters';
 import { InMemoryRepository } from './repository';
 import { DebugHelper } from './debug';
-import { PageOpts } from './types';
+import { PageOpts, PaginationResult } from './types';
 
 // Re-export Song type for backward compatibility during transition
 export type TWICESong = Song;
@@ -63,7 +63,7 @@ export class ITunesService {
     ]);
     
     DebugHelper.info('Service initialized with configuration-driven system');
-    DebugHelper.info('Will lookup iTunes for real tracks on first use');
+    DebugHelper.info('Will lookup iTunes for real tracks on first use with search-based pagination support');
   }
 
   async searchSongs(artistId: string, opts: PageOpts = {}): Promise<Song[]> {
@@ -80,14 +80,14 @@ export class ITunesService {
       return [];
     }
 
-    DebugHelper.info(`Looking up iTunes for ALL ${artist.displayName} tracks using artist ID...`);
+    DebugHelper.info(`Looking up iTunes for ALL ${artist.displayName} tracks using search-based pagination...`);
 
     try {
-      // Use search pipeline to execute strategies
+      // Use search pipeline to execute strategies with pagination
       const tracks = await this.searchPipeline.execute(artist, opts);
       
       if (tracks.length > 0) {
-        DebugHelper.success(`Found ${tracks.length} tracks using search pipeline`);
+        DebugHelper.success(`Found ${tracks.length} tracks using search pipeline with pagination`);
         this.processAndCacheTracks(tracks, artistId);
         return this.repository.get(artistId) || [];
       }
@@ -116,7 +116,7 @@ export class ITunesService {
     const processedTracks = filteredTracks.map(track => convertITunesTrackToSong(track));
 
     this.repository.set(artistId, processedTracks);
-    DebugHelper.success(`${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs`);
+    DebugHelper.success(`${artist.displayName}: Successfully loaded ${processedTracks.length} clean songs with search-based pagination`);
   }
 
   async getRandomSong(artistId: string): Promise<Song> {
@@ -271,7 +271,7 @@ export class ITunesService {
   // Clear cache and reload songs for an artist
   async refreshSongs(artistId: string): Promise<Song[]> {
     const artist = this.configService.getArtist(artistId);
-    DebugHelper.info(`Refreshing ${artist?.displayName} songs from iTunes...`);
+    DebugHelper.info(`Refreshing ${artist?.displayName} songs from iTunes with search-based pagination...`);
     this.repository.delete(artistId);
     return await this.searchSongs(artistId);
   }
@@ -289,6 +289,54 @@ export class ITunesService {
   // Clean expired cache entries
   cleanupCache(): number {
     return this.repository.cleanup();
+  }
+
+  // Enhanced method to get pagination details for an artist
+  async getArtistPaginationDetails(artistId: string): Promise<PaginationResult> {
+    try {
+      const artist = this.configService.getArtist(artistId);
+      if (!artist) {
+        throw new Error(`Artist ${artistId} not found in configuration`);
+      }
+
+      DebugHelper.pagination(`Getting detailed pagination info for ${artist.displayName}`);
+      
+      // Get total available from iTunes
+      const { totalAvailable } = await this.client.checkPagination(artist.itunesArtistId);
+      
+      // Get cached songs
+      const cachedSongs = this.repository.get(artistId) || [];
+      const fetched = cachedSongs.length;
+      
+      // Calculate pages and coverage
+      const pagesFetched = Math.ceil(fetched / 200);
+      const hasMore = fetched < totalAvailable;
+      
+      const result: PaginationResult = {
+        tracks: cachedSongs,
+        totalAvailable,
+        pagesFetched,
+        hasMore
+      };
+
+      DebugHelper.pagination(`Detailed pagination for ${artist.displayName}:`);
+      DebugHelper.pagination(`   Total available: ${totalAvailable}`);
+      DebugHelper.pagination(`   Currently fetched: ${fetched}`);
+      DebugHelper.pagination(`   Pages fetched: ${pagesFetched}`);
+      DebugHelper.pagination(`   Has more: ${hasMore}`);
+      DebugHelper.pagination(`   Coverage: ${((fetched / totalAvailable) * 100).toFixed(1)}%`);
+      
+      return result;
+      
+    } catch (error) {
+      DebugHelper.error('Failed to get artist pagination details:', error);
+      return {
+        tracks: [],
+        totalAvailable: 0,
+        pagesFetched: 0,
+        hasMore: false
+      };
+    }
   }
 }
 

@@ -108,7 +108,10 @@ export class SongFilters {
    * Apply smart deduplication to tracks
    */
   private applyDeduplication(validTracks: ITunesTrack[], filteredOutTracks: FilteredTrack[]): ITunesTrack[] {
-    return deduplicateSongVersions(validTracks, filteredOutTracks);
+    const result = deduplicateSongVersions(validTracks, filteredOutTracks);
+    // Merge the filtered out tracks from deduplication into our main filteredOutTracks array
+    filteredOutTracks.push(...result.filteredOutTracks);
+    return result.deduplicatedTracks;
   }
 
   /**

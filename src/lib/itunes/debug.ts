@@ -77,6 +77,35 @@ export class DebugHelper {
   }
 
   /**
+   * Log pagination progress (only in development/debug mode)
+   */
+  static paginationProgress(current: number, total: number, page: number, totalPages: number): void {
+    if (this.isDebug) {
+      const percentage = total > 0 ? ((current / total) * 100).toFixed(1) : '0.0';
+      console.log(`📊 Pagination Progress: ${current}/${total} (${percentage}%) - Page ${page}/${totalPages}`);
+    }
+  }
+
+  /**
+   * Log page fetch details (only in development/debug mode)
+   */
+  static pageFetch(page: number, tracksFound: number, offset: number, limit: number): void {
+    if (this.isDebug) {
+      console.log(`📄 Page ${page}: Found ${tracksFound} tracks (offset: ${offset}, limit: ${limit})`);
+    }
+  }
+
+  /**
+   * Log pagination completion (only in development/debug mode)
+   */
+  static paginationComplete(totalTracks: number, totalPages: number, totalAvailable: number): void {
+    if (this.isDebug) {
+      const coverage = totalAvailable > 0 ? ((totalTracks / totalAvailable) * 100).toFixed(1) : '0.0';
+      console.log(`🎯 Pagination Complete: ${totalTracks} tracks from ${totalPages} pages (${coverage}% coverage)`);
+    }
+  }
+
+  /**
    * Check if debug logging is enabled
    */
   static isEnabled(): boolean {

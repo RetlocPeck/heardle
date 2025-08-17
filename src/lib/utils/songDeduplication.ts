@@ -6,11 +6,25 @@ export interface FilteredTrack {
 }
 
 /**
- * Normalize song name for grouping (remove parentheses and extra whitespace)
+ * Normalize song name for grouping (remove most parentheses content to group identical songs)
  */
 function normalizeSongName(songName: string): string {
   return songName
-    .replace(/\s*\([^)]*\)\s*/g, '') // Remove everything in parentheses
+    .replace(/\s*\(feat\.[^)]*\)/gi, '') // Remove (feat. ...) 
+    .replace(/\s*\(with[^)]*\)/gi, '') // Remove (with ...) 
+    .replace(/\s*\(acoustic\)/gi, '') // Remove (acoustic)
+    .replace(/\s*\(instrumental\)/gi, '') // Remove (instrumental)
+    .replace(/\s*\(piano ver\.\)/gi, '') // Remove (piano ver.)
+    .replace(/\s*\(orchestra ver\.\)/gi, '') // Remove (orchestra ver.)
+    .replace(/\s*\(live\)/gi, '') // Remove (live)
+    .replace(/\s*\(demo\)/gi, '') // Remove (demo)
+    .replace(/\s*\(remix\)/gi, '') // Remove (remix)
+    .replace(/\s*\(edit\)/gi, '') // Remove (edit)
+    .replace(/\s*\(single\)/gi, '') // Remove (single)
+    .replace(/\s*\(ep\)/gi, '') // Remove (ep)
+    .replace(/\s*\(album\)/gi, '') // Remove (album)
+    .replace(/\s*\([^)]*\)/g, '') // Remove ALL remaining parentheses content
+    .replace(/\s*:\s*/g, ': ') // Normalize colon spacing
     .replace(/\s+/g, ' ') // Normalize whitespace
     .trim()
     .toLowerCase();
@@ -46,15 +60,40 @@ function scoreSongVersion(songName: string): number {
 
 /**
  * Deduplicate song versions and keep the best one from each group
+ * Returns both the deduplicated tracks and the filtered out tracks
  */
 export function deduplicateSongVersions(
   validTracks: ITunesTrack[], 
   filteredOutTracks: FilteredTrack[]
-): ITunesTrack[] {
-  // Group tracks by normalized song name
+): { deduplicatedTracks: ITunesTrack[], filteredOutTracks: FilteredTrack[] } {
+  // First, filter out unwanted versions (acoustic, instrumental, etc.)
+  const filteredTracks = validTracks.filter(track => {
+    const trackName = track.trackName?.toLowerCase() || '';
+    
+    // Filter out unwanted versions
+    if (trackName.includes('(acoustic)') || 
+        trackName.includes('(instrumental)') ||
+        trackName.includes('(piano ver.)') ||
+        trackName.includes('(orchestra ver.)') ||
+        trackName.includes('(live)') ||
+        trackName.includes('(demo)') ||
+        trackName.includes('(remix)') ||
+        trackName.includes('(edit)')) {
+      
+      filteredOutTracks.push({
+        track,
+        reason: `Filtered out unwanted version: ${track.trackName}`
+      });
+      return false;
+    }
+    
+    return true;
+  });
+  
+  // Group tracks by normalized song name (removing features, parentheses)
   const songGroups = new Map<string, ITunesTrack[]>();
   
-  validTracks.forEach(track => {
+  filteredTracks.forEach(track => {
     const normalizedName = normalizeSongName(track.trackName);
     if (!songGroups.has(normalizedName)) {
       songGroups.set(normalizedName, []);
@@ -96,9 +135,6 @@ export function deduplicateSongVersions(
     }
   });
   
-  if (duplicatesRemoved > 0) {
-    console.log(`🔄 Deduplication: Removed ${duplicatesRemoved} duplicate versions, kept ${deduplicatedTracks.length} unique songs`);
-  }
-  
-  return deduplicatedTracks;
+  // Return both the deduplicated tracks and the filtered out tracks
+  return { deduplicatedTracks, filteredOutTracks };
 }

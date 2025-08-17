@@ -4,6 +4,8 @@ export interface PageOpts {
   offset?: number;
   entity?: string;
   media?: string;
+  country?: string;      // NEW
+  countries?: string[];  // NEW (e.g., ['US','JP','KR'])
 }
 
 export interface Paged<T> {
@@ -18,6 +20,7 @@ export interface ITunesLookupParams {
   id: string;
   entity?: string;
   limit?: number;
+  offset?: number;
 }
 
 export interface ITunesSearchParams {
@@ -25,6 +28,7 @@ export interface ITunesSearchParams {
   entity?: string;
   media?: string;
   limit?: number;
+  offset?: number;
 }
 
 // iTunes API response types
@@ -58,4 +62,12 @@ export interface Repository<T> {
 export interface FilterResult {
   valid: any[];
   filtered: any[];
+}
+
+// Pagination result types
+export interface PaginationResult {
+  tracks: any[];
+  totalAvailable: number;
+  pagesFetched: number;
+  hasMore: boolean;
 }

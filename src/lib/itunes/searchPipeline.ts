@@ -3,43 +3,48 @@ import { ITunesClient } from './client';
 import { ITunesTrack } from '@/types/song';
 
 /**
- * Strategy 1: Lookup by artist ID (most reliable)
+ * Strategy 1: Search by artist ID with display name (most reliable) with pagination
  */
 export class ArtistIdLookupStrategy implements SearchStrategy {
-  name = 'Artist ID Lookup';
+  name = 'Artist ID Search with Pagination';
   
   constructor(private client: ITunesClient) {}
   
   async execute(artist: any, opts: PageOpts = {}): Promise<any[]> {
     try {
-      const response = await this.client.lookupArtistSongs(
-        { id: artist.itunesArtistId },
-        { ...opts, limit: opts.limit || 200 }
-      );
+      // Try search-based pagination first
+      const searchTracks = await this.client.searchAllByArtistId(artist.itunesArtistId, artist.displayName, opts);
       
-      if (!response.results || !Array.isArray(response.results)) {
-        return [];
+      if (searchTracks.length >= 200) {
+        // Search found enough tracks, use those
+        return searchTracks;
+      } else {
+        // Search didn't find enough tracks, fall back to lookup
+        try {
+          const lookupTracks = await this.client.lookupArtistSongs({ id: artist.itunesArtistId }, opts);
+          return lookupTracks.results || [];
+        } catch (error) {
+          // If lookup fails, use search results
+          return searchTracks;
+        }
       }
-
-      // Filter out non-song results and ensure they're actually songs
-      const songs = response.results.filter((track: any) => 
-        track.wrapperType === 'track' && 
-        track.kind === 'song' &&
-        track.previewUrl // Only include tracks with preview URLs
-      );
-
-      return songs;
     } catch (error) {
-      throw new Error(`Artist ID lookup failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      // If search fails, try lookup as fallback
+      try {
+        const lookupTracks = await this.client.lookupArtistSongs({ id: artist.itunesArtistId }, opts);
+        return lookupTracks.results || [];
+      } catch (lookupError) {
+        throw new Error(`Both search and lookup strategies failed for ${artist.displayName}`);
+      }
     }
   }
 }
 
 /**
- * Strategy 2: Search by artist name/terms (fallback)
+ * Strategy 2: Search by artist name/terms (fallback) with pagination
  */
 export class ArtistNameSearchStrategy implements SearchStrategy {
-  name = 'Artist Name Search';
+  name = 'Artist Name Search with Pagination';
   
   constructor(private client: ITunesClient) {}
   
@@ -48,17 +53,12 @@ export class ArtistNameSearchStrategy implements SearchStrategy {
       let allTracks: ITunesTrack[] = [];
 
       for (const term of artist.searchTerms) {
-        const response = await this.client.searchByArtistName(
-          { term },
-          { ...opts, limit: opts.limit || 200 }
-        );
+        // Use the new pagination method to fetch all songs for this term
+        const tracks = await this.client.searchAllByArtistName(term, opts);
         
-        if (response.results && Array.isArray(response.results)) {
-          allTracks = allTracks.concat(response.results);
+        if (tracks && Array.isArray(tracks)) {
+          allTracks = allTracks.concat(tracks);
         }
-        
-        // Small delay between requests to be respectful
-        await new Promise(resolve => setTimeout(resolve, 100));
       }
 
       // Filter for the specific artist's songs only
@@ -116,9 +116,9 @@ export class SearchPipeline {
   getStrategies(): Array<{ name: string; description: string }> {
     return this.strategies.map(strategy => ({
       name: strategy.name,
-      description: strategy.name === 'Artist ID Lookup' 
-        ? 'Most reliable method using iTunes artist ID'
-        : 'Fallback method using artist name search terms'
+      description: strategy.name === 'Artist ID Search with Pagination' 
+        ? 'Most reliable method using iTunes search with artist ID filtering and multi-country pagination'
+        : 'Fallback method using artist name search terms with pagination'
     }));
   }
 }

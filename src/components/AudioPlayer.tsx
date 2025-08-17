@@ -205,7 +205,7 @@ export default function AudioPlayer({
       const audio = audioRef.current;
       if (audio) {
         const message = isGameWon ? 'Game won!' : 'Game over!';
-        console.log(`🎵 AudioPlayer: ${message} Auto-playing full preview`);
+        console.log(`🎵 AudioPlayer: ${message} Preparing full preview (no auto-play)`);
         
         // Clear any existing timeout
         if (timeoutRef.current) {
@@ -222,20 +222,9 @@ export default function AudioPlayer({
         audio.currentTime = 0;
         audio.load();
         
-        // Unmute and play after setup
-        setTimeout(() => {
-          if (audio) {
-            audio.muted = false;
-            audio.play().catch((error) => {
-              // Handle AbortError gracefully (audio was interrupted)
-              if (error.name !== 'AbortError') {
-                console.error('Audio auto-play error:', error);
-              }
-            });
-            setIsPlaying(true);
-            onPlay?.();
-          }
-        }, 100);
+        // Don't auto-play - let user click play button
+        // This prevents the NotAllowedError from browser autoplay policies
+        console.log('🎵 AudioPlayer: Full preview ready - user must click play button');
       }
     }
   }, [isGameWon, disabled, song.previewUrl]);
@@ -288,6 +277,8 @@ export default function AudioPlayer({
         setIsPlaying(false);
         onPause?.();
       } else {
+        // Ensure audio is unmuted when user clicks play
+        audio.muted = false;
         audio.currentTime = 0;
         setCurrentTime(0);
         audio.play().catch((error) => {
@@ -318,6 +309,9 @@ export default function AudioPlayer({
       // Reset current time to 0 when starting playback
       audio.currentTime = 0;
       setCurrentTime(0);
+      
+      // Ensure audio is unmuted when user clicks play
+      audio.muted = false;
       
       if (isGameWon) {
         // For full preview (game won), no timeout - let it play to the end
@@ -476,7 +470,7 @@ export default function AudioPlayer({
 
       <button
         onClick={togglePlay}
-        disabled={isLoading || !song.previewUrl}
+        disabled={isLoading || !song.previewUrl} // Removed !hasUserInteracted as per edit hint
         className={`
           px-8 max-[400px]:px-6 py-3 max-[400px]:py-2 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 max-[400px]:space-x-1 sm:space-x-3 text-base max-[400px]:text-sm
           ${isLoading || !song.previewUrl
@@ -511,6 +505,7 @@ export default function AudioPlayer({
         muted={true}
         autoPlay={false}
         playsInline={true}
+        controls={false}
       />
     </div>
   );
