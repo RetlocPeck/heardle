@@ -127,56 +127,59 @@ export default function ArtistPage() {
            <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
          </div>
 
-       {/* Header */}
-      <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-          <div className="flex justify-between items-center py-4 sm:py-6">
-            {/* Back Button - Smaller on mobile */}
-            <div className="flex items-center flex-shrink-0">
-              <a href="/" className="flex items-center space-x-1 sm:space-x-2 text-white/80 hover:text-white transition-colors font-medium">
-                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                </svg>
-                <span className="text-sm sm:text-base hidden sm:inline">Back to Artists</span>
-                <span className="text-sm sm:hidden">Back</span>
-              </a>
-            </div>
-            
-            {/* Title - Responsive sizing */}
-            <div className="text-center flex-1 mx-2 sm:mx-4">
-              <h1 className={`text-lg sm:text-2xl lg:text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent leading-tight`}>
-                <span className="hidden sm:inline">{artist.displayName} Heardle</span>
-                <span className="sm:hidden">{artist.displayName}</span>
-              </h1>
-              <p className="text-white/80 font-medium text-xs sm:text-sm lg:text-base hidden sm:block">
+               {/* Header */}
+       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
+         <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
+                       <div className="flex justify-between items-center py-6 sm:py-8">
+             {/* Back Button - Smaller on mobile */}
+             <div className="flex items-center flex-shrink-0">
+               <a href="/" className="flex items-center space-x-1 sm:space-x-2 text-white/80 hover:text-white transition-colors font-medium">
+                 <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                 </svg>
+                 <span className="text-sm sm:text-base hidden sm:inline">Back to Artists</span>
+                 <span className="sm:hidden">Back</span>
+               </a>
+             </div>
+             
+                           {/* Title - Responsive sizing */}
+              <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
+                <h1 className={`text-lg sm:text-2xl lg:text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent leading-tight`}>
+                  <span className="hidden sm:inline">{artist.displayName} Heardle</span>
+                  <span className="sm:hidden">{artist.displayName}</span>
+                </h1>
+                <p className="text-white/80 font-medium text-xs sm:text-sm lg:text-base hidden sm:block">
+                  Test your {artist.displayName} knowledge! 🎵
+                </p>
+                
+                {/* Daily Challenge Status */}
+                {selectedMode === 'daily' && (
+                  <div className="hidden sm:block">
+                    <DailyChallengeStatus artistId={artist.id} />
+                  </div>
+                )}
+              </div>
+             
+             {/* Statistics Button - Smaller on mobile */}
+             <div className="flex items-center justify-end flex-shrink-0">
+               <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
+             </div>
+           </div>
+           
+                       {/* Mobile-only daily challenge status and subtitle */}
+            <div className="sm:hidden pb-4 text-center">
+              <p className="text-white/80 font-medium text-xs mb-2">
                 Test your {artist.displayName} knowledge! 🎵
               </p>
-              
-              {/* Daily Challenge Status */}
               {selectedMode === 'daily' && (
-                <div className="hidden sm:block">
-                  <DailyChallengeStatus artistId={artist.id} />
-                </div>
+                <DailyChallengeStatus artistId={artist.id} />
               )}
             </div>
             
-            {/* Statistics Button - Smaller on mobile */}
-            <div className="flex items-center justify-end flex-shrink-0">
-              <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
-            </div>
-          </div>
-          
-          {/* Mobile-only daily challenge status and subtitle */}
-          <div className="sm:hidden pb-3 text-center">
-            <p className="text-white/80 font-medium text-xs mb-2">
-              Test your {artist.displayName} knowledge! 🎵
-            </p>
-            {selectedMode === 'daily' && (
-              <DailyChallengeStatus artistId={artist.id} />
-            )}
-          </div>
-        </div>
-      </div>
+            {/* Add bottom padding for desktop to ensure title fits */}
+            <div className="hidden sm:block pb-4"></div>
+         </div>
+       </div>
 
              {/* Main Content */}
        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-4">

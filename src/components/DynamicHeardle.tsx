@@ -13,6 +13,9 @@ import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
+import ShareButton from './ShareButton';
+import { convertGameStateToShareState } from '@/utils/share';
+import { getPuzzleNumber } from '@/utils/puzzle';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -321,6 +324,16 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                        </div>
                      </div>
                    </div>
+                   
+                   {/* Share button - below the inner sub-card */}
+                   <ShareButton
+                     state={convertGameStateToShareState(
+                       gameState,
+                       artist?.displayName || 'Unknown Artist',
+                       getPuzzleNumber()
+                     )}
+                     className="mt-4 w-full rounded-xl bg-green-500 text-white px-4 py-3 font-medium hover:opacity-90 transition"
+                   />
                  </div>
                </div>
              )}
@@ -397,6 +410,16 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                       </div>
                     </div>
                   </div>
+                  
+                  {/* Share button - below the inner sub-card */}
+                  <ShareButton
+                    state={convertGameStateToShareState(
+                      gameState,
+                      artist?.displayName || 'Unknown Artist',
+                      getPuzzleNumber()
+                    )}
+                    className="mt-4 w-full rounded-xl bg-green-500 text-white px-4 py-3 font-medium hover:opacity-90 transition"
+                  />
                 </div>
               </div>
             ) : (
