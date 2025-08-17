@@ -7,8 +7,14 @@ export async function GET(
 ) {
   try {
     const { artist } = await params;
+    const url = new URL(request.url);
+    
+    // Get excluded track IDs from query parameters (sent from client)
+    const excludeParam = url.searchParams.get('exclude');
+    const excludeTrackIds = excludeParam ? excludeParam.split(',') : [];
+    
     const itunesService = ITunesService.getInstance();
-    const randomSong = await itunesService.getRandomSong(artist);
+    const randomSong = await itunesService.getRandomSong(artist, excludeTrackIds);
     
     return NextResponse.json({ song: randomSong });
   } catch (error) {

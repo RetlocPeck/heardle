@@ -415,8 +415,6 @@ export function validateAllConfigurations(): void {
   
   if (Object.keys(allErrors).length > 0) {
     console.error('Artist configuration validation errors:', allErrors);
-  } else {
-    console.log(`✅ All ${ARTISTS.length} artist configurations are valid`);
   }
 }
 
