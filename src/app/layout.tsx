@@ -13,10 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "K-Pop Heardle 🎵 | Test Your K-Pop Knowledge",
+  title: "K-Pop Heardle 🎵",
   description: "Challenge yourself with music guessing games featuring your favorite K-pop artists. Listen to short previews and test your knowledge of TWICE, LE SSERAFIM, and more!",
   keywords: "K-pop, Heardle, music game, TWICE, LE SSERAFIM, guess the song, Korean music",
   authors: [{ name: "K-Pop Heardle Team" }],
+
   openGraph: {
     title: "K-Pop Heardle 🎵",
     description: "Test your K-pop knowledge with interactive music guessing games!",
