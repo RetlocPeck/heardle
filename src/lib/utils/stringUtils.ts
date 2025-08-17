@@ -16,9 +16,40 @@ export function normalizeString(str: string): string {
 
 /**
  * Check if two strings match when normalized
+ * This function is used for game logic to determine if a guess is correct
+ * 
+ * Examples:
+ * - "Golden" vs "Golden (Extended)" → false (partial match not allowed)
+ * - "Golden" vs "Golden" → true (exact match)
+ * - "golden" vs "Golden" → true (case-insensitive)
+ * - "Run BTS" vs "Run BTS" → true (exact match)
+ * - "RUN" vs "Run BTS" → false (partial match not allowed)
  */
 export function normalizedStringMatch(str1: string, str2: string): boolean {
-  return normalizeString(str1) === normalizeString(str2);
+  // First try exact match (case-insensitive)
+  if (str1.toLowerCase() === str2.toLowerCase()) {
+    return true;
+  }
+  
+  // Then try normalized match (removes special characters but keeps structure)
+  const normalized1 = normalizeString(str1);
+  const normalized2 = normalizeString(str2);
+  
+  // For game logic, we want EXACT matches after normalization
+  // This prevents partial matches like "Golden" matching "Golden (Extended)"
+  return normalized1 === normalized2;
+}
+
+/**
+ * Alternative function for more flexible matching (if needed for autocomplete)
+ * This allows partial matches but is NOT used for game logic
+ */
+export function partialStringMatch(guess: string, songName: string): boolean {
+  const normalizedGuess = normalizeString(guess);
+  const normalizedSong = normalizeString(songName);
+  
+  // Check if the normalized guess is contained within the normalized song name
+  return normalizedSong.includes(normalizedGuess);
 }
 
 /**

@@ -1,6 +1,7 @@
 'use client';
 
 import { GameState } from '@/lib/gameLogic';
+import { normalizedStringMatch } from '@/lib/utils/stringUtils';
 
 interface GameBoardProps {
   gameState: GameState;
@@ -67,8 +68,6 @@ export default function GameBoard({ gameState }: GameBoardProps) {
     );
   };
 
-
-
   return (
     <div className="w-full space-y-3 max-[400px]:space-y-2">
       <div className="text-center mb-4 max-[400px]:mb-3">
@@ -86,7 +85,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
           const isCorrect = guess ? 
             (guess === '(Skipped)' ? false : // Skipped guesses are always incorrect
              (gameState.currentSong && 
-              gameState.currentSong.name.toLowerCase().includes(guess.toLowerCase()))) : null;
+              normalizedStringMatch(guess, gameState.currentSong.name))) : null;
           
           return renderGuessRow(index, guess, isCorrect);
         })}
