@@ -4,8 +4,9 @@ export interface PageOpts {
   offset?: number;
   entity?: string;
   media?: string;
-  country?: string;      // NEW
-  countries?: string[];  // NEW (e.g., ['US','JP','KR'])
+  country?: string;      // Single country for backward compatibility
+  countries?: string[];  // Multiple countries for multi-country search
+  attribute?: string;    // Additional search attribute (e.g., 'artistTerm')
 }
 
 export interface Paged<T> {

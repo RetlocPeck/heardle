@@ -1,6 +1,7 @@
 import { SearchStrategy, PageOpts } from './types';
 import { ITunesClient } from './client';
 import { ITunesTrack } from '@/types/song';
+import { DebugHelper } from './debug';
 
 /**
  * Strategy 1: Search by artist ID with display name (most reliable) with pagination
@@ -12,23 +13,51 @@ export class ArtistIdLookupStrategy implements SearchStrategy {
   
   async execute(artist: any, opts: PageOpts = {}): Promise<any[]> {
     try {
-      // Try search-based pagination first
-      const searchTracks = await this.client.searchAllByArtistId(artist.itunesArtistId, artist.displayName, opts);
+      const { countries = ['US', 'JP', 'KR', 'GB', 'CA'] } = opts;
+      const allTracks: any[] = [];
+      const seenTrackIds = new Set<number>();
       
-      if (searchTracks.length >= 200) {
-        // Search found enough tracks, use those
-        return searchTracks;
-      } else {
-        // Search didn't find enough tracks, fall back to lookup
-        try {
-          const lookupTracks = await this.client.lookupArtistSongs({ id: artist.itunesArtistId }, opts);
-          return lookupTracks.results || [];
-        } catch (error) {
-          // If lookup fails, use search results
-          return searchTracks;
+      DebugHelper.strategy(this.name, `Starting execution for ${artist.displayName} with ${artist.searchTerms.length} search terms`);
+      
+      // Try each search term with each country for maximum coverage
+      for (const searchTerm of artist.searchTerms) {
+        DebugHelper.strategy(this.name, `Processing search term: "${searchTerm}"`);
+        
+        for (const country of countries) {
+          DebugHelper.strategy(this.name, `Searching in country: ${country} for term: "${searchTerm}"`);
+          
+          try {
+            // Use search-based pagination for this term/country combination
+            const searchTracks = await this.client.searchAllByArtistId(
+              artist.itunesArtistId, 
+              searchTerm, 
+              { ...opts, countries: [country] }
+            );
+            
+            // Filter by exact artistId match and deduplicate
+            for (const track of searchTracks) {
+              if (track.artistId === Number(artist.itunesArtistId) && 
+                  track.trackId && 
+                  !seenTrackIds.has(track.trackId)) {
+                seenTrackIds.add(track.trackId);
+                allTracks.push(track);
+              }
+            }
+            
+            DebugHelper.strategy(this.name, `Country ${country}, term "${searchTerm}": Found ${searchTracks.length} tracks, ${allTracks.length} unique total`);
+            
+          } catch (error) {
+            DebugHelper.warn(`Failed to search for term "${searchTerm}" in country ${country}:`, error);
+            continue;
+          }
         }
       }
+      
+      DebugHelper.strategy(this.name, `Strategy complete: ${allTracks.length} unique tracks from all terms and countries`);
+      return allTracks;
+      
     } catch (error) {
+      DebugHelper.error(`ArtistIdLookupStrategy failed:`, error);
       // If search fails, try lookup as fallback
       try {
         const lookupTracks = await this.client.lookupArtistSongs({ id: artist.itunesArtistId }, opts);
@@ -91,23 +120,43 @@ export class SearchPipeline {
   }
 
   /**
-   * Execute search using multiple strategies until one succeeds
+   * Execute search using multiple strategies and aggregate results
    */
   async execute(artist: any, opts: PageOpts = {}): Promise<any[]> {
+    const allResults: any[] = [];
+    const seenTrackIds = new Set<number>();
+    
+    DebugHelper.info(`Executing ${this.strategies.length} search strategies for ${artist.displayName}`);
+    
     for (const strategy of this.strategies) {
       try {
+        DebugHelper.strategy(strategy.name, `Starting execution for ${artist.displayName}`);
         const results = await strategy.execute(artist, opts);
-        if (results.length > 0) {
-          return results;
+        
+        if (results && Array.isArray(results) && results.length > 0) {
+          DebugHelper.strategy(strategy.name, `Found ${results.length} tracks`);
+          
+          // Deduplicate by trackId as we aggregate
+          for (const track of results) {
+            if (track.trackId && !seenTrackIds.has(track.trackId)) {
+              seenTrackIds.add(track.trackId);
+              allResults.push(track);
+            }
+          }
+          
+          DebugHelper.strategy(strategy.name, `After deduplication: ${allResults.length} unique tracks`);
+        } else {
+          DebugHelper.strategy(strategy.name, `No tracks found`);
         }
       } catch (error) {
+        DebugHelper.warn(`Strategy ${strategy.name} failed:`, error);
         // Continue to next strategy
         continue;
       }
     }
     
-    // No strategy succeeded
-    return [];
+    DebugHelper.success(`Pipeline complete: ${allResults.length} unique tracks from all strategies`);
+    return allResults;
   }
 
   /**

@@ -78,7 +78,7 @@ export class ITunesClient {
    * NEW: paginate by artistId using search (filter on artistId) - with flexible filtering
    */
   async searchAllByArtistId(artistId: number, displayName: string, opts: PageOpts = {}): Promise<any[]> {
-    const { limit = 200, countries = ['US','JP','KR'] } = opts;
+    const { limit = 200, countries = ['US','JP','KR','GB','CA'] } = opts;
     const all: any[] = [];
     const seen = new Set<number>();
 
@@ -89,6 +89,8 @@ export class ITunesClient {
       DebugHelper.pagination(`Searching in country: ${country}`);
       
       while (true) {
+        DebugHelper.searchTermCountry(displayName, country, offset, limit);
+        
         const data = await this.searchByArtistName(
           { term: displayName, entity: 'song', media: 'music', limit }, 
           { limit, offset, country }
@@ -113,12 +115,16 @@ export class ITunesClient {
         DebugHelper.pageFetch(page, batch.length, offset, limit);
         
         // dedupe as we go
+        let uniqueInBatch = 0;
         for (const t of batch) {
           if (t.trackId && !seen.has(t.trackId)) { 
             seen.add(t.trackId); 
-            all.push(t); 
+            all.push(t);
+            uniqueInBatch++;
           }
         }
+        
+        DebugHelper.batchProcess(batch.length, all.length, uniqueInBatch);
         
         if (batch.length < limit) {
           DebugHelper.info(`Country ${country}: Reached end (${batch.length} < ${limit})`);

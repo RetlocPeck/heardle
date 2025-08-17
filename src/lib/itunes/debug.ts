@@ -106,6 +106,24 @@ export class DebugHelper {
   }
 
   /**
+   * Log search term and country combination (only in development/debug mode)
+   */
+  static searchTermCountry(term: string, country: string, offset: number, limit: number): void {
+    if (this.isDebug) {
+      console.log(`🔍 Search: "${term}" in ${country} (offset: ${offset}, limit: ${limit})`);
+    }
+  }
+
+  /**
+   * Log batch processing details (only in development/debug mode)
+   */
+  static batchProcess(batchSize: number, totalFound: number, uniqueCount: number): void {
+    if (this.isDebug) {
+      console.log(`📦 Batch: ${batchSize} tracks found, ${uniqueCount} unique (${totalFound} total so far)`);
+    }
+  }
+
+  /**
    * Check if debug logging is enabled
    */
   static isEnabled(): boolean {
