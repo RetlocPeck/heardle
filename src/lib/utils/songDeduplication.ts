@@ -6,12 +6,24 @@ export interface FilteredTrack {
 }
 
 /**
- * Normalize song name for grouping (remove parentheses and extra whitespace)
+ * Normalize song name for grouping (remove parentheses, normalize punctuation and spacing)
  */
 function normalizeSongName(songName: string): string {
   return songName
     .replace(/\s*\([^)]*\)\s*/g, '') // Remove everything in parentheses
-    .replace(/\s+/g, ' ') // Normalize whitespace
+    .replace(/\s*\[[^\]]*\]\s*/g, '') // Remove everything in brackets
+    .replace(/[,\.]\s*/g, ' ') // Replace commas and periods with spaces
+    .replace(/\s+/g, ' ') // Normalize multiple spaces to single space
+    .replace(/\s*-\s*/g, ' ') // Replace hyphens with spaces
+    .replace(/\s*_\s*/g, ' ') // Replace underscores with spaces
+    .replace(/\s*&\s*/g, ' and ') // Replace & with 'and'
+    .replace(/\s*\+\s*/g, ' plus ') // Replace + with 'plus'
+    .replace(/\bpt\.?\s*(\d+)\b/gi, 'part $1') // Normalize Pt.2, Pt 2, etc. to "part 2"
+    .replace(/\bpart\s*(\d+)\b/gi, 'part $1') // Normalize Part 2, Part2, etc. to "part 2"
+    .replace(/\bvol\.?\s*(\d+)\b/gi, 'volume $1') // Normalize Vol.2, Vol 2, etc. to "volume 2"
+    .replace(/\bvolume\s*(\d+)\b/gi, 'volume $1') // Normalize Volume 2, Volume2, etc. to "volume 2"
+    .replace(/\bno\.?\s*(\d+)\b/gi, 'number $1') // Normalize No.2, No 2, etc. to "number 2"
+    .replace(/\bnumber\s*(\d+)\b/gi, 'number $1') // Normalize Number 2, Number2, etc. to "number 2"
     .trim()
     .toLowerCase();
 }
@@ -32,14 +44,37 @@ function scoreSongVersion(songName: string): number {
   if (/\(feat\..*\)/i.test(songName)) score -= 30;
   if (/\(with.*\)/i.test(songName)) score -= 25;
   
+  // Penalties for various unwanted patterns
+  if (/\(.*remix.*\)/i.test(songName)) score -= 40;
+  if (/\(.*version.*\)/i.test(songName)) score -= 35;
+  if (/\(.*edit.*\)/i.test(songName)) score -= 30;
+  if (/\(.*mix.*\)/i.test(songName)) score -= 35;
+  if (/\(.*instrumental.*\)/i.test(songName)) score -= 40;
+  if (/\(.*acoustic.*\)/i.test(songName)) score -= 30;
+  if (/\(.*live.*\)/i.test(songName)) score -= 25;
+  if (/\(.*demo.*\)/i.test(songName)) score -= 45;
+  
   // Light penalties for other parentheses content
   if (/\(.*\)/i.test(songName)) score -= 10;
   
-  // Bonus for clean versions (no parentheses at all)
-  if (!/\(.*\)/.test(songName)) score += 20;
+  // Penalties for brackets
+  if (/\[.*\]/i.test(songName)) score -= 20;
+  
+  // Penalties for hyphens with unwanted content
+  if (/-\s*(remix|version|edit|mix|instrumental|acoustic|live|demo)\s*-/i.test(songName)) score -= 30;
+  
+  // Bonus for clean versions (no parentheses, brackets, or unwanted hyphens)
+  if (!/\(.*\)/.test(songName) && !/\[.*\]/.test(songName) && !/-\s*(remix|version|edit|mix|instrumental|acoustic|live|demo)\s*-/i.test(songName)) {
+    score += 25;
+  }
   
   // Bonus for shorter names (usually cleaner)
   if (songName.length < 20) score += 5;
+  
+  // Bonus for normalized punctuation (e.g., "part 2" instead of "pt.2")
+  if (!/pt\.?\d+/i.test(songName) && !/vol\.?\d+/i.test(songName) && !/no\.?\d+/i.test(songName)) {
+    score += 10;
+  }
   
   return score;
 }
@@ -97,7 +132,7 @@ export function deduplicateSongVersions(
   });
   
   if (duplicatesRemoved > 0) {
-    console.log(`🔄 Deduplication: Removed ${duplicatesRemoved} duplicate versions, kept ${deduplicatedTracks.length} unique songs`);
+    // Log removed for monitoring purposes only
   }
   
   return deduplicatedTracks;
