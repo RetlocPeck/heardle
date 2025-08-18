@@ -29,6 +29,7 @@ export default function AudioPlayer({
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const animationFrameRef = useRef<number | null>(null);
   const lastUpdateTimeRef = useRef<number>(0);
+  const [autoPlayBlocked, setAutoPlayBlocked] = useState(false);
 
   // Clear any existing timeout when component unmounts or duration changes
   useEffect(() => {
@@ -71,6 +72,8 @@ export default function AudioPlayer({
       audio.removeEventListener('canplay', handleCanPlay);
     };
   }, []);
+
+  // No-op: we rely on explicit user clicks to start playback
 
   // Smooth progress animation using requestAnimationFrame
   useEffect(() => {
@@ -199,44 +202,26 @@ export default function AudioPlayer({
     }
   }, [duration, isGameWon, disabled]);
 
-  // Auto-play full preview when game is won or over
+  // Prepare full preview when game is won or over; do not auto-play to avoid NotAllowedError
   useEffect(() => {
     if ((isGameWon || disabled) && song.previewUrl) {
       const audio = audioRef.current;
-      if (audio) {
-        const message = isGameWon ? 'Game won!' : 'Game over!';
-        console.log(`🎵 AudioPlayer: ${message} Auto-playing full preview`);
-        
-        // Clear any existing timeout
-        if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current);
-          timeoutRef.current = null;
-        }
-        
-        // Set audio attributes to prevent autoplay during setup
-        audio.preload = 'metadata';
-        audio.muted = true;
-        
-        // Set audio source and prepare
-        audio.src = song.previewUrl;
-        audio.currentTime = 0;
-        audio.load();
-        
-        // Unmute and play after setup
-        setTimeout(() => {
-          if (audio) {
-            audio.muted = false;
-            audio.play().catch((error) => {
-              // Handle AbortError gracefully (audio was interrupted)
-              if (error.name !== 'AbortError') {
-                console.error('Audio auto-play error:', error);
-              }
-            });
-            setIsPlaying(true);
-            onPlay?.();
-          }
-        }, 100);
+      if (!audio) return;
+      // Clear any existing timeout
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+        timeoutRef.current = null;
       }
+      // Prepare source, ensure unmuted for user-initiated play
+      audio.preload = 'metadata';
+      audio.muted = false;
+      audio.src = song.previewUrl;
+      audio.currentTime = 0;
+      audio.load();
+      setIsPlaying(false);
+      setAutoPlayBlocked(true);
+    } else {
+      setAutoPlayBlocked(false);
     }
   }, [isGameWon, disabled, song.previewUrl]);
 
@@ -290,7 +275,10 @@ export default function AudioPlayer({
       } else {
         audio.currentTime = 0;
         setCurrentTime(0);
-        audio.play().catch((error) => {
+        audio.muted = false;
+        audio.play().then(() => {
+          setAutoPlayBlocked(false);
+        }).catch((error) => {
           // Handle AbortError gracefully (audio was interrupted)
           if (error.name !== 'AbortError') {
             console.error('Audio play error:', error);
@@ -349,7 +337,10 @@ export default function AudioPlayer({
           timeoutRef.current = null;
         }, duration);
         
-        audio.play().catch((error) => {
+        audio.muted = false;
+        audio.play().then(() => {
+          setAutoPlayBlocked(false);
+        }).catch((error) => {
           // Handle AbortError gracefully (audio was interrupted)
           if (error.name !== 'AbortError') {
             console.error('Audio play error:', error);
@@ -508,7 +499,6 @@ export default function AudioPlayer({
       <audio 
         ref={audioRef} 
         preload="metadata" 
-        muted={true}
         autoPlay={false}
         playsInline={true}
       />
