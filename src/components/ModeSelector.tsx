@@ -16,8 +16,17 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
   // Measure current rendered widths (they change with breakpoints because of label swaps)
   useEffect(() => {
     const compute = () => {
-      const d = dailyRef.current?.getBoundingClientRect().width ?? 0;
-      const p = practiceRef.current?.getBoundingClientRect().width ?? 0;
+      const measure = (el: HTMLButtonElement | null) => {
+        if (!el) return 0;
+        const prevWidth = el.style.width;
+        // Measure intrinsic content width so text always fits
+        el.style.width = 'auto';
+        const w = Math.ceil(el.scrollWidth);
+        el.style.width = prevWidth;
+        return w;
+      };
+      const d = measure(dailyRef.current);
+      const p = measure(practiceRef.current);
       const max = Math.max(d, p);
       setTabWidthPx(max > 0 ? Math.ceil(max) : null);
     };
@@ -39,9 +48,9 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
                 : 'bg-white/10 text-white/80 hover:bg-white/20 hover:text-white'
               }
             `}
-            style={{ width: tabWidthPx ? `${tabWidthPx}px` : undefined }}
+            style={{ minWidth: tabWidthPx ? `${tabWidthPx}px` : undefined }}
           >
-            <span className="flex items-center space-x-1 sm:space-x-2">
+            <span className="flex items-center justify-center space-x-1 sm:space-x-2 whitespace-nowrap">
               <span>📅</span>
               <span className="hidden sm:inline">Daily Challenge</span>
               <span className="sm:hidden">Daily</span>
@@ -57,9 +66,9 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
                 : 'bg-white/10 text-white/80 hover:bg-white/20 hover:text-white'
               }
             `}
-            style={{ width: tabWidthPx ? `${tabWidthPx}px` : undefined }}
+            style={{ minWidth: tabWidthPx ? `${tabWidthPx}px` : undefined }}
           >
-            <span className="flex items-center space-x-1 sm:space-x-2">
+            <span className="flex items-center justify-center space-x-1 sm:space-x-2 whitespace-nowrap">
               <span>🎮</span>
               <span className="hidden sm:inline">Practice Mode</span>
               <span className="sm:hidden">Practice</span>
