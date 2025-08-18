@@ -30,6 +30,8 @@ export default function AudioPlayer({
   const animationFrameRef = useRef<number | null>(null);
   const lastUpdateTimeRef = useRef<number>(0);
   const [autoPlayBlocked, setAutoPlayBlocked] = useState(false);
+  const prevIsOverRef = useRef<boolean>(false);
+  const hasMountedRef = useRef<boolean>(false);
 
   // Clear any existing timeout when component unmounts or duration changes
   useEffect(() => {
@@ -202,28 +204,69 @@ export default function AudioPlayer({
     }
   }, [duration, isGameWon, disabled]);
 
-  // Prepare full preview when game is won or over; do not auto-play to avoid NotAllowedError
+  // Prepare full preview when game is won or over; auto-play only on in-session transition to over
   useEffect(() => {
-    if ((isGameWon || disabled) && song.previewUrl) {
-      const audio = audioRef.current;
-      if (!audio) return;
+    const audio = audioRef.current;
+    if (!audio || !song.previewUrl) return;
+
+    const isOver = isGameWon || disabled;
+    const wasOver = prevIsOverRef.current;
+    const isFirstRun = !hasMountedRef.current;
+    hasMountedRef.current = true;
+    prevIsOverRef.current = isOver;
+
+    if (isOver) {
       // Clear any existing timeout
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
         timeoutRef.current = null;
       }
-      // Prepare source, ensure unmuted for user-initiated play
+
+      // Prepare source
       audio.preload = 'metadata';
-      audio.muted = false;
       audio.src = song.previewUrl;
       audio.currentTime = 0;
       audio.load();
       setIsPlaying(false);
-      setAutoPlayBlocked(true);
+
+      if (isFirstRun) {
+        // Page just loaded with an already finished game: do NOT autoplay
+        audio.muted = false;
+        setAutoPlayBlocked(true);
+        return;
+      }
+
+      if (!wasOver) {
+        // In-session transition to game over: attempt polite autoplay
+        audio.muted = true; // start muted to maximize chance of success
+        setTimeout(() => {
+          if (!audio) return;
+          audio
+            .play()
+            .then(() => {
+              setIsPlaying(true);
+              onPlay?.();
+              setAutoPlayBlocked(false);
+              setTimeout(() => { if (audio) audio.muted = false; }, 150);
+            })
+            .catch((error) => {
+              if ((error as any)?.name !== 'AbortError') {
+                console.warn('Autoplay failed:', error);
+              }
+              // If autoplay fails due to policy, keep prepared state
+              audio.muted = false;
+              setAutoPlayBlocked(true);
+            });
+        }, 100);
+      } else {
+        // Already over and re-rendered: do not autoplay
+        audio.muted = false;
+        setAutoPlayBlocked(true);
+      }
     } else {
       setAutoPlayBlocked(false);
     }
-  }, [isGameWon, disabled, song.previewUrl]);
+  }, [isGameWon, disabled, song.previewUrl, onPlay]);
 
   // Reset audio state when song changes (e.g., loading saved game)
   useEffect(() => {

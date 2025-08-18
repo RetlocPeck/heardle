@@ -381,14 +381,16 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                       </div>
                     </div>
                   </div>
-                  <ShareButton
-                    state={convertGameStateToShareState(
-                      gameState,
-                      artist?.displayName || 'Unknown Artist',
-                      getPuzzleNumber()
-                    )}
-                    className="mt-2 sm:mt-4 rounded-lg sm:rounded-xl bg-green-500 text-white px-3 sm:px-4 py-2 sm:py-3 font-medium text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
-                  />
+                  {mode === 'daily' && (
+                    <ShareButton
+                      state={convertGameStateToShareState(
+                        gameState,
+                        artist?.displayName || 'Unknown Artist',
+                        getPuzzleNumber()
+                      )}
+                      className="mt-2 sm:mt-4 rounded-lg sm:rounded-xl bg-green-500 text-white px-3 sm:px-4 py-2 sm:py-3 font-medium text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
+                    />
+                  )}
                   {mode === 'practice' && (
                     <div className="text-center">
                       <button
@@ -400,6 +402,18 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                     </div>
                   )}
                 </div>
+              </div>
+            )}
+
+            {/* Practice mode new song button on desktop - underneath audio card */}
+            {mode === 'practice' && gameState.isGameOver && (
+              <div className="text-center hidden lg:block">
+                <button
+                  onClick={handleNewGame}
+                  className={`px-6 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
+                >
+                  🎵 New Song
+                </button>
               </div>
             )}
 
@@ -478,15 +492,17 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                     </div>
                   </div>
                   
-                                      {/* Share button - below the inner sub-card */}
-                  <ShareButton
-                    state={convertGameStateToShareState(
-                      gameState,
-                      artist?.displayName || 'Unknown Artist',
-                      getPuzzleNumber()
-                    )}
-                    className="mt-4 rounded-xl bg-green-500 text-white px-4 py-3 font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
-                  />
+                                      {/* Share button - below the inner sub-card (daily mode only) */}
+                  {mode === 'daily' && (
+                    <ShareButton
+                      state={convertGameStateToShareState(
+                        gameState,
+                        artist?.displayName || 'Unknown Artist',
+                        getPuzzleNumber()
+                      )}
+                      className="mt-4 rounded-xl bg-green-500 text-white px-4 py-3 font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
+                    />
+                  )}
                 </div>
               </div>
             ) : (
