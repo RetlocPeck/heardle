@@ -9,6 +9,7 @@ import ModeSelector from '@/components/ModeSelector';
 import StatisticsButton from '@/components/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
 import ArtistHeader from '@/components/ArtistHeader';
+import NextDailyCountdown from '@/components/NextDailyCountdown';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import { GameMode } from '@/lib/gameLogic';
 
@@ -96,23 +97,37 @@ export default function ArtistPage() {
 
              {/* Main Content */}
        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-4">
-         <ModeSelector 
-          selectedMode={selectedMode} 
-          onModeChange={setSelectedMode} 
-        />
-        <DynamicHeardle 
-          mode={selectedMode} 
-          onGameStateChange={(gameState) => {
-            // Force update of the DailyChallengeStatus component
-            if (gameState.isGameOver) {
-              const event = new CustomEvent('daily-challenge-updated', {
-                detail: { artistId: artist.id, date: getTodayString(), completed: gameState.isGameOver }
-              });
-              window.dispatchEvent(event);
-              console.log(`📡 Artist page dispatched daily-challenge-updated event:`, event.detail);
-            }
-          }}
-        />
+         <div className="flex flex-col items-stretch space-y-4 sm:space-y-5 lg:space-y-6">
+           <ModeSelector 
+            selectedMode={selectedMode} 
+            onModeChange={setSelectedMode} 
+          />
+          
+          {/* Daily Countdown + Tagline - Only show in daily mode */}
+          {selectedMode === 'daily' && (
+            <div className="flex flex-col items-center gap-1">
+              <NextDailyCountdown />
+              <p className="m-0 text-white/60 text-base max-[400px]:text-sm lg:text-lg xl:text-xl leading-tight">
+                New song every day at midnight
+              </p>
+            </div>
+          )}
+          
+          {/* Remove any extra top margin/padding from the child; parent controls spacing */}
+          <DynamicHeardle 
+            mode={selectedMode} 
+            onGameStateChange={(gameState) => {
+              // Force update of the DailyChallengeStatus component
+              if (gameState.isGameOver) {
+                const event = new CustomEvent('daily-challenge-updated', {
+                  detail: { artistId: artist.id, date: getTodayString(), completed: gameState.isGameOver }
+                });
+                window.dispatchEvent(event);
+                console.log(`📡 Artist page dispatched daily-challenge-updated event:`, event.detail);
+              }
+            }}
+          />
+         </div>
       </div>
     </div>
   );

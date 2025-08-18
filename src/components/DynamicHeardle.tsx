@@ -249,13 +249,8 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
 
   return (
     <ErrorBoundary>
-      <div className="w-full p-2 sm:p-4 lg:p-6 xl:p-8 2xl:p-12 max-w-[1400px] mx-auto">
-        {/* Header - More Compact */}
-        <div className="text-center mb-4 max-[400px]:mb-3">
-          <p className="text-white/60 text-base max-[400px]:text-sm lg:text-lg xl:text-xl">
-            {mode === 'daily' && 'New song every day at midnight'}
-          </p>
-        </div>
+      <div className="w-full pt-0 px-2 pb-2 sm:px-4 sm:pb-4 lg:px-6 lg:pb-6 xl:px-8 xl:pb-8 2xl:px-12 2xl:pb-12 max-w-[1400px] mx-auto">
+        {/* Header spacing removed; tagline moved to parent alongside countdown */}
 
         {/* Main Game Layout - Two columns on mobile, three on larger screens */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
