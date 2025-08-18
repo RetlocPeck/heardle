@@ -304,6 +304,45 @@ export default function AudioPlayer({
      };
   }, [song.id]); // Only reset when song ID changes
 
+  // Pause and reset when page is hidden/backgrounded or loses focus
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    const stop = () => {
+      audio.pause();
+      audio.currentTime = 0;
+      setIsPlaying(false);
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+        timeoutRef.current = null;
+      }
+      if (animationFrameRef.current) {
+        cancelAnimationFrame(animationFrameRef.current);
+        animationFrameRef.current = null;
+      }
+    };
+
+    const onVisibility = () => {
+      if (document.hidden) stop();
+    };
+    const onPageHide = () => stop(); // navigating away / app switch
+    const onBlur = () => stop(); // loses window focus (some Android cases)
+    const onFreeze = () => stop(); // Chrome page lifecycle freeze
+
+    document.addEventListener('visibilitychange', onVisibility);
+    window.addEventListener('pagehide', onPageHide);
+    window.addEventListener('blur', onBlur);
+    document.addEventListener?.('freeze', onFreeze);
+
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibility);
+      window.removeEventListener('pagehide', onPageHide);
+      window.removeEventListener('blur', onBlur);
+      document.removeEventListener?.('freeze', onFreeze);
+    };
+  }, []);
+
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio || !song.previewUrl) return;
