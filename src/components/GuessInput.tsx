@@ -289,61 +289,63 @@ export default function GuessInput({
                 pointerEvents: 'none',
               }}
             >
-                             <div
-                 ref={dropdownRef}
-                 style={{
-                   position: 'absolute',
-                   left: coords.left,
-                   top: coords.top,
-                   width: coords.width,
-                   transform: openAbove ? 'translateY(-100%)' : 'none',
-                   pointerEvents: 'auto',
-                 }}
-                 className="
-                   rounded-2xl border border-white/20 shadow-2xl
-                   backdrop-blur-xl bg-white/10
-                   overflow-hidden                 /* <-- clip scrollbar to radius */
-                   bg-clip-padding
-                 "
-               >
-                 {/* inner scroll area */}
-                 <div
-                   className="
-                     dropdown-scroll               /* for custom scrollbar */
-                     max-h-48 sm:max-h-56
-                     overflow-y-auto overscroll-contain
-                     pr-1                          /* room for scrollbar so it doesn't overlap border */
-                   "
-                   style={{
-                     WebkitOverflowScrolling: 'touch',
-                     scrollbarGutter: 'stable',    // keeps gutter inside the box (supported most places)
-                   }}
-                 >
-                   {filteredSongs.length > 0 ? (
-                     filteredSongs.map((song, index) => (
-                       <div
-                         key={song.id}
-                         onMouseDown={(e) => e.preventDefault()}
-                         onClick={() => handleSongSelect(song)}
-                         className={`
-                           px-3 sm:px-4 py-2 sm:py-3 cursor-pointer hover:bg-white/20 transition-all duration-200
-                           ${index === selectedIndex ? 'bg-white/20' : ''}
-                           ${index === 0 ? 'rounded-t-2xl' : ''}
-                           ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
-                         `}
-                       >
-                         <div className="font-semibold text-white text-xs sm:text-sm">
-                           {song.name}
-                         </div>
-                       </div>
-                     ))
-                   ) : (
-                     <div className="px-3 sm:px-4 py-2 sm:py-3 text-white/60 text-center text-xs sm:text-sm">
-                       No songs found starting with "{guess}"
-                     </div>
-                   )}
-                 </div>
-               </div>
+              <div
+                ref={dropdownRef}
+                style={{
+                  position: 'absolute',
+                  left: coords.left,
+                  top: coords.top,
+                  width: coords.width,
+                  transform: openAbove ? 'translateY(-100%)' : 'none',
+                  pointerEvents: 'auto',
+                }}
+                className="
+                  rounded-xl sm:rounded-2xl shadow-2xl
+                  backdrop-blur-md bg-black/20
+                  ring-1 ring-white/10
+                  overflow-hidden
+                "
+              >
+                {/* inner scroll area */}
+                <div
+                  className="
+                    dropdown-scroll
+                    max-h-48 sm:max-h-56
+                    overflow-y-auto overscroll-contain
+                  "
+                  style={{
+                    WebkitOverflowScrolling: 'touch',
+                    scrollbarGutter: 'stable',
+                  }}
+                >
+                  {filteredSongs.length > 0 ? (
+                    filteredSongs.map((song, index) => (
+                      <div
+                        key={song.id}
+                        onMouseDown={(e) => e.preventDefault()}
+                        onClick={() => handleSongSelect(song)}
+                        className={`
+                          px-3 sm:px-4 py-2.5 sm:py-3 cursor-pointer 
+                          transition-all duration-200 ease-out
+                          ${index === selectedIndex 
+                            ? 'bg-gradient-to-r from-pink-500/30 to-purple-500/30 backdrop-blur-sm' 
+                            : 'hover:bg-white/10'
+                          }
+                          border-b border-white/5 last:border-b-0
+                        `}
+                      >
+                        <div className="font-medium text-white text-xs sm:text-sm truncate">
+                          {song.name}
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="px-3 sm:px-4 py-3 text-white/60 text-center text-xs sm:text-sm">
+                      No songs found starting with "{guess}"
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
           </>,
           document.body
