@@ -33,6 +33,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const artistId = params.artist as string;
@@ -43,6 +44,16 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       loadAvailableSongs(artistId);
     }
   }, [params.artist, mode, gameLogic]);
+
+  // Detect mobile (match Tailwind's lg breakpoint at 1024px)
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const mq = window.matchMedia('(max-width: 1023.98px)');
+    const update = () => setIsMobile(mq.matches);
+    update();
+    mq.addEventListener('change', update);
+    return () => mq.removeEventListener('change', update);
+  }, []);
 
   const loadSong = async (artistId: string) => {
     setIsLoading(true);
@@ -275,7 +286,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                   onSubmit={handleGuess}
                   onSkip={handleSkip}
                   disabled={gameState.isGameOver}
-                  placeholder={`Guess the ${artist.displayName} song...`}
+                  placeholder={isMobile ? 'Guess the song...' : `Guess the ${artist.displayName} song...`}
                   availableSongs={availableSongs}
                 />
               </div>
