@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import StatisticsButton from '@/components/StatisticsButton';
+import SupportButton from '@/components/SupportButton';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -61,20 +62,28 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* Search Bar */}
-        <div className="max-w-lg mx-auto mb-16">
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Search artists..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-6 py-4 pl-14 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl text-white placeholder-white/60 focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-300 focus:bg-white/20"
-            />
-            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <svg className="h-6 w-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+        {/* Search Bar and Support Button */}
+        <div className="max-w-2xl mx-auto mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
+            {/* Search Bar */}
+            <div className="relative flex-1 max-w-lg">
+              <input
+                type="text"
+                placeholder="Search artists..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full px-6 py-4 pl-14 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl text-white placeholder-white/60 focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-300 focus:bg-white/20"
+              />
+              <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <svg className="h-6 w-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+            </div>
+            
+            {/* Support Button */}
+            <div className="flex-shrink-0">
+              <SupportButton variant="home" className="py-4" />
             </div>
           </div>
         </div>

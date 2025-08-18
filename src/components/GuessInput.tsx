@@ -267,10 +267,10 @@ export default function GuessInput({
               <span>Skip</span>
             </button>
           </div>
-                 </div>
-               </form>
+        </div>
+      </form>
 
-        {/* Portal-based Autocomplete Dropdown Overlay */}
+               {/* Portal-based Autocomplete Dropdown Overlay */}
         {showDropdown && typeof window !== 'undefined' && createPortal(
           <>
             {/* full-screen click-away (below panel but above page) */}
