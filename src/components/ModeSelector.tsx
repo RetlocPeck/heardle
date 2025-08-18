@@ -15,7 +15,8 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
           <button
             onClick={() => onModeChange('daily')}
             className={`
-              px-3 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105
+              inline-flex items-center justify-center px-3 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105
+              min-w-[90px] sm:min-w-0
               ${selectedMode === 'daily'
                 ? 'bg-gradient-to-r from-pink-500 to-rose-600 text-white shadow-lg shadow-pink-500/25'
                 : 'bg-white/10 text-white/80 hover:bg-white/20 hover:text-white'
@@ -31,7 +32,8 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
           <button
             onClick={() => onModeChange('practice')}
             className={`
-              px-3 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105
+              inline-flex items-center justify-center px-3 sm:px-6 py-2 sm:py-3 rounded-xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105
+              min-w-[90px] sm:min-w-0
               ${selectedMode === 'practice'
                 ? 'bg-gradient-to-r from-purple-500 to-indigo-600 text-white shadow-lg shadow-purple-500/25'
                 : 'bg-white/10 text-white/80 hover:bg-white/20 hover:text-white'
