@@ -45,7 +45,12 @@ export default function GameBoard({ gameState }: GameBoardProps) {
           {isCurrentRow ? (
             <div className="text-pink-300 italic font-medium text-xs sm:text-sm">Your turn...</div>
           ) : guess ? (
-            <div className="font-semibold text-white text-xs sm:text-sm truncate">{guess}</div>
+            <div
+              className="font-semibold text-white text-[11px] sm:text-sm text-left leading-snug break-words overflow-hidden"
+              style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical' }}
+            >
+              {guess}
+            </div>
           ) : (
             <div className="text-white/40 text-xs sm:text-sm">-</div>
           )}
@@ -71,10 +76,10 @@ export default function GameBoard({ gameState }: GameBoardProps) {
   return (
     <div className="w-full space-y-2 sm:space-y-3">
       <div className="text-center mb-3 sm:mb-4">
-        <h3 className="text-lg sm:text-xl font-bold text-white mb-1 sm:mb-2">
+        <h3 className="text-base sm:text-lg font-bold text-white mb-1 sm:mb-2 whitespace-nowrap leading-tight">
           🎯 Game Progress
         </h3>
-        <p className="text-white/70 text-sm sm:text-base">
+        <p className="text-white/70 text-sm sm:text-base leading-tight">
           Try {Math.min(currentTry + 1, maxTries)} of {maxTries}
         </p>
       </div>

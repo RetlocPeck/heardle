@@ -202,7 +202,7 @@ export default function GuessInput({
   return (
     <div className="w-full relative">
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-col space-y-3 max-[400px]:space-y-2">
+        <div className="flex flex-col space-y-2 sm:space-y-3">
           <div className="relative">
             <input
               ref={inputRef}
@@ -215,9 +215,9 @@ export default function GuessInput({
               placeholder={placeholder}
               disabled={disabled}
               className={`
-                w-full px-4 max-[400px]:px-3 py-3 max-[400px]:py-2
-                backdrop-blur-md bg-white/10 border border-white/20 rounded-2xl
-                text-white text-base max-[400px]:text-sm font-medium placeholder-white/60
+                w-full px-3 sm:px-4 py-2 sm:py-3
+                backdrop-blur-md bg-white/10 border border-white/20 rounded-xl sm:rounded-2xl
+                text-white text-sm sm:text-base font-medium placeholder-white/60
                 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent focus:bg-white/20
                 transition-all duration-300
                 ${disabled ? 'bg-gray-500/20 cursor-not-allowed opacity-50' : 'hover:bg-white/15'}
@@ -228,27 +228,27 @@ export default function GuessInput({
 
             {/* Autocomplete unavailable message (kept; positioned under input) */}
             {!showDropdown && availableSongs.length === 0 && guess.trim() && (
-              <div className="absolute z-10 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-2xl p-3 max-[400px]:p-2">
-                <div className="text-xs max-[400px]:text-xs sm:text-sm text-yellow-200 text-center">
+              <div className="absolute z-10 w-full mt-2 backdrop-blur-xl bg-yellow-500/20 border border-yellow-400/30 rounded-xl sm:rounded-2xl p-2 sm:p-3">
+                <div className="text-xs sm:text-sm text-yellow-200 text-center">
                   💡 Autocomplete unavailable - you can still type and guess manually!
                 </div>
               </div>
             )}
           </div>
           
-          <div className="flex space-x-2 max-[400px]:space-x-2 sm:space-x-3">
+          <div className="flex space-x-1.5 sm:space-x-2 lg:space-x-3">
             <button
               type="submit"
               disabled={disabled || !guess.trim()}
               className={`
-                flex-1 px-6 max-[400px]:px-4 py-3 max-[400px]:py-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-2xl text-base max-[400px]:text-sm
+                flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
                 hover:shadow-2xl hover:shadow-purple-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
-                flex items-center justify-center space-x-1 max-[400px]:space-x-1 sm:space-x-2
+                flex items-center justify-center space-x-0.5 sm:space-x-1 lg:space-x-2
               `}
             >
-              <span>🎯</span>
-              <span>Guess</span>
+              <span className="text-xs sm:text-sm">🎯</span>
+              <span className="whitespace-nowrap">Guess</span>
             </button>
 
             <button
@@ -257,14 +257,14 @@ export default function GuessInput({
               disabled={disabled || (currentTry + 1 >= maxTries)}
               title={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               className={`
-                flex-1 px-6 max-[400px]:px-4 py-3 max-[400px]:py-2 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-2xl text-base max-[400px]:text-sm
+                flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
                 hover:shadow-2xl hover:shadow-gray-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
-                flex items-center justify-center space-x-1 max-[400px]:space-x-2
+                flex items-center justify-center space-x-0.5 sm:space-x-1 lg:space-x-2
               `}
             >
-              <span>⏭️</span>
-              <span>Skip</span>
+              <span className="text-xs sm:text-sm">⏭️</span>
+              <span className="whitespace-nowrap">Skip</span>
             </button>
           </div>
         </div>
@@ -289,61 +289,63 @@ export default function GuessInput({
                 pointerEvents: 'none',
               }}
             >
-                             <div
-                 ref={dropdownRef}
-                 style={{
-                   position: 'absolute',
-                   left: coords.left,
-                   top: coords.top,
-                   width: coords.width,
-                   transform: openAbove ? 'translateY(-100%)' : 'none',
-                   pointerEvents: 'auto',
-                 }}
-                 className="
-                   rounded-2xl border border-white/20 shadow-2xl
-                   backdrop-blur-xl bg-white/10
-                   overflow-hidden                 /* <-- clip scrollbar to radius */
-                   bg-clip-padding
-                 "
-               >
-                 {/* inner scroll area */}
-                 <div
-                   className="
-                     dropdown-scroll               /* for custom scrollbar */
-                     max-h-56 max-[400px]:max-h-40
-                     overflow-y-auto overscroll-contain
-                     pr-1                          /* room for scrollbar so it doesn't overlap border */
-                   "
-                   style={{
-                     WebkitOverflowScrolling: 'touch',
-                     scrollbarGutter: 'stable',    // keeps gutter inside the box (supported most places)
-                   }}
-                 >
-                   {filteredSongs.length > 0 ? (
-                     filteredSongs.map((song, index) => (
-                       <div
-                         key={song.id}
-                         onMouseDown={(e) => e.preventDefault()}
-                         onClick={() => handleSongSelect(song)}
-                         className={`
-                           px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 cursor-pointer hover:bg-white/20 transition-all duration-200
-                           ${index === selectedIndex ? 'bg-white/20' : ''}
-                           ${index === 0 ? 'rounded-t-2xl' : ''}
-                           ${index === filteredSongs.length - 1 ? 'rounded-b-2xl' : ''}
-                         `}
-                       >
-                         <div className="font-semibold text-white text-sm max-[400px]:text-xs">
-                           {song.name}
-                         </div>
-                       </div>
-                     ))
-                   ) : (
-                     <div className="px-4 max-[400px]:px-3 py-3 max-[400px]:py-2 text-white/60 text-center text-sm max-[400px]:text-xs">
-                       No songs found starting with "{guess}"
-                     </div>
-                   )}
-                 </div>
-               </div>
+              <div
+                ref={dropdownRef}
+                style={{
+                  position: 'absolute',
+                  left: coords.left,
+                  top: coords.top,
+                  width: coords.width,
+                  transform: openAbove ? 'translateY(-100%)' : 'none',
+                  pointerEvents: 'auto',
+                }}
+                className="
+                  rounded-2xl sm:rounded-3xl shadow-2xl
+                  backdrop-blur-xl bg-white/5
+                  border border-white/20
+                  overflow-hidden
+                "
+              >
+                {/* inner scroll area */}
+                <div
+                  className="
+                    dropdown-scroll
+                    max-h-48 sm:max-h-56
+                    overflow-y-auto overscroll-contain
+                  "
+                  style={{
+                    WebkitOverflowScrolling: 'touch',
+                    scrollbarGutter: 'stable',
+                  }}
+                >
+                  {filteredSongs.length > 0 ? (
+                    filteredSongs.map((song, index) => (
+                      <div
+                        key={song.id}
+                        onMouseDown={(e) => e.preventDefault()}
+                        onClick={() => handleSongSelect(song)}
+                        className={`
+                          px-3 sm:px-4 py-2.5 sm:py-3 cursor-pointer 
+                          transition-all duration-200 ease-out
+                          ${index === selectedIndex 
+                            ? 'bg-gradient-to-r from-pink-500/30 to-purple-500/30 backdrop-blur-sm' 
+                            : 'hover:bg-white/10'
+                          }
+                          border-b border-white/5 last:border-b-0
+                        `}
+                      >
+                        <div className="font-medium text-white text-xs sm:text-sm truncate">
+                          {song.name}
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="px-3 sm:px-4 py-3 text-white/60 text-center text-xs sm:text-sm">
+                      No songs found starting with "{guess}"
+                    </div>
+                  )}
+                </div>
+              </div>
             </div>
           </>,
           document.body

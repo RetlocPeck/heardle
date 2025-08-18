@@ -5,7 +5,7 @@ import { GameMode } from '@/lib/gameLogic';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 
 // Component to show daily challenge completion status
-function DailyChallengeStatus({ artistId }: { artistId: string }) {
+export function DailyChallengeStatus({ artistId }: { artistId: string }) {
   const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
   
   useEffect(() => {
@@ -105,17 +105,13 @@ export default function ArtistHeader({ artist, selectedMode }: ArtistHeaderProps
             m-0
             text-xs sm:text-sm lg:text-base
             leading-snug text-white/80 font-medium
+            hidden sm:block
           "
         >
           Test your {artist.displayName} knowledge! 🎵
         </p>
 
-        {/* Status pill */}
-        {selectedMode === 'daily' && (
-          <div className="mt-1.5 md:mt-2">
-            <DailyChallengeStatus artistId={artist.id} />
-          </div>
-        )}
+        {/* Daily challenge status pill removed from navbar per mobile/desktop design */}
       </div>
     </div>
   );
