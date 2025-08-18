@@ -8,7 +8,7 @@ import DynamicHeardle from '@/components/DynamicHeardle';
 import ModeSelector from '@/components/ModeSelector';
 import StatisticsButton from '@/components/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
-import ArtistHeader from '@/components/ArtistHeader';
+import ArtistHeader, { DailyChallengeStatus } from '@/components/ArtistHeader';
 import NextDailyCountdown from '@/components/NextDailyCountdown';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import { GameMode } from '@/lib/gameLogic';
@@ -103,13 +103,11 @@ export default function ArtistPage() {
             onModeChange={setSelectedMode} 
           />
           
-          {/* Daily Countdown + Tagline - Only show in daily mode */}
+          {/* Daily Countdown + Daily Challenge Status - Only show in daily mode */}
           {selectedMode === 'daily' && (
-            <div className="flex flex-col items-center gap-1">
+            <div className="flex flex-col items-center gap-2 sm:gap-3 lg:gap-4">
+              <DailyChallengeStatus artistId={artist.id} />
               <NextDailyCountdown />
-              <p className="m-0 text-white/60 text-base max-[400px]:text-sm lg:text-lg xl:text-xl leading-tight">
-                New song every day at midnight
-              </p>
             </div>
           )}
           
