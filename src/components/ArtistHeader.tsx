@@ -105,6 +105,7 @@ export default function ArtistHeader({ artist, selectedMode }: ArtistHeaderProps
             m-0
             text-xs sm:text-sm lg:text-base
             leading-snug text-white/80 font-medium
+            hidden sm:block
           "
         >
           Test your {artist.displayName} knowledge! 🎵
