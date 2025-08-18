@@ -300,9 +300,9 @@ export default function GuessInput({
                   pointerEvents: 'auto',
                 }}
                 className="
-                  rounded-xl sm:rounded-2xl shadow-2xl
-                  backdrop-blur-md bg-black/20
-                  ring-1 ring-white/10
+                  rounded-2xl sm:rounded-3xl shadow-2xl
+                  backdrop-blur-xl bg-white/5
+                  border border-white/20
                   overflow-hidden
                 "
               >
