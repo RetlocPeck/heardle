@@ -405,8 +405,11 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                 <GameBoard gameState={gameState} />
               </div>
               {/* Support Button pinned to bottom on mobile, always visible on mobile */}
-              <div className="mt-2 sm:mt-3 lg:hidden text-center">
-                <SupportButton />
+              <div
+                className="mt-2 sm:mt-3 lg:hidden text-center pt-1"
+                style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
+              >
+                <SupportButton variant="home" />
               </div>
             </div>
           </div>
