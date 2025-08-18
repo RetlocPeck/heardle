@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import StatisticsButton from '@/components/StatisticsButton';
+import SupportButton from '@/components/SupportButton';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -36,9 +37,7 @@ export default function HomePage() {
               <span className="ml-3 text-3xl animate-pulse">🎵</span>
             </div>
             <div className="flex items-center space-x-4">
-              <div className="text-sm text-white/80 font-medium">
-                Test your K-pop knowledge!
-              </div>
+              <SupportButton variant="home" />
               <StatisticsButton />
             </div>
           </div>

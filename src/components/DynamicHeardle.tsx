@@ -15,6 +15,7 @@ import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStor
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import ShareButton from './ShareButton';
+import SupportButton from './SupportButton';
 import { convertGameStateToShareState } from '@/utils/share';
 import { getPuzzleNumber } from '@/utils/puzzle';
 
@@ -347,18 +348,23 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                </div>
              )}
              
-            {/* New Song button for practice mode */}
-            {gameState.isGameOver && mode === 'practice' && (
-              <div className="text-center">
-                <button
-                  onClick={handleNewGame}
-                  className={`px-6 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
-                >
-                  🎵 New Song
-                </button>
-              </div>
-            )}
-          </div>
+                         {/* New Song button for practice mode */}
+             {gameState.isGameOver && mode === 'practice' && (
+               <div className="text-center">
+                 <button
+                   onClick={handleNewGame}
+                   className={`px-6 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-sm sm:text-base transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
+                 >
+                   🎵 New Song
+                 </button>
+               </div>
+             )}
+
+             {/* Support Button - Centered below the cards */}
+             <div className="text-center">
+               <SupportButton />
+             </div>
+           </div>
 
           {/* Right Column - Game Board */}
           <div className="col-span-1">
@@ -420,7 +426,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                     </div>
                   </div>
                   
-                  {/* Share button - below the inner sub-card */}
+                                      {/* Share button - below the inner sub-card */}
                   <ShareButton
                     state={convertGameStateToShareState(
                       gameState,
