@@ -29,7 +29,6 @@ export default function AudioPlayer({
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
   const animationFrameRef = useRef<number | null>(null);
   const lastUpdateTimeRef = useRef<number>(0);
-  const [autoPlayBlocked, setAutoPlayBlocked] = useState(false);
   const prevIsOverRef = useRef<boolean>(false);
   const hasMountedRef = useRef<boolean>(false);
 
@@ -73,7 +72,7 @@ export default function AudioPlayer({
       audio.removeEventListener('loadstart', handleLoadStart);
       audio.removeEventListener('canplay', handleCanPlay);
     };
-  }, []);
+  }, [onEnded]);
 
   // No-op: we rely on explicit user clicks to start playback
 
@@ -178,7 +177,7 @@ export default function AudioPlayer({
         timeoutRef.current = null;
       }
     };
-  }, [song.previewUrl, duration, isGameWon, disabled]);
+  }, [song.previewUrl, duration, isGameWon, disabled, onEnded]);
 
   const forceStop = () => {
     const audio = audioRef.current;
@@ -232,7 +231,6 @@ export default function AudioPlayer({
       if (isFirstRun) {
         // Page just loaded with an already finished game: do NOT autoplay
         audio.muted = false;
-        setAutoPlayBlocked(true);
         return;
       }
 
@@ -246,7 +244,6 @@ export default function AudioPlayer({
             .then(() => {
               setIsPlaying(true);
               onPlay?.();
-              setAutoPlayBlocked(false);
               setTimeout(() => { if (audio) audio.muted = false; }, 150);
             })
             .catch((error) => {
@@ -255,18 +252,14 @@ export default function AudioPlayer({
               }
               // If autoplay fails due to policy, keep prepared state
               audio.muted = false;
-              setAutoPlayBlocked(true);
             });
         }, 100);
       } else {
         // Already over and re-rendered: do not autoplay
         audio.muted = false;
-        setAutoPlayBlocked(true);
       }
-    } else {
-      setAutoPlayBlocked(false);
     }
-  }, [isGameWon, disabled, song.previewUrl, onPlay]);
+  }, [isGameWon, disabled, song.previewUrl, onPlay, onEnded]);
 
   // Reset audio state when song changes (e.g., loading saved game)
   useEffect(() => {
@@ -359,7 +352,7 @@ export default function AudioPlayer({
         setCurrentTime(0);
         audio.muted = false;
         audio.play().then(() => {
-          setAutoPlayBlocked(false);
+          // Audio started successfully
         }).catch((error) => {
           // Handle AbortError gracefully (audio was interrupted)
           if (error.name !== 'AbortError') {
@@ -421,7 +414,7 @@ export default function AudioPlayer({
         
         audio.muted = false;
         audio.play().then(() => {
-          setAutoPlayBlocked(false);
+          // Audio started successfully
         }).catch((error) => {
           // Handle AbortError gracefully (audio was interrupted)
           if (error.name !== 'AbortError') {
@@ -451,7 +444,7 @@ export default function AudioPlayer({
 
   // Use full preview progress when game is won or over, otherwise use limited duration progress
   const displayProgress = (isGameWon || disabled) ? fullPreviewProgress : progress;
-  const displayDuration = (isGameWon || disabled) ? 30 : duration / 1000;
+  
 
   // Ensure progress bar reaches 100% by adding a small buffer
   const smoothProgress = Math.min(displayProgress, 100);

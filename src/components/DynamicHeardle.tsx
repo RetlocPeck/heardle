@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useParams } from 'next/navigation';
 import { Song } from '@/types/song';
 import { GameLogic, GameMode, GameState } from '@/lib/gameLogic';
@@ -43,6 +43,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       loadSong(artistId);
       loadAvailableSongs(artistId);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [params.artist, mode, gameLogic]);
 
   // Detect mobile (match Tailwind's lg breakpoint at 1024px)
@@ -55,7 +56,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     return () => mq.removeEventListener('change', update);
   }, []);
 
-  const loadSong = async (artistId: string) => {
+  const loadSong = useCallback(async (artistId: string) => {
     setIsLoading(true);
     setError(null);
     
@@ -114,9 +115,9 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [mode, gameLogic, onGameStateChange]);
 
-  const loadAvailableSongs = async (artistId: string) => {
+  const loadAvailableSongs = useCallback(async (artistId: string) => {
     try {
       const response = await fetch(`/api/${artistId}/songs`);
       if (response.ok) {
@@ -136,10 +137,10 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       console.warn('Failed to load available songs from iTunes for autocomplete:', err);
       setAvailableSongs([]);
     }
-  };
+  }, []);
 
   const handleGuess = (guess: string) => {
-    const isCorrect = gameLogic.makeGuess(guess);
+    gameLogic.makeGuess(guess);
     const newGameState = gameLogic.getGameState();
     setGameState(newGameState);
     

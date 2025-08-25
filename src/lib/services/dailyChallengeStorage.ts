@@ -172,7 +172,7 @@ export class DailyChallengeStorage {
               completed++;
             }
           }
-        } catch (e) {
+        } catch {
           // Skip invalid entries
         }
       });

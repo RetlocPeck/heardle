@@ -379,7 +379,6 @@ export class ITunesService {
       console.warn(`🎵 Fallback used for ${artistId}: selected excluded song "${song.name}" (${song.trackId})`);
     }
     
-    const artist = this.configService.getArtist(artistId);
     return song;
   }
 
@@ -396,7 +395,6 @@ export class ITunesService {
     const index = seed % songs.length;
     const song = songs[index];
     
-    const artist = this.configService.getArtist(artistId);
     return song;
   }
 
@@ -424,7 +422,6 @@ export class ITunesService {
         song.album.toLowerCase().includes(searchTerm)
       );
       
-      const artist = this.configService.getArtist(artistId);
       return matchingSongs;
     } catch (error) {
       console.error('Failed to search for specific song:', error);
@@ -500,7 +497,6 @@ export class ITunesService {
 
   // Clear cache and reload songs for an artist
   async refreshSongs(artistId: string): Promise<Song[]> {
-    const artist = this.configService.getArtist(artistId);
     this.availableTracks.delete(artistId);
     return await this.searchSongs(artistId);
   }

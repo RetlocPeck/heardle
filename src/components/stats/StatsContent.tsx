@@ -1,8 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { StatisticsStorage, GameStats, ArtistStats, GlobalStats } from '@/lib/services/statisticsStorage';
-import { getArtistById } from '@/config/artists';
+import { StatisticsStorage, ArtistStats, GlobalStats } from '@/lib/services/statisticsStorage';
 
 interface StatsContentProps {
   artistId?: string; // If provided, show artist-specific stats; if not, show global stats
@@ -49,7 +48,7 @@ export default function StatsContent({ artistId, defaultMode = 'daily' }: StatsC
     ? (stats as GlobalStats)[gameMode]
     : (stats as ArtistStats)[gameMode];
 
-  const artistName = artistId ? getArtistById(artistId)?.displayName : 'All Artists';
+
 
 
 

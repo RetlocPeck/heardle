@@ -101,7 +101,7 @@ export function deduplicateSongVersions(
   let duplicatesRemoved = 0;
   
   // For each group, pick the best version
-  songGroups.forEach((tracks, normalizedName) => {
+  songGroups.forEach((tracks) => {
     if (tracks.length === 1) {
       // Only one version, keep it
       deduplicatedTracks.push(tracks[0]);
