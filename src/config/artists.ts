@@ -315,6 +315,28 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 80,
       releaseYear: 2014
     }
+  },
+  {
+    id: 'p1harmony',
+    name: 'P1Harmony',
+    displayName: 'P1Harmony',
+    itunesArtistId: '1536862708',
+    searchTerms: ['P1Harmony', '피원하모니', 'P1 Harmony', 'P1H'],
+    theme: {
+      primaryColor: 'teal',
+      gradientFrom: 'from-teal-500',
+      gradientTo: 'to-cyan-600',
+      accentColor: 'bg-teal-500 hover:bg-teal-600',
+      spinnerColor: 'border-teal-400',
+      borderColor: 'border-teal-400',
+      bgColor: 'bg-teal-50',
+      textColor: 'text-teal-800'
+    },
+    metadata: {
+      imageUrl: '/groups/p1harmony.jpg',
+      songCount: 45,
+      releaseYear: 2020
+    }
   }
 ];
 
