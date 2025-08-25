@@ -8,7 +8,7 @@ interface GameBoardProps {
 }
 
 export default function GameBoard({ gameState }: GameBoardProps) {
-  const { guesses, currentTry, maxTries, isGameOver, hasWon } = gameState;
+  const { guesses, currentTry, maxTries, isGameOver } = gameState;
 
   const renderGuessRow = (index: number, guess: string | null, isCorrect: boolean | null) => {
     const isCurrentRow = index === currentTry && !isGameOver;

@@ -38,7 +38,7 @@ export default function GuessInput({
       offset(8), // 8px gap from input
       flip(), // flip to top if not enough space below
       size({
-        apply({availableWidth, elements}) {
+        apply({elements}) {
           // Force dropdown width to match the input width
           const referenceWidth = (elements.reference as HTMLElement)?.offsetWidth;
           if (referenceWidth && elements.floating) {

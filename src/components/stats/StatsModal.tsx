@@ -27,17 +27,7 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
     }
   }, []);
 
-  const focusLastTabbable = useCallback(() => {
-    if (!modalRef.current) return;
-    
-    const focusableElements = modalRef.current.querySelectorAll(
-      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-    );
-    
-    if (focusableElements.length > 0) {
-      (focusableElements[focusableElements.length - 1] as HTMLElement).focus();
-    }
-  }, []);
+
 
   // Handle escape key
   const handleKeyDown = useCallback((event: KeyboardEvent) => {

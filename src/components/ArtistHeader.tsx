@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { GameMode } from '@/lib/gameLogic';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 
 // Component to show daily challenge completion status
@@ -74,10 +73,9 @@ interface ArtistHeaderProps {
       gradientTo: string;
     };
   };
-  selectedMode: GameMode;
 }
 
-export default function ArtistHeader({ artist, selectedMode }: ArtistHeaderProps) {
+export default function ArtistHeader({ artist }: ArtistHeaderProps) {
   return (
     <div className="absolute left-1/2 transform -translate-x-1/2">
       {/* Header stack */}

@@ -85,7 +85,7 @@ export default function ArtistPage() {
               </div>
               
               {/* Centered Header Stack - Absolutely positioned */}
-              <ArtistHeader artist={artist} selectedMode={selectedMode} />
+              <ArtistHeader artist={artist} />
               
               {/* Statistics Button - Smaller on mobile */}
               <div className="flex items-center justify-end flex-shrink-0">

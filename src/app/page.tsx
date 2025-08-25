@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { getArtistsSorted } from '@/config/artists';
-import type { ArtistConfig } from '@/config/artists';
 import StatisticsButton from '@/components/StatisticsButton';
 import SupportButton from '@/components/SupportButton';
 

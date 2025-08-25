@@ -19,7 +19,7 @@ export function showDailyChallengeStats(artistId: string = 'twice') {
   if (typeof window === 'undefined') return;
   
   const storage = DailyChallengeStorage.getInstance();
-  const stats = storage.getCompletionStats(artistId);
+  storage.getCompletionStats(artistId);
   // Stats available for inspection in console
 }
 
@@ -39,7 +39,6 @@ export function checkTodayCompletion(artistId: string) {
 export function simulateCompletedChallenge(artistId: string, hasWon: boolean = true, tries: number = 3) {
   if (typeof window === 'undefined') return;
   
-  const storage = DailyChallengeStorage.getInstance();
   const statsStorage = StatisticsStorage.getInstance();
   
   // Record statistics
