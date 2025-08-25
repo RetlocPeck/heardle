@@ -229,6 +229,28 @@ export const ARTISTS: ArtistConfig[] = [
     }
   },
   {
+    id: 'everglow',
+    name: 'EVERGLOW',
+    displayName: 'EVERGLOW',
+    itunesArtistId: '1456576473',
+    searchTerms: ['EVERGLOW', '에버글로우', 'Everglow'],
+    theme: {
+      primaryColor: 'fuchsia',
+      gradientFrom: 'from-fuchsia-500',
+      gradientTo: 'to-pink-600',
+      accentColor: 'bg-fuchsia-500 hover:bg-fuchsia-600',
+      spinnerColor: 'border-fuchsia-400',
+      borderColor: 'border-fuchsia-400',
+      bgColor: 'bg-fuchsia-50',
+      textColor: 'text-fuchsia-800'
+    },
+    metadata: {
+      imageUrl: '/groups/everglow.jpg',
+      songCount: 35,
+      releaseYear: 2019
+    }
+  },
+  {
     id: 'newjeans',
     name: 'NewJeans',
     displayName: 'NewJeans',
