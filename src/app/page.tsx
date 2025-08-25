@@ -47,31 +47,31 @@ export default function HomePage() {
       {/* Main Content */}
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16">
         {/* Hero Section */}
-        <div className="text-center mb-8 sm:mb-12 lg:mb-20">
-          <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 lg:mb-6 leading-tight">
+        <div className="text-center mb-6 sm:mb-8 lg:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white mb-2 sm:mb-3 lg:mb-4 leading-tight">
             Welcome to 
             <span className="block bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
               K-Pop Heardle
             </span>
           </h2>
-          <p className="text-sm sm:text-base lg:text-xl text-white/80 max-w-xs sm:max-w-2xl lg:max-w-4xl mx-auto leading-relaxed px-2">
+          <p className="text-sm sm:text-base lg:text-lg text-white/80 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed px-2">
             Challenge yourself with music guessing games featuring your favorite K-pop artists. 
             Listen to short previews and test your knowledge of their discographies!
           </p>
         </div>
 
         {/* Search Bar */}
-        <div className="max-w-sm sm:max-w-md lg:max-w-lg mx-auto mb-8 sm:mb-12 lg:mb-16">
+        <div className="max-w-xs sm:max-w-md lg:max-w-lg mx-auto mb-6 sm:mb-8 lg:mb-12">
           <div className="relative">
             <input
               type="text"
               placeholder="Search artists..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 sm:px-6 py-3 sm:py-4 pl-10 sm:pl-14 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl sm:rounded-2xl text-white placeholder-white/60 focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-300 focus:bg-white/20 text-sm sm:text-base"
+              className="w-full px-3 sm:px-5 py-2.5 sm:py-3 pl-9 sm:pl-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl text-white placeholder-white/60 focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-300 focus:bg-white/20 text-sm sm:text-base"
             />
-            <div className="absolute inset-y-0 left-0 pl-3 sm:pl-4 flex items-center pointer-events-none">
-              <svg className="h-4 w-4 sm:h-6 sm:w-6 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="absolute inset-y-0 left-0 pl-2.5 sm:pl-3.5 flex items-center pointer-events-none">
+              <svg className="h-4 w-4 sm:h-5 sm:w-5 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
@@ -79,7 +79,15 @@ export default function HomePage() {
         </div>
 
         {/* Artists Grid */}
-        <div className="grid gap-3 sm:gap-4 lg:gap-6 mx-auto px-2 sm:px-4 max-w-none grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+        <div
+          className="
+            grid gap-3 sm:gap-4 lg:gap-6 mx-auto px-2 sm:px-4
+            grid-cols-2 md:grid-cols-3                 
+            lg:[--card-w:420px]                        
+            lg:[grid-template-columns:repeat(auto-fill,minmax(var(--card-w),var(--card-w)))]
+            lg:justify-center                           
+          "
+        >
           {filteredArtists.map((artist, index) => (
             <div
               key={artist.id}

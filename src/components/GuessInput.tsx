@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
+import { useFloating, flip, offset, size, autoUpdate } from '@floating-ui/react';
 import { Song } from '@/types/song';
 
 interface GuessInputProps {
@@ -27,19 +28,67 @@ export default function GuessInput({
   const [showDropdown, setShowDropdown] = useState(false);
   const [filteredSongs, setFilteredSongs] = useState<Song[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const [openAbove, setOpenAbove] = useState(false);
-  const [coords, setCoords] = useState<{top:number; left:number; width:number}>({top:0,left:0,width:0});
   const inputRef = useRef<HTMLInputElement>(null);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Floating UI setup for dropdown positioning
+  const {refs, floatingStyles, placement} = useFloating({
+    strategy: 'fixed',
+    whileElementsMounted: autoUpdate,
+    middleware: [
+      offset(8), // 8px gap from input
+      flip(), // flip to top if not enough space below
+      size({
+        apply({availableWidth, elements}) {
+          // Force dropdown width to match the input width
+          const referenceWidth = (elements.reference as HTMLElement)?.offsetWidth;
+          if (referenceWidth && elements.floating) {
+            (elements.floating as HTMLElement).style.width = `${referenceWidth}px`;
+          }
+        },
+      }),
+    ],
+  });
+
+  // Attach input to floating-ui reference
+  const setInputRef = (el: HTMLInputElement | null) => {
+    inputRef.current = el;
+    refs.setReference(el);
+  };
+
+  // Check if song should be filtered out based on unwanted words
+  const shouldFilterOutSong = (songName: string): boolean => {
+    const unwantedWords = ['outro', 'intro', 'introduction', 'skit', 'outros', 'intros', 'introductions', 'skits'];
+    
+    // Create a regex pattern that matches the unwanted words as standalone words
+    // Word boundaries (\b) ensure we only match complete words
+    // We also check for the words when they're followed by colons or hyphens
+    const pattern = new RegExp(
+      `\\b(${unwantedWords.join('|')})\\b|` + // standalone words
+      `\\((${unwantedWords.join('|')})\\)|` + // words in parentheses
+      `^(${unwantedWords.join('|')})[:|-]|` + // words at start followed by colon/hyphen
+      `[:|-]\\s*(${unwantedWords.join('|')})\\b`, // words after colon/hyphen
+      'i' // case insensitive
+    );
+    
+    return pattern.test(songName);
+  };
 
   // Filter songs based on input
   useEffect(() => {
     console.log(`🔍 GuessInput: Filtering songs. Input: "${guess}", Available songs: ${availableSongs.length}`);
     
     if (guess.trim() && availableSongs.length > 0) {
-      const filtered = availableSongs.filter(song => 
+      const matchingByPrefix = availableSongs.filter(song => 
         song.name.toLowerCase().startsWith(guess.toLowerCase())
       );
+      
+      const filtered = matchingByPrefix.filter(song => {
+        const isFiltered = shouldFilterOutSong(song.name);
+        if (isFiltered) {
+          console.log(`🚫 GuessInput: Filtering out song: "${song.name}"`);
+        }
+        return !isFiltered;
+      });
       
       // Deduplicate by song title - keep only one entry per unique song name
       const uniqueSongs = filtered.reduce((acc: Song[], currentSong) => {
@@ -68,7 +117,6 @@ export default function GuessInput({
       
       setFilteredSongs(uniqueSongs);
       if (uniqueSongs.length > 0) {
-        updateDropdownPosition();
         setShowDropdown(true);
       } else {
         setShowDropdown(false);
@@ -84,29 +132,6 @@ export default function GuessInput({
       }
     }
   }, [guess, availableSongs]);
-
-  // Update dropdown position on visual viewport + scroll/resize
-  useEffect(() => {
-    if (!showDropdown) return;
-
-    const vv = (window as any).visualViewport;
-    const handlers = [
-      ['resize', updateDropdownPosition],
-      ['scroll', updateDropdownPosition],
-    ] as const;
-
-    handlers.forEach(([ev, fn]) => window.addEventListener(ev, fn, { passive: true }));
-    vv?.addEventListener?.('resize', updateDropdownPosition);
-    vv?.addEventListener?.('scroll', updateDropdownPosition);
-
-    updateDropdownPosition();
-
-    return () => {
-      handlers.forEach(([ev, fn]) => window.removeEventListener(ev, fn as any));
-      vv?.removeEventListener?.('resize', updateDropdownPosition as any);
-      vv?.removeEventListener?.('scroll', updateDropdownPosition as any);
-    };
-  }, [showDropdown]);
 
   // Handle keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -163,31 +188,8 @@ export default function GuessInput({
     setGuess(e.target.value);
   };
 
-  const GAP = 8; // px
-
-  const updateDropdownPosition = () => {
-    if (!inputRef.current) return;
-    const rect = inputRef.current.getBoundingClientRect();
-    const vv = (window as any).visualViewport;
-    const viewportH = vv?.height ?? window.innerHeight;
-
-    const spaceBelow = viewportH - rect.bottom;
-    const spaceAbove = rect.top;
-    const openUp = spaceBelow < 220 && spaceAbove > spaceBelow;
-    setOpenAbove(openUp);
-
-    const left = Math.round(rect.left + window.scrollX);
-    const width = Math.round(rect.width);
-    const top = openUp
-      ? Math.round(rect.top + window.scrollY - GAP) // we'll anchor above using translateY(-100%)
-      : Math.round(rect.bottom + window.scrollY + GAP);
-
-    setCoords({ top, left, width });
-  };
-
   const handleInputFocus = () => {
     console.log(`🔍 GuessInput: Input focused. Guess: "${guess}", Filtered songs: ${filteredSongs.length}`);
-    updateDropdownPosition();
     if (guess.trim() && filteredSongs.length > 0) {
       setShowDropdown(true);
       console.log(`🔍 GuessInput: Showing dropdown with ${filteredSongs.length} songs`);
@@ -205,7 +207,7 @@ export default function GuessInput({
         <div className="flex flex-col space-y-2 sm:space-y-3">
           <div className="relative">
             <input
-              ref={inputRef}
+              ref={setInputRef}
               type="text"
               value={guess}
               onChange={handleInputChange}
@@ -223,8 +225,6 @@ export default function GuessInput({
                 ${disabled ? 'bg-gray-500/20 cursor-not-allowed opacity-50' : 'hover:bg-white/15'}
               `}
             />
-
-
 
             {/* Autocomplete unavailable message (kept; positioned under input) */}
             {!showDropdown && availableSongs.length === 0 && guess.trim() && (
@@ -270,86 +270,68 @@ export default function GuessInput({
         </div>
       </form>
 
-               {/* Portal-based Autocomplete Dropdown Overlay */}
-        {showDropdown && typeof window !== 'undefined' && createPortal(
-          <>
-            {/* full-screen click-away (below panel but above page) */}
-            <div
-              style={{ position: 'fixed', inset: 0, zIndex: 2147483646, pointerEvents: 'auto' }}
-              onMouseDown={() => setShowDropdown(false)}
-              onTouchStart={() => setShowDropdown(false)}
-            />
+      {/* Portal-based Autocomplete Dropdown using Floating UI */}
+      {showDropdown && typeof window !== 'undefined' && createPortal(
+        <>
+          {/* Full-screen click-away overlay */}
+          <div
+            style={{ position: 'fixed', inset: 0, zIndex: 50, pointerEvents: 'auto' }}
+            onMouseDown={() => setShowDropdown(false)}
+            onTouchStart={() => setShowDropdown(false)}
+          />
 
-            {/* overlay root: holds absolutely positioned dropdown */}
+          {/* Floating UI dropdown */}
+          <div
+            ref={refs.setFloating}
+            style={{...floatingStyles, zIndex: 51}}
+            className="rounded-2xl sm:rounded-3xl shadow-2xl backdrop-blur-xl bg-white/5 border border-white/20 overflow-hidden"
+            role="listbox"
+            aria-expanded={showDropdown}
+            data-placement={placement}
+          >
+            {/* Inner scroll area */}
             <div
+              className="
+                dropdown-scroll
+                max-h-48 sm:max-h-56
+                overflow-y-auto overscroll-contain
+              "
               style={{
-                position: 'fixed',
-                inset: 0,
-                zIndex: 2147483647, // sit above any stacking context
-                pointerEvents: 'none',
+                WebkitOverflowScrolling: 'touch',
+                scrollbarGutter: 'stable',
               }}
             >
-              <div
-                ref={dropdownRef}
-                style={{
-                  position: 'absolute',
-                  left: coords.left,
-                  top: coords.top,
-                  width: coords.width,
-                  transform: openAbove ? 'translateY(-100%)' : 'none',
-                  pointerEvents: 'auto',
-                }}
-                className="
-                  rounded-2xl sm:rounded-3xl shadow-2xl
-                  backdrop-blur-xl bg-white/5
-                  border border-white/20
-                  overflow-hidden
-                "
-              >
-                {/* inner scroll area */}
-                <div
-                  className="
-                    dropdown-scroll
-                    max-h-48 sm:max-h-56
-                    overflow-y-auto overscroll-contain
-                  "
-                  style={{
-                    WebkitOverflowScrolling: 'touch',
-                    scrollbarGutter: 'stable',
-                  }}
-                >
-                  {filteredSongs.length > 0 ? (
-                    filteredSongs.map((song, index) => (
-                      <div
-                        key={song.id}
-                        onMouseDown={(e) => e.preventDefault()}
-                        onClick={() => handleSongSelect(song)}
-                        className={`
-                          px-3 sm:px-4 py-2.5 sm:py-3 cursor-pointer 
-                          transition-all duration-200 ease-out
-                          ${index === selectedIndex 
-                            ? 'bg-gradient-to-r from-pink-500/30 to-purple-500/30 backdrop-blur-sm' 
-                            : 'hover:bg-white/10'
-                          }
-                          border-b border-white/5 last:border-b-0
-                        `}
-                      >
-                        <div className="font-medium text-white text-xs sm:text-sm truncate">
-                          {song.name}
-                        </div>
-                      </div>
-                    ))
-                  ) : (
-                    <div className="px-3 sm:px-4 py-3 text-white/60 text-center text-xs sm:text-sm">
-                      No songs found starting with "{guess}"
+              {filteredSongs.length > 0 ? (
+                filteredSongs.map((song, index) => (
+                  <div
+                    key={song.id}
+                    onMouseDown={(e) => e.preventDefault()}
+                    onClick={() => handleSongSelect(song)}
+                    className={`
+                      px-3 sm:px-4 py-2.5 sm:py-3 cursor-pointer 
+                      transition-all duration-200 ease-out
+                      ${index === selectedIndex 
+                        ? 'bg-gradient-to-r from-pink-500/30 to-purple-500/30 backdrop-blur-sm' 
+                        : 'hover:bg-white/10'
+                      }
+                      border-b border-white/5 last:border-b-0
+                    `}
+                  >
+                    <div className="font-medium text-white text-xs sm:text-sm truncate">
+                      {song.name}
                     </div>
-                  )}
+                  </div>
+                ))
+              ) : (
+                <div className="px-3 sm:px-4 py-3 text-white/60 text-center text-xs sm:text-sm">
+                  No songs found starting with "{guess}"
                 </div>
-              </div>
+              )}
             </div>
-          </>,
-          document.body
-        )}
-     </div>
-   );
- }
+          </div>
+        </>,
+        document.body
+      )}
+    </div>
+  );
+}
