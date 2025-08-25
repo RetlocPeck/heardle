@@ -63,9 +63,9 @@ export function buildShareText(state: ShareGameState): string {
 
   // Build grid up to the solving round, or all 6 if failed
   const upto = won ? winIndex + 1 : Math.min(6, state.rounds.length);
-  const grid = state.rounds.slice(0, upto).map(r => r.correct ? '🟩' : (r.action === 'skip' ? '⬛' : '🟥')).join('');
+  const grid = state.rounds.slice(0, upto).map(r => r.correct ? '🟩' : '🟥').join('');
 
-  const seconds = won ? state.rounds[winIndex].seconds : 15;
+  // const seconds = won ? state.rounds[winIndex].seconds : 15;
   const artistSlug = state.artist.toLowerCase().replace(/\s+/g, '-');
-  return `${state.artist} Heardle #${state.puzzleNumber} ${score}\n${grid}\n⏱️ ${seconds}s\n${siteUrl}/${artistSlug}`;
+  return `${state.artist} Heardle #${state.puzzleNumber} ${score}\n${grid}\n${siteUrl}/${artistSlug}`;
 }
