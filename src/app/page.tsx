@@ -136,10 +136,10 @@ export default function HomePage() {
                     </div>
                   )}
                   
-                  {/* Year Pill */}
-                  <div className="inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-neutral-800/90 text-white px-2 sm:px-3 text-xs sm:text-sm font-semibold">
-                    {artist.metadata.releaseYear}
-                  </div>
+                                     {/* Year Pill */}
+                   <div className="inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-neutral-800/90 text-white px-2 sm:px-3 text-xs sm:text-sm font-semibold invisible">
+                     {artist.metadata.releaseYear}
+                   </div>
                 </div>
                 
                 {/* Artist Image */}
@@ -158,7 +158,7 @@ export default function HomePage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   
                   {/* Stats Badge */}
-                  <div className="absolute top-2 sm:top-3 lg:top-4 right-2 sm:right-3 lg:right-4">
+                  <div className="absolute top-2 sm:top-3 lg:top-4 right-2 sm:right-3 lg:right-4 invisible">
                     <div className={`backdrop-blur-md ${artist.theme.bgColor} ${artist.theme.textColor} px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-semibold border border-white/30`}>
                       {artist.metadata.songCount}+ songs
                     </div>
