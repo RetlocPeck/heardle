@@ -141,3 +141,26 @@ export function getTimeUntilMidnight(): number {
   tomorrow.setHours(0, 0, 0, 0);
   return tomorrow.getTime() - now.getTime();
 }
+
+/**
+ * Get a local timezone-based puzzle number for daily challenges
+ * This ensures puzzle rollover happens at local midnight, not UTC
+ * Works similarly to getTodayString() but returns a number for easy comparison
+ */
+export function getLocalPuzzleNumber(now: Date = new Date()): number {
+  const startDateString = process.env.NEXT_PUBLIC_HEARDLE_START_DATE_UTC ?? '2025-08-17T00:00:00Z';
+  
+  // Parse the start date but convert it to local timezone equivalent
+  const startDate = new Date(startDateString);
+  const localStartDate = new Date(startDate.getUTCFullYear(), startDate.getUTCMonth(), startDate.getUTCDate());
+  
+  // Get local midnight dates for accurate day calculation
+  const nowLocal = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const startLocal = new Date(localStartDate.getFullYear(), localStartDate.getMonth(), localStartDate.getDate());
+  
+  // Calculate days difference
+  const msPerDay = 86_400_000;
+  const days = Math.floor((nowLocal.getTime() - startLocal.getTime()) / msPerDay);
+  
+  return days + 1;
+}

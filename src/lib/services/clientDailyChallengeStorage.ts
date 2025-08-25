@@ -1,5 +1,6 @@
 import { GameState } from '@/lib/gameLogic';
 import DailyChallengeStorage from './dailyChallengeStorage';
+import { getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
 
 /**
  * Client-side wrapper for DailyChallengeStorage
@@ -30,9 +31,9 @@ export class ClientDailyChallengeStorage {
     }
   }
 
-  saveDailyChallenge(artistId: string, songId: string, gameState: GameState): void {
+  saveDailyChallenge(artistId: string, songId: string, gameState: GameState, puzzleNumber: number = getLocalPuzzleNumber()): void {
     this.ensureClient();
-    this.storage!.saveDailyChallenge(artistId, songId, gameState);
+    this.storage!.saveDailyChallenge(artistId, songId, gameState, puzzleNumber);
   }
 
   loadDailyChallenge(artistId: string) {

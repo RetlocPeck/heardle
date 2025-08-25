@@ -1,5 +1,5 @@
 import { GameState } from '@/lib/gameLogic';
-import { getTodayString, isTodayInLocalTimezone } from '@/lib/utils/dateUtils';
+import { getTodayString, isTodayInLocalTimezone, getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
 
 export interface DailyChallengeData {
   date: string; // YYYY-MM-DD format
@@ -7,6 +7,8 @@ export interface DailyChallengeData {
   songId: string;
   gameState: GameState;
   completed: boolean;
+  puzzleNumber: number; // UTC-based puzzle number for consistent tracking
+  savedAt: string; // ISO timestamp
 }
 
 export class DailyChallengeStorage {
@@ -46,7 +48,7 @@ export class DailyChallengeStorage {
   /**
    * Save daily challenge data
    */
-  saveDailyChallenge(artistId: string, songId: string, gameState: GameState): void {
+  saveDailyChallenge(artistId: string, songId: string, gameState: GameState, puzzleNumber: number = getLocalPuzzleNumber()): void {
     try {
       const today = this.getTodayDate();
       const data: DailyChallengeData = {
@@ -54,7 +56,9 @@ export class DailyChallengeStorage {
         artistId,
         songId,
         gameState,
-        completed: gameState.isGameOver
+        completed: gameState.isGameOver,
+        puzzleNumber,
+        savedAt: new Date().toISOString()
       };
 
       const key = this.getStorageKey(artistId, today);
@@ -90,14 +94,15 @@ export class DailyChallengeStorage {
 
       const data: DailyChallengeData = JSON.parse(stored);
       
-      // Verify the data is for today
-      if (!this.isToday(data.date)) {
-        console.log(`🗑️ Clearing outdated daily challenge data for ${artistId} (${data.date})`);
+      // Verify the data is for today (both date and puzzle number)
+      const currentPuzzleNumber = getLocalPuzzleNumber();
+      if (!this.isToday(data.date) || (data.puzzleNumber && data.puzzleNumber !== currentPuzzleNumber)) {
+        console.log(`🗑️ Clearing outdated daily challenge data for ${artistId} (date: ${data.date}, puzzle: ${data.puzzleNumber} vs current: ${currentPuzzleNumber})`);
         this.clearDailyChallenge(artistId);
         return null;
       }
 
-      console.log(`📂 Loaded daily challenge for ${artistId} on ${today}`);
+      console.log(`📂 Loaded daily challenge for ${artistId} on ${today} (puzzle ${currentPuzzleNumber})`);
       return data;
     } catch (error) {
       console.error('Failed to load daily challenge:', error);

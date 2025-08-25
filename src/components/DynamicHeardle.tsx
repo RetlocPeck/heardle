@@ -17,7 +17,7 @@ import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import ShareButton from './ShareButton';
 import SupportButton from './SupportButton';
 import { convertGameStateToShareState } from '@/utils/share';
-import { getPuzzleNumber } from '@/utils/puzzle';
+import { getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -34,6 +34,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
   const [error, setError] = useState<string | null>(null);
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [puzzleNumber, setPuzzleNumber] = useState<number>(getLocalPuzzleNumber());
 
   useEffect(() => {
     const artistId = params.artist as string;
@@ -55,6 +56,57 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     mq.addEventListener('change', update);
     return () => mq.removeEventListener('change', update);
   }, []);
+
+  // Rollover detection: if puzzle number changes while page is open, clear & reload
+  useEffect(() => {
+    if (mode !== 'daily' || typeof window === 'undefined') return;
+
+    const checkPuzzleRollover = () => {
+      const currentPuzzleNumber = getLocalPuzzleNumber();
+      if (currentPuzzleNumber !== puzzleNumber) {
+        console.log(`🔄 Puzzle rollover detected: ${puzzleNumber} → ${currentPuzzleNumber}`);
+        
+        const artistId = params.artist as string;
+        const storage = ClientDailyChallengeStorage.getInstance();
+        
+        // Clear old puzzle data
+        storage.clearDailyChallenge(artistId);
+        
+        // Reset game logic and load fresh daily
+        gameLogic.resetGame();
+        const newGameState = gameLogic.getGameState();
+        setGameState(newGameState);
+        setPuzzleNumber(currentPuzzleNumber);
+        
+        // Notify parent component of reset
+        onGameStateChange?.(newGameState);
+        
+        // Load new daily puzzle
+        loadSong(artistId);
+      }
+    };
+
+    // Check every 30 seconds (lightweight check)
+    const intervalId = window.setInterval(checkPuzzleRollover, 30_000);
+    
+    // Check when tab becomes visible (user returns from another tab)
+    const handleVisibilityChange = () => {
+      if (!document.hidden) {
+        checkPuzzleRollover();
+      }
+    };
+    
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    // One immediate check on mount (covers returning users)
+    checkPuzzleRollover();
+
+    return () => {
+      window.clearInterval(intervalId);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mode, params.artist, puzzleNumber, gameLogic, onGameStateChange]);
 
   const loadSong = useCallback(async (artistId: string) => {
     setIsLoading(true);
@@ -147,7 +199,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     // Save daily challenge state if in daily mode
     if (mode === 'daily' && currentSong) {
       const storage = ClientDailyChallengeStorage.getInstance();
-      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
+      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState, puzzleNumber);
     }
     
     // Record statistics when game ends
@@ -176,7 +228,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     // Save daily challenge state if in daily mode
     if (mode === 'daily' && currentSong) {
       const storage = ClientDailyChallengeStorage.getInstance();
-      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState);
+      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState, puzzleNumber);
     }
     
     // Record statistics when game ends
@@ -387,7 +439,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                       state={convertGameStateToShareState(
                         gameState,
                         artist?.displayName || 'Unknown Artist',
-                        getPuzzleNumber()
+                        getLocalPuzzleNumber()
                       )}
                       className="mt-2 sm:mt-4 rounded-lg sm:rounded-xl bg-green-500 text-white px-3 sm:px-4 py-2 sm:py-3 font-medium text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
                     />
@@ -499,7 +551,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                       state={convertGameStateToShareState(
                         gameState,
                         artist?.displayName || 'Unknown Artist',
-                        getPuzzleNumber()
+                        getLocalPuzzleNumber()
                       )}
                       className="mt-4 rounded-xl bg-green-500 text-white px-4 py-3 font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
                     />
