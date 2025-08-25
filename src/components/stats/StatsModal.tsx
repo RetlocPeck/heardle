@@ -110,7 +110,7 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
   return (
     <Portal>
       <div
-        className="fixed inset-0 z-[1000] flex items-center justify-center p-4"
+        className="fixed inset-0 z-[1000] flex items-center justify-center p-2 sm:p-4"
         onClick={handleBackdropClick}
         role="dialog"
         aria-modal="true"
@@ -122,18 +122,18 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
         {/* Modal */}
         <div
           ref={modalRef}
-          className="relative w-full max-w-[720px] bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl overflow-hidden"
-          style={{ maxHeight: '90vh' }}
+          className="relative w-full max-w-[720px] bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden"
+          style={{ maxHeight: '95vh' }}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="flex items-center justify-between p-6 border-b border-white/20">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl flex items-center justify-center">
-                <span className="text-2xl">📊</span>
+          <div className="flex items-center justify-between p-3 sm:p-6 border-b border-white/20">
+            <div className="flex items-center space-x-2 sm:space-x-3">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-pink-500 to-purple-600 rounded-xl sm:rounded-2xl flex items-center justify-center">
+                <span className="text-lg sm:text-2xl">📊</span>
               </div>
               <div>
-                <h2 id="stats-title" className="text-2xl font-bold text-white">
+                <h2 id="stats-title" className="text-lg sm:text-2xl font-bold text-white">
                   {title}
                 </h2>
               </div>
@@ -141,15 +141,15 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
             
             <button
               onClick={onClose}
-              className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-2xl flex items-center justify-center transition-all duration-200 hover:scale-110"
+              className="w-8 h-8 sm:w-10 sm:h-10 bg-white/10 hover:bg-white/20 rounded-xl sm:rounded-2xl flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Close statistics modal"
             >
-              <span className="text-white text-xl">×</span>
+              <span className="text-white text-lg sm:text-xl">×</span>
             </button>
           </div>
 
           {/* Content */}
-          <div className="overflow-y-auto" style={{ maxHeight: 'calc(90vh - 120px)' }}>
+          <div className="overflow-y-auto" style={{ maxHeight: 'calc(95vh - 80px)' }}>
             {children}
           </div>
         </div>
