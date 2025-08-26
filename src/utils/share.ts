@@ -4,7 +4,7 @@ export type ShareGameState = {
   artist: string;               // e.g., "TWICE"
   rounds: Round[];              // length ≤ 6 in chronological order
   siteUrl?: string;             // default "https://heardle.live"
-  puzzleNumber: number;         // from getPuzzleNumber()
+  puzzleNumber: number;         // from getLocalPuzzleNumber()
 };
 
 // Import the GameLogic types to convert from internal state

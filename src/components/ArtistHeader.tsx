@@ -7,33 +7,51 @@ import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStor
 export function DailyChallengeStatus({ artistId }: { artistId: string }) {
   const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
   
+
+  
   useEffect(() => {
-    const storage = ClientDailyChallengeStorage.getInstance();
-    const isCompleted = storage.isDailyChallengeCompleted(artistId);
-    const challenge = storage.loadDailyChallenge(artistId);
-    const hasWon = challenge?.gameState.hasWon || false;
-    
-    setChallengeData({ isCompleted, hasWon });
+    const updateChallengeData = () => {
+      const storage = ClientDailyChallengeStorage.getInstance();
+      const isCompleted = storage.isDailyChallengeCompleted(artistId);
+      const challenge = storage.loadDailyChallenge(artistId);
+      const hasWon = challenge?.gameState.hasWon || false;
+      
+      console.log(`📊 DailyChallengeStatus for ${artistId}:`, { isCompleted, hasWon, hasChallenge: !!challenge });
+      setChallengeData({ isCompleted, hasWon });
+    };
+
+    // Initial load
+    updateChallengeData();
     
     // Listen for storage changes to update the status immediately
-    const handleStorageChange = () => {
-      const newIsCompleted = storage.isDailyChallengeCompleted(artistId);
-      const newChallenge = storage.loadDailyChallenge(artistId);
-      const newHasWon = newChallenge?.gameState.hasWon || false;
+    const handleStorageChange = (event: any) => {
+      console.log(`📡 DailyChallengeStatus received event for ${artistId}:`, event.detail);
       
-      console.log(`📡 DailyChallengeStatus received event, updating status for ${artistId}:`, { isCompleted: newIsCompleted, hasWon: newHasWon });
-      setChallengeData({ isCompleted: newIsCompleted, hasWon: newHasWon });
+      // If this is a new daily challenge event for this artist, force reset to available
+      if (event.detail?.isNewDaily && event.detail?.artistId === artistId) {
+        console.log(`🎯 New daily challenge detected for ${artistId}, resetting card to available`);
+        setChallengeData({ isCompleted: false, hasWon: false });
+        return;
+      }
+      
+      // For completion events (non-new daily), always update from storage to get accurate state
+      updateChallengeData();
     };
     
     // Listen for custom storage event
     window.addEventListener('daily-challenge-updated', handleStorageChange);
     
+    // Also listen for storage events (for cross-tab sync)
+    window.addEventListener('storage', updateChallengeData);
+    
     return () => {
       window.removeEventListener('daily-challenge-updated', handleStorageChange);
+      window.removeEventListener('storage', updateChallengeData);
     };
   }, [artistId]);
   
-  if (!challengeData) {
+  // Show "Daily Challenge Available" when no data or when challenge is not completed
+  if (!challengeData || !challengeData.isCompleted) {
     return (
       <div className="inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
         <span className="text-blue-300 text-xs sm:text-sm font-medium">🎯 Daily Challenge Available</span>
@@ -41,27 +59,20 @@ export function DailyChallengeStatus({ artistId }: { artistId: string }) {
     );
   }
   
-  if (challengeData.isCompleted) {
-    if (challengeData.hasWon) {
-      return (
-        <div className="inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
-          <span className="text-green-300 text-xs sm:text-sm font-medium">✅ Daily Challenge Completed</span>
-        </div>
-      );
-    } else {
-      return (
-        <div className="inline-flex items-center px-3 py-1 bg-red-500/20 border border-red-400/30 rounded-full">
-          <span className="text-red-300 text-xs sm:text-sm font-medium">❌ Daily Challenge Failed</span>
-        </div>
-      );
-    }
+  // At this point, challenge is completed, so show the result
+  if (challengeData.hasWon) {
+    return (
+      <div className="inline-flex items-center px-3 py-1 bg-green-500/20 border border-green-400/30 rounded-full">
+        <span className="text-green-300 text-xs sm:text-sm font-medium">✅ Daily Challenge Completed</span>
+      </div>
+    );
+  } else {
+    return (
+      <div className="inline-flex items-center px-3 py-1 bg-red-500/20 border border-red-400/30 rounded-full">
+        <span className="text-red-300 text-xs sm:text-sm font-medium">❌ Daily Challenge Failed</span>
+      </div>
+    );
   }
-  
-  return (
-    <div className="inline-flex items-center px-3 py-1 bg-blue-500/20 border border-blue-400/30 rounded-full">
-      <span className="text-blue-300 text-xs sm:text-sm font-medium">🎯 Daily Challenge Available</span>
-    </div>
-  );
 }
 
 interface ArtistHeaderProps {

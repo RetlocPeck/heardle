@@ -7,7 +7,7 @@ export interface DailyChallengeData {
   songId: string;
   gameState: GameState;
   completed: boolean;
-  puzzleNumber: number; // UTC-based puzzle number for consistent tracking
+  puzzleNumber: number; // Local timezone-based puzzle number for consistent tracking
   savedAt: string; // ISO timestamp
 }
 

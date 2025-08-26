@@ -11,6 +11,8 @@ import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
 import ArtistHeader, { DailyChallengeStatus } from '@/components/ArtistHeader';
 import NextDailyCountdown from '@/components/NextDailyCountdown';
 import { useClientDate } from '@/lib/hooks/useClientDate';
+import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
 import { GameMode } from '@/lib/gameLogic';
 
 
@@ -20,7 +22,14 @@ export default function ArtistPage() {
   const [selectedMode, setSelectedMode] = useState<GameMode>('daily');
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
   const [isLoading, setIsLoading] = useState(true);
+  const [challengeResetKey, setChallengeResetKey] = useState(0); // Force re-render of challenge status
   const { getTodayString } = useClientDate();
+  
+  // Global rollover detection - works independently of game component
+  useDailyRolloverDetection({
+    artistId: artist?.id,
+    enabled: !!artist && selectedMode === 'daily'
+  });
 
   useEffect(() => {
     const artistId = params.artist as string;
@@ -106,8 +115,31 @@ export default function ArtistPage() {
           {/* Daily Countdown + Daily Challenge Status - Only show in daily mode */}
           {selectedMode === 'daily' && (
             <div className="flex flex-col items-center gap-2 sm:gap-3 lg:gap-4">
-              <DailyChallengeStatus artistId={artist.id} />
-              <NextDailyCountdown />
+              <DailyChallengeStatus key={challengeResetKey} artistId={artist.id} />
+              <NextDailyCountdown 
+                onRollOver={() => {
+                  console.log('🔄 Daily rollover detected from countdown!');
+                  
+                  // Clear the daily challenge storage for this artist
+                  const storage = ClientDailyChallengeStorage.getInstance();
+                  storage.clearDailyChallenge(artist.id);
+                  
+                  // Force re-render of challenge status component
+                  setChallengeResetKey(prev => prev + 1);
+                  
+                  // Dispatch event to notify other components
+                  const event = new CustomEvent('daily-challenge-updated', {
+                    detail: { artistId: artist.id, date: getTodayString(), completed: false }
+                  });
+                  window.dispatchEvent(event);
+                  
+                  // Refresh the page after a short delay to ensure all components reset
+                  setTimeout(() => {
+                    console.log('🔄 Refreshing page for new daily challenge...');
+                    window.location.reload();
+                  }, 1000);
+                }}
+              />
             </div>
           )}
           

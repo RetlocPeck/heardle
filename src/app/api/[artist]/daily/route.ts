@@ -8,8 +8,13 @@ export async function GET(
 ) {
   try {
     const { artist } = await params;
+    const url = new URL(request.url);
+    
+    // Get the date from client (user's local timezone) or fallback to server timezone
+    const clientDate = url.searchParams.get('date');
+    const today = clientDate || getTodayString();
+    
     const itunesService = ITunesService.getInstance();
-    const today = getTodayString(); // Uses local timezone
     const dailySong = await itunesService.getDailySong(today, artist);
     
     return NextResponse.json({ song: dailySong });

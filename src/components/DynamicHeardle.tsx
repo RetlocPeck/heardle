@@ -17,7 +17,7 @@ import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import ShareButton from './ShareButton';
 import SupportButton from './SupportButton';
 import { convertGameStateToShareState } from '@/utils/share';
-import { getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
+import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -78,6 +78,18 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
         setGameState(newGameState);
         setPuzzleNumber(currentPuzzleNumber);
         
+        // Notify challenge card that new daily is available (not completed)
+        const challengeResetEvent = new CustomEvent('daily-challenge-updated', {
+          detail: { 
+            artistId, 
+            date: getTodayString(), 
+            completed: false,
+            isNewDaily: true // Flag to indicate this is a new daily challenge
+          }
+        });
+        window.dispatchEvent(challengeResetEvent);
+        console.log(`📡 Dispatched new daily challenge event for ${artistId}`);
+        
         // Notify parent component of reset
         onGameStateChange?.(newGameState);
         
@@ -136,6 +148,13 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       
       // Load new song from API
       let endpoint = mode === 'daily' ? `/api/${artistId}/daily` : `/api/${artistId}/random`;
+      
+      // For daily mode, pass the client's local date to ensure timezone consistency
+      if (mode === 'daily') {
+        const clientDate = getTodayString(); // User's local timezone date
+        const params = new URLSearchParams({ date: clientDate });
+        endpoint = `${endpoint}?${params.toString()}`;
+      }
       
       // For practice mode, exclude recently played songs
       if (mode === 'practice') {
