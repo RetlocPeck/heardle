@@ -645,6 +645,50 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 20,
       releaseYear: 2022
     }
+  },
+  {
+    id: 'gfriend',
+    name: 'GFRIEND',
+    displayName: 'GFRIEND',
+    itunesArtistId: '958416186',
+    searchTerms: ['GFRIEND', '여자친구', 'Gfriend', 'Girlfriend'],
+    theme: {
+      primaryColor: 'pink',
+      gradientFrom: 'from-pink-300',
+      gradientTo: 'to-rose-400',
+      accentColor: 'bg-pink-300 hover:bg-pink-400',
+      spinnerColor: 'border-pink-200',
+      borderColor: 'border-pink-200',
+      bgColor: 'bg-pink-50',
+      textColor: 'text-pink-800'
+    },
+    metadata: {
+      imageUrl: '/groups/gfriend.jpg',
+      songCount: 70,
+      releaseYear: 2015
+    }
+  },
+  {
+    id: 'chung-ha',
+    name: 'CHUNG HA',
+    displayName: 'CHUNG HA',
+    itunesArtistId: '1148527055',
+    searchTerms: ['CHUNG HA', '청하', 'Chung Ha', 'Chungha'],
+    theme: {
+      primaryColor: 'violet',
+      gradientFrom: 'from-violet-300',
+      gradientTo: 'to-purple-400',
+      accentColor: 'bg-violet-300 hover:bg-violet-400',
+      spinnerColor: 'border-violet-200',
+      borderColor: 'border-violet-200',
+      bgColor: 'bg-violet-50',
+      textColor: 'text-violet-800'
+    },
+    metadata: {
+      imageUrl: '/groups/chung-ha.jpg',
+      songCount: 45,
+      releaseYear: 2016
+    }
   }
 ];
 
