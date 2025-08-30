@@ -689,6 +689,94 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 45,
       releaseYear: 2016
     }
+  },
+  {
+    id: 'nct-127',
+    name: 'NCT 127',
+    displayName: 'NCT 127',
+    itunesArtistId: '1235849306',
+    searchTerms: ['NCT 127', '엔시티 127', 'NCT127'],
+    theme: {
+      primaryColor: 'blue',
+      gradientFrom: 'from-blue-400',
+      gradientTo: 'to-indigo-500',
+      accentColor: 'bg-blue-400 hover:bg-blue-500',
+      spinnerColor: 'border-blue-300',
+      borderColor: 'border-blue-300',
+      bgColor: 'bg-blue-50',
+      textColor: 'text-blue-800'
+    },
+    metadata: {
+      imageUrl: '/groups/nct-127.jpg',
+      songCount: 85,
+      releaseYear: 2016
+    }
+  },
+  {
+    id: 'nct-dream',
+    name: 'NCT DREAM',
+    displayName: 'NCT DREAM',
+    itunesArtistId: '1208839599',
+    searchTerms: ['NCT DREAM', '엔시티 드림', 'NCTDREAM'],
+    theme: {
+      primaryColor: 'cyan',
+      gradientFrom: 'from-cyan-300',
+      gradientTo: 'to-blue-400',
+      accentColor: 'bg-cyan-300 hover:bg-cyan-400',
+      spinnerColor: 'border-cyan-200',
+      borderColor: 'border-cyan-200',
+      bgColor: 'bg-cyan-50',
+      textColor: 'text-cyan-800'
+    },
+    metadata: {
+      imageUrl: '/groups/nct-dream.jpg',
+      songCount: 65,
+      releaseYear: 2016
+    }
+  },
+  {
+    id: 'nct-u',
+    name: 'NCT U',
+    displayName: 'NCT U',
+    itunesArtistId: '1614202131',
+    searchTerms: ['NCT U', '엔시티 유', 'NCTU'],
+    theme: {
+      primaryColor: 'indigo',
+      gradientFrom: 'from-indigo-400',
+      gradientTo: 'to-purple-500',
+      accentColor: 'bg-indigo-400 hover:bg-indigo-500',
+      spinnerColor: 'border-indigo-300',
+      borderColor: 'border-indigo-300',
+      bgColor: 'bg-indigo-50',
+      textColor: 'text-indigo-800'
+    },
+    metadata: {
+      imageUrl: '/groups/nct-u.jpg',
+      songCount: 25,
+      releaseYear: 2016
+    }
+  },
+  {
+    id: 'tomorrow-x-together',
+    name: 'TOMORROW X TOGETHER',
+    displayName: 'TXT',
+    itunesArtistId: '1454642552',
+    searchTerms: ['TOMORROW X TOGETHER', '투모로우바이투게더', 'TXT', 'Tomorrow X Together'],
+    theme: {
+      primaryColor: 'emerald',
+      gradientFrom: 'from-emerald-300',
+      gradientTo: 'to-teal-400',
+      accentColor: 'bg-emerald-300 hover:bg-emerald-400',
+      spinnerColor: 'border-emerald-200',
+      borderColor: 'border-emerald-200',
+      bgColor: 'bg-emerald-50',
+      textColor: 'text-emerald-800'
+    },
+    metadata: {
+      imageUrl: '/groups/tomorrow-x-together.jpg',
+      songCount: 55,
+      releaseYear: 2019
+    }
   }
 ];
 
