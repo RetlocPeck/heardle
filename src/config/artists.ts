@@ -359,6 +359,292 @@ export const ARTISTS: ArtistConfig[] = [
       songCount: 45,
       releaseYear: 2020
     }
+  },
+  {
+    id: 'ioi',
+    name: 'I.O.I',
+    displayName: 'I.O.I',
+    itunesArtistId: '1110816583',
+    searchTerms: ['I.O.I', '아이오아이', 'IOI', 'Ideal of Idol'],
+    theme: {
+      primaryColor: 'sky',
+      gradientFrom: 'from-sky-500',
+      gradientTo: 'to-blue-600',
+      accentColor: 'bg-sky-500 hover:bg-sky-600',
+      spinnerColor: 'border-sky-400',
+      borderColor: 'border-sky-400',
+      bgColor: 'bg-sky-50',
+      textColor: 'text-sky-800'
+    },
+    metadata: {
+      imageUrl: '/groups/ioi.jpg',
+      songCount: 15,
+      releaseYear: 2016
+    }
+  },
+  {
+    id: 'aoa',
+    name: 'AOA',
+    displayName: 'AOA',
+    itunesArtistId: '1080563762',
+    searchTerms: ['AOA', '에이오에이', 'Ace of Angels'],
+    theme: {
+      primaryColor: 'amber',
+      gradientFrom: 'from-amber-500',
+      gradientTo: 'to-orange-600',
+      accentColor: 'bg-amber-500 hover:bg-amber-600',
+      spinnerColor: 'border-amber-400',
+      borderColor: 'border-amber-400',
+      bgColor: 'bg-amber-50',
+      textColor: 'text-amber-800'
+    },
+    metadata: {
+      imageUrl: '/groups/aoa.jpg',
+      songCount: 60,
+      releaseYear: 2012
+    }
+  },
+  {
+    id: 'ateez',
+    name: 'ATEEZ',
+    displayName: 'ATEEZ',
+    itunesArtistId: '1439301205',
+    searchTerms: ['ATEEZ', '에이티즈', 'Ateez'],
+    theme: {
+      primaryColor: 'slate',
+      gradientFrom: 'from-slate-600',
+      gradientTo: 'to-gray-700',
+      accentColor: 'bg-slate-600 hover:bg-slate-700',
+      spinnerColor: 'border-slate-500',
+      borderColor: 'border-slate-500',
+      bgColor: 'bg-slate-50',
+      textColor: 'text-slate-800'
+    },
+    metadata: {
+      imageUrl: '/groups/ateez.jpg',
+      songCount: 70,
+      releaseYear: 2018
+    }
+  },
+  {
+    id: 'kard',
+    name: 'KARD',
+    displayName: 'KARD',
+    itunesArtistId: '1215832588',
+    searchTerms: ['KARD', '카드', 'K.A.R.D'],
+    theme: {
+      primaryColor: 'yellow',
+      gradientFrom: 'from-yellow-500',
+      gradientTo: 'to-amber-600',
+      accentColor: 'bg-yellow-500 hover:bg-yellow-600',
+      spinnerColor: 'border-yellow-400',
+      borderColor: 'border-yellow-400',
+      bgColor: 'bg-yellow-50',
+      textColor: 'text-yellow-800'
+    },
+    metadata: {
+      imageUrl: '/groups/kard.jpg',
+      songCount: 40,
+      releaseYear: 2017
+    }
+  },
+  {
+    id: 'girls-generation',
+    name: "Girls' Generation",
+    displayName: "Girls' Generation",
+    itunesArtistId: '357463500',
+    searchTerms: ["Girls' Generation", '소녀시대', 'SNSD', 'GG', 'Soshi'],
+    theme: {
+      primaryColor: 'pink',
+      gradientFrom: 'from-pink-400',
+      gradientTo: 'to-rose-500',
+      accentColor: 'bg-pink-400 hover:bg-pink-500',
+      spinnerColor: 'border-pink-300',
+      borderColor: 'border-pink-300',
+      bgColor: 'bg-pink-50',
+      textColor: 'text-pink-800'
+    },
+    metadata: {
+      imageUrl: '/groups/girls-generation.jpg',
+      songCount: 120,
+      releaseYear: 2007
+    }
+  },
+  {
+    id: 'mamamoo',
+    name: 'MAMAMOO',
+    displayName: 'MAMAMOO',
+    itunesArtistId: '818951094',
+    searchTerms: ['MAMAMOO', '마마무', 'Mamamoo'],
+    theme: {
+      primaryColor: 'lime',
+      gradientFrom: 'from-lime-500',
+      gradientTo: 'to-green-600',
+      accentColor: 'bg-lime-500 hover:bg-lime-600',
+      spinnerColor: 'border-lime-400',
+      borderColor: 'border-lime-400',
+      bgColor: 'bg-lime-50',
+      textColor: 'text-lime-800'
+    },
+    metadata: {
+      imageUrl: '/groups/mamamoo.jpg',
+      songCount: 80,
+      releaseYear: 2014
+    }
+  },
+  {
+    id: 'stray-kids',
+    name: 'Stray Kids',
+    displayName: 'Stray Kids',
+    itunesArtistId: '1304823362',
+    searchTerms: ['Stray Kids', '스트레이 키즈', 'SKZ', 'StrayKids'],
+    theme: {
+      primaryColor: 'zinc',
+      gradientFrom: 'from-zinc-600',
+      gradientTo: 'to-slate-700',
+      accentColor: 'bg-zinc-600 hover:bg-zinc-700',
+      spinnerColor: 'border-zinc-500',
+      borderColor: 'border-zinc-500',
+      bgColor: 'bg-zinc-50',
+      textColor: 'text-zinc-800'
+    },
+    metadata: {
+      imageUrl: '/groups/stray-kids.jpg',
+      songCount: 90,
+      releaseYear: 2018
+    }
+  },
+  {
+    id: 'seventeen',
+    name: 'SEVENTEEN',
+    displayName: 'SEVENTEEN',
+    itunesArtistId: '999644772',
+    searchTerms: ['SEVENTEEN', '세븐틴', 'SVT', 'Seventeen'],
+    theme: {
+      primaryColor: 'rose',
+      gradientFrom: 'from-rose-400',
+      gradientTo: 'to-pink-500',
+      accentColor: 'bg-rose-400 hover:bg-rose-500',
+      spinnerColor: 'border-rose-300',
+      borderColor: 'border-rose-300',
+      bgColor: 'bg-rose-50',
+      textColor: 'text-rose-800'
+    },
+    metadata: {
+      imageUrl: '/groups/seventeen.jpg',
+      songCount: 110,
+      releaseYear: 2015
+    }
+  },
+  {
+    id: 'enhypen',
+    name: 'ENHYPEN',
+    displayName: 'ENHYPEN',
+    itunesArtistId: '1541011620',
+    searchTerms: ['ENHYPEN', '엔하이픈', 'Enhypen'],
+    theme: {
+      primaryColor: 'orange',
+      gradientFrom: 'from-orange-400',
+      gradientTo: 'to-red-500',
+      accentColor: 'bg-orange-400 hover:bg-orange-500',
+      spinnerColor: 'border-orange-300',
+      borderColor: 'border-orange-300',
+      bgColor: 'bg-orange-50',
+      textColor: 'text-orange-800'
+    },
+    metadata: {
+      imageUrl: '/groups/enhypen.jpg',
+      songCount: 55,
+      releaseYear: 2020
+    }
+  },
+  {
+    id: 'babymonster',
+    name: 'BABYMONSTER',
+    displayName: 'BABYMONSTER',
+    itunesArtistId: '1715981813',
+    searchTerms: ['BABYMONSTER', '베이비몬스터', 'Baby Monster', 'BMON'],
+    theme: {
+      primaryColor: 'emerald',
+      gradientFrom: 'from-emerald-400',
+      gradientTo: 'to-teal-500',
+      accentColor: 'bg-emerald-400 hover:bg-emerald-500',
+      spinnerColor: 'border-emerald-300',
+      borderColor: 'border-emerald-300',
+      bgColor: 'bg-emerald-50',
+      textColor: 'text-emerald-800'
+    },
+    metadata: {
+      imageUrl: '/groups/babymonster.jpg',
+      songCount: 20,
+      releaseYear: 2023
+    }
+  },
+  {
+    id: 'stayc',
+    name: 'STAYC',
+    displayName: 'STAYC',
+    itunesArtistId: '1538881438',
+    searchTerms: ['STAYC', '스테이씨', 'StayC'],
+    theme: {
+      primaryColor: 'cyan',
+      gradientFrom: 'from-cyan-400',
+      gradientTo: 'to-blue-500',
+      accentColor: 'bg-cyan-400 hover:bg-cyan-500',
+      spinnerColor: 'border-cyan-300',
+      borderColor: 'border-cyan-300',
+      bgColor: 'bg-cyan-50',
+      textColor: 'text-cyan-800'
+    },
+    metadata: {
+      imageUrl: '/groups/stayc.jpg',
+      songCount: 35,
+      releaseYear: 2020
+    }
+  },
+  {
+    id: 'kiss-of-life',
+    name: 'KISS OF LIFE',
+    displayName: 'KISS OF LIFE',
+    itunesArtistId: '1694672936',
+    searchTerms: ['KISS OF LIFE', '키스 오브 라이프', 'KOL', 'Kiss of Life'],
+    theme: {
+      primaryColor: 'purple',
+      gradientFrom: 'from-purple-400',
+      gradientTo: 'to-indigo-500',
+      accentColor: 'bg-purple-400 hover:bg-purple-500',
+      spinnerColor: 'border-purple-300',
+      borderColor: 'border-purple-300',
+      bgColor: 'bg-purple-50',
+      textColor: 'text-purple-800'
+    },
+    metadata: {
+      imageUrl: '/groups/kiss-of-life.jpg',
+      songCount: 25,
+      releaseYear: 2023
+    }
+  },
+  {
+    id: 'xg',
+    name: 'XG',
+    displayName: 'XG',
+    itunesArtistId: '1609409493',
+    searchTerms: ['XG', 'Xtraordinary Girls'],
+    theme: {
+      primaryColor: 'gray',
+      gradientFrom: 'from-gray-500',
+      gradientTo: 'to-slate-600',
+      accentColor: 'bg-gray-500 hover:bg-gray-600',
+      spinnerColor: 'border-gray-400',
+      borderColor: 'border-gray-400',
+      bgColor: 'bg-gray-50',
+      textColor: 'text-gray-800'
+    },
+    metadata: {
+      imageUrl: '/groups/xg.jpg',
+      songCount: 20,
+      releaseYear: 2022
+    }
   }
 ];
 
