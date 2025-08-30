@@ -333,6 +333,24 @@ export class ITunesService {
         return;
       }
       
+      // Check 10: Songs with "REMIXX" anywhere in the title
+      if (/REMIXX/i.test(trackName)) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains "REMIXX" in title' 
+        });
+        return;
+      }
+      
+      // Check 11: Songs with "x XDM" anywhere in the title
+      if (/x XDM/i.test(trackName)) {
+        filteredOutTracks.push({ 
+          track, 
+          reason: 'Contains "x XDM" in title' 
+        });
+        return;
+      }
+      
       // If we get here, the track passed all hard filters
       validTracks.push(track);
     });
