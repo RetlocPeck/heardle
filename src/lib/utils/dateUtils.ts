@@ -164,3 +164,35 @@ export function getLocalPuzzleNumber(now: Date = new Date()): number {
   
   return days + 1;
 }
+/**
+ * Validate that a date string is reasonable compared to current date
+ * Prevents timezone change bugs where dates can jump unexpectedly
+ */
+export function isValidClientDate(clientDateString: string): boolean {
+  if (!clientDateString || !/^\d{4}-\d{2}-\d{2}$/.test(clientDateString)) {
+    return false;
+  }
+  
+  try {
+    const serverDate = new Date();
+    const clientDate = new Date(clientDateString + 'T12:00:00');
+    const timeDiff = Math.abs(clientDate.getTime() - serverDate.getTime());
+    const daysDiff = timeDiff / (1000 * 60 * 60 * 24);
+    
+    // Allow up to 1.5 days difference for timezone variations
+    return daysDiff <= 1.5;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Get a safe date string that accounts for timezone changes
+ * Falls back to server calculation if client date seems invalid
+ */
+export function getSafeDateString(clientDate?: string | null): string {
+  if (clientDate && isValidClientDate(clientDate)) {
+    return clientDate;
+  }
+  return getTodayString();
+}

@@ -152,6 +152,11 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       // For daily mode, pass the client's local date to ensure timezone consistency
       if (mode === 'daily') {
         const clientDate = getTodayString(); // User's local timezone date
+        const currentPuzzleNumber = getLocalPuzzleNumber();
+        
+        // Enhanced debugging for timezone issues
+        console.log(`🔍 Timezone Debug: clientDate=${clientDate}, puzzleNumber=${currentPuzzleNumber}, time=${new Date().toISOString()}`);
+        
         const params = new URLSearchParams({ date: clientDate });
         endpoint = `${endpoint}?${params.toString()}`;
       }
