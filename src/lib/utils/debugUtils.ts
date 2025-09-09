@@ -135,6 +135,16 @@ export function refreshITunesSongs(artistId: string) {
   }
 }
 
+// Clear all iTunes song cache for debugging
+export function clearITunesCache() {
+  if (typeof window === 'undefined') return;
+  
+  const itunesService = (window as any).itunesService;
+  if (itunesService) {
+    itunesService.clearAllCache();
+  }
+}
+
 // Make functions available globally for debugging in development only
 if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
   (window as any).debugUtils = {
@@ -145,6 +155,7 @@ if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
     showStatistics,
     clearAllStatistics,
     simulatePracticeGames,
+    clearITunesCache,
     generateSampleStatistics,
     checkITunesPagination,
     refreshITunesSongs

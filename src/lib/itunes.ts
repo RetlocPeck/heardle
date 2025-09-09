@@ -351,6 +351,28 @@ export class ITunesService {
         return;
       }
       
+      // Check 12: Filter out intro, outro, skit songs (consistent with GuessInput filtering)
+      const introOutroWords = ['outro', 'intro', 'introduction', 'skit', 'outros', 'intros', 'introductions', 'skits'];
+      const introOutroPattern = new RegExp(
+        `\\b(${introOutroWords.join('|')})\\b|` + // standalone words
+        `\\((${introOutroWords.join('|')})\\)|` + // words in parentheses
+        `^(${introOutroWords.join('|')})[:|-]|` + // words at start followed by colon/hyphen
+        `[:|-]\\s*(${introOutroWords.join('|')})\\b`, // words after colon/hyphen
+        'i' // case insensitive
+      );
+      
+      if (introOutroPattern.test(originalTrackName)) {
+        // Find which word matched for better logging
+        const matchedWord = introOutroWords.find(word => 
+          new RegExp(`\\b${word}\\b`, 'i').test(originalTrackName)
+        ) || 'intro/outro/skit';
+        filteredOutTracks.push({ 
+          track, 
+          reason: `Contains "${matchedWord}" in title (intro/outro/skit filter)` 
+        });
+        return;
+      }
+      
       // If we get here, the track passed all hard filters
       validTracks.push(track);
     });
@@ -517,6 +539,12 @@ export class ITunesService {
   async refreshSongs(artistId: string): Promise<Song[]> {
     this.availableTracks.delete(artistId);
     return await this.searchSongs(artistId);
+  }
+
+  // Clear all cached songs (useful when filtering logic changes)
+  clearAllCache(): void {
+    this.availableTracks.clear();
+    console.log('🗑️ Cleared all iTunes song cache');
   }
 
   // Get all available artists
