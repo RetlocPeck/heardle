@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import ITunesService from '@/lib/itunes';
-import { getTodayString, getSafeDateString } from '@/lib/utils/dateUtils';
+import { getSafeDateString } from '@/lib/utils/dateUtils';
 
 export async function GET(
   request: Request,
