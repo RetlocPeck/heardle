@@ -9,6 +9,7 @@ export type ShareGameState = {
 
 // Import the GameLogic types to convert from internal state
 import type { GameState as InternalGameState } from '@/lib/gameLogic';
+import { getArtistByName } from '@/config/artists';
 
 // Duration progression from game logic: [1, 2, 4, 7, 10, 15] seconds
 const DURATION_MAP: Record<number, 1|2|4|7|10|15> = {
@@ -65,7 +66,10 @@ export function buildShareText(state: ShareGameState): string {
   const upto = won ? winIndex + 1 : Math.min(6, state.rounds.length);
   const grid = state.rounds.slice(0, upto).map(r => r.correct ? '🟩' : '🟥').join('');
 
-  // const seconds = won ? state.rounds[winIndex].seconds : 15;
-  const artistSlug = state.artist.toLowerCase().replace(/\s+/g, '-');
+  // Use the artist ID from config instead of creating a slug from the name
+  // This ensures URLs match the actual route structure
+  const artistConfig = getArtistByName(state.artist);
+  const artistSlug = artistConfig?.id ?? state.artist.toLowerCase().replace(/\s+/g, '-').replace(/[^\w-]/g, '');
+  
   return `${state.artist} Heardle #${state.puzzleNumber} ${score}\n${grid}\n${siteUrl}/${artistSlug}`;
 }
