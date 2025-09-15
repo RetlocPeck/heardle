@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   keywords: "K-pop, Heardle, music game, TWICE, LE SSERAFIM, guess the song, Korean music",
   authors: [{ name: "K-Pop Heardle Team" }],
 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+
   openGraph: {
     title: "K-Pop Heardle 🎵",
     description: "Test your K-pop knowledge with interactive music guessing games!",
