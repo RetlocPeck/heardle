@@ -20,20 +20,40 @@ export const metadata: Metadata = {
   authors: [{ name: "K-Pop Heardle Team" }],
 
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "16x16 32x32", type: "image/x-icon" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
     shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
+
+  manifest: "/site.webmanifest",
 
   openGraph: {
     title: "K-Pop Heardle 🎵",
     description: "Test your K-pop knowledge with interactive music guessing games!",
     type: "website",
+    url: "https://heardle.live",
+    siteName: "K-Pop Heardle",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "K-Pop Heardle - Music Guessing Game",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "K-Pop Heardle 🎵",
     description: "Test your K-pop knowledge with interactive music guessing games!",
+    images: ["/og-image.png"],
   },
 };
 
