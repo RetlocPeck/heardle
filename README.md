@@ -330,4 +330,4 @@ For support, feature requests, or bug reports:
 
 ---
 
-**Made with 💜 for the K-pop community** | [Live Demo](https://heardle.live) | [GitHub](https://github.com/yourusername/twice-heardle)
+**Made with 💜 for the K-pop community** | [Live Demo](https://heardle.live) | [GitHub](https://github.com/retlocpeck/heardle)
