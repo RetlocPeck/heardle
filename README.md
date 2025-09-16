@@ -1,223 +1,333 @@
 # K-Pop Heardle 🎵
 
-A stunning music guessing game featuring your favorite K-pop artists! Test your knowledge of K-pop discographies by guessing songs from short audio previews.
+A comprehensive music guessing game featuring your favorite K-pop artists! Test your knowledge of K-pop discographies by guessing songs from short audio previews.
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://heardle.live)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ## ✨ Features
 
-- **Multiple Artists**: Play with TWICE, LE SSERAFIM, and more coming soon!
-- **Daily Challenges**: New song every day at midnight for each artist
-- **Practice Mode**: Play unlimited games with random songs
+### 🎮 Game Modes
+- **Daily Challenges**: New song every day at midnight for each artist (same for all players)
+- **Practice Mode**: Unlimited random songs for practice sessions
 - **Progressive Audio**: Start with 1 second, gradually increase to 15 seconds
-- **Smart Autocomplete**: Search through each artist's entire catalog
-- **Modern Design**: Beautiful glassmorphism UI with dark theme, gradients, and smooth animations
-- **Responsive**: Looks amazing on all devices with mobile-first design
+- **Smart Autocomplete**: Search through each artist's entire catalog with intelligent filtering
 
-## Available Artists
+### 🎨 Modern Design
+- **Glassmorphism UI**: Beautiful backdrop blur effects and modern aesthetics
+- **Artist-Specific Themes**: Each artist has unique color schemes and styling
+- **Responsive Design**: Optimized for all devices with mobile-first approach
+- **Dark Theme**: Elegant dark interface with smooth animations
+- **Custom Audio Player**: Modern controls with progress visualization
 
-### 🎀 TWICE
-- **Debut**: 2015
-- **Genre**: K-Pop
-- **Known for**: Catchy songs and energetic performances
-- **Popular tracks**: Fancy, Feel Special, More & More, I CAN'T STOP ME
+### 📊 Statistics & Sharing
+- **Game Statistics**: Track your performance and accuracy over time
+- **Share Results**: Share your daily challenge results with friends
+- **Local Storage**: Persistent game state and statistics
+- **Daily Rollover**: Automatic detection of new daily challenges
 
-### 💜 LE SSERAFIM
-- **Debut**: 2022
-- **Genre**: K-Pop
-- **Known for**: Self-assured, bass-heavy dance-pop
-- **Popular tracks**: ANTIFRAGILE, UNFORGIVEN, EASY, CRAZY, HOT
+### 🌐 Multi-Artist Support
+Currently featuring **32+ K-pop artists** including:
+- **TWICE** (Featured) - 2015 debut, known for catchy pop hits
+- **LE SSERAFIM** - 2022 debut, self-assured dance-pop
+- **BTS** - Global superstars with diverse discography
+- **BLACKPINK** - Powerful concepts and international hits
+- **NewJeans** - Y2K-inspired minimalist pop
+- **IVE** - Royal teen crush concept
+- **aespa** - AI-concept and experimental sounds
+- **Red Velvet** - Dual concept: red (pop) and velvet (R&B)
+- **ITZY** - Teen crush with empowering messages
+- **Girls' Generation (SNSD)** - Legendary girl group pioneers
+- **SEVENTEEN** - Self-producing idols with diverse music
+- **Stray Kids** - Hard-hitting hip-hop and EDM fusion
+- **ENHYPEN** - Dark, mysterious vampire-themed concepts
+- **TOMORROW X TOGETHER (TXT)** - Dreamy pop-rock storytelling
+- And many more including ATEEZ, MAMAMOO, Dreamcatcher, KARD, P1Harmony, and rising groups like BABYMONSTER, KATSEYE, KISS OF LIFE
 
-## How to Play
+## 🎯 How to Play
 
-1. Choose your favorite artist from the home menu
-2. Select Daily Challenge or Practice Mode
-3. Listen to the song preview (starts with 1 second)
-4. Guess the song title or click Skip to hear more
-5. Each wrong guess or skip gives you more time to listen
-6. You have 6 tries to get it right
-7. Use Skip if you want to hear more before guessing
+1. **Choose Your Artist**: Select from 32+ K-pop artists on the homepage
+2. **Pick Your Mode**: Daily Challenge (one song per day) or Practice Mode (unlimited)
+3. **Listen & Guess**: Start with 1 second of audio, guess the song title
+4. **Progressive Reveals**: Each wrong guess or skip gives you more audio time
+5. **Win Condition**: Guess correctly within 6 tries to win
+6. **Share Results**: Share your daily challenge performance with friends
 
-## Game Modes
+### Audio Progression System
+- **Try 1**: 1 second
+- **Try 2**: 2 seconds  
+- **Try 3**: 4 seconds
+- **Try 4**: 7 seconds
+- **Try 5**: 10 seconds
+- **Try 6**: 15 seconds (final chance)
 
-- **Daily Mode**: One song per day per artist, same for everyone
-- **Practice Mode**: Unlimited random songs for practice
+## 🚀 Getting Started
 
-## Coming Soon
+### Prerequisites
+- **Node.js 18+** and npm
+- **Internet connection** for iTunes Search API
+- **Modern browser** with HTML5 audio support
 
-We're working on adding more K-pop artists to expand your Heardle experience:
-- NewJeans
-- IVE
-- aespa
-- ITZY
-- Red Velvet
-- And many more!
+### Installation
 
-## Prerequisites
-
-- Node.js 18+ and npm
-- Internet connection (for iTunes Search API)
-
-## Setup
-
-### 1. Clone the repository
-
+1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd heardle
+git clone https://github.com/yourusername/twice-heardle.git
+cd twice-heardle
 ```
 
-### 2. Install dependencies
-
+2. **Install dependencies**
 ```bash
 npm install
 ```
 
-### 3. Run the development server
-
+3. **Run development server**
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open in browser**
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Project Structure
-
+### Build for Production
+```bash
+npm run build
+npm start
 ```
-heardle/
+
+## 🏗️ Project Architecture
+
+### Tech Stack
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript for type safety
+- **Styling**: Tailwind CSS 4 with custom glassmorphism components
+- **Audio**: HTML5 Audio API with custom controls
+- **Data Source**: iTunes Search API (free, no API key required)
+- **Analytics**: Vercel Analytics for performance monitoring
+- **Fonts**: Geist Sans and Geist Mono for modern typography
+
+### Project Structure
+```
+twice-heardle/
+├── public/                          # Static assets
+│   ├── groups/                      # Artist photos (32+ images)
+│   ├── favicon.svg                  # Custom musical note favicon
+│   ├── site.webmanifest            # PWA manifest
+│   └── og-image.png                # Social media sharing image
 ├── src/
-│   ├── app/                    # Next.js app directory
-│   │   ├── [artist]/          # Dynamic artist pages
-│   │   │   └── page.tsx       # Individual artist game page
-│   │   ├── api/               # API routes
-│   │   │   ├── [artist]/      # Artist-specific API endpoints
-│   │   │   │   ├── daily/     # Daily challenge endpoints
-│   │   │   │   ├── random/    # Random song endpoints
-│   │   │   │   └── songs/     # Artist song catalog
-│   │   │   └── itunes/        # iTunes Search API endpoints
-│   │   ├── globals.css        # Global styles with animations
-│   │   ├── layout.tsx         # Root layout with metadata
-│   │   └── page.tsx           # Homepage with artist selection
-│   ├── components/             # React components
-│   │   ├── AudioPlayer.tsx    # Modern audio player with glassmorphism
-│   │   ├── DynamicHeardle.tsx # Dynamic game component for any artist
-│   │   ├── GameBoard.tsx      # Game progress display
-│   │   ├── GuessInput.tsx     # Guess input with autocomplete
-│   │   └── ModeSelector.tsx   # Game mode selector
-│   └── lib/                   # Utility libraries
-│       ├── gameLogic.ts       # Game logic and state management
-│       └── itunes.ts          # iTunes Search API service
-├── public/                     # Static assets
-│   └── groups/                # Artist group photos
-│       ├── twice.jpg          # TWICE group photo
-│       └── lesserafim.jpg     # LE SSERAFIM group photo
-├── .github/                    # GitHub templates
-│   └── pull_request_template.md
-└── package.json               # Dependencies and scripts
+│   ├── app/                        # Next.js App Router
+│   │   ├── [artist]/              # Dynamic artist pages
+│   │   │   └── page.tsx           # Artist-specific game interface
+│   │   ├── api/                   # API Routes
+│   │   │   └── [artist]/          # Artist-specific endpoints
+│   │   │       ├── daily/         # Daily challenge API
+│   │   │       ├── random/        # Random song API
+│   │   │       └── songs/         # Song catalog API
+│   │   ├── (demo)/               # Demo pages
+│   │   │   └── stats-demo/       # Statistics demonstration
+│   │   ├── globals.css           # Global styles & animations
+│   │   ├── layout.tsx            # Root layout with SEO metadata
+│   │   └── page.tsx              # Homepage with artist grid
+│   ├── components/                # React Components
+│   │   ├── ui/                   # Reusable UI components
+│   │   ├── stats/                # Statistics components
+│   │   ├── AudioPlayer.tsx       # Custom audio player with glassmorphism
+│   │   ├── DynamicHeardle.tsx    # Main game component (639 lines)
+│   │   ├── GameBoard.tsx         # Game progress visualization
+│   │   ├── GuessInput.tsx        # Smart autocomplete input
+│   │   ├── ModeSelector.tsx      # Daily/Practice mode toggle
+│   │   ├── ShareButton.tsx       # Social sharing functionality
+│   │   └── Statistics.tsx        # Game statistics tracking
+│   ├── config/                   # Configuration
+│   │   └── artists.ts            # Artist configurations (880+ lines)
+│   ├── lib/                      # Core Libraries
+│   │   ├── cache/                # Caching utilities
+│   │   ├── features/             # Feature flags and configs
+│   │   ├── hooks/                # Custom React hooks
+│   │   ├── services/             # Business logic services
+│   │   ├── utils/                # Utility functions
+│   │   ├── gameLogic.ts          # Core game state machine
+│   │   └── itunes.ts             # iTunes Search API integration
+│   ├── types/                    # TypeScript type definitions
+│   │   └── song.ts               # Song and iTunes API types
+│   └── utils/                    # Additional utilities
+│       └── share.ts              # Social sharing utilities
+├── reports/                      # Generated reports
+├── ARTIST_CONFIGURATION.md       # Artist setup guide
+├── TIMEZONE_FIX_SUMMARY.md      # Timezone handling documentation
+└── package.json                 # Dependencies and scripts
 ```
 
-## How It Works
+## 🔧 API Endpoints
 
-### Daily Challenge Mode
-- Uses the current date as a seed for consistent song selection
-- All users get the same song on the same day
-- New song automatically selected at midnight
+### Artist-Specific Routes
+All endpoints support dynamic artist routing:
 
-### Practice Mode
-- Randomly selects songs from the artist's iTunes catalog
-- New song for each game
-- Unlimited play sessions
+- **`GET /api/[artist]/daily`** - Get today's daily challenge song
+  - Query: `?date=YYYY-MM-DD` (optional, for timezone handling)
+  - Returns: Song object with preview URL and metadata
 
-### Audio Progression
-- 1st try: 1 second
-- 2nd try: 2 seconds
-- 3rd try: 4 seconds
-- 4th try: 7 seconds
-- 5th try: 10 seconds
-- 6th try: 15 seconds
+- **`GET /api/[artist]/random`** - Get random song for practice mode
+  - Query: `?exclude=trackId1,trackId2` (optional, to avoid repeats)
+  - Returns: Random song excluding specified track IDs
 
-## Technologies Used
+- **`GET /api/[artist]/songs`** - Get all available songs for artist
+  - Returns: Array of all songs in artist's catalog
 
-- **Next.js 15** - React framework with App Router
-- **TypeScript** - Type-safe JavaScript
-- **Tailwind CSS 4** - Modern utility-first CSS framework
-- **Glassmorphism Design** - Modern UI with backdrop blur effects
-- **CSS Animations** - Custom keyframe animations and transitions
-- **iTunes Search API** - Free music data and 30-second previews
-- **HTML5 Audio API** - Native browser audio playback
-- **React Hooks** - State management and side effects
+### Available Artist IDs
+`twice`, `le-sserafim`, `bts`, `blackpink`, `newjeans`, `ive`, `aespa`, `itzy`, `red-velvet`, `girls-generation`, `seventeen`, `stray-kids`, `enhypen`, `tomorrow-x-together`, `dreamcatcher`, `mamamoo`, `ateez`, `kard`, `p1harmony`, and more...
 
-## API Endpoints
+## 🎵 iTunes Integration
 
-### Artist-Specific Endpoints
-- `GET /api/[artist]/daily` - Get today's daily song for specific artist
-- `GET /api/[artist]/random` - Get a random song for specific artist  
-- `GET /api/[artist]/songs` - Get all available songs for specific artist
-
-### General iTunes Endpoints
-- `GET /api/itunes/daily` - Legacy iTunes daily endpoint
-- `GET /api/itunes/random` - Legacy iTunes random endpoint
-- `GET /api/itunes/songs` - Legacy iTunes songs endpoint
-
-Available artists: `twice`, `le-sserafim`
-
-## iTunes Search API
-
-This project uses Apple's free iTunes Search API which provides:
-
-- **No API key required** - Completely free to use
-- **30-second preview URLs** - High-quality audio previews
-- **Rich metadata** - Song titles, albums, artists, artwork
-- **Excellent K-pop coverage** - Including TWICE's full catalog
-- **No rate limiting** - For reasonable usage patterns
+### Why iTunes Search API?
+- **Completely free** - No API keys or rate limits
+- **High-quality previews** - 30-second AAC audio files
+- **Comprehensive metadata** - Song titles, albums, artwork, duration
+- **Excellent K-pop coverage** - Includes major labels and indie artists
+- **Real-time data** - Always up-to-date with latest releases
 
 ### How It Works
+1. **Artist Search**: Queries iTunes using artist ID and search terms
+2. **Song Filtering**: Deduplicates versions (clean, explicit, remixes)
+3. **Preview URLs**: Streams 30-second previews via HTML5 audio
+4. **Caching**: Local storage reduces API calls and improves performance
+5. **Fallback Handling**: Graceful degradation when previews unavailable
 
-1. **Automatic Search**: The app searches iTunes for artist tracks on first use
-2. **Preview URLs**: Each track includes a 30-second preview URL
-3. **Native Audio**: Uses HTML5 audio for reliable playback with custom controls
-4. **Caching**: Results are cached for better performance
-5. **Multi-Artist Support**: Dynamic routing supports multiple K-pop artists
+### Data Processing Pipeline
+```
+iTunes API → Song Deduplication → Local Cache → Game Logic → Audio Player
+```
 
-## Contributing
+## 🎨 Adding New Artists
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+### Quick Setup (5 minutes)
+1. **Get iTunes Artist ID**: Search [iTunes API](https://itunes.apple.com/search?term=ARTIST_NAME&entity=song&limit=1)
+2. **Add to Configuration**: Edit `src/config/artists.ts` with artist details
+3. **Add Artist Image**: Place square image in `public/groups/artist-name.jpg`
+4. **Test**: Artist automatically appears on homepage with full functionality
 
-## License
+### Configuration Example
+```typescript
+{
+  id: 'artist-slug',
+  name: 'ARTIST NAME',
+  displayName: 'Artist Name',
+  itunesArtistId: '1234567890',
+  searchTerms: ['Artist Name', '아티스트명'],
+  theme: {
+    primaryColor: 'blue',
+    gradientFrom: 'from-blue-500',
+    gradientTo: 'to-cyan-600',
+    // ... (full theme configuration)
+  },
+  metadata: {
+    imageUrl: '/groups/artist-name.jpg',
+    songCount: 50,
+    releaseYear: 2020
+  }
+}
+```
 
-This project is licensed under the MIT License.
+See [ARTIST_CONFIGURATION.md](ARTIST_CONFIGURATION.md) for detailed setup guide.
 
-## Acknowledgments
+## 🛠️ Development
 
-- TWICE (JYP Entertainment) and LE SSERAFIM (Source Music/HYBE) for the music
-- Apple for the free iTunes Search API
-- The original Heardle game for inspiration
-- K-pop community for endless musical inspiration
+### Available Scripts
+```bash
+npm run dev          # Start development server with Turbopack
+npm run build        # Build production application
+npm start           # Start production server
+npm run lint        # Run ESLint for code quality
+```
 
-## Support
+### Development Tools
+- **Next.js 15**: Latest features including Turbopack for fast dev server
+- **TypeScript**: Strict type checking for reliability
+- **ESLint**: Code quality and consistency enforcement
+- **Tailwind CSS**: Utility-first styling with custom configurations
 
-If you encounter any issues:
+## 🐛 Troubleshooting
 
-1. Check the browser console for error messages
-2. Verify your internet connection can access iTunes
-3. Check that the iTunes Search API is responding
-4. Ensure your browser supports HTML5 audio
+### Common Issues
 
-## Troubleshooting
+**"No songs found" Error**
+- Check internet connection stability
+- Verify iTunes Search API availability
+- Confirm artist ID is correct in configuration
 
-### Common Issues:
+**Audio Not Playing**
+- Ensure browser supports HTML5 audio
+- Check if preview URLs are accessible (some tracks lack previews)
+- Verify device audio settings and permissions
 
-1. **"No songs found"** - Check internet connection and iTunes API status
-2. **Audio not playing** - Verify browser supports HTML5 audio and preview URLs are accessible
-3. **Preview URLs not working** - Some tracks may not have previews available
-4. **Search failures** - iTunes API may be temporarily unavailable
-5. **Artist photos not loading** - Ensure group photos are in `public/groups/` folder
+**Game State Issues**
+- Clear browser local storage to reset game data
+- Check for JavaScript errors in browser console
+- Ensure cookies/storage are enabled
 
-### Browser Compatibility:
+**Artist Images Missing**
+- Verify image files exist in `public/groups/` directory
+- Check image file format (JPG, PNG, WebP supported)
+- Ensure correct image path in artist configuration
 
-- **Chrome/Edge**: Full support
-- **Firefox**: Full support  
-- **Safari**: Full support
-- **Mobile browsers**: Full support
+### Browser Compatibility
+- **Chrome/Edge**: ✅ Full support with all features
+- **Firefox**: ✅ Full support with all features
+- **Safari**: ✅ Full support (may require user gesture for audio)
+- **Mobile Safari**: ✅ Optimized for iOS with touch controls
+- **Android Chrome**: ✅ Full mobile experience
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+### Music & Artists
+- All featured K-pop artists and their respective entertainment companies
+- **JYP Entertainment** (TWICE), **Source Music/HYBE** (LE SSERAFIM)
+- **SM Entertainment** (aespa, Red Velvet, Girls' Generation)
+- **YG Entertainment** (BLACKPINK), **ADOR/HYBE** (NewJeans)
+- And all other amazing K-pop artists featured in the game
+
+### Technical Resources
+- **Apple Inc.** for the free iTunes Search API
+- **Vercel** for hosting and analytics platform
+- **Next.js Team** for the incredible React framework
+- **Tailwind Labs** for the utility-first CSS framework
+
+### Inspiration
+- **Original Heardle** game for the core concept
+- **K-pop community** for endless musical inspiration and support
+- **Web audio pioneers** for HTML5 audio innovations
+
+## 🌟 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
+- Adding new artists (most common contribution)
+- Bug fixes and performance improvements
+- UI/UX enhancements
+- Feature requests and ideas
+
+### Quick Contribution Guide
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+## 📞 Support
+
+For support, feature requests, or bug reports:
+
+1. **Check existing issues** on GitHub
+2. **Search documentation** for common solutions
+3. **Create new issue** with detailed description
+4. **Join discussions** for community support
+
+---
+
+**Made with 💜 for the K-pop community** | [Live Demo](https://heardle.live) | [GitHub](https://github.com/yourusername/twice-heardle)
