@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Allow crawling of images and assets
+Allow: /favicon.ico
+Allow: /favicon.svg
+Allow: /favicon-*.png
+Allow: /apple-touch-icon.png
+Allow: /og-image.png
+Allow: /logo-*.png
+Allow: /icon-*.png
+Allow: /groups/
+
+# Sitemaps
+Sitemap: https://heardle.live/sitemap.xml
