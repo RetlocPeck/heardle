@@ -171,7 +171,7 @@ export default function HomePage() {
                     <ArtistImage
                       artistId={artist.id}
                       alt={artist.displayName}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      className="w-full h-full object-cover object-[center_30%] group-hover:scale-110 transition-transform duration-700"
                       width={400}
                       height={400}
                       priority={artist.featured}
