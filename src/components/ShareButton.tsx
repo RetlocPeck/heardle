@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { buildShareText, ShareGameState } from '@/utils/share';
+import { buildShareText, ShareGameState } from '@/lib/utils/share';
 
 export default function ShareButton({ state, className }: { state: ShareGameState; className?: string }) {
   const [isCopied, setIsCopied] = useState(false);

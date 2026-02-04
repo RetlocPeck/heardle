@@ -1,6 +1,6 @@
 'use client';
 
-import { GameState } from '@/lib/gameLogic';
+import { GameState } from '@/lib/game/gameLogic';
 import { normalizedStringMatch } from '@/lib/utils/stringUtils';
 
 interface GameBoardProps {

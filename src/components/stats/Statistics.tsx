@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import StatsModal from './stats/StatsModal';
-import StatsContent from './stats/StatsContent';
+import StatsModal from './StatsModal';
+import StatsContent from './StatsContent';
 import { getArtistById } from '@/config/artists';
 
 interface StatisticsProps {

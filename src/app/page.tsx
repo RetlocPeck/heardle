@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { getArtistsSorted } from '@/config/artists';
-import StatisticsButton from '@/components/StatisticsButton';
+import StatisticsButton from '@/components/stats/StatisticsButton';
 import SupportButton from '@/components/SupportButton';
 
 export default function HomePage() {

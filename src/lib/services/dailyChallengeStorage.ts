@@ -1,4 +1,4 @@
-import { GameState } from '@/lib/gameLogic';
+import { GameState } from '@/lib/game/gameLogic';
 import { getTodayString, isTodayInLocalTimezone, getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
 
 export interface DailyChallengeData {

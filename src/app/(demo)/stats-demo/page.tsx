@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import Statistics from '@/components/Statistics';
+import Statistics from '@/components/stats/Statistics';
 
 export default function StatsDemoPage() {
   const [isGlobalStatsOpen, setIsGlobalStatsOpen] = useState(false);

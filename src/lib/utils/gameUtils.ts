@@ -2,7 +2,7 @@
  * Utility functions for game logic and scoring
  */
 
-import { GameState } from '@/lib/gameLogic';
+import { GameState } from '@/lib/game/gameLogic';
 
 /**
  * Calculate game score based on number of tries used

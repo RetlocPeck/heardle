@@ -3,10 +3,10 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useParams } from 'next/navigation';
 import { Song } from '@/types/song';
-import { GameLogic, GameMode, GameState } from '@/lib/gameLogic';
-import AudioPlayer from './AudioPlayer';
-import GuessInput from './GuessInput';
-import GameBoard from './GameBoard';
+import { GameLogic, GameMode, GameState } from '@/lib/game/gameLogic';
+import AudioPlayer from './game/AudioPlayer';
+import GuessInput from './game/GuessInput';
+import GameBoard from './game/GameBoard';
 import { ArtistLoadingSpinner } from './ui/LoadingSpinner';
 import ErrorBoundary from './ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
@@ -16,7 +16,7 @@ import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import ShareButton from './ShareButton';
 import SupportButton from './SupportButton';
-import { convertGameStateToShareState } from '@/utils/share';
+import { convertGameStateToShareState } from '@/lib/utils/share';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
 
 interface DynamicHeardleProps {

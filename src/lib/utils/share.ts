@@ -8,7 +8,7 @@ export type ShareGameState = {
 };
 
 // Import the GameLogic types to convert from internal state
-import type { GameState as InternalGameState } from '@/lib/gameLogic';
+import type { GameState as InternalGameState } from '@/lib/game/gameLogic';
 import { getArtistByName } from '@/config/artists';
 
 // Duration progression from game logic: [1, 2, 4, 7, 10, 15] seconds

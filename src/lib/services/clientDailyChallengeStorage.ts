@@ -1,4 +1,4 @@
-import { GameState } from '@/lib/gameLogic';
+import { GameState } from '@/lib/game/gameLogic';
 import DailyChallengeStorage from './dailyChallengeStorage';
 import { getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
 
