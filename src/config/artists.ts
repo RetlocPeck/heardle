@@ -200,7 +200,8 @@ const ARTISTS_DATA: ArtistData[] = [
   { id: 'teen-top', name: 'TEEN TOP', displayName: 'TEEN TOP', searchTerms: ['TEEN TOP', '틴탑'] },
   { id: 'myname', name: 'MYNAME', displayName: 'MYNAME', searchTerms: ['MYNAME', '마이네임'] },
   { id: 'nu-est', name: "NU'EST", displayName: "NU'EST", searchTerms: ["NU'EST", '뉴이스트'] },
-  { id: 'boyfriend', name: 'Boyfriend', displayName: 'Boyfriend', searchTerms: ['Boyfriend', '보이프렌드'] },
+  // NOTE: Boyfriend removed - no playable songs available (empty cache file)
+  // { id: 'boyfriend', name: 'Boyfriend', displayName: 'Boyfriend', searchTerms: ['Boyfriend', '보이프렌드'] },
   { id: 'ukiss', name: 'U-KISS', displayName: 'U-KISS', searchTerms: ['U-KISS', '유키스'] },
 
   // Solo Artists
