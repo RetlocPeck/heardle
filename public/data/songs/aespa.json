@@ -1,0 +1,886 @@
+[
+  {
+    "id": "applemusic-1567326688",
+    "name": "Next Level",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Next Level - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/1e/0a/431e0a24-2c04-e738-2632-87462a20984d/mzaf_3158159453623406671.plus.aac.p.m4a",
+    "duration": 221573,
+    "trackUrl": "https://music.apple.com/us/album/next-level/1567326687?i=1567326688",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/60/8d/ac/608dacc2-d6d6-462d-26f0-d693e4364751/artwork.jpg/300x300bb.jpg",
+    "trackId": "1567326688"
+  },
+  {
+    "id": "applemusic-1540251305",
+    "name": "Black Mamba",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Black Mamba - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a0/80/06/a08006a0-18a6-30cc-ac9a-49f2ae18786f/mzaf_6859696801975044217.plus.aac.p.m4a",
+    "duration": 174933,
+    "trackUrl": "https://music.apple.com/us/album/black-mamba/1540251303?i=1540251305",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/53/e2/1f53e291-df44-bb66-1c29-6e74c2b0eab0/aespa_BlackMamba_final.png/300x300bb.jpg",
+    "trackId": "1540251305"
+  },
+  {
+    "id": "applemusic-1781140575",
+    "name": "Supernova",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Supernova - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/d4/61/67d46140-9db6-d19c-df63-05240aa7e18f/mzaf_15509769437025975878.plus.aac.p.m4a",
+    "duration": 178880,
+    "trackUrl": "https://music.apple.com/us/album/supernova/1781140573?i=1781140575",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/7a/aa/077aaab2-d536-adc3-3e9b-297435c22ff8/00888735947483_Cover.jpg/300x300bb.jpg",
+    "trackId": "1781140575"
+  },
+  {
+    "id": "applemusic-1685400184",
+    "name": "Spicy",
+    "artists": [
+      "aespa"
+    ],
+    "album": "MY WORLD - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/c1/14/d1c11426-0640-3175-6150-d5a3624215bb/mzaf_10974603736747457612.plus.aac.p.m4a",
+    "duration": 197040,
+    "trackUrl": "https://music.apple.com/us/album/spicy/1685399618?i=1685400184",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/2c/6d/af2c6d62-0ebc-2dff-17b3-8eeb2b3986a0/888735943621.jpg/300x300bb.jpg",
+    "trackId": "1685400184"
+  },
+  {
+    "id": "applemusic-1685400188",
+    "name": "Salty & Sweet",
+    "artists": [
+      "aespa"
+    ],
+    "album": "MY WORLD - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/43/86/6b438647-86a9-7b19-0447-b3b226a99881/mzaf_8266528794085644707.plus.aac.p.m4a",
+    "duration": 201760,
+    "trackUrl": "https://music.apple.com/us/album/salty-sweet/1685399618?i=1685400188",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/2c/6d/af2c6d62-0ebc-2dff-17b3-8eeb2b3986a0/888735943621.jpg/300x300bb.jpg",
+    "trackId": "1685400188"
+  },
+  {
+    "id": "applemusic-1685400191",
+    "name": "Thirsty",
+    "artists": [
+      "aespa"
+    ],
+    "album": "MY WORLD - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/57/c2/3257c275-629e-1e88-3e19-f4d654a27f0b/mzaf_2840809668788078948.plus.aac.p.m4a",
+    "duration": 193413,
+    "trackUrl": "https://music.apple.com/us/album/thirsty/1685399618?i=1685400191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/2c/6d/af2c6d62-0ebc-2dff-17b3-8eeb2b3986a0/888735943621.jpg/300x300bb.jpg",
+    "trackId": "1685400191"
+  },
+  {
+    "id": "applemusic-1685400414",
+    "name": "I'm Unhappy",
+    "artists": [
+      "aespa"
+    ],
+    "album": "MY WORLD - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/cb/e2/becbe253-b433-6f32-d67c-fe0b565cb0b4/mzaf_14286743708023482285.plus.aac.p.m4a",
+    "duration": 205893,
+    "trackUrl": "https://music.apple.com/us/album/im-unhappy/1685399618?i=1685400414",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/2c/6d/af2c6d62-0ebc-2dff-17b3-8eeb2b3986a0/888735943621.jpg/300x300bb.jpg",
+    "trackId": "1685400414"
+  },
+  {
+    "id": "applemusic-1685400471",
+    "name": "'Til We Meet Again",
+    "artists": [
+      "aespa"
+    ],
+    "album": "MY WORLD - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/61/f9/a861f942-6ab3-ca6b-471b-0c6e00bf255b/mzaf_11864681942267202953.plus.aac.p.m4a",
+    "duration": 218360,
+    "trackUrl": "https://music.apple.com/us/album/til-we-meet-again/1685399618?i=1685400471",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/2c/6d/af2c6d62-0ebc-2dff-17b3-8eeb2b3986a0/888735943621.jpg/300x300bb.jpg",
+    "trackId": "1685400471"
+  },
+  {
+    "id": "applemusic-1773694547",
+    "name": "Armageddon",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/34/f0/8434f0e6-0d39-0340-030a-0168bba3825b/mzaf_7352837177102038356.plus.aac.p.m4a",
+    "duration": 196467,
+    "trackUrl": "https://music.apple.com/us/album/armageddon/1773694541?i=1773694547",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694547"
+  },
+  {
+    "id": "applemusic-1773694641",
+    "name": "Set The Tone",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/a5/95/b9a59555-51fd-5d04-6601-dcd519302a18/mzaf_8786719039652264052.plus.aac.p.m4a",
+    "duration": 202533,
+    "trackUrl": "https://music.apple.com/us/album/set-the-tone/1773694541?i=1773694641",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694641"
+  },
+  {
+    "id": "applemusic-1773694642",
+    "name": "Mine",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/2b/2e/002b2ef6-8c10-bd30-19dd-5264cc559504/mzaf_13041615678650349688.plus.aac.p.m4a",
+    "duration": 193253,
+    "trackUrl": "https://music.apple.com/us/album/mine/1773694541?i=1773694642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694642"
+  },
+  {
+    "id": "applemusic-1773694643",
+    "name": "Licorice",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/07/10/b5/0710b59f-28a4-dd15-c7c0-73e783980644/mzaf_12532899174767351266.plus.aac.p.m4a",
+    "duration": 158933,
+    "trackUrl": "https://music.apple.com/us/album/licorice/1773694541?i=1773694643",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694643"
+  },
+  {
+    "id": "applemusic-1773694651",
+    "name": "BAHAMA",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/15/c6/4b15c69f-62a8-1e38-ef07-845ff0954844/mzaf_18249056454440211436.plus.aac.p.m4a",
+    "duration": 190533,
+    "trackUrl": "https://music.apple.com/us/album/bahama/1773694541?i=1773694651",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694651"
+  },
+  {
+    "id": "applemusic-1773694653",
+    "name": "Prologue",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/9e/05/529e05b4-9fdc-482f-f0c7-19d0d9203564/mzaf_11795979731070604368.plus.aac.p.m4a",
+    "duration": 194120,
+    "trackUrl": "https://music.apple.com/us/album/prologue/1773694541?i=1773694653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694653"
+  },
+  {
+    "id": "applemusic-1773694664",
+    "name": "Melody",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Armageddon - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/3f/a8/743fa8ba-30af-f68b-7eb3-5c3c44f60b2e/mzaf_351506973298610044.plus.aac.p.m4a",
+    "duration": 187853,
+    "trackUrl": "https://music.apple.com/us/album/melody/1773694541?i=1773694664",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773694664"
+  },
+  {
+    "id": "applemusic-1587844524",
+    "name": "aenergy",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/a1/f4/2da1f4a0-4c9d-7577-91ed-b40b3ba4dc67/mzaf_13618372704394142197.plus.aac.p.m4a",
+    "duration": 147400,
+    "trackUrl": "https://music.apple.com/us/album/aenergy/1587844523?i=1587844524",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844524"
+  },
+  {
+    "id": "applemusic-1587844525",
+    "name": "Savage",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9c/d5/ad/9cd5ad86-f09f-3422-6c99-42577c976b47/mzaf_3749214757514845374.plus.aac.p.m4a",
+    "duration": 238144,
+    "trackUrl": "https://music.apple.com/us/album/savage/1587844523?i=1587844525",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844525"
+  },
+  {
+    "id": "applemusic-1587844526",
+    "name": "I'll Make You Cry",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/5d/95/9b5d9531-cd28-7337-0bc6-ccb775abc7c7/mzaf_7876179176319650806.plus.aac.p.m4a",
+    "duration": 214853,
+    "trackUrl": "https://music.apple.com/us/album/ill-make-you-cry/1587844523?i=1587844526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844526"
+  },
+  {
+    "id": "applemusic-1587844527",
+    "name": "YEPPI YEPPI",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/78/db/b178db0d-7b00-6ee8-888b-85e663907ada/mzaf_748078857816205824.plus.aac.p.m4a",
+    "duration": 213560,
+    "trackUrl": "https://music.apple.com/us/album/yeppi-yeppi/1587844523?i=1587844527",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844527"
+  },
+  {
+    "id": "applemusic-1587844528",
+    "name": "ICONIC",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/91/dc/3291dc67-1af5-c206-c0f0-ec22862aea5d/mzaf_8913875961990120321.plus.aac.p.m4a",
+    "duration": 191200,
+    "trackUrl": "https://music.apple.com/us/album/iconic/1587844523?i=1587844528",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844528"
+  },
+  {
+    "id": "applemusic-1587844529",
+    "name": "Lucid Dream",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/c2/97/c1c29738-d852-cff6-b631-32b3bdf42fd8/mzaf_3347219267097722076.plus.aac.p.m4a",
+    "duration": 210560,
+    "trackUrl": "https://music.apple.com/us/album/lucid-dream/1587844523?i=1587844529",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844529"
+  },
+  {
+    "id": "applemusic-1699294567",
+    "name": "Better Things",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Better Things - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/24/6f/d5246f5d-b4a0-7d75-a5bf-9b3057820420/mzaf_4144289947886237554.plus.aac.p.m4a",
+    "duration": 203216,
+    "trackUrl": "https://music.apple.com/us/album/better-things/1699294565?i=1699294567",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/89/9e/3e/899e3e37-a86d-1a08-d1d1-dddfe8fd94c4/888735944338.jpg/300x300bb.jpg",
+    "trackId": "1699294567"
+  },
+  {
+    "id": "applemusic-1772223475",
+    "name": "UP (KARINA Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/ff/3c/4aff3c25-2265-c0f1-7c44-c33b5cdc07e9/mzaf_5994566525694125328.plus.aac.p.m4a",
+    "duration": 166640,
+    "trackUrl": "https://music.apple.com/us/album/up-karina-solo/1772223474?i=1772223475",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223475"
+  },
+  {
+    "id": "applemusic-1772223477",
+    "name": "Dopamine (GISELLE Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/a1/2a/a0a12a67-6464-f8a1-0de0-d6e9cd056fd2/mzaf_13913389792377171253.plus.aac.p.m4a",
+    "duration": 194093,
+    "trackUrl": "https://music.apple.com/us/album/dopamine-giselle-solo/1772223474?i=1772223477",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223477"
+  },
+  {
+    "id": "applemusic-1772223479",
+    "name": "Bored! (NINGNING Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/96/37/a59637c6-9ec8-c61d-de30-ae0dbd54e3de/mzaf_16267176679660527004.plus.aac.p.m4a",
+    "duration": 171160,
+    "trackUrl": "https://music.apple.com/us/album/bored-ningning-solo/1772223474?i=1772223479",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223479"
+  },
+  {
+    "id": "applemusic-1772223480",
+    "name": "Spark (WINTER Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/33/90/723390d8-adb2-e89d-17df-1de80d32eb0c/mzaf_2190898718518965271.plus.aac.p.m4a",
+    "duration": 201200,
+    "trackUrl": "https://music.apple.com/us/album/spark-winter-solo/1772223474?i=1772223480",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223480"
+  },
+  {
+    "id": "applemusic-1772214981",
+    "name": "Whiplash",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Whiplash - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/1b/a1/7d1ba15e-19fb-0411-e503-61e4379abd10/mzaf_16342830676435185944.plus.aac.p.m4a",
+    "duration": 183227,
+    "trackUrl": "https://music.apple.com/us/album/whiplash/1772214980?i=1772214981",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/c1/f5/d5c1f505-f588-775f-df05-c672a8ec22e9/888735949562_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772214981"
+  },
+  {
+    "id": "applemusic-1772214982",
+    "name": "Kill It",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Whiplash - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/2a/a3/6b2aa339-234b-1a0b-41e8-03a17edc44f5/mzaf_205136640457415274.plus.aac.p.m4a",
+    "duration": 199627,
+    "trackUrl": "https://music.apple.com/us/album/kill-it/1772214980?i=1772214982",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/c1/f5/d5c1f505-f588-775f-df05-c672a8ec22e9/888735949562_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772214982"
+  },
+  {
+    "id": "applemusic-1772214986",
+    "name": "Flights, Not Feelings",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Whiplash - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/91/67/1b916766-ef26-321e-f281-0c0e1bc56b5c/mzaf_10198740471716973607.plus.aac.p.m4a",
+    "duration": 181667,
+    "trackUrl": "https://music.apple.com/us/album/flights-not-feelings/1772214980?i=1772214986",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/c1/f5/d5c1f505-f588-775f-df05-c672a8ec22e9/888735949562_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772214986"
+  },
+  {
+    "id": "applemusic-1772214987",
+    "name": "Pink Hoodie",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Whiplash - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/47/1a/cb471ab1-0862-ad11-ebde-ba2c58a3d78d/mzaf_18199025626867568963.plus.aac.p.m4a",
+    "duration": 146547,
+    "trackUrl": "https://music.apple.com/us/album/pink-hoodie/1772214980?i=1772214987",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/c1/f5/d5c1f505-f588-775f-df05-c672a8ec22e9/888735949562_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772214987"
+  },
+  {
+    "id": "applemusic-1772214992",
+    "name": "Flowers",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Whiplash - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/c6/91/49c6915c-d658-3ad9-83ff-7e173c05b976/mzaf_9373670665424781792.plus.aac.p.m4a",
+    "duration": 190733,
+    "trackUrl": "https://music.apple.com/us/album/flowers/1772214980?i=1772214992",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/c1/f5/d5c1f505-f588-775f-df05-c672a8ec22e9/888735949562_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772214992"
+  },
+  {
+    "id": "applemusic-1772214993",
+    "name": "Just Another Girl",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Whiplash - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8a/c0/07/8ac007e4-63f3-d4e0-4697-f094e6f4068a/mzaf_12095417461982488226.plus.aac.p.m4a",
+    "duration": 184267,
+    "trackUrl": "https://music.apple.com/us/album/just-another-girl/1772214980?i=1772214993",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/c1/f5/d5c1f505-f588-775f-df05-c672a8ec22e9/888735949562_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772214993"
+  },
+  {
+    "id": "applemusic-1715939931",
+    "name": "Drama",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Drama - The 4th Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1f/dc/9b/1fdc9b25-04dd-515c-b5da-8dc132ed39b6/mzaf_5682330302212897053.plus.aac.p.m4a",
+    "duration": 214973,
+    "trackUrl": "https://music.apple.com/us/album/drama/1715939930?i=1715939931",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
+    "trackId": "1715939931"
+  },
+  {
+    "id": "applemusic-1715939936",
+    "name": "Trick or Trick",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Drama - The 4th Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/71/ce/a871ceb9-233e-16e5-4c4d-47c4b4ac0355/mzaf_11211062250529379238.plus.aac.p.m4a",
+    "duration": 175440,
+    "trackUrl": "https://music.apple.com/us/album/trick-or-trick/1715939930?i=1715939936",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
+    "trackId": "1715939936"
+  },
+  {
+    "id": "applemusic-1715939941",
+    "name": "Don't Blink",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Drama - The 4th Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/e3/0e/e4e30e95-3641-5769-f0a2-f0ad2fdd6759/mzaf_12239935623923022852.plus.aac.p.m4a",
+    "duration": 169000,
+    "trackUrl": "https://music.apple.com/us/album/dont-blink/1715939930?i=1715939941",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
+    "trackId": "1715939941"
+  },
+  {
+    "id": "applemusic-1715939950",
+    "name": "Hot Air Balloon",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Drama - The 4th Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/3b/9b/183b9bdd-afef-5fef-dcd7-e9cbb6898e00/mzaf_7198211380460661954.plus.aac.p.m4a",
+    "duration": 198693,
+    "trackUrl": "https://music.apple.com/us/album/hot-air-balloon/1715939930?i=1715939950",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
+    "trackId": "1715939950"
+  },
+  {
+    "id": "applemusic-1715940139",
+    "name": "YOLO",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Drama - The 4th Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/19/af/a019af98-ff83-efff-4538-dec667f381f3/mzaf_2383079460492634157.plus.aac.p.m4a",
+    "duration": 189373,
+    "trackUrl": "https://music.apple.com/us/album/yolo/1715939930?i=1715940139",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
+    "trackId": "1715940139"
+  },
+  {
+    "id": "applemusic-1715940143",
+    "name": "You",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Drama - The 4th Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/ad/43/1bad4354-5eaf-01cc-527c-e2832f91e37a/mzaf_15799471539421973472.plus.aac.p.m4a",
+    "duration": 203307,
+    "trackUrl": "https://music.apple.com/us/album/you/1715939930?i=1715940143",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
+    "trackId": "1715940143"
+  },
+  {
+    "id": "applemusic-1626752985",
+    "name": "Girls",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/4a/e3/d44ae3a2-4f55-1fe8-d3a0-ad8ad9bd7f01/mzaf_17549441330329370006.plus.aac.p.m4a",
+    "duration": 240440,
+    "trackUrl": "https://music.apple.com/us/album/girls/1626752981?i=1626752985",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626752985"
+  },
+  {
+    "id": "applemusic-1626752986",
+    "name": "Illusion",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/56/bb/8856bb25-a7e1-93c9-801a-553c38206d78/mzaf_12921002806601753640.plus.aac.p.m4a",
+    "duration": 195053,
+    "trackUrl": "https://music.apple.com/us/album/illusion/1626752981?i=1626752986",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626752986"
+  },
+  {
+    "id": "applemusic-1626752990",
+    "name": "Lingo",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/9d/9c/769d9c8e-0e6f-b1f1-577b-05a5bc872bb0/mzaf_8639259466175200404.plus.aac.p.m4a",
+    "duration": 156867,
+    "trackUrl": "https://music.apple.com/us/album/lingo/1626752981?i=1626752990",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626752990"
+  },
+  {
+    "id": "applemusic-1626752995",
+    "name": "Life's Too Short",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/cf/a2/b1cfa2e9-babd-bba6-c11b-4e5ef677f273/mzaf_12137668121403329819.plus.aac.p.m4a",
+    "duration": 178133,
+    "trackUrl": "https://music.apple.com/us/album/lifes-too-short/1626752981?i=1626752995",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626752995"
+  },
+  {
+    "id": "applemusic-1626752996",
+    "name": "ICU",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/9a/5e/529a5edc-366c-e3d1-bdc4-c39c08fd530e/mzaf_15430731365431995179.plus.aac.p.m4a",
+    "duration": 221640,
+    "trackUrl": "https://music.apple.com/us/album/icu/1626752981?i=1626752996",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626752996"
+  },
+  {
+    "id": "applemusic-1626753005",
+    "name": "Forever",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/c6/bc/d9c6bc24-bdc1-a530-f849-f373e2c92ea8/mzaf_11696147311956196764.plus.aac.p.m4a",
+    "duration": 298173,
+    "trackUrl": "https://music.apple.com/us/album/forever/1626752981?i=1626753005",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626753005"
+  },
+  {
+    "id": "applemusic-1626753157",
+    "name": "Dreams Come True",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/01/be/c801be2f-f935-16e3-6237-697443f43b16/mzaf_15280359454277138818.plus.aac.p.m4a",
+    "duration": 204933,
+    "trackUrl": "https://music.apple.com/us/album/dreams-come-true/1626752981?i=1626753157",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/300x300bb.jpg",
+    "trackId": "1626753157"
+  },
+  {
+    "id": "applemusic-1626753162",
+    "name": "Up Next: aespa (Exclusive)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video112/v4/f8/f9/48/f8f94825-fae5-d6a7-f572-c838064a22b8/mzvf_3512602073906032845.720w.h264lc.U.p.m4v",
+    "duration": 249082,
+    "trackUrl": "https://music.apple.com/us/music-video/up-next-aespa-exclusive/1626753162",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/b4/6f/c8/b46fc88d-51bd-7d7b-1dea-cb3d9b22dac7/KRZ262200150.sca1.jpg/300x300mv.jpg",
+    "trackId": "1626753162"
+  },
+  {
+    "id": "applemusic-1833163983",
+    "name": "Rich Man",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Rich Man - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/e7/bb/8ce7bbaf-92bd-e967-c55e-876fb253d22b/mzaf_10613068871673251371.plus.aac.p.m4a",
+    "duration": 197578,
+    "trackUrl": "https://music.apple.com/us/album/rich-man/1833163982?i=1833163983",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
+    "trackId": "1833163983"
+  },
+  {
+    "id": "applemusic-1833163989",
+    "name": "Drift",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Rich Man - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/67/33/c86733a6-dd2b-947d-86b5-5a363d66f257/mzaf_3516472113504727656.plus.aac.p.m4a",
+    "duration": 177874,
+    "trackUrl": "https://music.apple.com/us/album/drift/1833163982?i=1833163989",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
+    "trackId": "1833163989"
+  },
+  {
+    "id": "applemusic-1833163990",
+    "name": "Bubble",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Rich Man - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/82/db/b382db3c-5263-07cc-a49b-1276074142d2/mzaf_11058712688289394690.plus.aac.p.m4a",
+    "duration": 150260,
+    "trackUrl": "https://music.apple.com/us/album/bubble/1833163982?i=1833163990",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
+    "trackId": "1833163990"
+  },
+  {
+    "id": "applemusic-1833163993",
+    "name": "Count On Me",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Rich Man - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/6a/ad/5a6aad32-7f42-ffd4-7c71-4486beec05a4/mzaf_16735599043241764273.plus.aac.p.m4a",
+    "duration": 213333,
+    "trackUrl": "https://music.apple.com/us/album/count-on-me/1833163982?i=1833163993",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
+    "trackId": "1833163993"
+  },
+  {
+    "id": "applemusic-1833164154",
+    "name": "Angel #48",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Rich Man - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/67/36/da6736f9-0def-c9fd-5e9c-8a680777cb8a/mzaf_14059950751440831763.plus.aac.p.m4a",
+    "duration": 195408,
+    "trackUrl": "https://music.apple.com/us/album/angel-48/1833163982?i=1833164154",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
+    "trackId": "1833164154"
+  },
+  {
+    "id": "applemusic-1833164157",
+    "name": "To The Girls",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Rich Man - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/31/29/c33129e1-41b5-eac5-a3a4-53fb87f3f0b5/mzaf_11386815274945679848.plus.aac.p.m4a",
+    "duration": 214535,
+    "trackUrl": "https://music.apple.com/us/album/to-the-girls/1833163982?i=1833164157",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
+    "trackId": "1833164157"
+  },
+  {
+    "id": "applemusic-1850395173",
+    "name": "BLUE (WINTER Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/27/b0/1727b0ef-7563-69ee-0147-53bbedb1e97f/mzaf_8387039968216663834.plus.aac.p.m4a",
+    "duration": 211401,
+    "trackUrl": "https://music.apple.com/us/album/blue-winter-solo/1850395172?i=1850395173",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
+    "trackId": "1850395173"
+  },
+  {
+    "id": "applemusic-1850395174",
+    "name": "Ketchup And Lemonade (NINGNING Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/19/5c/62195ca5-cf43-864a-a278-5666ced20a88/mzaf_13336644535137147091.plus.aac.p.m4a",
+    "duration": 248260,
+    "trackUrl": "https://music.apple.com/us/album/ketchup-and-lemonade-ningning-solo/1850395172?i=1850395174",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
+    "trackId": "1850395174"
+  },
+  {
+    "id": "applemusic-1850395176",
+    "name": "Tornado (GISELLE Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/f2/a2/faf2a29d-72c0-d760-28a2-cfdfe73ff763/mzaf_4735513348420698854.plus.aac.p.m4a",
+    "duration": 204603,
+    "trackUrl": "https://music.apple.com/us/album/tornado-giselle-solo/1850395172?i=1850395176",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
+    "trackId": "1850395176"
+  },
+  {
+    "id": "applemusic-1850395177",
+    "name": "GOOD STUFF (KARINA Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/9a/88/ef9a883f-9987-0bfa-c223-1f426a69a6f5/mzaf_9082093550352331452.plus.aac.p.m4a",
+    "duration": 175018,
+    "trackUrl": "https://music.apple.com/us/album/good-stuff-karina-solo/1850395172?i=1850395177",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
+    "trackId": "1850395177"
+  },
+  {
+    "id": "applemusic-1659173768",
+    "name": "Beautiful Christmas",
+    "artists": [
+      "Red Velvet & aespa"
+    ],
+    "album": "Beautiful Christmas - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/00/12/b4/0012b4c4-7309-d0fa-2385-e58206291a16/mzaf_6424661698157533944.plus.aac.p.m4a",
+    "duration": 209800,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-christmas/1659173767?i=1659173768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2c/83/ef/2c83ef10-5a81-14b7-9c04-f2c25f24da99/dj.ecugmyoo.jpg/300x300bb.jpg",
+    "trackId": "1659173768"
+  },
+  {
+    "id": "applemusic-1818922031",
+    "name": "Dirty Work",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Dirty Work (Apple Music Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/99/5b/34995b17-ef75-35c6-fd7a-f268a05b3af1/mzaf_14449820366923483879.plus.aac.p.m4a",
+    "duration": 180250,
+    "trackUrl": "https://music.apple.com/us/album/dirty-work/1818922030?i=1818922031",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/0d/b3/090db3d2-50a0-b1ed-014a-4ac6ccdaa519/888735952029_Cover.jpg/300x300bb.jpg",
+    "trackId": "1818922031"
+  },
+  {
+    "id": "applemusic-1709483322",
+    "name": "ZOOM ZOOM",
+    "artists": [
+      "aespa"
+    ],
+    "album": "ZOOM ZOOM - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e2/30/55/e2305591-cbc8-1deb-5348-5d7a17ff1d82/mzaf_694060178268685715.plus.aac.p.m4a",
+    "duration": 192733,
+    "trackUrl": "https://music.apple.com/us/album/zoom-zoom/1709483314?i=1709483322",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9e/a7/c0/9ea7c0dd-6e09-35c2-f240-1545b0c2db23/5054197834004.jpg/300x300bb.jpg",
+    "trackId": "1709483322"
+  },
+  {
+    "id": "applemusic-1717057838",
+    "name": "Jingle Bell Rock",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Jingle Bell Rock - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/c0/67/8cc06707-b363-d5a0-3aa3-039a8d0f401e/mzaf_18321130950266817495.plus.aac.p.m4a",
+    "duration": 130613,
+    "trackUrl": "https://music.apple.com/us/album/jingle-bell-rock/1717057837?i=1717057838",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d5/86/9c/d5869c82-63f4-d2bf-4ecb-80123c663f79/888735946134.jpg/300x300bb.jpg",
+    "trackId": "1717057838"
+  },
+  {
+    "id": "applemusic-1754125919",
+    "name": "Hot Mess",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Hot Mess - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/bb/c3/b4bbc3f1-97f9-f008-3c25-cc3513cce12d/mzaf_5757007376614950036.plus.aac.p.m4a",
+    "duration": 192375,
+    "trackUrl": "https://music.apple.com/us/album/hot-mess/1754125916?i=1754125919",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/a2/a4/c6a2a451-4373-a01b-0dc5-9bbc4e538f3e/5021732396747.jpg/300x300bb.jpg",
+    "trackId": "1754125919"
+  },
+  {
+    "id": "applemusic-1754125921",
+    "name": "Sun and Moon",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Hot Mess - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/54/5e/1b545e5f-d1d7-a63f-a9b1-032d5ca174b8/mzaf_16460392188641685249.plus.aac.p.m4a",
+    "duration": 199635,
+    "trackUrl": "https://music.apple.com/us/album/sun-and-moon/1754125916?i=1754125921",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c6/a2/a4/c6a2a451-4373-a01b-0dc5-9bbc4e538f3e/5021732396747.jpg/300x300bb.jpg",
+    "trackId": "1754125921"
+  },
+  {
+    "id": "applemusic-1735338675",
+    "name": "Die Trying",
+    "artists": [
+      "aespa & TOKiMONSTA"
+    ],
+    "album": "Die Trying - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/10/57/63/105763fd-33d3-7cb1-d9f8-0928ebbd23f8/mzaf_9274869529697363534.plus.aac.p.m4a",
+    "duration": 175680,
+    "trackUrl": "https://music.apple.com/us/album/die-trying/1735338673?i=1735338675",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f9/16/05/f91605ad-6193-a998-b7eb-8b2cd54b8023/810123163441.png/300x300bb.jpg",
+    "trackId": "1735338675"
+  },
+  {
+    "id": "applemusic-1809914558",
+    "name": "Good Day 2025 (Telepathy + By the Moonlight Window)",
+    "artists": [
+      "G-DRAGON, Hwang Jung-min, Defconn, Hong Jinkyung, Jung Hyung Don, 조세호, Kian84, ANH SUNG JAE, TAEYANG, Jung Hae In, Hwang Kwang Hee, Yim Siwan, LEE SOO HYUK, DAESUNG, CODE KUNST, CL, Kim Go Eun, DAY6, BSS & aespa"
+    ],
+    "album": "Good Day 2025 (Telepathy + By the Moonlight Window) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/03/da/0303da79-6405-a165-b430-27ef27c11253/mzaf_12010926169352622345.plus.aac.p.m4a",
+    "duration": 242567,
+    "trackUrl": "https://music.apple.com/us/album/good-day-2025-telepathy-by-the-moonlight-window/1809914549?i=1809914558",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1e/01/b5/1e01b5a0-d7b0-36c4-4409-18e9736eaf43/196873106304.jpg/300x300bb.jpg",
+    "trackId": "1809914558"
+  },
+  {
+    "id": "applemusic-1823808607",
+    "name": "Dark Arts",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Dark Arts - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/39/aa/a739aa02-c90b-8fbd-029d-a98740b3e7e3/mzaf_8154463670040653360.plus.aac.p.m4a",
+    "duration": 181759,
+    "trackUrl": "https://music.apple.com/us/album/dark-arts/1823808606?i=1823808607",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/b2/25/ccb225de-8ce0-f3bb-c6a6-337b6166a2b9/888735952531.png/300x300bb.jpg",
+    "trackId": "1823808607"
+  },
+  {
+    "id": "applemusic-1703219661",
+    "name": "We Go",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Pokémon 2023 (Original TV Series Soundtrack, Korea) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/76/d5/28/76d528e6-7d0e-b4fc-dd87-23139fb60111/mzaf_5739445891053020296.plus.aac.p.m4a",
+    "duration": 188532,
+    "trackUrl": "https://music.apple.com/us/album/we-go/1703219660?i=1703219661",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/aa/1b/d6aa1b90-17e5-0ba0-7a86-3a2058f060a2/888272121766.jpg/300x300bb.jpg",
+    "trackId": "1703219661"
+  },
+  {
+    "id": "applemusic-1725110791",
+    "name": "Regret of the Times (2024 aespa Remake Version)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Regret of the Times (2024 aespa Remake Version) - SM STATION - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b2/bb/21/b2bb213f-b1cb-7f2b-d3a7-8119323f24e4/mzaf_6640888583826066194.plus.aac.p.m4a",
+    "duration": 171947,
+    "trackUrl": "https://music.apple.com/us/album/regret-of-the-times-2024-aespa-remake-version/1725110790?i=1725110791",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/75/68/1675686d-e8fd-5e8e-40d9-7a411ed5c0c7/2024_aespa_Remake_Ver.jpg/300x300bb.jpg",
+    "trackId": "1725110791"
+  },
+  {
+    "id": "applemusic-1703219662",
+    "name": "By Your Side",
+    "artists": [
+      "9001"
+    ],
+    "album": "Pokémon 2023 (Original TV Series Soundtrack, Korea) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/12/5c/fe/125cfec8-e751-cf73-1cb2-953afb58b983/mzaf_11951078510446639171.plus.aac.p.m4a",
+    "duration": 167000,
+    "trackUrl": "https://music.apple.com/us/album/by-your-side/1703219660?i=1703219662",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/aa/1b/d6aa1b90-17e5-0ba0-7a86-3a2058f060a2/888272121766.jpg/300x300bb.jpg",
+    "trackId": "1703219662"
+  }
+]

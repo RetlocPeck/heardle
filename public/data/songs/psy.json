@@ -1,0 +1,795 @@
+[
+  {
+    "id": "applemusic-1445144527",
+    "name": "Gangnam Style",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Gangnam Style - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/65/ae/3d65ae0a-7b2c-f14d-5680-cdafaa8cfb2d/mzaf_11206445915046452880.plus.aac.p.m4a",
+    "duration": 219493,
+    "trackUrl": "https://music.apple.com/us/album/gangnam-style/1445144506?i=1445144527",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7c/52/87/7c5287bc-818f-55ed-e607-08b052963632/12UMGIM50914.rgb.jpg/300x300bb.jpg",
+    "trackId": "1445144527"
+  },
+  {
+    "id": "applemusic-1445151352",
+    "name": "Gentleman",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Gentleman - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/18/9a/4c/189a4c7b-a76f-d278-75b3-ca6fcd36540e/mzaf_3198082389744370474.plus.aac.p.m4a",
+    "duration": 194413,
+    "trackUrl": "https://music.apple.com/us/album/gentleman/1445151341?i=1445151352",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/da/68/20/da682064-b4ff-36a7-3ca1-f9706f0553e3/00602537388455.rgb.jpg/300x300bb.jpg",
+    "trackId": "1445151352"
+  },
+  {
+    "id": "applemusic-1234834110",
+    "name": "I LUV IT",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/f6/05/28f605e0-3bdc-d4fc-7c8e-b3a008f02b3a/mzaf_7213015882939431325.plus.aac.p.m4a",
+    "duration": 188976,
+    "trackUrl": "https://music.apple.com/us/album/i-luv-it/1234833725?i=1234834110",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834110"
+  },
+  {
+    "id": "applemusic-1234834111",
+    "name": "New Face",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fe/18/af/fe18af02-eaf0-484d-2513-175b220804ba/mzaf_127583453263421834.plus.aac.p.m4a",
+    "duration": 190234,
+    "trackUrl": "https://music.apple.com/us/album/new-face/1234833725?i=1234834111",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834111"
+  },
+  {
+    "id": "applemusic-1234834112",
+    "name": "LAST SCENE (feat. Lee Sungkyoung)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/81/0a/27810aa7-f444-778a-3716-76ac8c680494/mzaf_13911372632841396809.plus.aac.p.m4a",
+    "duration": 251145,
+    "trackUrl": "https://music.apple.com/us/album/last-scene-feat-lee-sungkyoung/1234833725?i=1234834112",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834112"
+  },
+  {
+    "id": "applemusic-1234834114",
+    "name": "BOMB (feat. B.I & Bobby)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/96/41/aa964148-8dab-6a49-91d6-7a6229f7920a/mzaf_2346232675225122560.plus.aac.p.m4a",
+    "duration": 173578,
+    "trackUrl": "https://music.apple.com/us/album/bomb-feat-b-i-bobby/1234833725?i=1234834114",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834114"
+  },
+  {
+    "id": "applemusic-1234834115",
+    "name": "We Are Young",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/64/b1/cc/64b1cc30-db7c-51aa-adf3-34ada262127b/mzaf_11964744548249166806.plus.aac.p.m4a",
+    "duration": 241622,
+    "trackUrl": "https://music.apple.com/us/album/we-are-young/1234833725?i=1234834115",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834115"
+  },
+  {
+    "id": "applemusic-1234834116",
+    "name": "FACT (feat. G-Dragon)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/35/b5/c035b50a-a613-00c7-2160-a73bfab7059a/mzaf_18373962474521550953.plus.aac.p.m4a",
+    "duration": 178696,
+    "trackUrl": "https://music.apple.com/us/album/fact-feat-g-dragon/1234833725?i=1234834116",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834116"
+  },
+  {
+    "id": "applemusic-1234834117",
+    "name": "Rock Will Never Die",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8e/a2/b3/8ea2b313-2dd2-b1b4-2d1b-4ce8b5650e74/mzaf_12174799500307062490.plus.aac.p.m4a",
+    "duration": 183421,
+    "trackUrl": "https://music.apple.com/us/album/rock-will-never-die/1234833725?i=1234834117",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834117"
+  },
+  {
+    "id": "applemusic-1234834118",
+    "name": "REFUGE",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/e9/94/44e99427-2670-e50e-aaad-a691e12c1577/mzaf_7614992537592499770.plus.aac.p.m4a",
+    "duration": 274922,
+    "trackUrl": "https://music.apple.com/us/album/refuge/1234833725?i=1234834118",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834118"
+  },
+  {
+    "id": "applemusic-1234834119",
+    "name": "AUTO REVERSE (feat. Tablo)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 8th 4X2=8",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8a/d1/08/8ad10808-0532-89a8-9e84-dd861cc7fb08/mzaf_6175048899486162550.plus.aac.p.m4a",
+    "duration": 228245,
+    "trackUrl": "https://music.apple.com/us/album/auto-reverse-feat-tablo/1234833725?i=1234834119",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e4/0e/d4/e40ed47b-9192-223d-100e-81b87f422c07/PSY_COVER_4000x4000.jpg/300x300bb.jpg",
+    "trackId": "1234834119"
+  },
+  {
+    "id": "applemusic-1445285160",
+    "name": "Hangover (feat. Snoop Dogg)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Hangover (feat. Snoop Dogg) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/b6/11/22b611dc-94e4-8774-309d-9a7c48f10afb/mzaf_9373507690379346114.plus.aac.p.m4a",
+    "duration": 236778,
+    "trackUrl": "https://music.apple.com/us/album/hangover-feat-snoop-dogg/1445285146?i=1445285160",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a9/36/3e/a9363eb6-c9f4-583b-78e0-32f912c5a8d6/14UMGIM23687.rgb.jpg/300x300bb.jpg",
+    "trackId": "1445285160"
+  },
+  {
+    "id": "applemusic-1698053099",
+    "name": "9INTRO",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/1e/98/d11e982e-7c88-7a46-5142-e4a3c121ad36/mzaf_11913475858932434597.plus.aac.p.m4a",
+    "duration": 166437,
+    "trackUrl": "https://music.apple.com/us/album/9intro/1698053098?i=1698053099",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053099"
+  },
+  {
+    "id": "applemusic-1698053100",
+    "name": "That That (prod.&feat. SUGA of BTS)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/1f/5c/f21f5c62-9a6a-80f3-54fc-279fdb7730ae/mzaf_11603143425573286587.plus.aac.p.m4a",
+    "duration": 174647,
+    "trackUrl": "https://music.apple.com/us/album/that-that-prod-feat-suga-of-bts/1698053098?i=1698053100",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053100"
+  },
+  {
+    "id": "applemusic-1698053101",
+    "name": "Celeb",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/2a/f8/132af8bf-68cc-11d1-af9d-31cedd2dcd6b/mzaf_11634012366903566458.plus.aac.p.m4a",
+    "duration": 199766,
+    "trackUrl": "https://music.apple.com/us/album/celeb/1698053098?i=1698053101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053101"
+  },
+  {
+    "id": "applemusic-1698053102",
+    "name": "You Move Me (feat. SUNG SI KYUNG)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/3c/6a/2e3c6a58-cb00-37ff-aff5-252e5ade6ee9/mzaf_11793843821370416629.plus.aac.p.m4a",
+    "duration": 220187,
+    "trackUrl": "https://music.apple.com/us/album/you-move-me-feat-sung-si-kyung/1698053098?i=1698053102",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053102"
+  },
+  {
+    "id": "applemusic-1698053103",
+    "name": "Sleepless (feat. Heize)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/77/f4/1877f4c9-4db8-3161-b547-28855bfdc7b6/mzaf_10805752310050774916.plus.aac.p.m4a",
+    "duration": 185809,
+    "trackUrl": "https://music.apple.com/us/album/sleepless-feat-heize/1698053098?i=1698053103",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053103"
+  },
+  {
+    "id": "applemusic-1698053104",
+    "name": "GANJI (feat. Jessi)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/de/de/36dede4b-c9d3-9a93-ad25-22f4f85e4a42/mzaf_11714932920345570446.plus.aac.p.m4a",
+    "duration": 171723,
+    "trackUrl": "https://music.apple.com/us/album/ganji-feat-jessi/1698053098?i=1698053104",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053104"
+  },
+  {
+    "id": "applemusic-1698053105",
+    "name": "Now (feat. Hwa Sa)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/2a/0b/682a0ba5-5612-3657-8685-bfa7dd554788/mzaf_12082987285562584366.plus.aac.p.m4a",
+    "duration": 207982,
+    "trackUrl": "https://music.apple.com/us/album/now-feat-hwa-sa/1698053098?i=1698053105",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053105"
+  },
+  {
+    "id": "applemusic-1698053106",
+    "name": "Happier (feat. Crush)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/95/15/c4951528-84b2-a81d-b275-e5079739a4c9/mzaf_6711192469632862962.plus.aac.p.m4a",
+    "duration": 251374,
+    "trackUrl": "https://music.apple.com/us/album/happier-feat-crush/1698053098?i=1698053106",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053106"
+  },
+  {
+    "id": "applemusic-1698053108",
+    "name": "Hello Monday",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/b6/64/66b6642e-f8c5-d16a-264d-71217aa709d9/mzaf_914292905693581154.plus.aac.p.m4a",
+    "duration": 171014,
+    "trackUrl": "https://music.apple.com/us/album/hello-monday/1698053098?i=1698053108",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053108"
+  },
+  {
+    "id": "applemusic-1698053109",
+    "name": "Everyday",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/ed/0a/2fed0abf-df61-c17a-d74f-099feaab2f0e/mzaf_445965947529181693.plus.aac.p.m4a",
+    "duration": 276308,
+    "trackUrl": "https://music.apple.com/us/album/everyday/1698053098?i=1698053109",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053109"
+  },
+  {
+    "id": "applemusic-1698053110",
+    "name": "forEVER (feat. TABLO)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/3e/29/f53e2920-53bc-186e-0661-00fcacafa39b/mzaf_17608650484977699409.plus.aac.p.m4a",
+    "duration": 208713,
+    "trackUrl": "https://music.apple.com/us/album/forever-feat-tablo/1698053098?i=1698053110",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053110"
+  },
+  {
+    "id": "applemusic-1698053111",
+    "name": "Dear Me",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 9th",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/86/fb/03/86fb0342-ee26-5056-ef77-4c5b289d1348/mzaf_3944808164226981119.plus.aac.p.m4a",
+    "duration": 246495,
+    "trackUrl": "https://music.apple.com/us/album/dear-me/1698053098?i=1698053111",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/05/3d/8c/053d8c68-eba1-3bb7-6445-39c085b91c1c/8809856802354.jpg/300x300bb.jpg",
+    "trackId": "1698053111"
+  },
+  {
+    "id": "applemusic-1339074797",
+    "name": "Blue Frog (feat. G-DRAGON)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY SIX RULES, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/52/76/a8/5276a813-fde4-f758-f03b-19494727b343/mzaf_4328468275347353556.plus.aac.p.m4a",
+    "duration": 207877,
+    "trackUrl": "https://music.apple.com/us/album/blue-frog-feat-g-dragon/1339074793?i=1339074797",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/a3/98/77a39810-e45e-35de-fe20-dbe809ac789d/8806384535815.jpg/300x300bb.jpg",
+    "trackId": "1339074797"
+  },
+  {
+    "id": "applemusic-1339074798",
+    "name": "Passionate Goodbye (feat. Sung Si Kyung)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY SIX RULES, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/a2/dc/9ba2dc1a-c153-a663-98d8-87f2447cd205/mzaf_13764308570822262834.plus.aac.p.m4a",
+    "duration": 208973,
+    "trackUrl": "https://music.apple.com/us/album/passionate-goodbye-feat-sung-si-kyung/1339074793?i=1339074798",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/a3/98/77a39810-e45e-35de-fe20-dbe809ac789d/8806384535815.jpg/300x300bb.jpg",
+    "trackId": "1339074798"
+  },
+  {
+    "id": "applemusic-1339074800",
+    "name": "Year of 77 (feat. Leessang & Kim Jinpyo)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY SIX RULES, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1d/a7/cd/1da7cd4f-c3b7-2961-9da4-6cd337d2fcca/mzaf_17854448530556300072.plus.aac.p.m4a",
+    "duration": 279061,
+    "trackUrl": "https://music.apple.com/us/album/year-of-77-feat-leessang-kim-jinpyo/1339074793?i=1339074800",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/a3/98/77a39810-e45e-35de-fe20-dbe809ac789d/8806384535815.jpg/300x300bb.jpg",
+    "trackId": "1339074800"
+  },
+  {
+    "id": "applemusic-1339074801",
+    "name": "What Would Have Been? (feat. Lena Park)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY SIX RULES, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/68/48/30684818-3030-6b60-134e-7d884a3d8ec7/mzaf_9508744693762883954.plus.aac.p.m4a",
+    "duration": 243964,
+    "trackUrl": "https://music.apple.com/us/album/what-would-have-been-feat-lena-park/1339074793?i=1339074801",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/a3/98/77a39810-e45e-35de-fe20-dbe809ac789d/8806384535815.jpg/300x300bb.jpg",
+    "trackId": "1339074801"
+  },
+  {
+    "id": "applemusic-1339074802",
+    "name": "Never Say Goodbye (feat. Yoon Do Hyun)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY SIX RULES, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/bf/8e/1ebf8ec4-659c-2099-7da3-38a904964476/mzaf_14422494537451742377.plus.aac.p.m4a",
+    "duration": 201723,
+    "trackUrl": "https://music.apple.com/us/album/never-say-goodbye-feat-yoon-do-hyun/1339074793?i=1339074802",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/77/a3/98/77a39810-e45e-35de-fe20-dbe809ac789d/8806384535815.jpg/300x300bb.jpg",
+    "trackId": "1339074802"
+  },
+  {
+    "id": "applemusic-1445290537",
+    "name": "Gangnam Style / 2 Legit 2 Quit Mashup (feat. MC Hammer)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Gangnam Style / 2 Legit 2 Quit Mashup (feat. MC Hammer) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/f3/f4/8df3f4f7-0c15-b0e5-fc86-2d66c18f97ce/mzaf_1150478735191421144.plus.aac.p.m4a",
+    "duration": 237680,
+    "trackUrl": "https://music.apple.com/us/album/gangnam-style-2-legit-2-quit-mashup-feat-mc-hammer/1445290534?i=1445290537",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/ca/2d/1dca2d34-1e11-7fb1-4bdc-cf3c5d29888d/12UMGIM63568.rgb.jpg/300x300bb.jpg",
+    "trackId": "1445290537"
+  },
+  {
+    "id": "applemusic-1315522599",
+    "name": "Dance Jockey",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/2b/c1/f52bc151-2292-8713-07e5-3f1c2a792e03/mzaf_682270921950654145.plus.aac.p.m4a",
+    "duration": 202826,
+    "trackUrl": "https://music.apple.com/us/album/dance-jockey/1315522223?i=1315522599",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522599"
+  },
+  {
+    "id": "applemusic-1315522600",
+    "name": "I Remember You (feat. Zion.T)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/1a/fa/911afa31-26b6-0fc4-0811-42b39f94bd8e/mzaf_14540904937218771339.plus.aac.p.m4a",
+    "duration": 223389,
+    "trackUrl": "https://music.apple.com/us/album/i-remember-you-feat-zion-t/1315522223?i=1315522600",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522600"
+  },
+  {
+    "id": "applemusic-1315522631",
+    "name": "NAPAL BAJI",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/fa/bc/68fabc46-9445-e07a-1aea-e850c40da6d2/mzaf_17343073556449070110.plus.aac.p.m4a",
+    "duration": 223215,
+    "trackUrl": "https://music.apple.com/us/album/napal-baji/1315522223?i=1315522631",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522631"
+  },
+  {
+    "id": "applemusic-1315522632",
+    "name": "DADDY (feat. CL)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/66/a6/30/66a63032-6cd5-4edf-61ca-155253199238/mzaf_1222846195778180261.plus.aac.p.m4a",
+    "duration": 230635,
+    "trackUrl": "https://music.apple.com/us/album/daddy-feat-cl/1315522223?i=1315522632",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522632"
+  },
+  {
+    "id": "applemusic-1315522633",
+    "name": "Dream (feat. XIA)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/69/59/e1695937-b77f-15b1-3329-61a5842efa27/mzaf_12636580876397261045.plus.aac.p.m4a",
+    "duration": 196897,
+    "trackUrl": "https://music.apple.com/us/album/dream-feat-xia/1315522223?i=1315522633",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522633"
+  },
+  {
+    "id": "applemusic-1315522635",
+    "name": "ROCKnROLLbaby (feat. will.i.am)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/53/61/3253619d-6371-45b8-d4a6-16ecb4003421/mzaf_10725824092858509129.plus.aac.p.m4a",
+    "duration": 256221,
+    "trackUrl": "https://music.apple.com/us/album/rocknrollbaby-feat-will-i-am/1315522223?i=1315522635",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522635"
+  },
+  {
+    "id": "applemusic-1315522636",
+    "name": "The Day Will Come (feat. Jun In Kwon)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/40/9a/ba409a4c-eb8f-ca9e-dbc0-876acfdb538e/mzaf_13410711627500569072.plus.aac.p.m4a",
+    "duration": 212576,
+    "trackUrl": "https://music.apple.com/us/album/the-day-will-come-feat-jun-in-kwon/1315522223?i=1315522636",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522636"
+  },
+  {
+    "id": "applemusic-1315522637",
+    "name": "Ahjussi Swag (feat. Gaeko)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/38/23/5038237c-4fbc-ff98-f841-2f1b66d97ed6/mzaf_12949903036561506616.plus.aac.p.m4a",
+    "duration": 189519,
+    "trackUrl": "https://music.apple.com/us/album/ahjussi-swag-feat-gaeko/1315522223?i=1315522637",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522637"
+  },
+  {
+    "id": "applemusic-1315522638",
+    "name": "SING (with Ed Sheeran) [PSYmix]",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 7TH ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/d6/97/34d6972c-973c-d64d-c444-d7169c092346/mzaf_12179704770126351375.plus.aac.p.m4a",
+    "duration": 237031,
+    "trackUrl": "https://music.apple.com/us/album/sing-with-ed-sheeran-psymix/1315522223?i=1315522638",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/8d/58/a88d588b-fa3a-b859-d331-7a8af2f152c0/PSY-Cover-1400.jpg/300x300bb.jpg",
+    "trackId": "1315522638"
+  },
+  {
+    "id": "applemusic-1574482981",
+    "name": "Intro",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6a/dd/da/6adddac9-1cec-86ac-ef89-eaf92184a6c5/mzaf_1963528383722764861.plus.aac.p.m4a",
+    "duration": 110106,
+    "trackUrl": "https://music.apple.com/us/album/intro/1574482968?i=1574482981",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574482981"
+  },
+  {
+    "id": "applemusic-1574483207",
+    "name": "Lady",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d4/ff/32/d4ff329c-482b-dceb-e868-f5a46817d119/mzaf_2848755889331974497.plus.aac.p.m4a",
+    "duration": 223373,
+    "trackUrl": "https://music.apple.com/us/album/lady/1574482968?i=1574483207",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574483207"
+  },
+  {
+    "id": "applemusic-1574483366",
+    "name": "Life",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/a4/ae/b9a4ae21-7aca-e7b1-f67d-0621bc62ed7e/mzaf_5740350820410325719.plus.aac.p.m4a",
+    "duration": 269349,
+    "trackUrl": "https://music.apple.com/us/album/life/1574482968?i=1574483366",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574483366"
+  },
+  {
+    "id": "applemusic-1574483620",
+    "name": "Freedom",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/89/18/b1/8918b169-22ac-5c77-a0ba-db2b6139e8c6/mzaf_12167406979220100009.plus.aac.p.m4a",
+    "duration": 218828,
+    "trackUrl": "https://music.apple.com/us/album/freedom/1574482968?i=1574483620",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574483620"
+  },
+  {
+    "id": "applemusic-1574483630",
+    "name": "No.1",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/43/e3/6d/43e36ddc-40cd-c850-623c-df85ae09a760/mzaf_11413121187720264694.plus.aac.p.m4a",
+    "duration": 202423,
+    "trackUrl": "https://music.apple.com/us/album/no-1/1574482968?i=1574483630",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574483630"
+  },
+  {
+    "id": "applemusic-1574483643",
+    "name": "I Love Sex",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/75/8a/79/758a794d-a007-868f-9afd-6785ded9f680/mzaf_6810867796135407023.plus.aac.p.m4a",
+    "duration": 231355,
+    "trackUrl": "https://music.apple.com/us/album/i-love-sex/1574482968?i=1574483643",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574483643"
+  },
+  {
+    "id": "applemusic-1574484434",
+    "name": "Upskail Phenomenon",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8c/68/da/8c68daf5-55c0-e4a6-9b94-56d35a01a2e1/mzaf_11664056163647905262.plus.aac.p.m4a",
+    "duration": 208718,
+    "trackUrl": "https://music.apple.com/us/album/upskail-phenomenon/1574482968?i=1574484434",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574484434"
+  },
+  {
+    "id": "applemusic-1574484441",
+    "name": "Morden Times",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/25/7a/a8/257aa8d7-7fa5-2188-3e49-0d37e79836b3/mzaf_12105256273475096074.plus.aac.p.m4a",
+    "duration": 207229,
+    "trackUrl": "https://music.apple.com/us/album/morden-times/1574482968?i=1574484441",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574484441"
+  },
+  {
+    "id": "applemusic-1574484447",
+    "name": "Outro",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy From The Psycho World",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0b/df/e3/0bdfe373-e478-8f4a-f91c-208e6bedb0af/mzaf_10172444144334734252.plus.aac.p.m4a",
+    "duration": 134884,
+    "trackUrl": "https://music.apple.com/us/album/outro/1574482968?i=1574484447",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e7/7a/8d/e77a8d47-13d7-ed4a-bee3-5c00b5145815/8806384547139.jpg/300x300bb.jpg",
+    "trackId": "1574484447"
+  },
+  {
+    "id": "applemusic-1574483232",
+    "name": "Night (feat. Park Mi Kyung)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy 3",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/d0/cb/9ed0cb18-6550-0266-ba49-ac435aa43a86/mzaf_5398096939124401404.plus.aac.p.m4a",
+    "duration": 198557,
+    "trackUrl": "https://music.apple.com/us/album/night-feat-park-mi-kyung/1574481873?i=1574483232",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6a/8c/69/6a8c6943-d079-75a9-92d7-e9784abfc5d8/8809522701530.jpg/300x300bb.jpg",
+    "trackId": "1574483232"
+  },
+  {
+    "id": "applemusic-1574483244",
+    "name": "Bitch (feat. Ray)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy 3",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/cb/ec/24cbec84-fed2-6b82-e2a6-95fec4880e55/mzaf_14796460737181408985.plus.aac.p.m4a",
+    "duration": 131213,
+    "trackUrl": "https://music.apple.com/us/album/bitch-feat-ray/1574481873?i=1574483244",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6a/8c/69/6a8c6943-d079-75a9-92d7-e9784abfc5d8/8809522701530.jpg/300x300bb.jpg",
+    "trackId": "1574483244"
+  },
+  {
+    "id": "applemusic-1574483701",
+    "name": "Back To The PSYcho World! (Outro)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Psy 3",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/23/81/b42381e5-5a62-7980-081d-72f964c0588c/mzaf_15970644079808277985.plus.aac.p.m4a",
+    "duration": 135027,
+    "trackUrl": "https://music.apple.com/us/album/back-to-the-psycho-world-outro/1574481873?i=1574483701",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6a/8c/69/6a8c6943-d079-75a9-92d7-e9784abfc5d8/8809522701530.jpg/300x300bb.jpg",
+    "trackId": "1574483701"
+  },
+  {
+    "id": "applemusic-561856885",
+    "name": "Yes, I Am",
+    "artists": [
+      "PSY"
+    ],
+    "album": "싸2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/83/e1/10/83e110c4-7dfe-81c1-bc6e-734b304ffa18/mzaf_7244290081872865995.plus.aac.p.m4a",
+    "duration": 200725,
+    "trackUrl": "https://music.apple.com/us/album/yes-i-am/561856703?i=561856885",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/5c/a0/985ca03a-b0be-d17d-100f-361561f31ea5/15878.jpg/300x300bb.jpg",
+    "trackId": "561856885"
+  },
+  {
+    "id": "applemusic-561856921",
+    "name": "Basica 2.0",
+    "artists": [
+      "PSY"
+    ],
+    "album": "싸2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0b/d0/1d/0bd01db1-8779-6f38-d153-670ebb13dbc6/mzaf_16318743513138453190.plus.aac.p.m4a",
+    "duration": 233064,
+    "trackUrl": "https://music.apple.com/us/album/basica-2-0/561856703?i=561856921",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/5c/a0/985ca03a-b0be-d17d-100f-361561f31ea5/15878.jpg/300x300bb.jpg",
+    "trackId": "561856921"
+  },
+  {
+    "id": "applemusic-1607452583",
+    "name": "Alarm",
+    "artists": [
+      "PSY"
+    ],
+    "album": "싸집",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/21/27/7f/21277fd5-ae5c-9813-a3c1-3ff25c2cbe6e/mzaf_14169004654957265072.plus.aac.p.m4a",
+    "duration": 74627,
+    "trackUrl": "https://music.apple.com/us/album/alarm/1607452582?i=1607452583",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4e/87/13/4e871373-e7b8-2133-9b3e-db4e95e85412/cover_KAL079001_1.jpg/300x300bb.jpg",
+    "trackId": "1607452583"
+  },
+  {
+    "id": "applemusic-1607452587",
+    "name": "Jump (feat. Lee Ha Neul)",
+    "artists": [
+      "PSY"
+    ],
+    "album": "싸집",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5c/88/8a/5c888a67-a351-6cbf-0b18-29078b540290/mzaf_12178673089392474197.plus.aac.p.m4a",
+    "duration": 184387,
+    "trackUrl": "https://music.apple.com/us/album/jump-feat-lee-ha-neul/1607452582?i=1607452587",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4e/87/13/4e871373-e7b8-2133-9b3e-db4e95e85412/cover_KAL079001_1.jpg/300x300bb.jpg",
+    "trackId": "1607452587"
+  },
+  {
+    "id": "applemusic-1607452592",
+    "name": "We Are the One",
+    "artists": [
+      "PSY"
+    ],
+    "album": "싸집",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/48/d1/66/48d16664-e035-9209-1795-b7093592864f/mzaf_9642256331326691590.plus.aac.p.m4a",
+    "duration": 200347,
+    "trackUrl": "https://music.apple.com/us/album/we-are-the-one/1607452582?i=1607452592",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/4e/87/13/4e871373-e7b8-2133-9b3e-db4e95e85412/cover_KAL079001_1.jpg/300x300bb.jpg",
+    "trackId": "1607452592"
+  },
+  {
+    "id": "applemusic-1678912839",
+    "name": "Hot Baby",
+    "artists": [
+      "Ha Ji-won"
+    ],
+    "album": "Home Run",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/69/59/a2/6959a209-e145-677e-250c-0d7005b2ec77/mzaf_1472590196484499661.plus.aac.p.m4a",
+    "duration": 231467,
+    "trackUrl": "https://music.apple.com/us/album/hot-baby/1678912833?i=1678912839",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/c3/2f/1bc32fcb-98b6-73bf-b4c4-2a3191ea1ec9/8809933197236.jpg/300x300bb.jpg",
+    "trackId": "1678912839"
+  },
+  {
+    "id": "applemusic-1266634241",
+    "name": "My World",
+    "artists": [
+      "PSY"
+    ],
+    "album": "Big Thing, Pt. 3 (Original Sound Track) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/77/c8/58/77c85845-a2c8-be29-82fb-a2ca42ec33b1/mzaf_18350861407804115780.plus.aac.p.m4a",
+    "duration": 197277,
+    "trackUrl": "https://music.apple.com/us/album/my-world/1266633802?i=1266634241",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/bc/9f/88bc9f9d-94d9-b1d3-555c-1c8be84d91a4/8809550030893.jpg/300x300bb.jpg",
+    "trackId": "1266634241"
+  },
+  {
+    "id": "applemusic-1760720819",
+    "name": "Basica 20.0",
+    "artists": [
+      "PSY"
+    ],
+    "album": "PSY 2집",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/6b/8d/266b8d02-d32e-9f80-0046-27477b866371/mzaf_2359150470039305041.plus.aac.p.m4a",
+    "duration": 233064,
+    "trackUrl": "https://music.apple.com/us/album/basica-20-0/1760719824?i=1760720819",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/79/2b/ee/792bee3e-e495-931a-4cb1-4ea9d2e540c3/8806384547146.jpg/300x300bb.jpg",
+    "trackId": "1760720819"
+  },
+  {
+    "id": "applemusic-1848664681",
+    "name": "LEAK (feat. P.S.Y & asaki!)",
+    "artists": [
+      "Diosis"
+    ],
+    "album": "LEAK (feat. P.S.Y & asaki!) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/aa/25/6baa25d9-ec78-b659-9df6-444829400977/mzaf_13554705054224973988.plus.aac.p.m4a",
+    "duration": 137848,
+    "trackUrl": "https://music.apple.com/us/album/leak-feat-p-s-y-asaki/1848664680?i=1848664681",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/e0/68/a6e0682a-6a3b-1ce2-58c2-694b23711949/artwork.jpg/300x300bb.jpg",
+    "trackId": "1848664681"
+  },
+  {
+    "id": "applemusic-1869254301",
+    "name": "CHARDONNAY (feat. P.S.Y)",
+    "artists": [
+      "Diosis"
+    ],
+    "album": "CHARDONNAY (feat. P.S.Y) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/0d/42/320d4269-6951-18ea-60e2-34da43f323bb/mzaf_17822186719563504053.plus.aac.p.m4a",
+    "duration": 142472,
+    "trackUrl": "https://music.apple.com/us/album/chardonnay-feat-p-s-y/1869254300?i=1869254301",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b1/33/bb/b133bb1d-bf94-8855-5e85-f4ddc986ccea/artwork.jpg/300x300bb.jpg",
+    "trackId": "1869254301"
+  }
+]

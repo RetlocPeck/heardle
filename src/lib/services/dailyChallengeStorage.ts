@@ -1,6 +1,6 @@
-import { GameState } from '@/lib/game/gameLogic';
+import { GameState } from '@/lib/game';
 import { getTodayString, isTodayInLocalTimezone, getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants/game';
+import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
 
 export interface DailyChallengeData {
   date: string; // YYYY-MM-DD format

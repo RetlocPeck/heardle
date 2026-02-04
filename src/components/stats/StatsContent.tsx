@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { StatisticsStorage, ArtistStats, GlobalStats } from '@/lib/services/statisticsStorage';
-import type { GameMode } from '@/lib/game/gameLogic';
+import type { GameMode } from '@/lib/game';
+import { TabGroup, MODE_TABS } from '@/components/ui/TabGroup';
 
 interface StatsContentProps {
   artistId?: string; // If provided, show artist-specific stats; if not, show global stats
@@ -54,30 +55,13 @@ export default function StatsContent({ artistId, defaultMode = 'daily' }: StatsC
   return (
     <div className="p-3 sm:p-6">
       {/* Tabs */}
-      <div className="flex justify-center mb-4 sm:mb-6">
-        <button
-          onClick={() => setGameMode('daily')}
-          className={`px-3 sm:px-6 py-2 sm:py-3 rounded-xl sm:rounded-2xl font-semibold text-xs sm:text-base transition-all duration-200 ${
-            gameMode === 'daily'
-              ? 'bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg'
-              : 'bg-white/10 text-white/70 hover:bg-white/20'
-          }`}
-        >
-          <span className="sm:hidden">📅 Daily</span>
-          <span className="hidden sm:inline">📅 Daily Challenge</span>
-        </button>
-        <button
-          onClick={() => setGameMode('practice')}
-          className={`px-3 sm:px-6 py-2 sm:py-3 rounded-xl sm:rounded-2xl font-semibold text-xs sm:text-base transition-all duration-200 ml-2 sm:ml-3 ${
-            gameMode === 'practice'
-              ? 'bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg'
-              : 'bg-white/10 text-white/70 hover:bg-white/20'
-          }`}
-        >
-          <span className="sm:hidden">🎮 Practice</span>
-          <span className="hidden sm:inline">🎮 Practice Mode</span>
-        </button>
-      </div>
+      <TabGroup
+        options={MODE_TABS}
+        value={gameMode}
+        onChange={setGameMode}
+        variant="pink-purple"
+        className="mb-4 sm:mb-6"
+      />
 
       {/* Bar Graph */}
       <div className="mb-6 sm:mb-8">

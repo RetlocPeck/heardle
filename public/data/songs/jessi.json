@@ -1,0 +1,678 @@
+[
+  {
+    "id": "applemusic-1618405859",
+    "name": "ZOOM",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "ZOOM - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/0f/dd/930fdd54-d4ee-2bf4-f616-7b1f5443b013/mzaf_9576337585461648691.plus.aac.p.m4a",
+    "duration": 174840,
+    "trackUrl": "https://music.apple.com/us/album/zoom/1618405856?i=1618405859",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/88/95/84/889584e8-2f0e-fe11-dbaf-f797ddbd38f9/cover_KM0015070_1.jpg/300x300bb.jpg",
+    "trackId": "1618405859"
+  },
+  {
+    "id": "applemusic-1589417425",
+    "name": "Cold Blooded",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Cold Blooded - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/d3/49/53d3491e-8325-01d5-2b85-d9a84c467a8c/mzaf_3965541354653357294.plus.aac.p.m4a",
+    "duration": 150053,
+    "trackUrl": "https://music.apple.com/us/album/cold-blooded/1589417422?i=1589417425",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6c/cb/be/6ccbbe38-3f95-d97b-887f-097f5b3574c1/888272087604_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589417425"
+  },
+  {
+    "id": "applemusic-1596902135",
+    "name": "Shivers (feat. Jessi & SUNMI)",
+    "artists": [
+      "Ed Sheeran"
+    ],
+    "album": "Shivers (feat. Jessi & SUNMI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a1/bd/4b/a1bd4b2f-aaaa-c3f6-973e-7120f3e616f6/mzaf_15007635304510163714.plus.aac.p.m4a",
+    "duration": 207867,
+    "trackUrl": "https://music.apple.com/us/album/shivers-feat-jessi-sunmi/1596902121?i=1596902135",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/de/fe/70/defe7053-4c40-c6ae-7789-bf367045623a/190296330049.jpg/300x300bb.jpg",
+    "trackId": "1596902135"
+  },
+  {
+    "id": "applemusic-1558431719",
+    "name": "What Type of X",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "What Type of X - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/02/eb/8b/02eb8b59-e0fb-a12b-f54d-0c3b3abd11f4/mzaf_5203779722659395727.plus.aac.p.m4a",
+    "duration": 198174,
+    "trackUrl": "https://music.apple.com/us/album/what-type-of-x/1558431718?i=1558431719",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/65/fc/ba/65fcba4c-4ffc-4f4e-e80d-258a61351644/cover.jpg/300x300bb.jpg",
+    "trackId": "1558431719"
+  },
+  {
+    "id": "applemusic-1480816969",
+    "name": "Who Dat B",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Who Dat B - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/a6/80/49a68009-b03d-a058-b966-6bb8aeceb36e/mzaf_7937761139365578425.plus.aac.p.m4a",
+    "duration": 197053,
+    "trackUrl": "https://music.apple.com/us/album/who-dat-b/1480816967?i=1480816969",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/9e/3c/bf9e3cbc-4973-c76e-dfa9-24394b44a263/cover_-_Jessi.jpg/300x300bb.jpg",
+    "trackId": "1480816969"
+  },
+  {
+    "id": "applemusic-1647169150",
+    "name": "Down",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Down - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c6/04/98/c60498ab-1811-a709-74e5-6e78791b5dc6/mzaf_12667389523780168334.plus.aac.p.m4a",
+    "duration": 181174,
+    "trackUrl": "https://music.apple.com/us/album/down/1647169149?i=1647169150",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3c/c7/ad/3cc7ad4b-c7c2-4eda-c843-e66bfe8a8d08/8809691050781_cover.jpg/300x300bb.jpg",
+    "trackId": "1647169150"
+  },
+  {
+    "id": "applemusic-1712456292",
+    "name": "Gum",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Gum - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/d3/7b/acd37b15-63d1-fd41-900f-208c6a6372b2/mzaf_1624557683457459477.plus.aac.p.m4a",
+    "duration": 162693,
+    "trackUrl": "https://music.apple.com/us/album/gum/1712456291?i=1712456292",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/43/c4/65/43c465c5-a319-b43d-5719-91ea685c0c52/cover_KM0018809_1.jpg/300x300bb.jpg",
+    "trackId": "1712456292"
+  },
+  {
+    "id": "applemusic-1485504878",
+    "name": "Drip (feat. Jay Park)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Drip (feat. Jay Park) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/cc/d3/d9ccd3a8-1e0d-4aa3-fa8b-48a8bd669ba2/mzaf_10869930954154769650.plus.aac.p.m4a",
+    "duration": 212840,
+    "trackUrl": "https://music.apple.com/us/album/drip-feat-jay-park/1485504184?i=1485504878",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c1/53/50/c15350f9-da89-83b8-3333-ae679bae4137/JJP-Drip_07c_FINAL-CoverArt.jpg/300x300bb.jpg",
+    "trackId": "1485504878"
+  },
+  {
+    "id": "applemusic-1606343299",
+    "name": "RUN IT (feat. Woo & Jessi)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "RUN IT (feat. Woo & Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/22/b5/aa/22b5aaca-8bf9-78bc-4fb2-7fede240c35b/mzaf_6872527790939743053.plus.aac.p.m4a",
+    "duration": 191188,
+    "trackUrl": "https://music.apple.com/us/album/run-it-feat-woo-jessi/1606343295?i=1606343299",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/49/57/c54957dc-9a76-e1cc-6a4d-8099fc5c5f81/8809534469817_Cover.jpg/300x300bb.jpg",
+    "trackId": "1606343299"
+  },
+  {
+    "id": "applemusic-1525184770",
+    "name": "NUNU NANA",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "NUNA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8d/9b/5c/8d9b5c09-6f0f-b870-ff7b-5494e6dc3a99/mzaf_9129263951624257977.plus.aac.p.m4a",
+    "duration": 195836,
+    "trackUrl": "https://music.apple.com/us/album/nunu-nana/1525184769?i=1525184770",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/51/c8/e251c8ca-f3e8-5430-d09e-cf51db3ef01e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1525184770"
+  },
+  {
+    "id": "applemusic-1525184771",
+    "name": "STAR",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "NUNA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/6d/89/696d8911-dbde-7870-b2ac-7a09cdb67391/mzaf_3764182807238067216.plus.aac.p.m4a",
+    "duration": 181583,
+    "trackUrl": "https://music.apple.com/us/album/star/1525184769?i=1525184771",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/51/c8/e251c8ca-f3e8-5430-d09e-cf51db3ef01e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1525184771"
+  },
+  {
+    "id": "applemusic-1525184772",
+    "name": "Put it on ya (feat. BM of KARD & nafla)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "NUNA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/80/b5/8f80b558-d02b-1f8a-0ba7-da0654b6903d/mzaf_15032760839062935383.plus.aac.p.m4a",
+    "duration": 170131,
+    "trackUrl": "https://music.apple.com/us/album/put-it-on-ya-feat-bm-of-kard-nafla/1525184769?i=1525184772",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/51/c8/e251c8ca-f3e8-5430-d09e-cf51db3ef01e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1525184772"
+  },
+  {
+    "id": "applemusic-1525184773",
+    "name": "Numb",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "NUNA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/9b/05/289b05a9-9996-e3e4-2701-08c2febccbb3/mzaf_7864625799830022395.plus.aac.p.m4a",
+    "duration": 209311,
+    "trackUrl": "https://music.apple.com/us/album/numb/1525184769?i=1525184773",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/51/c8/e251c8ca-f3e8-5430-d09e-cf51db3ef01e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1525184773"
+  },
+  {
+    "id": "applemusic-1769377169",
+    "name": "Gucci",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "un2verse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/d3/4c/d2d34c9a-b47a-6e49-f53e-290550135a07/mzaf_547860065902942965.plus.aac.p.m4a",
+    "duration": 175499,
+    "trackUrl": "https://music.apple.com/us/album/gucci/1769377168?i=1769377169",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/d8/26/20d826ae-3ad9-08d5-0844-636957be253e/8809691050774_cover.jpg/300x300bb.jpg",
+    "trackId": "1769377169"
+  },
+  {
+    "id": "applemusic-1769377171",
+    "name": "gait (feat. Year of the OX)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "un2verse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/0a/0d/270a0d49-8351-9f43-ca0f-d44c8f53e74a/mzaf_17159729651032306714.plus.aac.p.m4a",
+    "duration": 217353,
+    "trackUrl": "https://music.apple.com/us/album/gait-feat-year-of-the-ox/1769377168?i=1769377171",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/d8/26/20d826ae-3ad9-08d5-0844-636957be253e/8809691050774_cover.jpg/300x300bb.jpg",
+    "trackId": "1769377171"
+  },
+  {
+    "id": "applemusic-1769377172",
+    "name": "Sprit Animal",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "un2verse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/07/c1/6d07c14e-d623-a339-9dc5-5df0d48d08fb/mzaf_3160364712319056295.plus.aac.p.m4a",
+    "duration": 180875,
+    "trackUrl": "https://music.apple.com/us/album/sprit-animal/1769377168?i=1769377172",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/d8/26/20d826ae-3ad9-08d5-0844-636957be253e/8809691050774_cover.jpg/300x300bb.jpg",
+    "trackId": "1769377172"
+  },
+  {
+    "id": "applemusic-1769377173",
+    "name": "Arrived",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "un2verse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/7d/e8/517de841-8f8c-aba1-539f-c520ae671174/mzaf_3396595149544937202.plus.aac.p.m4a",
+    "duration": 244511,
+    "trackUrl": "https://music.apple.com/us/album/arrived/1769377168?i=1769377173",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/20/d8/26/20d826ae-3ad9-08d5-0844-636957be253e/8809691050774_cover.jpg/300x300bb.jpg",
+    "trackId": "1769377173"
+  },
+  {
+    "id": "applemusic-1639319735",
+    "name": "K.B.B",
+    "artists": [
+      "Jessi, Microdot, Dumbfoundead & Lyricks"
+    ],
+    "album": "K.B.B - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6f/64/59/6f645953-078f-f405-0013-ea3676e1446f/mzaf_8279997125349279335.plus.aac.p.m4a",
+    "duration": 225556,
+    "trackUrl": "https://music.apple.com/us/album/k-b-b/1639319729?i=1639319735",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/45/b2/9a/45b29a9e-b055-bd8b-0081-7d3ca7b43cfa/8809534461583_Cover.jpg/300x300bb.jpg",
+    "trackId": "1639319735"
+  },
+  {
+    "id": "applemusic-1460283391",
+    "name": "Drippin (feat. Jessi)",
+    "artists": [
+      "Ted Park"
+    ],
+    "album": "Drippin (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ad/f3/b7/adf3b7ab-2498-41aa-3f30-ac5891f01126/mzaf_18038645660185137536.plus.aac.p.m4a",
+    "duration": 184366,
+    "trackUrl": "https://music.apple.com/us/album/drippin-feat-jessi/1460283390?i=1460283391",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ee/bb/67/eebb6781-f429-7f14-359f-674d0070ea98/10926.jpg/300x300bb.jpg",
+    "trackId": "1460283391"
+  },
+  {
+    "id": "applemusic-1626461653",
+    "name": "My Type (From UNPRETTY RAPSTAR)",
+    "artists": [
+      "Jessi, CHEETAH & KangNam"
+    ],
+    "album": "My Type (From UNPRETTY RAPSTAR) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/7a/63/74/7a6374ad-b787-de2a-951f-8c807dc6ecf9/mzaf_14790874997146984523.plus.aac.p.m4a",
+    "duration": 179807,
+    "trackUrl": "https://music.apple.com/us/album/my-type-from-unpretty-rapstar/1626461465?i=1626461653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6a/bd/c5/6abdc550-dfc9-fa65-f129-94e3edb09363/8809435813764_Cover.jpg/300x300bb.jpg",
+    "trackId": "1626461653"
+  },
+  {
+    "id": "applemusic-1455306428",
+    "name": "Excessive Love",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Excessive Love - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/6c/e1/fd6ce1ea-3001-cfe5-e2c9-f76161e7b612/mzaf_9428137189829577089.plus.aac.p.m4a",
+    "duration": 237267,
+    "trackUrl": "https://music.apple.com/us/album/excessive-love/1455306427?i=1455306428",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/55/2e/28552e53-3425-0dcb-6c56-d95fe0d05c87/551891.jpg/300x300bb.jpg",
+    "trackId": "1455306428"
+  },
+  {
+    "id": "applemusic-1759302131",
+    "name": "Xtra McNasty (feat. Jessi, Awich, MILLI, Ramengvrl, Lil Cherry, MIRANI, Maliibu Miitch & CAMO)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "Xtra McNasty (feat. Jessi, Awich, MILLI, Ramengvrl, Lil Cherry, MIRANI, Maliibu Miitch & CAMO) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/bb/14/3dbb14d3-0d87-0a01-cda8-d84c023a05b9/mzaf_282667517398846802.plus.aac.p.m4a",
+    "duration": 367539,
+    "trackUrl": "https://music.apple.com/us/album/xtra-mcnasty-feat-jessi-awich-milli-ramengvrl-lil-cherry/1759302130?i=1759302131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/21/46/a721468f-5351-d865-3f15-744ce5b565ab/cover_KM0020191_1.jpg/300x300bb.jpg",
+    "trackId": "1759302131"
+  },
+  {
+    "id": "applemusic-1819793163",
+    "name": "Newsflash",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Newsflash - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/49/7f/d0497f5a-5953-ddc4-1aa4-ddf3af893de5/mzaf_10407380694949088963.plus.aac.p.m4a",
+    "duration": 177400,
+    "trackUrl": "https://music.apple.com/us/album/newsflash/1819793158?i=1819793163",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/60/32/046032c8-cd14-a830-529c-75a8b7ea2dd7/4099964184945.jpg/300x300bb.jpg",
+    "trackId": "1819793163"
+  },
+  {
+    "id": "applemusic-1850512051",
+    "name": "Girls Like Me",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "P.M.S. - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/1f/f1/dd1ff166-0a5e-cbbf-0d5f-f8e9c804032b/mzaf_2759707508518986907.plus.aac.p.m4a",
+    "duration": 180000,
+    "trackUrl": "https://music.apple.com/us/album/girls-like-me/1850512050?i=1850512051",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/3a/db/aa3adb17-4176-91ff-1785-1611db2b926e/4099964209693.jpg/300x300bb.jpg",
+    "trackId": "1850512051"
+  },
+  {
+    "id": "applemusic-1850512053",
+    "name": "Brand New Boots",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "P.M.S. - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/bf/c1/0ebfc160-6dd0-492c-0b41-4cbd6bf19767/mzaf_14715919217521302961.plus.aac.p.m4a",
+    "duration": 160000,
+    "trackUrl": "https://music.apple.com/us/album/brand-new-boots/1850512050?i=1850512053",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/3a/db/aa3adb17-4176-91ff-1785-1611db2b926e/4099964209693.jpg/300x300bb.jpg",
+    "trackId": "1850512053"
+  },
+  {
+    "id": "applemusic-1850512057",
+    "name": "HELL",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "P.M.S. - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/2d/6c/4f2d6c3f-9432-c425-54a1-331b1eb0080d/mzaf_11799089862198968144.plus.aac.p.m4a",
+    "duration": 193000,
+    "trackUrl": "https://music.apple.com/us/album/hell/1850512050?i=1850512057",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/3a/db/aa3adb17-4176-91ff-1785-1611db2b926e/4099964209693.jpg/300x300bb.jpg",
+    "trackId": "1850512057"
+  },
+  {
+    "id": "applemusic-1850512061",
+    "name": "Marry Me",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "P.M.S. - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/64/6a/f5646a4f-395a-8855-0b4c-9876dcdbb916/mzaf_397526051363785541.plus.aac.p.m4a",
+    "duration": 160000,
+    "trackUrl": "https://music.apple.com/us/album/marry-me/1850512050?i=1850512061",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/aa/3a/db/aa3adb17-4176-91ff-1785-1611db2b926e/4099964209693.jpg/300x300bb.jpg",
+    "trackId": "1850512061"
+  },
+  {
+    "id": "applemusic-1502958580",
+    "name": "Digital Lover (Jessi Version)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Digital Lover (Jessi Version) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/b1/e2/c1b1e2da-18ec-6bf9-7a94-da9e6e965b01/mzaf_14252656994079844468.plus.aac.p.m4a",
+    "duration": 204907,
+    "trackUrl": "https://music.apple.com/us/album/digital-lover-jessi-version/1502958579?i=1502958580",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a0/6a/b3/a06ab35f-f424-321a-8e33-eca49ae5adc6/3000_3000_starbomb.jpg/300x300bb.jpg",
+    "trackId": "1502958580"
+  },
+  {
+    "id": "applemusic-1765602049",
+    "name": "Nutty Nutty (feat. Jessi)",
+    "artists": [
+      "BAEKHO"
+    ],
+    "album": "Nutty Nutty (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/a6/04/f5a604df-eb02-2579-dd9a-f116464d3563/mzaf_14935318969961619874.plus.aac.p.m4a",
+    "duration": 129267,
+    "trackUrl": "https://music.apple.com/us/album/nutty-nutty-feat-jessi/1765601808?i=1765602049",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/c3/4f/e2c34f92-9dad-1360-220b-f263c1905528/198704108235_Cover.jpg/300x300bb.jpg",
+    "trackId": "1765602049"
+  },
+  {
+    "id": "applemusic-1705656411",
+    "name": "RSVP (feat. Jessi)",
+    "artists": [
+      "Koala"
+    ],
+    "album": "RSVP (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/99/f1/6a/99f16a29-dabd-b600-4975-014dbe2c943b/mzaf_3625241862552505128.plus.aac.p.m4a",
+    "duration": 177627,
+    "trackUrl": "https://music.apple.com/us/album/rsvp-feat-jessi/1705656409?i=1705656411",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ab/63/f9/ab63f962-dbff-9142-f43c-414e411ecb7c/8720996297421.png/300x300bb.jpg",
+    "trackId": "1705656411"
+  },
+  {
+    "id": "applemusic-1367261308",
+    "name": "Wet (feat. Jessi)",
+    "artists": [
+      "Flowsik"
+    ],
+    "album": "Wet (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/37/0a/4b/370a4b6b-b96b-6b12-26d4-047430729394/mzaf_853111613828628347.plus.aac.p.m4a",
+    "duration": 208741,
+    "trackUrl": "https://music.apple.com/us/album/wet-feat-jessi/1367261305?i=1367261308",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/60/4e/e8/604ee864-81ee-05b3-ad91-91221d9062e2/192562388945.jpg/300x300bb.jpg",
+    "trackId": "1367261308"
+  },
+  {
+    "id": "applemusic-1145589521",
+    "name": "My Romeo",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Cinderella & Four Knights, Pt. 2 (Original Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/14/43/fe/1443fe7d-e574-c512-e6e3-e4df1947d8bd/mzaf_10213440441749849761.plus.aac.p.m4a",
+    "duration": 241672,
+    "trackUrl": "https://music.apple.com/us/album/my-romeo/1145589309?i=1145589521",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a6/72/09/a67209d1-a275-a86c-952c-b6b33d57ffed/190295913496.jpg/300x300bb.jpg",
+    "trackId": "1145589521"
+  },
+  {
+    "id": "applemusic-1499831576",
+    "name": "Life Is Beautiful",
+    "artists": [
+      "VAVA, Yitai Wang, Dok2 & Jessi"
+    ],
+    "album": "Life Is Beautiful - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/98/ca/a798ca43-0179-f1be-fa0a-472a243892dd/mzaf_5953353189423726011.plus.aac.p.m4a",
+    "duration": 286957,
+    "trackUrl": "https://music.apple.com/us/album/life-is-beautiful/1499831574?i=1499831576",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/de/4a/85de4a33-fe3f-0827-ab84-5ddd2b92b91b/190295256357.jpg/300x300bb.jpg",
+    "trackId": "1499831576"
+  },
+  {
+    "id": "applemusic-1714886524",
+    "name": "We Are Young (feat. Jessi)",
+    "artists": [
+      "g2"
+    ],
+    "album": "We Are Young (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/65/82/15/65821503-f233-809c-be16-b8613f2c459c/mzaf_17513861766869642219.plus.aac.p.m4a",
+    "duration": 222457,
+    "trackUrl": "https://music.apple.com/us/album/we-are-young-feat-jessi/1714886523?i=1714886524",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/24/f8/9624f8c5-e871-0454-2660-aafc1e4bb7bb/8809534460159.jpg/300x300bb.jpg",
+    "trackId": "1714886524"
+  },
+  {
+    "id": "applemusic-767535618",
+    "name": "W.T.H",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d5/78/35/d57835e1-5912-cfbf-f4a1-396d5a56c09b/mzaf_16248036210873536516.plus.aac.p.m4a",
+    "duration": 89391,
+    "trackUrl": "https://music.apple.com/us/album/w-t-h/767535617?i=767535618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535618"
+  },
+  {
+    "id": "applemusic-767535619",
+    "name": "Missin' U (Korean Version)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b3/6e/6a/b36e6a40-5b0f-4f6e-882e-4639774896e9/mzaf_6671097060965390821.plus.aac.p.m4a",
+    "duration": 232229,
+    "trackUrl": "https://music.apple.com/us/album/missin-u-korean-version/767535617?i=767535619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535619"
+  },
+  {
+    "id": "applemusic-767535620",
+    "name": "Get Up",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/ba/10/02ba1035-90e2-567f-4faf-2fbe09ddf351/mzaf_11438479635456942673.plus.aac.p.m4a",
+    "duration": 221283,
+    "trackUrl": "https://music.apple.com/us/album/get-up/767535617?i=767535620",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535620"
+  },
+  {
+    "id": "applemusic-767535621",
+    "name": "1 - 2 Step (Korean Version)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/6b/21/376b21de-0c77-2e1c-52c4-ee9a5bae6763/mzaf_1682510390555711582.plus.aac.p.m4a",
+    "duration": 230348,
+    "trackUrl": "https://music.apple.com/us/album/1-2-step-korean-version/767535617?i=767535621",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535621"
+  },
+  {
+    "id": "applemusic-767535622",
+    "name": "Give It All",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/8d/d4/d08dd46c-1eb0-b275-0541-5305b3b8717b/mzaf_9856749776176657789.plus.aac.p.m4a",
+    "duration": 224131,
+    "trackUrl": "https://music.apple.com/us/album/give-it-all/767535617?i=767535622",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535622"
+  },
+  {
+    "id": "applemusic-767535624",
+    "name": "All I Need... (1 - 2 Step) [English Version]",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/12/1d/bf/121dbf9f-957d-fc58-6251-ef8c705fb847/mzaf_11986305511333063179.plus.aac.p.m4a",
+    "duration": 240431,
+    "trackUrl": "https://music.apple.com/us/album/all-i-need-1-2-step-english-version/767535617?i=767535624",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535624"
+  },
+  {
+    "id": "applemusic-767535625",
+    "name": "The Christmas Song",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/d5/62/05d562ad-521c-c14c-55f5-c973e4de1fb0/mzaf_9688423228437987972.plus.aac.p.m4a",
+    "duration": 256522,
+    "trackUrl": "https://music.apple.com/us/album/the-christmas-song/767535617?i=767535625",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ae/41/be/ae41be17-57db-0e31-4e0d-f20039b40d56/asset.jpg/300x300bb.jpg",
+    "trackId": "767535625"
+  },
+  {
+    "id": "applemusic-1739748643",
+    "name": "No Lowkey",
+    "artists": [
+      "YUNGIN, Jessi & CAMO"
+    ],
+    "album": "No Lowkey - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/df/e7/0ddfe738-f4df-fdb0-86be-60a428269521/mzaf_14876271780936831468.plus.aac.p.m4a",
+    "duration": 139200,
+    "trackUrl": "https://music.apple.com/us/album/no-lowkey/1739748639?i=1739748643",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/7b/e4/607be417-4b64-f4c7-d56d-8c22ec5a886d/5021732276803.jpg/300x300bb.jpg",
+    "trackId": "1739748643"
+  },
+  {
+    "id": "applemusic-1625637841",
+    "name": "Gosh",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Woori the Virgin, Pt. 3 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/25/e5/1b/25e51b3a-25a2-207a-7fed-8898e12ed647/mzaf_8128777927353498641.plus.aac.p.m4a",
+    "duration": 184013,
+    "trackUrl": "https://music.apple.com/us/album/gosh/1625637840?i=1625637841",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cf/96/c2/cf96c274-cfc4-5095-25b1-2f19fd1178ef/1._OST_P3_3000.jpg/300x300bb.jpg",
+    "trackId": "1625637841"
+  },
+  {
+    "id": "applemusic-1112117219",
+    "name": "Never Enough (feat. Jessi)",
+    "artists": [
+      "ILLSON"
+    ],
+    "album": "Never Enough (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/d7/43/57d7431a-7780-8bee-f9fe-59ff69348fb5/mzaf_6180874012448363217.plus.aac.p.m4a",
+    "duration": 240773,
+    "trackUrl": "https://music.apple.com/us/album/never-enough-feat-jessi/1112116736?i=1112117219",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/c1/db/bc/c1dbbc36-75d5-d499-6097-0b9593543381/1-1.png/300x300bb.jpg",
+    "trackId": "1112117219"
+  },
+  {
+    "id": "applemusic-1365105729",
+    "name": "All I Need (feat. Jessi)",
+    "artists": [
+      "Flowsik"
+    ],
+    "album": "All I Need (feat. Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2c/9d/10/2c9d1019-05aa-681e-6081-7a06ec56174f/mzaf_446099839320522612.plus.aac.p.m4a",
+    "duration": 216199,
+    "trackUrl": "https://music.apple.com/us/album/all-i-need-feat-jessi/1365105722?i=1365105729",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/1b/f8/b9/1bf8b96e-a9f2-7493-ccd4-002334332444/192562374405.jpg/300x300bb.jpg",
+    "trackId": "1365105729"
+  },
+  {
+    "id": "applemusic-1770252438",
+    "name": "Boomerang (The Judge from Hell : Original Television Soundtrack)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Boomerang (The Judge from Hell : Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/52/cf/c352cff7-5a59-7dd2-3d77-709f8dcfa52a/mzaf_15756100694429270052.plus.aac.p.m4a",
+    "duration": 140373,
+    "trackUrl": "https://music.apple.com/us/album/boomerang-the-judge-from-hell-original-television/1770252437?i=1770252438",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/e7/09/9ee709ff-d7b7-87cc-edc2-ba4cefbbcd9e/cover_KM0020394_1.jpg/300x300bb.jpg",
+    "trackId": "1770252438"
+  },
+  {
+    "id": "applemusic-1567888946",
+    "name": "1-2 Step (Korean Version)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Get Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/40/6a/0a/406a0a18-5459-b9b5-b2da-e14121c9762a/mzaf_10747049304755159394.plus.aac.p.m4a",
+    "duration": 230351,
+    "trackUrl": "https://music.apple.com/us/album/1-2-step-korean-version/1567888856?i=1567888946",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/93/ac/bf/93acbf81-ea1f-119f-2c67-5a22c64ddaf1/8809795743404.jpg/300x300bb.jpg",
+    "trackId": "1567888946"
+  },
+  {
+    "id": "applemusic-767367032",
+    "name": "I'll Be There",
+    "artists": [
+      "더 넛츠 & 세이 & Jessi"
+    ],
+    "album": "White Romance, Vol. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e9/15/68/e9156800-b39e-1332-5859-57246e1a2875/mzaf_10465969812908616414.plus.aac.p.m4a",
+    "duration": 227645,
+    "trackUrl": "https://music.apple.com/us/album/ill-be-there/767367027?i=767367032",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/99/3c/f7/993cf7dd-60b3-78c5-ddf0-63f71792eeeb/asset.jpg/300x300bb.jpg",
+    "trackId": "767367032"
+  },
+  {
+    "id": "applemusic-767367033",
+    "name": "Christmas Song",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "White Romance, Vol. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5f/2d/7a/5f2d7a1d-9f2d-c612-453f-668931076b10/mzaf_3165115191792551299.plus.aac.p.m4a",
+    "duration": 250450,
+    "trackUrl": "https://music.apple.com/us/album/christmas-song/767367027?i=767367033",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/99/3c/f7/993cf7dd-60b3-78c5-ddf0-63f71792eeeb/asset.jpg/300x300bb.jpg",
+    "trackId": "767367033"
+  },
+  {
+    "id": "applemusic-1445027448",
+    "name": "Momentum",
+    "artists": [
+      "씨에(Xie)"
+    ],
+    "album": "믹스앤더시티, Pt. 3 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/15/db/a5/15dba584-adfe-29c6-009a-db28897282a8/mzaf_8415979611460408397.plus.aac.p.m4a",
+    "duration": 398095,
+    "trackUrl": "https://music.apple.com/kr/album/momentum/1445027349?i=1445027448",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/44/b8/9d/44b89d10-fba9-793c-b9b3-e56ed3f3c626/00602567336204.rgb.jpg/300x300bb.jpg",
+    "trackId": "1445027448"
+  },
+  {
+    "id": "applemusic-1444889992",
+    "name": "Just One More (Produced by CashCash)",
+    "artists": [
+      "제시, DJ H.ONE, 효민, 트리탑스, 지민 & 씨에(Xie)"
+    ],
+    "album": "믹스앤더시티, Pt. 4 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d5/6c/dc/d56cdc38-a81d-3321-bad8-cd831978a2be/mzaf_5740025427011462795.plus.aac.p.m4a",
+    "duration": 218333,
+    "trackUrl": "https://music.apple.com/kr/album/just-one-more-produced-by-cashcash/1444889985?i=1444889992",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4f/be/59/4fbe5956-939c-0b10-7562-a750c8074aef/00602567360902.rgb.jpg/300x300bb.jpg",
+    "trackId": "1444889992"
+  },
+  {
+    "id": "applemusic-1444890009",
+    "name": "Till We die",
+    "artists": [
+      "김창열"
+    ],
+    "album": "믹스앤더시티, Pt. 4 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/0a/22/a0/0a22a052-90d2-c6ae-6b81-e43da517257e/mzaf_6161357166863159945.plus.aac.p.m4a",
+    "duration": 255000,
+    "trackUrl": "https://music.apple.com/kr/album/till-we-die/1444889985?i=1444890009",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4f/be/59/4fbe5956-939c-0b10-7562-a750c8074aef/00602567360902.rgb.jpg/300x300bb.jpg",
+    "trackId": "1444890009"
+  }
+]

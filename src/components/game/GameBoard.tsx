@@ -1,8 +1,8 @@
 'use client';
 
-import { GameState } from '@/lib/game/gameLogic';
+import { GameState } from '@/lib/game';
 import { normalizedStringMatch } from '@/lib/utils/stringUtils';
-import { SKIP_MARKER } from '@/lib/constants/game';
+import { SKIP_MARKER } from '@/lib/constants';
 
 interface GameBoardProps {
   gameState: GameState;

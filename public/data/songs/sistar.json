@@ -1,0 +1,717 @@
+[
+  {
+    "id": "applemusic-1126188569",
+    "name": "I Like That",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Insane Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/f4/b1/a7f4b1a4-bc54-0f79-ddcc-63ee376c188b/mzaf_17443295026539677145.plus.aac.p.m4a",
+    "duration": 221371,
+    "trackUrl": "https://music.apple.com/us/album/i-like-that/1126188307?i=1126188569",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/3e/43/e0/3e43e053-fa41-4ee1-a2fa-c13569f24f27/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1126188569"
+  },
+  {
+    "id": "applemusic-1126188570",
+    "name": "Come and Get Me",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Insane Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/03/44/76034463-60d9-f0b4-9a71-3c776a2dfe6f/mzaf_11751438438160731425.plus.aac.p.m4a",
+    "duration": 186361,
+    "trackUrl": "https://music.apple.com/us/album/come-and-get-me/1126188307?i=1126188570",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/3e/43/e0/3e43e053-fa41-4ee1-a2fa-c13569f24f27/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1126188570"
+  },
+  {
+    "id": "applemusic-1126188571",
+    "name": "Say! Yes",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Insane Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/83/b2/42/83b24287-9d3f-17e7-e20f-ef80d123641d/mzaf_17950736807331140963.plus.aac.p.m4a",
+    "duration": 188836,
+    "trackUrl": "https://music.apple.com/us/album/say-yes/1126188307?i=1126188571",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/3e/43/e0/3e43e053-fa41-4ee1-a2fa-c13569f24f27/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1126188571"
+  },
+  {
+    "id": "applemusic-1126188572",
+    "name": "Yeah Yeah",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Insane Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/75/a8/f3/75a8f335-f78a-f5a1-e1c4-102e0bffb2ac/mzaf_9672058005851851555.plus.aac.p.m4a",
+    "duration": 229716,
+    "trackUrl": "https://music.apple.com/us/album/yeah-yeah/1126188307?i=1126188572",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/3e/43/e0/3e43e053-fa41-4ee1-a2fa-c13569f24f27/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1126188572"
+  },
+  {
+    "id": "applemusic-1126188573",
+    "name": "Stay I Love You",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Insane Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/21/55/f6/2155f672-7afd-b6ce-6284-e01c7141e042/mzaf_13324988236508313270.plus.aac.p.m4a",
+    "duration": 189548,
+    "trackUrl": "https://music.apple.com/us/album/stay-i-love-you/1126188307?i=1126188573",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/3e/43/e0/3e43e053-fa41-4ee1-a2fa-c13569f24f27/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1126188573"
+  },
+  {
+    "id": "applemusic-1126188574",
+    "name": "My Sad Lullaby",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Insane Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bf/d3/d7/bfd3d79f-c381-9e95-a189-1c88e3c7d4be/mzaf_7769879277854140637.plus.aac.p.m4a",
+    "duration": 205444,
+    "trackUrl": "https://music.apple.com/us/album/my-sad-lullaby/1126188307?i=1126188574",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/3e/43/e0/3e43e053-fa41-4ee1-a2fa-c13569f24f27/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1126188574"
+  },
+  {
+    "id": "applemusic-660567992",
+    "name": "Give It To Me",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/27/c0/71/27c071e8-f5e9-77ef-15f3-4f6402b65572/mzaf_5247560376279789818.plus.aac.p.m4a",
+    "duration": 201280,
+    "trackUrl": "https://music.apple.com/us/album/give-it-to-me/660567889?i=660567992",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567992"
+  },
+  {
+    "id": "applemusic-660567993",
+    "name": "The Way You Make Me Melt (feat. Geeks)",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/98/35/a998351b-b23c-3a14-60d1-f6031872f813/mzaf_14215293495206504087.plus.aac.p.m4a",
+    "duration": 215653,
+    "trackUrl": "https://music.apple.com/us/album/the-way-you-make-me-melt-feat-geeks/660567889?i=660567993",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567993"
+  },
+  {
+    "id": "applemusic-660567994",
+    "name": "Bad Boy",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4b/f4/87/4bf48790-1e68-adc0-6573-376e5a9233d7/mzaf_11528025915129379674.plus.aac.p.m4a",
+    "duration": 211453,
+    "trackUrl": "https://music.apple.com/us/album/bad-boy/660567889?i=660567994",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567994"
+  },
+  {
+    "id": "applemusic-660567995",
+    "name": "Summer Time",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/8f/41/418f41f8-dd44-eccd-cb6d-f59229c637b9/mzaf_16406130972817783970.plus.aac.p.m4a",
+    "duration": 213080,
+    "trackUrl": "https://music.apple.com/us/album/summer-time/660567889?i=660567995",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567995"
+  },
+  {
+    "id": "applemusic-660567996",
+    "name": "A Week",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/45/84/cf/4584cf58-6eec-13b7-8e00-dd2e254d76dd/mzaf_12786354460587610137.plus.aac.p.m4a",
+    "duration": 216227,
+    "trackUrl": "https://music.apple.com/us/album/a-week/660567889?i=660567996",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567996"
+  },
+  {
+    "id": "applemusic-660567997",
+    "name": "Crying",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4e/dc/88/4edc887d-60f2-681d-6a58-99e59d985a41/mzaf_1070749399173323062.plus.aac.p.m4a",
+    "duration": 203120,
+    "trackUrl": "https://music.apple.com/us/album/crying/660567889?i=660567997",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567997"
+  },
+  {
+    "id": "applemusic-660567998",
+    "name": "Hey You",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/e0/c5/ebe0c5ae-fb96-ecec-7f29-a49413c4e4a7/mzaf_5365371755094641248.plus.aac.p.m4a",
+    "duration": 189680,
+    "trackUrl": "https://music.apple.com/us/album/hey-you/660567889?i=660567998",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567998"
+  },
+  {
+    "id": "applemusic-660567999",
+    "name": "If U Want",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/82/46/93824646-5b67-8ac6-441d-98e1c8d77eef/mzaf_6746038947016890835.plus.aac.p.m4a",
+    "duration": 215493,
+    "trackUrl": "https://music.apple.com/us/album/if-u-want/660567889?i=660567999",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660567999"
+  },
+  {
+    "id": "applemusic-660568000",
+    "name": "Up and Down",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Give It To Me",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4a/05/20/4a052060-faa9-94f1-a4de-740e67f89883/mzaf_16530434188853320289.plus.aac.p.m4a",
+    "duration": 202427,
+    "trackUrl": "https://music.apple.com/us/album/up-and-down/660567889?i=660568000",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/41/1a/d3/411ad3d7-516b-1047-59ca-d267025e89b3/KM0002128-_Sistar_2_-0611.jpg/300x300bb.jpg",
+    "trackId": "660568000"
+  },
+  {
+    "id": "applemusic-1242784570",
+    "name": "Lonely",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Lonely - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/33/7c/72/337c72c9-2f8b-289d-72d4-07927244a6a7/mzaf_13815619405004259981.plus.aac.p.m4a",
+    "duration": 207932,
+    "trackUrl": "https://music.apple.com/us/album/lonely/1242784561?i=1242784570",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4b/1e/a8/4b1ea867-5c4e-1a54-5e8a-34a259c7a287/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1242784570"
+  },
+  {
+    "id": "applemusic-1242785471",
+    "name": "For You",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Lonely - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/02/44/af0244ae-1a2c-04f7-9c87-4bb0b05a7822/mzaf_17174952584323705245.plus.aac.p.m4a",
+    "duration": 232826,
+    "trackUrl": "https://music.apple.com/us/album/for-you/1242784561?i=1242785471",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4b/1e/a8/4b1ea867-5c4e-1a54-5e8a-34a259c7a287/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1242785471"
+  },
+  {
+    "id": "applemusic-518564085",
+    "name": "Come Closer",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Alone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6c/16/ce/6c16cea6-cd9c-eefe-f90b-a2e50a629f31/mzaf_12445148592486491831.plus.aac.p.m4a",
+    "duration": 58177,
+    "trackUrl": "https://music.apple.com/us/album/come-closer/518563970?i=518564085",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9e/48/36/9e4836e3-3a91-fcdb-a2a5-bf2b4d6526ad/KM0001479-_Sistar_ALONE_-0412.jpg/300x300bb.jpg",
+    "trackId": "518564085"
+  },
+  {
+    "id": "applemusic-518564086",
+    "name": "Alone",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Alone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/0a/67/ee0a67b4-9a31-8ae0-84fb-05ef4e29f61b/mzaf_7653841784159153888.plus.aac.p.m4a",
+    "duration": 206281,
+    "trackUrl": "https://music.apple.com/us/album/alone/518563970?i=518564086",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9e/48/36/9e4836e3-3a91-fcdb-a2a5-bf2b4d6526ad/KM0001479-_Sistar_ALONE_-0412.jpg/300x300bb.jpg",
+    "trackId": "518564086"
+  },
+  {
+    "id": "applemusic-518564088",
+    "name": "No Mercy",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Alone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3b/23/18/3b2318cf-d99d-7c6d-dd95-b0cda5a10eee/mzaf_82581041036177479.plus.aac.p.m4a",
+    "duration": 198977,
+    "trackUrl": "https://music.apple.com/us/album/no-mercy/518563970?i=518564088",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9e/48/36/9e4836e3-3a91-fcdb-a2a5-bf2b4d6526ad/KM0001479-_Sistar_ALONE_-0412.jpg/300x300bb.jpg",
+    "trackId": "518564088"
+  },
+  {
+    "id": "applemusic-518564109",
+    "name": "Lead Me",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Alone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/39/02/9e/39029e4d-df0d-e9b3-43b3-f564a07e6600/mzaf_1656895816645457633.plus.aac.p.m4a",
+    "duration": 221338,
+    "trackUrl": "https://music.apple.com/us/album/lead-me/518563970?i=518564109",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9e/48/36/9e4836e3-3a91-fcdb-a2a5-bf2b4d6526ad/KM0001479-_Sistar_ALONE_-0412.jpg/300x300bb.jpg",
+    "trackId": "518564109"
+  },
+  {
+    "id": "applemusic-518564152",
+    "name": "Girls On Top",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Alone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ce/65/41/ce65416c-51d6-1ccb-10fa-d77ce101308b/mzaf_11278264917487878591.plus.aac.p.m4a",
+    "duration": 215826,
+    "trackUrl": "https://music.apple.com/us/album/girls-on-top/518563970?i=518564152",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9e/48/36/9e4836e3-3a91-fcdb-a2a5-bf2b4d6526ad/KM0001479-_Sistar_ALONE_-0412.jpg/300x300bb.jpg",
+    "trackId": "518564152"
+  },
+  {
+    "id": "applemusic-518564157",
+    "name": "I Choose to Love You",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Alone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/ae/65/87ae65b0-ec33-a33f-8b36-f8bea7e2dec4/mzaf_142462931016363237.plus.aac.p.m4a",
+    "duration": 210445,
+    "trackUrl": "https://music.apple.com/us/album/i-choose-to-love-you/518563970?i=518564157",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/9e/48/36/9e4836e3-3a91-fcdb-a2a5-bf2b4d6526ad/KM0001479-_Sistar_ALONE_-0412.jpg/300x300bb.jpg",
+    "trackId": "518564157"
+  },
+  {
+    "id": "applemusic-901251397",
+    "name": "Wow",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "TOUCH N MOVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/9a/3c/c89a3c83-5c04-b459-85a6-ad60fab3a618/mzaf_884099055078555580.plus.aac.p.m4a",
+    "duration": 79998,
+    "trackUrl": "https://music.apple.com/us/album/wow/901251388?i=901251397",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/17/4a/8c174ac5-6f41-0dc6-2c46-8064fca110b5/KM0002837-_-0721.jpg/300x300bb.jpg",
+    "trackId": "901251397"
+  },
+  {
+    "id": "applemusic-901251398",
+    "name": "Touch My Body",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "TOUCH N MOVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/c2/ad/5ec2ad2e-f79e-21dd-3fd8-283029eb4510/mzaf_5132608224337216623.plus.aac.p.m4a",
+    "duration": 206500,
+    "trackUrl": "https://music.apple.com/us/album/touch-my-body/901251388?i=901251398",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/17/4a/8c174ac5-6f41-0dc6-2c46-8064fca110b5/KM0002837-_-0721.jpg/300x300bb.jpg",
+    "trackId": "901251398"
+  },
+  {
+    "id": "applemusic-901251400",
+    "name": "But I Love U",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "TOUCH N MOVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/b7/dc/22b7dcdd-a9f1-50bb-8d57-7b78eb531c96/mzaf_4941154127402182538.plus.aac.p.m4a",
+    "duration": 209990,
+    "trackUrl": "https://music.apple.com/us/album/but-i-love-u/901251388?i=901251400",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/17/4a/8c174ac5-6f41-0dc6-2c46-8064fca110b5/KM0002837-_-0721.jpg/300x300bb.jpg",
+    "trackId": "901251400"
+  },
+  {
+    "id": "applemusic-901251401",
+    "name": "Ok Go!",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "TOUCH N MOVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/bf/94/dfbf94d1-1219-ed47-22f0-cdd2b900f66c/mzaf_17583833823781030024.plus.aac.p.m4a",
+    "duration": 193853,
+    "trackUrl": "https://music.apple.com/us/album/ok-go/901251388?i=901251401",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/17/4a/8c174ac5-6f41-0dc6-2c46-8064fca110b5/KM0002837-_-0721.jpg/300x300bb.jpg",
+    "trackId": "901251401"
+  },
+  {
+    "id": "applemusic-901251402",
+    "name": "Sunshine",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "TOUCH N MOVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/72/d1/9572d11a-967d-301a-46b8-9ca083e8b1e4/mzaf_14810965135270989125.plus.aac.p.m4a",
+    "duration": 213291,
+    "trackUrl": "https://music.apple.com/us/album/sunshine/901251388?i=901251402",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/17/4a/8c174ac5-6f41-0dc6-2c46-8064fca110b5/KM0002837-_-0721.jpg/300x300bb.jpg",
+    "trackId": "901251402"
+  },
+  {
+    "id": "applemusic-1010514955",
+    "name": "Shake It",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Shake It - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/08/fb/b408fb0e-5f7a-b921-4a0a-9872224a7220/mzaf_4200449567531850203.plus.aac.p.m4a",
+    "duration": 208507,
+    "trackUrl": "https://music.apple.com/us/album/shake-it/1010514942?i=1010514955",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/b5/bf/ffb5bfb5-c03a-dbd2-182e-f8e9880e51ca/cover-.jpg/300x300bb.jpg",
+    "trackId": "1010514955"
+  },
+  {
+    "id": "applemusic-1010514957",
+    "name": "Good Time",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Shake It - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a2/17/f0/a217f0f9-2cae-2216-d637-a2943406ab19/mzaf_17872551412449332438.plus.aac.p.m4a",
+    "duration": 190425,
+    "trackUrl": "https://music.apple.com/us/album/good-time/1010514942?i=1010514957",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/b5/bf/ffb5bfb5-c03a-dbd2-182e-f8e9880e51ca/cover-.jpg/300x300bb.jpg",
+    "trackId": "1010514957"
+  },
+  {
+    "id": "applemusic-1010514959",
+    "name": "Go Up",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Shake It - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/a4/89/fda489cd-3339-2469-d052-9ce0520a5925/mzaf_9484819774736347915.plus.aac.p.m4a",
+    "duration": 201379,
+    "trackUrl": "https://music.apple.com/us/album/go-up/1010514942?i=1010514959",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/ff/b5/bf/ffb5bfb5-c03a-dbd2-182e-f8e9880e51ca/cover-.jpg/300x300bb.jpg",
+    "trackId": "1010514959"
+  },
+  {
+    "id": "applemusic-948090302",
+    "name": "Starship Planet : Love Is You (From \"Starship Planet 2014\")",
+    "artists": [
+      "K.Will, SISTAR, Junggigo, Mad Clown, BOYFRIEND & Jooyoung"
+    ],
+    "album": "Starship Planet : Love Is You (From \"Starship Planet 2014\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/88/ae/d1/88aed1fc-4c8d-5ab5-5894-648b0bd62ce8/mzaf_5098512444228488498.plus.aac.p.m4a",
+    "duration": 227458,
+    "trackUrl": "https://music.apple.com/us/album/starship-planet-love-is-you-from-starship-planet-2014/948090301?i=948090302",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/47/48/c8/4748c827-dfdc-87b4-8555-cc45d6c802bc/KM0003064-_DS_-1204.jpg/300x300bb.jpg",
+    "trackId": "948090302"
+  },
+  {
+    "id": "applemusic-455907059",
+    "name": "So Cool",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9a/32/1d/9a321df5-977f-cc97-18f7-868e6b374660/mzaf_7256365225522627571.plus.aac.p.m4a",
+    "duration": 201250,
+    "trackUrl": "https://music.apple.com/us/album/so-cool/455907054?i=455907059",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907059"
+  },
+  {
+    "id": "applemusic-455907062",
+    "name": "Girls Do It",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/74/ac/c5/74acc5ea-779a-0c76-ea2c-8b25f773ca88/mzaf_15871591215752590116.plus.aac.p.m4a",
+    "duration": 205977,
+    "trackUrl": "https://music.apple.com/us/album/girls-do-it/455907054?i=455907062",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907062"
+  },
+  {
+    "id": "applemusic-455907066",
+    "name": "Follow Me",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/8b/f1/088bf17e-30ae-8ec7-055e-5fe601455d88/mzaf_12853286076269036064.plus.aac.p.m4a",
+    "duration": 196076,
+    "trackUrl": "https://music.apple.com/us/album/follow-me/455907054?i=455907066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907066"
+  },
+  {
+    "id": "applemusic-455907069",
+    "name": "New World",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/bc/91/5ebc91a9-4b36-9725-4b5a-a6d22773e104/mzaf_5090940192014243892.plus.aac.p.m4a",
+    "duration": 202321,
+    "trackUrl": "https://music.apple.com/us/album/new-world/455907054?i=455907069",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907069"
+  },
+  {
+    "id": "applemusic-455907070",
+    "name": "I Do Not Want a Weak Man",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/37/27/07/372707ec-eacd-253e-1a7d-314c532c6853/mzaf_4806627500122569867.plus.aac.p.m4a",
+    "duration": 179568,
+    "trackUrl": "https://music.apple.com/us/album/i-do-not-want-a-weak-man/455907054?i=455907070",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907070"
+  },
+  {
+    "id": "applemusic-455907071",
+    "name": "How Dare You",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cb/ea/06/cbea0689-6a33-a4a7-0f5e-3dace4de0ff3/mzaf_7440680832533501492.plus.aac.p.m4a",
+    "duration": 186020,
+    "trackUrl": "https://music.apple.com/us/album/how-dare-you/455907054?i=455907071",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907071"
+  },
+  {
+    "id": "applemusic-455907088",
+    "name": "Over",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/fc/65/05fc651b-77cf-1617-1806-c410daa7a32a/mzaf_4018642421069851400.plus.aac.p.m4a",
+    "duration": 199395,
+    "trackUrl": "https://music.apple.com/us/album/over/455907054?i=455907088",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907088"
+  },
+  {
+    "id": "applemusic-455907089",
+    "name": "Oh Baby",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/15/77/32157782-167b-e20f-9fff-2c1f86c2fe52/mzaf_17378652861935934009.plus.aac.p.m4a",
+    "duration": 186621,
+    "trackUrl": "https://music.apple.com/us/album/oh-baby/455907054?i=455907089",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907089"
+  },
+  {
+    "id": "applemusic-455907091",
+    "name": "Shady Girl",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/03/6e/c5036e1e-4f52-cc47-524c-6a3cfdf54d48/mzaf_2482696149862007232.plus.aac.p.m4a",
+    "duration": 194484,
+    "trackUrl": "https://music.apple.com/us/album/shady-girl/455907054?i=455907091",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907091"
+  },
+  {
+    "id": "applemusic-455907092",
+    "name": "Push Push",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "So Cool",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/57/37/b157379a-93ee-2a9a-366f-7b5ba6d61eac/mzaf_11252170908261325202.plus.aac.p.m4a",
+    "duration": 187352,
+    "trackUrl": "https://music.apple.com/us/album/push-push/455907054?i=455907092",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c5/b3/1c/mzi.osoznpcy.jpg/300x300bb.jpg",
+    "trackId": "455907092"
+  },
+  {
+    "id": "applemusic-1063917911",
+    "name": "Softly",
+    "artists": [
+      "K.Will, SISTAR, BOYFRIEND, Mad Clown, Junggigo, Jooyoung, MONSTA X, Yu Seung Woo, BrotherSu & Exy"
+    ],
+    "album": "Softly - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/8f/e5/b88fe597-8699-652a-59bc-85b5afc55f56/mzaf_13143741012047673020.plus.aac.p.m4a",
+    "duration": 210045,
+    "trackUrl": "https://music.apple.com/us/album/softly/1063917580?i=1063917911",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/73/14/f5/7314f5a4-df5b-7631-882d-dad005361495/COVER-_DS.jpg/300x300bb.jpg",
+    "trackId": "1063917911"
+  },
+  {
+    "id": "applemusic-540663351",
+    "name": "Loving U",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Summer Special 'Loving U'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a6/d8/0b/a6d80b31-2e24-901d-cfed-20ff1f0c3c5e/mzaf_11807490040116606503.plus.aac.p.m4a",
+    "duration": 217942,
+    "trackUrl": "https://music.apple.com/us/album/loving-u/540663278?i=540663351",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/10/73/ea/1073ea82-0bd4-5f02-4f8a-c89ffb7a1904/KM0001561-_Sistar_-0628.jpg/300x300bb.jpg",
+    "trackId": "540663351"
+  },
+  {
+    "id": "applemusic-540663352",
+    "name": "Holiday",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Summer Special 'Loving U'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9a/7b/fe/9a7bfe7c-8761-82ed-30fb-09d4779a8def/mzaf_10943627655927902094.plus.aac.p.m4a",
+    "duration": 217263,
+    "trackUrl": "https://music.apple.com/us/album/holiday/540663278?i=540663352",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/10/73/ea/1073ea82-0bd4-5f02-4f8a-c89ffb7a1904/KM0001561-_Sistar_-0628.jpg/300x300bb.jpg",
+    "trackId": "540663352"
+  },
+  {
+    "id": "applemusic-912628091",
+    "name": "I Swear",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Sweet & Sour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/2f/71/9b2f7108-1771-03fc-cfd0-5430f80c2d38/mzaf_4702799196060248885.plus.aac.p.m4a",
+    "duration": 237303,
+    "trackUrl": "https://music.apple.com/us/album/i-swear/912628068?i=912628091",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/02/a4/49/02a44988-e8b5-1e0b-17ae-cba8d631f006/KM0002901-_-0826.jpg/300x300bb.jpg",
+    "trackId": "912628091"
+  },
+  {
+    "id": "applemusic-912628092",
+    "name": "Hold On Tight",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Sweet & Sour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/89/80/0e/89800e3c-313c-a6ec-8581-c404d2044692/mzaf_2513925548019236521.plus.aac.p.m4a",
+    "duration": 235499,
+    "trackUrl": "https://music.apple.com/us/album/hold-on-tight/912628068?i=912628092",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/02/a4/49/02a44988-e8b5-1e0b-17ae-cba8d631f006/KM0002901-_-0826.jpg/300x300bb.jpg",
+    "trackId": "912628092"
+  },
+  {
+    "id": "applemusic-1178839395",
+    "name": "One More Day",
+    "artists": [
+      "SISTAR & Giorgio Moroder"
+    ],
+    "album": "One More Day - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/ba/1a/18ba1a59-72e6-c5e4-43ff-b289d156fe85/mzaf_560087062067855578.plus.aac.p.m4a",
+    "duration": 213352,
+    "trackUrl": "https://music.apple.com/us/album/one-more-day/1178838961?i=1178839395",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/64/a6/5b/64a65b50-a9b4-3db9-a86a-7161796c7dfe/dj.nvevfrhv.jpg/300x300bb.jpg",
+    "trackId": "1178839395"
+  },
+  {
+    "id": "applemusic-479472494",
+    "name": "Hot Place (feat. Brave Sound)",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Hot Place (feat. Brave Sound) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e6/db/b3/e6dbb3f2-436e-cf17-aa00-6c3f8f218ca2/mzaf_11530572295896528803.plus.aac.p.m4a",
+    "duration": 202112,
+    "trackUrl": "https://music.apple.com/us/album/hot-place-feat-brave-sound/479472493?i=479472494",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/52/3f/d9/mzi.ekmcwdsj.jpg/300x300bb.jpg",
+    "trackId": "479472494"
+  },
+  {
+    "id": "applemusic-404136846",
+    "name": "Drop the Beat (feat. B2K)",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Shady Girl - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ed/03/50/ed035012-f9f5-747f-29e6-09e5d58a4f13/mzaf_4216716977141417635.plus.aac.p.m4a",
+    "duration": 69333,
+    "trackUrl": "https://music.apple.com/us/album/drop-the-beat-feat-b2k/404136838?i=404136846",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/22/8c/8b/mzi.yvekcnol.jpg/300x300bb.jpg",
+    "trackId": "404136846"
+  },
+  {
+    "id": "applemusic-377828872",
+    "name": "Here We Come",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "Push Push",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e2/51/0e/e2510ece-55c9-7530-ed4f-071b7a4cfc05/mzaf_12978916051290698177.plus.aac.p.m4a",
+    "duration": 62286,
+    "trackUrl": "https://music.apple.com/us/album/here-we-come/377828866?i=377828872",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/65/4a/4b/mzi.fnvstqyt.jpg/300x300bb.jpg",
+    "trackId": "377828872"
+  },
+  {
+    "id": "applemusic-408813421",
+    "name": "Mighty Sistar",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "How Dare You - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/22/d7/e7/22d7e754-9ebf-6010-75b5-512c1a7fa167/mzaf_3598843278442319111.plus.aac.p.m4a",
+    "duration": 41354,
+    "trackUrl": "https://music.apple.com/us/album/mighty-sistar/408813411?i=408813421",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/70/dc/92/mzi.hjsdahen.jpg/300x300bb.jpg",
+    "trackId": "408813421"
+  },
+  {
+    "id": "applemusic-956455639",
+    "name": "We Never Go Alone",
+    "artists": [
+      "SISTAR"
+    ],
+    "album": "We Never Go Alone - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d4/72/e7/d472e784-935d-c548-e272-d36a0becb350/mzaf_2941597524385347509.plus.aac.p.m4a",
+    "duration": 156160,
+    "trackUrl": "https://music.apple.com/us/album/we-never-go-alone/956455638?i=956455639",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/91/df/cf91dfbe-2d47-839f-e44d-635a06c64831/sis.jpg/300x300bb.jpg",
+    "trackId": "956455639"
+  },
+  {
+    "id": "applemusic-1582116805",
+    "name": "Pink Romance",
+    "artists": [
+      "K.Will, SISTAR & BOYFRIEND"
+    ],
+    "album": "Pink Romance - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/0e/79/9e0e79cd-867f-df91-28c9-1d03a18f5f13/mzaf_18302811504046235976.plus.aac.p.m4a",
+    "duration": 209136,
+    "trackUrl": "https://music.apple.com/us/album/pink-romance/1582116804?i=1582116805",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/87/e1/4c/87e14cb6-a6ed-5c57-3160-831431313e02/cover.jpg/300x300bb.jpg",
+    "trackId": "1582116805"
+  },
+  {
+    "id": "applemusic-781178510",
+    "name": "Snow Candy",
+    "artists": [
+      "K.Will, SISTAR & BOYFRIEND"
+    ],
+    "album": "Snow Candy - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/34/ec/b934ec63-f9db-71a6-caf8-c2e43e2c4516/mzaf_5951122588248580804.plus.aac.p.m4a",
+    "duration": 229787,
+    "trackUrl": "https://music.apple.com/us/album/snow-candy/781178462?i=781178510",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/ae/a5/8d/aea58d93-3980-e6ac-0b6c-2c32929106f8/KM0002448-_DS-1213.jpg/300x300bb.jpg",
+    "trackId": "781178510"
+  }
+]

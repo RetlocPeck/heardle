@@ -1,0 +1,392 @@
+[
+  {
+    "id": "applemusic-1721420402",
+    "name": "Love 119",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Love 119 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/f8/f7/f2f8f778-a22e-c229-6e25-7293a90ebd13/mzaf_4806842134580834593.plus.aac.p.m4a",
+    "duration": 173489,
+    "trackUrl": "https://music.apple.com/us/album/love-119/1721420398?i=1721420402",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/75/ac/40/75ac4000-8db6-fa1d-e825-f5799959fc5a/196871708128.jpg/300x300bb.jpg",
+    "trackId": "1721420402"
+  },
+  {
+    "id": "applemusic-1712738676",
+    "name": "Talk Saxy",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Talk Saxy - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/61/cd/9561cd96-d757-87d8-3390-e7327edd4ea9/mzaf_8187265120242593110.plus.aac.p.m4a",
+    "duration": 190941,
+    "trackUrl": "https://music.apple.com/us/album/talk-saxy/1712738671?i=1712738676",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/96/e2/7f/96e27fed-4864-cfb9-65a4-4f91ba9f9a3c/888735945519.jpg/300x300bb.jpg",
+    "trackId": "1712738676"
+  },
+  {
+    "id": "applemusic-1737853820",
+    "name": "Siren",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Siren - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/f6/de/3ef6de67-a44d-2e27-9d63-fe900d90cd3c/mzaf_1177420738761066409.plus.aac.p.m4a",
+    "duration": 147962,
+    "trackUrl": "https://music.apple.com/us/album/siren/1737853753?i=1737853820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/6b/7b/5f6b7bc8-46fd-5333-15e3-03fe8cfb5f9d/888735947322.jpg/300x300bb.jpg",
+    "trackId": "1737853820"
+  },
+  {
+    "id": "applemusic-1714005022",
+    "name": "Memories",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Memories - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/10/dd/cc10dd39-dff3-3466-8ae7-9878a610a0e1/mzaf_8592627129055275225.plus.aac.p.m4a",
+    "duration": 178013,
+    "trackUrl": "https://music.apple.com/us/album/memories/1714005020?i=1714005022",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/94/f7/4a/94f74ac4-d84b-2ea5-e62c-81ac1f1d0050/888735944642.jpg/300x300bb.jpg",
+    "trackId": "1714005022"
+  },
+  {
+    "id": "applemusic-1715939316",
+    "name": "Get A Guitar",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Get A Guitar - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/7e/99/d07e99d2-ee05-19b4-9d41-48e596cbd1bd/mzaf_11553314001417296216.plus.aac.p.m4a",
+    "duration": 160372,
+    "trackUrl": "https://music.apple.com/us/album/get-a-guitar/1715939305?i=1715939316",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/00/06/8a/00068a27-d5f9-f7a3-c593-d564a8c0e709/888735944703.jpg/300x300bb.jpg",
+    "trackId": "1715939316"
+  },
+  {
+    "id": "applemusic-1813453694",
+    "name": "Odyssey",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/ab/d4/13abd4ae-f594-796b-380d-d18ca3ed61b1/mzaf_15167885833788711613.plus.aac.p.m4a",
+    "duration": 152268,
+    "trackUrl": "https://music.apple.com/us/album/odyssey/1813453693?i=1813453694",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813453694"
+  },
+  {
+    "id": "applemusic-1813453697",
+    "name": "Bag Bad Back",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8d/80/7f/8d807ff8-96a8-bd60-717d-98e26f5ee97b/mzaf_846072581858479886.plus.aac.p.m4a",
+    "duration": 192836,
+    "trackUrl": "https://music.apple.com/us/album/bag-bad-back/1813453693?i=1813453697",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813453697"
+  },
+  {
+    "id": "applemusic-1813453699",
+    "name": "Ember to Solar",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/22/fe/8522fe34-9541-d7b5-eb11-143a5ad97b13/mzaf_3115510705119083920.plus.aac.p.m4a",
+    "duration": 200547,
+    "trackUrl": "https://music.apple.com/us/album/ember-to-solar/1813453693?i=1813453699",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813453699"
+  },
+  {
+    "id": "applemusic-1813454032",
+    "name": "Fly Up",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/7b/86/987b8648-3812-6586-f2e4-070190ebb6f5/mzaf_1999761629772519229.plus.aac.p.m4a",
+    "duration": 178176,
+    "trackUrl": "https://music.apple.com/us/album/fly-up/1813453693?i=1813454032",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454032"
+  },
+  {
+    "id": "applemusic-1813454033",
+    "name": "Show Me Love",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/30/6e/98306ef9-6f7b-1cda-45b4-1dfccf64fe83/mzaf_13352383657464628796.plus.aac.p.m4a",
+    "duration": 189544,
+    "trackUrl": "https://music.apple.com/us/album/show-me-love/1813453693?i=1813454033",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454033"
+  },
+  {
+    "id": "applemusic-1813454038",
+    "name": "Passage",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/d5/53/b7d553bf-0642-872f-a176-43e1b7f0526a/mzaf_11456814228778482474.plus.aac.p.m4a",
+    "duration": 39696,
+    "trackUrl": "https://music.apple.com/us/album/passage/1813453693?i=1813454038",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454038"
+  },
+  {
+    "id": "applemusic-1813454039",
+    "name": "Midnight Mirage",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/58/8c/37588c61-1c30-75d8-a8d3-93768bdcfe89/mzaf_8932435931072434023.plus.aac.p.m4a",
+    "duration": 202848,
+    "trackUrl": "https://music.apple.com/us/album/midnight-mirage/1813453693?i=1813454039",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454039"
+  },
+  {
+    "id": "applemusic-1813454040",
+    "name": "The End of the Day",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/50/7a/05507aca-1c4a-efa9-9d62-4ddaa900fc32/mzaf_4170809287589675772.plus.aac.p.m4a",
+    "duration": 222995,
+    "trackUrl": "https://music.apple.com/us/album/the-end-of-the-day/1813453693?i=1813454040",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454040"
+  },
+  {
+    "id": "applemusic-1813454045",
+    "name": "Inside My Love",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/a6/bd/36a6bd6a-3153-da4a-748b-efa9ae83b43d/mzaf_2152554491497534212.plus.aac.p.m4a",
+    "duration": 159554,
+    "trackUrl": "https://music.apple.com/us/album/inside-my-love/1813453693?i=1813454045",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454045"
+  },
+  {
+    "id": "applemusic-1813454052",
+    "name": "Another Life",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "ODYSSEY - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/e4/c3/b3e4c32d-d8d8-c81f-e9c3-2b29209373ac/mzaf_3065252933661344467.plus.aac.p.m4a",
+    "duration": 227207,
+    "trackUrl": "https://music.apple.com/us/album/another-life/1813453693?i=1813454052",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/9a/57/5b9a5770-9af1-96e1-3bf5-ba01faf63e9c/888735952104.jpg/300x300bb.jpg",
+    "trackId": "1813454052"
+  },
+  {
+    "id": "applemusic-1854164005",
+    "name": "Something's In the Water",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Fame - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/9b/ba/c89bba58-2fe6-d9b9-1917-89647c79e26d/mzaf_6645106118591725330.plus.aac.p.m4a",
+    "duration": 146687,
+    "trackUrl": "https://music.apple.com/us/album/somethings-in-the-water/1854164004?i=1854164005",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/7c/de/f17cde15-6bb4-6d3c-2b07-158191593fcc/888735953781.jpg/300x300bb.jpg",
+    "trackId": "1854164005"
+  },
+  {
+    "id": "applemusic-1854164006",
+    "name": "Fame",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Fame - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/9b/b1/189bb19e-44e2-ce2b-f2dd-bc5ceec70df9/mzaf_8446965129628943857.plus.aac.p.m4a",
+    "duration": 176848,
+    "trackUrl": "https://music.apple.com/us/album/fame/1854164004?i=1854164006",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/7c/de/f17cde15-6bb4-6d3c-2b07-158191593fcc/888735953781.jpg/300x300bb.jpg",
+    "trackId": "1854164006"
+  },
+  {
+    "id": "applemusic-1854164007",
+    "name": "Sticky Like",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Fame - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/7d/b6/b37db6c9-7a20-7e02-31ec-bd49593a2aa9/mzaf_1384409742840957067.plus.aac.p.m4a",
+    "duration": 197383,
+    "trackUrl": "https://music.apple.com/us/album/sticky-like/1854164004?i=1854164007",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/7c/de/f17cde15-6bb4-6d3c-2b07-158191593fcc/888735953781.jpg/300x300bb.jpg",
+    "trackId": "1854164007"
+  },
+  {
+    "id": "applemusic-1742276106",
+    "name": "Impossible",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/0b/ed/560bedd2-964f-97eb-2cb8-09ee8b5a7377/mzaf_17635560160504320510.plus.aac.p.m4a",
+    "duration": 182440,
+    "trackUrl": "https://music.apple.com/us/album/impossible/1742276104?i=1742276106",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
+    "trackId": "1742276106"
+  },
+  {
+    "id": "applemusic-1742276107",
+    "name": "9 Days",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/3d/d6/9e3dd691-080e-9c7c-f7d0-dc13d55de201/mzaf_17288471710263656909.plus.aac.p.m4a",
+    "duration": 160205,
+    "trackUrl": "https://music.apple.com/us/album/9-days/1742276104?i=1742276107",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
+    "trackId": "1742276107"
+  },
+  {
+    "id": "applemusic-1742276110",
+    "name": "Honestly",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/75/6c/3e756cc9-2a7d-6328-2f62-584641f1bfd6/mzaf_10212463548686626410.plus.aac.p.m4a",
+    "duration": 194090,
+    "trackUrl": "https://music.apple.com/us/album/honestly/1742276104?i=1742276110",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
+    "trackId": "1742276110"
+  },
+  {
+    "id": "applemusic-1742276112",
+    "name": "One Kiss",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/69/75/d96975b8-b6e0-4166-7cf8-b2d2c2649f9f/mzaf_3129493124263605708.plus.aac.p.m4a",
+    "duration": 212063,
+    "trackUrl": "https://music.apple.com/us/album/one-kiss/1742276104?i=1742276112",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
+    "trackId": "1742276112"
+  },
+  {
+    "id": "applemusic-1749589154",
+    "name": "Boom Boom Bass",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING - The 1st Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/e2/06/01e20685-e5ca-adea-3e2f-e6f398d621f9/mzaf_16034371568655553441.plus.aac.p.m4a",
+    "duration": 152890,
+    "trackUrl": "https://music.apple.com/us/album/boom-boom-bass/1749589149?i=1749589154",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/3d/5d/253d5dd8-95fe-4d8d-20bc-969854a3bc9b/888735948015.jpg/300x300bb.jpg",
+    "trackId": "1749589154"
+  },
+  {
+    "id": "applemusic-1787328075",
+    "name": "Hug",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Hug - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/89/30/e18930f3-7b0c-179f-31c7-69f1f7fb011f/mzaf_14491560888555635203.plus.aac.p.m4a",
+    "duration": 234040,
+    "trackUrl": "https://music.apple.com/us/album/hug/1787328074?i=1787328075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/27/ac/4127ac96-1c35-c861-32eb-b75349eae330/888735951169.png/300x300bb.jpg",
+    "trackId": "1787328075"
+  },
+  {
+    "id": "applemusic-1764373567",
+    "name": "Combo",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING : Epilogue - The 1st Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/7e/c1/717ec113-db08-4862-8bfb-25c84225e82a/mzaf_9306513851776047477.plus.aac.p.m4a",
+    "duration": 219551,
+    "trackUrl": "https://music.apple.com/us/album/combo/1764373563?i=1764373567",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/ba/56/8cba5689-8f1b-d00e-480d-4b2a5f78d9cf/888735948763.jpg/300x300bb.jpg",
+    "trackId": "1764373567"
+  },
+  {
+    "id": "applemusic-1758650710",
+    "name": "Lucky",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Lucky - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/cc/c6/f2ccc68e-eeb9-90cc-bf2d-64d8c4e983c1/mzaf_10121899770531376164.plus.aac.p.m4a",
+    "duration": 167220,
+    "trackUrl": "https://music.apple.com/us/album/lucky/1758650709?i=1758650710",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/ef/23/46ef236b-ba18-abfb-ca74-0240fc1a7b4c/24UMGIM74481.rgb.jpg/300x300bb.jpg",
+    "trackId": "1758650710"
+  },
+  {
+    "id": "applemusic-1758650711",
+    "name": "Be My Next",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Lucky - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/43/3f/51433f04-94ae-ce1e-1d74-698b4012afc3/mzaf_10307408769608802409.plus.aac.p.m4a",
+    "duration": 199274,
+    "trackUrl": "https://music.apple.com/us/album/be-my-next/1758650709?i=1758650711",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/ef/23/46ef236b-ba18-abfb-ca74-0240fc1a7b4c/24UMGIM74481.rgb.jpg/300x300bb.jpg",
+    "trackId": "1758650711"
+  },
+  {
+    "id": "applemusic-1758650713",
+    "name": "Same Key",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Lucky - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/d0/97/0ed09794-976e-1e47-cdc5-8c02d5aec085/mzaf_5317984915096583452.plus.aac.p.m4a",
+    "duration": 243498,
+    "trackUrl": "https://music.apple.com/us/album/same-key/1758650709?i=1758650713",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/ef/23/46ef236b-ba18-abfb-ca74-0240fc1a7b4c/24UMGIM74481.rgb.jpg/300x300bb.jpg",
+    "trackId": "1758650713"
+  },
+  {
+    "id": "applemusic-1715849091",
+    "name": "HAPPY! HAPPY! HAPPY! (Opening Song from SEALOOK)",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "SEALOOK (Original Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c5/f4/34/c5f43422-872c-4826-096f-fc42bc060efb/mzaf_9729594978666588970.plus.aac.p.m4a",
+    "duration": 167640,
+    "trackUrl": "https://music.apple.com/us/album/happy-happy-happy-opening-song-from-sealook/1715848923?i=1715849091",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/4f/6a/084f6a54-cbec-e9b3-b149-363d7fba150c/197190365962.jpg/300x300bb.jpg",
+    "trackId": "1715849091"
+  },
+  {
+    "id": "applemusic-1715849098",
+    "name": "Look at me SEALOOK (Ending Song from SEALOOK)",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "SEALOOK (Original Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b8/83/01/b8830116-8427-216e-1ed3-a1c484851d29/mzaf_16167236770014825310.plus.aac.p.m4a",
+    "duration": 193520,
+    "trackUrl": "https://music.apple.com/us/album/look-at-me-sealook-ending-song-from-sealook/1715848923?i=1715849098",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/4f/6a/084f6a54-cbec-e9b3-b149-363d7fba150c/197190365962.jpg/300x300bb.jpg",
+    "trackId": "1715849098"
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "applemusic-1464928882",
+    "name": "Hate",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Act. 7 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/4a/60/bb4a608d-3fae-3db1-8b17-88c8b91d8e7b/mzaf_1035767453448790988.plus.aac.p.m4a",
+    "duration": 216333,
+    "trackUrl": "https://music.apple.com/us/album/hate/1464928880?i=1464928882",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/c8/2f/f6c82f6e-c15a-c885-1b8a-9ba3c4c28c7f/Act.7.jpg/300x300bb.jpg",
+    "trackId": "1464928882"
+  },
+  {
+    "id": "applemusic-1464929076",
+    "name": "No Love",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Act. 7 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/89/3e/83/893e83ba-5824-530d-395f-ddb7964bae8b/mzaf_3539622344084281312.plus.aac.p.m4a",
+    "duration": 195827,
+    "trackUrl": "https://music.apple.com/us/album/no-love/1464928880?i=1464929076",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/c8/2f/f6c82f6e-c15a-c885-1b8a-9ba3c4c28c7f/Act.7.jpg/300x300bb.jpg",
+    "trackId": "1464929076"
+  },
+  {
+    "id": "applemusic-1464929078",
+    "name": "Blind",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Act. 7 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/85/ee/d2/85eed21f-fdf4-c24a-89bb-d2355b311329/mzaf_4488256735597141001.plus.aac.p.m4a",
+    "duration": 240413,
+    "trackUrl": "https://music.apple.com/us/album/blind/1464928880?i=1464929078",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/c8/2f/f6c82f6e-c15a-c885-1b8a-9ba3c4c28c7f/Act.7.jpg/300x300bb.jpg",
+    "trackId": "1464929078"
+  },
+  {
+    "id": "applemusic-1464929081",
+    "name": "Canvas",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Act. 7 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/10/43/5d1043b2-007b-27b3-8ef9-e94c3fe292db/mzaf_5728005705762960604.plus.aac.p.m4a",
+    "duration": 216960,
+    "trackUrl": "https://music.apple.com/us/album/canvas/1464928880?i=1464929081",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/c8/2f/f6c82f6e-c15a-c885-1b8a-9ba3c4c28c7f/Act.7.jpg/300x300bb.jpg",
+    "trackId": "1464929081"
+  },
+  {
+    "id": "applemusic-1550907840",
+    "name": "Crazy",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Crazy - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/e2/76/eee27659-9067-1784-77a1-41c0d915f889/mzaf_4656249628512999750.plus.aac.p.m4a",
+    "duration": 192400,
+    "trackUrl": "https://music.apple.com/us/album/crazy/1550907838?i=1550907840",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/ce/54/97ce54b4-eab7-725c-fdb8-52f844ecefa2/cover.jpg/300x300bb.jpg",
+    "trackId": "1550907840"
+  },
+  {
+    "id": "applemusic-1550907841",
+    "name": "Cut It Out",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Crazy - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/86/4d/90/864d90dc-fe69-8f3d-4566-8baf4681d616/mzaf_852986972677269593.plus.aac.p.m4a",
+    "duration": 204480,
+    "trackUrl": "https://music.apple.com/us/album/cut-it-out/1550907838?i=1550907841",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/ce/54/97ce54b4-eab7-725c-fdb8-52f844ecefa2/cover.jpg/300x300bb.jpg",
+    "trackId": "1550907841"
+  },
+  {
+    "id": "applemusic-1550907842",
+    "name": "Tickle Tickle Tickle",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Crazy - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/0c/b6/340cb6f7-fb57-f912-f2bb-6b3559fd79ee/mzaf_1727226425305942594.plus.aac.p.m4a",
+    "duration": 185880,
+    "trackUrl": "https://music.apple.com/us/album/tickle-tickle-tickle/1550907838?i=1550907842",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/ce/54/97ce54b4-eab7-725c-fdb8-52f844ecefa2/cover.jpg/300x300bb.jpg",
+    "trackId": "1550907842"
+  },
+  {
+    "id": "applemusic-1550907844",
+    "name": "Show Me",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Crazy - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/38/ac/d8/38acd8a0-841a-f57d-cb71-a687cfe78634/mzaf_16207540537115500895.plus.aac.p.m4a",
+    "duration": 189720,
+    "trackUrl": "https://music.apple.com/us/album/show-me/1550907838?i=1550907844",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/ce/54/97ce54b4-eab7-725c-fdb8-52f844ecefa2/cover.jpg/300x300bb.jpg",
+    "trackId": "1550907844"
+  },
+  {
+    "id": "applemusic-1550907845",
+    "name": "Cold Rain",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Crazy - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/15/b7/6c/15b76c27-912c-29b0-5346-a3b9458d135d/mzaf_8034385669246742409.plus.aac.p.m4a",
+    "duration": 218520,
+    "trackUrl": "https://music.apple.com/us/album/cold-rain/1550907838?i=1550907845",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/ce/54/97ce54b4-eab7-725c-fdb8-52f844ecefa2/cover.jpg/300x300bb.jpg",
+    "trackId": "1550907845"
+  },
+  {
+    "id": "applemusic-1336761453",
+    "name": "Is It Poppin'?",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Is It Poppin'? - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/d9/75/11d97595-2fbf-42ca-9382-5a5f40b53268/mzaf_5872248474328779187.plus.aac.p.m4a",
+    "duration": 190107,
+    "trackUrl": "https://music.apple.com/us/album/is-it-poppin/1336761440?i=1336761453",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/4c/a7/a6/4ca7a67b-a112-c60a-92fa-a3c5ea0db6e0/cover-_new.jpg/300x300bb.jpg",
+    "trackId": "1336761453"
+  },
+  {
+    "id": "applemusic-1457816335",
+    "name": "For Muzik",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "For Muzik",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/98/99/b9/9899b9d7-43df-1d63-ad84-9b38134b0951/mzaf_3897953658454674240.plus.aac.p.m4a",
+    "duration": 84880,
+    "trackUrl": "https://music.apple.com/us/album/for-muzik/1457816334?i=1457816335",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/45/dc/27/45dc27ae-8046-298f-acbc-f3f3b3a6a795/cover-4minute_For_Muzik_NEW_-2.jpg/300x300bb.jpg",
+    "trackId": "1457816335"
+  },
+  {
+    "id": "applemusic-1457816520",
+    "name": "Muzik",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "For Muzik",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/70/76/737076e4-9ba3-ef89-69a9-7a8054c6b2a9/mzaf_16220407183159085475.plus.aac.p.m4a",
+    "duration": 225373,
+    "trackUrl": "https://music.apple.com/us/album/muzik/1457816334?i=1457816520",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/45/dc/27/45dc27ae-8046-298f-acbc-f3f3b3a6a795/cover-4minute_For_Muzik_NEW_-2.jpg/300x300bb.jpg",
+    "trackId": "1457816520"
+  },
+  {
+    "id": "applemusic-1457816521",
+    "name": "Hot Issue",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "For Muzik",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/a5/a8/d0a5a8e7-bc61-8910-d081-2bcd288be2f5/mzaf_16835573269831899183.plus.aac.p.m4a",
+    "duration": 208773,
+    "trackUrl": "https://music.apple.com/us/album/hot-issue/1457816334?i=1457816521",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/45/dc/27/45dc27ae-8046-298f-acbc-f3f3b3a6a795/cover-4minute_For_Muzik_NEW_-2.jpg/300x300bb.jpg",
+    "trackId": "1457816521"
+  },
+  {
+    "id": "applemusic-1457816522",
+    "name": "What a Girl Wants",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "For Muzik",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/97/41/7d/97417d04-78df-9b52-b8fa-d55df3da757a/mzaf_3603442004277910320.plus.aac.p.m4a",
+    "duration": 205080,
+    "trackUrl": "https://music.apple.com/us/album/what-a-girl-wants/1457816334?i=1457816522",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/45/dc/27/45dc27ae-8046-298f-acbc-f3f3b3a6a795/cover-4minute_For_Muzik_NEW_-2.jpg/300x300bb.jpg",
+    "trackId": "1457816522"
+  },
+  {
+    "id": "applemusic-1457816523",
+    "name": "Funny",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "For Muzik",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/60/3d/a0/603da08d-59ae-dc3d-3246-c3e042447914/mzaf_17342423205707096360.plus.aac.p.m4a",
+    "duration": 210827,
+    "trackUrl": "https://music.apple.com/us/album/funny/1457816334?i=1457816523",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/45/dc/27/45dc27ae-8046-298f-acbc-f3f3b3a6a795/cover-4minute_For_Muzik_NEW_-2.jpg/300x300bb.jpg",
+    "trackId": "1457816523"
+  },
+  {
+    "id": "applemusic-1457816525",
+    "name": "Won't Give It to You",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "For Muzik",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/7d/d2/c27dd2e2-fa29-17e3-fc7b-76cc4c269a4b/mzaf_15502645373091534509.plus.aac.p.m4a",
+    "duration": 197093,
+    "trackUrl": "https://music.apple.com/us/album/wont-give-it-to-you/1457816334?i=1457816525",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/45/dc/27/45dc27ae-8046-298f-acbc-f3f3b3a6a795/cover-4minute_For_Muzik_NEW_-2.jpg/300x300bb.jpg",
+    "trackId": "1457816525"
+  },
+  {
+    "id": "applemusic-1336761263",
+    "name": "What's My Name?",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Name Is 4minute - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d9/4a/5d/d94a5d7a-eae9-5d96-b46e-206fb4c6e585/mzaf_9972642405769311691.plus.aac.p.m4a",
+    "duration": 79387,
+    "trackUrl": "https://music.apple.com/us/album/whats-my-name/1336761259?i=1336761263",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/e9/70/6d/e9706d0f-1c21-dac8-db09-33464f46783f/cover-Name_is_4minute_new.jpg/300x300bb.jpg",
+    "trackId": "1336761263"
+  },
+  {
+    "id": "applemusic-1336761268",
+    "name": "What's Your Name?",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Name Is 4minute - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/2a/cb/fe2acb49-ad1d-4f64-bf70-22036c219164/mzaf_2247546789295081438.plus.aac.p.m4a",
+    "duration": 186733,
+    "trackUrl": "https://music.apple.com/us/album/whats-your-name/1336761259?i=1336761268",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/e9/70/6d/e9706d0f-1c21-dac8-db09-33464f46783f/cover-Name_is_4minute_new.jpg/300x300bb.jpg",
+    "trackId": "1336761268"
+  },
+  {
+    "id": "applemusic-1336761269",
+    "name": "Whatever",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Name Is 4minute - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/98/4e/5d984ec5-b03c-356f-d6c6-a36998bb7b34/mzaf_16498734552287571070.plus.aac.p.m4a",
+    "duration": 178587,
+    "trackUrl": "https://music.apple.com/us/album/whatever/1336761259?i=1336761269",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/e9/70/6d/e9706d0f-1c21-dac8-db09-33464f46783f/cover-Name_is_4minute_new.jpg/300x300bb.jpg",
+    "trackId": "1336761269"
+  },
+  {
+    "id": "applemusic-1336761270",
+    "name": "Gimme That",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Name Is 4minute - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/a0/dc/f2a0dcc0-1a21-7ca5-4672-0213d424decf/mzaf_12068658790502696318.plus.aac.p.m4a",
+    "duration": 203156,
+    "trackUrl": "https://music.apple.com/us/album/gimme-that/1336761259?i=1336761270",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/e9/70/6d/e9706d0f-1c21-dac8-db09-33464f46783f/cover-Name_is_4minute_new.jpg/300x300bb.jpg",
+    "trackId": "1336761270"
+  },
+  {
+    "id": "applemusic-1336761271",
+    "name": "Domino",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Name Is 4minute - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8c/b1/28/8cb1289f-fda1-985c-3248-35d1364f6ba6/mzaf_11747042904564022994.plus.aac.p.m4a",
+    "duration": 207705,
+    "trackUrl": "https://music.apple.com/us/album/domino/1336761259?i=1336761271",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/e9/70/6d/e9706d0f-1c21-dac8-db09-33464f46783f/cover-Name_is_4minute_new.jpg/300x300bb.jpg",
+    "trackId": "1336761271"
+  },
+  {
+    "id": "applemusic-1336761093",
+    "name": "Get on the Floor",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9a/04/66/9a04664e-87c8-2d78-74ff-6c3d73f72068/mzaf_14084226774141314498.plus.aac.p.m4a",
+    "duration": 105785,
+    "trackUrl": "https://music.apple.com/us/album/get-on-the-floor/1336761081?i=1336761093",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761093"
+  },
+  {
+    "id": "applemusic-1336761095",
+    "name": "Volume Up",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/45/6f/e8/456fe80c-e8d3-5d87-3c66-cb18aa1dad35/mzaf_9673348657747286886.plus.aac.p.m4a",
+    "duration": 229957,
+    "trackUrl": "https://music.apple.com/us/album/volume-up/1336761081?i=1336761095",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761095"
+  },
+  {
+    "id": "applemusic-1336761096",
+    "name": "I'm OK",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/dc/90/b5/dc90b567-db2f-17ad-ad2f-c56f1f0bab61/mzaf_2364698753900797961.plus.aac.p.m4a",
+    "duration": 206911,
+    "trackUrl": "https://music.apple.com/us/album/im-ok/1336761081?i=1336761096",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761096"
+  },
+  {
+    "id": "applemusic-1336761097",
+    "name": "Say My Name",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/70/63/04/706304f1-988e-879d-bcf9-3e6611fe1cc5/mzaf_16070600753811099936.plus.aac.p.m4a",
+    "duration": 196939,
+    "trackUrl": "https://music.apple.com/us/album/say-my-name/1336761081?i=1336761097",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761097"
+  },
+  {
+    "id": "applemusic-1336761098",
+    "name": "Femme Fatale",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/65/04/c565045e-7ed0-2185-7a4b-92f15fb725db/mzaf_15240186358471649997.plus.aac.p.m4a",
+    "duration": 208957,
+    "trackUrl": "https://music.apple.com/us/album/femme-fatale/1336761081?i=1336761098",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761098"
+  },
+  {
+    "id": "applemusic-1336761099",
+    "name": "Dream Racer",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/8e/c7/138ec760-514d-1d5d-18d6-c945c479e2c5/mzaf_2189511783228031980.plus.aac.p.m4a",
+    "duration": 211369,
+    "trackUrl": "https://music.apple.com/us/album/dream-racer/1336761081?i=1336761099",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761099"
+  },
+  {
+    "id": "applemusic-1336761100",
+    "name": "Black Cat",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/40/b1/ee40b1f8-b28b-2cc0-1ce9-cd22397c2199/mzaf_3874724970053005431.plus.aac.p.m4a",
+    "duration": 195794,
+    "trackUrl": "https://music.apple.com/us/album/black-cat/1336761081?i=1336761100",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/18/05/50/18055091-26c9-174e-9dad-855539888f55/cover-Volume_Up_new.jpg/300x300bb.jpg",
+    "trackId": "1336761100"
+  },
+  {
+    "id": "applemusic-1336751936",
+    "name": "Who's Next? (feat. BEAST)",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e9/cd/ed/e9cded40-37ec-1f37-795a-c000efb6fb9f/mzaf_5994410866272273513.plus.aac.p.m4a",
+    "duration": 117427,
+    "trackUrl": "https://music.apple.com/us/album/whos-next-feat-beast/1336750925?i=1336751936",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751936"
+  },
+  {
+    "id": "applemusic-1336751937",
+    "name": "Huh",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/be/58/c6be5827-a7ff-4ccc-dce2-4989fa0827e2/mzaf_16254362984591369779.plus.aac.p.m4a",
+    "duration": 227387,
+    "trackUrl": "https://music.apple.com/us/album/huh/1336750925?i=1336751937",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751937"
+  },
+  {
+    "id": "applemusic-1336751938",
+    "name": "Invitation",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/39/45/1839450e-434a-02ef-c38f-89af19c7cf86/mzaf_17017878783582070571.plus.aac.p.m4a",
+    "duration": 202467,
+    "trackUrl": "https://music.apple.com/us/album/invitation/1336750925?i=1336751938",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751938"
+  },
+  {
+    "id": "applemusic-1336751939",
+    "name": "I My Me Mine",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3a/37/9a/3a379a52-13c8-854d-3b41-91d8c3f552f8/mzaf_16195264378906320089.plus.aac.p.m4a",
+    "duration": 206640,
+    "trackUrl": "https://music.apple.com/us/album/i-my-me-mine/1336750925?i=1336751939",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751939"
+  },
+  {
+    "id": "applemusic-1336751940",
+    "name": "Bababa",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2c/04/7f/2c047f21-888d-2147-67cf-519e251de970/mzaf_16606435451771375614.plus.aac.p.m4a",
+    "duration": 206827,
+    "trackUrl": "https://music.apple.com/us/album/bababa/1336750925?i=1336751940",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751940"
+  },
+  {
+    "id": "applemusic-1336751941",
+    "name": "Highlight",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/11/f7/c611f738-723c-5f91-14c3-28fd5485f6bb/mzaf_5844476499497993665.plus.aac.p.m4a",
+    "duration": 210547,
+    "trackUrl": "https://music.apple.com/us/album/highlight/1336750925?i=1336751941",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751941"
+  },
+  {
+    "id": "applemusic-1336751942",
+    "name": "Cool and Naturally",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Hit Your Heart",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/30/9c/3a309c12-c3f0-c6ea-2173-8f6c7085e057/mzaf_6741502294224377184.plus.aac.p.m4a",
+    "duration": 240773,
+    "trackUrl": "https://music.apple.com/us/album/cool-and-naturally/1336750925?i=1336751942",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/03/3b/9f/033b9ff8-e732-b54c-30c5-78dd8de7fe45/cover-Hit_Your_Heart_new.jpg/300x300bb.jpg",
+    "trackId": "1336751942"
+  },
+  {
+    "id": "applemusic-1344577194",
+    "name": "Wait a Minute",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minute World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/19/10/1e191032-09f8-cd46-2697-335fe5832770/mzaf_838930482488053025.plus.aac.p.m4a",
+    "duration": 190687,
+    "trackUrl": "https://music.apple.com/us/album/wait-a-minute/1344576970?i=1344577194",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/73/c1/77/73c177cc-f53a-b303-b08b-ec444fd23600/cover-4minute_WORLD_new.jpg/300x300bb.jpg",
+    "trackId": "1344577194"
+  },
+  {
+    "id": "applemusic-1344577195",
+    "name": "Whatcha Doin' Today",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minute World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/ca/fd/eccafd81-5185-d76b-6e70-832c62bd9845/mzaf_4822630539457396169.plus.aac.p.m4a",
+    "duration": 205987,
+    "trackUrl": "https://music.apple.com/us/album/whatcha-doin-today/1344576970?i=1344577195",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/73/c1/77/73c177cc-f53a-b303-b08b-ec444fd23600/cover-4minute_WORLD_new.jpg/300x300bb.jpg",
+    "trackId": "1344577195"
+  },
+  {
+    "id": "applemusic-1344577196",
+    "name": "I'll Teach You",
+    "artists": [
+      "Son Jihyun, JENYER & Kwon So Hyun"
+    ],
+    "album": "4minute World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/96/37/17/9637176f-e8cf-3722-8093-a52843ec1d64/mzaf_4830251028322983857.plus.aac.p.m4a",
+    "duration": 188135,
+    "trackUrl": "https://music.apple.com/us/album/ill-teach-you/1344576970?i=1344577196",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/73/c1/77/73c177cc-f53a-b303-b08b-ec444fd23600/cover-4minute_WORLD_new.jpg/300x300bb.jpg",
+    "trackId": "1344577196"
+  },
+  {
+    "id": "applemusic-1344577201",
+    "name": "Come In",
+    "artists": [
+      "Heo Ga Yoon & HyunA"
+    ],
+    "album": "4minute World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/89/5a/f5/895af506-4580-fcaf-d377-63e31dad03d4/mzaf_5205064158452806139.plus.aac.p.m4a",
+    "duration": 214034,
+    "trackUrl": "https://music.apple.com/us/album/come-in/1344576970?i=1344577201",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/73/c1/77/73c177cc-f53a-b303-b08b-ec444fd23600/cover-4minute_WORLD_new.jpg/300x300bb.jpg",
+    "trackId": "1344577201"
+  },
+  {
+    "id": "applemusic-1344577202",
+    "name": "Thank You :)",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minute World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6c/65/ec/6c65ecc1-1aee-a1ee-c798-d3b6329736b9/mzaf_8144358601717462840.plus.aac.p.m4a",
+    "duration": 234243,
+    "trackUrl": "https://music.apple.com/us/album/thank-you/1344576970?i=1344577202",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/73/c1/77/73c177cc-f53a-b303-b08b-ec444fd23600/cover-4minute_WORLD_new.jpg/300x300bb.jpg",
+    "trackId": "1344577202"
+  },
+  {
+    "id": "applemusic-438877085",
+    "name": "Superstar",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Superstar - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3d/b6/27/3db62762-63d0-1d66-cc7f-99a64c1532fd/mzaf_8375857998864951554.plus.aac.p.m4a",
+    "duration": 197493,
+    "trackUrl": "https://music.apple.com/us/album/superstar/438877081?i=438877085",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/43/bb/9e/mzi.kfxqihef.jpg/300x300bb.jpg",
+    "trackId": "438877085"
+  },
+  {
+    "id": "applemusic-1345929383",
+    "name": "Hide & Seek",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Diamond",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/98/a7/bb98a7a6-266b-3f57-1771-f0ad9123e1dc/mzaf_2236340315704985382.plus.aac.p.m4a",
+    "duration": 207400,
+    "trackUrl": "https://music.apple.com/us/album/hide-seek/1345929379?i=1345929383",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/fc/a1/05/fca105fe-eab8-e717-0851-3c191f3dd258/nCover-4minute_Diamond.jpg/300x300bb.jpg",
+    "trackId": "1345929383"
+  },
+  {
+    "id": "applemusic-1345929389",
+    "name": "Already Gone",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Diamond",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6a/d2/3a/6ad23a21-b6dd-94e6-567a-a8f3380d7ea3/mzaf_7753182313073808171.plus.aac.p.m4a",
+    "duration": 213573,
+    "trackUrl": "https://music.apple.com/us/album/already-gone/1345929379?i=1345929389",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/fc/a1/05/fca105fe-eab8-e717-0851-3c191f3dd258/nCover-4minute_Diamond.jpg/300x300bb.jpg",
+    "trackId": "1345929389"
+  },
+  {
+    "id": "applemusic-1336755797",
+    "name": "4minutes Left",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/20/35/be20352f-17e9-3989-a5ac-d1666044a791/mzaf_14378045733657242500.plus.aac.p.m4a",
+    "duration": 77533,
+    "trackUrl": "https://music.apple.com/us/album/4minutes-left/1336755639?i=1336755797",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755797"
+  },
+  {
+    "id": "applemusic-1336755798",
+    "name": "Mirror Mirror",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/2e/4f/232e4fbf-81f1-a6b5-c9de-6b266fefc4ac/mzaf_9530257099384228593.plus.aac.p.m4a",
+    "duration": 216587,
+    "trackUrl": "https://music.apple.com/us/album/mirror-mirror/1336755639?i=1336755798",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755798"
+  },
+  {
+    "id": "applemusic-1336755799",
+    "name": "Heart to Heart",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/8e/f6/cf8ef6cf-0e0a-0c52-e16c-b4686fa2c9c0/mzaf_11993613453976296447.plus.aac.p.m4a",
+    "duration": 231493,
+    "trackUrl": "https://music.apple.com/us/album/heart-to-heart/1336755639?i=1336755799",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755799"
+  },
+  {
+    "id": "applemusic-1336755800",
+    "name": "Sweet Suga Honey!",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/57/b9/95/57b99557-2623-117e-9b3d-50bcc5644285/mzaf_11571010424254057472.plus.aac.p.m4a",
+    "duration": 206560,
+    "trackUrl": "https://music.apple.com/us/album/sweet-suga-honey/1336755639?i=1336755800",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755800"
+  },
+  {
+    "id": "applemusic-1336755801",
+    "name": "Pretending Not to Know",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f9/c9/df/f9c9df26-b157-3dbd-fd5f-36c025c6af38/mzaf_7502660178801119557.plus.aac.p.m4a",
+    "duration": 233760,
+    "trackUrl": "https://music.apple.com/us/album/pretending-not-to-know/1336755639?i=1336755801",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755801"
+  },
+  {
+    "id": "applemusic-1336755802",
+    "name": "You Know",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/27/d5/2a27d581-5d1a-d577-352c-8ad74efffe83/mzaf_9255046056342018178.plus.aac.p.m4a",
+    "duration": 236187,
+    "trackUrl": "https://music.apple.com/us/album/you-know/1336755639?i=1336755802",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755802"
+  },
+  {
+    "id": "applemusic-1336755804",
+    "name": "First",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e4/df/3e/e4df3e1e-dd03-d58e-8891-34497710f6c4/mzaf_6399788126915440907.plus.aac.p.m4a",
+    "duration": 211507,
+    "trackUrl": "https://music.apple.com/us/album/first/1336755639?i=1336755804",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755804"
+  },
+  {
+    "id": "applemusic-1336755805",
+    "name": "Hide and Seek",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9a/46/07/9a4607b7-d3d1-5e20-f8e5-cb5ef95ef101/mzaf_12125653861222834919.plus.aac.p.m4a",
+    "duration": 207533,
+    "trackUrl": "https://music.apple.com/us/album/hide-and-seek/1336755639?i=1336755805",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755805"
+  },
+  {
+    "id": "applemusic-1336755806",
+    "name": "Badly",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "4minutes Left",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7d/ab/b2/7dabb20a-ea6e-a94c-9b70-80d2c46f6b6a/mzaf_2862239642817130850.plus.aac.p.m4a",
+    "duration": 213000,
+    "trackUrl": "https://music.apple.com/us/album/badly/1336755639?i=1336755806",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/15/21/39/1521390c-47db-1613-81c7-e963a216214d/cover-4Minutes_Left_new.jpg/300x300bb.jpg",
+    "trackId": "1336755806"
+  },
+  {
+    "id": "applemusic-1465954995",
+    "name": "Christmas Song",
+    "artists": [
+      "4Minute, BEAST, G.NA, BTOB, KIM KILEE, Roh Ji Hoon, Shin Ji Hoon, Apink & Huh Gak"
+    ],
+    "album": "Christmas Song - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a3/00/f8/a300f86c-67c7-840a-11da-d4d124039e24/mzaf_9682240367308400236.plus.aac.p.m4a",
+    "duration": 254163,
+    "trackUrl": "https://music.apple.com/us/album/christmas-song/1465954761?i=1465954995",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1f/23/ca/1f23cac8-9462-6ea6-6da3-9a853fbd1ca3/cover-4minute_Apink.jpg/300x300bb.jpg",
+    "trackId": "1465954995"
+  },
+  {
+    "id": "applemusic-1344600779",
+    "name": "Freestyle",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Freestyle - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1d/21/ac/1d21ac9a-7194-1803-3ce0-36b63eb67bf4/mzaf_146469899928982687.plus.aac.p.m4a",
+    "duration": 200533,
+    "trackUrl": "https://music.apple.com/us/album/freestyle/1344600777?i=1344600779",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/90/b3/c7/90b3c7c8-77a1-9133-be12-44e8f4ed1ce1/cover-4minute_Freestyle.jpg/300x300bb.jpg",
+    "trackId": "1344600779"
+  },
+  {
+    "id": "applemusic-1530175108",
+    "name": "Good Bye",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Best of 4Minute",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/6f/78/2d6f78ec-4ca2-4782-8176-304419de8f62/mzaf_3072192216529263534.plus.aac.p.m4a",
+    "duration": 253557,
+    "trackUrl": "https://music.apple.com/us/album/good-bye/1530175104?i=1530175108",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f4/7d/8ef47d1a-f56d-1c34-3679-dc0904ab2bee/BEST_OF_4MINUTE.png/300x300bb.jpg",
+    "trackId": "1530175108"
+  },
+  {
+    "id": "applemusic-1698634350",
+    "name": "Dreams Come True",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "공부의 신 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/44/6d/36/446d365a-1ec9-2f7d-4bf5-27eed7a6dc7e/mzaf_8235668143511234513.plus.aac.p.m4a",
+    "duration": 202052,
+    "trackUrl": "https://music.apple.com/us/album/dreams-come-true/1698634348?i=1698634350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/06/3f/51/063f51c6-b340-3b8b-fa1c-19d18a87b9de/886449307005.jpg/300x300bb.jpg",
+    "trackId": "1698634350"
+  },
+  {
+    "id": "applemusic-1530175111",
+    "name": "Can't Make Up My Mind",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Best of 4Minute",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/d7/37/bed737ce-dec3-581e-10e6-f3e4af6be0b7/mzaf_16242779253353064102.plus.aac.p.m4a",
+    "duration": 221472,
+    "trackUrl": "https://music.apple.com/us/album/cant-make-up-my-mind/1530175104?i=1530175111",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f4/7d/8ef47d1a-f56d-1c34-3679-dc0904ab2bee/BEST_OF_4MINUTE.png/300x300bb.jpg",
+    "trackId": "1530175111"
+  },
+  {
+    "id": "applemusic-1530175112",
+    "name": "December",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Best of 4Minute",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/90/69/2b9069e0-54c5-9403-be75-d8b086454528/mzaf_11725189946743307855.plus.aac.p.m4a",
+    "duration": 237547,
+    "trackUrl": "https://music.apple.com/us/album/december/1530175104?i=1530175112",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f4/7d/8ef47d1a-f56d-1c34-3679-dc0904ab2bee/BEST_OF_4MINUTE.png/300x300bb.jpg",
+    "trackId": "1530175112"
+  },
+  {
+    "id": "applemusic-1530175113",
+    "name": "Why",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Best of 4Minute",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d2/35/14/d235147f-8e55-f594-a76e-e7e3b03b3030/mzaf_9123835344415965386.plus.aac.p.m4a",
+    "duration": 189177,
+    "trackUrl": "https://music.apple.com/us/album/why/1530175104?i=1530175113",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f4/7d/8ef47d1a-f56d-1c34-3679-dc0904ab2bee/BEST_OF_4MINUTE.png/300x300bb.jpg",
+    "trackId": "1530175113"
+  },
+  {
+    "id": "applemusic-1530175115",
+    "name": "Ready Go",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Best of 4Minute",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/ba/06/23ba06b7-ade5-37d7-20b7-bebc44a17f3c/mzaf_16053765282974219500.plus.aac.p.m4a",
+    "duration": 211890,
+    "trackUrl": "https://music.apple.com/us/album/ready-go/1530175104?i=1530175115",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f4/7d/8ef47d1a-f56d-1c34-3679-dc0904ab2bee/BEST_OF_4MINUTE.png/300x300bb.jpg",
+    "trackId": "1530175115"
+  },
+  {
+    "id": "applemusic-1530175327",
+    "name": "Love Tension",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Best of 4Minute",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/e0/73/bbe073cd-e3c2-0940-ccf1-3bb0f6fd8f3a/mzaf_17282983644097406827.plus.aac.p.m4a",
+    "duration": 226299,
+    "trackUrl": "https://music.apple.com/us/album/love-tension/1530175104?i=1530175327",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8e/f4/7d/8ef47d1a-f56d-1c34-3679-dc0904ab2bee/BEST_OF_4MINUTE.png/300x300bb.jpg",
+    "trackId": "1530175327"
+  },
+  {
+    "id": "applemusic-1698634352",
+    "name": "Because I'm Weary",
+    "artists": [
+      "Ernest"
+    ],
+    "album": "공부의 신 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/64/9f/bf/649fbf92-1841-f4b2-1df4-6aed9e97458a/mzaf_8877300297643266209.plus.aac.p.m4a",
+    "duration": 303621,
+    "trackUrl": "https://music.apple.com/us/album/because-im-weary/1698634348?i=1698634352",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/06/3f/51/063f51c6-b340-3b8b-fa1c-19d18a87b9de/886449307005.jpg/300x300bb.jpg",
+    "trackId": "1698634352"
+  },
+  {
+    "id": "applemusic-1628274369",
+    "name": "Personal Taste (Original Television Soundtrack), Pt. 3 - Making Love",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Personal Taste (Original Television Soundtrack), Pt. 3 - Making Love - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ab/cc/21/abcc2186-3b36-adf3-fbe9-7e54fa360b60/mzaf_17772463372026457791.plus.aac.p.m4a",
+    "duration": 221000,
+    "trackUrl": "https://music.apple.com/us/album/personal-taste-original-television-soundtrack-pt-3/1628274029?i=1628274369",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1e/42/30/1e423057-b6a1-c5ce-c8a5-8c02407f5131/8809856827012.jpg/300x300bb.jpg",
+    "trackId": "1628274369"
+  },
+  {
+    "id": "applemusic-1612069403",
+    "name": "One Thing",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "괜찮아, 아빠딸 (Original Television Soundtrack), Pt. 3 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4a/e2/4d/4ae24d3a-b0f3-938c-120b-8b40ad5d9f68/mzaf_8176318688984314088.plus.aac.p.m4a",
+    "duration": 198635,
+    "trackUrl": "https://music.apple.com/us/album/one-thing/1612069345?i=1612069403",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/75/d3/67/75d367d6-16d1-cd8d-3305-f1343dd8b74e/8809856765604.jpg/300x300bb.jpg",
+    "trackId": "1612069403"
+  },
+  {
+    "id": "applemusic-1345929961",
+    "name": "Sweet Sugar Honey! (Japanese Version)",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Ready Go (Standard) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0a/62/80/0a628097-9226-c926-d868-4acbdb909dfd/mzaf_11757804153437991329.plus.aac.p.m4a",
+    "duration": 208187,
+    "trackUrl": "https://music.apple.com/us/album/sweet-sugar-honey-japanese-version/1345929959?i=1345929961",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f2/b7/c7/f2b7c7b9-0721-1d47-69c9-19c1d3f4e13e/nCover-Ready_Go_Standard.jpg/300x300bb.jpg",
+    "trackId": "1345929961"
+  },
+  {
+    "id": "applemusic-588854392",
+    "name": "Welcome to the School",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "School 2013 (Original Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c6/ba/ae/c6baaedd-8abd-9f36-bb8d-ef06bcca2e61/mzaf_3518130629444308564.plus.aac.p.m4a",
+    "duration": 223880,
+    "trackUrl": "https://music.apple.com/us/album/welcome-to-the-school/588854156?i=588854392",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/8a/f5/af8af541-6e6c-a2c0-2d3a-a16da0276be4/886443815209.jpg/300x300bb.jpg",
+    "trackId": "588854392"
+  },
+  {
+    "id": "applemusic-463402599",
+    "name": "Jingle Jingle",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Winter Line (feat. Mario & Amen) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e3/49/c6/e349c662-b655-0d1b-7463-184f05beeade/mzaf_11953744904792648511.plus.aac.p.m4a",
+    "duration": 187587,
+    "trackUrl": "https://music.apple.com/us/album/jingle-jingle/463402590?i=463402599",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c2/e2/5f/mzi.qdzgmyvl.jpg/300x300bb.jpg",
+    "trackId": "463402599"
+  },
+  {
+    "id": "applemusic-1861177648",
+    "name": "Earth's representative Rolling Stars (Original Soundtrack) 'home run'",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Earth's representative Rolling Stars (Original Soundtrack) 'home run' - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/b3/c7/1cb3c7ed-139c-f7ac-fca4-432fdc5a8b63/mzaf_68514050051804196.plus.aac.p.m4a",
+    "duration": 231105,
+    "trackUrl": "https://music.apple.com/us/album/earths-representative-rolling-stars-original-soundtrack/1861177647?i=1861177648",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/61/03/74/61037464-31be-9f5b-9121-2ec849ccf2bb/191953493091.jpg/300x300bb.jpg",
+    "trackId": "1861177648"
+  },
+  {
+    "id": "applemusic-1607974088",
+    "name": "iCatch (feat. Manager)",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Crazy - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b6/49/81/b6498199-803e-5e69-2495-c91301ad36ea/mzaf_15348823979947749790.plus.aac.p.m4a",
+    "duration": 219480,
+    "trackUrl": "https://music.apple.com/jp/album/icatch-feat-manager/1607973856?i=1607974088",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/70/cb/c3/70cbc30b-f2d3-b726-acb6-0dbfda56b3b7/859757859917_cover.jpg/300x300bb.jpg",
+    "trackId": "1607974088"
+  },
+  {
+    "id": "applemusic-1808130114",
+    "name": "Dream Facer",
+    "artists": [
+      "4Minute"
+    ],
+    "album": "Volume Up",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/cf/ec/f2cfeca4-1e1d-12db-6829-4e120cfe8b20/mzaf_17708049380829414528.plus.aac.p.m4a",
+    "duration": 211369,
+    "trackUrl": "https://music.apple.com/jp/album/dream-facer/1808129718?i=1808130114",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/a3/90/b4a39090-720e-2175-c0ef-21f44ae59221/4550707702845_cover.jpg/300x300bb.jpg",
+    "trackId": "1808130114"
+  }
+]

@@ -461,15 +461,15 @@ export default function AudioPlayer({
           🚫 Song Preview Unavailable
         </div>
         <div className="text-white/80 mb-4 max-[400px]:mb-3 text-sm max-[400px]:text-xs">
-          No preview available for this song on iTunes.
+          No preview available for this song on Apple Music.
         </div>
         <a
-          href={song.itunesUrl}
+          href={song.trackUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block px-4 max-[400px]:px-3 py-2 max-[400px]:py-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-2xl font-bold text-sm max-[400px]:text-xs hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
         >
-          🎵 Listen on iTunes
+          🎵 Listen on Apple Music
         </a>
       </div>
     );
