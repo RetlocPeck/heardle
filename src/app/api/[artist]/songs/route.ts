@@ -1,19 +1,11 @@
-import { NextResponse } from 'next/server';
-import ITunesService from '@/lib/services/itunesService';
-import { handleApiError } from '@/lib/utils/apiErrorHandler';
+import AppleMusicService from '@/lib/services/appleMusicService';
+import { createArtistRoute } from '@/lib/utils/createArtistRoute';
 
-export async function GET(
-  request: Request,
-  { params }: { params: Promise<{ artist: string }> }
-) {
-  try {
-    const { artist } = await params;
-    const itunesService = ITunesService.getInstance();
-    const songs = await itunesService.searchSongs(artist);
-
-    return NextResponse.json({ songs });
-  } catch (error) {
-    const { artist } = await params;
-    return handleApiError(error, artist, 'get songs');
-  }
-}
+export const GET = createArtistRoute(
+  async (artist) => {
+    const service = AppleMusicService.getInstance();
+    const songs = await service.searchSongs(artist);
+    return { songs };
+  },
+  { operation: 'get songs' }
+);

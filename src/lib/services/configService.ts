@@ -1,4 +1,4 @@
-import { ArtistConfig, getArtistById, getAllArtistIds, isValidArtistId, ARTISTS } from '@/config/artists';
+import { ArtistConfig, getArtistById, getAllArtists, ARTISTS } from '@/config/artists';
 
 export class ConfigService {
   private static instance: ConfigService;
@@ -26,21 +26,21 @@ export class ConfigService {
    * Get all available artists
    */
   getAllArtists(): ArtistConfig[] {
-    return [...ARTISTS];
+    return getAllArtists();
   }
 
   /**
    * Get all artist IDs
    */
   getAllArtistIds(): string[] {
-    return getAllArtistIds();
+    return ARTISTS.map(a => a.id);
   }
 
   /**
    * Check if artist ID is valid
    */
   isValidArtist(id: string): boolean {
-    return isValidArtistId(id);
+    return getArtistById(id) !== null;
   }
 
   /**
@@ -52,23 +52,7 @@ export class ConfigService {
   }
 
   /**
-   * Get artist metadata
-   */
-  getArtistMetadata(id: string) {
-    const artist = this.getArtist(id);
-    return artist?.metadata || null;
-  }
-
-  /**
-   * Get iTunes artist ID for API calls
-   */
-  getITunesArtistId(id: string): string | null {
-    const artist = this.getArtist(id);
-    return artist?.itunesArtistId || null;
-  }
-
-  /**
-   * Get search terms for iTunes API
+   * Get search terms for Apple Music API
    */
   getSearchTerms(id: string): string[] {
     const artist = this.getArtist(id);
@@ -117,17 +101,10 @@ export class ConfigService {
   }
 
   /**
-   * Get artist statistics
+   * Get artist statistics (deprecated - metadata removed)
    */
-  getArtistStats(id: string) {
-    const artist = this.getArtist(id);
-    if (!artist) return null;
-
-    return {
-      songCount: artist.metadata.songCount,
-      releaseYear: artist.metadata.releaseYear,
-      yearsActive: new Date().getFullYear() - artist.metadata.releaseYear,
-    };
+  getArtistStats() {
+    return null;
   }
 
   /**
@@ -145,16 +122,12 @@ export class ConfigService {
     // Basic validation checks
     const errors: string[] = [];
 
-    if (!artist.itunesArtistId) {
-      errors.push('iTunes Artist ID is missing');
-    }
-
     if (!artist.searchTerms || artist.searchTerms.length === 0) {
       errors.push('Search terms are missing');
     }
 
-    if (!artist.metadata.imageUrl) {
-      errors.push('Image URL is missing');
+    if (!artist.theme) {
+      errors.push('Theme is missing');
     }
 
     return {

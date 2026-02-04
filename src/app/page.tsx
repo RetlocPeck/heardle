@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import StatisticsButton from '@/components/stats/StatisticsButton';
-import SupportButton from '@/components/SupportButton';
+import SupportButton from '@/components/ui/buttons/SupportButton';
+import ArtistImage from '@/components/artist/ArtistImage';
+import AnimatedBackground from '@/components/ui/AnimatedBackground';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -18,12 +20,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-        <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-      </div>
+      <AnimatedBackground blobCount={3} />
 
       {/* Header */}
       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
@@ -135,31 +132,30 @@ export default function HomePage() {
                     </div>
                   )}
                   
-                                     {/* Year Pill */}
+                                     {/* Year Pill - Hidden (no metadata) */}
                    <div className="inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-neutral-800/90 text-white px-2 sm:px-3 text-xs sm:text-sm font-semibold invisible">
-                     {artist.metadata.releaseYear}
+                     2024
                    </div>
                 </div>
                 
                 {/* Artist Image */}
                 <div className="relative h-32 sm:h-48 lg:h-64 overflow-hidden">
-                  <img
-                    src={artist.metadata.imageUrl}
+                  <ArtistImage
+                    artistId={artist.id}
                     alt={artist.displayName}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.background = `linear-gradient(135deg, rgb(168, 85, 247), rgb(236, 72, 153))`;
-                      target.style.display = 'none';
-                    }}
+                    width={600}
+                    height={600}
+                    priority={artist.featured}
+                    fetchDelay={index * 100} // Stagger requests by 100ms each
                   />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   
-                  {/* Stats Badge */}
+                  {/* Stats Badge - Hidden (no metadata) */}
                   <div className="absolute top-2 sm:top-3 lg:top-4 right-2 sm:right-3 lg:right-4 invisible">
                     <div className={`backdrop-blur-md ${artist.theme.bgColor} ${artist.theme.textColor} px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-semibold border border-white/30`}>
-                      {artist.metadata.songCount}+ songs
+                      K-pop
                     </div>
                   </div>
                 </div>

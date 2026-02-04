@@ -2,8 +2,8 @@
  * Utility functions for game logic and scoring
  */
 
-import { GameState } from '@/lib/game/gameLogic';
-import { SKIP_MARKER } from '@/lib/constants/game';
+import { GameState } from '@/lib/game';
+import { SKIP_MARKER } from '@/lib/constants';
 
 /**
  * Calculate game score based on number of tries used

@@ -1,8 +1,20 @@
-import { ITunesTrack } from '@/types/song';
-import type { FilteredTrack } from '@/lib/services/trackFilters';
+import type { FilteredTrack, GenericTrack } from '@/lib/services/trackFilters';
 
 // Re-export for backward compatibility
 export type { FilteredTrack };
+
+/**
+ * Get track name from either API format
+ */
+function getTrackName(track: GenericTrack): string {
+  if ('trackName' in track) {
+    return track.trackName || '';
+  }
+  if ('attributes' in track) {
+    return track.attributes.name || '';
+  }
+  return '';
+}
 
 /**
  * Normalize song name for grouping (remove parentheses, normalize punctuation and spacing)
@@ -82,21 +94,21 @@ function scoreSongVersion(songName: string): number {
  * Deduplicate song versions and keep the best one from each group
  */
 export function deduplicateSongVersions(
-  validTracks: ITunesTrack[], 
+  validTracks: GenericTrack[], 
   filteredOutTracks: FilteredTrack[]
-): ITunesTrack[] {
+): GenericTrack[] {
   // Group tracks by normalized song name
-  const songGroups = new Map<string, ITunesTrack[]>();
+  const songGroups = new Map<string, GenericTrack[]>();
   
   validTracks.forEach(track => {
-    const normalizedName = normalizeSongName(track.trackName);
+    const normalizedName = normalizeSongName(getTrackName(track));
     if (!songGroups.has(normalizedName)) {
       songGroups.set(normalizedName, []);
     }
     songGroups.get(normalizedName)!.push(track);
   });
   
-  const deduplicatedTracks: ITunesTrack[] = [];
+  const deduplicatedTracks: GenericTrack[] = [];
   let duplicatesRemoved = 0;
   
   // For each group, pick the best version
@@ -108,7 +120,7 @@ export function deduplicateSongVersions(
       // Multiple versions, score them and pick the best
       const scoredTracks = tracks.map(track => ({
         track,
-        score: scoreSongVersion(track.trackName)
+        score: scoreSongVersion(getTrackName(track))
       }));
       
       // Sort by score (highest first)
@@ -120,7 +132,8 @@ export function deduplicateSongVersions(
       
       // Add the rejected versions to filtered out tracks
       scoredTracks.slice(1).forEach(rejected => {
-        const reason = `Duplicate version (kept "${winner.track.trackName}" with score ${winner.score} over score ${rejected.score})`;
+        const winnerName = getTrackName(winner.track);
+        const reason = `Duplicate version (kept "${winnerName}" with score ${winner.score} over score ${rejected.score})`;
         filteredOutTracks.push({
           track: rejected.track,
           reason

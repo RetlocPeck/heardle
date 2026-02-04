@@ -1,0 +1,912 @@
+[
+  {
+    "id": "applemusic-982223884",
+    "name": "Ah Yeah",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Ah Yeah",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8a/45/6a/8a456a4f-1b5b-177b-9ed2-e11c6054fc2f/mzaf_5638814282414059040.plus.aac.p.m4a",
+    "duration": 199643,
+    "trackUrl": "https://music.apple.com/us/album/ah-yeah/982223883?i=982223884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/8c/94/168c945d-3fbd-9179-0cf3-e6819b697a0d/dj.mzibvkad.jpg/300x300bb.jpg",
+    "trackId": "982223884"
+  },
+  {
+    "id": "applemusic-982224187",
+    "name": "A Sul Hae",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Ah Yeah",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/3e/e0/ac3ee017-18a7-3eec-f944-a3f81cca6067/mzaf_7071313107039925204.plus.aac.p.m4a",
+    "duration": 212512,
+    "trackUrl": "https://music.apple.com/us/album/a-sul-hae/982223883?i=982224187",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/8c/94/168c945d-3fbd-9179-0cf3-e6819b697a0d/dj.mzibvkad.jpg/300x300bb.jpg",
+    "trackId": "982224187"
+  },
+  {
+    "id": "applemusic-982224188",
+    "name": "Todak Todak",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Ah Yeah",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/06/fc/cb/06fccb47-2913-e557-077e-ac20c2fd6ca3/mzaf_15883148817151517457.plus.aac.p.m4a",
+    "duration": 231443,
+    "trackUrl": "https://music.apple.com/us/album/todak-todak/982223883?i=982224188",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/8c/94/168c945d-3fbd-9179-0cf3-e6819b697a0d/dj.mzibvkad.jpg/300x300bb.jpg",
+    "trackId": "982224188"
+  },
+  {
+    "id": "applemusic-982224189",
+    "name": "Without U",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Ah Yeah",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/9c/a8/239ca8ab-1c21-082a-256c-a7a5fc99c849/mzaf_4438782505426468044.plus.aac.p.m4a",
+    "duration": 211097,
+    "trackUrl": "https://music.apple.com/us/album/without-u/982223883?i=982224189",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/8c/94/168c945d-3fbd-9179-0cf3-e6819b697a0d/dj.mzibvkad.jpg/300x300bb.jpg",
+    "trackId": "982224189"
+  },
+  {
+    "id": "applemusic-982224190",
+    "name": "1M",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Ah Yeah",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/2e/4d/8d2e4ddb-d8ae-e20e-5366-c0520b4f1124/mzaf_17464310956751864985.plus.aac.p.m4a",
+    "duration": 231012,
+    "trackUrl": "https://music.apple.com/us/album/1m/982223883?i=982224190",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/8c/94/168c945d-3fbd-9179-0cf3-e6819b697a0d/dj.mzibvkad.jpg/300x300bb.jpg",
+    "trackId": "982224190"
+  },
+  {
+    "id": "applemusic-982224191",
+    "name": "Up & Down",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Ah Yeah",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8d/fd/85/8dfd8584-1410-d423-0d62-4a85f5765d78/mzaf_4583781616943400024.plus.aac.p.m4a",
+    "duration": 189882,
+    "trackUrl": "https://music.apple.com/us/album/up-down/982223883?i=982224191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/8c/94/168c945d-3fbd-9179-0cf3-e6819b697a0d/dj.mzibvkad.jpg/300x300bb.jpg",
+    "trackId": "982224191"
+  },
+  {
+    "id": "applemusic-567974158",
+    "name": "Every Night",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Every Night - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/26/a7/e0/26a7e073-1be3-ae9d-320c-74d6a43fa84e/mzaf_4774602405697313467.plus.aac.p.m4a",
+    "duration": 231080,
+    "trackUrl": "https://music.apple.com/us/album/every-night/567974148?i=567974158",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/54/11/d0/5411d048-d4f8-87da-4647-15228685cd81/KM0001772-EXID_DS_-1002.jpg/300x300bb.jpg",
+    "trackId": "567974158"
+  },
+  {
+    "id": "applemusic-1062476619",
+    "name": "Hot Pink",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Hot Pink - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/c0/95/e8c0957d-027f-962e-b8e0-897ebbf86f3b/mzaf_5603901952880413467.plus.aac.p.m4a",
+    "duration": 200729,
+    "trackUrl": "https://music.apple.com/us/album/hot-pink/1062476618?i=1062476619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/54/ad/6f/54ad6f30-d626-8d10-64cc-a974dc91b6af/886445635003.jpg/300x300bb.jpg",
+    "trackId": "1062476619"
+  },
+  {
+    "id": "applemusic-1221251614",
+    "name": "Boy",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Eclipse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/09/af/12/09af127d-cb5f-301a-e91c-c3bdc263f482/mzaf_9338773866219580080.plus.aac.p.m4a",
+    "duration": 207393,
+    "trackUrl": "https://music.apple.com/us/album/boy/1221251342?i=1221251614",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/13/11/611311ba-fd41-51ec-678e-e38f9cc22754/886446448145.jpg/300x300bb.jpg",
+    "trackId": "1221251614"
+  },
+  {
+    "id": "applemusic-1221251616",
+    "name": "Night Rather Than Day",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Eclipse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/dc/83/f4/dc83f47c-4bb9-cda3-c839-2e8d31414993/mzaf_12723341265373607048.plus.aac.p.m4a",
+    "duration": 198414,
+    "trackUrl": "https://music.apple.com/us/album/night-rather-than-day/1221251342?i=1221251616",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/13/11/611311ba-fd41-51ec-678e-e38f9cc22754/886446448145.jpg/300x300bb.jpg",
+    "trackId": "1221251616"
+  },
+  {
+    "id": "applemusic-1221251617",
+    "name": "How Why",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Eclipse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cf/f2/f3/cff2f3f8-9f1b-3a60-bf67-135a18029471/mzaf_3090480274530982688.plus.aac.p.m4a",
+    "duration": 231717,
+    "trackUrl": "https://music.apple.com/us/album/how-why/1221251342?i=1221251617",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/13/11/611311ba-fd41-51ec-678e-e38f9cc22754/886446448145.jpg/300x300bb.jpg",
+    "trackId": "1221251617"
+  },
+  {
+    "id": "applemusic-1221251618",
+    "name": "Woo Yoo (Hani Solo)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Eclipse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/1c/c4/ae1cc456-0508-3153-584b-189a25c89877/mzaf_18442503755255769439.plus.aac.p.m4a",
+    "duration": 204353,
+    "trackUrl": "https://music.apple.com/us/album/woo-yoo-hani-solo/1221251342?i=1221251618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/13/11/611311ba-fd41-51ec-678e-e38f9cc22754/886446448145.jpg/300x300bb.jpg",
+    "trackId": "1221251618"
+  },
+  {
+    "id": "applemusic-1221251620",
+    "name": "Velvet (LE Solo)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Eclipse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/a4/15/23a4150b-7657-f55b-81c9-35eb2b66a6fd/mzaf_3260869150233956079.plus.aac.p.m4a",
+    "duration": 192157,
+    "trackUrl": "https://music.apple.com/us/album/velvet-le-solo/1221251342?i=1221251620",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/13/11/611311ba-fd41-51ec-678e-e38f9cc22754/886446448145.jpg/300x300bb.jpg",
+    "trackId": "1221251620"
+  },
+  {
+    "id": "applemusic-1305881084",
+    "name": "DDD",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Full Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/12/e7/2e12e792-fc11-e7f9-5588-0ed6d081bfa8/mzaf_6809332270848430998.plus.aac.p.m4a",
+    "duration": 205821,
+    "trackUrl": "https://music.apple.com/us/album/ddd/1305881083?i=1305881084",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/06/27/0e0627d2-24f5-eac9-4a8b-9b24dbea5ca9/886446846552.jpg/300x300bb.jpg",
+    "trackId": "1305881084"
+  },
+  {
+    "id": "applemusic-1305881088",
+    "name": "Too Good to Me",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Full Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/99/7d/c8997d89-bbee-4e92-09a7-cea9836de48b/mzaf_2476421135344989487.plus.aac.p.m4a",
+    "duration": 204904,
+    "trackUrl": "https://music.apple.com/us/album/too-good-to-me/1305881083?i=1305881088",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/06/27/0e0627d2-24f5-eac9-4a8b-9b24dbea5ca9/886446846552.jpg/300x300bb.jpg",
+    "trackId": "1305881088"
+  },
+  {
+    "id": "applemusic-1305881094",
+    "name": "Dreamer (Solji Solo)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Full Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/9b/91/829b9161-8f66-9fbb-8b1b-057d758659af/mzaf_10344232663204124700.plus.aac.p.m4a",
+    "duration": 204502,
+    "trackUrl": "https://music.apple.com/us/album/dreamer-solji-solo/1305881083?i=1305881094",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/06/27/0e0627d2-24f5-eac9-4a8b-9b24dbea5ca9/886446846552.jpg/300x300bb.jpg",
+    "trackId": "1305881094"
+  },
+  {
+    "id": "applemusic-1305881095",
+    "name": "Alice (Jeonghwa Solo) [feat. PinkMoon]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Full Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/35/58/39/355839fb-cc22-e381-cb86-9d6292afdfa5/mzaf_9277425582309114883.plus.aac.p.m4a",
+    "duration": 199401,
+    "trackUrl": "https://music.apple.com/us/album/alice-jeonghwa-solo-feat-pinkmoon/1305881083?i=1305881095",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/06/27/0e0627d2-24f5-eac9-4a8b-9b24dbea5ca9/886446846552.jpg/300x300bb.jpg",
+    "trackId": "1305881095"
+  },
+  {
+    "id": "applemusic-1305881462",
+    "name": "Weeknd (LE & Hani)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Full Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/04/7c/02047c10-511c-9340-c3b6-b1e91fb17580/mzaf_13203529766357234231.plus.aac.p.m4a",
+    "duration": 243443,
+    "trackUrl": "https://music.apple.com/us/album/weeknd-le-hani/1305881083?i=1305881462",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/06/27/0e0627d2-24f5-eac9-4a8b-9b24dbea5ca9/886446846552.jpg/300x300bb.jpg",
+    "trackId": "1305881462"
+  },
+  {
+    "id": "applemusic-1305881463",
+    "name": "Foolish (Hyelin Solo)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Full Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6c/85/12/6c85123b-faf5-ef70-97ac-c6c86e77476d/mzaf_7332648669849967520.plus.aac.p.m4a",
+    "duration": 253571,
+    "trackUrl": "https://music.apple.com/us/album/foolish-hyelin-solo/1305881083?i=1305881463",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/06/27/0e0627d2-24f5-eac9-4a8b-9b24dbea5ca9/886446846552.jpg/300x300bb.jpg",
+    "trackId": "1305881463"
+  },
+  {
+    "id": "applemusic-1463174479",
+    "name": "Me & You",
+    "artists": [
+      "EXID"
+    ],
+    "album": "WE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/eb/50/fc/eb50fc31-6c6a-0b52-7d86-fe3abddb4900/mzaf_13021087738659827169.plus.aac.p.m4a",
+    "duration": 203507,
+    "trackUrl": "https://music.apple.com/us/album/me-you/1463174475?i=1463174479",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/fa/07/84fa0716-b58c-a5aa-c6f1-9a5573a18ede/886447736685.jpg/300x300bb.jpg",
+    "trackId": "1463174479"
+  },
+  {
+    "id": "applemusic-1463174480",
+    "name": "We Are..",
+    "artists": [
+      "EXID"
+    ],
+    "album": "WE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/ff/b3/29ffb316-030e-e7b3-1204-316f91ef5de7/mzaf_17566965535294342275.plus.aac.p.m4a",
+    "duration": 231800,
+    "trackUrl": "https://music.apple.com/us/album/we-are/1463174475?i=1463174480",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/fa/07/84fa0716-b58c-a5aa-c6f1-9a5573a18ede/886447736685.jpg/300x300bb.jpg",
+    "trackId": "1463174480"
+  },
+  {
+    "id": "applemusic-1463174481",
+    "name": "The Vibe",
+    "artists": [
+      "EXID"
+    ],
+    "album": "WE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/72/67/8b/72678b31-2638-c898-cc1e-42b31c2b4e47/mzaf_11929896658986265561.plus.aac.p.m4a",
+    "duration": 201627,
+    "trackUrl": "https://music.apple.com/us/album/the-vibe/1463174475?i=1463174481",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/fa/07/84fa0716-b58c-a5aa-c6f1-9a5573a18ede/886447736685.jpg/300x300bb.jpg",
+    "trackId": "1463174481"
+  },
+  {
+    "id": "applemusic-1463174482",
+    "name": "How You Doin'",
+    "artists": [
+      "EXID"
+    ],
+    "album": "WE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bb/f3/b9/bbf3b987-8fee-1e84-0585-ce0959895201/mzaf_10709784822287537106.plus.aac.p.m4a",
+    "duration": 187107,
+    "trackUrl": "https://music.apple.com/us/album/how-you-doin/1463174475?i=1463174482",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/fa/07/84fa0716-b58c-a5aa-c6f1-9a5573a18ede/886447736685.jpg/300x300bb.jpg",
+    "trackId": "1463174482"
+  },
+  {
+    "id": "applemusic-1463174483",
+    "name": "Midnight",
+    "artists": [
+      "EXID"
+    ],
+    "album": "WE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/3c/79/ce3c79d2-b339-44d7-780e-35e26e02328f/mzaf_9419764434715682151.plus.aac.p.m4a",
+    "duration": 213853,
+    "trackUrl": "https://music.apple.com/us/album/midnight/1463174475?i=1463174483",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/fa/07/84fa0716-b58c-a5aa-c6f1-9a5573a18ede/886447736685.jpg/300x300bb.jpg",
+    "trackId": "1463174483"
+  },
+  {
+    "id": "applemusic-1365468222",
+    "name": "Lady",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Lady - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/5b/69/ec5b6926-e8b1-436d-4b6f-352804ec0b31/mzaf_6356819554333939158.plus.aac.p.m4a",
+    "duration": 190502,
+    "trackUrl": "https://music.apple.com/us/album/lady/1365463591?i=1365468222",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/5a/4f/765a4ffc-6441-33b3-88c6-3dd547acb10b/886447045336.jpg/300x300bb.jpg",
+    "trackId": "1365468222"
+  },
+  {
+    "id": "applemusic-1118367612",
+    "name": "Don't Want a Drive",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/b9/70/deb97074-2b08-0597-76be-a7f85374edad/mzaf_3905041960317657821.plus.aac.p.m4a",
+    "duration": 192718,
+    "trackUrl": "https://music.apple.com/us/album/dont-want-a-drive/1118367147?i=1118367612",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367612"
+  },
+  {
+    "id": "applemusic-1118367642",
+    "name": "L.I.E",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/45/17/6d45179a-b140-788a-cfed-e54c50ad269b/mzaf_12637056592737132861.plus.aac.p.m4a",
+    "duration": 211100,
+    "trackUrl": "https://music.apple.com/us/album/l-i-e/1118367147?i=1118367642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367642"
+  },
+  {
+    "id": "applemusic-1118367669",
+    "name": "I Know",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3e/dc/b4/3edcb4ea-f029-6e99-fb42-4464eb92d01f/mzaf_11334679996439628310.plus.aac.p.m4a",
+    "duration": 194919,
+    "trackUrl": "https://music.apple.com/us/album/i-know/1118367147?i=1118367669",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367669"
+  },
+  {
+    "id": "applemusic-1118367691",
+    "name": "Hello (Hani Solo)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c9/5f/e9/c95fe9e3-a695-ccff-eba0-ec3ab0d62325/mzaf_1065702857197506282.plus.aac.p.m4a",
+    "duration": 190211,
+    "trackUrl": "https://music.apple.com/us/album/hello-hani-solo/1118367147?i=1118367691",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367691"
+  },
+  {
+    "id": "applemusic-1118367729",
+    "name": "Cream",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/35/ab/9e/35ab9e6b-4bd8-f49e-904d-241f744b14f6/mzaf_15899778071881346114.plus.aac.p.m4a",
+    "duration": 193252,
+    "trackUrl": "https://music.apple.com/us/album/cream/1118367147?i=1118367729",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367729"
+  },
+  {
+    "id": "applemusic-1118367743",
+    "name": "3% (Solji Solo)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/52/fd/4c52fda2-c5f3-9f76-525d-a9a95ecb7c91/mzaf_13105640727350505620.plus.aac.p.m4a",
+    "duration": 217985,
+    "trackUrl": "https://music.apple.com/us/album/3-solji-solo/1118367147?i=1118367743",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367743"
+  },
+  {
+    "id": "applemusic-1118367758",
+    "name": "Only One",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/aa/60/15/aa6015be-1bde-eac8-4ea5-f85dd22a0f49/mzaf_927571326747408557.plus.aac.p.m4a",
+    "duration": 233253,
+    "trackUrl": "https://music.apple.com/us/album/only-one/1118367147?i=1118367758",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367758"
+  },
+  {
+    "id": "applemusic-1118367759",
+    "name": "No Way",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/20/f4/bc/20f4bc55-0294-fed2-281c-8511221e5bfe/mzaf_6087227278953376420.plus.aac.p.m4a",
+    "duration": 212262,
+    "trackUrl": "https://music.apple.com/us/album/no-way/1118367147?i=1118367759",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367759"
+  },
+  {
+    "id": "applemusic-1118367760",
+    "name": "Are You Hungry? (Jeonghwa & Hyelin)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/34/d2/5f/34d25f14-ea35-6b66-ab1d-708a3756362b/mzaf_15775288242951282081.plus.aac.p.m4a",
+    "duration": 198386,
+    "trackUrl": "https://music.apple.com/us/album/are-you-hungry-jeonghwa-hyelin/1118367147?i=1118367760",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367760"
+  },
+  {
+    "id": "applemusic-1118367761",
+    "name": "Like the Seasons",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/33/84/d7/3384d70a-8556-6819-acb7-21b77f9c3d8f/mzaf_11248879359444177096.plus.aac.p.m4a",
+    "duration": 226337,
+    "trackUrl": "https://music.apple.com/us/album/like-the-seasons/1118367147?i=1118367761",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367761"
+  },
+  {
+    "id": "applemusic-1118367765",
+    "name": "Good",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Street",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/55/29/b95529ad-b4ea-46f1-afd7-d6872c4684b6/mzaf_18114566486430575881.plus.aac.p.m4a",
+    "duration": 203846,
+    "trackUrl": "https://music.apple.com/us/album/good/1118367147?i=1118367765",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/c4/81/0a/c4810ad3-f63d-2962-c970-c0134c16b5e3/886445936308.jpg/300x300bb.jpg",
+    "trackId": "1118367765"
+  },
+  {
+    "id": "applemusic-1451469266",
+    "name": "Trouble",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Trouble - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/5f/89/265f89af-ed6c-7556-9918-d5b6022993fe/mzaf_2716706968629220594.plus.aac.p.m4a",
+    "duration": 240715,
+    "trackUrl": "https://music.apple.com/us/album/trouble/1451469205?i=1451469266",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e2/c3/df/e2c3dfb5-4311-1fb7-93a3-85ceb13b742d/4538182805435_cov.jpg/300x300bb.jpg",
+    "trackId": "1451469266"
+  },
+  {
+    "id": "applemusic-1442697100",
+    "name": "I Love You",
+    "artists": [
+      "EXID"
+    ],
+    "album": "I Love You - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/99/02/84990205-6094-4685-548d-73cecc5a7edd/mzaf_11818661543164605106.plus.aac.p.m4a",
+    "duration": 194699,
+    "trackUrl": "https://music.apple.com/us/album/i-love-you/1442697099?i=1442697100",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/1e/16/f0/1e16f05a-140d-0d23-6369-4ab8cbd4c2f3/886447445686.jpg/300x300bb.jpg",
+    "trackId": "1442697100"
+  },
+  {
+    "id": "applemusic-1645499031",
+    "name": "FIRE",
+    "artists": [
+      "EXID"
+    ],
+    "album": "X - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/35/cd/ec35cd8e-d41f-8f37-8000-75306368db8f/mzaf_10481190887717230379.plus.aac.p.m4a",
+    "duration": 207013,
+    "trackUrl": "https://music.apple.com/us/album/fire/1645499030?i=1645499031",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/c4/db/b9c4dbd2-de5d-9cdc-da53-a04117812ffb/196589436696.jpg/300x300bb.jpg",
+    "trackId": "1645499031"
+  },
+  {
+    "id": "applemusic-1645499032",
+    "name": "IDK (I DON'T KNOW)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "X - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/35/5c/57355cb9-b917-95a1-94d3-a6aba9472f9f/mzaf_133456857740258434.plus.aac.p.m4a",
+    "duration": 208293,
+    "trackUrl": "https://music.apple.com/us/album/idk-i-dont-know/1645499030?i=1645499032",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/c4/db/b9c4dbd2-de5d-9cdc-da53-a04117812ffb/196589436696.jpg/300x300bb.jpg",
+    "trackId": "1645499032"
+  },
+  {
+    "id": "applemusic-1645499033",
+    "name": "LEGGO",
+    "artists": [
+      "EXID"
+    ],
+    "album": "X - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/4a/ba/a24abaf1-575e-37f7-d460-d57f86f8ec32/mzaf_3686978518435346291.plus.aac.p.m4a",
+    "duration": 204440,
+    "trackUrl": "https://music.apple.com/us/album/leggo/1645499030?i=1645499033",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/c4/db/b9c4dbd2-de5d-9cdc-da53-a04117812ffb/196589436696.jpg/300x300bb.jpg",
+    "trackId": "1645499033"
+  },
+  {
+    "id": "applemusic-552859133",
+    "name": "Better Together",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Hippity Hop - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/62/2a/9b622ac9-141e-1364-2e50-7123fd114375/mzaf_3675805837244073599.plus.aac.p.m4a",
+    "duration": 235104,
+    "trackUrl": "https://music.apple.com/us/album/better-together/552859087?i=552859133",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6f/b4/ec/6fb4ecec-297f-a54c-bf1d-7f6d88795ce1/KM0001704-EXID_HIPPITY_HOP_-0813.jpg/300x300bb.jpg",
+    "trackId": "552859133"
+  },
+  {
+    "id": "applemusic-552859134",
+    "name": "I Feel Good",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Hippity Hop - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/07/e1/e5/07e1e5f0-564e-9945-4a5d-fdd25ea5dd9e/mzaf_11591794603115467049.plus.aac.p.m4a",
+    "duration": 207258,
+    "trackUrl": "https://music.apple.com/us/album/i-feel-good/552859087?i=552859134",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6f/b4/ec/6fb4ecec-297f-a54c-bf1d-7f6d88795ce1/KM0001704-EXID_HIPPITY_HOP_-0813.jpg/300x300bb.jpg",
+    "trackId": "552859134"
+  },
+  {
+    "id": "applemusic-552859135",
+    "name": "Call",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Hippity Hop - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/04/86/ed/0486ed40-9a49-a4ee-c0ab-3d14dab0a117/mzaf_315219686592315911.plus.aac.p.m4a",
+    "duration": 232048,
+    "trackUrl": "https://music.apple.com/us/album/call/552859087?i=552859135",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6f/b4/ec/6fb4ecec-297f-a54c-bf1d-7f6d88795ce1/KM0001704-EXID_HIPPITY_HOP_-0813.jpg/300x300bb.jpg",
+    "trackId": "552859135"
+  },
+  {
+    "id": "applemusic-552859136",
+    "name": "Think About",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Hippity Hop - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a5/78/6e/a5786ec0-cff7-d01c-b3f5-8115c8642b35/mzaf_15707524355564226157.plus.aac.p.m4a",
+    "duration": 222095,
+    "trackUrl": "https://music.apple.com/us/album/think-about/552859087?i=552859136",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6f/b4/ec/6fb4ecec-297f-a54c-bf1d-7f6d88795ce1/KM0001704-EXID_HIPPITY_HOP_-0813.jpg/300x300bb.jpg",
+    "trackId": "552859136"
+  },
+  {
+    "id": "applemusic-552859137",
+    "name": "Whoz That Girl?, Pt. 2",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Hippity Hop - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/45/23/31/45233138-1843-0b1c-a4a9-c425d71991ea/mzaf_14955908883843694853.plus.aac.p.m4a",
+    "duration": 224786,
+    "trackUrl": "https://music.apple.com/us/album/whoz-that-girl-pt-2/552859087?i=552859137",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6f/b4/ec/6fb4ecec-297f-a54c-bf1d-7f6d88795ce1/KM0001704-EXID_HIPPITY_HOP_-0813.jpg/300x300bb.jpg",
+    "trackId": "552859137"
+  },
+  {
+    "id": "applemusic-503473016",
+    "name": "I Do",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Holla - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7b/54/4c/7b544c36-6ae0-b067-f2f0-f062961a4544/mzaf_10907412069433934489.plus.aac.p.m4a",
+    "duration": 106653,
+    "trackUrl": "https://music.apple.com/us/album/i-do/503473012?i=503473016",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/f6/d0/21/mzi.ovegjuft.jpg/300x300bb.jpg",
+    "trackId": "503473016"
+  },
+  {
+    "id": "applemusic-503473022",
+    "name": "Whoz That Girl",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Holla - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/c3/7f/43c37f2c-a0a7-1aeb-9198-a3782f53e990/mzaf_14949849256127927229.plus.aac.p.m4a",
+    "duration": 210040,
+    "trackUrl": "https://music.apple.com/us/album/whoz-that-girl/503473012?i=503473022",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/f6/d0/21/mzi.ovegjuft.jpg/300x300bb.jpg",
+    "trackId": "503473022"
+  },
+  {
+    "id": "applemusic-1527027094",
+    "name": "B.L.E.S.S.E.D",
+    "artists": [
+      "EXID"
+    ],
+    "album": "B.L.E.S.S.E.D",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/b6/e6/cfb6e62b-c719-aa87-1b74-fdb58f955074/mzaf_16111635903182167476.plus.aac.p.m4a",
+    "duration": 194973,
+    "trackUrl": "https://music.apple.com/us/album/b-l-e-s-s-e-d/1527027092?i=1527027094",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/13/53/a8135332-1331-bd9f-7284-5798fda447e7/4538182906651_cov.jpg/300x300bb.jpg",
+    "trackId": "1527027094"
+  },
+  {
+    "id": "applemusic-1527027313",
+    "name": "Official",
+    "artists": [
+      "EXID"
+    ],
+    "album": "B.L.E.S.S.E.D",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/43/db/af43db35-b7fb-946e-bf11-90dc1ff351f0/mzaf_14198670494629584310.plus.aac.p.m4a",
+    "duration": 214307,
+    "trackUrl": "https://music.apple.com/us/album/official/1527027092?i=1527027313",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/13/53/a8135332-1331-bd9f-7284-5798fda447e7/4538182906651_cov.jpg/300x300bb.jpg",
+    "trackId": "1527027313"
+  },
+  {
+    "id": "applemusic-1527027316",
+    "name": "Bad Girl for You",
+    "artists": [
+      "EXID"
+    ],
+    "album": "B.L.E.S.S.E.D",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/87/44/99874477-189e-ad75-39e8-8cd7996c0d25/mzaf_11154216116326869042.plus.aac.p.m4a",
+    "duration": 212747,
+    "trackUrl": "https://music.apple.com/us/album/bad-girl-for-you/1527027092?i=1527027316",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/13/53/a8135332-1331-bd9f-7284-5798fda447e7/4538182906651_cov.jpg/300x300bb.jpg",
+    "trackId": "1527027316"
+  },
+  {
+    "id": "applemusic-1527027319",
+    "name": "Break My Heart",
+    "artists": [
+      "EXID"
+    ],
+    "album": "B.L.E.S.S.E.D",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/55/b1/7255b100-7a75-b2c7-6ac7-94542a6875c1/mzaf_2046585669710218773.plus.aac.p.m4a",
+    "duration": 262427,
+    "trackUrl": "https://music.apple.com/us/album/break-my-heart/1527027092?i=1527027319",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a8/13/53/a8135332-1331-bd9f-7284-5798fda447e7/4538182906651_cov.jpg/300x300bb.jpg",
+    "trackId": "1527027319"
+  },
+  {
+    "id": "applemusic-1528818138",
+    "name": "The Beauty Is Guilty!?",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Trouble",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3d/3f/4d/3d3f4d5a-8d38-65c3-7e9f-626a4a5cd4da/mzaf_5853153855805591254.plus.aac.p.m4a",
+    "duration": 192562,
+    "trackUrl": "https://music.apple.com/us/album/the-beauty-is-guilty/1528818137?i=1528818138",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/16/36/0a/16360acd-0e32-907a-03c7-dede21b8676f/4538182909102_cov.jpg/300x300bb.jpg",
+    "trackId": "1528818138"
+  },
+  {
+    "id": "applemusic-1528818370",
+    "name": "Cookie & Cream",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Trouble",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f1/03/57/f1035714-bfd0-f350-7135-358ddafd4cd3/mzaf_3376265482271568662.plus.aac.p.m4a",
+    "duration": 235762,
+    "trackUrl": "https://music.apple.com/us/album/cookie-cream/1528818137?i=1528818370",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/16/36/0a/16360acd-0e32-907a-03c7-dede21b8676f/4538182909102_cov.jpg/300x300bb.jpg",
+    "trackId": "1528818370"
+  },
+  {
+    "id": "applemusic-1528818378",
+    "name": "Vaporize Yourself!",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Trouble",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/e3/4c/08e34cc7-833f-abbe-f4bd-e3b60ac73c36/mzaf_9441895858680315248.plus.aac.p.m4a",
+    "duration": 213739,
+    "trackUrl": "https://music.apple.com/us/album/vaporize-yourself/1528818137?i=1528818378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/16/36/0a/16360acd-0e32-907a-03c7-dede21b8676f/4538182909102_cov.jpg/300x300bb.jpg",
+    "trackId": "1528818378"
+  },
+  {
+    "id": "applemusic-1528818379",
+    "name": "Memories",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Trouble",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/29/37/ae293738-bebb-0151-5658-52fbff52f57e/mzaf_12540151157647825177.plus.aac.p.m4a",
+    "duration": 249191,
+    "trackUrl": "https://music.apple.com/us/album/memories/1528818137?i=1528818379",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/16/36/0a/16360acd-0e32-907a-03c7-dede21b8676f/4538182909102_cov.jpg/300x300bb.jpg",
+    "trackId": "1528818379"
+  },
+  {
+    "id": "applemusic-1644098529",
+    "name": "UP&DOWN (Japanese Version)",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f2/06/71/f2067130-acc3-21e8-686c-3d9c8acbfc2d/mzaf_992434359933848193.plus.aac.p.m4a",
+    "duration": 194750,
+    "trackUrl": "https://music.apple.com/us/album/up-down-japanese-version/1644098514?i=1644098529",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/92/0d/b0/920db01c-54cf-66cc-7ea3-bd5df6750256/4580789497100.png/300x300bb.jpg",
+    "trackId": "1644098529"
+  },
+  {
+    "id": "applemusic-1457637080",
+    "name": "HOT PINK[JPN ver.]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "TROUBLE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/a3/d4/76a3d4c8-d176-fa7c-271e-9702ab327afd/mzaf_3557085769482223490.plus.aac.p.m4a",
+    "duration": 204052,
+    "trackUrl": "https://music.apple.com/jp/album/hot-pink-jpn-ver/1457637078?i=1457637080",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/16/02/a1/1602a189-099d-a5b8-3ce3-576dcb638268/TKCA-74784.jpg/300x300bb.jpg",
+    "trackId": "1457637080"
+  },
+  {
+    "id": "applemusic-1457637082",
+    "name": "Every Night[JPN ver.]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "TROUBLE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/dc/10/44dc1097-48ba-104b-2e77-f564a271ad61/mzaf_4901139931055023595.plus.aac.p.m4a",
+    "duration": 234150,
+    "trackUrl": "https://music.apple.com/jp/album/every-night-jpn-ver/1457637078?i=1457637082",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/16/02/a1/1602a189-099d-a5b8-3ce3-576dcb638268/TKCA-74784.jpg/300x300bb.jpg",
+    "trackId": "1457637082"
+  },
+  {
+    "id": "applemusic-1457637083",
+    "name": "Without U[JPN ver.]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "TROUBLE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/d2/aa/55d2aae0-34ad-9e7d-4d26-86324c67c54a/mzaf_2239789541018589142.plus.aac.p.m4a",
+    "duration": 214276,
+    "trackUrl": "https://music.apple.com/jp/album/without-u-jpn-ver/1457637078?i=1457637083",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/16/02/a1/1602a189-099d-a5b8-3ce3-576dcb638268/TKCA-74784.jpg/300x300bb.jpg",
+    "trackId": "1457637083"
+  },
+  {
+    "id": "applemusic-1457637085",
+    "name": "UP&DOWN[JPN ver.]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "TROUBLE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/0c/05/940c0577-0cbf-cd5b-690e-525d72e7f924/mzaf_3230039161779056580.plus.aac.p.m4a",
+    "duration": 194750,
+    "trackUrl": "https://music.apple.com/jp/album/up-down-jpn-ver/1457637078?i=1457637085",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/16/02/a1/1602a189-099d-a5b8-3ce3-576dcb638268/TKCA-74784.jpg/300x300bb.jpg",
+    "trackId": "1457637085"
+  },
+  {
+    "id": "applemusic-1457637356",
+    "name": "Too Good to Me[JPN ver.]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "TROUBLE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d5/3c/88/d53c8831-fa3f-25ca-ce04-a77eab7e1fde/mzaf_11460729363301258895.plus.aac.p.m4a",
+    "duration": 209875,
+    "trackUrl": "https://music.apple.com/jp/album/too-good-to-me-jpn-ver/1457637078?i=1457637356",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/16/02/a1/1602a189-099d-a5b8-3ce3-576dcb638268/TKCA-74784.jpg/300x300bb.jpg",
+    "trackId": "1457637356"
+  },
+  {
+    "id": "applemusic-1419437592",
+    "name": "UP&DOWN[JAPANESE VERSION]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "UP&DOWN[JAPANESE VERSION]SPECIAL EDITION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ff/5b/65/ff5b655b-d4bc-b341-7319-848ab55c8c98/mzaf_8122521653679052996.plus.aac.p.m4a",
+    "duration": 193427,
+    "trackUrl": "https://music.apple.com/jp/album/up-down-japanese-version/1419437308?i=1419437592",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/27/76/f9/2776f959-c787-b0e0-777b-a0e0b8b68774/TWEB-359.jpg/300x300bb.jpg",
+    "trackId": "1419437592"
+  },
+  {
+    "id": "applemusic-1419437593",
+    "name": "CREAM[JAPANESE VERSION]",
+    "artists": [
+      "EXID"
+    ],
+    "album": "UP&DOWN[JAPANESE VERSION]SPECIAL EDITION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/53/6a/87536a5b-81b5-4cba-1845-a09877171428/mzaf_7775520680171704230.plus.aac.p.m4a",
+    "duration": 196187,
+    "trackUrl": "https://music.apple.com/jp/album/cream-japanese-version/1419437308?i=1419437593",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/27/76/f9/2776f959-c787-b0e0-777b-a0e0b8b68774/TWEB-359.jpg/300x300bb.jpg",
+    "trackId": "1419437593"
+  },
+  {
+    "id": "applemusic-1642305858",
+    "name": "Ah Yeah JPN Ver.",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/fb/6c/8a/fb6c8a92-876d-1299-18a3-0158a70f5a0b/mzaf_11414263036291223287.plus.aac.p.m4a",
+    "duration": 202840,
+    "trackUrl": "https://music.apple.com/jp/album/ah-yeah-jpn-ver/1642305644?i=1642305858",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/58/00/1f5800bc-d4b4-4de4-02c8-5070b3ca193e/TKCA-75090.jpg/300x300bb.jpg",
+    "trackId": "1642305858"
+  },
+  {
+    "id": "applemusic-1642305860",
+    "name": "L.I.E JPN Ver.",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/51/67/c3/5167c3d6-f5b6-8999-9703-624dc7487bfe/mzaf_1821920919608904662.plus.aac.p.m4a",
+    "duration": 214680,
+    "trackUrl": "https://music.apple.com/jp/album/l-i-e-jpn-ver/1642305644?i=1642305860",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/58/00/1f5800bc-d4b4-4de4-02c8-5070b3ca193e/TKCA-75090.jpg/300x300bb.jpg",
+    "trackId": "1642305860"
+  },
+  {
+    "id": "applemusic-1642305862",
+    "name": "DDD JPN Ver.",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/25/92/e2/2592e27e-18d3-5b7e-903e-eb9a90718afa/mzaf_17752191414615567857.plus.aac.p.m4a",
+    "duration": 206093,
+    "trackUrl": "https://music.apple.com/jp/album/ddd-jpn-ver/1642305644?i=1642305862",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/58/00/1f5800bc-d4b4-4de4-02c8-5070b3ca193e/TKCA-75090.jpg/300x300bb.jpg",
+    "trackId": "1642305862"
+  },
+  {
+    "id": "applemusic-1642305864",
+    "name": "Night Rather Than Day JPN Ver.",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8a/39/94/8a3994b4-f882-056c-903b-0b99bc9b0182/mzaf_17057353350421695525.plus.aac.p.m4a",
+    "duration": 201773,
+    "trackUrl": "https://music.apple.com/jp/album/night-rather-than-day-jpn-ver/1642305644?i=1642305864",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/58/00/1f5800bc-d4b4-4de4-02c8-5070b3ca193e/TKCA-75090.jpg/300x300bb.jpg",
+    "trackId": "1642305864"
+  },
+  {
+    "id": "applemusic-1642305866",
+    "name": "I Love you JPN Ver.",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f6/fd/07/f6fd0727-a749-1e1a-f6c0-f6d5069e98fe/mzaf_12705208180094105107.plus.aac.p.m4a",
+    "duration": 195120,
+    "trackUrl": "https://music.apple.com/jp/album/i-love-you-jpn-ver/1642305644?i=1642305866",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/58/00/1f5800bc-d4b4-4de4-02c8-5070b3ca193e/TKCA-75090.jpg/300x300bb.jpg",
+    "trackId": "1642305866"
+  },
+  {
+    "id": "applemusic-1642305878",
+    "name": "B.L.E.S.S.E.D KR Ver.",
+    "artists": [
+      "EXID"
+    ],
+    "album": "Japan Activity Best",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/40/e1/14/40e11426-23c5-1350-c9da-ae8fd2bd35da/mzaf_11300744833919028982.plus.aac.p.m4a",
+    "duration": 195067,
+    "trackUrl": "https://music.apple.com/jp/album/b-l-e-s-s-e-d-kr-ver/1642305644?i=1642305878",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/1f/58/00/1f5800bc-d4b4-4de4-02c8-5070b3ca193e/TKCA-75090.jpg/300x300bb.jpg",
+    "trackId": "1642305878"
+  }
+]

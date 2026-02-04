@@ -1,0 +1,886 @@
+[
+  {
+    "id": "applemusic-1610953989",
+    "name": "Good Luck",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Queendom <Cover Contest>, Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/34/1b/f8/341bf822-247d-5eaa-e8f9-8db953480bde/mzaf_8543612098279658982.plus.aac.p.m4a",
+    "duration": 242208,
+    "trackUrl": "https://music.apple.com/us/album/good-luck/1610953738?i=1610953989",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/73/ea/dc73ea27-d553-7233-4374-c0c3438e84c3/8809658317674_Cover.jpg/300x300bb.jpg",
+    "trackId": "1610953989"
+  },
+  {
+    "id": "applemusic-1610953991",
+    "name": "Egotistic",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Queendom <Cover Contest>, Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/90/9e/cc/909ecc0b-0dfb-2af2-cf2f-75b9d88c21c7/mzaf_11630390498733714483.plus.aac.p.m4a",
+    "duration": 215198,
+    "trackUrl": "https://music.apple.com/us/album/egotistic/1610953738?i=1610953991",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/73/ea/dc73ea27-d553-7233-4374-c0c3438e84c3/8809658317674_Cover.jpg/300x300bb.jpg",
+    "trackId": "1610953991"
+  },
+  {
+    "id": "applemusic-1610953992",
+    "name": "Han (feat. CHEETAH)",
+    "artists": [
+      "Park Bom"
+    ],
+    "album": "Queendom <Cover Contest>, Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ca/6b/41/ca6b4179-9817-0503-0980-51a196d27eec/mzaf_15271646038468579646.plus.aac.p.m4a",
+    "duration": 226770,
+    "trackUrl": "https://music.apple.com/us/album/han-feat-cheetah/1610953738?i=1610953992",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dc/73/ea/dc73ea27-d553-7233-4374-c0c3438e84c3/8809658317674_Cover.jpg/300x300bb.jpg",
+    "trackId": "1610953992"
+  },
+  {
+    "id": "applemusic-1191236777",
+    "name": "Excuse Me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/b1/73/91b173ac-1d5b-9620-467b-c9a2ca58438e/mzaf_18420978871981754297.plus.aac.p.m4a",
+    "duration": 224948,
+    "trackUrl": "https://music.apple.com/us/album/excuse-me/1191236739?i=1191236777",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236777"
+  },
+  {
+    "id": "applemusic-1191236778",
+    "name": "Bing Bing",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d7/4f/cc/d74fcc86-a0b5-0b57-9059-59f8531be4d1/mzaf_9592768408409559081.plus.aac.p.m4a",
+    "duration": 191226,
+    "trackUrl": "https://music.apple.com/us/album/bing-bing/1191236739?i=1191236778",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236778"
+  },
+  {
+    "id": "applemusic-1191236779",
+    "name": "Three Out",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/f1/27/e1f12741-e266-865d-3bee-3d6e1e42f7f7/mzaf_14376658365287551075.plus.aac.p.m4a",
+    "duration": 179234,
+    "trackUrl": "https://music.apple.com/us/album/three-out/1191236739?i=1191236779",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236779"
+  },
+  {
+    "id": "applemusic-1191236780",
+    "name": "Feeling",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c6/10/bc/c610bc54-919d-c64e-647a-64dc64b36f99/mzaf_9564224927447016339.plus.aac.p.m4a",
+    "duration": 203412,
+    "trackUrl": "https://music.apple.com/us/album/feeling/1191236739?i=1191236780",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236780"
+  },
+  {
+    "id": "applemusic-1191236781",
+    "name": "Can't Sleep",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8e/51/fd/8e51fde5-340b-d4d1-c8c5-4b1efb195a3e/mzaf_3256130614885627264.plus.aac.p.m4a",
+    "duration": 199546,
+    "trackUrl": "https://music.apple.com/us/album/cant-sleep/1191236739?i=1191236781",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236781"
+  },
+  {
+    "id": "applemusic-1191236782",
+    "name": "Lily (feat. Ro Woon)",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f6/08/73/f60873a8-b449-53ac-771b-590cee73362a/mzaf_15864671208704552833.plus.aac.p.m4a",
+    "duration": 245543,
+    "trackUrl": "https://music.apple.com/us/album/lily-feat-ro-woon/1191236739?i=1191236782",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236782"
+  },
+  {
+    "id": "applemusic-1191236796",
+    "name": "Melting Love",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a7/e9/58/a7e958e2-2718-1df6-7cc3-943ef0aa416c/mzaf_5457965813081944790.plus.aac.p.m4a",
+    "duration": 206126,
+    "trackUrl": "https://music.apple.com/us/album/melting-love/1191236739?i=1191236796",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236796"
+  },
+  {
+    "id": "applemusic-1191236797",
+    "name": "Help Me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ea/80/0e/ea800e27-dfbd-281d-7443-c406e4af2696/mzaf_17001493442498365446.plus.aac.p.m4a",
+    "duration": 224582,
+    "trackUrl": "https://music.apple.com/us/album/help-me/1191236739?i=1191236797",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236797"
+  },
+  {
+    "id": "applemusic-1191236798",
+    "name": "Oh Boy",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/41/a1/8d41a11a-188b-b3ac-5b2d-2b9017168a4f/mzaf_8291102277638033034.plus.aac.p.m4a",
+    "duration": 210711,
+    "trackUrl": "https://music.apple.com/us/album/oh-boy/1191236739?i=1191236798",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236798"
+  },
+  {
+    "id": "applemusic-1191236799",
+    "name": "With ELVIS",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Knock",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ae/c0/d2/aec0d224-f88b-d1ae-b7a5-1d31328af548/mzaf_12251361188115014881.plus.aac.p.m4a",
+    "duration": 214933,
+    "trackUrl": "https://music.apple.com/us/album/with-elvis/1191236739?i=1191236799",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/78/2c/89/782c89cd-620f-47a0-8867-3a5951313b75/COVER-AOA_1.jpg/300x300bb.jpg",
+    "trackId": "1191236799"
+  },
+  {
+    "id": "applemusic-1661630143",
+    "name": "Come See Me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "New Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/35/b2/6a/35b26ad4-7c7f-47df-3c80-b2f635e3a279/mzaf_11436046820013357754.plus.aac.p.m4a",
+    "duration": 202680,
+    "trackUrl": "https://music.apple.com/us/album/come-see-me/1661630142?i=1661630143",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/af/7a/7d/af7a7da3-659b-17e4-0550-542c4e7c3a67/cover_KM0009714_1.jpg/300x300bb.jpg",
+    "trackId": "1661630143"
+  },
+  {
+    "id": "applemusic-1661630144",
+    "name": "Sorry",
+    "artists": [
+      "AOA"
+    ],
+    "album": "New Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/4b/05/47/4b054792-0127-2610-18d5-a551c8ef6c3f/mzaf_4003092961716387344.plus.aac.p.m4a",
+    "duration": 219320,
+    "trackUrl": "https://music.apple.com/us/album/sorry/1661630142?i=1661630144",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/af/7a/7d/af7a7da3-659b-17e4-0550-542c4e7c3a67/cover_KM0009714_1.jpg/300x300bb.jpg",
+    "trackId": "1661630144"
+  },
+  {
+    "id": "applemusic-1661630145",
+    "name": "Magic Spell",
+    "artists": [
+      "AOA"
+    ],
+    "album": "New Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/a2/9d/0e/a29d0e06-4ee8-b28f-29fd-94d999f62a51/mzaf_806187202890075596.plus.aac.p.m4a",
+    "duration": 198480,
+    "trackUrl": "https://music.apple.com/us/album/magic-spell/1661630142?i=1661630145",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/af/7a/7d/af7a7da3-659b-17e4-0550-542c4e7c3a67/cover_KM0009714_1.jpg/300x300bb.jpg",
+    "trackId": "1661630145"
+  },
+  {
+    "id": "applemusic-1661630416",
+    "name": "Ninety Nine",
+    "artists": [
+      "AOA"
+    ],
+    "album": "New Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/66/b7/75/66b77552-3171-2425-8bc5-e42237f15b54/mzaf_2861030379184255306.plus.aac.p.m4a",
+    "duration": 207173,
+    "trackUrl": "https://music.apple.com/us/album/ninety-nine/1661630142?i=1661630416",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/af/7a/7d/af7a7da3-659b-17e4-0550-542c4e7c3a67/cover_KM0009714_1.jpg/300x300bb.jpg",
+    "trackId": "1661630416"
+  },
+  {
+    "id": "applemusic-1661630417",
+    "name": "My Way",
+    "artists": [
+      "AOA"
+    ],
+    "album": "New Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5b/ee/cc/5beecc36-5110-07fe-5116-ebe26c754290/mzaf_4921325206349185058.plus.aac.p.m4a",
+    "duration": 193640,
+    "trackUrl": "https://music.apple.com/us/album/my-way/1661630142?i=1661630417",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/af/7a/7d/af7a7da3-659b-17e4-0550-542c4e7c3a67/cover_KM0009714_1.jpg/300x300bb.jpg",
+    "trackId": "1661630417"
+  },
+  {
+    "id": "applemusic-1114415158",
+    "name": "10 Seconds",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Good Luck - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4d/f4/51/4df4510b-1f8e-af96-e15b-4bdd54ec5ad6/mzaf_14222063138909774387.plus.aac.p.m4a",
+    "duration": 236032,
+    "trackUrl": "https://music.apple.com/us/album/10-seconds/1114415156?i=1114415158",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/f0/43/b1/f043b1cb-7844-c5ea-c722-14a851621b72/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1114415158"
+  },
+  {
+    "id": "applemusic-1114415159",
+    "name": "Cherry Pop",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Good Luck - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/13/f6/d2/13f6d294-3686-b367-48fc-7c53cd7a963a/mzaf_4065402185984918313.plus.aac.p.m4a",
+    "duration": 195986,
+    "trackUrl": "https://music.apple.com/us/album/cherry-pop/1114415156?i=1114415159",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/f0/43/b1/f043b1cb-7844-c5ea-c722-14a851621b72/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1114415159"
+  },
+  {
+    "id": "applemusic-1114415160",
+    "name": "Crazy Boy",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Good Luck - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/75/b4/1d/75b41dde-dd16-e4d0-1a3b-d4f93648029a/mzaf_2788938514509331608.plus.aac.p.m4a",
+    "duration": 209423,
+    "trackUrl": "https://music.apple.com/us/album/crazy-boy/1114415156?i=1114415160",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/f0/43/b1/f043b1cb-7844-c5ea-c722-14a851621b72/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1114415160"
+  },
+  {
+    "id": "applemusic-1114415161",
+    "name": "Still Falls the Rain",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Good Luck - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/a9/df/1ea9df8c-ae27-3443-4497-e3509abca844/mzaf_9332779520191703703.plus.aac.p.m4a",
+    "duration": 196979,
+    "trackUrl": "https://music.apple.com/us/album/still-falls-the-rain/1114415156?i=1114415161",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music30/v4/f0/43/b1/f043b1cb-7844-c5ea-c722-14a851621b72/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1114415161"
+  },
+  {
+    "id": "applemusic-1341461439",
+    "name": "Heart Attack",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Heart Attack - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f3/d5/db/f3d5db8a-1cd7-23a7-b733-5722cccd372b/mzaf_11071699259313299746.plus.aac.p.m4a",
+    "duration": 196522,
+    "trackUrl": "https://music.apple.com/us/album/heart-attack/1341461438?i=1341461439",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/07/af/0707af0e-5674-bc01-4d8d-0ab2cdc7252a/cover-AOA_Heart_Attack.jpg/300x300bb.jpg",
+    "trackId": "1341461439"
+  },
+  {
+    "id": "applemusic-1341461440",
+    "name": "Luv Me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Heart Attack - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/60/51/d0/6051d079-9b1a-69a7-ea69-1a8587dd30a6/mzaf_18334098244075040142.plus.aac.p.m4a",
+    "duration": 209440,
+    "trackUrl": "https://music.apple.com/us/album/luv-me/1341461438?i=1341461440",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/07/af/0707af0e-5674-bc01-4d8d-0ab2cdc7252a/cover-AOA_Heart_Attack.jpg/300x300bb.jpg",
+    "trackId": "1341461440"
+  },
+  {
+    "id": "applemusic-1341461891",
+    "name": "Come to Me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Heart Attack - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/31/89/1c/31891cbd-1a8f-9056-598f-56e87bb4d5db/mzaf_3282005522603505631.plus.aac.p.m4a",
+    "duration": 203752,
+    "trackUrl": "https://music.apple.com/us/album/come-to-me/1341461438?i=1341461891",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/07/af/0707af0e-5674-bc01-4d8d-0ab2cdc7252a/cover-AOA_Heart_Attack.jpg/300x300bb.jpg",
+    "trackId": "1341461891"
+  },
+  {
+    "id": "applemusic-1341461892",
+    "name": "One Thing",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Heart Attack - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/83/3e/0b/833e0b13-b0a7-eaf4-4191-272334b862d2/mzaf_12188789105334148287.plus.aac.p.m4a",
+    "duration": 200883,
+    "trackUrl": "https://music.apple.com/us/album/one-thing/1341461438?i=1341461892",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/07/af/0707af0e-5674-bc01-4d8d-0ab2cdc7252a/cover-AOA_Heart_Attack.jpg/300x300bb.jpg",
+    "trackId": "1341461892"
+  },
+  {
+    "id": "applemusic-1341461893",
+    "name": "Really Really",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Heart Attack - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/42/74/22/42742288-c166-1fb0-f7ac-72637c0832cb/mzaf_11244171783075867252.plus.aac.p.m4a",
+    "duration": 234710,
+    "trackUrl": "https://music.apple.com/us/album/really-really/1341461438?i=1341461893",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/07/af/0707af0e-5674-bc01-4d8d-0ab2cdc7252a/cover-AOA_Heart_Attack.jpg/300x300bb.jpg",
+    "trackId": "1341461893"
+  },
+  {
+    "id": "applemusic-1341461894",
+    "name": "Chocolate",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Heart Attack - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/1c/7a/fd1c7aec-a296-8f17-6205-cc59580929dc/mzaf_6155163587742317414.plus.aac.p.m4a",
+    "duration": 188128,
+    "trackUrl": "https://music.apple.com/us/album/chocolate/1341461438?i=1341461894",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/07/07/af/0707af0e-5674-bc01-4d8d-0ab2cdc7252a/cover-AOA_Heart_Attack.jpg/300x300bb.jpg",
+    "trackId": "1341461894"
+  },
+  {
+    "id": "applemusic-1085466016",
+    "name": "Gonna Get Your Heart",
+    "artists": [
+      "AOA"
+    ],
+    "album": "MINISKIRT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/c9/29/dbc9297a-b337-f44b-8a07-a128afff2c16/mzaf_7280416903053700030.plus.aac.p.m4a",
+    "duration": 59547,
+    "trackUrl": "https://music.apple.com/us/album/gonna-get-your-heart/1085465781?i=1085466016",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/12/29/6d/12296d07-c7bb-13b1-b489-4dc377d423d2/AOA.jpg/300x300bb.jpg",
+    "trackId": "1085466016"
+  },
+  {
+    "id": "applemusic-1085466017",
+    "name": "Miniskirt",
+    "artists": [
+      "AOA"
+    ],
+    "album": "MINISKIRT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/63/d3/ba63d36b-c2a6-5ded-5d50-e01b0932ae38/mzaf_7759068567477561795.plus.aac.p.m4a",
+    "duration": 179808,
+    "trackUrl": "https://music.apple.com/us/album/miniskirt/1085465781?i=1085466017",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/12/29/6d/12296d07-c7bb-13b1-b489-4dc377d423d2/AOA.jpg/300x300bb.jpg",
+    "trackId": "1085466017"
+  },
+  {
+    "id": "applemusic-1085466018",
+    "name": "Under the Street Light",
+    "artists": [
+      "AOA"
+    ],
+    "album": "MINISKIRT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/aa/5c/95aa5cea-c1d6-b053-9d5e-757ce4d2b87d/mzaf_13405243656621325195.plus.aac.p.m4a",
+    "duration": 238463,
+    "trackUrl": "https://music.apple.com/us/album/under-the-street-light/1085465781?i=1085466018",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/12/29/6d/12296d07-c7bb-13b1-b489-4dc377d423d2/AOA.jpg/300x300bb.jpg",
+    "trackId": "1085466018"
+  },
+  {
+    "id": "applemusic-1390495826",
+    "name": "Bingle Bangle",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Bingle Bangle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/39/65/cd/3965cdc4-4dfa-25cd-b431-7f8b62eb9901/mzaf_9629480524255947078.plus.aac.p.m4a",
+    "duration": 221779,
+    "trackUrl": "https://music.apple.com/us/album/bingle-bangle/1390495825?i=1390495826",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/08/24/dc082481-8dbe-48b8-4b01-4441d954d716/cover-AOA.jpg/300x300bb.jpg",
+    "trackId": "1390495826"
+  },
+  {
+    "id": "applemusic-1390495827",
+    "name": "Super Duper",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Bingle Bangle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/fa/c5/b8fac5ac-e27f-84f4-0675-c1eb6ceddc86/mzaf_4623912720630047811.plus.aac.p.m4a",
+    "duration": 205134,
+    "trackUrl": "https://music.apple.com/us/album/super-duper/1390495825?i=1390495827",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/08/24/dc082481-8dbe-48b8-4b01-4441d954d716/cover-AOA.jpg/300x300bb.jpg",
+    "trackId": "1390495827"
+  },
+  {
+    "id": "applemusic-1390495828",
+    "name": "Heat",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Bingle Bangle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/e2/43/bbe24314-eaec-7b1f-8322-ea2a74f3e886/mzaf_10608359547662480064.plus.aac.p.m4a",
+    "duration": 194488,
+    "trackUrl": "https://music.apple.com/us/album/heat/1390495825?i=1390495828",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/08/24/dc082481-8dbe-48b8-4b01-4441d954d716/cover-AOA.jpg/300x300bb.jpg",
+    "trackId": "1390495828"
+  },
+  {
+    "id": "applemusic-1390495829",
+    "name": "Ladi Dadi",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Bingle Bangle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/de/51/32de5148-86aa-61c1-e97e-29ba9b980453/mzaf_2259440162362783172.plus.aac.p.m4a",
+    "duration": 202703,
+    "trackUrl": "https://music.apple.com/us/album/ladi-dadi/1390495825?i=1390495829",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/08/24/dc082481-8dbe-48b8-4b01-4441d954d716/cover-AOA.jpg/300x300bb.jpg",
+    "trackId": "1390495829"
+  },
+  {
+    "id": "applemusic-1390495830",
+    "name": "Parfait",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Bingle Bangle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/62/10/33/62103305-c56d-5c4e-e8e1-d671b9bb27b3/mzaf_16833843849226685576.plus.aac.p.m4a",
+    "duration": 213560,
+    "trackUrl": "https://music.apple.com/us/album/parfait/1390495825?i=1390495830",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/08/24/dc082481-8dbe-48b8-4b01-4441d954d716/cover-AOA.jpg/300x300bb.jpg",
+    "trackId": "1390495830"
+  },
+  {
+    "id": "applemusic-1390495831",
+    "name": "Dododo",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Bingle Bangle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/74/b7/c0/74b7c062-5a86-b8fb-f3f5-ec333eb07516/mzaf_7708146890779948371.plus.aac.p.m4a",
+    "duration": 196801,
+    "trackUrl": "https://music.apple.com/us/album/dododo/1390495825?i=1390495831",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/08/24/dc082481-8dbe-48b8-4b01-4441d954d716/cover-AOA.jpg/300x300bb.jpg",
+    "trackId": "1390495831"
+  },
+  {
+    "id": "applemusic-1492981653",
+    "name": "Aoa",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Like a Cat - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/b9/cd/ffb9cd36-6092-87e0-1055-b61db8f06113/mzaf_9537976907896862743.plus.aac.p.m4a",
+    "duration": 59512,
+    "trackUrl": "https://music.apple.com/us/album/aoa/1492981652?i=1492981653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/9a/d0/669ad05d-d057-3ce4-3d7a-c02873d17804/AOA_2_1400px.jpg/300x300bb.jpg",
+    "trackId": "1492981653"
+  },
+  {
+    "id": "applemusic-1492981654",
+    "name": "Like a Cat",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Like a Cat - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4d/59/f0/4d59f072-eee2-4b3b-23a0-b12efa390ccb/mzaf_6305412376285637895.plus.aac.p.m4a",
+    "duration": 219533,
+    "trackUrl": "https://music.apple.com/us/album/like-a-cat/1492981652?i=1492981654",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/9a/d0/669ad05d-d057-3ce4-3d7a-c02873d17804/AOA_2_1400px.jpg/300x300bb.jpg",
+    "trackId": "1492981654"
+  },
+  {
+    "id": "applemusic-1492981836",
+    "name": "Just the Two of Us",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Like a Cat - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/53/95/e8/5395e8d7-99f3-2bc8-6619-86ab10e89caa/mzaf_16807293829816041250.plus.aac.p.m4a",
+    "duration": 205120,
+    "trackUrl": "https://music.apple.com/us/album/just-the-two-of-us/1492981652?i=1492981836",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/9a/d0/669ad05d-d057-3ce4-3d7a-c02873d17804/AOA_2_1400px.jpg/300x300bb.jpg",
+    "trackId": "1492981836"
+  },
+  {
+    "id": "applemusic-1492981837",
+    "name": "Time",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Like a Cat - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d3/40/7e/d3407ee7-bacb-15a7-3dd5-074bf97f731a/mzaf_8060220071582432582.plus.aac.p.m4a",
+    "duration": 223612,
+    "trackUrl": "https://music.apple.com/us/album/time/1492981652?i=1492981837",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/9a/d0/669ad05d-d057-3ce4-3d7a-c02873d17804/AOA_2_1400px.jpg/300x300bb.jpg",
+    "trackId": "1492981837"
+  },
+  {
+    "id": "applemusic-1492981838",
+    "name": "Tears Falling",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Like a Cat - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b0/6f/a7/b06fa7cf-d9a0-6d58-f477-38e6f659721c/mzaf_8000006031842812594.plus.aac.p.m4a",
+    "duration": 218686,
+    "trackUrl": "https://music.apple.com/us/album/tears-falling/1492981652?i=1492981838",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/66/9a/d0/669ad05d-d057-3ce4-3d7a-c02873d17804/AOA_2_1400px.jpg/300x300bb.jpg",
+    "trackId": "1492981838"
+  },
+  {
+    "id": "applemusic-1444887084",
+    "name": "Ai Wo Choudai",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Ai Wo Choudai (feat. Takanori Nishikawa T.M.Revolution)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1d/a9/47/1da947d3-ff1d-d658-7f6f-8c74614eb18f/mzaf_12532189919921828835.plus.aac.p.m4a",
+    "duration": 226280,
+    "trackUrl": "https://music.apple.com/us/album/ai-wo-choudai/1444886794?i=1444887084",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/76/d3/4d/76d34dee-28c6-9466-c9e1-42409f6a7d2e/00600406702661.rgb.jpg/300x300bb.jpg",
+    "trackId": "1444887084"
+  },
+  {
+    "id": "applemusic-1444887078",
+    "name": "Girl's Heart (Japanese Version)",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Ai Wo Choudai (feat. Takanori Nishikawa T.M.Revolution)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fc/12/d5/fc12d596-9665-1b4e-3258-6d1188ee5457/mzaf_9434843871412895990.plus.aac.p.m4a",
+    "duration": 199947,
+    "trackUrl": "https://music.apple.com/us/album/girls-heart-japanese-version/1444886794?i=1444887078",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/76/d3/4d/76d34dee-28c6-9466-c9e1-42409f6a7d2e/00600406702661.rgb.jpg/300x300bb.jpg",
+    "trackId": "1444887078"
+  },
+  {
+    "id": "applemusic-1141232611",
+    "name": "Fantasy",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Short Hair",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/5d/81/735d8179-1f4e-ace6-6286-69d3f7636fca/mzaf_2142964185146457440.plus.aac.p.m4a",
+    "duration": 77628,
+    "trackUrl": "https://music.apple.com/us/album/fantasy/1141232603?i=1141232611",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a7/76/fb/a776fbd7-e8ba-05cb-0afe-1123739e83ae/cover_KM0004384_1.jpg/300x300bb.jpg",
+    "trackId": "1141232611"
+  },
+  {
+    "id": "applemusic-1141232612",
+    "name": "Short Hair",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Short Hair",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2a/dc/06/2adc0690-9ec0-e4fb-91d3-7f813e77485e/mzaf_10592714779554508646.plus.aac.p.m4a",
+    "duration": 214589,
+    "trackUrl": "https://music.apple.com/us/album/short-hair/1141232603?i=1141232612",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a7/76/fb/a776fbd7-e8ba-05cb-0afe-1123739e83ae/cover_KM0004384_1.jpg/300x300bb.jpg",
+    "trackId": "1141232612"
+  },
+  {
+    "id": "applemusic-1141232613",
+    "name": "Joa YO!",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Short Hair",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f7/60/b3/f760b3d6-8110-b5d9-3b4e-cbe467c6062d/mzaf_10595075256961703648.plus.aac.p.m4a",
+    "duration": 258981,
+    "trackUrl": "https://music.apple.com/us/album/joa-yo/1141232603?i=1141232613",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a7/76/fb/a776fbd7-e8ba-05cb-0afe-1123739e83ae/cover_KM0004384_1.jpg/300x300bb.jpg",
+    "trackId": "1141232613"
+  },
+  {
+    "id": "applemusic-1141232614",
+    "name": "You're the One For Me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Short Hair",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/26/bf/fb26bf62-9e6b-824c-e804-d117f5ecd6eb/mzaf_9784396411161298815.plus.aac.p.m4a",
+    "duration": 220373,
+    "trackUrl": "https://music.apple.com/us/album/youre-the-one-for-me/1141232603?i=1141232614",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a7/76/fb/a776fbd7-e8ba-05cb-0afe-1123739e83ae/cover_KM0004384_1.jpg/300x300bb.jpg",
+    "trackId": "1141232614"
+  },
+  {
+    "id": "applemusic-1141232615",
+    "name": "You Know That",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Short Hair",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8b/68/d0/8b68d0d2-ae94-3191-b3a5-88cdc01b3d03/mzaf_15058705397155685643.plus.aac.p.m4a",
+    "duration": 203106,
+    "trackUrl": "https://music.apple.com/us/album/you-know-that/1141232603?i=1141232615",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a7/76/fb/a776fbd7-e8ba-05cb-0afe-1123739e83ae/cover_KM0004384_1.jpg/300x300bb.jpg",
+    "trackId": "1141232615"
+  },
+  {
+    "id": "applemusic-1080563765",
+    "name": "Elvis",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Story - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/30/ba/0330bafa-3912-894b-04dd-73b6d6c15e64/mzaf_5757047657364945457.plus.aac.p.m4a",
+    "duration": 199867,
+    "trackUrl": "https://music.apple.com/us/album/elvis/1080563760?i=1080563765",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/7a/da/62/7ada6264-1ebd-8263-5126-deb0c609f9a7/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080563765"
+  },
+  {
+    "id": "applemusic-1080563767",
+    "name": "Love Is Only You",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Story - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6f/47/f1/6f47f143-dce5-6fda-e24c-38c8335b4677/mzaf_13580175863463169389.plus.aac.p.m4a",
+    "duration": 226760,
+    "trackUrl": "https://music.apple.com/us/album/love-is-only-you/1080563760?i=1080563767",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/7a/da/62/7ada6264-1ebd-8263-5126-deb0c609f9a7/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080563767"
+  },
+  {
+    "id": "applemusic-1080563768",
+    "name": "Temptation",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Angel's Story - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/c0/3e/32c03ecf-121d-4a1b-ff91-21726bc40620/mzaf_825169785522461801.plus.aac.p.m4a",
+    "duration": 225933,
+    "trackUrl": "https://music.apple.com/us/album/temptation/1080563760?i=1080563768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/7a/da/62/7ada6264-1ebd-8263-5126-deb0c609f9a7/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080563768"
+  },
+  {
+    "id": "applemusic-1080565715",
+    "name": "Confused",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Red Motion - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/a6/99/dfa6995d-a3e7-96fd-de03-bb3c4a241e3e/mzaf_18173238125588046601.plus.aac.p.m4a",
+    "duration": 222940,
+    "trackUrl": "https://music.apple.com/us/album/confused/1080565713?i=1080565715",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/8d/6a/f2/8d6af23d-c9e1-d541-1940-95f53137a4e9/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080565715"
+  },
+  {
+    "id": "applemusic-1080565716",
+    "name": "We Belong Together",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Red Motion - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ad/b1/81/adb181f8-ea09-8bac-ff4c-69faf5ae47f1/mzaf_16044498650500674547.plus.aac.p.m4a",
+    "duration": 215950,
+    "trackUrl": "https://music.apple.com/us/album/we-belong-together/1080565713?i=1080565716",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/8d/6a/f2/8d6af23d-c9e1-d541-1940-95f53137a4e9/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080565716"
+  },
+  {
+    "id": "applemusic-1085466857",
+    "name": "Get Out",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Wanna Be - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/ac/f9/b6acf9b8-e125-003b-f341-20d1a7435974/mzaf_15280786992699721712.plus.aac.p.m4a",
+    "duration": 213960,
+    "trackUrl": "https://music.apple.com/us/album/get-out/1085466656?i=1085466857",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/b4/e9/90/b4e990f2-b2ef-8049-c176-611b36228ea0/AOA_WANNA_BE_1400.jpg/300x300bb.jpg",
+    "trackId": "1085466857"
+  },
+  {
+    "id": "applemusic-1085466858",
+    "name": "Happy Ending",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Wanna Be - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/bb/29/afbb2994-ac35-08b8-1d56-d2a8b4ea9089/mzaf_18036550741842996267.plus.aac.p.m4a",
+    "duration": 246687,
+    "trackUrl": "https://music.apple.com/us/album/happy-ending/1085466656?i=1085466858",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/b4/e9/90/b4e990f2-b2ef-8049-c176-611b36228ea0/AOA_WANNA_BE_1400.jpg/300x300bb.jpg",
+    "trackId": "1085466858"
+  },
+  {
+    "id": "applemusic-1085466859",
+    "name": "My Song",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Wanna Be - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2b/24/88/2b2488f2-f3ed-dcca-ee2a-08ed7c596d5c/mzaf_5073757359584241803.plus.aac.p.m4a",
+    "duration": 208942,
+    "trackUrl": "https://music.apple.com/us/album/my-song/1085466656?i=1085466859",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/b4/e9/90/b4e990f2-b2ef-8049-c176-611b36228ea0/AOA_WANNA_BE_1400.jpg/300x300bb.jpg",
+    "trackId": "1085466859"
+  },
+  {
+    "id": "applemusic-1442248134",
+    "name": "Munekyun",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Ace of Angels",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7d/83/fc/7d83fcdc-a9fd-00df-08d7-3b3babab9adb/mzaf_13104594502457737714.plus.aac.p.m4a",
+    "duration": 197080,
+    "trackUrl": "https://music.apple.com/us/album/munekyun/1442248025?i=1442248134",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/4f/74/e84f7475-487b-0665-24ca-6d0ccb3dd678/00600406639837.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442248134"
+  },
+  {
+    "id": "applemusic-1442248148",
+    "name": "Choayo",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Ace of Angels",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/61/9a/b9/619ab921-ca15-e7e8-8d57-04d4171f629b/mzaf_16387591851675999036.plus.aac.p.m4a",
+    "duration": 262000,
+    "trackUrl": "https://music.apple.com/us/album/choayo/1442248025?i=1442248148",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/4f/74/e84f7475-487b-0665-24ca-6d0ccb3dd678/00600406639837.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442248148"
+  },
+  {
+    "id": "applemusic-1442248252",
+    "name": "Lemon Slush",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Ace of Angels",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/60/b2/3f/60b23f4e-715a-f777-37b5-e01579aaef2e/mzaf_6383689805194884529.plus.aac.p.m4a",
+    "duration": 193520,
+    "trackUrl": "https://music.apple.com/us/album/lemon-slush/1442248025?i=1442248252",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/4f/74/e84f7475-487b-0665-24ca-6d0ccb3dd678/00600406639837.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442248252"
+  },
+  {
+    "id": "applemusic-1442248262",
+    "name": "Stay With me",
+    "artists": [
+      "AOA"
+    ],
+    "album": "Ace of Angels",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9f/14/f4/9f14f47d-e64d-b449-cd93-e6fa3f09f936/mzaf_17454042148564052525.plus.aac.p.m4a",
+    "duration": 199800,
+    "trackUrl": "https://music.apple.com/us/album/stay-with-me/1442248025?i=1442248262",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/4f/74/e84f7475-487b-0665-24ca-6d0ccb3dd678/00600406639837.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442248262"
+  },
+  {
+    "id": "applemusic-1080565024",
+    "name": "MOYA",
+    "artists": [
+      "AOA"
+    ],
+    "album": "MOYA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/78/f7/da78f77d-80b8-6b2a-f95d-95f3b6069244/mzaf_8060645702691958628.plus.aac.p.m4a",
+    "duration": 220356,
+    "trackUrl": "https://music.apple.com/us/album/moya/1080565023?i=1080565024",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/cb/7c/13/cb7c1366-2340-193c-9a97-8766cea8c44d/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080565024"
+  },
+  {
+    "id": "applemusic-1080565025",
+    "name": "Without You",
+    "artists": [
+      "AOA"
+    ],
+    "album": "MOYA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4e/e2/c9/4ee2c945-f3ff-d702-44c1-96f8f14ff00f/mzaf_4118303020879682853.plus.aac.p.m4a",
+    "duration": 214021,
+    "trackUrl": "https://music.apple.com/us/album/without-you/1080565023?i=1080565025",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/cb/7c/13/cb7c1366-2340-193c-9a97-8766cea8c44d/COVER-AOA.jpg/300x300bb.jpg",
+    "trackId": "1080565025"
+  },
+  {
+    "id": "applemusic-1442459329",
+    "name": "RUNWAY",
+    "artists": [
+      "AOA"
+    ],
+    "album": "RUNWAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/47/07/32470712-7832-efd3-b958-2cc0af88292f/mzaf_14583456799838907183.plus.aac.p.m4a",
+    "duration": 207013,
+    "trackUrl": "https://music.apple.com/jp/album/runway/1442458981?i=1442459329",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/1b/d5/c01bd5bc-4666-2aa9-53cb-3838efa77cd2/00600753750766.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442459329"
+  },
+  {
+    "id": "applemusic-1442459339",
+    "name": "OK!",
+    "artists": [
+      "AOA"
+    ],
+    "album": "RUNWAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/55/38/6b553834-99f1-b0ac-1373-96a7d9775400/mzaf_17306347394183845086.plus.aac.p.m4a",
+    "duration": 182160,
+    "trackUrl": "https://music.apple.com/jp/album/ok/1442458981?i=1442459339",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/1b/d5/c01bd5bc-4666-2aa9-53cb-3838efa77cd2/00600753750766.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442459339"
+  },
+  {
+    "id": "applemusic-1442459344",
+    "name": "Muah!",
+    "artists": [
+      "AOA"
+    ],
+    "album": "RUNWAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/77/a7/42/77a742e4-3246-b1ca-0f2c-53d65f7034bc/mzaf_9005265026025876866.plus.aac.p.m4a",
+    "duration": 199733,
+    "trackUrl": "https://music.apple.com/jp/album/muah/1442458981?i=1442459344",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/1b/d5/c01bd5bc-4666-2aa9-53cb-3838efa77cd2/00600753750766.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442459344"
+  },
+  {
+    "id": "applemusic-1442459605",
+    "name": "Love Gave Me You",
+    "artists": [
+      "AOA"
+    ],
+    "album": "RUNWAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4e/c8/2c/4ec82c38-e57e-4144-8510-ed4044e803dc/mzaf_17503224931153525063.plus.aac.p.m4a",
+    "duration": 244307,
+    "trackUrl": "https://music.apple.com/jp/album/love-gave-me-you/1442458981?i=1442459605",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/1b/d5/c01bd5bc-4666-2aa9-53cb-3838efa77cd2/00600753750766.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442459605"
+  },
+  {
+    "id": "applemusic-1442459618",
+    "name": "Perfect Strangers (feat. AOA)",
+    "artists": [
+      "ジョナス・ブルー"
+    ],
+    "album": "RUNWAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/15/21/c8/1521c872-1025-9836-854d-cf433668d934/mzaf_2445084853303664100.plus.aac.p.m4a",
+    "duration": 195747,
+    "trackUrl": "https://music.apple.com/jp/album/perfect-strangers-feat-aoa/1442458981?i=1442459618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/1b/d5/c01bd5bc-4666-2aa9-53cb-3838efa77cd2/00600753750766.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442459618"
+  }
+]

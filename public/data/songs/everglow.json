@@ -1,0 +1,405 @@
+[
+  {
+    "id": "applemusic-1569280071",
+    "name": "SALUTE",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "reminiscence - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/2c/bf/262cbff0-e67c-5578-e639-21bc26e38da5/mzaf_13026302516650549317.plus.aac.p.m4a",
+    "duration": 189253,
+    "trackUrl": "https://music.apple.com/us/album/salute/1569280070?i=1569280071",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/42/9f/92429f1e-a0b0-d333-8edb-5ed67bb15180/8809704411783_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280071"
+  },
+  {
+    "id": "applemusic-1569280075",
+    "name": "DUN DUN",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "reminiscence - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/53/4b/7f534b48-43d5-948b-d28c-fdb9c7bc73a6/mzaf_3660209875823007210.plus.aac.p.m4a",
+    "duration": 192280,
+    "trackUrl": "https://music.apple.com/us/album/dun-dun/1569280070?i=1569280075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/42/9f/92429f1e-a0b0-d333-8edb-5ed67bb15180/8809704411783_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280075"
+  },
+  {
+    "id": "applemusic-1569280079",
+    "name": "PLAYER",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "reminiscence - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/00/01/a2/0001a271-b56d-b546-2925-55e57b2ca07f/mzaf_17055898222567243814.plus.aac.p.m4a",
+    "duration": 193640,
+    "trackUrl": "https://music.apple.com/us/album/player/1569280070?i=1569280079",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/42/9f/92429f1e-a0b0-d333-8edb-5ed67bb15180/8809704411783_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280079"
+  },
+  {
+    "id": "applemusic-1569280083",
+    "name": "NO LIE",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "reminiscence - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ff/12/bd/ff12bd36-6b39-fa29-93b8-db4ff7b5af09/mzaf_16297776638600155128.plus.aac.p.m4a",
+    "duration": 218373,
+    "trackUrl": "https://music.apple.com/us/album/no-lie/1569280070?i=1569280083",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/42/9f/92429f1e-a0b0-d333-8edb-5ed67bb15180/8809704411783_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280083"
+  },
+  {
+    "id": "applemusic-1569758004",
+    "name": "Hush",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Hush - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/23/8e/69/238e69a0-befe-4d81-4f02-116df4ef4b7e/mzaf_14350855513111314843.plus.aac.p.m4a",
+    "duration": 164640,
+    "trackUrl": "https://music.apple.com/us/album/hush/1569758000?i=1569758004",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/05/6f/9f056fb6-35a0-d01d-0d7b-c48416248995/8809658315144_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569758004"
+  },
+  {
+    "id": "applemusic-1569758007",
+    "name": "Adios",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Hush - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/48/79/08/487908fc-9b03-455d-b62f-add6d7930fd4/mzaf_17955172850290514191.plus.aac.p.m4a",
+    "duration": 189147,
+    "trackUrl": "https://music.apple.com/us/album/adios/1569758000?i=1569758007",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/05/6f/9f056fb6-35a0-d01d-0d7b-c48416248995/8809658315144_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569758007"
+  },
+  {
+    "id": "applemusic-1569758009",
+    "name": "You Don't Know Me",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Hush - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/eb/88/85/eb888527-bfe8-70e6-61d0-8f3b71f78c2b/mzaf_5717186808936170778.plus.aac.p.m4a",
+    "duration": 189080,
+    "trackUrl": "https://music.apple.com/us/album/you-dont-know-me/1569758000?i=1569758009",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9f/05/6f/9f056fb6-35a0-d01d-0d7b-c48416248995/8809658315144_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569758009"
+  },
+  {
+    "id": "applemusic-1569744630",
+    "name": "LA DI DA",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "-77.82X-78.29 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/24/ec/30/24ec303c-0e06-44d2-0cbf-fd5a70b3b766/mzaf_8895878668425056036.plus.aac.p.m4a",
+    "duration": 210893,
+    "trackUrl": "https://music.apple.com/us/album/la-di-da/1569744625?i=1569744630",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/e4/02/3ee4025f-f47a-5db4-5b1f-e6414b8f40a4/888272068801_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569744630"
+  },
+  {
+    "id": "applemusic-1569744631",
+    "name": "UNTOUCHABLE",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "-77.82X-78.29 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/6f/11/366f1163-b11e-c9c9-85b7-12fcb27928da/mzaf_775800742036797871.plus.aac.p.m4a",
+    "duration": 190960,
+    "trackUrl": "https://music.apple.com/us/album/untouchable/1569744625?i=1569744631",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/e4/02/3ee4025f-f47a-5db4-5b1f-e6414b8f40a4/888272068801_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569744631"
+  },
+  {
+    "id": "applemusic-1569744633",
+    "name": "GxxD BOY",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "-77.82X-78.29 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/9f/8b/ca9f8ba1-eade-c91f-dcdb-5aca9cb52171/mzaf_9944429913612517361.plus.aac.p.m4a",
+    "duration": 203547,
+    "trackUrl": "https://music.apple.com/us/album/gxxd-boy/1569744625?i=1569744633",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/e4/02/3ee4025f-f47a-5db4-5b1f-e6414b8f40a4/888272068801_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569744633"
+  },
+  {
+    "id": "applemusic-1569744634",
+    "name": "NO GOOD REASON",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "-77.82X-78.29 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/7d/ce/fa7dcec0-b6fc-3231-19e5-1a2e19579506/mzaf_7046231306031928885.plus.aac.p.m4a",
+    "duration": 216093,
+    "trackUrl": "https://music.apple.com/us/album/no-good-reason/1569744625?i=1569744634",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/e4/02/3ee4025f-f47a-5db4-5b1f-e6414b8f40a4/888272068801_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569744634"
+  },
+  {
+    "id": "applemusic-1569281642",
+    "name": "Moon",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ARRIVAL OF EVERGLOW - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/ba/f5/95baf5e0-0877-8f66-4c73-e2401aa56968/mzaf_16432283814176867877.plus.aac.p.m4a",
+    "duration": 194338,
+    "trackUrl": "https://music.apple.com/us/album/moon/1569281641?i=1569281642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1c/86/ca/1c86ca6b-37e7-6cfc-99d0-56a6a623d61a/8809658310712_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281642"
+  },
+  {
+    "id": "applemusic-1569281643",
+    "name": "Bon Bon Chocolat",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ARRIVAL OF EVERGLOW - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/43/b5/c043b5e9-569c-3ffd-ab66-e0d267a36319/mzaf_5530208919597656939.plus.aac.p.m4a",
+    "duration": 228682,
+    "trackUrl": "https://music.apple.com/us/album/bon-bon-chocolat/1569281641?i=1569281643",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1c/86/ca/1c86ca6b-37e7-6cfc-99d0-56a6a623d61a/8809658310712_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281643"
+  },
+  {
+    "id": "applemusic-1569282008",
+    "name": "D+1",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ARRIVAL OF EVERGLOW - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/da/cb/c5dacbd0-76f3-3d92-5e32-a92ef148198b/mzaf_10533722119870945589.plus.aac.p.m4a",
+    "duration": 276525,
+    "trackUrl": "https://music.apple.com/us/album/d-1/1569281641?i=1569282008",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1c/86/ca/1c86ca6b-37e7-6cfc-99d0-56a6a623d61a/8809658310712_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282008"
+  },
+  {
+    "id": "applemusic-1604124729",
+    "name": "FIRST",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Last Melody - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/95/86/ea/9586ea49-3a60-1b63-1891-805729f6d888/mzaf_944090085839266205.plus.aac.p.m4a",
+    "duration": 212280,
+    "trackUrl": "https://music.apple.com/us/album/first/1604124728?i=1604124729",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/59/1b/ff591bfe-ebe1-933f-e15a-7c1e2e230daa/888272080841_Cover.jpg/300x300bb.jpg",
+    "trackId": "1604124729"
+  },
+  {
+    "id": "applemusic-1604124730",
+    "name": "DON'T ASK DON'T TELL",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Last Melody - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4b/e9/ea/4be9ea99-d872-32ac-1cc3-7cd0a351c5e2/mzaf_5702307524924049391.plus.aac.p.m4a",
+    "duration": 208320,
+    "trackUrl": "https://music.apple.com/us/album/dont-ask-dont-tell/1604124728?i=1604124730",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/59/1b/ff591bfe-ebe1-933f-e15a-7c1e2e230daa/888272080841_Cover.jpg/300x300bb.jpg",
+    "trackId": "1604124730"
+  },
+  {
+    "id": "applemusic-1604124731",
+    "name": "PLEASE PLEASE",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Last Melody - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d6/83/34/d68334a5-58c1-8bbd-6bf3-42a1319cc6a2/mzaf_12450756234404004042.plus.aac.p.m4a",
+    "duration": 241840,
+    "trackUrl": "https://music.apple.com/us/album/please-please/1604124728?i=1604124731",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ff/59/1b/ff591bfe-ebe1-933f-e15a-7c1e2e230daa/888272080841_Cover.jpg/300x300bb.jpg",
+    "trackId": "1604124731"
+  },
+  {
+    "id": "applemusic-1597707847",
+    "name": "Back Together",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Return of The Girl - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/50/d3/c3/50d3c3cc-dfb0-a75b-c2a6-f74d5cae7fae/mzaf_4854206892649826541.plus.aac.p.m4a",
+    "duration": 239920,
+    "trackUrl": "https://music.apple.com/us/album/back-together/1597707782?i=1597707847",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/34/a1/a434a1c8-29c3-7dbe-2129-92ffaaa70d9d/888272091212_Cover.jpg/300x300bb.jpg",
+    "trackId": "1597707847"
+  },
+  {
+    "id": "applemusic-1597707849",
+    "name": "Pirate",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Return of The Girl - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/40/ed/a4/40eda489-90bb-a8b7-9b7e-1103fe9a9b1e/mzaf_14958859853854572436.plus.aac.p.m4a",
+    "duration": 210013,
+    "trackUrl": "https://music.apple.com/us/album/pirate/1597707782?i=1597707849",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/34/a1/a434a1c8-29c3-7dbe-2129-92ffaaa70d9d/888272091212_Cover.jpg/300x300bb.jpg",
+    "trackId": "1597707849"
+  },
+  {
+    "id": "applemusic-1597707851",
+    "name": "Don't Speak",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Return of The Girl - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f0/60/3c/f0603cff-73e3-e414-6129-5bc41f96d95a/mzaf_1749466919628918315.plus.aac.p.m4a",
+    "duration": 207320,
+    "trackUrl": "https://music.apple.com/us/album/dont-speak/1597707782?i=1597707851",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/34/a1/a434a1c8-29c3-7dbe-2129-92ffaaa70d9d/888272091212_Cover.jpg/300x300bb.jpg",
+    "trackId": "1597707851"
+  },
+  {
+    "id": "applemusic-1597707857",
+    "name": "Nighty Night",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Return of The Girl - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/43/3d/9f/433d9f89-f49a-ded0-e05a-b998bec62232/mzaf_1158149543951962947.plus.aac.p.m4a",
+    "duration": 162027,
+    "trackUrl": "https://music.apple.com/us/album/nighty-night/1597707782?i=1597707857",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/34/a1/a434a1c8-29c3-7dbe-2129-92ffaaa70d9d/888272091212_Cover.jpg/300x300bb.jpg",
+    "trackId": "1597707857"
+  },
+  {
+    "id": "applemusic-1597707861",
+    "name": "Company",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Return of The Girl - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f3/96/0d/f3960da8-012e-1559-3413-9cc527e9f610/mzaf_4038519026130881980.plus.aac.p.m4a",
+    "duration": 177853,
+    "trackUrl": "https://music.apple.com/us/album/company/1597707782?i=1597707861",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a4/34/a1/a434a1c8-29c3-7dbe-2129-92ffaaa70d9d/888272091212_Cover.jpg/300x300bb.jpg",
+    "trackId": "1597707861"
+  },
+  {
+    "id": "applemusic-1651649795",
+    "name": "Ghost Light",
+    "artists": [
+      "TheFatRat & EVERGLOW"
+    ],
+    "album": "Ghost Light - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/19/f6/5a/19f65aca-694d-0814-4d41-7709fe94c38b/mzaf_17597426520856516473.plus.aac.p.m4a",
+    "duration": 191400,
+    "trackUrl": "https://music.apple.com/us/album/ghost-light/1651649794?i=1651649795",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/15/e9/29/15e9292e-a8ae-3e6d-b595-f1170c7a0474/cover_4062851764292.jpg/300x300bb.jpg",
+    "trackId": "1651649795"
+  },
+  {
+    "id": "applemusic-1582592929",
+    "name": "PROMISE (For UNICEF Promise Campaign)",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "PROMISE (For UNICEF Promise Campaign) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8c/66/29/8c662934-da46-0894-48b6-ad1738d0113c/mzaf_11425854043312914897.plus.aac.p.m4a",
+    "duration": 214440,
+    "trackUrl": "https://music.apple.com/us/album/promise-for-unicef-promise-campaign/1582592925?i=1582592929",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/72/8d/78728dd7-c684-bceb-0188-ab7605beca80/888272085372_Cover.jpg/300x300bb.jpg",
+    "trackId": "1582592929"
+  },
+  {
+    "id": "applemusic-1702645746",
+    "name": "SLAY",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ALL MY GIRLS - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e1/ef/08/e1ef08ae-835e-19e9-f90c-7e89b37ee47d/mzaf_16745291797378305673.plus.aac.p.m4a",
+    "duration": 220573,
+    "trackUrl": "https://music.apple.com/us/album/slay/1702645743?i=1702645746",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fd/32/08/fd320874-d258-f386-17fb-3f04e3a5d258/888272121537_Cover.jpg/300x300bb.jpg",
+    "trackId": "1702645746"
+  },
+  {
+    "id": "applemusic-1702645751",
+    "name": "Oh Ma Ma God",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ALL MY GIRLS - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fb/aa/b4/fbaab422-fe3a-a61d-b9bd-d100b7970b3a/mzaf_9141188751392906214.plus.aac.p.m4a",
+    "duration": 188587,
+    "trackUrl": "https://music.apple.com/us/album/oh-ma-ma-god/1702645743?i=1702645751",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fd/32/08/fd320874-d258-f386-17fb-3f04e3a5d258/888272121537_Cover.jpg/300x300bb.jpg",
+    "trackId": "1702645751"
+  },
+  {
+    "id": "applemusic-1702646028",
+    "name": "Make Me Feel",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ALL MY GIRLS - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/52/2c/ab/522cab77-aa5b-fe61-eeff-3472da7c4b5b/mzaf_13293557000084403564.plus.aac.p.m4a",
+    "duration": 181853,
+    "trackUrl": "https://music.apple.com/us/album/make-me-feel/1702645743?i=1702646028",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fd/32/08/fd320874-d258-f386-17fb-3f04e3a5d258/888272121537_Cover.jpg/300x300bb.jpg",
+    "trackId": "1702646028"
+  },
+  {
+    "id": "applemusic-1747695773",
+    "name": "ZOMBIE",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ZOMBIE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/d5/2e/19d52ea2-8b8d-80be-ff12-a8b47e666dc5/mzaf_14576526800811693087.plus.aac.p.m4a",
+    "duration": 198853,
+    "trackUrl": "https://music.apple.com/us/album/zombie/1747695770?i=1747695773",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/c3/1f/1dc31f15-044d-d697-be62-639ddce329db/888272134674_Cover.jpg/300x300bb.jpg",
+    "trackId": "1747695773"
+  },
+  {
+    "id": "applemusic-1747695779",
+    "name": "Colourz",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ZOMBIE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1e/c6/79/1ec67954-5222-1214-35f3-e8a334a5464f/mzaf_3473746145592741882.plus.aac.p.m4a",
+    "duration": 188280,
+    "trackUrl": "https://music.apple.com/us/album/colourz/1747695770?i=1747695779",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/c3/1f/1dc31f15-044d-d697-be62-639ddce329db/888272134674_Cover.jpg/300x300bb.jpg",
+    "trackId": "1747695779"
+  },
+  {
+    "id": "applemusic-1747695786",
+    "name": "BACK 2 LUV",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "ZOMBIE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/c3/ce/04c3ce1c-9302-b4eb-e55a-398b83cb420e/mzaf_9002649774958097422.plus.aac.p.m4a",
+    "duration": 198480,
+    "trackUrl": "https://music.apple.com/us/album/back-2-luv/1747695770?i=1747695786",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/c3/1f/1dc31f15-044d-d697-be62-639ddce329db/888272134674_Cover.jpg/300x300bb.jpg",
+    "trackId": "1747695786"
+  },
+  {
+    "id": "applemusic-1540040493",
+    "name": "Let Me Dance",
+    "artists": [
+      "EVERGLOW"
+    ],
+    "album": "Let Me Dance [The Spies Who Loved Me (Original Television Soundtrack), Special Track] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/00/e5/cd/00e5cdfb-dd89-04ff-b99b-3f90baeb5628/mzaf_14301887250930103113.plus.aac.p.m4a",
+    "duration": 200880,
+    "trackUrl": "https://music.apple.com/us/album/let-me-dance/1540040492?i=1540040493",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/bf/99/b6bf997c-fb2e-b122-965b-7fd2a43da1f1/cover_cover_-_OST.jpg/300x300bb.jpg",
+    "trackId": "1540040493"
+  }
+]

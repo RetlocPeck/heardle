@@ -1,156 +1,193 @@
 /**
- * Track filtering functions for iTunes tracks
- * Uses a filter chain pattern for cleaner, more maintainable code
+ * Track filtering functions for music tracks
+ * Uses a filter chain pattern with factory functions for cleaner code
+ * Works with both iTunes and Apple Music API tracks
  */
 
-import type { ITunesTrack } from '@/types/song';
+import type { ITunesTrack, AppleMusicTrack } from '@/types/song';
+
+// =============================================================================
+// TYPES
+// =============================================================================
+
+export type GenericTrack = ITunesTrack | AppleMusicTrack;
 
 export interface FilteredTrack {
-  track: ITunesTrack;
+  track: GenericTrack;
   reason: string;
 }
 
 export interface FilterResult {
-  valid: ITunesTrack[];
+  valid: GenericTrack[];
   filtered: FilteredTrack[];
 }
 
 export type TrackFilter = (
-  tracks: ITunesTrack[],
+  tracks: GenericTrack[],
   filtered: FilteredTrack[]
-) => { tracks: ITunesTrack[]; filtered: FilteredTrack[] };
+) => { tracks: GenericTrack[]; filtered: FilteredTrack[] };
+
+type TrackPredicate = (track: GenericTrack) => boolean;
+type ReasonFn = string | ((track: GenericTrack) => string);
+
+// =============================================================================
+// TRACK ACCESSORS - Normalize data access for both APIs
+// =============================================================================
+
+export function getGenericTrackId(track: GenericTrack): string | number {
+  if ('trackId' in track) return track.trackId;
+  if ('id' in track) return track.id;
+  return '';
+}
+
+export function getTrackName(track: GenericTrack): string {
+  if ('trackName' in track) return track.trackName || '';
+  if ('attributes' in track) return track.attributes.name || '';
+  return '';
+}
+
+export function getAlbumName(track: GenericTrack): string {
+  if ('collectionName' in track) return track.collectionName || '';
+  if ('attributes' in track) return track.attributes.albumName || '';
+  return '';
+}
+
+export function getPreviewUrl(track: GenericTrack): string {
+  if ('previewUrl' in track) return track.previewUrl || '';
+  if ('attributes' in track && track.attributes.previews) {
+    return track.attributes.previews[0]?.url || '';
+  }
+  return '';
+}
+
+// =============================================================================
+// FILTER FACTORY - Creates filters with minimal boilerplate
+// =============================================================================
 
 /**
- * Creates a filter that removes tracks missing required data
+ * Factory function that creates a filter from a predicate.
+ * If the predicate returns true, the track is FILTERED OUT.
+ * 
+ * @param shouldFilter - Returns true if track should be filtered out
+ * @param reason - Static string or function that returns the reason
  */
+function createFilter(shouldFilter: TrackPredicate, reason: ReasonFn): TrackFilter {
+  return (tracks, filtered) => {
+    const valid: GenericTrack[] = [];
+    const newFiltered = [...filtered];
+
+    for (const track of tracks) {
+      if (shouldFilter(track)) {
+        newFiltered.push({
+          track,
+          reason: typeof reason === 'function' ? reason(track) : reason,
+        });
+      } else {
+        valid.push(track);
+      }
+    }
+
+    return { tracks: valid, filtered: newFiltered };
+  };
+}
+
+/**
+ * Creates a filter that matches a regex pattern against track name
+ */
+function createPatternFilter(pattern: RegExp, reason: string): TrackFilter {
+  return createFilter(
+    (track) => pattern.test(getTrackName(track)),
+    reason
+  );
+}
+
+/**
+ * Creates a filter that matches a regex pattern against album name
+ */
+function createAlbumPatternFilter(pattern: RegExp, reason: string): TrackFilter {
+  return createFilter(
+    (track) => pattern.test(getAlbumName(track)),
+    reason
+  );
+}
+
+/**
+ * Check if a string contains only English/ASCII characters
+ */
+export function isEnglishOnly(str: string): boolean {
+  if (!str) return false;
+  const nonEnglishPattern = /[^\x00-\x7F]/;
+  return !nonEnglishPattern.test(str);
+}
+
+// =============================================================================
+// FILTER DEFINITIONS - Using factory pattern for concise definitions
+// =============================================================================
+
+/** Removes tracks missing name or preview URL */
 export function createMissingDataFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    for (const track of tracks) {
-      if (!track.trackName || !track.previewUrl) {
-        newFiltered.push({
-          track,
-          reason: `Missing ${!track.trackName ? 'track name' : 'preview URL'}`,
-        });
-      } else {
-        valid.push(track);
-      }
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
+  return createFilter(
+    (track) => !getTrackName(track) || !getPreviewUrl(track),
+    (track) => `Missing ${!getTrackName(track) ? 'track name' : 'preview URL'}`
+  );
 }
 
-/**
- * Creates a filter that removes tracks with square brackets in title
- */
-export function createBracketFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    for (const track of tracks) {
-      if (/\[.*\]/.test(track.trackName || '')) {
-        newFiltered.push({
-          track,
-          reason: 'Contains square brackets [...]',
-        });
-      } else {
-        valid.push(track);
-      }
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
+/** Removes tracks with non-English characters in title */
+export function createNonEnglishFilter(): TrackFilter {
+  return createFilter(
+    (track) => !isEnglishOnly(getTrackName(track)),
+    'Contains non-English characters'
+  );
 }
 
-/**
- * Creates a filter that removes tracks with "ver." in title
- */
-export function createVersionFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
+/** Removes tracks with square brackets in title */
+export const createBracketFilter = (): TrackFilter =>
+  createPatternFilter(/\[.*\]/, 'Contains square brackets [...]');
 
-    for (const track of tracks) {
-      if (/ver\./i.test(track.trackName || '')) {
-        newFiltered.push({
-          track,
-          reason: 'Contains "ver." in title',
-        });
-      } else {
-        valid.push(track);
-      }
-    }
+/** Removes tracks with "ver." in title */
+export const createVersionFilter = (): TrackFilter =>
+  createPatternFilter(/ver\./i, 'Contains "ver." in title');
 
-    return { tracks: valid, filtered: newFiltered };
-  };
-}
+/** Removes tracks with "japanese" anywhere in title */
+export const createJapaneseVersionFilter = (): TrackFilter =>
+  createPatternFilter(/japanese/i, 'Contains "japanese" in title');
 
-/**
- * Creates a filter that removes tracks with language/version words between dashes
- */
+/** Removes tracks with excessive punctuation */
+export const createPunctuationFilter = (): TrackFilter =>
+  createPatternFilter(/([.,\-_&+]){3,}/, 'Contains excessive punctuation');
+
+/** Removes tracks explicitly marked as versions */
+export const createExplicitVersionFilter = (): TrackFilter =>
+  createPatternFilter(
+    /\(main\s+version\)|\(original\s+version\)|\(standard\s+version\)/i,
+    'Explicitly marked as main/original/standard version'
+  );
+
+/** Removes tracks from remix albums */
+export const createRemixAlbumFilter = (): TrackFilter =>
+  createAlbumPatternFilter(/\([^)]*remix[^)]*\)/i, 'Album contains "remix" in parentheses');
+
+/** Removes tracks with language/version words between dashes */
 export function createDashVersionFilter(): TrackFilter {
-  const dashLikeChars = /[‑\-–—‒―]/;
+  const dashChars = '[‑\\-–—‒―]';
   const versionWords = [
     'version', 'ver\\.', 'versión', 'japanese', 'kor', 'korean', 'english',
     'eng', 'spanish', 'español', 'instrumental', 'inst\\.', 'remix', 'mix',
     'edit', 'acoustic', 'acapella', 'live', 'demo', 'radio', 'extended',
     'short', 'long', 'rem',
   ];
-  const pattern = new RegExp(
-    `${dashLikeChars.source}\\s*(${versionWords.join('|')})\\s*${dashLikeChars.source}`,
-    'i'
+  const pattern = new RegExp(`${dashChars}\\s*(${versionWords.join('|')})\\s*${dashChars}`, 'i');
+
+  return createFilter(
+    (track) => pattern.test(getTrackName(track)),
+    (track) => {
+      const match = pattern.exec(getTrackName(track));
+      return match ? `Contains "${match[1]}" between dashes` : 'Contains version word between dashes';
+    }
   );
-
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    for (const track of tracks) {
-      const match = pattern.exec(track.trackName || '');
-      if (match) {
-        newFiltered.push({
-          track,
-          reason: `Contains "${match[1]}" between dashes`,
-        });
-      } else {
-        valid.push(track);
-      }
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
 }
 
-/**
- * Creates a filter that removes tracks with "japanese" anywhere in title
- */
-export function createJapaneseVersionFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    for (const track of tracks) {
-      if (/japanese/i.test(track.trackName || '')) {
-        newFiltered.push({
-          track,
-          reason: 'Contains "japanese" in title',
-        });
-      } else {
-        valid.push(track);
-      }
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
-}
-
-/**
- * Creates a filter that removes tracks with unwanted patterns in parentheses/brackets
- */
+/** Removes tracks with unwanted patterns in parentheses/brackets/hyphens */
 export function createUnwantedPatternFilter(): TrackFilter {
   const patterns = [
     'remix', 'version', 'ver\\.', 'versión', 'edit', 'mixed', 'mix',
@@ -161,40 +198,31 @@ export function createUnwantedPatternFilter(): TrackFilter {
   ];
 
   return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
+    const valid: GenericTrack[] = [];
     const newFiltered = [...filtered];
 
     trackLoop: for (const track of tracks) {
-      const trackName = (track.trackName || '').toLowerCase();
+      const trackName = getTrackName(track).toLowerCase();
 
       for (const pattern of patterns) {
-        const inParentheses = new RegExp(`\\([^)]*${pattern}[^)]*\\)`, 'i');
+        const inParens = new RegExp(`\\([^)]*${pattern}[^)]*\\)`, 'i');
         const inBrackets = new RegExp(`\\[[^\\]]*${pattern}[^\\]]*\\]`, 'i');
-        const betweenHyphens = new RegExp(`[‑\\-–—]\\s*${pattern}\\s*[‑\\-–—]`, 'i');
+        const betweenDashes = new RegExp(`[‑\\-–—]\\s*${pattern}\\s*[‑\\-–—]`, 'i');
+        const cleanPattern = pattern.replace('\\\\', '');
 
-        if (inParentheses.test(trackName)) {
-          newFiltered.push({
-            track,
-            reason: `Contains "${pattern.replace('\\\\', '')}" in parentheses`,
-          });
+        if (inParens.test(trackName)) {
+          newFiltered.push({ track, reason: `Contains "${cleanPattern}" in parentheses` });
           continue trackLoop;
         }
         if (inBrackets.test(trackName)) {
-          newFiltered.push({
-            track,
-            reason: `Contains "${pattern.replace('\\\\', '')}" in brackets`,
-          });
+          newFiltered.push({ track, reason: `Contains "${cleanPattern}" in brackets` });
           continue trackLoop;
         }
-        if (betweenHyphens.test(trackName)) {
-          newFiltered.push({
-            track,
-            reason: `Contains "${pattern.replace('\\\\', '')}" between hyphens`,
-          });
+        if (betweenDashes.test(trackName)) {
+          newFiltered.push({ track, reason: `Contains "${cleanPattern}" between hyphens` });
           continue trackLoop;
         }
       }
-
       valid.push(track);
     }
 
@@ -202,33 +230,7 @@ export function createUnwantedPatternFilter(): TrackFilter {
   };
 }
 
-/**
- * Creates a filter that removes tracks from remix albums
- */
-export function createRemixAlbumFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    for (const track of tracks) {
-      const collectionName = (track.collectionName || '').toLowerCase();
-      if (/\([^)]*remix[^)]*\)/i.test(collectionName)) {
-        newFiltered.push({
-          track,
-          reason: 'Album contains "remix" in parentheses',
-        });
-      } else {
-        valid.push(track);
-      }
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
-}
-
-/**
- * Creates a filter that removes tracks with full version phrases
- */
+/** Removes tracks with full version phrases */
 export function createVersionPhraseFilter(): TrackFilter {
   const phrases = [
     'acoustic version', 'live version', 'demo version', 'radio edit',
@@ -237,43 +239,15 @@ export function createVersionPhraseFilter(): TrackFilter {
   ];
 
   return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    trackLoop: for (const track of tracks) {
-      const trackName = (track.trackName || '').toLowerCase();
-
-      for (const phrase of phrases) {
-        if (trackName.includes(phrase)) {
-          newFiltered.push({
-            track,
-            reason: `Contains "${phrase}" in title`,
-          });
-          continue trackLoop;
-        }
-      }
-
-      valid.push(track);
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
-}
-
-/**
- * Creates a filter that removes tracks with excessive punctuation
- */
-export function createPunctuationFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
+    const valid: GenericTrack[] = [];
     const newFiltered = [...filtered];
 
     for (const track of tracks) {
-      if (/([.,\-_&+]){3,}/.test((track.trackName || '').toLowerCase())) {
-        newFiltered.push({
-          track,
-          reason: 'Contains excessive punctuation',
-        });
+      const trackName = getTrackName(track).toLowerCase();
+      const foundPhrase = phrases.find(p => trackName.includes(p));
+      
+      if (foundPhrase) {
+        newFiltered.push({ track, reason: `Contains "${foundPhrase}" in title` });
       } else {
         valid.push(track);
       }
@@ -283,32 +257,7 @@ export function createPunctuationFilter(): TrackFilter {
   };
 }
 
-/**
- * Creates a filter that removes tracks explicitly marked as versions
- */
-export function createExplicitVersionFilter(): TrackFilter {
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    for (const track of tracks) {
-      if (/\(main\s+version\)|\(original\s+version\)|\(standard\s+version\)/i.test(track.trackName || '')) {
-        newFiltered.push({
-          track,
-          reason: 'Explicitly marked as main/original/standard version',
-        });
-      } else {
-        valid.push(track);
-      }
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
-}
-
-/**
- * Creates a filter that removes tracks with specific unwanted markers
- */
+/** Removes tracks with specific unwanted markers */
 export function createSpecificMarkerFilter(): TrackFilter {
   const markers = [
     { pattern: /REMIXX/i, reason: 'Contains "REMIXX" in title' },
@@ -316,49 +265,13 @@ export function createSpecificMarkerFilter(): TrackFilter {
   ];
 
   return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
-    const newFiltered = [...filtered];
-
-    trackLoop: for (const track of tracks) {
-      for (const { pattern, reason } of markers) {
-        if (pattern.test(track.trackName || '')) {
-          newFiltered.push({ track, reason });
-          continue trackLoop;
-        }
-      }
-      valid.push(track);
-    }
-
-    return { tracks: valid, filtered: newFiltered };
-  };
-}
-
-/**
- * Creates a filter that removes intro/outro/skit tracks
- */
-export function createIntroOutroFilter(): TrackFilter {
-  const words = ['outro', 'intro', 'introduction', 'skit', 'outros', 'intros', 'introductions', 'skits'];
-  const pattern = new RegExp(
-    `\\b(${words.join('|')})\\b|` +
-    `\\((${words.join('|')})\\)|` +
-    `^(${words.join('|')})[:|-]|` +
-    `[:|-]\\s*(${words.join('|')})\\b`,
-    'i'
-  );
-
-  return (tracks, filtered) => {
-    const valid: ITunesTrack[] = [];
+    const valid: GenericTrack[] = [];
     const newFiltered = [...filtered];
 
     for (const track of tracks) {
-      if (pattern.test(track.trackName || '')) {
-        const matchedWord = words.find(word =>
-          new RegExp(`\\b${word}\\b`, 'i').test(track.trackName || '')
-        ) || 'intro/outro/skit';
-        newFiltered.push({
-          track,
-          reason: `Contains "${matchedWord}" (intro/outro/skit filter)`,
-        });
+      const found = markers.find(m => m.pattern.test(getTrackName(track)));
+      if (found) {
+        newFiltered.push({ track, reason: found.reason });
       } else {
         valid.push(track);
       }
@@ -368,11 +281,33 @@ export function createIntroOutroFilter(): TrackFilter {
   };
 }
 
+/** Removes intro/outro/skit tracks */
+export function createIntroOutroFilter(): TrackFilter {
+  const words = ['outro', 'intro', 'introduction', 'skit'];
+  const pattern = new RegExp(
+    `\\b(${words.join('|')})s?\\b|\\((${words.join('|')})\\)|^(${words.join('|')})[:|-]`,
+    'i'
+  );
+
+  return createFilter(
+    (track) => pattern.test(getTrackName(track)),
+    (track) => {
+      const trackName = getTrackName(track);
+      const matched = words.find(w => new RegExp(`\\b${w}\\b`, 'i').test(trackName));
+      return `Contains "${matched || 'intro/outro/skit'}" (intro/outro/skit filter)`;
+    }
+  );
+}
+
+// =============================================================================
+// FILTER CHAIN APPLICATION
+// =============================================================================
+
 /**
  * Apply a chain of filters to tracks
  */
 export function applyFilterChain(
-  tracks: ITunesTrack[],
+  tracks: GenericTrack[],
   filters: TrackFilter[]
 ): FilterResult {
   let currentTracks = tracks;
@@ -388,11 +323,12 @@ export function applyFilterChain(
 }
 
 /**
- * Get the default filter chain for iTunes tracks
+ * Get the default filter chain for tracks
  */
 export function getDefaultFilterChain(): TrackFilter[] {
   return [
     createMissingDataFilter(),
+    createNonEnglishFilter(),
     createBracketFilter(),
     createVersionFilter(),
     createDashVersionFilter(),

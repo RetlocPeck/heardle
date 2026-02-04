@@ -1,0 +1,678 @@
+[
+  {
+    "id": "applemusic-1494673344",
+    "name": "Any Song",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Any Song - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a0/ae/6c/a0ae6c6f-cfb0-1af4-8afa-3efc4f23bdb4/mzaf_3852645139889131270.plus.aac.p.m4a",
+    "duration": 227227,
+    "trackUrl": "https://music.apple.com/us/album/any-song/1494673334?i=1494673344",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/14/1e/87/141e87bd-a541-e26a-bc74-c586d3e68d75/ZICO_cover_4000px.jpg/300x300bb.jpg",
+    "trackId": "1494673344"
+  },
+  {
+    "id": "applemusic-1804648840",
+    "name": "BERMUDA TRIANGLE (feat. Crush & DEAN)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "BERMUDA TRIANGLE (feat. Crush & DEAN) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/04/40/d5044099-f8de-6c5b-095f-1ca40659c853/mzaf_10515830714604213609.plus.aac.p.m4a",
+    "duration": 207027,
+    "trackUrl": "https://music.apple.com/us/album/bermuda-triangle-feat-crush-dean/1804648839?i=1804648840",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/2f/6d/1e2f6dc0-4396-c139-5d9a-dee62b39a48a/cover_KM0020975_1.jpg/300x300bb.jpg",
+    "trackId": "1804648840"
+  },
+  {
+    "id": "applemusic-1742019076",
+    "name": "SPOT! (feat. JENNIE)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "SPOT! (feat. JENNIE) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/c5/04/6ec5043a-f032-9803-f6c2-55956d0da9f9/mzaf_7311793964113917388.plus.aac.p.m4a",
+    "duration": 167707,
+    "trackUrl": "https://music.apple.com/us/album/spot-feat-jennie/1742019065?i=1742019076",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/2c/9c/2e2c9cb1-7352-867a-013c-9c885a9f7f4e/196922944741_Cover.jpg/300x300bb.jpg",
+    "trackId": "1742019076"
+  },
+  {
+    "id": "applemusic-1417069365",
+    "name": "SoulMate (feat. IU)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "SoulMate (feat. IU) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/8c/5b/738c5bee-2ba0-cd06-5c30-9bf835649438/mzaf_9427056855818479756.plus.aac.p.m4a",
+    "duration": 219391,
+    "trackUrl": "https://music.apple.com/us/album/soulmate-feat-iu/1417068270?i=1417069365",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/57/17/db571748-dfc5-0e07-3ffb-5125cf1efa40/886447238585.jpg/300x300bb.jpg",
+    "trackId": "1417069365"
+  },
+  {
+    "id": "applemusic-1804642294",
+    "name": "She's a Baby",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "She's a Baby - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/2c/ad/662cad38-3e6d-f315-d2bf-cfbfe88c7241/mzaf_18250605594267286180.plus.aac.p.m4a",
+    "duration": 164980,
+    "trackUrl": "https://music.apple.com/us/album/shes-a-baby/1804642293?i=1804642294",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/02/eb/82/02eb8285-b03f-6983-bca7-ac9f7585bddb/cover_KM0021079_1.jpg/300x300bb.jpg",
+    "trackId": "1804642294"
+  },
+  {
+    "id": "applemusic-1804661550",
+    "name": "Genius (Behind the scene)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "TELEVISION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/c8/b4/72c8b4b5-d260-1b15-a4d3-3274d8e8ff77/mzaf_6539287211147464496.plus.aac.p.m4a",
+    "duration": 176245,
+    "trackUrl": "https://music.apple.com/us/album/genius-behind-the-scene/1804661544?i=1804661550",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/0b/bb/330bbb00-4167-eac7-7a9e-bd10130c4712/cover_KM0021093_1.jpg/300x300bb.jpg",
+    "trackId": "1804661550"
+  },
+  {
+    "id": "applemusic-1804661559",
+    "name": "Artist",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "TELEVISION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/d1/d4/0cd1d440-b5e6-f208-ff9e-1408a867b953/mzaf_12442480589609852311.plus.aac.p.m4a",
+    "duration": 192827,
+    "trackUrl": "https://music.apple.com/us/album/artist/1804661544?i=1804661559",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/0b/bb/330bbb00-4167-eac7-7a9e-bd10130c4712/cover_KM0021093_1.jpg/300x300bb.jpg",
+    "trackId": "1804661559"
+  },
+  {
+    "id": "applemusic-1804661561",
+    "name": "ANTI (feat. GSoul)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "TELEVISION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/63/c1/e463c1fe-24d9-737f-7cab-709181f37f70/mzaf_18342007183143874728.plus.aac.p.m4a",
+    "duration": 216515,
+    "trackUrl": "https://music.apple.com/us/album/anti-feat-gsoul/1804661544?i=1804661561",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/0b/bb/330bbb00-4167-eac7-7a9e-bd10130c4712/cover_KM0021093_1.jpg/300x300bb.jpg",
+    "trackId": "1804661561"
+  },
+  {
+    "id": "applemusic-1804661562",
+    "name": "FANXY CHILD (feat. FANXY CHILD)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "TELEVISION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/ce/4a/27ce4a06-0c58-a807-1c7b-b3d0762e87f7/mzaf_11704115668978677828.plus.aac.p.m4a",
+    "duration": 234708,
+    "trackUrl": "https://music.apple.com/us/album/fanxy-child-feat-fanxy-child/1804661544?i=1804661562",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/0b/bb/330bbb00-4167-eac7-7a9e-bd10130c4712/cover_KM0021093_1.jpg/300x300bb.jpg",
+    "trackId": "1804661562"
+  },
+  {
+    "id": "applemusic-1481816844",
+    "name": "Daredevil (feat. Jvcki Wai & YUMDDA)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/d1/bf/c8d1bfe1-a6bc-3c6b-fa94-7fb7f6e78b9f/mzaf_16009063153708879290.plus.aac.p.m4a",
+    "duration": 252360,
+    "trackUrl": "https://music.apple.com/us/album/daredevil-feat-jvcki-wai-yumdda/1481816843?i=1481816844",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/02/7b/81027b47-1d7e-fa73-5805-36920861fde7/cover_-_ZICO.jpg/300x300bb.jpg",
+    "trackId": "1481816844"
+  },
+  {
+    "id": "applemusic-1481816845",
+    "name": "Actually",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3e/ed/a2/3eeda20e-2e86-3477-4992-dce0864b514a/mzaf_16602915954010278613.plus.aac.p.m4a",
+    "duration": 217387,
+    "trackUrl": "https://music.apple.com/us/album/actually/1481816843?i=1481816845",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/02/7b/81027b47-1d7e-fa73-5805-36920861fde7/cover_-_ZICO.jpg/300x300bb.jpg",
+    "trackId": "1481816845"
+  },
+  {
+    "id": "applemusic-1481817146",
+    "name": "Human",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/46/fa/91/46fa91dc-92af-ca12-bc05-97bfd5d5d3e5/mzaf_12024376172950891239.plus.aac.p.m4a",
+    "duration": 237520,
+    "trackUrl": "https://music.apple.com/us/album/human/1481816843?i=1481817146",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/02/7b/81027b47-1d7e-fa73-5805-36920861fde7/cover_-_ZICO.jpg/300x300bb.jpg",
+    "trackId": "1481817146"
+  },
+  {
+    "id": "applemusic-1481817147",
+    "name": "Extreme",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/72/75/8f/72758fce-657e-10f7-b1ef-6f9937951651/mzaf_1314751638466811750.plus.aac.p.m4a",
+    "duration": 147693,
+    "trackUrl": "https://music.apple.com/us/album/extreme/1481816843?i=1481817147",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/02/7b/81027b47-1d7e-fa73-5805-36920861fde7/cover_-_ZICO.jpg/300x300bb.jpg",
+    "trackId": "1481817147"
+  },
+  {
+    "id": "applemusic-1481817148",
+    "name": "One-man Show (feat. Sik-K)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/6a/35/ea6a3557-bb85-b817-090e-d8d919676c20/mzaf_6780327919083179977.plus.aac.p.m4a",
+    "duration": 244000,
+    "trackUrl": "https://music.apple.com/us/album/one-man-show-feat-sik-k/1481816843?i=1481817148",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/81/02/7b/81027b47-1d7e-fa73-5805-36920861fde7/cover_-_ZICO.jpg/300x300bb.jpg",
+    "trackId": "1481817148"
+  },
+  {
+    "id": "applemusic-1487067377",
+    "name": "Pour Up (feat. ZICO)",
+    "artists": [
+      "DEAN"
+    ],
+    "album": "Pour Up (feat. ZICO) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6d/4d/4c/6d4d4c40-b89a-747b-82a5-a2bd2515436f/mzaf_17016253333400829397.plus.aac.p.m4a",
+    "duration": 211987,
+    "trackUrl": "https://music.apple.com/us/album/pour-up-feat-zico/1487067376?i=1487067377",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/29/8b/63/298b63c8-b404-d2b4-6889-8623a5c6bdac/15UMGIM57081.rgb.jpg/300x300bb.jpg",
+    "trackId": "1487067377"
+  },
+  {
+    "id": "applemusic-1634866069",
+    "name": "Freak",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/62/d2/07/62d20768-3c2d-ea9c-4ce1-48d98954acd0/mzaf_9864706013514597022.plus.aac.p.m4a",
+    "duration": 169973,
+    "trackUrl": "https://music.apple.com/us/album/freak/1634865705?i=1634866069",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866069"
+  },
+  {
+    "id": "applemusic-1634866072",
+    "name": "SEOUL DRIFT",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/73/94/b8/7394b8b3-a69b-c9a0-a3ca-d6d491a96104/mzaf_15320693884568476881.plus.aac.p.m4a",
+    "duration": 199627,
+    "trackUrl": "https://music.apple.com/us/album/seoul-drift/1634865705?i=1634866072",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866072"
+  },
+  {
+    "id": "applemusic-1634866075",
+    "name": "Trash Talk (feat. CHANGMO)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2d/6d/e0/2d6de0c8-c497-45c8-9769-0517c7ca79f0/mzaf_4470040049695282314.plus.aac.p.m4a",
+    "duration": 186267,
+    "trackUrl": "https://music.apple.com/us/album/trash-talk-feat-changmo/1634865705?i=1634866075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866075"
+  },
+  {
+    "id": "applemusic-1634866080",
+    "name": "OMZ freestyle",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/aa/63/94/aa639450-5b4e-6f59-b1da-e1eaf6a0810a/mzaf_326563774266925328.plus.aac.p.m4a",
+    "duration": 144067,
+    "trackUrl": "https://music.apple.com/us/album/omz-freestyle/1634865705?i=1634866080",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866080"
+  },
+  {
+    "id": "applemusic-1634866082",
+    "name": "Nocturnal animals (feat. Zior Park)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8e/15/25/8e152591-182f-94df-c124-7895e1aa6f0e/mzaf_18068048841496914274.plus.aac.p.m4a",
+    "duration": 205347,
+    "trackUrl": "https://music.apple.com/us/album/nocturnal-animals-feat-zior-park/1634865705?i=1634866082",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866082"
+  },
+  {
+    "id": "applemusic-1629599093",
+    "name": "OSAKA (From GRADATION, Vol. 4) [feat. ZICO]",
+    "artists": [
+      "ELO"
+    ],
+    "album": "OSAKA (From GRADATION, Vol. 4) [feat. ZICO] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/8e/8e/7c/8e8e7ce5-cd12-50b7-68ef-a34b0fca23e2/mzaf_6628155125783000095.plus.aac.p.m4a",
+    "duration": 205193,
+    "trackUrl": "https://music.apple.com/us/album/osaka-from-gradation-vol-4-feat-zico/1629598828?i=1629599093",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c1/55/f3/c155f328-ff05-502e-7373-6f83a44f7eee/8809603543257_Cover.jpg/300x300bb.jpg",
+    "trackId": "1629599093"
+  },
+  {
+    "id": "applemusic-1520181978",
+    "name": "Summer Hate (feat. RAIN)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Random Box - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ff/4d/1f/ff4d1fae-594b-2c84-735c-6d1665ba5e99/mzaf_12760202092153394534.plus.aac.p.m4a",
+    "duration": 184627,
+    "trackUrl": "https://music.apple.com/us/album/summer-hate-feat-rain/1520181977?i=1520181978",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/01/3f/81013ff5-59ab-f4a0-f295-06bb5656383a/dj.xsntovad.jpg/300x300bb.jpg",
+    "trackId": "1520181978"
+  },
+  {
+    "id": "applemusic-1520181979",
+    "name": "Cartoon",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Random Box - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/eb/f1/3b/ebf13b33-f661-dd3a-23d4-d05058261c5c/mzaf_6600177744397508373.plus.aac.p.m4a",
+    "duration": 190827,
+    "trackUrl": "https://music.apple.com/us/album/cartoon/1520181977?i=1520181979",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/01/3f/81013ff5-59ab-f4a0-f295-06bb5656383a/dj.xsntovad.jpg/300x300bb.jpg",
+    "trackId": "1520181979"
+  },
+  {
+    "id": "applemusic-1520181980",
+    "name": "Love & Hate (feat. BIBI)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Random Box - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3e/f5/8e/3ef58e27-1ca2-5d3e-b168-655a6c8a2e37/mzaf_6652251685958843552.plus.aac.p.m4a",
+    "duration": 196867,
+    "trackUrl": "https://music.apple.com/us/album/love-hate-feat-bibi/1520181977?i=1520181980",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/01/3f/81013ff5-59ab-f4a0-f295-06bb5656383a/dj.xsntovad.jpg/300x300bb.jpg",
+    "trackId": "1520181980"
+  },
+  {
+    "id": "applemusic-1520181981",
+    "name": "No You Can't",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Random Box - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3d/81/3b/3d813ba4-f439-a501-17d5-bf593a77cc8c/mzaf_2534818184008902891.plus.aac.p.m4a",
+    "duration": 193267,
+    "trackUrl": "https://music.apple.com/us/album/no-you-cant/1520181977?i=1520181981",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/01/3f/81013ff5-59ab-f4a0-f295-06bb5656383a/dj.xsntovad.jpg/300x300bb.jpg",
+    "trackId": "1520181981"
+  },
+  {
+    "id": "applemusic-1520181982",
+    "name": "Roommate",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Random Box - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/60/a8/3060a872-8e40-1b00-c4d4-5607a08ca567/mzaf_18211148819986579776.plus.aac.p.m4a",
+    "duration": 230173,
+    "trackUrl": "https://music.apple.com/us/album/roommate/1520181977?i=1520181982",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/01/3f/81013ff5-59ab-f4a0-f295-06bb5656383a/dj.xsntovad.jpg/300x300bb.jpg",
+    "trackId": "1520181982"
+  },
+  {
+    "id": "applemusic-1859542280",
+    "name": "DUET",
+    "artists": [
+      "ZICO & Lilas"
+    ],
+    "album": "DUET - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/20/c4/6520c44c-0ef9-7a1d-3fc9-4c19b6f50834/mzaf_10775253176465188493.plus.aac.p.m4a",
+    "duration": 146000,
+    "trackUrl": "https://music.apple.com/us/album/duet/1859542278?i=1859542280",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/c6/e6/c0c6e63d-c8d9-879f-4a49-e188e7cfff42/198704893582_Cover.jpg/300x300bb.jpg",
+    "trackId": "1859542280"
+  },
+  {
+    "id": "applemusic-1804642416",
+    "name": "Tough Cookie (feat. Don Mills)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Tough Cookie (feat. Don Mills) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/99/19/65991990-af7b-aab0-abe4-09d83c6c144e/mzaf_8269439133298658343.plus.aac.p.m4a",
+    "duration": 255760,
+    "trackUrl": "https://music.apple.com/us/album/tough-cookie-feat-don-mills/1804642415?i=1804642416",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2e/44/16/2e441678-93ab-548e-77c0-8e73ab0f60b7/cover_KM0021107_1.jpg/300x300bb.jpg",
+    "trackId": "1804642416"
+  },
+  {
+    "id": "applemusic-1804637051",
+    "name": "Tell Me Yes Or No (feat. The Quiett & PENOMECO)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Tell Me Yes Or No (feat. The Quiett & PENOMECO) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/7f/ac/527fac0f-b730-fd36-3828-ecf30ea53b4a/mzaf_1251161539412849243.plus.aac.p.m4a",
+    "duration": 254043,
+    "trackUrl": "https://music.apple.com/us/album/tell-me-yes-or-no-feat-the-quiett-penomeco/1804637049?i=1804637051",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/09/99/94/09999442-c3e7-593e-a77c-20638e753122/cover_KM0021162_1.jpg/300x300bb.jpg",
+    "trackId": "1804637051"
+  },
+  {
+    "id": "applemusic-1804659493",
+    "name": "I Am You, You Are Me",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Break Up 2 Make Up - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/55/7c/b5557c05-0738-bb19-6637-40e9138cbde8/mzaf_3806752849838108265.plus.aac.p.m4a",
+    "duration": 213252,
+    "trackUrl": "https://music.apple.com/us/album/i-am-you-you-are-me/1804659491?i=1804659493",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/af/a6/dbafa664-5092-dc01-cef2-88976198be7f/cover_KM0020984_1.jpg/300x300bb.jpg",
+    "trackId": "1804659493"
+  },
+  {
+    "id": "applemusic-1804659496",
+    "name": "It Was Love (feat. LUNA)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Break Up 2 Make Up - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/79/e7/4e79e7b4-8090-845f-7674-dc21fa80b3b0/mzaf_7338311118452739832.plus.aac.p.m4a",
+    "duration": 269907,
+    "trackUrl": "https://music.apple.com/us/album/it-was-love-feat-luna/1804659491?i=1804659496",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/af/a6/dbafa664-5092-dc01-cef2-88976198be7f/cover_KM0020984_1.jpg/300x300bb.jpg",
+    "trackId": "1804659496"
+  },
+  {
+    "id": "applemusic-1487071065",
+    "name": "Another Level (feat. PENOMECO)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a0/87/e0/a087e04e-25a2-86f1-8b71-ee72aaef826c/mzaf_16423292736162814277.plus.aac.p.m4a",
+    "duration": 163280,
+    "trackUrl": "https://music.apple.com/us/album/another-level-feat-penomeco/1487071064?i=1487071065",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/27/92/b8/2792b838-2f32-6a6d-ddc9-621b3879d2bf/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1487071065"
+  },
+  {
+    "id": "applemusic-1487071066",
+    "name": "Being Left (feat. Dvwn)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b2/4f/82/b24f8234-43b9-66f3-de4d-9949e48c8610/mzaf_16989636494614210362.plus.aac.p.m4a",
+    "duration": 218813,
+    "trackUrl": "https://music.apple.com/us/album/being-left-feat-dvwn/1487071064?i=1487071066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/27/92/b8/2792b838-2f32-6a6d-ddc9-621b3879d2bf/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1487071066"
+  },
+  {
+    "id": "applemusic-1487071067",
+    "name": "Dystopia",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/58/ff/4d/58ff4da7-1d3c-b3ca-688c-5f04cdf3d614/mzaf_7754248628320198730.plus.aac.p.m4a",
+    "duration": 237440,
+    "trackUrl": "https://music.apple.com/us/album/dystopia/1487071064?i=1487071067",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/27/92/b8/2792b838-2f32-6a6d-ddc9-621b3879d2bf/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1487071067"
+  },
+  {
+    "id": "applemusic-1487071068",
+    "name": "Balloon",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Thinking, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/12/ba/3c/12ba3cad-0813-a7d4-bc78-c4795e0f3f25/mzaf_7950123348459411477.plus.aac.p.m4a",
+    "duration": 218680,
+    "trackUrl": "https://music.apple.com/us/album/balloon/1487071064?i=1487071068",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/27/92/b8/2792b838-2f32-6a6d-ddc9-621b3879d2bf/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1487071068"
+  },
+  {
+    "id": "applemusic-1804659768",
+    "name": "VENI VIDI VICI (feat. DJ Wegun)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "GALLERY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/f8/37/10f83782-ff98-924d-e91b-1ccbbd2926f2/mzaf_14873143850733189534.plus.aac.p.m4a",
+    "duration": 193573,
+    "trackUrl": "https://music.apple.com/us/album/veni-vidi-vici-feat-dj-wegun/1804659764?i=1804659768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/84/9a/e7849a26-1799-0080-c9c4-9686757dd8c1/cover_KM0021013_1.jpg/300x300bb.jpg",
+    "trackId": "1804659768"
+  },
+  {
+    "id": "applemusic-1804659769",
+    "name": "Eureka (feat. Zion.T)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "GALLERY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/cb/d9/fccbd9e4-b416-17d6-cda2-b1c1746b5508/mzaf_11775192012462388788.plus.aac.p.m4a",
+    "duration": 183996,
+    "trackUrl": "https://music.apple.com/us/album/eureka-feat-zion-t/1804659764?i=1804659769",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/84/9a/e7849a26-1799-0080-c9c4-9686757dd8c1/cover_KM0021013_1.jpg/300x300bb.jpg",
+    "trackId": "1804659769"
+  },
+  {
+    "id": "applemusic-1804660130",
+    "name": "Pride and Prejudice (feat. SURAN)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "GALLERY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/5a/9c/1f5a9c72-804d-1f3d-8923-d059d5668806/mzaf_17814550424861542980.plus.aac.p.m4a",
+    "duration": 208359,
+    "trackUrl": "https://music.apple.com/us/album/pride-and-prejudice-feat-suran/1804659764?i=1804660130",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/84/9a/e7849a26-1799-0080-c9c4-9686757dd8c1/cover_KM0021013_1.jpg/300x300bb.jpg",
+    "trackId": "1804660130"
+  },
+  {
+    "id": "applemusic-1804660131",
+    "name": "Boys And Girls (feat. Babylon)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "GALLERY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/2c/cb/122ccbcc-0bdc-66f3-a662-3876533a4ba8/mzaf_4992265006891735422.plus.aac.p.m4a",
+    "duration": 200170,
+    "trackUrl": "https://music.apple.com/us/album/boys-and-girls-feat-babylon/1804659764?i=1804660131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/84/9a/e7849a26-1799-0080-c9c4-9686757dd8c1/cover_KM0021013_1.jpg/300x300bb.jpg",
+    "trackId": "1804660131"
+  },
+  {
+    "id": "applemusic-1804660132",
+    "name": "Predator (feat. J-Tong)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "GALLERY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/ed/4d/55ed4d8f-5faa-30dc-c108-da3c8d0786f9/mzaf_1299342623637577022.plus.aac.p.m4a",
+    "duration": 208772,
+    "trackUrl": "https://music.apple.com/us/album/predator-feat-j-tong/1804659764?i=1804660132",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/84/9a/e7849a26-1799-0080-c9c4-9686757dd8c1/cover_KM0021013_1.jpg/300x300bb.jpg",
+    "trackId": "1804660132"
+  },
+  {
+    "id": "applemusic-1377599911",
+    "name": "Keep Going (feat. BewhY, nafla & ZICO)",
+    "artists": [
+      "Swings"
+    ],
+    "album": "Keep Going (feat. BewhY, nafla & ZICO) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/ae/3d/9bae3d70-f939-ffed-8b66-8c1b55902b5a/mzaf_11892782041028142100.plus.aac.p.m4a",
+    "duration": 280222,
+    "trackUrl": "https://music.apple.com/us/album/keep-going-feat-bewhy-nafla-zico/1377599758?i=1377599911",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4d/86/b2/4d86b2bc-fa09-b7c8-5b18-efa17b020e9e/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1377599911"
+  },
+  {
+    "id": "applemusic-1509663400",
+    "name": "Refresh",
+    "artists": [
+      "ZICO & KANGDANIEL"
+    ],
+    "album": "Refresh - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/63/3b/94633bd9-76dc-27e5-8b55-ba656e908dd5/mzaf_17393847899476108965.plus.aac.p.m4a",
+    "duration": 152747,
+    "trackUrl": "https://music.apple.com/us/album/refresh/1509663396?i=1509663400",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f3/f4/d7/f3f4d776-34da-a6bd-ba82-e3827beecd6a/cover_-_DS.jpg/300x300bb.jpg",
+    "trackId": "1509663400"
+  },
+  {
+    "id": "applemusic-1617795976",
+    "name": "Beautiful (feat. ZICO)",
+    "artists": [
+      "Park Boram"
+    ],
+    "album": "Beautiful (feat. ZICO) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/78/2d/c4/782dc4a0-e23e-e4b0-d0ad-89fb2ee8a76e/mzaf_7563269218222423342.plus.aac.p.m4a",
+    "duration": 209464,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-feat-zico/1617795973?i=1617795976",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2e/e5/d5/2ee5d5e2-8db6-6aef-84cc-176c2d2263ed/8809388748847_Cover.jpg/300x300bb.jpg",
+    "trackId": "1617795976"
+  },
+  {
+    "id": "applemusic-1033728116",
+    "name": "Dark Panda",
+    "artists": [
+      "HYOLYN, ZICO & Paloalto"
+    ],
+    "album": "Dark Panda - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c6/a8/2d/c6a82d47-a4c4-d7cc-a79b-882fd52726b8/mzaf_2811951745835566511.plus.aac.p.m4a",
+    "duration": 209920,
+    "trackUrl": "https://music.apple.com/us/album/dark-panda/1033728113?i=1033728116",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/c2/b1/a4/c2b1a4a0-4a10-4057-6c64-2776eec9b9d3/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1033728116"
+  },
+  {
+    "id": "applemusic-1715255664",
+    "name": "and you (feat. ZICO)",
+    "artists": [
+      "meenoi"
+    ],
+    "album": "and you (feat. ZICO) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1d/4b/64/1d4b6483-8f80-5a0a-8ee0-92a87b75c18c/mzaf_11538914435191024448.plus.aac.p.m4a",
+    "duration": 204240,
+    "trackUrl": "https://music.apple.com/us/album/and-you-feat-zico/1715255661?i=1715255664",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/dd/be/32/ddbe3285-326d-3abe-392f-c3b05e6c3eba/cover_KM0018907_1.jpg/300x300bb.jpg",
+    "trackId": "1715255664"
+  },
+  {
+    "id": "applemusic-1868933350",
+    "name": "Yin and Yang",
+    "artists": [
+      "ZICO & Crush"
+    ],
+    "album": "Yin and Yang - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/2b/d6/cd2bd6ef-cf29-07dc-27b6-8fe4617f62da/mzaf_4077045517236007708.plus.aac.p.m4a",
+    "duration": 127000,
+    "trackUrl": "https://music.apple.com/us/album/yin-and-yang/1868933349?i=1868933350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/e9/7a/68e97a8e-2eca-f99d-657d-08ec11019e94/198704944116_Cover.jpg/300x300bb.jpg",
+    "trackId": "1868933350"
+  },
+  {
+    "id": "applemusic-1645818855",
+    "name": "Moneyflow (From \"Show Me the Money 4, Episode 3\")",
+    "artists": [
+      "MINO, Paloalto & ZICO"
+    ],
+    "album": "Moneyflow (From \"Show Me the Money 4, Episode 3\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2e/28/be/2e28be9c-4463-12d9-cf60-7d0534ddfca6/mzaf_8960560453145613104.plus.aac.p.m4a",
+    "duration": 198040,
+    "trackUrl": "https://music.apple.com/us/album/moneyflow-from-show-me-the-money-4-episode-3/1645818853?i=1645818855",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5c/5d/2f/5c5d2fa1-8ccd-fc54-2560-0a7d2e497fbc/8809435817403_Cover.jpg/300x300bb.jpg",
+    "trackId": "1645818855"
+  },
+  {
+    "id": "applemusic-1815236051",
+    "name": "EKO EKO",
+    "artists": [
+      "m-flo loves ZICO, eill"
+    ],
+    "album": "EKO EKO - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/58/d4/5b58d483-3534-2c24-378c-e14c58527765/mzaf_3133683593135933512.plus.aac.p.m4a",
+    "duration": 186533,
+    "trackUrl": "https://music.apple.com/us/album/eko-eko/1815236050?i=1815236051",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/33/42/be/3342bef0-1a69-62a9-04dc-47c7ccdd4a0e/ANTCD-A0000016890.jpg/300x300bb.jpg",
+    "trackId": "1815236051"
+  },
+  {
+    "id": "applemusic-1686318674",
+    "name": "My Day Is Full Of You",
+    "artists": [
+      "ZICO & WENDY"
+    ],
+    "album": "The King : Eternal Monarch, Pt. 10 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/af/8c/e8/af8ce8c4-2785-30a5-21fb-0baf3c414344/mzaf_1961661410606134400.plus.aac.p.m4a",
+    "duration": 220933,
+    "trackUrl": "https://music.apple.com/us/album/my-day-is-full-of-you/1686318672?i=1686318674",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/08/7a/35087a32-02f7-7fce-df8e-c2e4ce1b6a4c/8809704415293_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686318674"
+  },
+  {
+    "id": "applemusic-1004230519",
+    "name": "Sick",
+    "artists": [
+      "ZICO & So Jin"
+    ],
+    "album": "Mask (Original Television Soundtrack), Pt. 2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/ca/df/a2cadf4d-44c9-572c-21f4-d9a73625469e/mzaf_5107219604898493296.plus.aac.p.m4a",
+    "duration": 226173,
+    "trackUrl": "https://music.apple.com/us/album/sick/1004230516?i=1004230519",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/8a/84/9c/8a849c8a-c649-ad86-6569-fd2e79e7ad5c/cover-_OST_Part.2.jpg/300x300bb.jpg",
+    "trackId": "1004230519"
+  },
+  {
+    "id": "applemusic-1811927103",
+    "name": "Well Done (feat. Ja Mezz)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Well Done - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/4c/23/f74c2381-60dd-d1b1-cb70-4218993e4edb/mzaf_18209786777613409613.plus.aac.p.m4a",
+    "duration": 256073,
+    "trackUrl": "https://music.apple.com/us/album/well-done-feat-ja-mezz/1811927102?i=1811927103",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/73/9b/4d/739b4dd5-aad8-cf68-be7f-a254a31a3c73/cover_KM0021635_1.jpg/300x300bb.jpg",
+    "trackId": "1811927103"
+  },
+  {
+    "id": "applemusic-1655848749",
+    "name": "By My Side (feat. Kim Jong Wan)",
+    "artists": [
+      "Jung Junha & ZICO"
+    ],
+    "album": "By My Side (feat. Kim Jong Wan) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/23/d1/7c/23d17cf8-43ea-e7d1-532f-921763014405/mzaf_18167868271414298908.plus.aac.p.m4a",
+    "duration": 224559,
+    "trackUrl": "https://music.apple.com/us/album/by-my-side-feat-kim-jong-wan/1655848748?i=1655848749",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7d/86/c7/7d86c764-bf8c-4065-f93d-09d2ad69468e/cover_KM0009620_1.jpg/300x300bb.jpg",
+    "trackId": "1655848749"
+  }
+]

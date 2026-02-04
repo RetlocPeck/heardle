@@ -1,0 +1,7 @@
+# This folder contains sensitive API keys
+# All .p8 files are gitignored
+# 
+# To set up Apple Music API:
+# 1. Get your MusicKit private key from Apple Developer Portal
+# 2. Place the .p8 file in this folder
+# 3. Run: node scripts/generate-apple-music-token.js

@@ -1,33 +1,23 @@
-import { NextResponse } from 'next/server';
-import ITunesService from '@/lib/services/itunesService';
+import AppleMusicService from '@/lib/services/appleMusicService';
 import { getSafeDateString } from '@/lib/utils/dateUtils';
-import { handleApiError } from '@/lib/utils/apiErrorHandler';
+import { createArtistRoute, getQueryParams } from '@/lib/utils/createArtistRoute';
+import { Logger } from '@/lib/utils/logger';
 
-export async function GET(
-  request: Request,
-  { params }: { params: Promise<{ artist: string }> }
-) {
-  try {
-    const { artist } = await params;
-    const url = new URL(request.url);
-    
-    // Get the date from client (user's local timezone) with validation
-    const clientDate = url.searchParams.get('date');
+export const GET = createArtistRoute(
+  async (artist, request) => {
+    const clientDate = getQueryParams(request).get('date');
     const today = getSafeDateString(clientDate);
     
     // Log for debugging timezone issues
     if (clientDate && clientDate !== today) {
-      console.warn(`⚠️ Client date ${clientDate} rejected, using server date ${today} instead`);
+      Logger.warn(`Client date ${clientDate} rejected, using server date ${today}`);
     } else if (clientDate) {
-      console.log(`📅 Using validated client date: ${clientDate}`);
+      Logger.debug(`Using validated client date: ${clientDate}`);
     }
     
-    const itunesService = ITunesService.getInstance();
-    const dailySong = await itunesService.getDailySong(today, artist);
-    
-    return NextResponse.json({ song: dailySong });
-  } catch (error) {
-    const { artist } = await params;
-    return handleApiError(error, artist, 'get daily song');
-  }
-}
+    const service = AppleMusicService.getInstance();
+    const song = await service.getDailySong(today, artist);
+    return { song };
+  },
+  { operation: 'get daily song' }
+);

@@ -6,7 +6,7 @@
 import { useEffect, useRef } from 'react';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
-import { DAILY_CHALLENGE_UPDATED_EVENT, ROLLOVER_CHECK_INTERVAL_MS } from '@/lib/constants/game';
+import { DAILY_CHALLENGE_UPDATED_EVENT, ROLLOVER_CHECK_INTERVAL_MS } from '@/lib/constants';
 
 interface RolloverDetectionOptions {
   artistId?: string;

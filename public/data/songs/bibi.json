@@ -1,0 +1,925 @@
+[
+  {
+    "id": "applemusic-1724858237",
+    "name": "The Weekend",
+    "artists": [
+      "88rising & BIBI"
+    ],
+    "album": "The Weekend - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d8/50/8d/d8508d40-820f-a289-4a19-1417bfb0a561/mzaf_16329235306494430166.plus.aac.p.m4a",
+    "duration": 167662,
+    "trackUrl": "https://music.apple.com/us/album/the-weekend/1724858026?i=1724858237",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/36/27/ab/3627abc6-c2d9-fd56-f4bd-c1795e390c47/54391912282.jpg/300x300bb.jpg",
+    "trackId": "1724858237"
+  },
+  {
+    "id": "applemusic-1509892066",
+    "name": "Kazino",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Kazino - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/96/50/f3/9650f389-b566-ac2d-872a-56e71bed7141/mzaf_11571317068639151233.plus.aac.p.m4a",
+    "duration": 185947,
+    "trackUrl": "https://music.apple.com/us/album/kazino/1509892065?i=1509892066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b1/a6/2c/b1a62cb9-1b70-b6d6-1447-e633e4c5c98d/cover_-_DS.jpg/300x300bb.jpg",
+    "trackId": "1509892066"
+  },
+  {
+    "id": "applemusic-1729547611",
+    "name": "Bam Yang Gang",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Bam Yang Gang - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/f5/5c/b1f55c57-76ee-524f-35b3-ba046034ac9e/mzaf_17010912782387954876.plus.aac.p.m4a",
+    "duration": 146197,
+    "trackUrl": "https://music.apple.com/us/album/bam-yang-gang/1729547610?i=1729547611",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/31/d6/ba31d644-bb34-1e4c-5600-c403b83159ef/cover_KM0019491_1.png/300x300bb.jpg",
+    "trackId": "1729547611"
+  },
+  {
+    "id": "applemusic-1729547613",
+    "name": "Sugar Rush",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Bam Yang Gang - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/bf/91/bdbf916b-692a-3602-9125-675fd7cfb7ee/mzaf_8654505097255933805.plus.aac.p.m4a",
+    "duration": 148729,
+    "trackUrl": "https://music.apple.com/us/album/sugar-rush/1729547610?i=1729547613",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/31/d6/ba31d644-bb34-1e4c-5600-c403b83159ef/cover_KM0019491_1.png/300x300bb.jpg",
+    "trackId": "1729547613"
+  },
+  {
+    "id": "applemusic-1799823638",
+    "name": "Intro",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/c9/12/cec91204-8010-a4dc-4b9e-33b30086ebee/mzaf_1821928706330108013.plus.aac.p.m4a",
+    "duration": 67734,
+    "trackUrl": "https://music.apple.com/us/album/intro/1799823631?i=1799823638",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799823638"
+  },
+  {
+    "id": "applemusic-1799823642",
+    "name": "Blade",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/23/22/7f/23227fb8-558f-e7c0-c656-a9f6d0dbed4c/mzaf_12700477690823283850.plus.aac.p.m4a",
+    "duration": 190569,
+    "trackUrl": "https://music.apple.com/us/album/blade/1799823631?i=1799823642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799823642"
+  },
+  {
+    "id": "applemusic-1799823896",
+    "name": "BIBI Vengeance",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/76/de/4676de4a-18da-3e44-6191-8c39c2862a09/mzaf_532913073126769481.plus.aac.p.m4a",
+    "duration": 165135,
+    "trackUrl": "https://music.apple.com/us/album/bibi-vengeance/1799823631?i=1799823896",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799823896"
+  },
+  {
+    "id": "applemusic-1799823914",
+    "name": "Animal Farm",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/2c/ce/192cce1b-bcb8-5b04-0b28-71a4ef48baf9/mzaf_4867571262369310577.plus.aac.p.m4a",
+    "duration": 203946,
+    "trackUrl": "https://music.apple.com/us/album/animal-farm/1799823631?i=1799823914",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799823914"
+  },
+  {
+    "id": "applemusic-1799824070",
+    "name": "MotoSpeed 24",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/f2/a7/b6f2a740-142c-8ccb-1cbb-fa5e3195ecf9/mzaf_5869539800329969147.plus.aac.p.m4a",
+    "duration": 133905,
+    "trackUrl": "https://music.apple.com/us/album/motospeed-24/1799823631?i=1799824070",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824070"
+  },
+  {
+    "id": "applemusic-1799824084",
+    "name": "Sweet Sorrow of Mother",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/36/42/7d36422b-4eb1-bab9-b933-a3be0a4d2352/mzaf_10726769820051841270.plus.aac.p.m4a",
+    "duration": 66430,
+    "trackUrl": "https://music.apple.com/us/album/sweet-sorrow-of-mother/1799823631?i=1799824084",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824084"
+  },
+  {
+    "id": "applemusic-1799824089",
+    "name": "Loveholic's hangover (feat. Sam Kim)",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/95/ec/5295ec5c-3de4-2fd2-5c3a-d37400242865/mzaf_7984244358647637553.plus.aac.p.m4a",
+    "duration": 168156,
+    "trackUrl": "https://music.apple.com/us/album/loveholics-hangover-feat-sam-kim/1799823631?i=1799824089",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824089"
+  },
+  {
+    "id": "applemusic-1799824092",
+    "name": "Wet Nightmare",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/41/65/ee416598-4c74-55d1-adcd-94e48cfb8c02/mzaf_7458977086914854724.plus.aac.p.m4a",
+    "duration": 178314,
+    "trackUrl": "https://music.apple.com/us/album/wet-nightmare/1799823631?i=1799824092",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824092"
+  },
+  {
+    "id": "applemusic-1799824096",
+    "name": "Witch Hunt",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/6f/50/716f5089-0915-9bc6-cca0-98eb632ffa32/mzaf_18014315434719210510.plus.aac.p.m4a",
+    "duration": 104697,
+    "trackUrl": "https://music.apple.com/us/album/witch-hunt/1799823631?i=1799824096",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824096"
+  },
+  {
+    "id": "applemusic-1799824460",
+    "name": "Lowlife Princess",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/45/1d/2c451dc2-1a9a-c475-63a2-68a5ed54d58d/mzaf_10868436044668854502.plus.aac.p.m4a",
+    "duration": 151743,
+    "trackUrl": "https://music.apple.com/us/album/lowlife-princess/1799823631?i=1799824460",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824460"
+  },
+  {
+    "id": "applemusic-1799824464",
+    "name": "JOTTO",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/19/63/ed1963a8-eca9-9f7a-4c81-c1e0b01e197d/mzaf_14064360732204412469.plus.aac.p.m4a",
+    "duration": 193856,
+    "trackUrl": "https://music.apple.com/us/album/jotto/1799823631?i=1799824464",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824464"
+  },
+  {
+    "id": "applemusic-1799824476",
+    "name": "City Love",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Lowlife Princess: Noir",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/37/49/ca/3749caba-5604-f660-64aa-348024ab9301/mzaf_18423670950009980984.plus.aac.p.m4a",
+    "duration": 193770,
+    "trackUrl": "https://music.apple.com/us/album/city-love/1799823631?i=1799824476",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/be/df/95bedfdc-0405-7d0a-71e0-6f7acc515500/5054197381287.jpg/300x300bb.jpg",
+    "trackId": "1799824476"
+  },
+  {
+    "id": "applemusic-1564737722",
+    "name": "BAD SAD AND MAD",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Life Is a Bi… - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7f/a4/9d/7fa49da4-424e-94ec-e42a-bee8755f176c/mzaf_5905542530449137735.plus.aac.p.m4a",
+    "duration": 154988,
+    "trackUrl": "https://music.apple.com/us/album/bad-sad-and-mad/1564737719?i=1564737722",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/bd/b4/77bdb4ac-28e8-5dac-d78b-19f6b937804c/dj.xtthpwdr.jpg/300x300bb.jpg",
+    "trackId": "1564737722"
+  },
+  {
+    "id": "applemusic-1564737724",
+    "name": "PIRI the Dog",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Life Is a Bi… - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/47/5a/ea475af5-e626-545e-b21f-7530f58b7321/mzaf_2603992454181780356.plus.aac.p.m4a",
+    "duration": 140827,
+    "trackUrl": "https://music.apple.com/us/album/piri-the-dog/1564737719?i=1564737724",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/bd/b4/77bdb4ac-28e8-5dac-d78b-19f6b937804c/dj.xtthpwdr.jpg/300x300bb.jpg",
+    "trackId": "1564737724"
+  },
+  {
+    "id": "applemusic-1564737725",
+    "name": "Birthday Cake",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Life Is a Bi… - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/85/cd/32/85cd32e9-028b-8cc9-b58c-1468d5a80985/mzaf_5475877789859411302.plus.aac.p.m4a",
+    "duration": 136841,
+    "trackUrl": "https://music.apple.com/us/album/birthday-cake/1564737719?i=1564737725",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/bd/b4/77bdb4ac-28e8-5dac-d78b-19f6b937804c/dj.xtthpwdr.jpg/300x300bb.jpg",
+    "trackId": "1564737725"
+  },
+  {
+    "id": "applemusic-1714005058",
+    "name": "Amigos",
+    "artists": [
+      "BIBI & Becky G"
+    ],
+    "album": "Amigos - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/a8/ce/a5a8ce38-aa48-6b05-fee7-e2677ce2fd15/mzaf_18108223114097804816.plus.aac.p.m4a",
+    "duration": 151865,
+    "trackUrl": "https://music.apple.com/us/album/amigos/1714005056?i=1714005058",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/f7/e0/32f7e028-a12e-473c-899f-d3f4927e9f97/197190297881.jpg/300x300bb.jpg",
+    "trackId": "1714005058"
+  },
+  {
+    "id": "applemusic-1787411189",
+    "name": "Restless",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Restless - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/97/da/8b97da7f-58c4-9150-6f65-1cba35a5661e/mzaf_7488913486741268281.plus.aac.p.m4a",
+    "duration": 267080,
+    "trackUrl": "https://music.apple.com/us/album/restless/1787411188?i=1787411189",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3a/af/cf/3aafcf43-4db8-3608-eb9f-e781b40a232d/8804775139543.jpg/300x300bb.jpg",
+    "trackId": "1787411189"
+  },
+  {
+    "id": "applemusic-1705330743",
+    "name": "Dingo X BIBI - She Got It",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Dingo X BIBI - She Got It - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ed/8a/79/ed8a7990-0c5e-bc74-ba2a-03aeaacfd717/mzaf_4523678015538177095.plus.aac.p.m4a",
+    "duration": 215736,
+    "trackUrl": "https://music.apple.com/us/album/dingo-x-bibi-she-got-it/1705330742?i=1705330743",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3b/bf/6e/3bbf6ea2-22e8-b445-415d-3674b64e23b7/cover_KM0018136_1.jpg/300x300bb.jpg",
+    "trackId": "1705330743"
+  },
+  {
+    "id": "applemusic-1468080266",
+    "name": "Nabi",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "The Manual for People Who Want to Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/82/0e/ed/820eed27-7a24-48bc-ee33-98561c3128e0/mzaf_16603878621832851215.plus.aac.p.m4a",
+    "duration": 193430,
+    "trackUrl": "https://music.apple.com/us/album/nabi/1468080175?i=1468080266",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/34/15/cb/3415cbb8-9b12-dc9c-f26b-8d90a3617a47/EP.jpg/300x300bb.jpg",
+    "trackId": "1468080266"
+  },
+  {
+    "id": "applemusic-1468080267",
+    "name": "Give More Care Less",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "The Manual for People Who Want to Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6f/7c/2a/6f7c2a73-0a5b-473c-c8e7-35569c7c598b/mzaf_2664732103172753348.plus.aac.p.m4a",
+    "duration": 186750,
+    "trackUrl": "https://music.apple.com/us/album/give-more-care-less/1468080175?i=1468080267",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/34/15/cb/3415cbb8-9b12-dc9c-f26b-8d90a3617a47/EP.jpg/300x300bb.jpg",
+    "trackId": "1468080267"
+  },
+  {
+    "id": "applemusic-1468080268",
+    "name": "Pretty Ting (feat. Kim Seungmin)",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "The Manual for People Who Want to Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6e/5f/de/6e5fde35-9293-2fe3-6942-7260d3b7087d/mzaf_16103959953414413510.plus.aac.p.m4a",
+    "duration": 175000,
+    "trackUrl": "https://music.apple.com/us/album/pretty-ting-feat-kim-seungmin/1468080175?i=1468080268",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/34/15/cb/3415cbb8-9b12-dc9c-f26b-8d90a3617a47/EP.jpg/300x300bb.jpg",
+    "trackId": "1468080268"
+  },
+  {
+    "id": "applemusic-1468080269",
+    "name": "Fedexx Girl (feat. CHANGMO)",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "The Manual for People Who Want to Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0a/48/75/0a4875d7-af27-07ec-0649-1802f0453dde/mzaf_8596463426146465899.plus.aac.p.m4a",
+    "duration": 209000,
+    "trackUrl": "https://music.apple.com/us/album/fedexx-girl-feat-changmo/1468080175?i=1468080269",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/34/15/cb/3415cbb8-9b12-dc9c-f26b-8d90a3617a47/EP.jpg/300x300bb.jpg",
+    "trackId": "1468080269"
+  },
+  {
+    "id": "applemusic-1742639970",
+    "name": "Feeling Lucky",
+    "artists": [
+      "BIBI & Jackson Wang"
+    ],
+    "album": "Feeling Lucky - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/5f/88/6c5f88a0-80fe-d053-5560-12d7d2854e14/mzaf_8319153368292595258.plus.aac.p.m4a",
+    "duration": 151040,
+    "trackUrl": "https://music.apple.com/us/album/feeling-lucky/1742639777?i=1742639970",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/02/02/15/020215a9-d1be-2459-c156-02327a8805d6/198391853647.jpg/300x300bb.jpg",
+    "trackId": "1742639970"
+  },
+  {
+    "id": "applemusic-1585079542",
+    "name": "Pado",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Pado - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/9d/43/b89d433a-6067-4975-0656-05b31618560a/mzaf_831503310459237509.plus.aac.p.m4a",
+    "duration": 193133,
+    "trackUrl": "https://music.apple.com/us/album/pado/1585079540?i=1585079542",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a2/99/55/a29955b5-6c13-ae70-dea6-878e8041886a/BIBI_PADO_COVER.jpg/300x300bb.jpg",
+    "trackId": "1585079542"
+  },
+  {
+    "id": "applemusic-1792439907",
+    "name": "Hanryang (feat. BIBI)",
+    "artists": [
+      "Min Kyung Hoon & Kim Hee Chul"
+    ],
+    "album": "Hanryang (Feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/8d/17/cd8d1747-9191-4449-44e0-9ef81714bbb2/mzaf_3263658698814073706.plus.aac.p.m4a",
+    "duration": 202867,
+    "trackUrl": "https://music.apple.com/us/album/hanryang-feat-bibi/1792439905?i=1792439907",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/6d/25/ec6d25ed-0f02-e933-950b-00231b0d79a9/191953415499.jpg/300x300bb.jpg",
+    "trackId": "1792439907"
+  },
+  {
+    "id": "applemusic-1689502049",
+    "name": "FEVER (feat. SUPERBEE & BIBI)",
+    "artists": [
+      "J.Y. Park"
+    ],
+    "album": "FEVER (feat. SUPERBEE & BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/fe/e0/97fee05c-092f-8021-43e3-42ad871534e9/mzaf_9215496377870673315.plus.aac.p.m4a",
+    "duration": 173925,
+    "trackUrl": "https://music.apple.com/us/album/fever-feat-superbee-bibi/1689502045?i=1689502049",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/f9/52/cef95232-c65b-7ace-9912-8e83885ecf1b/738676857429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1689502049"
+  },
+  {
+    "id": "applemusic-1489578339",
+    "name": "Step?",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Step? - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e9/86/77/e98677e1-4be5-3d1f-9679-232b94b8dd28/mzaf_14665432905703061578.plus.aac.p.m4a",
+    "duration": 191667,
+    "trackUrl": "https://music.apple.com/us/album/step/1489578338?i=1489578339",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ba/6b/e0/ba6be047-6313-19dc-1b13-29701b598724/dj.evveqbnp.jpg/300x300bb.jpg",
+    "trackId": "1489578339"
+  },
+  {
+    "id": "applemusic-1813305787",
+    "name": "Apocalypse",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/31/37/0f31373e-4535-f10a-0d11-d3876d99e5f0/mzaf_6511552912372042226.plus.aac.p.m4a",
+    "duration": 176735,
+    "trackUrl": "https://music.apple.com/us/album/apocalypse/1813305786?i=1813305787",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305787"
+  },
+  {
+    "id": "applemusic-1813305789",
+    "name": "Hongdae R&B",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/69/1f/a1691f41-a9af-2241-46b0-5295781c4b01/mzaf_15128758312535925207.plus.aac.p.m4a",
+    "duration": 182300,
+    "trackUrl": "https://music.apple.com/us/album/hongdae-r-b/1813305786?i=1813305789",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305789"
+  },
+  {
+    "id": "applemusic-1813305790",
+    "name": "Meat",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/1a/ca/b11acac1-be84-946e-fb74-26af46ee3e5a/mzaf_10599445885526071093.plus.aac.p.m4a",
+    "duration": 183369,
+    "trackUrl": "https://music.apple.com/us/album/meat/1813305786?i=1813305790",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305790"
+  },
+  {
+    "id": "applemusic-1813305791",
+    "name": "Pygma girl",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/ca/12/c1ca12a7-378b-dbdb-6797-cb4b4ac6854d/mzaf_6836477337620583753.plus.aac.p.m4a",
+    "duration": 217060,
+    "trackUrl": "https://music.apple.com/us/album/pygma-girl/1813305786?i=1813305791",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305791"
+  },
+  {
+    "id": "applemusic-1813305792",
+    "name": "Scott and Zelda",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/c0/54/e0c05443-7ee3-9ec0-c648-a89c8b8c8fb5/mzaf_11003089934217562617.plus.aac.p.m4a",
+    "duration": 193040,
+    "trackUrl": "https://music.apple.com/us/album/scott-and-zelda/1813305786?i=1813305792",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305792"
+  },
+  {
+    "id": "applemusic-1813305794",
+    "name": "Derre",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/5d/45/3c5d4568-0b3c-dcfb-cf30-6e3eec22808f/mzaf_10613404077820255387.plus.aac.p.m4a",
+    "duration": 156474,
+    "trackUrl": "https://music.apple.com/us/album/derre/1813305786?i=1813305794",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305794"
+  },
+  {
+    "id": "applemusic-1813305795",
+    "name": "Burn it (feat. DEAN)",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/d9/0f/8ed90ff1-bc94-3070-d9ff-9e21cd969c90/mzaf_9204097079692142397.plus.aac.p.m4a",
+    "duration": 211618,
+    "trackUrl": "https://music.apple.com/us/album/burn-it-feat-dean/1813305786?i=1813305795",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305795"
+  },
+  {
+    "id": "applemusic-1813305796",
+    "name": "Real Man",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/36/40/d636401f-ba12-12b7-d58c-991c0f9fcaa5/mzaf_949075079117011749.plus.aac.p.m4a",
+    "duration": 182419,
+    "trackUrl": "https://music.apple.com/us/album/real-man/1813305786?i=1813305796",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305796"
+  },
+  {
+    "id": "applemusic-1813305797",
+    "name": "Midnight Cruise",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/93/c6/7a93c6a5-3641-00d5-7e74-26bac488f539/mzaf_2419310286921880542.plus.aac.p.m4a",
+    "duration": 164936,
+    "trackUrl": "https://music.apple.com/us/album/midnight-cruise/1813305786?i=1813305797",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305797"
+  },
+  {
+    "id": "applemusic-1813305799",
+    "name": "Hangang Gongwon",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ef/4e/44/ef4e44ce-46b6-86e0-8a3a-5465cbcc8425/mzaf_11433439153188696217.plus.aac.p.m4a",
+    "duration": 238455,
+    "trackUrl": "https://music.apple.com/us/album/hangang-gongwon/1813305786?i=1813305799",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305799"
+  },
+  {
+    "id": "applemusic-1813305890",
+    "name": "Bluebird",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/33/47/b5334728-53e1-9b9e-ca7a-96a068ccd29b/mzaf_7843953752777445471.plus.aac.p.m4a",
+    "duration": 179871,
+    "trackUrl": "https://music.apple.com/us/album/bluebird/1813305786?i=1813305890",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305890"
+  },
+  {
+    "id": "applemusic-1813305891",
+    "name": "Winter (unreleased)",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "EVE: ROMANCE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/1d/32/c71d32df-3ccf-f0e7-be51-9207eeaac345/mzaf_15299515326574738054.plus.aac.p.m4a",
+    "duration": 118103,
+    "trackUrl": "https://music.apple.com/us/album/winter-unreleased/1813305786?i=1813305891",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d1/9c/69/d19c69a1-6c6e-2a62-325c-0d79f00041d3/cover_KM0022696_1.jpg/300x300bb.jpg",
+    "trackId": "1813305891"
+  },
+  {
+    "id": "applemusic-1579487839",
+    "name": "Second (feat. BIBI)",
+    "artists": [
+      "HYO"
+    ],
+    "album": "Second (feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/08/5a/f8/085af844-8222-ef32-0ac8-f327813d8119/mzaf_17292421364711904980.plus.aac.p.m4a",
+    "duration": 218720,
+    "trackUrl": "https://music.apple.com/us/album/second-feat-bibi/1579487838?i=1579487839",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b6/7d/7c/b67d7c72-3365-2374-66a0-cdf7be3a3e5c/HYO_Second_digital_cover.jpg/300x300bb.jpg",
+    "trackId": "1579487839"
+  },
+  {
+    "id": "applemusic-1522444693",
+    "name": "I'm Good at Goodbyes",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "I'm Good at Goodbyes - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/97/e4/c6/97e4c67e-afe2-1457-4947-104ab841abb1/mzaf_11903342449856449115.plus.aac.p.m4a",
+    "duration": 204187,
+    "trackUrl": "https://music.apple.com/us/album/im-good-at-goodbyes/1522444692?i=1522444693",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/be/b7/03/beb703c1-eb16-05ee-2a83-a4f713101a27/cover_-_DS.jpg/300x300bb.jpg",
+    "trackId": "1522444693"
+  },
+  {
+    "id": "applemusic-1611139176",
+    "name": "EVERYTHING (feat. CHANGMO, Coogie, ASH ISLAND & BIBI)",
+    "artists": [
+      "Way Ched"
+    ],
+    "album": "EVERYTHING (feat. CHANGMO, Coogie, ASH ISLAND & BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/86/92/4a/86924a1f-209d-af33-9b9a-c45e3a62834a/mzaf_908139964048328334.plus.aac.p.m4a",
+    "duration": 206393,
+    "trackUrl": "https://music.apple.com/us/album/everything-feat-changmo-coogie-ash-island-bibi/1611139013?i=1611139176",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/83/5d/85/835d85e5-5d03-50f5-2292-154452757335/888272071146_Cover.jpg/300x300bb.jpg",
+    "trackId": "1611139176"
+  },
+  {
+    "id": "applemusic-1551591107",
+    "name": "Eat My Love",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Eat My Love - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/bf/37/65bf3743-4f82-fb14-39ef-cc1c3b436a6a/mzaf_14346480226965841589.plus.aac.p.m4a",
+    "duration": 162867,
+    "trackUrl": "https://music.apple.com/us/album/eat-my-love/1551591105?i=1551591107",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f5/a0/85/f5a0853c-8f3a-34dc-f19a-11e4c94ef141/cover_-_DS.jpg/300x300bb.jpg",
+    "trackId": "1551591107"
+  },
+  {
+    "id": "applemusic-1681232552",
+    "name": "I AM SHAMPOO",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "I AM SHAMPOO - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/35/cb/c7/35cbc711-e0dd-c2c1-3ca2-22f13e61adf8/mzaf_1833966374860671692.plus.aac.p.m4a",
+    "duration": 141260,
+    "trackUrl": "https://music.apple.com/us/album/i-am-shampoo/1681232551?i=1681232552",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8d/8a/f7/8d8af7bb-4f46-1a51-d7f6-108b3f8efac7/cover_KM0017195_1.jpg/300x300bb.jpg",
+    "trackId": "1681232552"
+  },
+  {
+    "id": "applemusic-1578247060",
+    "name": "WHY Y (feat. Tiger JK)",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "WHY Y (feat. Tiger JK) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/56/d2/ab/56d2abbb-277f-9952-5528-48cebdd3c9f9/mzaf_7137810741492267033.plus.aac.p.m4a",
+    "duration": 186533,
+    "trackUrl": "https://music.apple.com/us/album/why-y-feat-tiger-jk/1578247059?i=1578247060",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4f/99/2c/4f992c80-226f-d15e-8a65-f4233ae71aef/dj.poyoaycv.jpg/300x300bb.jpg",
+    "trackId": "1578247060"
+  },
+  {
+    "id": "applemusic-1508987656",
+    "name": "This Is Pengsoo (From \"Billboard Project, Vol. 1\")",
+    "artists": [
+      "Pengsoo, Tiger JK, Bizzy & BIBI"
+    ],
+    "album": "This Is Pengsoo (From \"Billboard Project, Vol. 1\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4c/ac/42/4cac423b-8843-4540-c36a-37b9ae8262db/mzaf_4716352325282867076.plus.aac.p.m4a",
+    "duration": 171373,
+    "trackUrl": "https://music.apple.com/us/album/this-is-pengsoo-from-billboard-project-vol-1/1508987655?i=1508987656",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3d/d8/37/3dd837f7-1925-a022-f731-78d564e6e6ff/888272065503.jpg/300x300bb.jpg",
+    "trackId": "1508987656"
+  },
+  {
+    "id": "applemusic-1463756718",
+    "name": "Binu",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Binu - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/44/cf/e5/44cfe513-57f5-cb8c-8c0b-1d263c289b2f/mzaf_9362425818515245710.plus.aac.p.m4a",
+    "duration": 182200,
+    "trackUrl": "https://music.apple.com/us/album/binu/1463756717?i=1463756718",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/67/d9/ae/67d9ae9a-ea76-2246-80a9-53e017a45c31/cover-_BIBI_DS.jpg/300x300bb.jpg",
+    "trackId": "1463756718"
+  },
+  {
+    "id": "applemusic-1587303287",
+    "name": "TYT (feat. BIBI)",
+    "artists": [
+      "CAMO & Dakshood"
+    ],
+    "album": "TYT (feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/4e/68/684e68dd-7e5a-67a5-b670-1c8a27f532a6/mzaf_6619559964585270350.plus.aac.p.m4a",
+    "duration": 157317,
+    "trackUrl": "https://music.apple.com/us/album/tyt-feat-bibi/1587303286?i=1587303287",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0b/5d/e3/0b5de30d-2f11-657f-bc27-44b86c9ffbe5/Cover_CAMO_HANG_OUT_HIPHOPPLAYA_COMPILATION_ALBUM_2021_Part_8.jpg/300x300bb.jpg",
+    "trackId": "1587303287"
+  },
+  {
+    "id": "applemusic-1610491691",
+    "name": "Very, Slowly",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Twenty-Five Twenty-One, Pt. 3 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1f/28/03/1f2803f4-2b66-240b-91ad-149be3ea6ae2/mzaf_3997710584357920894.plus.aac.p.m4a",
+    "duration": 214852,
+    "trackUrl": "https://music.apple.com/us/album/very-slowly/1610491690?i=1610491691",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/48/88/61/48886112-f2ec-52c4-385d-02e7a4cab6f3/Cover_BIBI_Twenty-Five_Twenty-One_OST_Part_3.jpg/300x300bb.jpg",
+    "trackId": "1610491691"
+  },
+  {
+    "id": "applemusic-1444597500",
+    "name": "Long Time Ago",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Long Time Ago - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/60/f8/12/60f8127e-8913-c7fa-b157-8ba4e8b9859a/mzaf_2047114401065844176.plus.aac.p.m4a",
+    "duration": 203530,
+    "trackUrl": "https://music.apple.com/us/album/long-time-ago/1444597485?i=1444597500",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/9f/be/ff/9fbeffd3-d11c-2348-5833-a6e2fc226133/cover-_1ROUND_Part.1.jpg/300x300bb.jpg",
+    "trackId": "1444597500"
+  },
+  {
+    "id": "applemusic-1507763272",
+    "name": "Fly with Me (From \"the Fan 4Round, Pt. 2\")",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Fly with Me (From \"the Fan 4Round, Pt. 2\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bb/2b/43/bb2b436c-acff-9536-74e5-e58a3766e480/mzaf_9835387036091851692.plus.aac.p.m4a",
+    "duration": 202398,
+    "trackUrl": "https://music.apple.com/us/album/fly-with-me-from-the-fan-4round-pt-2/1507763270?i=1507763272",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fb/61/b9/fb61b9d8-2933-8ca9-f656-4f38c176df32/cover-_4ROUND_Part.2.jpg/300x300bb.jpg",
+    "trackId": "1507763272"
+  },
+  {
+    "id": "applemusic-1599669210",
+    "name": "Maybe if",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Our Beloved Summer (Original Television Soundtrack), Pt. 2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/de/2f/9b/de2f9b1d-8e24-5cdc-f2f5-e67cba501f8d/mzaf_18331976480206147834.plus.aac.p.m4a",
+    "duration": 209600,
+    "trackUrl": "https://music.apple.com/us/album/maybe-if/1599669209?i=1599669210",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/01/69/fa/0169faec-1372-42a8-3b79-bb55bb9c0964/191953153384.jpg/300x300bb.jpg",
+    "trackId": "1599669210"
+  },
+  {
+    "id": "applemusic-1591540020",
+    "name": "Picky Baby (feat. BIBI)",
+    "artists": [
+      "Owell Mood"
+    ],
+    "album": "Picky Baby (feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/64/f0/c4/64f0c46c-8a7f-e64c-e6f3-8416d4287f55/mzaf_17349404758468867919.plus.aac.p.m4a",
+    "duration": 193400,
+    "trackUrl": "https://music.apple.com/us/album/picky-baby-feat-bibi/1591540014?i=1591540020",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cc/43/89/cc43894d-d29e-ea67-59a7-8ecbf2b0236d/8809829725017.jpg/300x300bb.jpg",
+    "trackId": "1591540020"
+  },
+  {
+    "id": "applemusic-1475746557",
+    "name": "Hammock (feat. BIBI)",
+    "artists": [
+      "CRUCiAL STAR"
+    ],
+    "album": "Hammock (feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2c/d6/b5/2cd6b5d8-df71-bc40-ae5a-7d3e3265c2c9/mzaf_12027205532105757361.plus.aac.p.m4a",
+    "duration": 163467,
+    "trackUrl": "https://music.apple.com/us/album/hammock-feat-bibi/1475746435?i=1475746557",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/70/4d/13/704d139c-4356-d0ec-a95c-d0ca8e326d1d/jacket-916072.jpg/300x300bb.jpg",
+    "trackId": "1475746557"
+  },
+  {
+    "id": "applemusic-1452176741",
+    "name": "Hangang (from \"The Fan Top 2\")",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Hangang (from \"The Fan Top 2\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e7/d8/62/e7d862b9-19a8-ed6d-65d1-6730acd61d7f/mzaf_14905957678159426344.plus.aac.p.m4a",
+    "duration": 223146,
+    "trackUrl": "https://music.apple.com/us/album/hangang-from-the-fan-top-2/1452176727?i=1452176741",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/68/90/01/68900158-5f87-b23d-8a96-f0b068aecf43/cover-_TOP2.jpg/300x300bb.jpg",
+    "trackId": "1452176741"
+  },
+  {
+    "id": "applemusic-1535766087",
+    "name": "Automatic",
+    "artists": [
+      "CHANCELLOR, Babylon, twlv, Moon Sujin, BIBI & JISELLE"
+    ],
+    "album": "Automatic - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a7/15/fc/a715fc5b-6d3f-f510-356b-5e0e6310ab7f/mzaf_17178620940940183009.plus.aac.p.m4a",
+    "duration": 268293,
+    "trackUrl": "https://music.apple.com/us/album/automatic/1535766086?i=1535766087",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b4/b8/e1/b4b8e1d5-7ff7-d10f-7526-5a432ad77442/cover_-_DS.jpg/300x300bb.jpg",
+    "trackId": "1535766087"
+  },
+  {
+    "id": "applemusic-1748732677",
+    "name": "Mom's diary (Come travel with me, Mom? X BIBI) [Original Soundtrack]",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Mom's diary (Come travel with me, Mom? X BIBI) [Original Soundtrack] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/d8/ea/dfd8eab5-973b-323a-a70b-5034276b75fb/mzaf_10753997488745749011.plus.aac.p.m4a",
+    "duration": 138120,
+    "trackUrl": "https://music.apple.com/us/album/moms-diary-come-travel-with-me-mom-x-bibi-original/1748732674?i=1748732677",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/30/05/db300536-362e-480f-b311-a49a4dcfa822/8800243526587.jpg/300x300bb.jpg",
+    "trackId": "1748732677"
+  },
+  {
+    "id": "applemusic-1721101989",
+    "name": "NAAN",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "NAAN (From the Original TV Show \"Live On\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e4/ab/3c/e4ab3cfd-a89c-5660-53d3-549df81981cf/mzaf_10390481626519177061.plus.aac.p.m4a",
+    "duration": 167240,
+    "trackUrl": "https://music.apple.com/us/album/naan/1721101812?i=1721101989",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/e9/f1/14e9f193-1eb5-a942-06ad-a37fc3751ee9/8720205246837.jpg/300x300bb.jpg",
+    "trackId": "1721101989"
+  },
+  {
+    "id": "applemusic-1506564295",
+    "name": "Three W's and One H (From \"The Fan Top 3\")",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Three W's and One H (From \"The Fan Top 3\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/c1/24/aec124fc-88eb-7ac8-1d07-aefc095e8f17/mzaf_3001244854514455301.plus.aac.p.m4a",
+    "duration": 255904,
+    "trackUrl": "https://music.apple.com/us/album/three-ws-and-one-h-from-the-fan-top-3/1506564294?i=1506564295",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a1/a4/cc/a1a4cc74-582f-672f-96b6-6ae09253bffc/cover_cover-_TOP3.jpg/300x300bb.jpg",
+    "trackId": "1506564295"
+  },
+  {
+    "id": "applemusic-1828335203",
+    "name": "Follow Your Steps (feat. BIBI)",
+    "artists": [
+      "10CM"
+    ],
+    "album": "Follow Your Steps (feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/5b/e8/115be826-4def-46a5-8a36-53d889bd6a92/mzaf_10478505724515882445.plus.aac.p.m4a",
+    "duration": 260000,
+    "trackUrl": "https://music.apple.com/us/album/follow-your-steps-feat-bibi/1828335202?i=1828335203",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1f/7f/ba/1f7fba0f-96db-8262-cf97-45ff1ce659e4/cover_KM0023239_1.jpg/300x300bb.jpg",
+    "trackId": "1828335203"
+  },
+  {
+    "id": "applemusic-1506564382",
+    "name": "Cute Lil Thug (From \"The Fan Top 3\")",
+    "artists": [
+      "BIBI & YOON MIRAE"
+    ],
+    "album": "Cute Lil Thug (From \"The Fan Top 3\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f0/9a/fd/f09afd6d-3993-046e-046b-03a025969176/mzaf_80937818729956457.plus.aac.p.m4a",
+    "duration": 201000,
+    "trackUrl": "https://music.apple.com/us/album/cute-lil-thug-from-the-fan-top-3/1506564381?i=1506564382",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/7e/c0/38/7ec0386c-6827-41b6-2211-ebce47deb21d/cover_cover-_TOP3.jpg/300x300bb.jpg",
+    "trackId": "1506564382"
+  },
+  {
+    "id": "applemusic-1831237030",
+    "name": "POP (feat. BIBI)",
+    "artists": [
+      "THE NEED"
+    ],
+    "album": "POP (feat. BIBI) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/da/4b/45da4b25-482a-f182-3b0b-cf2f4e70c74f/mzaf_17126569810774302180.plus.aac.p.m4a",
+    "duration": 140769,
+    "trackUrl": "https://music.apple.com/us/album/pop-feat-bibi/1831237022?i=1831237030",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/c9/7e/9ec97ec9-7a0d-357d-34c6-dd837c92d05f/5034644894867.jpg/300x300bb.jpg",
+    "trackId": "1831237030"
+  },
+  {
+    "id": "applemusic-1556856275",
+    "name": "Timeless",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "괴물 (Original Television Soundtrack), Pt. 2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/1c/2c/5d1c2c0b-7249-8476-1dc7-9f1943a524d1/mzaf_5926911398131841777.plus.aac.p.m4a",
+    "duration": 201160,
+    "trackUrl": "https://music.apple.com/us/album/timeless/1556856261?i=1556856275",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ff/e1/77/ffe1774d-3e2c-fc5f-0914-354871d2eec0/8809784759355.jpg/300x300bb.jpg",
+    "trackId": "1556856275"
+  },
+  {
+    "id": "applemusic-1648261278",
+    "name": "Stay With Me",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Oh! Master, Pt. 5 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/5a/f5/0c/5af50cca-245f-0b6f-08b6-309b234ff245/mzaf_313490398137401987.plus.aac.p.m4a",
+    "duration": 235000,
+    "trackUrl": "https://music.apple.com/us/album/stay-with-me/1648261002?i=1648261278",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/02/0c/82/020c821a-6741-7afc-114b-382b66f026f4/888272079869_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648261278"
+  },
+  {
+    "id": "applemusic-1854336087",
+    "name": "Overnight",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "Overnight (Original Soundtrack from Last Summer) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/29/f3/d929f3d9-2d55-6339-ada5-732d238af744/mzaf_2293795970393879131.plus.aac.p.m4a",
+    "duration": 195579,
+    "trackUrl": "https://music.apple.com/us/album/overnight/1854336085?i=1854336087",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/c7/d3/d2c7d3e7-f328-34c9-556f-6df2c1e47901/888272171464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1854336087"
+  },
+  {
+    "id": "applemusic-1505370366",
+    "name": "The Sign",
+    "artists": [
+      "BIBI"
+    ],
+    "album": "BIG PICTURE HOUSE (Original TV Soundtrack, Pt. 2) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/be/de/73/bede730f-3ca1-8982-a9d9-c50606043aae/mzaf_17272481304786415640.plus.aac.p.m4a",
+    "duration": 205600,
+    "trackUrl": "https://music.apple.com/us/album/the-sign/1505370214?i=1505370366",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/de/88/d2/de88d2aa-e827-c532-dbbf-28b96f0f4de6/190295234140.jpg/300x300bb.jpg",
+    "trackId": "1505370366"
+  },
+  {
+    "id": "applemusic-1507958793",
+    "name": "The Way You Look Tonight (From \"BIG PICTURE HOUSE\")",
+    "artists": [
+      "JINHO & BIBI"
+    ],
+    "album": "BIG PICTURE HOUSE (Original TV Soundtrack, Pt. 3) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/25/ab/58/25ab58cf-c31f-c741-4162-0d4166acd2c0/mzaf_955188431674641843.plus.aac.p.m4a",
+    "duration": 235716,
+    "trackUrl": "https://music.apple.com/us/album/the-way-you-look-tonight-from-big-picture-house/1507958788?i=1507958793",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/5a/06/82/5a06821d-a8fe-f0f1-6ba5-dfa27a876f18/190295226602.jpg/300x300bb.jpg",
+    "trackId": "1507958793"
+  }
+]

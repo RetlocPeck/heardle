@@ -1,0 +1,2888 @@
+[
+  {
+    "id": "applemusic-1608255575",
+    "name": "CHEESE",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/43/ef/7e/43ef7e26-2df2-b6d6-ea63-7aa051e879b5/mzaf_946270173516440690.plus.aac.p.m4a",
+    "duration": 182080,
+    "trackUrl": "https://music.apple.com/us/album/cheese/1608255571?i=1608255575",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608255575"
+  },
+  {
+    "id": "applemusic-1608255955",
+    "name": "Thunderous",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/24/3b/5a/243b5af3-ea7a-6f3f-918f-24631130a4ad/mzaf_464161614854588976.plus.aac.p.m4a",
+    "duration": 183267,
+    "trackUrl": "https://music.apple.com/us/album/thunderous/1608255571?i=1608255955",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608255955"
+  },
+  {
+    "id": "applemusic-1608255956",
+    "name": "DOMINO",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/02/53/cb/0253cb4a-b7dc-1012-f55e-19a9ab7efff2/mzaf_12772793490322929413.plus.aac.p.m4a",
+    "duration": 198720,
+    "trackUrl": "https://music.apple.com/us/album/domino/1608255571?i=1608255956",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608255956"
+  },
+  {
+    "id": "applemusic-1608255958",
+    "name": "SSICK",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ab/d4/68/abd46897-1ab9-e915-ae15-08ce7317c45c/mzaf_8633695099015322465.plus.aac.p.m4a",
+    "duration": 190147,
+    "trackUrl": "https://music.apple.com/us/album/ssick/1608255571?i=1608255958",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608255958"
+  },
+  {
+    "id": "applemusic-1608256147",
+    "name": "The View",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8f/5c/c7/8f5cc75c-0201-764b-5e92-a16238631ae9/mzaf_9173978071014032512.plus.aac.p.m4a",
+    "duration": 201747,
+    "trackUrl": "https://music.apple.com/us/album/the-view/1608255571?i=1608256147",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256147"
+  },
+  {
+    "id": "applemusic-1608256158",
+    "name": "Sorry, I Love You",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ca/97/15/ca97159b-ce14-d31f-565d-c6161ba4c835/mzaf_6134957480073141035.plus.aac.p.m4a",
+    "duration": 177613,
+    "trackUrl": "https://music.apple.com/us/album/sorry-i-love-you/1608255571?i=1608256158",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256158"
+  },
+  {
+    "id": "applemusic-1608256165",
+    "name": "Silent Cry",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/47/85/6e/47856e36-ee95-c54f-019a-8ed3614c4cb7/mzaf_6620483854467260899.plus.aac.p.m4a",
+    "duration": 209507,
+    "trackUrl": "https://music.apple.com/us/album/silent-cry/1608255571?i=1608256165",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256165"
+  },
+  {
+    "id": "applemusic-1608256167",
+    "name": "Secret Secret",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/07/50/ff/0750ff7e-6b5b-2ae9-e87c-39bbd6bd6806/mzaf_6225966352887233935.plus.aac.p.m4a",
+    "duration": 209987,
+    "trackUrl": "https://music.apple.com/us/album/secret-secret/1608255571?i=1608256167",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256167"
+  },
+  {
+    "id": "applemusic-1608256173",
+    "name": "Star Lost",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/9c/c6/05/9cc605d5-64c6-2a39-0b53-0fdbabd3e081/mzaf_3403778201593913097.plus.aac.p.m4a",
+    "duration": 215240,
+    "trackUrl": "https://music.apple.com/us/album/star-lost/1608255571?i=1608256173",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256173"
+  },
+  {
+    "id": "applemusic-1608256175",
+    "name": "Red Lights (Bang Chan, Hyunjin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1c/5b/b4/1c5bb4da-eca2-0b24-b8fc-2788f4766648/mzaf_13894351937445759557.plus.aac.p.m4a",
+    "duration": 189907,
+    "trackUrl": "https://music.apple.com/us/album/red-lights-bang-chan-hyunjin/1608255571?i=1608256175",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256175"
+  },
+  {
+    "id": "applemusic-1608256372",
+    "name": "Gone Away (HAN, Seungmin, I.N)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d7/0d/3a/d70d3a94-c5dc-b913-460c-dc85c93c6a7f/mzaf_7974328841236921026.plus.aac.p.m4a",
+    "duration": 241280,
+    "trackUrl": "https://music.apple.com/us/album/gone-away-han-seungmin-i-n/1608255571?i=1608256372",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256372"
+  },
+  {
+    "id": "applemusic-1608256377",
+    "name": "WOLFGANG",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/79/a2/41/79a2417f-e336-5b60-2e0f-40f7497931a1/mzaf_12280933913465779275.plus.aac.p.m4a",
+    "duration": 190865,
+    "trackUrl": "https://music.apple.com/us/album/wolfgang/1608255571?i=1608256377",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256377"
+  },
+  {
+    "id": "applemusic-1608256378",
+    "name": "Mixtape : OH",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f8/b4/d0/f8b4d0b4-ed44-cc89-6b64-bb9c0dc61c00/mzaf_6702272523542027207.plus.aac.p.m4a",
+    "duration": 212480,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-oh/1608255571?i=1608256378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/dc/2b/afdc2b64-deb3-cf5f-84e2-c43be4105636/192641939495_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256378"
+  },
+  {
+    "id": "applemusic-1609666699",
+    "name": "VENOM",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/11/b8/0f/11b80fad-8406-b287-1b02-1bc4ba474b48/mzaf_18198773894729019610.plus.aac.p.m4a",
+    "duration": 194840,
+    "trackUrl": "https://music.apple.com/us/album/venom/1609666698?i=1609666699",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666699"
+  },
+  {
+    "id": "applemusic-1609666702",
+    "name": "MANIAC",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/68/2b/8c/682b8cee-5d50-c9a8-7246-1970eb842cc8/mzaf_403092209817779548.plus.aac.p.m4a",
+    "duration": 182758,
+    "trackUrl": "https://music.apple.com/us/album/maniac/1609666698?i=1609666702",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666702"
+  },
+  {
+    "id": "applemusic-1609666704",
+    "name": "Charmer",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fb/eb/f0/fbebf044-80b0-b280-7f9c-5f9f73a55f0d/mzaf_15753209414822212868.plus.aac.p.m4a",
+    "duration": 188573,
+    "trackUrl": "https://music.apple.com/us/album/charmer/1609666698?i=1609666704",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666704"
+  },
+  {
+    "id": "applemusic-1609666705",
+    "name": "FREEZE",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1f/23/70/1f2370df-6d6c-6a5a-74b0-a863d97ded84/mzaf_12557255997241194266.plus.aac.p.m4a",
+    "duration": 178387,
+    "trackUrl": "https://music.apple.com/us/album/freeze/1609666698?i=1609666705",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666705"
+  },
+  {
+    "id": "applemusic-1609666708",
+    "name": "Lonely St.",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/37/e6/97/37e697c6-6517-d0d9-f6cd-3150cc20a0ba/mzaf_1491239434942398787.plus.aac.p.m4a",
+    "duration": 164853,
+    "trackUrl": "https://music.apple.com/us/album/lonely-st/1609666698?i=1609666708",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666708"
+  },
+  {
+    "id": "applemusic-1609666711",
+    "name": "Waiting For Us (Bang Chan, Lee Know, Seungmin & I.N)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ac/48/14/ac481425-a0bd-db68-8e3c-107c07c4fac5/mzaf_6508374643556919454.plus.aac.p.m4a",
+    "duration": 219507,
+    "trackUrl": "https://music.apple.com/us/album/waiting-for-us-bang-chan-lee-know-seungmin-i-n/1609666698?i=1609666711",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666711"
+  },
+  {
+    "id": "applemusic-1609666713",
+    "name": "Muddy Water (Changbin, Hyunjin, HAN & Felix)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ODDINARY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/cb/06/85cb06b0-04fc-d28f-5e80-9776826dc210/mzaf_165156310288662354.plus.aac.p.m4a",
+    "duration": 197360,
+    "trackUrl": "https://music.apple.com/us/album/muddy-water-changbin-hyunjin-han-felix/1609666698?i=1609666713",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/54/5f/6d/545f6deb-89de-9f08-4ad0-b8d4136a0911/192641947902_Cover.jpg/300x300bb.jpg",
+    "trackId": "1609666713"
+  },
+  {
+    "id": "applemusic-1686489687",
+    "name": "Hall of Fame",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/b3/eb/3ab3ebe3-7a07-ad2f-510c-1f0a5662ed24/mzaf_14307486498753803160.plus.aac.p.m4a",
+    "duration": 171027,
+    "trackUrl": "https://music.apple.com/us/album/hall-of-fame/1686489462?i=1686489687",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489687"
+  },
+  {
+    "id": "applemusic-1686489691",
+    "name": "S-Class",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/f5/66/90f56683-00f0-b3d0-ed97-f04cf2cb49a5/mzaf_12039515172804921382.plus.aac.p.m4a",
+    "duration": 195689,
+    "trackUrl": "https://music.apple.com/us/album/s-class/1686489462?i=1686489691",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489691"
+  },
+  {
+    "id": "applemusic-1686489694",
+    "name": "ITEM",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/d5/ef/abd5efd1-bcd0-f46c-610f-ca486a9b6796/mzaf_4587057429218239037.plus.aac.p.m4a",
+    "duration": 191533,
+    "trackUrl": "https://music.apple.com/us/album/item/1686489462?i=1686489694",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489694"
+  },
+  {
+    "id": "applemusic-1686489695",
+    "name": "Super Bowl",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/c7/83/fec783ea-c59f-8384-bfce-1914585f2c2d/mzaf_11112464386473239107.plus.aac.p.m4a",
+    "duration": 183160,
+    "trackUrl": "https://music.apple.com/us/album/super-bowl/1686489462?i=1686489695",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489695"
+  },
+  {
+    "id": "applemusic-1686489701",
+    "name": "TOPLINE (feat. Tiger JK)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/47/a4/f447a4f7-2895-e75e-3827-9213b5f13246/mzaf_15505989265091448215.plus.aac.p.m4a",
+    "duration": 203547,
+    "trackUrl": "https://music.apple.com/us/album/topline-feat-tiger-jk/1686489462?i=1686489701",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489701"
+  },
+  {
+    "id": "applemusic-1686489702",
+    "name": "DLC",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/0e/bf/920ebfe4-7087-55c0-035c-1da0ff73f8c6/mzaf_14250438225989667209.plus.aac.p.m4a",
+    "duration": 186000,
+    "trackUrl": "https://music.apple.com/us/album/dlc/1686489462?i=1686489702",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489702"
+  },
+  {
+    "id": "applemusic-1686489704",
+    "name": "GET LIT",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/17/cf/9917cff5-a8dd-ad78-b012-7090c44547a0/mzaf_16115968737599804755.plus.aac.p.m4a",
+    "duration": 171000,
+    "trackUrl": "https://music.apple.com/us/album/get-lit/1686489462?i=1686489704",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686489704"
+  },
+  {
+    "id": "applemusic-1686490165",
+    "name": "Collision",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/49/7c/5b497cc3-7f87-2327-30af-7ef73152d74f/mzaf_10218236262386766603.plus.aac.p.m4a",
+    "duration": 157627,
+    "trackUrl": "https://music.apple.com/us/album/collision/1686489462?i=1686490165",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686490165"
+  },
+  {
+    "id": "applemusic-1686490168",
+    "name": "FNF",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/89/f0/a189f008-1704-974f-7a3c-7cd46724a1ae/mzaf_6366728442464707006.plus.aac.p.m4a",
+    "duration": 171680,
+    "trackUrl": "https://music.apple.com/us/album/fnf/1686489462?i=1686490168",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686490168"
+  },
+  {
+    "id": "applemusic-1686490305",
+    "name": "Youtiful",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/f0/5f/94f05f58-bace-098d-0d4e-7986b6b66f40/mzaf_4022283356709728960.plus.aac.p.m4a",
+    "duration": 209280,
+    "trackUrl": "https://music.apple.com/us/album/youtiful/1686489462?i=1686490305",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686490305"
+  },
+  {
+    "id": "applemusic-1667452619",
+    "name": "THE SOUND",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "THE SOUND - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/56/b0/cd/56b0cd35-8456-0743-9c84-5b9cef950b1b/mzaf_5534610490695622624.plus.aac.p.m4a",
+    "duration": 180733,
+    "trackUrl": "https://music.apple.com/us/album/the-sound/1667452618?i=1667452619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/4b/d3/55/4bd3554c-8348-36c3-b725-9cf3540ec1ce/4547366608090.jpg/300x300bb.jpg",
+    "trackId": "1667452619"
+  },
+  {
+    "id": "applemusic-1686490321",
+    "name": "Mixtape : Time Out",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/a5/84/98a58424-1136-1d9f-08a8-e05287bc7015/mzaf_6723453780211556536.plus.aac.p.m4a",
+    "duration": 175293,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-time-out/1686489462?i=1686490321",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5a/3b/1e/5a3b1e2f-1b70-a4b0-6d4d-a33a770f361f/738676860696_Cover.jpg/300x300bb.jpg",
+    "trackId": "1686490321"
+  },
+  {
+    "id": "applemusic-1752739367",
+    "name": "MOUNTAINS",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/c3/10/6bc310ec-c0f7-a993-3978-45f6f2292ac6/mzaf_13011635890479614782.plus.aac.p.m4a",
+    "duration": 187545,
+    "trackUrl": "https://music.apple.com/us/album/mountains/1752739357?i=1752739367",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739367"
+  },
+  {
+    "id": "applemusic-1752739619",
+    "name": "Chk Chk Boom",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/e0/77/70e0779a-7d63-1a78-691c-4006323840fc/mzaf_18253751405624590715.plus.aac.p.m4a",
+    "duration": 148051,
+    "trackUrl": "https://music.apple.com/us/album/chk-chk-boom/1752739357?i=1752739619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739619"
+  },
+  {
+    "id": "applemusic-1752739626",
+    "name": "JJAM",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c5/55/c2/c555c2d7-9759-9372-f8f8-ff754d509dc0/mzaf_13902842667435454697.plus.aac.p.m4a",
+    "duration": 185528,
+    "trackUrl": "https://music.apple.com/us/album/jjam/1752739357?i=1752739626",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739626"
+  },
+  {
+    "id": "applemusic-1752739632",
+    "name": "I Like It",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/86/29/d9862934-1382-8bb0-6b03-5b256eb79bdf/mzaf_5994955693088621030.plus.aac.p.m4a",
+    "duration": 148633,
+    "trackUrl": "https://music.apple.com/us/album/i-like-it/1752739357?i=1752739632",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739632"
+  },
+  {
+    "id": "applemusic-1752739821",
+    "name": "Runners",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/01/0a/3d010a2b-4311-0548-a0dd-cb34cc0b7a55/mzaf_11917836179252619780.plus.aac.p.m4a",
+    "duration": 196684,
+    "trackUrl": "https://music.apple.com/us/album/runners/1752739357?i=1752739821",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739821"
+  },
+  {
+    "id": "applemusic-1752739826",
+    "name": "twilight",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/fd/43/c0fd4358-49f2-4463-8fae-ed810fe430de/mzaf_14558798165363507509.plus.aac.p.m4a",
+    "duration": 192777,
+    "trackUrl": "https://music.apple.com/us/album/twilight/1752739357?i=1752739826",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739826"
+  },
+  {
+    "id": "applemusic-1752739832",
+    "name": "Stray Kids",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ATE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/a8/e1/0ca8e1eb-fbdd-62ab-13d4-76cbc29a81be/mzaf_1150078789316899965.plus.aac.p.m4a",
+    "duration": 189051,
+    "trackUrl": "https://music.apple.com/us/album/stray-kids/1752739357?i=1752739832",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/c1/47/24c147fc-cf70-0a4e-3e21-bd9a42617572/8809928952123_Cover.jpg/300x300bb.jpg",
+    "trackId": "1752739832"
+  },
+  {
+    "id": "applemusic-1710644824",
+    "name": "MEGAVERSE",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ROCK-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/f3/e0/d5f3e037-7471-5a2b-2f70-62d4a264e91a/mzaf_5877201712401078423.plus.aac.p.m4a",
+    "duration": 185520,
+    "trackUrl": "https://music.apple.com/us/album/megaverse/1710644819?i=1710644824",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/cc/6d/36cc6d5f-1be5-188e-ce54-80f57b023791/8809928950532_Cover.jpg/300x300bb.jpg",
+    "trackId": "1710644824"
+  },
+  {
+    "id": "applemusic-1710644832",
+    "name": "LALALALA",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ROCK-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/4a/51/714a51c6-61f3-cf49-7b3e-f15fe4670b76/mzaf_10284733538239035379.plus.aac.p.m4a",
+    "duration": 182224,
+    "trackUrl": "https://music.apple.com/us/album/lalalala/1710644819?i=1710644832",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/cc/6d/36cc6d5f-1be5-188e-ce54-80f57b023791/8809928950532_Cover.jpg/300x300bb.jpg",
+    "trackId": "1710644832"
+  },
+  {
+    "id": "applemusic-1710644834",
+    "name": "BLIND SPOT",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ROCK-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/49/05/2f490505-a6bd-bb31-8f5c-3bbade0c8707/mzaf_17402502551773633302.plus.aac.p.m4a",
+    "duration": 200813,
+    "trackUrl": "https://music.apple.com/us/album/blind-spot/1710644819?i=1710644834",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/cc/6d/36cc6d5f-1be5-188e-ce54-80f57b023791/8809928950532_Cover.jpg/300x300bb.jpg",
+    "trackId": "1710644834"
+  },
+  {
+    "id": "applemusic-1710645138",
+    "name": "COMFLEX",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ROCK-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/54/4c/de544cc8-ae6f-e31d-09be-9ab64c3db7d5/mzaf_17050320041104513669.plus.aac.p.m4a",
+    "duration": 172320,
+    "trackUrl": "https://music.apple.com/us/album/comflex/1710644819?i=1710645138",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/cc/6d/36cc6d5f-1be5-188e-ce54-80f57b023791/8809928950532_Cover.jpg/300x300bb.jpg",
+    "trackId": "1710645138"
+  },
+  {
+    "id": "applemusic-1710645143",
+    "name": "Cover Me",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ROCK-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/b6/44/53b644f9-7398-29e9-8933-f45e68978458/mzaf_12422757609932954880.plus.aac.p.m4a",
+    "duration": 191013,
+    "trackUrl": "https://music.apple.com/us/album/cover-me/1710644819?i=1710645143",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/cc/6d/36cc6d5f-1be5-188e-ce54-80f57b023791/8809928950532_Cover.jpg/300x300bb.jpg",
+    "trackId": "1710645143"
+  },
+  {
+    "id": "applemusic-1710645149",
+    "name": "Leave",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ROCK-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/c7/d3/dcc7d37c-d6e7-6574-274c-771626fdaffc/mzaf_12489561933958863383.plus.aac.p.m4a",
+    "duration": 219093,
+    "trackUrl": "https://music.apple.com/us/album/leave/1710644819?i=1710645149",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/36/cc/6d/36cc6d5f-1be5-188e-ce54-80f57b023791/8809928950532_Cover.jpg/300x300bb.jpg",
+    "trackId": "1710645149"
+  },
+  {
+    "id": "applemusic-1702832804",
+    "name": "Social Path (feat. LiSA)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Social Path (feat. LiSA) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0b/e6/61/0be6615d-4744-5460-2e38-d18db1a57309/mzaf_2040967273142526888.plus.aac.p.m4a",
+    "duration": 198787,
+    "trackUrl": "https://music.apple.com/us/album/social-path-feat-lisa/1702832802?i=1702832804",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/14/0f/72/140f72e1-d8d9-ecd1-45b3-c6e3440fda48/4547366642858.jpg/300x300bb.jpg",
+    "trackId": "1702832804"
+  },
+  {
+    "id": "applemusic-1827247174",
+    "name": "BLEEP",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/dd/1c/69dd1c0a-973a-fd60-f24b-0527af9c10b3/mzaf_4814985851318491216.plus.aac.p.m4a",
+    "duration": 167027,
+    "trackUrl": "https://music.apple.com/us/album/bleep/1827247172?i=1827247174",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247174"
+  },
+  {
+    "id": "applemusic-1827247176",
+    "name": "CEREMONY",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/4e/8c/064e8cef-b3a2-93f2-4b40-112e7cf98f6a/mzaf_13313443970964353939.plus.aac.p.m4a",
+    "duration": 164027,
+    "trackUrl": "https://music.apple.com/us/album/ceremony/1827247172?i=1827247176",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247176"
+  },
+  {
+    "id": "applemusic-1827247184",
+    "name": "CREED",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/c1/4c/e7c14c62-0a96-c164-d7d6-2367de6fdd5b/mzaf_9094135708215609421.plus.aac.p.m4a",
+    "duration": 161027,
+    "trackUrl": "https://music.apple.com/us/album/creed/1827247172?i=1827247184",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247184"
+  },
+  {
+    "id": "applemusic-1827247279",
+    "name": "MESS",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/9f/fb/f69ffb87-d533-938c-d2e8-f5247664a2bd/mzaf_11068523215181189333.plus.aac.p.m4a",
+    "duration": 209013,
+    "trackUrl": "https://music.apple.com/us/album/mess/1827247172?i=1827247279",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247279"
+  },
+  {
+    "id": "applemusic-1827247281",
+    "name": "In My Head",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/e8/1e/05e81e11-b495-425b-daa0-01bf728965fb/mzaf_13545033446543815898.plus.aac.p.m4a",
+    "duration": 176013,
+    "trackUrl": "https://music.apple.com/us/album/in-my-head/1827247172?i=1827247281",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247281"
+  },
+  {
+    "id": "applemusic-1827247284",
+    "name": "Half Time",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/1d/d7/a91dd784-9f31-432f-d4ac-5d6cc92ce23c/mzaf_15731910642772795569.plus.aac.p.m4a",
+    "duration": 170013,
+    "trackUrl": "https://music.apple.com/us/album/half-time/1827247172?i=1827247284",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247284"
+  },
+  {
+    "id": "applemusic-1827247288",
+    "name": "Phoenix",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/bf/60/12bf60e5-bc70-a5c9-f17a-373eb864f8f9/mzaf_1388713498494283630.plus.aac.p.m4a",
+    "duration": 182013,
+    "trackUrl": "https://music.apple.com/us/album/phoenix/1827247172?i=1827247288",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247288"
+  },
+  {
+    "id": "applemusic-1827247289",
+    "name": "Ghost",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bb/77/72/bb777256-e087-a188-11b8-d7574edd3a4b/mzaf_4830901572779103921.plus.aac.p.m4a",
+    "duration": 153000,
+    "trackUrl": "https://music.apple.com/us/album/ghost/1827247172?i=1827247289",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247289"
+  },
+  {
+    "id": "applemusic-1827247292",
+    "name": "0801",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "KARMA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/e2/a3/6be2a382-808b-4274-f63a-83ed6422005c/mzaf_15647269255387722857.plus.aac.p.m4a",
+    "duration": 204027,
+    "trackUrl": "https://music.apple.com/us/album/0801/1827247172?i=1827247292",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/22/ee/3822ee8e-c8f6-bb12-10ca-dcfd27dd166b/8809928955230_Cover.jpg/300x300bb.jpg",
+    "trackId": "1827247292"
+  },
+  {
+    "id": "applemusic-1644436109",
+    "name": "CASE 143",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/ad/97/39ad97c4-b6eb-6dc5-bcb7-86b6a5f294b0/mzaf_1058898013020560292.plus.aac.p.m4a",
+    "duration": 191965,
+    "trackUrl": "https://music.apple.com/us/album/case-143/1644436101?i=1644436109",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436109"
+  },
+  {
+    "id": "applemusic-1644436116",
+    "name": "CHILL",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/31/26/1a312601-d951-955f-3a73-3adea46835ed/mzaf_2672016521443953394.plus.aac.p.m4a",
+    "duration": 195147,
+    "trackUrl": "https://music.apple.com/us/album/chill/1644436101?i=1644436116",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436116"
+  },
+  {
+    "id": "applemusic-1644436117",
+    "name": "Give Me Your TMI",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/05/e1/2205e189-e206-65b0-d10f-f8df79f1a208/mzaf_12033983012682343428.plus.aac.p.m4a",
+    "duration": 198173,
+    "trackUrl": "https://music.apple.com/us/album/give-me-your-tmi/1644436101?i=1644436117",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436117"
+  },
+  {
+    "id": "applemusic-1644436450",
+    "name": "SUPER BOARD",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/dd/56/bcdd5621-72df-cd67-a900-e16e2225953b/mzaf_16005527150339523720.plus.aac.p.m4a",
+    "duration": 185960,
+    "trackUrl": "https://music.apple.com/us/album/super-board/1644436101?i=1644436450",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436450"
+  },
+  {
+    "id": "applemusic-1644436452",
+    "name": "3RACHA (Bang Chan, Changbin, HAN)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/6e/79/546e792f-1e30-13bf-b257-30aa0d734a74/mzaf_7192892574348280041.plus.aac.p.m4a",
+    "duration": 208573,
+    "trackUrl": "https://music.apple.com/us/album/3racha-bang-chan-changbin-han/1644436101?i=1644436452",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436452"
+  },
+  {
+    "id": "applemusic-1644436455",
+    "name": "TASTE (Lee Know, Hyunjin, Felix)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/51/0a/14510a38-6a6d-1fa0-34ff-263bd99caf78/mzaf_6118979622839162591.plus.aac.p.m4a",
+    "duration": 216120,
+    "trackUrl": "https://music.apple.com/us/album/taste-lee-know-hyunjin-felix/1644436101?i=1644436455",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436455"
+  },
+  {
+    "id": "applemusic-1644436552",
+    "name": "Can't Stop (Seungmin, I.N)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "MAXIDENT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/75/83/cc75838a-8f28-3321-7896-d2e2d615d9c9/mzaf_18386480708504865943.plus.aac.p.m4a",
+    "duration": 209667,
+    "trackUrl": "https://music.apple.com/us/album/cant-stop-seungmin-i-n/1644436101?i=1644436552",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/b9/bc/58/b9bc58ce-2d5e-74a5-c1da-9c8e596a6625/738676860030_Cover.jpg/300x300bb.jpg",
+    "trackId": "1644436552"
+  },
+  {
+    "id": "applemusic-1627761820",
+    "name": "CIRCUS",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "CIRCUS - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e6/68/a4/e668a438-fd1e-62cc-eaaa-967f27b45ec3/mzaf_18095627996924365375.plus.aac.p.m4a",
+    "duration": 194440,
+    "trackUrl": "https://music.apple.com/us/album/circus/1627761785?i=1627761820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a7/01/77/a701773d-07ca-9481-47bd-bd0ea6f2313c/4547366570335.jpg/300x300bb.jpg",
+    "trackId": "1627761820"
+  },
+  {
+    "id": "applemusic-1608251776",
+    "name": "The Tortoise and the Hare",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/07/a9/4b/07a94ba7-c84f-f303-94b4-3fa55abe4f84/mzaf_13180156402741157528.plus.aac.p.m4a",
+    "duration": 224366,
+    "trackUrl": "https://music.apple.com/us/album/the-tortoise-and-the-hare/1608251775?i=1608251776",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251776"
+  },
+  {
+    "id": "applemusic-1608251779",
+    "name": "Back Door",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/38/59/28/38592841-12b2-cdbc-dfda-e1387dfb1f04/mzaf_5194302208526186780.plus.aac.p.m4a",
+    "duration": 189287,
+    "trackUrl": "https://music.apple.com/us/album/back-door/1608251775?i=1608251779",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251779"
+  },
+  {
+    "id": "applemusic-1608251790",
+    "name": "B Me",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e8/cd/57/e8cd57a3-c1d5-00e1-ad9e-134d6c09bd92/mzaf_6941544131863555168.plus.aac.p.m4a",
+    "duration": 205103,
+    "trackUrl": "https://music.apple.com/us/album/b-me/1608251775?i=1608251790",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251790"
+  },
+  {
+    "id": "applemusic-1608251795",
+    "name": "Any",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f5/15/ed/f515ed7a-f121-37c1-16c7-571288d60e80/mzaf_3344028669055992593.plus.aac.p.m4a",
+    "duration": 169140,
+    "trackUrl": "https://music.apple.com/us/album/any/1608251775?i=1608251795",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251795"
+  },
+  {
+    "id": "applemusic-1608251947",
+    "name": "Ex",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f5/21/1b/f5211b15-c3a8-08ab-8dd2-c80843f966e7/mzaf_16763217595566055360.plus.aac.p.m4a",
+    "duration": 217225,
+    "trackUrl": "https://music.apple.com/us/album/ex/1608251775?i=1608251947",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251947"
+  },
+  {
+    "id": "applemusic-1531253503",
+    "name": "We Go (Bang Chan, Changbin, HAN)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0e/a1/5d/0ea15de7-083b-b2c0-2276-b43c0c3f1eb4/mzaf_398478229006707072.plus.aac.p.m4a",
+    "duration": 157484,
+    "trackUrl": "https://music.apple.com/jp/album/we-go-bang-chan-changbin-han/1531253496?i=1531253503",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/34/66/27/346627b5-02ad-8725-23d3-e9beb611275a/4547366475494.jpg/300x300bb.jpg",
+    "trackId": "1531253503"
+  },
+  {
+    "id": "applemusic-1531253504",
+    "name": "Wow (Lee Know, Hyunjin, Felix)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f9/20/42/f92042df-ee19-8b17-6d5c-4f8bbe696135/mzaf_1203735132807004572.plus.aac.p.m4a",
+    "duration": 193811,
+    "trackUrl": "https://music.apple.com/jp/album/wow-lee-know-hyunjin-felix/1531253496?i=1531253504",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/34/66/27/346627b5-02ad-8725-23d3-e9beb611275a/4547366475494.jpg/300x300bb.jpg",
+    "trackId": "1531253504"
+  },
+  {
+    "id": "applemusic-1531253505",
+    "name": "My Universe (Seungmin, I.N Feat. Changbin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/53/f3/16/53f3163c-fdda-cb05-bc63-18f1bfe6c042/mzaf_11395065573419664759.plus.aac.p.m4a",
+    "duration": 203425,
+    "trackUrl": "https://music.apple.com/jp/album/my-universe-seungmin-i-n-feat-changbin/1531253496?i=1531253505",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/34/66/27/346627b5-02ad-8725-23d3-e9beb611275a/4547366475494.jpg/300x300bb.jpg",
+    "trackId": "1531253505"
+  },
+  {
+    "id": "applemusic-1608251966",
+    "name": "God's Menu",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e0/08/5b/e0085bd6-6497-0e36-b4c9-fde595ba060d/mzaf_4998799944656608565.plus.aac.p.m4a",
+    "duration": 167922,
+    "trackUrl": "https://music.apple.com/us/album/gods-menu/1608251775?i=1608251966",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251966"
+  },
+  {
+    "id": "applemusic-1608251972",
+    "name": "Easy",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/93/9c/7a/939c7a03-cde9-4821-6484-b8f9770263c0/mzaf_1642039653335770992.plus.aac.p.m4a",
+    "duration": 183135,
+    "trackUrl": "https://music.apple.com/us/album/easy/1608251775?i=1608251972",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251972"
+  },
+  {
+    "id": "applemusic-1608251975",
+    "name": "Pacemaker",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/97/2d/c5/972dc547-42cc-2ef5-a5d9-e1b9017fc6f3/mzaf_2380193096379704988.plus.aac.p.m4a",
+    "duration": 190602,
+    "trackUrl": "https://music.apple.com/us/album/pacemaker/1608251775?i=1608251975",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608251975"
+  },
+  {
+    "id": "applemusic-1608252126",
+    "name": "Airplane",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5c/57/49/5c5749ef-14cf-affb-a366-b3d6afd9fb37/mzaf_15990316609748923027.plus.aac.p.m4a",
+    "duration": 214727,
+    "trackUrl": "https://music.apple.com/us/album/airplane/1608251775?i=1608252126",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608252126"
+  },
+  {
+    "id": "applemusic-1608252130",
+    "name": "Another Day",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/44/6d/97446d62-f353-b018-7f26-6ec4698ce9a8/mzaf_4942499502953740684.plus.aac.p.m4a",
+    "duration": 166968,
+    "trackUrl": "https://music.apple.com/us/album/another-day/1608251775?i=1608252130",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608252130"
+  },
+  {
+    "id": "applemusic-1608252131",
+    "name": "Phobia",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b7/3e/10/b73e10ef-05fd-cb9d-9126-adfb58c43a25/mzaf_1843488094453170456.plus.aac.p.m4a",
+    "duration": 212618,
+    "trackUrl": "https://music.apple.com/us/album/phobia/1608251775?i=1608252131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608252131"
+  },
+  {
+    "id": "applemusic-1608252133",
+    "name": "Blueprint",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0d/1f/df/0d1fdf40-e8aa-d2df-a68c-e4da1de27476/mzaf_6389020927288519116.plus.aac.p.m4a",
+    "duration": 251300,
+    "trackUrl": "https://music.apple.com/us/album/blueprint/1608251775?i=1608252133",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608252133"
+  },
+  {
+    "id": "applemusic-1608252136",
+    "name": "TA",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/15/5d/85155db7-7412-1921-8ab2-9a83925e1543/mzaf_18056172653093855038.plus.aac.p.m4a",
+    "duration": 208658,
+    "trackUrl": "https://music.apple.com/us/album/ta/1608251775?i=1608252136",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608252136"
+  },
+  {
+    "id": "applemusic-1608252137",
+    "name": "Haven",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "IN LIFE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/15/10/c4/1510c454-64d9-7a85-52a9-35dfbd65e7fb/mzaf_14078094941575401681.plus.aac.p.m4a",
+    "duration": 199671,
+    "trackUrl": "https://music.apple.com/us/album/haven/1608251775?i=1608252137",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/99/a9/a899a9bb-bddc-1ce6-61d0-bea282420aa3/192641939464_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608252137"
+  },
+  {
+    "id": "applemusic-1780412269",
+    "name": "Walkin On Water",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/ce/09/2bce096d-7312-9d45-c3ed-4714b69dec39/mzaf_14542851358843008187.plus.aac.p.m4a",
+    "duration": 148810,
+    "trackUrl": "https://music.apple.com/us/album/walkin-on-water/1780411692?i=1780412269",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412269"
+  },
+  {
+    "id": "applemusic-1780412286",
+    "name": "Bounce Back",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/7b/d8/e37bd8ca-63ac-fc27-eac6-61cc30eaa803/mzaf_9244424834268147534.plus.aac.p.m4a",
+    "duration": 183707,
+    "trackUrl": "https://music.apple.com/us/album/bounce-back/1780411692?i=1780412286",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412286"
+  },
+  {
+    "id": "applemusic-1780412292",
+    "name": "U (feat. TABLO)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/77/b3/2277b339-f9c9-3d10-6455-43334a9d16c9/mzaf_3219007140983102291.plus.aac.p.m4a",
+    "duration": 163520,
+    "trackUrl": "https://music.apple.com/us/album/u-feat-tablo/1780411692?i=1780412292",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412292"
+  },
+  {
+    "id": "applemusic-1780412483",
+    "name": "Railway (Bang Chan)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/60/10/f160103e-c20a-7f52-0cf9-eaca75665fd7/mzaf_16593631690024064447.plus.aac.p.m4a",
+    "duration": 173640,
+    "trackUrl": "https://music.apple.com/us/album/railway-bang-chan/1780411692?i=1780412483",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412483"
+  },
+  {
+    "id": "applemusic-1780412490",
+    "name": "Unfair (Felix)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/30/5f/19305fa0-ac35-512b-4d82-da9e009d7bf6/mzaf_3925113369482364189.plus.aac.p.m4a",
+    "duration": 168147,
+    "trackUrl": "https://music.apple.com/us/album/unfair-felix/1780411692?i=1780412490",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412490"
+  },
+  {
+    "id": "applemusic-1780412493",
+    "name": "HALLUCINATION (I.N)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/93/b1/3993b1d6-abef-34ca-23a4-f81ef93b6515/mzaf_18385699383095504618.plus.aac.p.m4a",
+    "duration": 163093,
+    "trackUrl": "https://music.apple.com/us/album/hallucination-i-n/1780411692?i=1780412493",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412493"
+  },
+  {
+    "id": "applemusic-1780412495",
+    "name": "Youth (Lee Know)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/cd/97/a6cd97a0-5b92-4414-90c7-d81ba9965d79/mzaf_16231843726044607793.plus.aac.p.m4a",
+    "duration": 160173,
+    "trackUrl": "https://music.apple.com/us/album/youth-lee-know/1780411692?i=1780412495",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412495"
+  },
+  {
+    "id": "applemusic-1780412500",
+    "name": "So Good (Hyunjin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bd/bd/5c/bdbd5cb2-cbb1-82dc-44d1-ee7e934d90f0/mzaf_4784469939803634218.plus.aac.p.m4a",
+    "duration": 168640,
+    "trackUrl": "https://music.apple.com/us/album/so-good-hyunjin/1780411692?i=1780412500",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412500"
+  },
+  {
+    "id": "applemusic-1780412508",
+    "name": "ULTRA (Changbin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/e6/7a/e8e67a5f-0ca4-7c89-c6b4-47dadadeb2c8/mzaf_5128257022097864627.plus.aac.p.m4a",
+    "duration": 147400,
+    "trackUrl": "https://music.apple.com/us/album/ultra-changbin/1780411692?i=1780412508",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412508"
+  },
+  {
+    "id": "applemusic-1780412926",
+    "name": "Hold my hand (HAN)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/73/47/d273479f-21a9-a9c7-c5e1-b47af2a58686/mzaf_16822665077496466306.plus.aac.p.m4a",
+    "duration": 179400,
+    "trackUrl": "https://music.apple.com/us/album/hold-my-hand-han/1780411692?i=1780412926",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780412926"
+  },
+  {
+    "id": "applemusic-1780413023",
+    "name": "As we are (Seungmin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "HOP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/9a/6e/da9a6e56-6805-8de5-1de2-1ad6d7fe26d3/mzaf_13378682421108010072.plus.aac.p.m4a",
+    "duration": 213573,
+    "trackUrl": "https://music.apple.com/us/album/as-we-are-seungmin/1780411692?i=1780413023",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b3/e2/83/b3e28373-7aad-03c0-b8ec-9b1d9e706989/8809928953014_Cover.jpg/300x300bb.jpg",
+    "trackId": "1780413023"
+  },
+  {
+    "id": "applemusic-1846266205",
+    "name": "Do It",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "DO IT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3f/58/d4/3f58d47b-4d4c-2b22-5ba5-c5ca66c5f26b/mzaf_7069320622919057855.plus.aac.p.m4a",
+    "duration": 159000,
+    "trackUrl": "https://music.apple.com/us/album/do-it/1846266203?i=1846266205",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/33/69/7233691c-aefe-252d-678b-faa9b3455200/8809928958965_Cover.jpg/300x300bb.jpg",
+    "trackId": "1846266205"
+  },
+  {
+    "id": "applemusic-1846266206",
+    "name": "DIVINE",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "DO IT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/c5/e5/0fc5e542-6ffb-c9a9-22c5-28cb27526a8d/mzaf_9501414723496878264.plus.aac.p.m4a",
+    "duration": 187000,
+    "trackUrl": "https://music.apple.com/us/album/divine/1846266203?i=1846266206",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/33/69/7233691c-aefe-252d-678b-faa9b3455200/8809928958965_Cover.jpg/300x300bb.jpg",
+    "trackId": "1846266206"
+  },
+  {
+    "id": "applemusic-1846266208",
+    "name": "Holiday",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "DO IT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/1f/37/361f37a9-cf35-02e5-7740-3425ce22b705/mzaf_14264097118815639090.plus.aac.p.m4a",
+    "duration": 187000,
+    "trackUrl": "https://music.apple.com/us/album/holiday/1846266203?i=1846266208",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/33/69/7233691c-aefe-252d-678b-faa9b3455200/8809928958965_Cover.jpg/300x300bb.jpg",
+    "trackId": "1846266208"
+  },
+  {
+    "id": "applemusic-1846266209",
+    "name": "Photobook",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "DO IT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/ae/ab/81aeab15-0a1b-49d5-c3aa-3dc53fc450cc/mzaf_4464484014670412390.plus.aac.p.m4a",
+    "duration": 173000,
+    "trackUrl": "https://music.apple.com/us/album/photobook/1846266203?i=1846266209",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/33/69/7233691c-aefe-252d-678b-faa9b3455200/8809928958965_Cover.jpg/300x300bb.jpg",
+    "trackId": "1846266209"
+  },
+  {
+    "id": "applemusic-1608248587",
+    "name": "Double Knot",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Double Knot - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ab/9a/99/ab9a991a-a76f-54b1-18e7-83427a1c8614/mzaf_11973253239894235577.plus.aac.p.m4a",
+    "duration": 189771,
+    "trackUrl": "https://music.apple.com/us/album/double-knot/1608248433?i=1608248587",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b4/a6/aa/b4a6aada-a464-463c-0656-a60c7e97bc32/192641939396_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608248587"
+  },
+  {
+    "id": "applemusic-1608256723",
+    "name": "Hellevator",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Hellevator - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/64/32/29/64322922-7c1c-6d5c-ab7c-74ca1fa4a833/mzaf_3535622565728652181.plus.aac.p.m4a",
+    "duration": 240000,
+    "trackUrl": "https://music.apple.com/us/album/hellevator/1608256722?i=1608256723",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/37/ec/55/37ec5508-6745-0b9c-e29b-51545fc71a32/738676856828_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608256723"
+  },
+  {
+    "id": "applemusic-1608247183",
+    "name": "WHO?",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/17/8e/76/178e76bf-7050-8e89-45f1-0c5f2cf84251/mzaf_16931497899243261445.plus.aac.p.m4a",
+    "duration": 104996,
+    "trackUrl": "https://music.apple.com/us/album/who/1608247182?i=1608247183",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247183"
+  },
+  {
+    "id": "applemusic-1608247184",
+    "name": "My Pace",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/92/5e/d5/925ed5c9-8eb5-84b2-35af-142f48041e5e/mzaf_15782841810879012499.plus.aac.p.m4a",
+    "duration": 189325,
+    "trackUrl": "https://music.apple.com/us/album/my-pace/1608247182?i=1608247184",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247184"
+  },
+  {
+    "id": "applemusic-1608247190",
+    "name": "Voices",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d1/0f/24/d10f2477-f099-1cfe-d569-60f700231565/mzaf_8228516501502297435.plus.aac.p.m4a",
+    "duration": 200383,
+    "trackUrl": "https://music.apple.com/us/album/voices/1608247182?i=1608247190",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247190"
+  },
+  {
+    "id": "applemusic-1608247191",
+    "name": "Question",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/21/9f/3d/219f3d59-7122-bc19-f4cb-9a2c58584817/mzaf_12198363902803024752.plus.aac.p.m4a",
+    "duration": 182700,
+    "trackUrl": "https://music.apple.com/us/album/question/1608247182?i=1608247191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247191"
+  },
+  {
+    "id": "applemusic-1608247197",
+    "name": "Insomnia",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/81/7d/d5817d98-a0fd-2c37-b90e-43ef509155a8/mzaf_12081315598360402984.plus.aac.p.m4a",
+    "duration": 206430,
+    "trackUrl": "https://music.apple.com/us/album/insomnia/1608247182?i=1608247197",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247197"
+  },
+  {
+    "id": "applemusic-1608247200",
+    "name": "M.I.A.",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1e/14/fb/1e14fbcf-3e42-e8f5-c3cb-bc6733082e54/mzaf_11750187700321926253.plus.aac.p.m4a",
+    "duration": 210738,
+    "trackUrl": "https://music.apple.com/us/album/m-i-a/1608247182?i=1608247200",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247200"
+  },
+  {
+    "id": "applemusic-1608247202",
+    "name": "Awkward Silence",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am WHO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/8c/2c/978c2c3b-b003-4901-dc02-a9c9d68ab1a5/mzaf_16528336687397637701.plus.aac.p.m4a",
+    "duration": 193752,
+    "trackUrl": "https://music.apple.com/us/album/awkward-silence/1608247182?i=1608247202",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/0a/9e/960a9e53-62f1-de99-7f72-73bb728b60d8/192641939327_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247202"
+  },
+  {
+    "id": "applemusic-1608250340",
+    "name": "Entrance",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/7e/c4/18/7ec41827-e0cb-dd08-ff97-cf66ae6d59fe/mzaf_4239798022193716283.plus.aac.p.m4a",
+    "duration": 98760,
+    "trackUrl": "https://music.apple.com/us/album/entrance/1608250336?i=1608250340",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250340"
+  },
+  {
+    "id": "applemusic-1608250342",
+    "name": "MIROH",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/04/d1/57/04d15703-6d6b-466f-bbb7-a09511fc44a2/mzaf_16373243429992727713.plus.aac.p.m4a",
+    "duration": 207617,
+    "trackUrl": "https://music.apple.com/us/album/miroh/1608250336?i=1608250342",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250342"
+  },
+  {
+    "id": "applemusic-1608250347",
+    "name": "Victory Song",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1d/99/7f/1d997fb5-9f00-8ea4-d219-31af1a8abe0a/mzaf_10934813991962704694.plus.aac.p.m4a",
+    "duration": 196384,
+    "trackUrl": "https://music.apple.com/us/album/victory-song/1608250336?i=1608250347",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250347"
+  },
+  {
+    "id": "applemusic-1608250348",
+    "name": "Maze of Memories",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f3/06/ef/f306ef0e-f3aa-e2f3-31bc-b22c0a7ab392/mzaf_2342685567818106141.plus.aac.p.m4a",
+    "duration": 175176,
+    "trackUrl": "https://music.apple.com/us/album/maze-of-memories/1608250336?i=1608250348",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250348"
+  },
+  {
+    "id": "applemusic-1608250349",
+    "name": "Boxer",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6e/a3/24/6ea3241a-4e30-fc66-0f1d-44e73e9ab800/mzaf_8862919176779775666.plus.aac.p.m4a",
+    "duration": 200513,
+    "trackUrl": "https://music.apple.com/us/album/boxer/1608250336?i=1608250349",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250349"
+  },
+  {
+    "id": "applemusic-1608250354",
+    "name": "Chronosaurus",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6f/cf/a3/6fcfa398-6b22-d511-007b-4ff76f510bb7/mzaf_11213490612381235450.plus.aac.p.m4a",
+    "duration": 198672,
+    "trackUrl": "https://music.apple.com/us/album/chronosaurus/1608250336?i=1608250354",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250354"
+  },
+  {
+    "id": "applemusic-1608250823",
+    "name": "19",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 1 : MIROH",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/23/50/e7/2350e7bc-cbe0-a3f6-7911-f6ac12eb7acf/mzaf_8590633437066390098.plus.aac.p.m4a",
+    "duration": 205518,
+    "trackUrl": "https://music.apple.com/us/album/19/1608250336?i=1608250823",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/fc/c1/b1fcc187-2298-a18b-ee68-06b23c0eefa6/192641939365_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250823"
+  },
+  {
+    "id": "applemusic-1608249416",
+    "name": "YOU.",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2b/0b/a1/2b0ba11b-c85e-160f-be02-7fd401a3314d/mzaf_16315040536287526608.plus.aac.p.m4a",
+    "duration": 78834,
+    "trackUrl": "https://music.apple.com/us/album/you/1608249409?i=1608249416",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249416"
+  },
+  {
+    "id": "applemusic-1608249420",
+    "name": "I am YOU",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6a/54/24/6a54242c-d52f-fc29-9f70-8553f847358e/mzaf_17085567304462470119.plus.aac.p.m4a",
+    "duration": 204239,
+    "trackUrl": "https://music.apple.com/us/album/i-am-you/1608249409?i=1608249420",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249420"
+  },
+  {
+    "id": "applemusic-1608249421",
+    "name": "My Side",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b6/a0/b3/b6a0b3b6-ae75-9d72-45ff-02bbd6bad58c/mzaf_16445402669792160810.plus.aac.p.m4a",
+    "duration": 216788,
+    "trackUrl": "https://music.apple.com/us/album/my-side/1608249409?i=1608249421",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249421"
+  },
+  {
+    "id": "applemusic-1608249425",
+    "name": "Hero's Soup",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/bd/d0/a7/bdd0a7a4-505f-05ce-859a-bded20b7572d/mzaf_1808334110665876466.plus.aac.p.m4a",
+    "duration": 212482,
+    "trackUrl": "https://music.apple.com/us/album/heros-soup/1608249409?i=1608249425",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249425"
+  },
+  {
+    "id": "applemusic-1608249888",
+    "name": "Get Cool",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fa/62/06/fa62067c-7d77-f606-420d-7eddd16035b3/mzaf_10751287225961572804.plus.aac.p.m4a",
+    "duration": 194758,
+    "trackUrl": "https://music.apple.com/us/album/get-cool/1608249409?i=1608249888",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249888"
+  },
+  {
+    "id": "applemusic-1608249889",
+    "name": "N/S",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/91/b1/1a/91b11a11-9f1a-1826-401a-220a2cd36dfc/mzaf_11139621807107629488.plus.aac.p.m4a",
+    "duration": 224042,
+    "trackUrl": "https://music.apple.com/us/album/n-s/1608249409?i=1608249889",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249889"
+  },
+  {
+    "id": "applemusic-1608249891",
+    "name": "0325",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am YOU",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/89/28/f3/8928f3d5-28ea-bc78-e81d-d89ed6659dff/mzaf_17468909581136114424.plus.aac.p.m4a",
+    "duration": 218442,
+    "trackUrl": "https://music.apple.com/us/album/0325/1608249409?i=1608249891",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/00/ed/a6/00eda672-576a-a929-c948-bda3d590a887/192641939358_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249891"
+  },
+  {
+    "id": "applemusic-1536185747",
+    "name": "TOP -English ver.-",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "TOP -English ver.- - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/43/8d/d2/438dd2ce-8f83-dfe0-900b-8c3011c6de31/mzaf_12440183105853354274.plus.aac.p.m4a",
+    "duration": 185840,
+    "trackUrl": "https://music.apple.com/jp/album/top-english-ver/1536185746?i=1536185747",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/45/e5/b3/45e5b307-79f2-f59d-eeec-c896e24dd9f2/jacket_EJXX00078B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1536185747"
+  },
+  {
+    "id": "applemusic-1536185748",
+    "name": "SLUMP -English ver.-",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "TOP -English ver.- - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a6/83/41/a68341d6-275e-9ba6-fcb3-515f75a4071c/mzaf_1395930256126613565.plus.aac.p.m4a",
+    "duration": 134840,
+    "trackUrl": "https://music.apple.com/jp/album/slump-english-ver/1536185746?i=1536185748",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/45/e5/b3/45e5b307-79f2-f59d-eeec-c896e24dd9f2/jacket_EJXX00078B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1536185748"
+  },
+  {
+    "id": "applemusic-1608257845",
+    "name": "Mixtape : Gone Days",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GO LIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d2/32/ad/d232ad71-3ee4-1155-8896-aaf53dfab4cd/mzaf_9098064311264402743.plus.aac.p.m4a",
+    "duration": 194886,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-gone-days/1608257477?i=1608257845",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/d8/58/51d858b1-94df-2047-d2b4-0378ca0cd9db/192641939440_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257845"
+  },
+  {
+    "id": "applemusic-1608257849",
+    "name": "Mixtape : On Track",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GO LIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8d/9e/88/8d9e88ed-426d-6997-4c9b-143c5f625272/mzaf_11754012946197020726.plus.aac.p.m4a",
+    "duration": 208143,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-on-track/1608257477?i=1608257849",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/51/d8/58/51d858b1-94df-2047-d2b4-0378ca0cd9db/192641939440_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257849"
+  },
+  {
+    "id": "applemusic-1777033481",
+    "name": "GIANT",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GIANT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/81/9a/58819a08-91d7-5eaf-e2ec-78a2243dca68/mzaf_5362880805979792044.plus.aac.p.m4a",
+    "duration": 174800,
+    "trackUrl": "https://music.apple.com/us/album/giant/1777033478?i=1777033481",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/c7/d7/fcc7d70e-ef18-1586-3269-d9881acbea9e/4547366717150.jpg/300x300bb.jpg",
+    "trackId": "1777033481"
+  },
+  {
+    "id": "applemusic-1799804285",
+    "name": "Truman (HAN & Felix)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape : dominATE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/c2/11/50c21197-9f39-7a22-fa72-e515b12800b7/mzaf_15153281543951779624.plus.aac.p.m4a",
+    "duration": 195333,
+    "trackUrl": "https://music.apple.com/us/album/truman-han-felix/1799804278?i=1799804285",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/51/8a/92518ab3-5447-9fc1-57b2-206e2dc48e8a/8809928953489_Cover.jpg/300x300bb.jpg",
+    "trackId": "1799804285"
+  },
+  {
+    "id": "applemusic-1799804292",
+    "name": "ESCAPE (Bang Chan & Hyunjin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape : dominATE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/97/b9/7a97b911-8afc-5fde-49a4-43789fc8c0ef/mzaf_1815942176585916687.plus.aac.p.m4a",
+    "duration": 191093,
+    "trackUrl": "https://music.apple.com/us/album/escape-bang-chan-hyunjin/1799804278?i=1799804292",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/51/8a/92518ab3-5447-9fc1-57b2-206e2dc48e8a/8809928953489_Cover.jpg/300x300bb.jpg",
+    "trackId": "1799804292"
+  },
+  {
+    "id": "applemusic-1799804294",
+    "name": "CINEMA (Lee Know & Seungmin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape : dominATE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/51/a2/a751a231-f93f-f6e6-efe0-7f99e0f9153c/mzaf_12731607279005190196.plus.aac.p.m4a",
+    "duration": 221347,
+    "trackUrl": "https://music.apple.com/us/album/cinema-lee-know-seungmin/1799804278?i=1799804294",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/51/8a/92518ab3-5447-9fc1-57b2-206e2dc48e8a/8809928953489_Cover.jpg/300x300bb.jpg",
+    "trackId": "1799804294"
+  },
+  {
+    "id": "applemusic-1608245341",
+    "name": "BEWARE",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6e/cb/c3/6ecbc368-4d66-d2bf-44cc-95a38dba050b/mzaf_7062509170753675906.plus.aac.p.m4a",
+    "duration": 189938,
+    "trackUrl": "https://music.apple.com/us/album/beware/1608245331?i=1608245341",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/87/4c/a1874c1c-5616-f483-d48b-cfd442426257/192641939266_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608245341"
+  },
+  {
+    "id": "applemusic-1608245344",
+    "name": "Spread My Wings",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0e/13/76/0e137602-1991-fb84-c659-b19d14c4348b/mzaf_16776582090181903229.plus.aac.p.m4a",
+    "duration": 200409,
+    "trackUrl": "https://music.apple.com/us/album/spread-my-wings/1608245331?i=1608245344",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/87/4c/a1874c1c-5616-f483-d48b-cfd442426257/192641939266_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608245344"
+  },
+  {
+    "id": "applemusic-1608245466",
+    "name": "YAYAYA",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/44/aa/e3/44aae3b6-618f-8665-f824-1a2ae8e1d438/mzaf_2629507404875960121.plus.aac.p.m4a",
+    "duration": 201295,
+    "trackUrl": "https://music.apple.com/us/album/yayaya/1608245331?i=1608245466",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/87/4c/a1874c1c-5616-f483-d48b-cfd442426257/192641939266_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608245466"
+  },
+  {
+    "id": "applemusic-1608245469",
+    "name": "GLOW",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d4/a4/cd/d4a4cd8a-0863-1601-f6d1-ce9041733ca2/mzaf_9507868503291868844.plus.aac.p.m4a",
+    "duration": 204345,
+    "trackUrl": "https://music.apple.com/us/album/glow/1608245331?i=1608245469",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/87/4c/a1874c1c-5616-f483-d48b-cfd442426257/192641939266_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608245469"
+  },
+  {
+    "id": "applemusic-1608245471",
+    "name": "School Life",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1f/8c/ec/1f8cec31-5500-f009-b778-821138693865/mzaf_1992781628230604579.plus.aac.p.m4a",
+    "duration": 216377,
+    "trackUrl": "https://music.apple.com/us/album/school-life/1608245331?i=1608245471",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/87/4c/a1874c1c-5616-f483-d48b-cfd442426257/192641939266_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608245471"
+  },
+  {
+    "id": "applemusic-1608245476",
+    "name": "4419",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Mixtape",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/32/2e/f3/322ef389-a861-4164-532d-e1b8fa926877/mzaf_6943237106947454156.plus.aac.p.m4a",
+    "duration": 193087,
+    "trackUrl": "https://music.apple.com/us/album/4419/1608245331?i=1608245476",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a1/87/4c/a1874c1c-5616-f483-d48b-cfd442426257/192641939266_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608245476"
+  },
+  {
+    "id": "applemusic-1608247201",
+    "name": "Christmas EveL",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Christmas EveL - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e7/31/92/e7319270-1d76-6dc7-f8ac-bcad41eefe88/mzaf_9453809719211155493.plus.aac.p.m4a",
+    "duration": 178530,
+    "trackUrl": "https://music.apple.com/us/album/christmas-evel/1608247192?i=1608247201",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/1b/d9/ba1bd944-0e53-81b0-cd04-d4735b49e5f5/192641939525_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247201"
+  },
+  {
+    "id": "applemusic-1608247237",
+    "name": "24 to 25",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Christmas EveL - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/20/63/d5/2063d578-4e09-1a57-9f7b-c1312f92f597/mzaf_11014185538304259830.plus.aac.p.m4a",
+    "duration": 216773,
+    "trackUrl": "https://music.apple.com/us/album/24-to-25/1608247192?i=1608247237",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/1b/d9/ba1bd944-0e53-81b0-cd04-d4735b49e5f5/192641939525_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247237"
+  },
+  {
+    "id": "applemusic-1608247240",
+    "name": "Winter Falls",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Christmas EveL - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/80/ab/5b/80ab5b40-3b1e-b494-a5a5-246f696301b4/mzaf_11258279612506573013.plus.aac.p.m4a",
+    "duration": 235387,
+    "trackUrl": "https://music.apple.com/us/album/winter-falls/1608247192?i=1608247240",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/1b/d9/ba1bd944-0e53-81b0-cd04-d4735b49e5f5/192641939525_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608247240"
+  },
+  {
+    "id": "applemusic-1533769011",
+    "name": "FAM",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ALL IN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3e/d8/e5/3ed8e564-c062-6dbc-8c86-2218894326d7/mzaf_15460170126862543171.plus.aac.p.m4a",
+    "duration": 215067,
+    "trackUrl": "https://music.apple.com/us/album/fam/1533769004?i=1533769011",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/2d/e5/c52de52f-a24f-642f-ab4c-5f247e9f616b/4547366478358.jpg/300x300bb.jpg",
+    "trackId": "1533769011"
+  },
+  {
+    "id": "applemusic-1657537962",
+    "name": "Connected (Bang Chan)",
+    "artists": [
+      "Stray Kids & Bang Chan"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ee/2f/a4/ee2fa41a-009d-9605-26b1-28c115036a37/mzaf_18025417420621175396.plus.aac.p.m4a",
+    "duration": 171973,
+    "trackUrl": "https://music.apple.com/us/album/connected-bang-chan/1657537947?i=1657537962",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657537962"
+  },
+  {
+    "id": "applemusic-1657538087",
+    "name": "Limbo (Lee Know)",
+    "artists": [
+      "Stray Kids & Lee Know"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2f/d4/de/2fd4de0e-1630-bb70-5c5f-7f14e2fdcc47/mzaf_6442002455964797041.plus.aac.p.m4a",
+    "duration": 197147,
+    "trackUrl": "https://music.apple.com/us/album/limbo-lee-know/1657537947?i=1657538087",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538087"
+  },
+  {
+    "id": "applemusic-1657538097",
+    "name": "DOODLE (Changbin)",
+    "artists": [
+      "Stray Kids & Changbin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/33/d5/7c/33d57cc5-7e31-f25f-bd5a-de10f0e45f7d/mzaf_13388996840003299798.plus.aac.p.m4a",
+    "duration": 184813,
+    "trackUrl": "https://music.apple.com/us/album/doodle-changbin/1657537947?i=1657538097",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538097"
+  },
+  {
+    "id": "applemusic-1657538102",
+    "name": "Love Untold (Hyunjin)",
+    "artists": [
+      "Stray Kids & Hyunjin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/76/ea/74/76ea7408-c96a-f8a6-a264-29f574b06be3/mzaf_17483928030191699220.plus.aac.p.m4a",
+    "duration": 210920,
+    "trackUrl": "https://music.apple.com/us/album/love-untold-hyunjin/1657537947?i=1657538102",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538102"
+  },
+  {
+    "id": "applemusic-1657538108",
+    "name": "RUN (HAN)",
+    "artists": [
+      "Stray Kids & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ed/b3/ca/edb3cac7-4193-0b36-3f7e-26099a6645f4/mzaf_4783201664956585576.plus.aac.p.m4a",
+    "duration": 178720,
+    "trackUrl": "https://music.apple.com/us/album/run-han/1657537947?i=1657538108",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538108"
+  },
+  {
+    "id": "applemusic-1657538114",
+    "name": "Deep end (Felix)",
+    "artists": [
+      "Stray Kids & Felix"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/25/83/d6/2583d6a8-c717-2539-db5c-a3b046213dd7/mzaf_11433904001966610098.plus.aac.p.m4a",
+    "duration": 208373,
+    "trackUrl": "https://music.apple.com/us/album/deep-end-felix/1657537947?i=1657538114",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538114"
+  },
+  {
+    "id": "applemusic-1657538447",
+    "name": "Stars and Raindrops (Seungmin)",
+    "artists": [
+      "Stray Kids & Seungmin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ae/61/23/ae612328-1059-ef2f-6c82-ebddbf36c043/mzaf_12710762661062591177.plus.aac.p.m4a",
+    "duration": 229120,
+    "trackUrl": "https://music.apple.com/us/album/stars-and-raindrops-seungmin/1657537947?i=1657538447",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538447"
+  },
+  {
+    "id": "applemusic-1657538450",
+    "name": "Hug Me (I.N)",
+    "artists": [
+      "Stray Kids & I.N"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/54/15/61/541561d1-9eb7-bd36-e625-6dcb6e2f4c07/mzaf_7597662898741149301.plus.aac.p.m4a",
+    "duration": 180427,
+    "trackUrl": "https://music.apple.com/us/album/hug-me-i-n/1657537947?i=1657538450",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538450"
+  },
+  {
+    "id": "applemusic-1657538455",
+    "name": "#LoveSTAY",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/80/69/34/8069347e-ac97-2843-b701-ca613d153460/mzaf_10169087207285426433.plus.aac.p.m4a",
+    "duration": 197480,
+    "trackUrl": "https://music.apple.com/us/album/lovestay/1657537947?i=1657538455",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538455"
+  },
+  {
+    "id": "applemusic-1657538464",
+    "name": "ZONE (Bang Chan, Changbin, HAN)",
+    "artists": [
+      "Stray Kids, Bang Chan, Changbin & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f4/e7/46/f4e7466b-1284-f3a9-8f64-6c9cc860acbe/mzaf_2852174913497540222.plus.aac.p.m4a",
+    "duration": 212680,
+    "trackUrl": "https://music.apple.com/us/album/zone-bang-chan-changbin-han/1657537947?i=1657538464",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538464"
+  },
+  {
+    "id": "applemusic-1657538469",
+    "name": "Close (HAN)",
+    "artists": [
+      "Stray Kids & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/0e/d1/52/0ed1525c-078c-b5c0-fb12-ddb5abb0c49e/mzaf_7369828428968997645.plus.aac.p.m4a",
+    "duration": 226107,
+    "trackUrl": "https://music.apple.com/us/album/close-han/1657537947?i=1657538469",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538469"
+  },
+  {
+    "id": "applemusic-1660554530",
+    "name": "Streetlight (Changbin Feat. Bang Chan)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/48/a6/6c/48a66cc3-dd43-b288-528e-a74f5640681e/mzaf_5209941349153904402.plus.aac.p.m4a",
+    "duration": 189920,
+    "trackUrl": "https://music.apple.com/jp/album/streetlight-changbin-feat-bang-chan/1660554454?i=1660554530",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7b/b3/4e/7bb34efb-6a38-613e-f939-ab6a3f07c0a8/4547366603460.jpg/300x300bb.jpg",
+    "trackId": "1660554530"
+  },
+  {
+    "id": "applemusic-1657538845",
+    "name": "i hate to admit (Bang Chan)",
+    "artists": [
+      "Stray Kids & Bang Chan"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/96/ee/2a/96ee2ac2-f1ad-9e97-bb43-0316dd9621cd/mzaf_6536318398143442834.plus.aac.p.m4a",
+    "duration": 170080,
+    "trackUrl": "https://music.apple.com/us/album/i-hate-to-admit-bang-chan/1657537947?i=1657538845",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538845"
+  },
+  {
+    "id": "applemusic-1657538849",
+    "name": "I GOT IT (HAN)",
+    "artists": [
+      "Stray Kids & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/fe/9f/3f/fe9f3f68-1543-d4ad-b160-a05f9a54f9aa/mzaf_8807726497822473389.plus.aac.p.m4a",
+    "duration": 170693,
+    "trackUrl": "https://music.apple.com/us/album/i-got-it-han/1657537947?i=1657538849",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657538849"
+  },
+  {
+    "id": "applemusic-1657539020",
+    "name": "miss you (Hyunjin)",
+    "artists": [
+      "Stray Kids & Hyunjin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/24/b6/ac/24b6acb8-81e1-1ce7-f0ac-606c13dbaee5/mzaf_5724279751875950864.plus.aac.p.m4a",
+    "duration": 188973,
+    "trackUrl": "https://music.apple.com/us/album/miss-you-hyunjin/1657537947?i=1657539020",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539020"
+  },
+  {
+    "id": "applemusic-1660554537",
+    "name": "Maknae On Top (I.N Feat. Bang Chan, Changbin)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/b9/12/65/b91265e7-9dcf-d252-a85d-81d1314a13d7/mzaf_5633032457595353181.plus.aac.p.m4a",
+    "duration": 153453,
+    "trackUrl": "https://music.apple.com/jp/album/maknae-on-top-i-n-feat-bang-chan-changbin/1660554454?i=1660554537",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7b/b3/4e/7bb34efb-6a38-613e-f939-ab6a3f07c0a8/4547366603460.jpg/300x300bb.jpg",
+    "trackId": "1660554537"
+  },
+  {
+    "id": "applemusic-1657539035",
+    "name": "Alien (HAN)",
+    "artists": [
+      "Stray Kids & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/52/c8/a8/52c8a832-166a-8fc1-2f5e-53b3e3a96bbb/mzaf_10502625417961090175.plus.aac.p.m4a",
+    "duration": 199853,
+    "trackUrl": "https://music.apple.com/us/album/alien-han/1657537947?i=1657539035",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539035"
+  },
+  {
+    "id": "applemusic-1657539207",
+    "name": "Because (Changbin, Felix)",
+    "artists": [
+      "Stray Kids, Felix & Changbin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/42/59/c1/4259c16a-f658-f584-1182-9498af773299/mzaf_10524131433731075888.plus.aac.p.m4a",
+    "duration": 198520,
+    "trackUrl": "https://music.apple.com/us/album/because-changbin-felix/1657537947?i=1657539207",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539207"
+  },
+  {
+    "id": "applemusic-1657539215",
+    "name": "Piece of a Puzzle (Changbin, Seungmin)",
+    "artists": [
+      "Stray Kids, Changbin & Seungmin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f5/3d/74/f53d748b-e1bb-6059-974a-cf069efc4c16/mzaf_13560632741815148660.plus.aac.p.m4a",
+    "duration": 173853,
+    "trackUrl": "https://music.apple.com/us/album/piece-of-a-puzzle-changbin-seungmin/1657537947?i=1657539215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539215"
+  },
+  {
+    "id": "applemusic-1657539378",
+    "name": "Wish You Back (HAN)",
+    "artists": [
+      "Stray Kids & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e5/4b/5f/e54b5f16-1990-b444-5b8c-2d1ce85ea187/mzaf_5519765501145467490.plus.aac.p.m4a",
+    "duration": 198187,
+    "trackUrl": "https://music.apple.com/us/album/wish-you-back-han/1657537947?i=1657539378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539378"
+  },
+  {
+    "id": "applemusic-1657539388",
+    "name": "HaPpY (HAN)",
+    "artists": [
+      "Stray Kids & HAN"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/57/8f/ec/578fece6-8baf-ae9a-177e-4259d9e287ac/mzaf_4087856100540560397.plus.aac.p.m4a",
+    "duration": 209573,
+    "trackUrl": "https://music.apple.com/us/album/happy-han/1657537947?i=1657539388",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539388"
+  },
+  {
+    "id": "applemusic-1657539395",
+    "name": "Up All Night (Bang Chan, Changbin, Felix, Seungmin)",
+    "artists": [
+      "Stray Kids, Bang Chan, Felix, Changbin & Seungmin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f5/95/95/f59595fa-a3aa-06f5-e77d-7e71ab074f70/mzaf_15225635055055059768.plus.aac.p.m4a",
+    "duration": 201720,
+    "trackUrl": "https://music.apple.com/us/album/up-all-night-bang-chan-changbin-felix-seungmin/1657537947?i=1657539395",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539395"
+  },
+  {
+    "id": "applemusic-1657539400",
+    "name": "Drive (Bang Chan, Lee Know)",
+    "artists": [
+      "Stray Kids, Bang Chan & Lee Know"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/fd/ed/1f/fded1fb2-ce8e-9c81-2903-ddf336dd2fa5/mzaf_2916705762626157646.plus.aac.p.m4a",
+    "duration": 164107,
+    "trackUrl": "https://music.apple.com/us/album/drive-bang-chan-lee-know/1657537947?i=1657539400",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539400"
+  },
+  {
+    "id": "applemusic-1657539796",
+    "name": "ice.cream (Hyunjin)",
+    "artists": [
+      "Stray Kids & Hyunjin"
+    ],
+    "album": "SKZ-REPLAY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/42/ef/6e/42ef6e02-6a89-7dda-1e8f-29ec11eb058d/mzaf_14099658444279921757.plus.aac.p.m4a",
+    "duration": 170733,
+    "trackUrl": "https://music.apple.com/us/album/ice-cream-hyunjin/1657537947?i=1657539796",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b8/74/c0/b874c02b-4014-56cd-8a6c-ba456bd7cba7/738676860429_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657539796"
+  },
+  {
+    "id": "applemusic-1608249433",
+    "name": "STOP",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé : LEVANTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/89/f1/ab/89f1abdf-366f-6655-1d70-4a88dfd66ccc/mzaf_1750245844199120793.plus.aac.p.m4a",
+    "duration": 189513,
+    "trackUrl": "https://music.apple.com/us/album/stop/1608249431?i=1608249433",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/5b/c6/595bc697-c42f-7f17-a09d-9e0c6e87063e/738676860856_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249433"
+  },
+  {
+    "id": "applemusic-1608249440",
+    "name": "Levanter",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé : LEVANTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a5/dc/72/a5dc725c-5ffa-f60e-c3e1-5196e9278ee7/mzaf_5639225946119239985.plus.aac.p.m4a",
+    "duration": 197707,
+    "trackUrl": "https://music.apple.com/us/album/levanter/1608249431?i=1608249440",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/5b/c6/595bc697-c42f-7f17-a09d-9e0c6e87063e/738676860856_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249440"
+  },
+  {
+    "id": "applemusic-1608249442",
+    "name": "Booster",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé : LEVANTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/7a/9c/fe/7a9cfea9-931c-3107-c0e0-05e4691f1adf/mzaf_1161591760624846732.plus.aac.p.m4a",
+    "duration": 220649,
+    "trackUrl": "https://music.apple.com/us/album/booster/1608249431?i=1608249442",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/5b/c6/595bc697-c42f-7f17-a09d-9e0c6e87063e/738676860856_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249442"
+  },
+  {
+    "id": "applemusic-1608249447",
+    "name": "Astronaut",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé : LEVANTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8f/8b/99/8f8b990b-899b-cbf0-24dd-046803c864de/mzaf_14941629777722286938.plus.aac.p.m4a",
+    "duration": 180053,
+    "trackUrl": "https://music.apple.com/us/album/astronaut/1608249431?i=1608249447",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/5b/c6/595bc697-c42f-7f17-a09d-9e0c6e87063e/738676860856_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249447"
+  },
+  {
+    "id": "applemusic-1608249449",
+    "name": "Sunshine",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé : LEVANTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bb/42/e9/bb42e972-752b-01eb-e163-d7b4db6cff3b/mzaf_11761395597150643079.plus.aac.p.m4a",
+    "duration": 222284,
+    "trackUrl": "https://music.apple.com/us/album/sunshine/1608249431?i=1608249449",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/5b/c6/595bc697-c42f-7f17-a09d-9e0c6e87063e/738676860856_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249449"
+  },
+  {
+    "id": "applemusic-1608249450",
+    "name": "You Can STAY",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé : LEVANTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/54/88/36/54883685-1b02-ae24-cd38-90606ff4a174/mzaf_13837591915875965884.plus.aac.p.m4a",
+    "duration": 208444,
+    "trackUrl": "https://music.apple.com/us/album/you-can-stay/1608249431?i=1608249450",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/59/5b/c6/595bc697-c42f-7f17-a09d-9e0c6e87063e/738676860856_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249450"
+  },
+  {
+    "id": "applemusic-1756819951",
+    "name": "SLASH",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SLASH - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/91/c6/2d/91c62de5-0293-638a-5d9e-07bab23f8f68/mzaf_7795009515553587465.plus.aac.p.m4a",
+    "duration": 191627,
+    "trackUrl": "https://music.apple.com/us/album/slash/1756819950?i=1756819951",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f2/55/55/f2555576-4b7e-e0ad-79aa-3ed7572a0ecd/8809928952147_Cover.jpg/300x300bb.jpg",
+    "trackId": "1756819951"
+  },
+  {
+    "id": "applemusic-1608257194",
+    "name": "District 9",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2020",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b2/33/47/b2334784-d1bb-61df-529b-7946aaaacc00/mzaf_15086151010410055795.plus.aac.p.m4a",
+    "duration": 213587,
+    "trackUrl": "https://music.apple.com/us/album/district-9/1608257176?i=1608257194",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3e/65/d4/3e65d433-9e11-67e9-3eb9-910fa1ef4471/738676857511_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257194"
+  },
+  {
+    "id": "applemusic-1608257378",
+    "name": "Mirror",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2020",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3a/e6/08/3ae6081f-9dfc-0fd3-1335-660c2429da46/mzaf_7011718636226892587.plus.aac.p.m4a",
+    "duration": 222440,
+    "trackUrl": "https://music.apple.com/us/album/mirror/1608257176?i=1608257378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3e/65/d4/3e65d433-9e11-67e9-3eb9-910fa1ef4471/738676857511_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257378"
+  },
+  {
+    "id": "applemusic-1608257384",
+    "name": "Grow Up",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2020",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/65/f2/9d/65f29df7-6ed6-c443-4f67-0763d5de5f61/mzaf_15339077582377948843.plus.aac.p.m4a",
+    "duration": 213040,
+    "trackUrl": "https://music.apple.com/us/album/grow-up/1608257176?i=1608257384",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3e/65/d4/3e65d433-9e11-67e9-3eb9-910fa1ef4471/738676857511_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257384"
+  },
+  {
+    "id": "applemusic-1608257892",
+    "name": "Side Effects",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2020",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/12/40/e7/1240e747-7e13-f3f5-6d5e-2eae850babb8/mzaf_7104564721733023678.plus.aac.p.m4a",
+    "duration": 195253,
+    "trackUrl": "https://music.apple.com/us/album/side-effects/1608257176?i=1608257892",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3e/65/d4/3e65d433-9e11-67e9-3eb9-910fa1ef4471/738676857511_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257892"
+  },
+  {
+    "id": "applemusic-1608257895",
+    "name": "TMT",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2020",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8a/dd/95/8add95f4-e70b-acd7-e8b9-6c634b3d63b6/mzaf_5615766810590338577.plus.aac.p.m4a",
+    "duration": 209027,
+    "trackUrl": "https://music.apple.com/us/album/tmt/1608257176?i=1608257895",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3e/65/d4/3e65d433-9e11-67e9-3eb9-910fa1ef4471/738676857511_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257895"
+  },
+  {
+    "id": "applemusic-1608250042",
+    "name": "NOT!",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am NOT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/db/d5/5a/dbd55a4e-42dd-0e3c-1d70-0c238c8bc5fc/mzaf_8834960487549856140.plus.aac.p.m4a",
+    "duration": 82437,
+    "trackUrl": "https://music.apple.com/us/album/not/1608250038?i=1608250042",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/93/dc/d593dcdc-85cb-9196-d20d-7296312cd822/192641939273_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250042"
+  },
+  {
+    "id": "applemusic-1608250310",
+    "name": "Awaken",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am NOT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8e/26/1a/8e261add-eeb4-1885-a4b3-26367271ad5a/mzaf_10892083621187539499.plus.aac.p.m4a",
+    "duration": 193976,
+    "trackUrl": "https://music.apple.com/us/album/awaken/1608250038?i=1608250310",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/93/dc/d593dcdc-85cb-9196-d20d-7296312cd822/192641939273_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250310"
+  },
+  {
+    "id": "applemusic-1608250316",
+    "name": "ROCK",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am NOT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1c/d6/0e/1cd60edd-8036-1b75-a055-efbed219fe98/mzaf_5919702889046143897.plus.aac.p.m4a",
+    "duration": 193469,
+    "trackUrl": "https://music.apple.com/us/album/rock/1608250038?i=1608250316",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/93/dc/d593dcdc-85cb-9196-d20d-7296312cd822/192641939273_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250316"
+  },
+  {
+    "id": "applemusic-1608250427",
+    "name": "3rd Eye",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "I am NOT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/02/1a/41/021a41dd-ea42-8d65-b336-9d0412f60662/mzaf_14004065433961661595.plus.aac.p.m4a",
+    "duration": 243961,
+    "trackUrl": "https://music.apple.com/us/album/3rd-eye/1608250038?i=1608250427",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/93/dc/d593dcdc-85cb-9196-d20d-7296312cd822/192641939273_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608250427"
+  },
+  {
+    "id": "applemusic-1608249561",
+    "name": "Road Not Taken",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 2 : Yellow Wood",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d6/00/3a/d6003a78-3807-61a1-3209-db0618e5b4e5/mzaf_14948058844478157311.plus.aac.p.m4a",
+    "duration": 95762,
+    "trackUrl": "https://music.apple.com/us/album/road-not-taken/1608249558?i=1608249561",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/56/98/2b5698c2-decb-5922-7c01-173db876982a/192641939389_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249561"
+  },
+  {
+    "id": "applemusic-1608249572",
+    "name": "Mixtape#1",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 2 : Yellow Wood",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7c/03/72/7c0372a9-9391-1032-1a5b-089e571e5a14/mzaf_5773027816028536791.plus.aac.p.m4a",
+    "duration": 252934,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-1/1608249558?i=1608249572",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/56/98/2b5698c2-decb-5922-7c01-173db876982a/192641939389_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249572"
+  },
+  {
+    "id": "applemusic-1608249573",
+    "name": "Mixtape#2",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 2 : Yellow Wood",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/64/8c/fd/648cfd57-2b52-b993-92a0-a529021ad6f8/mzaf_9167089255003061539.plus.aac.p.m4a",
+    "duration": 291845,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-2/1608249558?i=1608249573",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/56/98/2b5698c2-decb-5922-7c01-173db876982a/192641939389_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249573"
+  },
+  {
+    "id": "applemusic-1608249672",
+    "name": "Mixtape#3",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 2 : Yellow Wood",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/44/0a/da/440ada55-358c-cb19-e4a7-88bd913fd70e/mzaf_10680526156598588932.plus.aac.p.m4a",
+    "duration": 257854,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-3/1608249558?i=1608249672",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/56/98/2b5698c2-decb-5922-7c01-173db876982a/192641939389_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249672"
+  },
+  {
+    "id": "applemusic-1608249673",
+    "name": "Mixtape#4",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Clé 2 : Yellow Wood",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/58/00/15/580015d0-3a72-a123-7c4a-de3e067e6c12/mzaf_13372260260299333857.plus.aac.p.m4a",
+    "duration": 231463,
+    "trackUrl": "https://music.apple.com/us/album/mixtape-4/1608249558?i=1608249673",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/56/98/2b5698c2-decb-5922-7c01-173db876982a/192641939389_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608249673"
+  },
+  {
+    "id": "applemusic-1556994919",
+    "name": "Going Dumb",
+    "artists": [
+      "Alesso & CORSAK"
+    ],
+    "album": "Going Dumb - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/52/d5/cb/52d5cb82-e2f1-0aaa-0f92-95922e38cbaa/mzaf_10328553247734324110.plus.aac.p.m4a",
+    "duration": 168601,
+    "trackUrl": "https://music.apple.com/us/album/going-dumb/1556994908?i=1556994919",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/27/42/4c274225-09f6-29be-d9bb-db56dc678d19/196006201838.jpg/300x300bb.jpg",
+    "trackId": "1556994919"
+  },
+  {
+    "id": "applemusic-1709407014",
+    "name": "All My Life (feat. J. Cole)",
+    "artists": [
+      "Lil Durk"
+    ],
+    "album": "All My Life (Remixes) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/07/ea/ad07eabd-ac93-bda4-671d-f6af60ca1321/mzaf_17620116837050178990.plus.aac.p.m4a",
+    "duration": 223879,
+    "trackUrl": "https://music.apple.com/us/album/all-my-life-feat-j-cole/1709407010?i=1709407014",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/8f/65/d18f65b6-6999-b7ce-f695-89de60c5db42/196871506809.jpg/300x300bb.jpg",
+    "trackId": "1709407014"
+  },
+  {
+    "id": "applemusic-1739055027",
+    "name": "WHY?",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "WHY? - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/06/3c/0f063cd0-ba26-47fe-69cc-89d19c660a11/mzaf_13134772558996595629.plus.aac.p.m4a",
+    "duration": 228267,
+    "trackUrl": "https://music.apple.com/us/album/why/1739055026?i=1739055027",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/79/41/9b79417c-0c2c-9111-237d-dd7420ac8c04/4547366681536.jpg/300x300bb.jpg",
+    "trackId": "1739055027"
+  },
+  {
+    "id": "applemusic-1777033485",
+    "name": "NIGHT",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GIANT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/50/c0/2b50c0e8-0fcf-230b-2150-b22379eddea2/mzaf_5771443152839107821.plus.aac.p.m4a",
+    "duration": 175893,
+    "trackUrl": "https://music.apple.com/us/album/night/1777033478?i=1777033485",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/c7/d7/fcc7d70e-ef18-1586-3269-d9881acbea9e/4547366717150.jpg/300x300bb.jpg",
+    "trackId": "1777033485"
+  },
+  {
+    "id": "applemusic-1777033486",
+    "name": "Falling Up",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GIANT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/57/22/8e572219-eadd-2344-3dde-88e23026dddf/mzaf_5756978383246458448.plus.aac.p.m4a",
+    "duration": 192093,
+    "trackUrl": "https://music.apple.com/us/album/falling-up/1777033478?i=1777033486",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/c7/d7/fcc7d70e-ef18-1586-3269-d9881acbea9e/4547366717150.jpg/300x300bb.jpg",
+    "trackId": "1777033486"
+  },
+  {
+    "id": "applemusic-1777033699",
+    "name": "Saiyan",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GIANT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2a/af/0d/2aaf0d7c-79ec-8fa2-7d3d-ce5c15c73ea3/mzaf_802526923807649592.plus.aac.p.m4a",
+    "duration": 219547,
+    "trackUrl": "https://music.apple.com/us/album/saiyan/1777033478?i=1777033699",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/c7/d7/fcc7d70e-ef18-1586-3269-d9881acbea9e/4547366717150.jpg/300x300bb.jpg",
+    "trackId": "1777033699"
+  },
+  {
+    "id": "applemusic-1777033700",
+    "name": "Aiwokuretanoninaze",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GIANT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/4e/35/624e3566-558d-f74c-cd33-16679b55842e/mzaf_229677504911174844.plus.aac.p.m4a",
+    "duration": 195240,
+    "trackUrl": "https://music.apple.com/us/album/aiwokuretanoninaze/1777033478?i=1777033700",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/c7/d7/fcc7d70e-ef18-1586-3269-d9881acbea9e/4547366717150.jpg/300x300bb.jpg",
+    "trackId": "1777033700"
+  },
+  {
+    "id": "applemusic-1777033703",
+    "name": "Christmas Love",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "GIANT",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/10/e7/3510e75a-3e4a-2d1e-65c6-b48dc6f9fac1/mzaf_14165718225366343025.plus.aac.p.m4a",
+    "duration": 186200,
+    "trackUrl": "https://music.apple.com/us/album/christmas-love/1777033478?i=1777033703",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fc/c7/d7/fcc7d70e-ef18-1586-3269-d9881acbea9e/4547366717150.jpg/300x300bb.jpg",
+    "trackId": "1777033703"
+  },
+  {
+    "id": "applemusic-1586922340",
+    "name": "Scars",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Scars - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/79/1f/18791fb4-741d-3fad-ae63-d61b01a4ded3/mzaf_3748446310178124701.plus.aac.p.m4a",
+    "duration": 200547,
+    "trackUrl": "https://music.apple.com/us/album/scars/1586922064?i=1586922340",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/22/62/ec/2262ecf0-ae3f-8826-d074-3b6c79607bcc/4547366532579.jpg/300x300bb.jpg",
+    "trackId": "1586922340"
+  },
+  {
+    "id": "applemusic-1608257232",
+    "name": "Placebo",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2021",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/57/3b/8b573b8e-c965-beb3-f345-a20c336d22d8/mzaf_2321717497337330382.plus.aac.p.m4a",
+    "duration": 234661,
+    "trackUrl": "https://music.apple.com/us/album/placebo/1608256994?i=1608257232",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/00/ed/99/00ed99f0-3489-4026-fe09-6022875700d9/738676858518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257232"
+  },
+  {
+    "id": "applemusic-1608257241",
+    "name": "Behind the Light",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2021",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a0/25/be/a025be76-1362-9373-97db-496c439b8fb4/mzaf_7928552250244288294.plus.aac.p.m4a",
+    "duration": 270003,
+    "trackUrl": "https://music.apple.com/us/album/behind-the-light/1608256994?i=1608257241",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/00/ed/99/00ed99f0-3489-4026-fe09-6022875700d9/738676858518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257241"
+  },
+  {
+    "id": "applemusic-1608257250",
+    "name": "For You",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2021",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/66/51/8b6651a9-92f5-f28b-2161-68e5f38a0a11/mzaf_11078659401954747439.plus.aac.p.m4a",
+    "duration": 249433,
+    "trackUrl": "https://music.apple.com/us/album/for-you/1608256994?i=1608257250",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/00/ed/99/00ed99f0-3489-4026-fe09-6022875700d9/738676858518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257250"
+  },
+  {
+    "id": "applemusic-1608257453",
+    "name": "Broken Compass",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2021",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b6/24/37/b62437d3-6add-5349-36cb-04095df52605/mzaf_16882719423911766704.plus.aac.p.m4a",
+    "duration": 221453,
+    "trackUrl": "https://music.apple.com/us/album/broken-compass/1608256994?i=1608257453",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/00/ed/99/00ed99f0-3489-4026-fe09-6022875700d9/738676858518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257453"
+  },
+  {
+    "id": "applemusic-1608257456",
+    "name": "Hoodie Season",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2021",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ba/ec/15/baec1547-9df5-1dbf-6137-471ffb6da6a5/mzaf_14139611146405782499.plus.aac.p.m4a",
+    "duration": 234178,
+    "trackUrl": "https://music.apple.com/us/album/hoodie-season/1608256994?i=1608257456",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/00/ed/99/00ed99f0-3489-4026-fe09-6022875700d9/738676858518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1608257456"
+  },
+  {
+    "id": "applemusic-1815865710",
+    "name": "Hollow",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Hollow - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/a5/30/eca5305d-6b4c-27df-e2c9-7ccf01b7a7b9/mzaf_8350602844457273209.plus.aac.p.m4a",
+    "duration": 209227,
+    "trackUrl": "https://music.apple.com/us/album/hollow/1815865407?i=1815865710",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/52/b1/c252b1ef-863a-ec99-98a2-74d98b9731f6/4547366755893.jpg/300x300bb.jpg",
+    "trackId": "1815865710"
+  },
+  {
+    "id": "applemusic-1815865730",
+    "name": "Parade",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Hollow - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/13/ec/6b13ec8f-0b82-c634-e69a-f1e7db64b994/mzaf_14000839849777410527.plus.aac.p.m4a",
+    "duration": 186493,
+    "trackUrl": "https://music.apple.com/us/album/parade/1815865407?i=1815865730",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/52/b1/c252b1ef-863a-ec99-98a2-74d98b9731f6/4547366755893.jpg/300x300bb.jpg",
+    "trackId": "1815865730"
+  },
+  {
+    "id": "applemusic-1815865731",
+    "name": "Never Alone",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Hollow - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/5f/5c/cb5f5c86-38fc-0bc4-220a-a093c0d09edc/mzaf_14509461859578491165.plus.aac.p.m4a",
+    "duration": 177267,
+    "trackUrl": "https://music.apple.com/us/album/never-alone/1815865407?i=1815865731",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/52/b1/c252b1ef-863a-ec99-98a2-74d98b9731f6/4547366755893.jpg/300x300bb.jpg",
+    "trackId": "1815865731"
+  },
+  {
+    "id": "applemusic-1815865733",
+    "name": "just a little",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Hollow - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/67/20/216720d8-393c-77cb-3054-0657c4600b3c/mzaf_12008674888338153229.plus.aac.p.m4a",
+    "duration": 246987,
+    "trackUrl": "https://music.apple.com/us/album/just-a-little/1815865407?i=1815865733",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/52/b1/c252b1ef-863a-ec99-98a2-74d98b9731f6/4547366755893.jpg/300x300bb.jpg",
+    "trackId": "1815865733"
+  },
+  {
+    "id": "applemusic-1815865735",
+    "name": "FATE",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Hollow - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/86/35/b08635ab-6bba-d91c-844a-dd0a04f3fa55/mzaf_15933243237691912791.plus.aac.p.m4a",
+    "duration": 180787,
+    "trackUrl": "https://music.apple.com/us/album/fate/1815865407?i=1815865735",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/52/b1/c252b1ef-863a-ec99-98a2-74d98b9731f6/4547366755893.jpg/300x300bb.jpg",
+    "trackId": "1815865735"
+  },
+  {
+    "id": "applemusic-1533769007",
+    "name": "ALL IN",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ALL IN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/83/ed/3183ed5b-1840-b3d6-99dd-b3c914fc591a/mzaf_13013006708876970783.plus.aac.p.m4a",
+    "duration": 187187,
+    "trackUrl": "https://music.apple.com/us/album/all-in/1533769004?i=1533769007",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/2d/e5/c52de52f-a24f-642f-ab4c-5f247e9f616b/4547366478358.jpg/300x300bb.jpg",
+    "trackId": "1533769007"
+  },
+  {
+    "id": "applemusic-1533769013",
+    "name": "One Day",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "ALL IN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/e7/81/81e78172-3a6a-7a60-7f5e-07e660e1530e/mzaf_3801579708645073699.plus.aac.p.m4a",
+    "duration": 193187,
+    "trackUrl": "https://music.apple.com/us/album/one-day/1533769004?i=1533769013",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c5/2d/e5/c52de52f-a24f-642f-ab4c-5f247e9f616b/4547366478358.jpg/300x300bb.jpg",
+    "trackId": "1533769013"
+  },
+  {
+    "id": "applemusic-1671114125",
+    "name": "Battle Ground",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "THE SOUND",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/b9/11/b3b911a6-de0f-3448-b6cf-697d77f10bd4/mzaf_13309593064836061830.plus.aac.p.m4a",
+    "duration": 213880,
+    "trackUrl": "https://music.apple.com/us/album/battle-ground/1671113799?i=1671114125",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/1b/5b/e71b5b60-4df8-5b1f-ec11-f30e1f177220/4547366611182.jpg/300x300bb.jpg",
+    "trackId": "1671114125"
+  },
+  {
+    "id": "applemusic-1671114127",
+    "name": "Lost Me",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "THE SOUND",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ba/c5/54/bac554d2-cfc2-f0e9-62ff-e077deb575b7/mzaf_10286910692222102195.plus.aac.p.m4a",
+    "duration": 189120,
+    "trackUrl": "https://music.apple.com/us/album/lost-me/1671113799?i=1671114127",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/1b/5b/e71b5b60-4df8-5b1f-ec11-f30e1f177220/4547366611182.jpg/300x300bb.jpg",
+    "trackId": "1671114127"
+  },
+  {
+    "id": "applemusic-1671114128",
+    "name": "DLMLU",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "THE SOUND",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b4/ff/2f/b4ff2fe8-bf78-a3f3-ff3f-9ff255f7b31c/mzaf_13825993010669761292.plus.aac.p.m4a",
+    "duration": 194760,
+    "trackUrl": "https://music.apple.com/us/album/dlmlu/1671113799?i=1671114128",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/1b/5b/e71b5b60-4df8-5b1f-ec11-f30e1f177220/4547366611182.jpg/300x300bb.jpg",
+    "trackId": "1671114128"
+  },
+  {
+    "id": "applemusic-1671114130",
+    "name": "Novel",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "THE SOUND",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1b/74/f3/1b74f3e7-e17f-2802-5462-4ac2f4bea66b/mzaf_9823685204144813750.plus.aac.p.m4a",
+    "duration": 188853,
+    "trackUrl": "https://music.apple.com/us/album/novel/1671113799?i=1671114130",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/1b/5b/e71b5b60-4df8-5b1f-ec11-f30e1f177220/4547366611182.jpg/300x300bb.jpg",
+    "trackId": "1671114130"
+  },
+  {
+    "id": "applemusic-1671114349",
+    "name": "There",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "THE SOUND",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/10/62/f6/1062f6ec-e7dd-40b3-3837-cd40b7b6faae/mzaf_13178620161257652444.plus.aac.p.m4a",
+    "duration": 215373,
+    "trackUrl": "https://music.apple.com/us/album/there/1671113799?i=1671114349",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/1b/5b/e71b5b60-4df8-5b1f-ec11-f30e1f177220/4547366611182.jpg/300x300bb.jpg",
+    "trackId": "1671114349"
+  },
+  {
+    "id": "applemusic-1848038152",
+    "name": "In The Dark",
+    "artists": [
+      "DJ Snake & Stray Kids"
+    ],
+    "album": "In The Dark - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8a/c4/ad/8ac4ad9b-b9b4-84ce-a324-7c0c017f8074/mzaf_10853644307124601482.plus.aac.p.m4a",
+    "duration": 179310,
+    "trackUrl": "https://music.apple.com/us/album/in-the-dark/1848038151?i=1848038152",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/25/0b/d5250b59-2579-d2de-85df-ec5c69eb8968/25UM1IM70958.rgb.jpg/300x300bb.jpg",
+    "trackId": "1848038152"
+  },
+  {
+    "id": "applemusic-1742298112",
+    "name": "Lose My Breath",
+    "artists": [
+      "Stray Kids & Charlie Puth"
+    ],
+    "album": "Lose My Breath - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/c7/da/38c7dace-e26c-a892-5707-cc4335b22f8c/mzaf_11395379874873691231.plus.aac.p.m4a",
+    "duration": 166914,
+    "trackUrl": "https://music.apple.com/us/album/lose-my-breath/1742298109?i=1742298112",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/92/48/ae9248b0-28d7-bfa0-af8d-0c56d9fef754/8809928951331_Cover.jpg/300x300bb.jpg",
+    "trackId": "1742298112"
+  },
+  {
+    "id": "applemusic-1626230868",
+    "name": "Your Eyes",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Your Eyes - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ad/21/87/ad218708-8da7-5f78-57f5-1ffc11927e08/mzaf_11474929237684957172.plus.aac.p.m4a",
+    "duration": 196387,
+    "trackUrl": "https://music.apple.com/us/album/your-eyes/1626230862?i=1626230868",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ee/b0/f2/eeb0f20f-8b44-8da9-c6a9-938f70d82f16/4547366569377.jpg/300x300bb.jpg",
+    "trackId": "1626230868"
+  },
+  {
+    "id": "applemusic-1704199351",
+    "name": "Butterflies",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Social Path / Super Bowl -Japanese version- - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a0/6b/03/a06b0386-12fa-c324-c95c-217d7d94a138/mzaf_18074475640007450353.plus.aac.p.m4a",
+    "duration": 190707,
+    "trackUrl": "https://music.apple.com/us/album/butterflies/1704199108?i=1704199351",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/cf/58/de/cf58de1b-69a0-cf63-d31d-dec0091ec546/4547366643275.jpg/300x300bb.jpg",
+    "trackId": "1704199351"
+  },
+  {
+    "id": "applemusic-1588063747",
+    "name": "CALL",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Scars / Thunderous (Japanese version) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/13/c0/0d/13c00db3-1dbc-336e-1a93-7075f9a5fe09/mzaf_4018905050011353884.plus.aac.p.m4a",
+    "duration": 167427,
+    "trackUrl": "https://music.apple.com/us/album/call/1588063262?i=1588063747",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3d/dc/ef/3ddcef68-fef1-3fe0-4232-6ba5c4ee1268/4547366533002.jpg/300x300bb.jpg",
+    "trackId": "1588063747"
+  },
+  {
+    "id": "applemusic-1628537348",
+    "name": "Fairytale",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "CIRCUS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c3/cc/39/c3cc39a0-d48c-f7e6-e923-9e82b76e1c07/mzaf_2604879705537212042.plus.aac.p.m4a",
+    "duration": 172360,
+    "trackUrl": "https://music.apple.com/us/album/fairytale/1628537346?i=1628537348",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f4/fc/a7/f4fca7c1-3be5-a50f-6d87-25e744818971/4547366570342.jpg/300x300bb.jpg",
+    "trackId": "1628537348"
+  },
+  {
+    "id": "applemusic-1803663128",
+    "name": "Come Play (from the series Arcane League of Legends)",
+    "artists": [
+      "Stray Kids, Young Miko & Tom Morello"
+    ],
+    "album": "Come Play (Kordhell Remix) [feat. Young Miko, Arcane & League of Legends Music] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/1e/fb/511efbfa-40fd-3443-70ed-f07ac0145397/mzaf_3799116460879771864.plus.aac.p.m4a",
+    "duration": 161667,
+    "trackUrl": "https://music.apple.com/us/album/come-play-from-the-series-arcane-league-of-legends/1803663122?i=1803663128",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0b/f8/d2/0bf8d23c-71c7-c13d-7323-67c495a9f082/198704425752_Cover.jpg/300x300bb.jpg",
+    "trackId": "1803663128"
+  },
+  {
+    "id": "applemusic-1834186941",
+    "name": "CEREMONY (Hip Hip Version - English Version)",
+    "artists": [
+      "Stray Kids & TYNAN"
+    ],
+    "album": "CEREMONY (Celebrate Remixes) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/4b/72/564b72ec-d8ea-29b4-f6b5-8e77112d4668/mzaf_5348068932760159572.plus.aac.p.m4a",
+    "duration": 157714,
+    "trackUrl": "https://music.apple.com/us/album/ceremony-hip-hip-version-english-version/1834186937?i=1834186941",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/66/55/c766553a-41ec-9d35-4175-408bcfb9704b/8809928954899_Cover.jpg/300x300bb.jpg",
+    "trackId": "1834186941"
+  },
+  {
+    "id": "applemusic-1834186946",
+    "name": "CEREMONY (Hooray Version - English Version)",
+    "artists": [
+      "Stray Kids & IMLAY"
+    ],
+    "album": "CEREMONY (Celebrate Remixes) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/f6/04/42f6044a-b5f1-b4dd-8092-a1f451aea201/mzaf_9528897739058606431.plus.aac.p.m4a",
+    "duration": 184166,
+    "trackUrl": "https://music.apple.com/us/album/ceremony-hooray-version-english-version/1834186937?i=1834186946",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/66/55/c766553a-41ec-9d35-4175-408bcfb9704b/8809928954899_Cover.jpg/300x300bb.jpg",
+    "trackId": "1834186946"
+  },
+  {
+    "id": "applemusic-1834186951",
+    "name": "CEREMONY (Festival Version - English Version)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "CEREMONY (Celebrate Remixes) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/01/23/3301232a-3900-f347-bee5-cd57befe5fc2/mzaf_7007798976261987493.plus.aac.p.m4a",
+    "duration": 172000,
+    "trackUrl": "https://music.apple.com/us/album/ceremony-festival-version-english-version/1834186937?i=1834186951",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/66/55/c766553a-41ec-9d35-4175-408bcfb9704b/8809928954899_Cover.jpg/300x300bb.jpg",
+    "trackId": "1834186951"
+  },
+  {
+    "id": "applemusic-1523814792",
+    "name": "Hello Stranger",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "Pop Out Boy! (Original Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/c0/88/93c08802-256c-2080-46db-1b4a41910f6c/mzaf_12221570022251717103.plus.aac.p.m4a",
+    "duration": 239653,
+    "trackUrl": "https://music.apple.com/us/album/hello-stranger/1523814791?i=1523814792",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bd/98/4a/bd984ac9-82db-614d-8310-8996065ac1e9/cover_-_Part.1.png/300x300bb.jpg",
+    "trackId": "1523814792"
+  },
+  {
+    "id": "applemusic-1729231119",
+    "name": "Like Magic",
+    "artists": [
+      "J.Y. Park, Stray Kids, ITZY & NMIXX"
+    ],
+    "album": "Like Magic - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/0f/41/380f413d-48ea-3931-6655-2c153b3e1db5/mzaf_17488809810629494286.plus.aac.p.m4a",
+    "duration": 164267,
+    "trackUrl": "https://music.apple.com/us/album/like-magic/1729231103?i=1729231119",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/53/a0/fc/53a0fc63-4f13-6ace-30cd-6cdbc743686e/8809928951720_Cover.jpg/300x300bb.jpg",
+    "trackId": "1729231119"
+  },
+  {
+    "id": "applemusic-1581389929",
+    "name": "Surfin' (Lee Know, Changbin & Felix)",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "NOEASY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/2f/40/9f2f40c5-a0f9-27e6-2347-001c314c0b17/mzaf_13642994515558472423.plus.aac.p.m4a",
+    "duration": 191333,
+    "trackUrl": "https://music.apple.com/jp/album/surfin-lee-know-changbin-felix/1581389735?i=1581389929",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/41/97/a14197f6-4ade-8442-9e0a-dbd4300b7391/4547366527049.jpg/300x300bb.jpg",
+    "trackId": "1581389929"
+  },
+  {
+    "id": "applemusic-1538127580",
+    "name": "Grrr",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "SKZ2020",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f2/66/65/f2666553-14c0-3b5b-9dcd-b48afcb39de6/mzaf_16546678194249543159.plus.aac.p.m4a",
+    "duration": 190653,
+    "trackUrl": "https://music.apple.com/jp/album/grrr/1538127215?i=1538127580",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/83/c5/22/83c52232-fe0c-00c3-9353-823637794be8/jacket_EJXX00071B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538127580"
+  },
+  {
+    "id": "applemusic-1688305493",
+    "name": "Time Out",
+    "artists": [
+      "Stray Kids"
+    ],
+    "album": "5-STAR",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/1e/a8/b71ea87c-3d75-ae5b-3826-d7be83458241/mzaf_9082763244540915458.plus.aac.p.m4a",
+    "duration": 175293,
+    "trackUrl": "https://music.apple.com/kr/album/time-out/1688305449?i=1688305493",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/96/b8/45/96b84544-f6e1-2702-f2d5-d5bda08f354e/SKZ_5_STAR_COVER.jpg/300x300bb.jpg",
+    "trackId": "1688305493"
+  }
+]
