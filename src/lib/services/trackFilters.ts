@@ -283,9 +283,20 @@ export function createSpecificMarkerFilter(): TrackFilter {
 
 /** Removes intro/outro/skit tracks */
 export function createIntroOutroFilter(): TrackFilter {
-  const words = ['outro', 'intro', 'introduction', 'skit'];
+  const words = ['outro', 'intro', 'introduction', 'skit', 'interlude'];
+  
+  // Patterns to match:
+  // 1. Word boundary matches: "The Intro Song" -> matches "Intro"
+  // 2. In parentheses: "(Intro)" or "(Outro)"
+  // 3. At start with colon: "Intro: Symphony"
+  // 4. At start with dash: "Intro - Symphony" or "Intro- Symphony"
+  // 5. At start with period: "Intro. Something"
+  // 6. At start standalone followed by space: "Intro The Beginning"
   const pattern = new RegExp(
-    `\\b(${words.join('|')})s?\\b|\\((${words.join('|')})\\)|^(${words.join('|')})[:|-]`,
+    `\\b(${words.join('|')})s?\\b|` +           // Word boundary match
+    `\\((${words.join('|')})\\)|` +              // In parentheses
+    `^(${words.join('|')})\\s*[:.\-–—]|` +      // Start with colon, period, or dash
+    `^(${words.join('|')})\\s+[A-Z]`,           // Start followed by space and capital letter
     'i'
   );
 
