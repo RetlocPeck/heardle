@@ -23,16 +23,37 @@ export async function GET(request: NextRequest) {
     }
 
     // Validate it's an Apple Music CDN URL for security
-    if (!imageUrl.startsWith('https://is')) {
+    // Parse URL and validate hostname to prevent SSRF attacks
+    let parsedUrl: URL;
+    try {
+      parsedUrl = new URL(imageUrl);
+    } catch {
       return NextResponse.json(
-        { error: 'Invalid image URL - must be from Apple Music CDN' },
+        { error: 'Invalid URL format' },
         { status: 400 }
       );
     }
 
-    if (!imageUrl.includes('mzstatic.com')) {
+    // Whitelist of allowed Apple Music CDN hostnames
+    const allowedHosts = [
+      'is1-ssl.mzstatic.com',
+      'is2-ssl.mzstatic.com',
+      'is3-ssl.mzstatic.com',
+      'is4-ssl.mzstatic.com',
+      'is5-ssl.mzstatic.com',
+    ];
+
+    if (!allowedHosts.includes(parsedUrl.hostname)) {
       return NextResponse.json(
-        { error: 'Invalid image URL - must be from mzstatic.com' },
+        { error: 'Invalid image URL - must be from Apple Music CDN (is1-ssl through is5-ssl.mzstatic.com)' },
+        { status: 400 }
+      );
+    }
+
+    // Ensure HTTPS protocol
+    if (parsedUrl.protocol !== 'https:') {
+      return NextResponse.json(
+        { error: 'Invalid image URL - must use HTTPS' },
         { status: 400 }
       );
     }
@@ -76,12 +97,16 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Image proxy error:', error);
     
-    // Return a proper error response
-    if (error instanceof Error && error.name === 'TimeoutError') {
-      return NextResponse.json(
-        { error: 'Image fetch timeout' },
-        { status: 504 }
-      );
+    // Handle timeout errors properly
+    // AbortSignal.timeout() throws DOMException, not Error
+    if (error && typeof error === 'object' && 'name' in error) {
+      const errorName = (error as { name: string }).name;
+      if (errorName === 'TimeoutError' || errorName === 'AbortError') {
+        return NextResponse.json(
+          { error: 'Image fetch timeout' },
+          { status: 504 }
+        );
+      }
     }
 
     return NextResponse.json(

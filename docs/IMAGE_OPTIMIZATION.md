@@ -85,6 +85,20 @@ When adding a new artist:
 - **Security**: Proxy validates URLs to only allow Apple Music CDN
 - **Timeout Protection**: 10-second timeout prevents hanging requests
 
+### Bug Fixes Applied
+
+**Bug 1: Next.js Image Optimization Conflicts**
+- Problem: Next.js Image component tried to add its own query params to proxy URLs
+- Impact: Malformed URLs like `/api/images/proxy?url=...&w=400` could fail
+- Fix: Added custom `loader` and `unoptimized={true}` to bypass automatic optimization
+- Result: Images load correctly without URL mangling
+
+**Bug 2: Missing API Fallback**
+- Problem: When static JSON existed but lacked URL fields, no fallback was attempted
+- Impact: Artists with incomplete artwork data showed error instead of trying API
+- Fix: Throw error when URL missing, catch in unified error handler with API fallback
+- Result: Graceful degradation - tries API if static file is missing or malformed
+
 ### Future Improvements
 
 Consider these additional optimizations if needed:
