@@ -33,6 +33,12 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# Apple Music API Keys (NEVER COMMIT!)
+*.p8
+AuthKey_*.p8
+/keys/*.p8
+/keys/AuthKey_*
+
 # vercel
 .vercel
 

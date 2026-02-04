@@ -4,17 +4,18 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
-import DynamicHeardle from '@/components/DynamicHeardle';
+import DynamicHeardle from '@/components/game/DynamicHeardle';
 import ModeSelector from '@/components/game/ModeSelector';
 import StatisticsButton from '@/components/stats/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
-import ArtistHeader, { DailyChallengeStatus } from '@/components/ArtistHeader';
-import NextDailyCountdown from '@/components/NextDailyCountdown';
+import ArtistHeader, { DailyChallengeStatus } from '@/components/artist/ArtistHeader';
+import NextDailyCountdown from '@/components/game/NextDailyCountdown';
+import AnimatedBackground from '@/components/ui/AnimatedBackground';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
-import { GameMode } from '@/lib/game/gameLogic';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants/game';
+import { GameMode } from '@/lib/game';
+import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
 
 
 
@@ -49,11 +50,7 @@ export default function ArtistPage() {
   if (!artist) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
-                 {/* Animated Background Elements */}
-         <div className="absolute inset-0 overflow-hidden">
-           <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/30 rounded-full filter blur-xl opacity-70 animate-blob"></div>
-           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-         </div>
+        <AnimatedBackground blobCount={2} subtle />
         <div className="relative z-10 text-center">
           <div className="backdrop-blur-xl bg-white/10 rounded-3xl border border-white/20 p-12">
             <h1 className="text-5xl font-bold text-white mb-6">Artist Not Found</h1>
@@ -72,14 +69,9 @@ export default function ArtistPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-               {/* Animated Background Elements */}
-         <div className="absolute inset-0 overflow-hidden">
-           <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/30 rounded-full filter blur-xl opacity-70 animate-blob"></div>
-           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-           <div className="absolute top-40 left-40 w-80 h-80 bg-indigo-500/30 rounded-full filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-         </div>
+      <AnimatedBackground blobCount={3} subtle />
 
-               {/* Header */}
+      {/* Header */}
        <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
          <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
                        <div className="flex justify-between items-center py-4 sm:py-6 md:py-8 lg:py-12">

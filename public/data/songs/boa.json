@@ -1,0 +1,496 @@
+[
+  {
+    "id": "applemusic-1596227762",
+    "name": "Duvet",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/46/1b/1e461bd9-87fe-46e8-a4a5-e921e83ddf54/mzaf_9890527819711465833.plus.aac.p.m4a",
+    "duration": 203600,
+    "trackUrl": "https://music.apple.com/us/album/duvet/1596227761?i=1596227762",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227762"
+  },
+  {
+    "id": "applemusic-1596227763",
+    "name": "Twilight",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/97/db/f197db97-bb67-3ebe-1d73-4e7a31e2f5f8/mzaf_12295438815648127007.plus.aac.p.m4a",
+    "duration": 228800,
+    "trackUrl": "https://music.apple.com/us/album/twilight/1596227761?i=1596227763",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227763"
+  },
+  {
+    "id": "applemusic-1596227764",
+    "name": "Fool",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/23/4b/df234b77-4b69-a3ba-0ddc-9a029009b228/mzaf_9247447758056947478.plus.aac.p.m4a",
+    "duration": 307200,
+    "trackUrl": "https://music.apple.com/us/album/fool/1596227761?i=1596227764",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227764"
+  },
+  {
+    "id": "applemusic-1596227765",
+    "name": "Rain",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/59/15/3c5915ad-fbe9-81ca-7eca-301fc15b6a5e/mzaf_3714508768043805172.plus.aac.p.m4a",
+    "duration": 236267,
+    "trackUrl": "https://music.apple.com/us/album/rain/1596227761?i=1596227765",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227765"
+  },
+  {
+    "id": "applemusic-1596227946",
+    "name": "Elephant",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/6a/b0/626ab047-91ea-5f0d-3caf-26f4bd73c182/mzaf_17299925046970334745.plus.aac.p.m4a",
+    "duration": 234160,
+    "trackUrl": "https://music.apple.com/us/album/elephant/1596227761?i=1596227946",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227946"
+  },
+  {
+    "id": "applemusic-1596227947",
+    "name": "Scoring",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/59/50/f05950ad-d548-be5c-b0b6-6182b92a4b7c/mzaf_13097417600776953918.plus.aac.p.m4a",
+    "duration": 230000,
+    "trackUrl": "https://music.apple.com/us/album/scoring/1596227761?i=1596227947",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227947"
+  },
+  {
+    "id": "applemusic-1596227948",
+    "name": "Deeply",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/74/16/ce7416cb-a792-7cf7-648f-13faef619dfa/mzaf_11278024271591300745.plus.aac.p.m4a",
+    "duration": 274933,
+    "trackUrl": "https://music.apple.com/us/album/deeply/1596227761?i=1596227948",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227948"
+  },
+  {
+    "id": "applemusic-1596227949",
+    "name": "One Day",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/1e/f8/3c1ef80a-d207-1e24-415d-bacb082d0f46/mzaf_6833567361433124186.plus.aac.p.m4a",
+    "duration": 160867,
+    "trackUrl": "https://music.apple.com/us/album/one-day/1596227761?i=1596227949",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227949"
+  },
+  {
+    "id": "applemusic-1596227950",
+    "name": "Welcome",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/9e/10/369e10d0-6cb6-a082-d7e3-45aa29cec32c/mzaf_4677562295278221241.plus.aac.p.m4a",
+    "duration": 305627,
+    "trackUrl": "https://music.apple.com/us/album/welcome/1596227761?i=1596227950",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227950"
+  },
+  {
+    "id": "applemusic-1596227951",
+    "name": "For Jasmine",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/f4/e5/d9f4e5ca-1985-0b32-463c-5126a0414d38/mzaf_12653120299954543594.plus.aac.p.m4a",
+    "duration": 317507,
+    "trackUrl": "https://music.apple.com/us/album/for-jasmine/1596227761?i=1596227951",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227951"
+  },
+  {
+    "id": "applemusic-1596227952",
+    "name": "Anna Maria",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/22/bc/1722bc96-69e3-f0fd-e4fe-7a42e5bba8eb/mzaf_1992769646469171755.plus.aac.p.m4a",
+    "duration": 245173,
+    "trackUrl": "https://music.apple.com/us/album/anna-maria/1596227761?i=1596227952",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227952"
+  },
+  {
+    "id": "applemusic-1596227955",
+    "name": "Little Miss",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/d0/94/92d094f1-a7e9-f3ff-28be-344aee3fc5ed/mzaf_6887377945437261390.plus.aac.p.m4a",
+    "duration": 233480,
+    "trackUrl": "https://music.apple.com/us/album/little-miss/1596227761?i=1596227955",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227955"
+  },
+  {
+    "id": "applemusic-1596227956",
+    "name": "Drinking",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Twilight",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/18/be/1518bed1-ea35-c6d8-c156-1d748fd4403b/mzaf_9982759714404527742.plus.aac.p.m4a",
+    "duration": 252613,
+    "trackUrl": "https://music.apple.com/us/album/drinking/1596227761?i=1596227956",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/44/15/45441528-0288-eedc-f6fc-93137b8cfe96/067003248969.png/300x300bb.jpg",
+    "trackId": "1596227956"
+  },
+  {
+    "id": "applemusic-1599217114",
+    "name": "angry",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/46/5e/72465ef6-cb1f-90c7-6acb-bf009ab36232/mzaf_12636282441173814453.plus.aac.p.m4a",
+    "duration": 222400,
+    "trackUrl": "https://music.apple.com/us/album/angry/1599217113?i=1599217114",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217114"
+  },
+  {
+    "id": "applemusic-1599217296",
+    "name": "get there",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/56/5a/cc565a59-f99c-bbc6-b187-25965edf0cc0/mzaf_13461978449011021287.plus.aac.p.m4a",
+    "duration": 273867,
+    "trackUrl": "https://music.apple.com/us/album/get-there/1599217113?i=1599217296",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217296"
+  },
+  {
+    "id": "applemusic-1599217297",
+    "name": "wasted",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/57/8d/ea578d90-a623-f28f-a2bd-d057f12f7d60/mzaf_2945074210245158682.plus.aac.p.m4a",
+    "duration": 232627,
+    "trackUrl": "https://music.apple.com/us/album/wasted/1599217113?i=1599217297",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217297"
+  },
+  {
+    "id": "applemusic-1599217298",
+    "name": "believe me",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/30/30/d3303001-e9b3-1a4e-8d67-c2f6392d32f5/mzaf_13681224879561761744.plus.aac.p.m4a",
+    "duration": 171773,
+    "trackUrl": "https://music.apple.com/us/album/believe-me/1599217113?i=1599217298",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217298"
+  },
+  {
+    "id": "applemusic-1599217299",
+    "name": "courage",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/0a/c4/730ac426-3581-081f-c6cc-a828bbaf4b63/mzaf_8743899949075563036.plus.aac.p.m4a",
+    "duration": 308240,
+    "trackUrl": "https://music.apple.com/us/album/courage/1599217113?i=1599217299",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217299"
+  },
+  {
+    "id": "applemusic-1599217300",
+    "name": "a girl",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/36/f3/b236f31c-331b-75b5-720c-f04b45f842e8/mzaf_10953838367722283112.plus.aac.p.m4a",
+    "duration": 280400,
+    "trackUrl": "https://music.apple.com/us/album/a-girl/1599217113?i=1599217300",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217300"
+  },
+  {
+    "id": "applemusic-1599217301",
+    "name": "daylight",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/10/3a/0c103aee-61d4-b6e6-1964-1a978cb448b8/mzaf_10725640099497802108.plus.aac.p.m4a",
+    "duration": 323387,
+    "trackUrl": "https://music.apple.com/us/album/daylight/1599217113?i=1599217301",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217301"
+  },
+  {
+    "id": "applemusic-1599217302",
+    "name": "america",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/51/5b/a8/515ba848-ca1e-4a55-79eb-79c34f25acab/mzaf_11441405585626031720.plus.aac.p.m4a",
+    "duration": 248387,
+    "trackUrl": "https://music.apple.com/us/album/america/1599217113?i=1599217302",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217302"
+  },
+  {
+    "id": "applemusic-1599217303",
+    "name": "older",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/40/12/1b40122f-9fec-9428-901a-71ec7be6243d/mzaf_10809994314055912686.plus.aac.p.m4a",
+    "duration": 197480,
+    "trackUrl": "https://music.apple.com/us/album/older/1599217113?i=1599217303",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217303"
+  },
+  {
+    "id": "applemusic-1599217304",
+    "name": "passport",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/c2/60/43c26059-79a3-2a67-a161-e2338b33ed7c/mzaf_18108142021340239993.plus.aac.p.m4a",
+    "duration": 305693,
+    "trackUrl": "https://music.apple.com/us/album/passport/1599217113?i=1599217304",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217304"
+  },
+  {
+    "id": "applemusic-1599217305",
+    "name": "stand by",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/8d/1e/788d1e97-1561-0497-d35a-3bb7f188e759/mzaf_14375509458698788312.plus.aac.p.m4a",
+    "duration": 318213,
+    "trackUrl": "https://music.apple.com/us/album/stand-by/1599217113?i=1599217305",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217305"
+  },
+  {
+    "id": "applemusic-1599217306",
+    "name": "on the wall",
+    "artists": [
+      "bôa"
+    ],
+    "album": "get there",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/9a/16/c79a167d-9393-e5b9-49e2-a49679f9eefb/mzaf_2733436263455383862.plus.aac.p.m4a",
+    "duration": 188813,
+    "trackUrl": "https://music.apple.com/us/album/on-the-wall/1599217113?i=1599217306",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/b2/aa/f3b2aafe-70a8-dc72-0f36-789681cde0e2/067003255967.png/300x300bb.jpg",
+    "trackId": "1599217306"
+  },
+  {
+    "id": "applemusic-1729916023",
+    "name": "Walk With Me",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Walk With Me - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/cc/19/8bcc19ba-7134-01e8-325d-40023ea6fa03/mzaf_753067040071700836.plus.aac.p.m4a",
+    "duration": 222957,
+    "trackUrl": "https://music.apple.com/us/album/walk-with-me/1729916021?i=1729916023",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/98/37/34/983734bc-2447-c452-ace8-84aa3dfe9f55/067003714068.png/300x300bb.jpg",
+    "trackId": "1729916023"
+  },
+  {
+    "id": "applemusic-1754022810",
+    "name": "Let Me Go",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/97/e6/4097e6c2-4102-051e-a444-331aa22e2ee7/mzaf_6274121214883942441.plus.aac.p.m4a",
+    "duration": 253126,
+    "trackUrl": "https://music.apple.com/us/album/let-me-go/1754022805?i=1754022810",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754022810"
+  },
+  {
+    "id": "applemusic-1754022813",
+    "name": "Crawling",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/93/2f/f2932fba-dfff-c54c-9262-737d9ce6e10e/mzaf_8275841841619615837.plus.aac.p.m4a",
+    "duration": 220959,
+    "trackUrl": "https://music.apple.com/us/album/crawling/1754022805?i=1754022813",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754022813"
+  },
+  {
+    "id": "applemusic-1754022822",
+    "name": "Beautiful & Broken",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/82/3c/06823c14-214a-a382-ffef-446782d6351d/mzaf_14789985175830865452.plus.aac.p.m4a",
+    "duration": 208919,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-broken/1754022805?i=1754022822",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754022822"
+  },
+  {
+    "id": "applemusic-1754022826",
+    "name": "Prelude",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/00/7a/b4/007ab4d0-c8f8-5f34-4f58-9b54f009b44a/mzaf_14996825586004942663.plus.aac.p.m4a",
+    "duration": 20208,
+    "trackUrl": "https://music.apple.com/us/album/prelude/1754022805?i=1754022826",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754022826"
+  },
+  {
+    "id": "applemusic-1754023160",
+    "name": "Frozen",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/c5/cc/77c5cc2a-94f6-3503-95cb-b2a94622b318/mzaf_217059335307335640.plus.aac.p.m4a",
+    "duration": 254742,
+    "trackUrl": "https://music.apple.com/us/album/frozen/1754022805?i=1754023160",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023160"
+  },
+  {
+    "id": "applemusic-1754023162",
+    "name": "Vienna",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/14/7a/c0147af7-0bfd-109f-3913-87036270b6aa/mzaf_15491224912884675766.plus.aac.p.m4a",
+    "duration": 293489,
+    "trackUrl": "https://music.apple.com/us/album/vienna/1754022805?i=1754023162",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023162"
+  },
+  {
+    "id": "applemusic-1754023163",
+    "name": "Worry",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/ed/65/c0ed65d9-2719-339d-81b9-a33322cec36c/mzaf_14040625691839257989.plus.aac.p.m4a",
+    "duration": 288947,
+    "trackUrl": "https://music.apple.com/us/album/worry/1754022805?i=1754023163",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023163"
+  },
+  {
+    "id": "applemusic-1754023165",
+    "name": "Whiplash",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/25/3d/49253d27-fec7-ac3f-0b46-ef8a2bfd5fac/mzaf_18098744939293773911.plus.aac.p.m4a",
+    "duration": 151080,
+    "trackUrl": "https://music.apple.com/us/album/whiplash/1754022805?i=1754023165",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023165"
+  },
+  {
+    "id": "applemusic-1754023168",
+    "name": "Strange Few",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/d3/70/83d370c3-dcb1-08e7-1b66-953ef78fc925/mzaf_14427056729192916057.plus.aac.p.m4a",
+    "duration": 269028,
+    "trackUrl": "https://music.apple.com/us/album/strange-few/1754022805?i=1754023168",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023168"
+  },
+  {
+    "id": "applemusic-1754023173",
+    "name": "Seafarer",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/2c/8f/0b2c8f2a-ab6b-23b0-9c02-ba3c43010c69/mzaf_18251467935079393888.plus.aac.p.m4a",
+    "duration": 241251,
+    "trackUrl": "https://music.apple.com/us/album/seafarer/1754022805?i=1754023173",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023173"
+  },
+  {
+    "id": "applemusic-1754023178",
+    "name": "I Don't Know",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/30/89/19/30891998-2917-704a-9ccf-95f6fe5e8591/mzaf_5327787749880420232.plus.aac.p.m4a",
+    "duration": 241614,
+    "trackUrl": "https://music.apple.com/us/album/i-dont-know/1754022805?i=1754023178",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023178"
+  },
+  {
+    "id": "applemusic-1754023182",
+    "name": "Shadow",
+    "artists": [
+      "bôa"
+    ],
+    "album": "Whiplash",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/22/1d/3c221d28-8082-5853-f3ad-5fc526caf5b4/mzaf_15799585589562509382.plus.aac.p.m4a",
+    "duration": 188098,
+    "trackUrl": "https://music.apple.com/us/album/shadow/1754022805?i=1754023182",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9b/a0/4a/9ba04aba-9bcf-5fbf-0a56-99bd2ddf0c90/067003157551.png/300x300bb.jpg",
+    "trackId": "1754023182"
+  }
+]

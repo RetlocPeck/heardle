@@ -1,7 +1,7 @@
 'use client';
 
 import type { Song } from '@/types/song';
-import { MAX_TRIES } from '@/lib/constants/game';
+import { MAX_TRIES } from '@/lib/constants';
 
 interface HowToPlayCardProps {
   artistDisplayName: string;

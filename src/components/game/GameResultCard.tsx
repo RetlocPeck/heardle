@@ -1,9 +1,9 @@
 'use client';
 
-import type { GameState, GameMode } from '@/lib/game/gameLogic';
+import type { GameState, GameMode } from '@/lib/game';
 import type { Song } from '@/types/song';
 import type { ArtistConfig } from '@/config/artists';
-import ShareButton from '../ShareButton';
+import ShareButton from '@/components/ui/buttons/ShareButton';
 import { convertGameStateToShareState } from '@/lib/utils/share';
 import { getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
 
@@ -85,13 +85,13 @@ export default function GameResultCard({
 
             <div className={isMobile ? 'pt-1 sm:pt-2' : 'pt-2'}>
               <a
-                href={currentSong?.itunesUrl}
+                href={currentSong?.trackUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-flex items-center ${isMobile ? 'space-x-1 sm:space-x-2' : 'space-x-2'} ${buttonPadding} bg-gradient-to-r from-blue-500 to-cyan-600 text-white ${buttonRounding} font-bold ${buttonText} hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105`}
               >
                 <span>🎵</span>
-                <span>Listen on iTunes</span>
+                <span>Listen on Apple Music</span>
               </a>
             </div>
           </div>

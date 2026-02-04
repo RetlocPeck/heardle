@@ -1,0 +1,652 @@
+[
+  {
+    "id": "applemusic-1465682220",
+    "name": "ME",
+    "artists": [
+      "CLC"
+    ],
+    "album": "ME - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/be/6f/2a/be6f2a3f-1577-9f03-3890-6738359ee5a5/mzaf_6531905278552725093.plus.aac.p.m4a",
+    "duration": 193253,
+    "trackUrl": "https://music.apple.com/us/album/me/1465682218?i=1465682220",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/cc/12/92/cc129246-2e04-fbcc-0573-020d57418038/19UMGIM46649.rgb.jpg/300x300bb.jpg",
+    "trackId": "1465682220"
+  },
+  {
+    "id": "applemusic-1478397104",
+    "name": "Devil",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Devil - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/40/03/9a/40039a55-8996-7b6c-542f-484c91c38999/mzaf_422013002823356895.plus.aac.p.m4a",
+    "duration": 177000,
+    "trackUrl": "https://music.apple.com/us/album/devil/1478396841?i=1478397104",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/05/1e/b0/051eb0ba-56c3-e61a-d8a4-7498a42a2082/19UMGIM78528.rgb.jpg/300x300bb.jpg",
+    "trackId": "1478397104"
+  },
+  {
+    "id": "applemusic-1465973555",
+    "name": "Liar",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Crystyle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/dc/56/44/dc5644f7-4b10-13c7-ebd2-78cab8df8d8c/mzaf_14650409506444924851.plus.aac.p.m4a",
+    "duration": 197532,
+    "trackUrl": "https://music.apple.com/us/album/liar/1465973554?i=1465973555",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/66/32/846632e1-a32c-cd02-7ecf-3dc2b0bb93fb/cover-CLC_CRYSTYLE.jpg/300x300bb.jpg",
+    "trackId": "1465973555"
+  },
+  {
+    "id": "applemusic-1465973556",
+    "name": "Hobgoblin",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Crystyle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/62/bd/4c62bd81-b41b-8378-d22d-182172a2374a/mzaf_4182186810276741345.plus.aac.p.m4a",
+    "duration": 210478,
+    "trackUrl": "https://music.apple.com/us/album/hobgoblin/1465973554?i=1465973556",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/66/32/846632e1-a32c-cd02-7ecf-3dc2b0bb93fb/cover-CLC_CRYSTYLE.jpg/300x300bb.jpg",
+    "trackId": "1465973556"
+  },
+  {
+    "id": "applemusic-1465973557",
+    "name": "Mistake",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Crystyle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/19/fb/b7/19fbb76a-a409-bf0b-85fc-8997145fc699/mzaf_2284173167093314600.plus.aac.p.m4a",
+    "duration": 188263,
+    "trackUrl": "https://music.apple.com/us/album/mistake/1465973554?i=1465973557",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/66/32/846632e1-a32c-cd02-7ecf-3dc2b0bb93fb/cover-CLC_CRYSTYLE.jpg/300x300bb.jpg",
+    "trackId": "1465973557"
+  },
+  {
+    "id": "applemusic-1465973558",
+    "name": "Meow Meow",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Crystyle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/86/87/4d/86874da2-3a73-4f7f-4be6-1c02f7ecf4a1/mzaf_3048680550630287216.plus.aac.p.m4a",
+    "duration": 198658,
+    "trackUrl": "https://music.apple.com/us/album/meow-meow/1465973554?i=1465973558",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/66/32/846632e1-a32c-cd02-7ecf-3dc2b0bb93fb/cover-CLC_CRYSTYLE.jpg/300x300bb.jpg",
+    "trackId": "1465973558"
+  },
+  {
+    "id": "applemusic-1465973559",
+    "name": "I Mean That",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Crystyle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e4/d8/86/e4d88629-a200-c5fd-e3cd-c2580638c4e3/mzaf_11575786829185088872.plus.aac.p.m4a",
+    "duration": 194560,
+    "trackUrl": "https://music.apple.com/us/album/i-mean-that/1465973554?i=1465973559",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/66/32/846632e1-a32c-cd02-7ecf-3dc2b0bb93fb/cover-CLC_CRYSTYLE.jpg/300x300bb.jpg",
+    "trackId": "1465973559"
+  },
+  {
+    "id": "applemusic-1465973560",
+    "name": "Depression",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Crystyle - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4d/24/20/4d2420a4-d7db-1741-1aa6-9f4838856f1a/mzaf_8751497689703252327.plus.aac.p.m4a",
+    "duration": 207125,
+    "trackUrl": "https://music.apple.com/us/album/depression/1465973554?i=1465973560",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/84/66/32/846632e1-a32c-cd02-7ecf-3dc2b0bb93fb/cover-CLC_CRYSTYLE.jpg/300x300bb.jpg",
+    "trackId": "1465973560"
+  },
+  {
+    "id": "applemusic-1451047661",
+    "name": "No",
+    "artists": [
+      "CLC"
+    ],
+    "album": "No.1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cb/1d/52/cb1d520b-cca2-3d54-cec8-4694909db1d7/mzaf_1825540095492755455.plus.aac.p.m4a",
+    "duration": 181976,
+    "trackUrl": "https://music.apple.com/us/album/no/1451047660?i=1451047661",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/3c/53/6d3c5303-5c92-2072-5489-1b76d56187d1/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1451047661"
+  },
+  {
+    "id": "applemusic-1451047662",
+    "name": "Show",
+    "artists": [
+      "CLC"
+    ],
+    "album": "No.1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/13/be/a813bee7-5b4b-55be-4c26-f22e19f0fa1e/mzaf_1645760079855194419.plus.aac.p.m4a",
+    "duration": 211896,
+    "trackUrl": "https://music.apple.com/us/album/show/1451047660?i=1451047662",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/3c/53/6d3c5303-5c92-2072-5489-1b76d56187d1/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1451047662"
+  },
+  {
+    "id": "applemusic-1451047666",
+    "name": "Breakdown",
+    "artists": [
+      "CLC"
+    ],
+    "album": "No.1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/b8/b1/dfb8b118-ee72-db8c-15b1-9e64f95ef3ee/mzaf_13737469405234573659.plus.aac.p.m4a",
+    "duration": 191467,
+    "trackUrl": "https://music.apple.com/us/album/breakdown/1451047660?i=1451047666",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/3c/53/6d3c5303-5c92-2072-5489-1b76d56187d1/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1451047666"
+  },
+  {
+    "id": "applemusic-1451047667",
+    "name": "Like It",
+    "artists": [
+      "CLC"
+    ],
+    "album": "No.1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/9a/b4/ee9ab467-2343-cc0e-885b-1f246877b0a9/mzaf_5123777190392163899.plus.aac.p.m4a",
+    "duration": 193637,
+    "trackUrl": "https://music.apple.com/us/album/like-it/1451047660?i=1451047667",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/3c/53/6d3c5303-5c92-2072-5489-1b76d56187d1/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1451047667"
+  },
+  {
+    "id": "applemusic-1451047668",
+    "name": "I Need U",
+    "artists": [
+      "CLC"
+    ],
+    "album": "No.1 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6a/3d/bc/6a3dbce5-7b36-fc7a-9de4-ed8b156e706d/mzaf_9331246502281898747.plus.aac.p.m4a",
+    "duration": 206093,
+    "trackUrl": "https://music.apple.com/us/album/i-need-u/1451047660?i=1451047668",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6d/3c/53/6d3c5303-5c92-2072-5489-1b76d56187d1/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1451047668"
+  },
+  {
+    "id": "applemusic-1528937197",
+    "name": "HELICOPTER",
+    "artists": [
+      "CLC"
+    ],
+    "album": "HELICOPTER - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/71/b7/c871b7f4-6129-4386-70f5-fbad090bfa3e/mzaf_9717085455746212530.plus.aac.p.m4a",
+    "duration": 225720,
+    "trackUrl": "https://music.apple.com/us/album/helicopter/1528937196?i=1528937197",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/1d/ba/281dbace-e3f8-eb71-3c1d-4acf562c2863/20UMGIM72665.rgb.jpg/300x300bb.jpg",
+    "trackId": "1528937197"
+  },
+  {
+    "id": "applemusic-1464934816",
+    "name": "Where Are You?",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Free'sm - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/06/5f/49/065f4944-389d-71f3-2b22-6930d4fe4db9/mzaf_14567376156258725755.plus.aac.p.m4a",
+    "duration": 220527,
+    "trackUrl": "https://music.apple.com/us/album/where-are-you/1464934815?i=1464934816",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
+    "trackId": "1464934816"
+  },
+  {
+    "id": "applemusic-1464934817",
+    "name": "Bae",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Free'sm - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/78/79/9a/78799a41-eed2-4f13-5574-cd7053a0b11a/mzaf_4887308728818223441.plus.aac.p.m4a",
+    "duration": 213605,
+    "trackUrl": "https://music.apple.com/us/album/bae/1464934815?i=1464934817",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
+    "trackId": "1464934817"
+  },
+  {
+    "id": "applemusic-1464934818",
+    "name": "I Like It",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Free'sm - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/18/9a/ee189a23-6bcc-e06d-1f96-6b93630356a7/mzaf_257318354777936826.plus.aac.p.m4a",
+    "duration": 212790,
+    "trackUrl": "https://music.apple.com/us/album/i-like-it/1464934815?i=1464934818",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
+    "trackId": "1464934818"
+  },
+  {
+    "id": "applemusic-1464934819",
+    "name": "Call My Name",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Free'sm - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d4/37/1f/d4371f0c-2b49-0c35-7cd1-e147de497da2/mzaf_4896952405644268193.plus.aac.p.m4a",
+    "duration": 184210,
+    "trackUrl": "https://music.apple.com/us/album/call-my-name/1464934815?i=1464934819",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
+    "trackId": "1464934819"
+  },
+  {
+    "id": "applemusic-1464934820",
+    "name": "Summer Kiss",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Free'sm - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/27/92/ba27929a-4c1f-73de-c2e2-84165aa9d21d/mzaf_17922341104810780892.plus.aac.p.m4a",
+    "duration": 207445,
+    "trackUrl": "https://music.apple.com/us/album/summer-kiss/1464934815?i=1464934820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
+    "trackId": "1464934820"
+  },
+  {
+    "id": "applemusic-1464934821",
+    "name": "Hold Your Hand",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Free'sm - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/2e/ab/d12eab78-7fc1-fc6f-d4b4-b759d44b642c/mzaf_7657181112950103633.plus.aac.p.m4a",
+    "duration": 240822,
+    "trackUrl": "https://music.apple.com/us/album/hold-your-hand/1464934815?i=1464934821",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
+    "trackId": "1464934821"
+  },
+  {
+    "id": "applemusic-1351744236",
+    "name": "Black Dress",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/f4/da/9bf4da31-c6fa-6c76-1233-2623528da3d4/mzaf_14757454679223901813.plus.aac.p.m4a",
+    "duration": 193609,
+    "trackUrl": "https://music.apple.com/us/album/black-dress/1351743986?i=1351744236",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744236"
+  },
+  {
+    "id": "applemusic-1351744237",
+    "name": "Like That",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/c5/50/87c55076-3fb9-22cd-3353-2d5ec9128934/mzaf_11909979746070918149.plus.aac.p.m4a",
+    "duration": 179065,
+    "trackUrl": "https://music.apple.com/us/album/like-that/1351743986?i=1351744237",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744237"
+  },
+  {
+    "id": "applemusic-1351744238",
+    "name": "Distance",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/04/f4/6d04f462-6dc2-df6c-f204-f9f20f577f1c/mzaf_8909537253275460261.plus.aac.p.m4a",
+    "duration": 187290,
+    "trackUrl": "https://music.apple.com/us/album/distance/1351743986?i=1351744238",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744238"
+  },
+  {
+    "id": "applemusic-1351744239",
+    "name": "To the Sky",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/4d/d8/484dd802-b6f5-d777-2ba7-fb08584dc91d/mzaf_898227500452178682.plus.aac.p.m4a",
+    "duration": 185236,
+    "trackUrl": "https://music.apple.com/us/album/to-the-sky/1351743986?i=1351744239",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744239"
+  },
+  {
+    "id": "applemusic-1351744240",
+    "name": "7th",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/70/c5/05/70c5051f-5575-9706-f348-a9d0a59ea510/mzaf_7346094351703383687.plus.aac.p.m4a",
+    "duration": 251085,
+    "trackUrl": "https://music.apple.com/us/album/7th/1351743986?i=1351744240",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744240"
+  },
+  {
+    "id": "applemusic-1465969148",
+    "name": "What Planet Are You From?",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Nu.Clear - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b0/ac/d9/b0acd903-9b71-69e4-6ef3-b8c6110cbd20/mzaf_12316984160692038137.plus.aac.p.m4a",
+    "duration": 190252,
+    "trackUrl": "https://music.apple.com/us/album/what-planet-are-you-from/1465969147?i=1465969148",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/06/ba/9b06ba42-255b-b120-6276-9fe6f40a216a/cover-CLC_NU.CLEAR.jpg/300x300bb.jpg",
+    "trackId": "1465969148"
+  },
+  {
+    "id": "applemusic-1465969149",
+    "name": "No Oh Oh",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Nu.Clear - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5c/db/e8/5cdbe8e9-1ff4-f400-8ce8-3650ced35087/mzaf_15034174481894527607.plus.aac.p.m4a",
+    "duration": 223453,
+    "trackUrl": "https://music.apple.com/us/album/no-oh-oh/1465969147?i=1465969149",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/06/ba/9b06ba42-255b-b120-6276-9fe6f40a216a/cover-CLC_NU.CLEAR.jpg/300x300bb.jpg",
+    "trackId": "1465969149"
+  },
+  {
+    "id": "applemusic-1465969150",
+    "name": "One, Two, Three",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Nu.Clear - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5c/5c/b1/5c5cb112-33f1-d618-7439-30c6f9cd7065/mzaf_5128639464919988785.plus.aac.p.m4a",
+    "duration": 216007,
+    "trackUrl": "https://music.apple.com/us/album/one-two-three/1465969147?i=1465969150",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/06/ba/9b06ba42-255b-b120-6276-9fe6f40a216a/cover-CLC_NU.CLEAR.jpg/300x300bb.jpg",
+    "trackId": "1465969150"
+  },
+  {
+    "id": "applemusic-1465969151",
+    "name": "Day by Day",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Nu.Clear - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/ab/93/61ab932f-2037-6c82-2d0a-dac53bd0f0d8/mzaf_17790232043397428863.plus.aac.p.m4a",
+    "duration": 230418,
+    "trackUrl": "https://music.apple.com/us/album/day-by-day/1465969147?i=1465969151",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/06/ba/9b06ba42-255b-b120-6276-9fe6f40a216a/cover-CLC_NU.CLEAR.jpg/300x300bb.jpg",
+    "trackId": "1465969151"
+  },
+  {
+    "id": "applemusic-1465969152",
+    "name": "Dear My Friend",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Nu.Clear - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7f/59/a8/7f59a8ea-054c-14b2-29db-a47553b30faf/mzaf_16450883752656055565.plus.aac.p.m4a",
+    "duration": 206925,
+    "trackUrl": "https://music.apple.com/us/album/dear-my-friend/1465969147?i=1465969152",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/9b/06/ba/9b06ba42-255b-b120-6276-9fe6f40a216a/cover-CLC_NU.CLEAR.jpg/300x300bb.jpg",
+    "trackId": "1465969152"
+  },
+  {
+    "id": "applemusic-1466005391",
+    "name": "Eighteen",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Eighteen - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/74/65/b6746575-02ec-a9b3-d1f0-813538587aef/mzaf_5793518040436632186.plus.aac.p.m4a",
+    "duration": 204932,
+    "trackUrl": "https://music.apple.com/us/album/eighteen/1466005389?i=1466005391",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/da/4d/30/da4d309d-59bc-b4a8-feb5-31cedba0ad15/cover-CLC_Eighteen.jpg/300x300bb.jpg",
+    "trackId": "1466005391"
+  },
+  {
+    "id": "applemusic-1465965746",
+    "name": "High Heels",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Refresh - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/77/5d/f9775d6b-502b-4c1e-5060-769d021bfbf8/mzaf_13796836582247946767.plus.aac.p.m4a",
+    "duration": 204694,
+    "trackUrl": "https://music.apple.com/us/album/high-heels/1465965080?i=1465965746",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/f5/16/acf5169e-b71b-4d5f-9afb-26c7619faa70/cover-CLC_REFRESH.jpg/300x300bb.jpg",
+    "trackId": "1465965746"
+  },
+  {
+    "id": "applemusic-1465965753",
+    "name": "Refresh",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Refresh - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/96/01/9b/96019ba0-258f-5f98-c87a-e2478059696f/mzaf_15213830185072064664.plus.aac.p.m4a",
+    "duration": 206444,
+    "trackUrl": "https://music.apple.com/us/album/refresh/1465965080?i=1465965753",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/f5/16/acf5169e-b71b-4d5f-9afb-26c7619faa70/cover-CLC_REFRESH.jpg/300x300bb.jpg",
+    "trackId": "1465965753"
+  },
+  {
+    "id": "applemusic-1465965754",
+    "name": "Yaya (Say Bye to Solo)",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Refresh - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/79/d5/a8/79d5a8c1-0489-1ca9-10d0-bcd563933ae3/mzaf_1531248511278852846.plus.aac.p.m4a",
+    "duration": 193908,
+    "trackUrl": "https://music.apple.com/us/album/yaya-say-bye-to-solo/1465965080?i=1465965754",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/f5/16/acf5169e-b71b-4d5f-9afb-26c7619faa70/cover-CLC_REFRESH.jpg/300x300bb.jpg",
+    "trackId": "1465965754"
+  },
+  {
+    "id": "applemusic-1465965755",
+    "name": "Friend Lover Zone",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Refresh - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/2e/dd/1e2edd00-74ec-bf27-1b97-f038a86631ae/mzaf_2448671948180593583.plus.aac.p.m4a",
+    "duration": 205259,
+    "trackUrl": "https://music.apple.com/us/album/friend-lover-zone/1465965080?i=1465965755",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/f5/16/acf5169e-b71b-4d5f-9afb-26c7619faa70/cover-CLC_REFRESH.jpg/300x300bb.jpg",
+    "trackId": "1465965755"
+  },
+  {
+    "id": "applemusic-1466265602",
+    "name": "Hey-Yo",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Question - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/09/53/1d/09531dd7-3dfe-1132-6361-deb8639bbfb3/mzaf_4621457818677614071.plus.aac.p.m4a",
+    "duration": 214126,
+    "trackUrl": "https://music.apple.com/us/album/hey-yo/1466265601?i=1466265602",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/85/14/70/851470eb-b550-bdd2-d2c2-2a09bc2199d9/cover-CLC_Question.jpg/300x300bb.jpg",
+    "trackId": "1466265602"
+  },
+  {
+    "id": "applemusic-1466265603",
+    "name": "Like",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Question - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e8/85/e7/e885e738-a162-1dfc-8339-d738ac37f581/mzaf_4955270162547328421.plus.aac.p.m4a",
+    "duration": 188170,
+    "trackUrl": "https://music.apple.com/us/album/like/1466265601?i=1466265603",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/85/14/70/851470eb-b550-bdd2-d2c2-2a09bc2199d9/cover-CLC_Question.jpg/300x300bb.jpg",
+    "trackId": "1466265603"
+  },
+  {
+    "id": "applemusic-1466265604",
+    "name": "Lucky",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Question - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/5d/16/5e5d16e5-00aa-dedb-be8f-202fdea4f795/mzaf_6954643964282554825.plus.aac.p.m4a",
+    "duration": 189017,
+    "trackUrl": "https://music.apple.com/us/album/lucky/1466265601?i=1466265604",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/85/14/70/851470eb-b550-bdd2-d2c2-2a09bc2199d9/cover-CLC_Question.jpg/300x300bb.jpg",
+    "trackId": "1466265604"
+  },
+  {
+    "id": "applemusic-1466265605",
+    "name": "Hide and Seek",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Question - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/04/97/08/049708fd-4a38-d752-c1b8-98e0a265187f/mzaf_9601618904358346493.plus.aac.p.m4a",
+    "duration": 200600,
+    "trackUrl": "https://music.apple.com/us/album/hide-and-seek/1466265601?i=1466265605",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/85/14/70/851470eb-b550-bdd2-d2c2-2a09bc2199d9/cover-CLC_Question.jpg/300x300bb.jpg",
+    "trackId": "1466265605"
+  },
+  {
+    "id": "applemusic-1466265606",
+    "name": "What Should I Do",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Question - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/46/4f/9f464f18-3175-3f86-9388-cfa6b74874b2/mzaf_16664612751498919637.plus.aac.p.m4a",
+    "duration": 228631,
+    "trackUrl": "https://music.apple.com/us/album/what-should-i-do/1466265601?i=1466265606",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/85/14/70/851470eb-b550-bdd2-d2c2-2a09bc2199d9/cover-CLC_Question.jpg/300x300bb.jpg",
+    "trackId": "1466265606"
+  },
+  {
+    "id": "applemusic-1136678759",
+    "name": "Chocolate spice",
+    "artists": [
+      "CLC"
+    ],
+    "album": "チャミスマ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/58/94/085894e4-f890-6563-4ab0-c3efa957da13/mzaf_5002041335025397905.plus.aac.p.m4a",
+    "duration": 208152,
+    "trackUrl": "https://music.apple.com/us/album/chocolate-spice/1136678750?i=1136678759",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/04/c6/ca04c6a3-fe61-22c2-07d1-cc634a156ad3/TypeA.jpg/300x300bb.jpg",
+    "trackId": "1136678759"
+  },
+  {
+    "id": "applemusic-1136678760",
+    "name": "1,2,3 (Japanese Version)",
+    "artists": [
+      "CLC"
+    ],
+    "album": "チャミスマ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/66/16/686616d7-1480-c33a-88d0-230f7509a182/mzaf_1312185984987533366.plus.aac.p.m4a",
+    "duration": 216924,
+    "trackUrl": "https://music.apple.com/us/album/1-2-3-japanese-version/1136678750?i=1136678760",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/04/c6/ca04c6a3-fe61-22c2-07d1-cc634a156ad3/TypeA.jpg/300x300bb.jpg",
+    "trackId": "1136678760"
+  },
+  {
+    "id": "applemusic-1466265567",
+    "name": "Cafe Mocha Please",
+    "artists": [
+      "CLC"
+    ],
+    "album": "First Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/09/b2/af09b236-83a5-cdb6-e5fe-4b5895de2398/mzaf_17749437209920884618.plus.aac.p.m4a",
+    "duration": 205725,
+    "trackUrl": "https://music.apple.com/us/album/cafe-mocha-please/1466265566?i=1466265567",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d0/4c/c1/d04cc1b6-b7fd-020f-8037-86d5d38b793c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1466265567"
+  },
+  {
+    "id": "applemusic-1466265568",
+    "name": "Pepe",
+    "artists": [
+      "CLC"
+    ],
+    "album": "First Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d2/4a/90/d24a90bd-cbcf-8b20-0c62-e311bf61c0c9/mzaf_9914537483999150714.plus.aac.p.m4a",
+    "duration": 197506,
+    "trackUrl": "https://music.apple.com/us/album/pepe/1466265566?i=1466265568",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d0/4c/c1/d04cc1b6-b7fd-020f-8037-86d5d38b793c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1466265568"
+  },
+  {
+    "id": "applemusic-1466265569",
+    "name": "Sharala",
+    "artists": [
+      "CLC"
+    ],
+    "album": "First Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a8/f5/dd/a8f5dd9a-a3e0-fe67-da3f-bdbc44c01c91/mzaf_16449764328587570986.plus.aac.p.m4a",
+    "duration": 201419,
+    "trackUrl": "https://music.apple.com/us/album/sharala/1466265566?i=1466265569",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d0/4c/c1/d04cc1b6-b7fd-020f-8037-86d5d38b793c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1466265569"
+  },
+  {
+    "id": "applemusic-1466265570",
+    "name": "First Love",
+    "artists": [
+      "CLC"
+    ],
+    "album": "First Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/9e/5c/a29e5c54-a1c7-6931-8849-0cb0e1072500/mzaf_18213527596739712776.plus.aac.p.m4a",
+    "duration": 221256,
+    "trackUrl": "https://music.apple.com/us/album/first-love/1466265566?i=1466265570",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d0/4c/c1/d04cc1b6-b7fd-020f-8037-86d5d38b793c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1466265570"
+  },
+  {
+    "id": "applemusic-1466265571",
+    "name": "Opening the Window",
+    "artists": [
+      "CLC"
+    ],
+    "album": "First Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/19/c4/ff/19c4ffc8-85cf-6468-cc6c-67fc2960cee3/mzaf_12534809491147346990.plus.aac.p.m4a",
+    "duration": 214037,
+    "trackUrl": "https://music.apple.com/us/album/opening-the-window/1466265566?i=1466265571",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d0/4c/c1/d04cc1b6-b7fd-020f-8037-86d5d38b793c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1466265571"
+  },
+  {
+    "id": "applemusic-1577879761",
+    "name": "I should be so Lucky",
+    "artists": [
+      "CLC"
+    ],
+    "album": "High Heels - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/00/52/450052a6-5401-4126-c686-f7aeef8731bc/mzaf_350009384827384616.plus.aac.p.m4a",
+    "duration": 212139,
+    "trackUrl": "https://music.apple.com/us/album/i-should-be-so-lucky/1577879756?i=1577879761",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/a0/e9/eca0e9fc-91f7-cde0-0a13-69824a3648c3/8804775099687.jpg/300x300bb.jpg",
+    "trackId": "1577879761"
+  },
+  {
+    "id": "applemusic-1577878619",
+    "name": "Charming Smile",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Charming Smile - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/e3/04/57e30419-e147-0292-a1c8-eeba33ecf4ec/mzaf_3170752851891823190.plus.aac.p.m4a",
+    "duration": 199116,
+    "trackUrl": "https://music.apple.com/us/album/charming-smile/1577878618?i=1577878619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d0/67/a3/d067a3a5-cde3-696c-5fc2-137e2942acd6/8804775099694.jpg/300x300bb.jpg",
+    "trackId": "1577878619"
+  },
+  {
+    "id": "applemusic-1502962582",
+    "name": "Hide And See",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Question - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/58/c7/bb/58c7bb75-32ab-82f8-c8c1-58088eaed7a8/mzaf_4090918378267756993.plus.aac.p.m4a",
+    "duration": 200600,
+    "trackUrl": "https://music.apple.com/jp/album/hide-and-see/1502962569?i=1502962582",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/26/c7/b7/26c7b702-571c-3bec-77e9-7f990495a431/859755527207_cover.jpg/300x300bb.jpg",
+    "trackId": "1502962582"
+  }
+]

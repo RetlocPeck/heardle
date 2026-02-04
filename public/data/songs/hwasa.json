@@ -1,0 +1,496 @@
+[
+  {
+    "id": "applemusic-1840596810",
+    "name": "I Love My Body",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "I Love My Body - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/88/f2/0e88f237-97dd-f619-6a76-84a7ee440f98/mzaf_15027335266484690154.plus.aac.p.m4a",
+    "duration": 150176,
+    "trackUrl": "https://music.apple.com/us/album/i-love-my-body/1840596809?i=1840596810",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1a/d8/99/1ad8998a-fcc9-e736-f650-8e219960502d/cover_KM0023425_1.jpg/300x300bb.jpg",
+    "trackId": "1840596810"
+  },
+  {
+    "id": "applemusic-1521222155",
+    "name": "Intro : Nobody else",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "María - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/ba/b6/0cbab6dc-136a-580d-025b-0bc189727cff/mzaf_16527361479784509696.plus.aac.p.m4a",
+    "duration": 117640,
+    "trackUrl": "https://music.apple.com/us/album/intro-nobody-else/1521222154?i=1521222155",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/3c/5d/0d3c5dd1-7f2a-c1fe-d624-f69783b72776/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1521222155"
+  },
+  {
+    "id": "applemusic-1521222426",
+    "name": "Maria",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "María - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/91/4a/b0/914ab0ae-061c-c1bc-edc3-3e5dddf633e2/mzaf_18250121603671196655.plus.aac.p.m4a",
+    "duration": 199027,
+    "trackUrl": "https://music.apple.com/us/album/maria/1521222154?i=1521222426",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/3c/5d/0d3c5dd1-7f2a-c1fe-d624-f69783b72776/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1521222426"
+  },
+  {
+    "id": "applemusic-1521222427",
+    "name": "Kidding",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "María - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/7f/fb/047ffbd3-708a-13bd-20a9-f3c01c480f34/mzaf_15483131131673697187.plus.aac.p.m4a",
+    "duration": 165827,
+    "trackUrl": "https://music.apple.com/us/album/kidding/1521222154?i=1521222427",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/3c/5d/0d3c5dd1-7f2a-c1fe-d624-f69783b72776/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1521222427"
+  },
+  {
+    "id": "applemusic-1521222428",
+    "name": "WHY",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "María - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/88/db/3d/88db3df1-54be-4153-7f5b-542648d6a27b/mzaf_17508950592677374296.plus.aac.p.m4a",
+    "duration": 201867,
+    "trackUrl": "https://music.apple.com/us/album/why/1521222154?i=1521222428",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/3c/5d/0d3c5dd1-7f2a-c1fe-d624-f69783b72776/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1521222428"
+  },
+  {
+    "id": "applemusic-1521222430",
+    "name": "LMM",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "María - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/77/15/00/77150027-e15e-e910-ebdf-97ea3daadb3f/mzaf_10921895520517823958.plus.aac.p.m4a",
+    "duration": 281907,
+    "trackUrl": "https://music.apple.com/us/album/lmm/1521222154?i=1521222430",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/3c/5d/0d3c5dd1-7f2a-c1fe-d624-f69783b72776/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1521222430"
+  },
+  {
+    "id": "applemusic-1709459495",
+    "name": "Chili",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Chili - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4b/21/d9/4b21d90e-f32d-0d78-2095-1dd21b5f1d5a/mzaf_13204727674125133079.plus.aac.p.m4a",
+    "duration": 135429,
+    "trackUrl": "https://music.apple.com/us/album/chili/1709459492?i=1709459495",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/57/58/86575848-9a53-f57d-aa58-9a32d051edf2/888272124071_Cover.jpg/300x300bb.jpg",
+    "trackId": "1709459495"
+  },
+  {
+    "id": "applemusic-1502744425",
+    "name": "Physical (feat. Hwa Sa)",
+    "artists": [
+      "Dua Lipa"
+    ],
+    "album": "Physical (feat. Hwa Sa) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a0/fa/69/a0fa692e-78d9-db98-14bb-fec22de5d391/mzaf_6413045766261515754.plus.aac.p.m4a",
+    "duration": 193697,
+    "trackUrl": "https://music.apple.com/us/album/physical-feat-hwa-sa/1502744417?i=1502744425",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c0/0b/5c/c00b5c2a-e6fd-0c27-0ace-45b9b12caef7/190295242404.jpg/300x300bb.jpg",
+    "trackId": "1502744425"
+  },
+  {
+    "id": "applemusic-1596198151",
+    "name": "FOMO",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Guilty Pleasure - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/49/8b/bc/498bbca0-77bc-4931-5351-d24b9cb2d685/mzaf_15480229810529844794.plus.aac.p.m4a",
+    "duration": 141267,
+    "trackUrl": "https://music.apple.com/us/album/fomo/1596198150?i=1596198151",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a9/8d/06/a98d06aa-23c7-3a70-a826-7ee2c12a3fbd/guilty_pleasure.jpg/300x300bb.jpg",
+    "trackId": "1596198151"
+  },
+  {
+    "id": "applemusic-1596198152",
+    "name": "I'm a B",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Guilty Pleasure - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e6/96/fe/e696fe24-03ee-e6c3-1e68-a7c507978175/mzaf_2754172485203752794.plus.aac.p.m4a",
+    "duration": 167333,
+    "trackUrl": "https://music.apple.com/us/album/im-a-b/1596198150?i=1596198152",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a9/8d/06/a98d06aa-23c7-3a70-a826-7ee2c12a3fbd/guilty_pleasure.jpg/300x300bb.jpg",
+    "trackId": "1596198152"
+  },
+  {
+    "id": "applemusic-1596198153",
+    "name": "Bless U",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Guilty Pleasure - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/06/6e/a5/066ea5f5-2878-7c6f-d38d-e0daad21e829/mzaf_11970188019095056551.plus.aac.p.m4a",
+    "duration": 170573,
+    "trackUrl": "https://music.apple.com/us/album/bless-u/1596198150?i=1596198153",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a9/8d/06/a98d06aa-23c7-3a70-a826-7ee2c12a3fbd/guilty_pleasure.jpg/300x300bb.jpg",
+    "trackId": "1596198153"
+  },
+  {
+    "id": "applemusic-1843518968",
+    "name": "Good Goodbye",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Good Goodbye - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/3f/e7/983fe7ca-6448-c912-7e51-c8816f7c47d1/mzaf_4744868879428946437.plus.aac.p.m4a",
+    "duration": 223000,
+    "trackUrl": "https://music.apple.com/us/album/good-goodbye/1843518967?i=1843518968",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/bd/f4/7cbdf4a9-50e6-ec52-7e54-644c80e6b86d/cover_KM0023526_1.jpg/300x300bb.jpg",
+    "trackId": "1843518968"
+  },
+  {
+    "id": "applemusic-1771826105",
+    "name": "Somebody!",
+    "artists": [
+      "Loco & HWASA"
+    ],
+    "album": "Somebody - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/06/7a/aa067af6-ac2f-d40c-e3c0-3120e2925ae1/mzaf_10370266599499525742.plus.aac.p.m4a",
+    "duration": 177413,
+    "trackUrl": "https://music.apple.com/us/album/somebody/1771826100?i=1771826105",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/10/2c/39102c88-63a8-319f-a255-4b02c3797244/8809887765352_Cover.jpg/300x300bb.jpg",
+    "trackId": "1771826105"
+  },
+  {
+    "id": "applemusic-1771826109",
+    "name": "Lemon",
+    "artists": [
+      "Loco & HWASA"
+    ],
+    "album": "Somebody - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/56/ed/7156edbf-0acf-6653-372c-a91bb2a9525b/mzaf_3920717657340012666.plus.aac.p.m4a",
+    "duration": 211720,
+    "trackUrl": "https://music.apple.com/us/album/lemon/1771826100?i=1771826109",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/39/10/2c/39102c88-63a8-319f-a255-4b02c3797244/8809887765352_Cover.jpg/300x300bb.jpg",
+    "trackId": "1771826109"
+  },
+  {
+    "id": "applemusic-1452787149",
+    "name": "TWIT",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "TWIT - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/7f/75/4b7f75d6-70a0-f573-8e99-c8f8b514635a/mzaf_10626210618490765550.plus.aac.p.m4a",
+    "duration": 190786,
+    "trackUrl": "https://music.apple.com/us/album/twit/1452787147?i=1452787149",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3b/0d/24/3b0d2467-173c-98e8-9ada-1da25aae7581/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1452787149"
+  },
+  {
+    "id": "applemusic-1579223866",
+    "name": "I Can't Make You Love Me",
+    "artists": [
+      "KINDA BLUE & HWASA"
+    ],
+    "album": "I Can't Make You Love Me - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/b2/18/ceb218db-2bbc-b797-d0fd-2fd6be01313e/mzaf_1387119060543293601.plus.aac.p.m4a",
+    "duration": 158527,
+    "trackUrl": "https://music.apple.com/us/album/i-cant-make-you-love-me/1579223864?i=1579223866",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d0/95/b3/d095b3de-67e0-b5b0-1bbd-512da4cbb2df/2.jpg/300x300bb.jpg",
+    "trackId": "1579223866"
+  },
+  {
+    "id": "applemusic-1840598108",
+    "name": "Road",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/f5/f1/d0f5f1b2-7998-d3f2-f2e4-9d8e457083c8/mzaf_2970174886176356184.plus.aac.p.m4a",
+    "duration": 176520,
+    "trackUrl": "https://music.apple.com/us/album/road/1840598105?i=1840598108",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598108"
+  },
+  {
+    "id": "applemusic-1840598111",
+    "name": "HWASA",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/4c/68/4e4c68c2-38c9-6419-e1b1-6b6b1816471f/mzaf_5377888981133078122.plus.aac.p.m4a",
+    "duration": 173441,
+    "trackUrl": "https://music.apple.com/us/album/hwasa/1840598105?i=1840598111",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598111"
+  },
+  {
+    "id": "applemusic-1840598112",
+    "name": "NA",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a2/2d/03/a22d03b7-7b60-38a5-460b-ae75460240da/mzaf_2110062917172194591.plus.aac.p.m4a",
+    "duration": 163658,
+    "trackUrl": "https://music.apple.com/us/album/na/1840598105?i=1840598112",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598112"
+  },
+  {
+    "id": "applemusic-1840598113",
+    "name": "EGO",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/67/84/8967846b-8075-81b9-5247-8aafbca696d4/mzaf_13199215857890407462.plus.aac.p.m4a",
+    "duration": 183202,
+    "trackUrl": "https://music.apple.com/us/album/ego/1840598105?i=1840598113",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598113"
+  },
+  {
+    "id": "applemusic-1840598114",
+    "name": "OK NEXT",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/c1/40/a6c140c0-4df7-c68d-5382-249745315639/mzaf_1846755685017937916.plus.aac.p.m4a",
+    "duration": 160716,
+    "trackUrl": "https://music.apple.com/us/album/ok-next/1840598105?i=1840598114",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598114"
+  },
+  {
+    "id": "applemusic-1840598297",
+    "name": "just want to have some fun",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/6a/79/716a796d-2c7f-1efd-f9f8-7a07e097a827/mzaf_2037110001682737442.plus.aac.p.m4a",
+    "duration": 170020,
+    "trackUrl": "https://music.apple.com/us/album/just-want-to-have-some-fun/1840598105?i=1840598297",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598297"
+  },
+  {
+    "id": "applemusic-1840598298",
+    "name": "O",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "O",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/cb/8d/91cb8d93-2aa8-9ad0-5a2c-f46ba610db05/mzaf_6282667811192675403.plus.aac.p.m4a",
+    "duration": 196579,
+    "trackUrl": "https://music.apple.com/us/album/o/1840598105?i=1840598298",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/66/28/9e/66289ed9-b190-0ccd-56d0-e4823923e859/cover_KM0023429_1.jpg/300x300bb.jpg",
+    "trackId": "1840598298"
+  },
+  {
+    "id": "applemusic-1625244815",
+    "name": "Orbit",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "The King : Eternal Monarch, Pt. 2 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/d5/84/20/d58420a0-5d50-37a6-48c8-32577b16bb14/mzaf_15171297713146161004.plus.aac.p.m4a",
+    "duration": 186067,
+    "trackUrl": "https://music.apple.com/us/album/orbit/1625244814?i=1625244815",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/47/11/0d/47110dfc-a183-20fe-ec17-a17bf4c14cf8/8809704414234_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625244815"
+  },
+  {
+    "id": "applemusic-1570384995",
+    "name": "Don't",
+    "artists": [
+      "Loco & HWASA"
+    ],
+    "album": "The Hyena on the Keyboard, Pt. 4 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/70/3c/61/703c6155-eeef-171f-c661-dab95ee86269/mzaf_6041470436962145485.plus.aac.p.m4a",
+    "duration": 231654,
+    "trackUrl": "https://music.apple.com/us/album/dont/1570384993?i=1570384995",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1f/63/40/1f6340b9-9a9f-a277-9d90-924eddaa01b8/8809658313935_Cover.jpg/300x300bb.jpg",
+    "trackId": "1570384995"
+  },
+  {
+    "id": "applemusic-1483194640",
+    "name": "In the Fall",
+    "artists": [
+      "HWASA & WOOGIE"
+    ],
+    "album": "Hwa:Telier - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/38/35/47/38354722-3e1e-dc16-ddac-f84fc246766f/mzaf_9931673729293999979.plus.aac.p.m4a",
+    "duration": 206280,
+    "trackUrl": "https://music.apple.com/us/album/in-the-fall/1483194639?i=1483194640",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/38/7e/b2/387eb235-0a96-f22b-be14-3917a195326a/cover_-_Hwa_Sa_WOOGIE_DS.jpg/300x300bb.jpg",
+    "trackId": "1483194640"
+  },
+  {
+    "id": "applemusic-1660706444",
+    "name": "Grey Christmas",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "[Hwa Sa Show, Vol. 2] Grey Christmas - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2d/1c/35/2d1c3531-09de-99c9-f84c-6501a1e4fb49/mzaf_15227606256856960364.plus.aac.p.m4a",
+    "duration": 208293,
+    "trackUrl": "https://music.apple.com/us/album/grey-christmas/1660706443?i=1660706444",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/8a/74/008a7431-f2d1-1550-e735-26b32ab3ac5f/01..jpg/300x300bb.jpg",
+    "trackId": "1660706444"
+  },
+  {
+    "id": "applemusic-1465096224",
+    "name": "Drive (feat. george)",
+    "artists": [
+      "Kim Hyun Chul"
+    ],
+    "album": "Fe's 10th : Preview - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/30/32/b8/3032b8b4-e5af-ae28-1314-b0d983d95d8c/mzaf_2907818875869136224.plus.aac.p.m4a",
+    "duration": 214280,
+    "trackUrl": "https://music.apple.com/us/album/drive-feat-george/1465096223?i=1465096224",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/61/43/16/61431698-2a3d-fd2c-d5f1-a12192c8987a/cover-.jpg/300x300bb.jpg",
+    "trackId": "1465096224"
+  },
+  {
+    "id": "applemusic-1465096225",
+    "name": "Two Girl Love a Man",
+    "artists": [
+      "HWASA, Whee In & Kim Hyun Chul"
+    ],
+    "album": "Fe's 10th : Preview - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/56/54/9956543b-534b-d5a3-deb3-b59328717583/mzaf_4613561886569601101.plus.aac.p.m4a",
+    "duration": 245080,
+    "trackUrl": "https://music.apple.com/us/album/two-girl-love-a-man/1465096223?i=1465096225",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/61/43/16/61431698-2a3d-fd2c-d5f1-a12192c8987a/cover-.jpg/300x300bb.jpg",
+    "trackId": "1465096225"
+  },
+  {
+    "id": "applemusic-1465096526",
+    "name": "Tonight Is the Night (feat. SOLE)",
+    "artists": [
+      "Kim Hyun Chul"
+    ],
+    "album": "Fe's 10th : Preview - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a8/39/b5/a839b54e-9353-4018-ab41-314ff44b85de/mzaf_10685039076066034004.plus.aac.p.m4a",
+    "duration": 221427,
+    "trackUrl": "https://music.apple.com/us/album/tonight-is-the-night-feat-sole/1465096223?i=1465096526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/61/43/16/61431698-2a3d-fd2c-d5f1-a12192c8987a/cover-.jpg/300x300bb.jpg",
+    "trackId": "1465096526"
+  },
+  {
+    "id": "applemusic-1465096527",
+    "name": "Yeolsim",
+    "artists": [
+      "Kim Hyun Chul"
+    ],
+    "album": "Fe's 10th : Preview - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/d1/be/ebd1be0f-19d7-04fe-5305-4acb924ee635/mzaf_15308136001154031440.plus.aac.p.m4a",
+    "duration": 192920,
+    "trackUrl": "https://music.apple.com/us/album/yeolsim/1465096223?i=1465096527",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/61/43/16/61431698-2a3d-fd2c-d5f1-a12192c8987a/cover-.jpg/300x300bb.jpg",
+    "trackId": "1465096527"
+  },
+  {
+    "id": "applemusic-1465096528",
+    "name": "Wedding Waltz (feat. Okdal)",
+    "artists": [
+      "Kim Hyun Chul"
+    ],
+    "album": "Fe's 10th : Preview - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f7/70/58/f77058e3-5628-4630-eb9f-a849ad031ee3/mzaf_5385535834227356820.plus.aac.p.m4a",
+    "duration": 163822,
+    "trackUrl": "https://music.apple.com/us/album/wedding-waltz-feat-okdal/1465096223?i=1465096528",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/61/43/16/61431698-2a3d-fd2c-d5f1-a12192c8987a/cover-.jpg/300x300bb.jpg",
+    "trackId": "1465096528"
+  },
+  {
+    "id": "applemusic-1551320420",
+    "name": "Play With Life",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Play With Life - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/51/c3/c7/51c3c715-be88-453f-302d-d5f442e6de57/mzaf_4356615604899250932.plus.aac.p.m4a",
+    "duration": 141571,
+    "trackUrl": "https://music.apple.com/us/album/play-with-life/1551320419?i=1551320420",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/7d/63/417d6382-1b4e-5e09-f22c-d92eb1828a3f/1.jpg/300x300bb.jpg",
+    "trackId": "1551320420"
+  },
+  {
+    "id": "applemusic-1658718464",
+    "name": "just talking to myself",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "[Hwa Sa Show, Vol. 1] just talking to myself",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/74/34/6c/74346c4a-e000-5877-ba18-5c3d8c19cdd6/mzaf_724914588727944355.plus.aac.p.m4a",
+    "duration": 169387,
+    "trackUrl": "https://music.apple.com/us/album/just-talking-to-myself/1658718463?i=1658718464",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/e9/be/fce9bea3-0a4d-0a9e-771f-102f3dd94be8/dj.varrkull.jpg/300x300bb.jpg",
+    "trackId": "1658718464"
+  },
+  {
+    "id": "applemusic-1779445624",
+    "name": "Star",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Star - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/d3/3c/66d33c6f-b2bd-5c83-3edb-d927f640bd2e/mzaf_5626513809467146444.plus.aac.p.m4a",
+    "duration": 194215,
+    "trackUrl": "https://music.apple.com/us/album/star/1779445622?i=1779445624",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/3d/81/cf3d8141-54f3-e7f4-5598-8c9d1f6cf464/888272143546_Cover.jpg/300x300bb.jpg",
+    "trackId": "1779445624"
+  },
+  {
+    "id": "applemusic-1361077831",
+    "name": "Drinks Up (feat. Hwa Sa)",
+    "artists": [
+      "Ja Mezz"
+    ],
+    "album": "Drinks Up (feat. Hwa Sa) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7f/ca/41/7fca4103-1786-be54-b508-4f7224e1be8f/mzaf_7223226793510632824.plus.aac.p.m4a",
+    "duration": 295793,
+    "trackUrl": "https://music.apple.com/us/album/drinks-up-feat-hwa-sa/1361077820?i=1361077831",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/09/f7/64/09f76479-a056-4b7d-ac38-072ed7080d78/cover_KM0005876_1.jpg/300x300bb.jpg",
+    "trackId": "1361077831"
+  },
+  {
+    "id": "applemusic-1229446319",
+    "name": "Love Comes",
+    "artists": [
+      "HWASA & eSNa"
+    ],
+    "album": "Love Comes - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/cc/81/17cc819c-08f8-dd00-9ddb-01a339da635b/mzaf_17993509202100228574.plus.aac.p.m4a",
+    "duration": 221404,
+    "trackUrl": "https://music.apple.com/us/album/love-comes/1229446316?i=1229446319",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/28/2b/85/282b85c4-d18c-0721-a554-ac1b53e32e7e/191515369604_Cover.jpg/300x300bb.jpg",
+    "trackId": "1229446319"
+  },
+  {
+    "id": "applemusic-1617389572",
+    "name": "Q (feat. Hwa Sa)",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Q (feat. Hwa Sa) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f4/b5/df/f4b5dfc8-04f8-e308-4016-5a484fe9d8d1/mzaf_9312392928174364678.plus.aac.p.m4a",
+    "duration": 210760,
+    "trackUrl": "https://music.apple.com/jp/album/q-feat-hwa-sa/1617389570?i=1617389572",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a4/2c/a0/a42ca064-a100-65bf-5ebb-7c16200a1457/859758056889_cover.jpg/300x300bb.jpg",
+    "trackId": "1617389572"
+  }
+]

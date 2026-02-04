@@ -1,3 +1,5 @@
+import { generateTheme } from './theme';
+
 export interface ArtistTheme {
   primaryColor: string;
   gradientFrom: string;
@@ -9,876 +11,274 @@ export interface ArtistTheme {
   textColor: string;
 }
 
-export interface ArtistMetadata {
-  imageUrl: string;
-  songCount: number;
-  releaseYear: number;
-}
-
 export interface ArtistConfig {
   id: string;
   name: string;
   displayName: string;
-  itunesArtistId: string;
   searchTerms: string[];
+  appleMusicArtistId?: string;
   theme: ArtistTheme;
-  metadata: ArtistMetadata;
   featured?: boolean;
 }
 
-export const ARTISTS: ArtistConfig[] = [
-  // Featured artists will appear first in the list
-  // To add more featured artists, simply set featured: true
-  {
-    id: 'twice',
-    name: 'TWICE',
-    displayName: 'TWICE',
-    itunesArtistId: '1203816887',
-    searchTerms: ['TWICE', '트와이스'],
-    featured: true,
-    theme: {
-      primaryColor: 'pink',
-      gradientFrom: 'from-pink-500',
-      gradientTo: 'to-rose-600',
-      accentColor: 'bg-pink-500 hover:bg-pink-600',
-      spinnerColor: 'border-pink-400',
-      borderColor: 'border-pink-400',
-      bgColor: 'bg-pink-50',
-      textColor: 'text-pink-800'
-    },
-    metadata: {
-      imageUrl: '/groups/twice.jpg',
-      songCount: 100,
-      releaseYear: 2015
-    }
+// =============================================================================
+// CUSTOM THEMES - For artists with specific brand colors
+// =============================================================================
+
+const CUSTOM_THEMES: Record<string, ArtistTheme> = {
+  // TWICE - Apricot/Peach pink (official color)
+  twice: {
+    primaryColor: 'pink',
+    gradientFrom: 'from-pink-500',
+    gradientTo: 'to-rose-600',
+    accentColor: 'bg-pink-500 hover:bg-pink-600',
+    spinnerColor: 'border-pink-400',
+    borderColor: 'border-pink-400',
+    bgColor: 'bg-pink-50',
+    textColor: 'text-pink-800'
   },
-  {
-    id: 'le-sserafim',
-    name: 'LE SSERAFIM',
-    displayName: 'LE SSERAFIM',
-    itunesArtistId: '1616740364',
-    searchTerms: ['LE SSERAFIM', '르세라핌'],
-    theme: {
-      primaryColor: 'purple',
-      gradientFrom: 'from-purple-500',
-      gradientTo: 'to-indigo-600',
-      accentColor: 'bg-purple-500 hover:bg-purple-600',
-      spinnerColor: 'border-purple-400',
-      borderColor: 'border-purple-400',
-      bgColor: 'bg-purple-50',
-      textColor: 'text-purple-800'
-    },
-    metadata: {
-      imageUrl: '/groups/lesserafim.jpg',
-      songCount: 50,
-      releaseYear: 2022
-    }
+  // BTS - Purple (official ARMY color)
+  bts: {
+    primaryColor: 'purple',
+    gradientFrom: 'from-purple-600',
+    gradientTo: 'to-indigo-700',
+    accentColor: 'bg-purple-600 hover:bg-purple-700',
+    spinnerColor: 'border-purple-400',
+    borderColor: 'border-purple-400',
+    bgColor: 'bg-purple-50',
+    textColor: 'text-purple-800'
   },
-  {
-    id: 'itzy',
-    name: 'ITZY',
-    displayName: 'ITZY',
-    itunesArtistId: '1451964345',
-    searchTerms: ['ITZY', '있지', 'itzy'],
-    theme: {
-      primaryColor: 'orange',
-      gradientFrom: 'from-orange-500',
-      gradientTo: 'to-red-600',
-      accentColor: 'bg-orange-500 hover:bg-orange-600',
-      spinnerColor: 'border-orange-400',
-      borderColor: 'border-orange-400',
-      bgColor: 'bg-orange-50',
-      textColor: 'text-orange-800'
-    },
-    metadata: {
-      imageUrl: '/groups/itzy.jpg',
-      songCount: 40,
-      releaseYear: 2019
-    }
+  // BLACKPINK - Black/Pink (official colors)
+  blackpink: {
+    primaryColor: 'pink',
+    gradientFrom: 'from-gray-800',
+    gradientTo: 'to-pink-600',
+    accentColor: 'bg-pink-600 hover:bg-pink-700',
+    spinnerColor: 'border-pink-400',
+    borderColor: 'border-pink-400',
+    bgColor: 'bg-pink-50',
+    textColor: 'text-pink-800'
   },
-  {
-    id: 'bts',
-    name: 'BTS',
-    displayName: 'BTS',
-    itunesArtistId: '883131348',
-    searchTerms: ['BTS', '방탄소년단', 'Bangtan Boys', 'Beyond The Scene'],
-    theme: {
-      primaryColor: 'purple',
-      gradientFrom: 'from-purple-600',
-      gradientTo: 'to-blue-600',
-      accentColor: 'bg-purple-600 hover:bg-purple-700',
-      spinnerColor: 'border-purple-400',
-      borderColor: 'border-purple-400',
-      bgColor: 'bg-purple-50',
-      textColor: 'text-purple-800'
-    },
-    metadata: {
-      imageUrl: '/groups/bts.jpg',
-      songCount: 150,
-      releaseYear: 2013
-    }
+  // Red Velvet - Red & pastel colors
+  'red-velvet': {
+    primaryColor: 'red',
+    gradientFrom: 'from-red-500',
+    gradientTo: 'to-pink-600',
+    accentColor: 'bg-red-500 hover:bg-red-600',
+    spinnerColor: 'border-red-400',
+    borderColor: 'border-red-400',
+    bgColor: 'bg-red-50',
+    textColor: 'text-red-800'
   },
-  {
-    id: 'kpop-demon-hunters',
-    name: 'Kpop Demon Hunters',
-    displayName: 'Kpop Demon Hunters',
-    itunesArtistId: '1820264140',
-    searchTerms: ['Kpop Demon Hunters', 'K-pop Demon Hunters'],
-    theme: {
-      primaryColor: 'red',
-      gradientFrom: 'from-red-600',
-      gradientTo: 'to-red-800',
-      accentColor: 'bg-red-600 hover:bg-red-700',
-      spinnerColor: 'border-red-500',
-      borderColor: 'border-red-500',
-      bgColor: 'bg-red-50',
-      textColor: 'text-red-800'
-    },
-    metadata: {
-      imageUrl: '/groups/kpop-demon-hunters.jpg',
-      songCount: 30,
-      releaseYear: 2025
-    }
+  // Kpop Demon Hunters - Red/Dark (brand specific)
+  'kpop-demon-hunters': {
+    primaryColor: 'red',
+    gradientFrom: 'from-red-600',
+    gradientTo: 'to-red-800',
+    accentColor: 'bg-red-600 hover:bg-red-700',
+    spinnerColor: 'border-red-500',
+    borderColor: 'border-red-500',
+    bgColor: 'bg-red-50',
+    textColor: 'text-red-800'
   },
-  {
-    id: 'blackpink',
-    name: 'BLACKPINK',
-    displayName: 'BLACKPINK',
-    itunesArtistId: '1141774019',
-    searchTerms: ['BLACKPINK', '블랙핑크', 'Black Pink'],
-    theme: {
-      primaryColor: 'black',
-      gradientFrom: 'from-gray-800',
-      gradientTo: 'to-black',
-      accentColor: 'bg-black hover:bg-gray-800',
-      spinnerColor: 'border-gray-600',
-      borderColor: 'border-gray-600',
-      bgColor: 'bg-gray-50',
-      textColor: 'text-gray-800'
-    },
-    metadata: {
-      imageUrl: '/groups/blackpink.jpg',
-      songCount: 60,
-      releaseYear: 2016
-    }
-  },
-  {
-    id: 'aespa',
-    name: 'aespa',
-    displayName: 'aespa',
-    itunesArtistId: '1540251304',
-    searchTerms: ['aespa', '에스파', 'AESPA'],
-    theme: {
-      primaryColor: 'blue',
-      gradientFrom: 'from-blue-500',
-      gradientTo: 'to-cyan-600',
-      accentColor: 'bg-blue-500 hover:bg-blue-600',
-      spinnerColor: 'border-blue-400',
-      borderColor: 'border-blue-400',
-      bgColor: 'bg-blue-50',
-      textColor: 'text-blue-800'
-    },
-    metadata: {
-      imageUrl: '/groups/aespa.jpg',
-      songCount: 35,
-      releaseYear: 2020
-    }
-  },
-  {
-    id: 'i-dle',
-    name: 'i-dle',
-    displayName: 'i-dle',
-    itunesArtistId: '1378887586',
-    searchTerms: ['i-dle', '아이들', 'idle', 'G-idle', '(G)-idle', 'GIDLE'],
-    theme: {
-      primaryColor: 'emerald',
-      gradientFrom: 'from-emerald-500',
-      gradientTo: 'to-teal-600',
-      accentColor: 'bg-emerald-500 hover:bg-emerald-600',
-      spinnerColor: 'border-emerald-400',
-      borderColor: 'border-emerald-400',
-      bgColor: 'bg-emerald-50',
-      textColor: 'text-emerald-800'
-    },
-    metadata: {
-      imageUrl: '/groups/i-dle.jpg',
-      songCount: 45,
-      releaseYear: 2018
-    }
-  },
-  {
-    id: 'dreamcatcher',
-    name: 'Dreamcatcher',
-    displayName: 'Dreamcatcher',
-    itunesArtistId: '1194912387',
-    searchTerms: ['Dreamcatcher', '드림캐쳐', 'Dream Catcher'],
-    theme: {
-      primaryColor: 'indigo',
-      gradientFrom: 'from-indigo-600',
-      gradientTo: 'to-purple-700',
-      accentColor: 'bg-indigo-600 hover:bg-indigo-700',
-      spinnerColor: 'border-indigo-500',
-      borderColor: 'border-indigo-500',
-      bgColor: 'bg-indigo-50',
-      textColor: 'text-indigo-800'
-    },
-    metadata: {
-      imageUrl: '/groups/dreamcatcher.jpg',
-      songCount: 45,
-      releaseYear: 2017
-    }
-  },
-  {
-    id: 'everglow',
-    name: 'EVERGLOW',
-    displayName: 'EVERGLOW',
-    itunesArtistId: '1456576473',
-    searchTerms: ['EVERGLOW', '에버글로우', 'Everglow'],
-    theme: {
-      primaryColor: 'fuchsia',
-      gradientFrom: 'from-fuchsia-500',
-      gradientTo: 'to-pink-600',
-      accentColor: 'bg-fuchsia-500 hover:bg-fuchsia-600',
-      spinnerColor: 'border-fuchsia-400',
-      borderColor: 'border-fuchsia-400',
-      bgColor: 'bg-fuchsia-50',
-      textColor: 'text-fuchsia-800'
-    },
-    metadata: {
-      imageUrl: '/groups/everglow.jpg',
-      songCount: 35,
-      releaseYear: 2019
-    }
-  },
-  {
-    id: 'newjeans',
-    name: 'NewJeans',
-    displayName: 'NewJeans',
-    itunesArtistId: '1635469693',
-    searchTerms: ['NewJeans', '뉴진스', 'New Jeans'],
-    theme: {
-      primaryColor: 'green',
-      gradientFrom: 'from-green-500',
-      gradientTo: 'to-emerald-600',
-      accentColor: 'bg-green-500 hover:bg-green-600',
-      spinnerColor: 'border-green-400',
-      borderColor: 'border-green-400',
-      bgColor: 'bg-green-50',
-      textColor: 'text-green-800'
-    },
-    metadata: {
-      imageUrl: '/groups/newjeans.jpg',
-      songCount: 25,
-      releaseYear: 2022
-    }
-  },
-  {
-    id: 'ive',
-    name: 'IVE',
-    displayName: 'IVE',
-    itunesArtistId: '1594159996',
-    searchTerms: ['IVE', '아이브', 'Ive'],
-    theme: {
-      primaryColor: 'rose',
-      gradientFrom: 'from-rose-500',
-      gradientTo: 'to-pink-600',
-      accentColor: 'bg-rose-500 hover:bg-rose-600',
-      spinnerColor: 'border-rose-400',
-      borderColor: 'border-rose-400',
-      bgColor: 'bg-rose-50',
-      textColor: 'text-rose-800'
-    },
-    metadata: {
-      imageUrl: '/groups/ive.jpg',
-      songCount: 30,
-      releaseYear: 2021
-    }
-  },
-  {
-    id: 'katseye',
-    name: 'KATSEYE',
-    displayName: 'KATSEYE',
-    itunesArtistId: '1754284416',
-    searchTerms: ['KATSEYE', 'Katseye', 'katseye'],
-    theme: {
-      primaryColor: 'violet',
-      gradientFrom: 'from-violet-500',
-      gradientTo: 'to-purple-600',
-      accentColor: 'bg-violet-500 hover:bg-violet-600',
-      spinnerColor: 'border-violet-400',
-      borderColor: 'border-violet-400',
-      bgColor: 'bg-violet-50',
-      textColor: 'text-violet-800'
-    },
-    metadata: {
-      imageUrl: '/groups/katseye.jpg',
-      songCount: 15,
-      releaseYear: 2024
-    }
-  },
-  {
-    id: 'red-velvet',
-    name: 'Red Velvet',
-    displayName: 'Red Velvet',
-    itunesArtistId: '906961899',
-    searchTerms: ['Red Velvet', '레드벨벳', 'RedVelvet'],
-    theme: {
-      primaryColor: 'red',
-      gradientFrom: 'from-red-500',
-      gradientTo: 'to-pink-600',
-      accentColor: 'bg-red-500 hover:bg-red-600',
-      spinnerColor: 'border-red-400',
-      borderColor: 'border-red-400',
-      bgColor: 'bg-red-50',
-      textColor: 'text-red-800'
-    },
-    metadata: {
-      imageUrl: '/groups/red-velvet.jpg',
-      songCount: 80,
-      releaseYear: 2014
-    }
-  },
-  {
-    id: 'p1harmony',
-    name: 'P1Harmony',
-    displayName: 'P1Harmony',
-    itunesArtistId: '1536862708',
-    searchTerms: ['P1Harmony', '피원하모니', 'P1 Harmony', 'P1H'],
-    theme: {
-      primaryColor: 'teal',
-      gradientFrom: 'from-teal-500',
-      gradientTo: 'to-cyan-600',
-      accentColor: 'bg-teal-500 hover:bg-teal-600',
-      spinnerColor: 'border-teal-400',
-      borderColor: 'border-teal-400',
-      bgColor: 'bg-teal-50',
-      textColor: 'text-teal-800'
-    },
-    metadata: {
-      imageUrl: '/groups/p1harmony.jpg',
-      songCount: 45,
-      releaseYear: 2020
-    }
-  },
-  {
-    id: 'ioi',
-    name: 'I.O.I',
-    displayName: 'I.O.I',
-    itunesArtistId: '1110816583',
-    searchTerms: ['I.O.I', '아이오아이', 'IOI', 'Ideal of Idol'],
-    theme: {
-      primaryColor: 'sky',
-      gradientFrom: 'from-sky-500',
-      gradientTo: 'to-blue-600',
-      accentColor: 'bg-sky-500 hover:bg-sky-600',
-      spinnerColor: 'border-sky-400',
-      borderColor: 'border-sky-400',
-      bgColor: 'bg-sky-50',
-      textColor: 'text-sky-800'
-    },
-    metadata: {
-      imageUrl: '/groups/ioi.jpg',
-      songCount: 15,
-      releaseYear: 2016
-    }
-  },
-  {
-    id: 'aoa',
-    name: 'AOA',
-    displayName: 'AOA',
-    itunesArtistId: '1080563762',
-    searchTerms: ['AOA', '에이오에이', 'Ace of Angels'],
-    theme: {
-      primaryColor: 'amber',
-      gradientFrom: 'from-amber-500',
-      gradientTo: 'to-orange-600',
-      accentColor: 'bg-amber-500 hover:bg-amber-600',
-      spinnerColor: 'border-amber-400',
-      borderColor: 'border-amber-400',
-      bgColor: 'bg-amber-50',
-      textColor: 'text-amber-800'
-    },
-    metadata: {
-      imageUrl: '/groups/aoa.jpg',
-      songCount: 60,
-      releaseYear: 2012
-    }
-  },
-  {
-    id: 'ateez',
-    name: 'ATEEZ',
-    displayName: 'ATEEZ',
-    itunesArtistId: '1439301205',
-    searchTerms: ['ATEEZ', '에이티즈', 'Ateez'],
-    theme: {
-      primaryColor: 'slate',
-      gradientFrom: 'from-slate-600',
-      gradientTo: 'to-gray-700',
-      accentColor: 'bg-slate-600 hover:bg-slate-700',
-      spinnerColor: 'border-slate-500',
-      borderColor: 'border-slate-500',
-      bgColor: 'bg-slate-50',
-      textColor: 'text-slate-800'
-    },
-    metadata: {
-      imageUrl: '/groups/ateez.jpg',
-      songCount: 70,
-      releaseYear: 2018
-    }
-  },
-  {
-    id: 'kard',
-    name: 'KARD',
-    displayName: 'KARD',
-    itunesArtistId: '1215832588',
-    searchTerms: ['KARD', '카드', 'K.A.R.D'],
-    theme: {
-      primaryColor: 'yellow',
-      gradientFrom: 'from-yellow-500',
-      gradientTo: 'to-amber-600',
-      accentColor: 'bg-yellow-500 hover:bg-yellow-600',
-      spinnerColor: 'border-yellow-400',
-      borderColor: 'border-yellow-400',
-      bgColor: 'bg-yellow-50',
-      textColor: 'text-yellow-800'
-    },
-    metadata: {
-      imageUrl: '/groups/kard.jpg',
-      songCount: 40,
-      releaseYear: 2017
-    }
-  },
-  {
-    id: 'girls-generation',
-    name: "Girls' Generation",
-    displayName: "Girls' Generation",
-    itunesArtistId: '357463500',
-    searchTerms: ["Girls' Generation", '소녀시대', 'SNSD', 'GG', 'Soshi'],
-    theme: {
-      primaryColor: 'pink',
-      gradientFrom: 'from-pink-400',
-      gradientTo: 'to-rose-500',
-      accentColor: 'bg-pink-400 hover:bg-pink-500',
-      spinnerColor: 'border-pink-300',
-      borderColor: 'border-pink-300',
-      bgColor: 'bg-pink-50',
-      textColor: 'text-pink-800'
-    },
-    metadata: {
-      imageUrl: '/groups/girls-generation.jpg',
-      songCount: 120,
-      releaseYear: 2007
-    }
-  },
-  {
-    id: 'mamamoo',
-    name: 'MAMAMOO',
-    displayName: 'MAMAMOO',
-    itunesArtistId: '818951094',
-    searchTerms: ['MAMAMOO', '마마무', 'Mamamoo'],
-    theme: {
-      primaryColor: 'lime',
-      gradientFrom: 'from-lime-500',
-      gradientTo: 'to-green-600',
-      accentColor: 'bg-lime-500 hover:bg-lime-600',
-      spinnerColor: 'border-lime-400',
-      borderColor: 'border-lime-400',
-      bgColor: 'bg-lime-50',
-      textColor: 'text-lime-800'
-    },
-    metadata: {
-      imageUrl: '/groups/mamamoo.jpg',
-      songCount: 80,
-      releaseYear: 2014
-    }
-  },
-  {
-    id: 'stray-kids',
-    name: 'Stray Kids',
-    displayName: 'Stray Kids',
-    itunesArtistId: '1304823362',
-    searchTerms: ['Stray Kids', '스트레이 키즈', 'SKZ', 'StrayKids'],
-    theme: {
-      primaryColor: 'zinc',
-      gradientFrom: 'from-zinc-600',
-      gradientTo: 'to-slate-700',
-      accentColor: 'bg-zinc-600 hover:bg-zinc-700',
-      spinnerColor: 'border-zinc-500',
-      borderColor: 'border-zinc-500',
-      bgColor: 'bg-zinc-50',
-      textColor: 'text-zinc-800'
-    },
-    metadata: {
-      imageUrl: '/groups/stray-kids.jpg',
-      songCount: 90,
-      releaseYear: 2018
-    }
-  },
-  {
-    id: 'seventeen',
-    name: 'SEVENTEEN',
-    displayName: 'SEVENTEEN',
-    itunesArtistId: '999644772',
-    searchTerms: ['SEVENTEEN', '세븐틴', 'SVT', 'Seventeen'],
-    theme: {
-      primaryColor: 'rose',
-      gradientFrom: 'from-rose-400',
-      gradientTo: 'to-pink-500',
-      accentColor: 'bg-rose-400 hover:bg-rose-500',
-      spinnerColor: 'border-rose-300',
-      borderColor: 'border-rose-300',
-      bgColor: 'bg-rose-50',
-      textColor: 'text-rose-800'
-    },
-    metadata: {
-      imageUrl: '/groups/seventeen.jpg',
-      songCount: 110,
-      releaseYear: 2015
-    }
-  },
-  {
-    id: 'enhypen',
-    name: 'ENHYPEN',
-    displayName: 'ENHYPEN',
-    itunesArtistId: '1541011620',
-    searchTerms: ['ENHYPEN', '엔하이픈', 'Enhypen'],
-    theme: {
-      primaryColor: 'orange',
-      gradientFrom: 'from-orange-400',
-      gradientTo: 'to-red-500',
-      accentColor: 'bg-orange-400 hover:bg-orange-500',
-      spinnerColor: 'border-orange-300',
-      borderColor: 'border-orange-300',
-      bgColor: 'bg-orange-50',
-      textColor: 'text-orange-800'
-    },
-    metadata: {
-      imageUrl: '/groups/enhypen.jpg',
-      songCount: 55,
-      releaseYear: 2020
-    }
-  },
-  {
-    id: 'babymonster',
-    name: 'BABYMONSTER',
-    displayName: 'BABYMONSTER',
-    itunesArtistId: '1715981813',
-    searchTerms: ['BABYMONSTER', '베이비몬스터', 'Baby Monster', 'BMON'],
-    theme: {
-      primaryColor: 'emerald',
-      gradientFrom: 'from-emerald-400',
-      gradientTo: 'to-teal-500',
-      accentColor: 'bg-emerald-400 hover:bg-emerald-500',
-      spinnerColor: 'border-emerald-300',
-      borderColor: 'border-emerald-300',
-      bgColor: 'bg-emerald-50',
-      textColor: 'text-emerald-800'
-    },
-    metadata: {
-      imageUrl: '/groups/babymonster.jpg',
-      songCount: 20,
-      releaseYear: 2023
-    }
-  },
-  {
-    id: 'stayc',
-    name: 'STAYC',
-    displayName: 'STAYC',
-    itunesArtistId: '1538881438',
-    searchTerms: ['STAYC', '스테이씨', 'StayC'],
-    theme: {
-      primaryColor: 'cyan',
-      gradientFrom: 'from-cyan-400',
-      gradientTo: 'to-blue-500',
-      accentColor: 'bg-cyan-400 hover:bg-cyan-500',
-      spinnerColor: 'border-cyan-300',
-      borderColor: 'border-cyan-300',
-      bgColor: 'bg-cyan-50',
-      textColor: 'text-cyan-800'
-    },
-    metadata: {
-      imageUrl: '/groups/stayc.jpg',
-      songCount: 35,
-      releaseYear: 2020
-    }
-  },
-  {
-    id: 'kiss-of-life',
-    name: 'KISS OF LIFE',
-    displayName: 'KISS OF LIFE',
-    itunesArtistId: '1694672936',
-    searchTerms: ['KISS OF LIFE', '키스 오브 라이프', 'KOL', 'Kiss of Life'],
-    theme: {
-      primaryColor: 'purple',
-      gradientFrom: 'from-purple-400',
-      gradientTo: 'to-indigo-500',
-      accentColor: 'bg-purple-400 hover:bg-purple-500',
-      spinnerColor: 'border-purple-300',
-      borderColor: 'border-purple-300',
-      bgColor: 'bg-purple-50',
-      textColor: 'text-purple-800'
-    },
-    metadata: {
-      imageUrl: '/groups/kiss-of-life.jpg',
-      songCount: 25,
-      releaseYear: 2023
-    }
-  },
-  {
-    id: 'xg',
-    name: 'XG',
-    displayName: 'XG',
-    itunesArtistId: '1609409493',
-    searchTerms: ['XG', 'Xtraordinary Girls'],
-    theme: {
-      primaryColor: 'gray',
-      gradientFrom: 'from-gray-500',
-      gradientTo: 'to-slate-600',
-      accentColor: 'bg-gray-500 hover:bg-gray-600',
-      spinnerColor: 'border-gray-400',
-      borderColor: 'border-gray-400',
-      bgColor: 'bg-gray-50',
-      textColor: 'text-gray-800'
-    },
-    metadata: {
-      imageUrl: '/groups/xg.jpg',
-      songCount: 20,
-      releaseYear: 2022
-    }
-  },
-  {
-    id: 'gfriend',
-    name: 'GFRIEND',
-    displayName: 'GFRIEND',
-    itunesArtistId: '958416186',
-    searchTerms: ['GFRIEND', '여자친구', 'Gfriend', 'Girlfriend'],
-    theme: {
-      primaryColor: 'pink',
-      gradientFrom: 'from-pink-300',
-      gradientTo: 'to-rose-400',
-      accentColor: 'bg-pink-300 hover:bg-pink-400',
-      spinnerColor: 'border-pink-200',
-      borderColor: 'border-pink-200',
-      bgColor: 'bg-pink-50',
-      textColor: 'text-pink-800'
-    },
-    metadata: {
-      imageUrl: '/groups/gfriend.jpg',
-      songCount: 70,
-      releaseYear: 2015
-    }
-  },
-  {
-    id: 'chung-ha',
-    name: 'CHUNG HA',
-    displayName: 'CHUNG HA',
-    itunesArtistId: '1148527055',
-    searchTerms: ['CHUNG HA', '청하', 'Chung Ha', 'Chungha'],
-    theme: {
-      primaryColor: 'violet',
-      gradientFrom: 'from-violet-300',
-      gradientTo: 'to-purple-400',
-      accentColor: 'bg-violet-300 hover:bg-violet-400',
-      spinnerColor: 'border-violet-200',
-      borderColor: 'border-violet-200',
-      bgColor: 'bg-violet-50',
-      textColor: 'text-violet-800'
-    },
-    metadata: {
-      imageUrl: '/groups/chung-ha.jpg',
-      songCount: 45,
-      releaseYear: 2016
-    }
-  },
-  {
-    id: 'nct-127',
-    name: 'NCT 127',
-    displayName: 'NCT 127',
-    itunesArtistId: '1235849306',
-    searchTerms: ['NCT 127', '엔시티 127', 'NCT127'],
-    theme: {
-      primaryColor: 'blue',
-      gradientFrom: 'from-blue-400',
-      gradientTo: 'to-indigo-500',
-      accentColor: 'bg-blue-400 hover:bg-blue-500',
-      spinnerColor: 'border-blue-300',
-      borderColor: 'border-blue-300',
-      bgColor: 'bg-blue-50',
-      textColor: 'text-blue-800'
-    },
-    metadata: {
-      imageUrl: '/groups/nct-127.jpg',
-      songCount: 85,
-      releaseYear: 2016
-    }
-  },
-  {
-    id: 'nct-dream',
-    name: 'NCT DREAM',
-    displayName: 'NCT DREAM',
-    itunesArtistId: '1208839599',
-    searchTerms: ['NCT DREAM', '엔시티 드림', 'NCTDREAM'],
-    theme: {
-      primaryColor: 'cyan',
-      gradientFrom: 'from-cyan-300',
-      gradientTo: 'to-blue-400',
-      accentColor: 'bg-cyan-300 hover:bg-cyan-400',
-      spinnerColor: 'border-cyan-200',
-      borderColor: 'border-cyan-200',
-      bgColor: 'bg-cyan-50',
-      textColor: 'text-cyan-800'
-    },
-    metadata: {
-      imageUrl: '/groups/nct-dream.jpg',
-      songCount: 65,
-      releaseYear: 2016
-    }
-  },
-  {
-    id: 'nct-u',
-    name: 'NCT U',
-    displayName: 'NCT U',
-    itunesArtistId: '1614202131',
-    searchTerms: ['NCT U', '엔시티 유', 'NCTU'],
-    theme: {
-      primaryColor: 'indigo',
-      gradientFrom: 'from-indigo-400',
-      gradientTo: 'to-purple-500',
-      accentColor: 'bg-indigo-400 hover:bg-indigo-500',
-      spinnerColor: 'border-indigo-300',
-      borderColor: 'border-indigo-300',
-      bgColor: 'bg-indigo-50',
-      textColor: 'text-indigo-800'
-    },
-    metadata: {
-      imageUrl: '/groups/nct-u.jpg',
-      songCount: 25,
-      releaseYear: 2016
-    }
-  },
-  {
-    id: 'tomorrow-x-together',
-    name: 'TOMORROW X TOGETHER',
-    displayName: 'TXT',
-    itunesArtistId: '1454642552',
-    searchTerms: ['TOMORROW X TOGETHER', '투모로우바이투게더', 'TXT', 'Tomorrow X Together'],
-    theme: {
-      primaryColor: 'emerald',
-      gradientFrom: 'from-emerald-300',
-      gradientTo: 'to-teal-400',
-      accentColor: 'bg-emerald-300 hover:bg-emerald-400',
-      spinnerColor: 'border-emerald-200',
-      borderColor: 'border-emerald-200',
-      bgColor: 'bg-emerald-50',
-      textColor: 'text-emerald-800'
-    },
-    metadata: {
-      imageUrl: '/groups/tomorrow-x-together.jpg',
-      songCount: 55,
-      releaseYear: 2019
-    }
-  }
+};
+
+/**
+ * Get theme for an artist - uses custom theme if defined, otherwise generates one
+ */
+function getTheme(id: string): ArtistTheme {
+  return CUSTOM_THEMES[id] || generateTheme(id);
+}
+
+// =============================================================================
+// ARTIST DATA - Simplified with auto-generated themes
+// =============================================================================
+
+type ArtistData = Omit<ArtistConfig, 'theme'>;
+
+const ARTISTS_DATA: ArtistData[] = [
+  // Featured Artists
+  { id: 'twice', name: 'TWICE', displayName: 'TWICE', searchTerms: ['TWICE', '트와이스'], featured: true },
+  { id: 'bts', name: 'BTS', displayName: 'BTS', searchTerms: ['BTS', '방탄소년단', 'Bangtan Boys'] },
+  { id: 'blackpink', name: 'BLACKPINK', displayName: 'BLACKPINK', searchTerms: ['BLACKPINK', '블랙핑크'] },
+  
+  // Girl Groups
+  { id: 'le-sserafim', name: 'LE SSERAFIM', displayName: 'LE SSERAFIM', searchTerms: ['LE SSERAFIM', '르세라핌'] },
+  { id: 'itzy', name: 'ITZY', displayName: 'ITZY', searchTerms: ['ITZY', '있지'] },
+  { id: 'aespa', name: 'aespa', displayName: 'aespa', searchTerms: ['aespa', '에스파', 'AESPA'] },
+  { id: 'newjeans', name: 'NewJeans', displayName: 'NewJeans', searchTerms: ['NewJeans', '뉴진스'] },
+  { id: 'ive', name: 'IVE', displayName: 'IVE', searchTerms: ['IVE', '아이브'] },
+  { id: 'i-dle', name: 'i-dle', displayName: 'i-dle', searchTerms: ['i-dle', '아이들', 'G-idle', '(G)-idle'] },
+  { id: 'red-velvet', name: 'Red Velvet', displayName: 'Red Velvet', searchTerms: ['Red Velvet', '레드벨벳'] },
+  { id: 'dreamcatcher', name: 'Dreamcatcher', displayName: 'Dreamcatcher', searchTerms: ['Dreamcatcher', '드림캐쳐'] },
+  { id: 'everglow', name: 'EVERGLOW', displayName: 'EVERGLOW', searchTerms: ['EVERGLOW', '에버글로우'] },
+  { id: 'stayc', name: 'STAYC', displayName: 'STAYC', searchTerms: ['STAYC', '스테이씨'] },
+  { id: 'kiss-of-life', name: 'KISS OF LIFE', displayName: 'KISS OF LIFE', searchTerms: ['KISS OF LIFE', '키스 오브 라이프'] },
+  { id: 'katseye', name: 'KATSEYE', displayName: 'KATSEYE', searchTerms: ['KATSEYE'] },
+  { id: 'babymonster', name: 'BABYMONSTER', displayName: 'BABYMONSTER', searchTerms: ['BABYMONSTER', '베이비몬스터'] },
+  { id: 'girls-generation', name: "Girls' Generation", displayName: "Girls' Generation", searchTerms: ["Girls' Generation", '소녀시대', 'SNSD'] },
+  { id: 'mamamoo', name: 'MAMAMOO', displayName: 'MAMAMOO', searchTerms: ['MAMAMOO', '마마무'] },
+  { id: 'gfriend', name: 'GFRIEND', displayName: 'GFRIEND', searchTerms: ['GFRIEND', '여자친구'] },
+  { id: 'xg', name: 'XG', displayName: 'XG', searchTerms: ['XG', 'Xtraordinary Girls'] },
+  { id: 'ioi', name: 'I.O.I', displayName: 'I.O.I', searchTerms: ['I.O.I', '아이오아이'] },
+  { id: 'aoa', name: 'AOA', displayName: 'AOA', searchTerms: ['AOA', '에이오에이'] },
+  { id: 'chung-ha', name: 'CHUNG HA', displayName: 'CHUNG HA', searchTerms: ['CHUNG HA', '청하'] },
+  { id: 'fromis-9', name: 'fromis_9', displayName: 'fromis_9', searchTerms: ['fromis_9', '프로미스나인'] },
+  { id: 'wjsn', name: 'WJSN', displayName: 'WJSN', searchTerms: ['WJSN', '우주소녀', 'Cosmic Girls'] },
+  { id: 'loona', name: 'LOONA', displayName: 'LOONA', searchTerms: ['LOONA', '이달의 소녀'] },
+  { id: 'weeekly', name: 'Weeekly', displayName: 'Weeekly', searchTerms: ['Weeekly', '위클리'] },
+  { id: 'tri-be', name: 'TRI.BE', displayName: 'TRI.BE', searchTerms: ['TRI.BE', '트라이비'] },
+  { id: 'nmixx', name: 'NMIXX', displayName: 'NMIXX', searchTerms: ['NMIXX', '엔믹스'] },
+  { id: 'kep1er', name: 'Kep1er', displayName: 'Kep1er', searchTerms: ['Kep1er', '케플러'] },
+  { id: 'illit', name: 'ILLIT', displayName: 'ILLIT', searchTerms: ['ILLIT', '아일릿'] },
+  { id: 'h1-key', name: 'H1-KEY', displayName: 'H1-KEY', searchTerms: ['H1-KEY', '하이키'] },
+  { id: 'billlie', name: 'Billlie', displayName: 'Billlie', searchTerms: ['Billlie', '빌리'] },
+  { id: 'viviz', name: 'VIVIZ', displayName: 'VIVIZ', searchTerms: ['VIVIZ', '비비지'] },
+  { id: 'clc', name: 'CLC', displayName: 'CLC', searchTerms: ['CLC', '씨엘씨'] },
+  { id: 'momoland', name: 'MOMOLAND', displayName: 'MOMOLAND', searchTerms: ['MOMOLAND', '모모랜드'] },
+  { id: 'exid', name: 'EXID', displayName: 'EXID', searchTerms: ['EXID', '이엑스아이디'] },
+  { id: 'oh-my-girl', name: 'OH MY GIRL', displayName: 'OH MY GIRL', searchTerms: ['OH MY GIRL', '오마이걸'] },
+  { id: 'apink', name: 'Apink', displayName: 'Apink', searchTerms: ['Apink', '에이핑크'] },
+  { id: 'sistar', name: 'SISTAR', displayName: 'SISTAR', searchTerms: ['SISTAR', '씨스타'] },
+  { id: '2ne1', name: '2NE1', displayName: '2NE1', searchTerms: ['2NE1', '투애니원'] },
+  { id: 'wonder-girls', name: 'Wonder Girls', displayName: 'Wonder Girls', searchTerms: ['Wonder Girls', '원더걸스'] },
+  { id: 'miss-a', name: 'miss A', displayName: 'miss A', searchTerms: ['miss A', '미쓰에이'] },
+  { id: 'f-x', name: 'f(x)', displayName: 'f(x)', searchTerms: ['f(x)', '에프엑스'] },
+  { id: 'kara', name: 'KARA', displayName: 'KARA', searchTerms: ['KARA', '카라'] },
+  { id: 't-ara', name: 'T-ara', displayName: 'T-ara', searchTerms: ['T-ara', '티아라'] },
+  { id: 'secret', name: 'Secret', displayName: 'Secret', searchTerms: ['Secret', '시크릿'] },
+  { id: '4minute', name: '4minute', displayName: '4minute', searchTerms: ['4minute', '포미닛'] },
+
+  // Boy Groups
+  { id: 'stray-kids', name: 'Stray Kids', displayName: 'Stray Kids', searchTerms: ['Stray Kids', '스트레이 키즈', 'SKZ'] },
+  { id: 'seventeen', name: 'SEVENTEEN', displayName: 'SEVENTEEN', searchTerms: ['SEVENTEEN', '세븐틴', 'SVT'] },
+  { id: 'enhypen', name: 'ENHYPEN', displayName: 'ENHYPEN', searchTerms: ['ENHYPEN', '엔하이픈'] },
+  { id: 'tomorrow-x-together', name: 'TOMORROW X TOGETHER', displayName: 'TXT', searchTerms: ['TOMORROW X TOGETHER', '투모로우바이투게더', 'TXT'] },
+  { id: 'ateez', name: 'ATEEZ', displayName: 'ATEEZ', searchTerms: ['ATEEZ', '에이티즈'] },
+  { id: 'nct-127', name: 'NCT 127', displayName: 'NCT 127', searchTerms: ['NCT 127', '엔시티 127'] },
+  { id: 'nct-dream', name: 'NCT DREAM', displayName: 'NCT DREAM', searchTerms: ['NCT DREAM', '엔시티 드림'] },
+  { id: 'nct-u', name: 'NCT U', displayName: 'NCT U', searchTerms: ['NCT U', '엔시티 유'] },
+  { id: 'exo', name: 'EXO', displayName: 'EXO', searchTerms: ['EXO', '엑소'] },
+  { id: 'bigbang', name: 'BIGBANG', displayName: 'BIGBANG', searchTerms: ['BIGBANG', '빅뱅'] },
+  { id: 'super-junior', name: 'Super Junior', displayName: 'Super Junior', searchTerms: ['Super Junior', '슈퍼주니어', 'SuJu'] },
+  { id: 'shinee', name: 'SHINee', displayName: 'SHINee', searchTerms: ['SHINee', '샤이니'] },
+  { id: 'got7', name: 'GOT7', displayName: 'GOT7', searchTerms: ['GOT7', '갓세븐'] },
+  { id: 'monsta-x', name: 'MONSTA X', displayName: 'MONSTA X', searchTerms: ['MONSTA X', '몬스타엑스'] },
+  { id: 'nct', name: 'NCT', displayName: 'NCT', searchTerms: ['NCT', '엔시티'] },
+  { id: 'wayv', name: 'WayV', displayName: 'WayV', searchTerms: ['WayV', '웨이브이', '威神V'] },
+  { id: 'riize', name: 'RIIZE', displayName: 'RIIZE', searchTerms: ['RIIZE', '라이즈'] },
+  { id: 'treasure', name: 'TREASURE', displayName: 'TREASURE', searchTerms: ['TREASURE', '트레저'] },
+  { id: 'the-boyz', name: 'THE BOYZ', displayName: 'THE BOYZ', searchTerms: ['THE BOYZ', '더보이즈'] },
+  { id: 'ikon', name: 'iKON', displayName: 'iKON', searchTerms: ['iKON', '아이콘'] },
+  { id: 'winner', name: 'WINNER', displayName: 'WINNER', searchTerms: ['WINNER', '위너'] },
+  { id: 'day6', name: 'DAY6', displayName: 'DAY6', searchTerms: ['DAY6', '데이식스'] },
+  { id: 'pentagon', name: 'PENTAGON', displayName: 'PENTAGON', searchTerms: ['PENTAGON', '펜타곤'] },
+  { id: 'sf9', name: 'SF9', displayName: 'SF9', searchTerms: ['SF9', '에스에프나인'] },
+  { id: 'oneus', name: 'ONEUS', displayName: 'ONEUS', searchTerms: ['ONEUS', '원어스'] },
+  { id: 'onewe', name: 'ONEWE', displayName: 'ONEWE', searchTerms: ['ONEWE', '원위'] },
+  { id: 'verivery', name: 'VERIVERY', displayName: 'VERIVERY', searchTerms: ['VERIVERY', '베리베리'] },
+  { id: 'cravity', name: 'CRAVITY', displayName: 'CRAVITY', searchTerms: ['CRAVITY', '크래비티'] },
+  { id: 'p1harmony', name: 'P1Harmony', displayName: 'P1Harmony', searchTerms: ['P1Harmony', '피원하모니'] },
+  { id: 'kard', name: 'KARD', displayName: 'KARD', searchTerms: ['KARD', '카드'] },
+  { id: 'astro', name: 'ASTRO', displayName: 'ASTRO', searchTerms: ['ASTRO', '아스트로'] },
+  { id: 'victon', name: 'VICTON', displayName: 'VICTON', searchTerms: ['VICTON', '빅톤'] },
+  { id: 'ab6ix', name: 'AB6IX', displayName: 'AB6IX', searchTerms: ['AB6IX', '에이비식스'] },
+  { id: 'cix', name: 'CIX', displayName: 'CIX', searchTerms: ['CIX', '씨아이엑스'] },
+  { id: 'to1', name: 'TO1', displayName: 'TO1', searchTerms: ['TO1', '티오원'] },
+  { id: 'tempest', name: 'TEMPEST', displayName: 'TEMPEST', searchTerms: ['TEMPEST', '템페스트'] },
+  { id: 'omega-x', name: 'OMEGA X', displayName: 'OMEGA X', searchTerms: ['OMEGA X', '오메가엑스'] },
+  { id: 'xikers', name: 'xikers', displayName: 'xikers', searchTerms: ['xikers', '싸이커스'] },
+  { id: 'zerobaseone', name: 'ZEROBASEONE', displayName: 'ZEROBASEONE', searchTerms: ['ZEROBASEONE', '제로베이스원', 'ZB1'] },
+  { id: 'boynextdoor', name: 'BOYNEXTDOOR', displayName: 'BOYNEXTDOOR', searchTerms: ['BOYNEXTDOOR', '보이넥스트도어'] },
+  { id: 'tws', name: 'TWS', displayName: 'TWS', searchTerms: ['TWS', '투어스'] },
+  { id: 'btob', name: 'BTOB', displayName: 'BTOB', searchTerms: ['BTOB', '비투비'] },
+  { id: 'beast-highlight', name: 'Highlight', displayName: 'Highlight', searchTerms: ['Highlight', '하이라이트', 'BEAST', '비스트'] },
+  { id: 'infinite', name: 'INFINITE', displayName: 'INFINITE', searchTerms: ['INFINITE', '인피니트'] },
+  { id: 'vixx', name: 'VIXX', displayName: 'VIXX', searchTerms: ['VIXX', '빅스'] },
+  { id: 'block-b', name: 'Block B', displayName: 'Block B', searchTerms: ['Block B', '블락비'] },
+  { id: 'b1a4', name: 'B1A4', displayName: 'B1A4', searchTerms: ['B1A4', '비원에이포'] },
+  { id: 'teen-top', name: 'TEEN TOP', displayName: 'TEEN TOP', searchTerms: ['TEEN TOP', '틴탑'] },
+  { id: 'myname', name: 'MYNAME', displayName: 'MYNAME', searchTerms: ['MYNAME', '마이네임'] },
+  { id: 'nu-est', name: "NU'EST", displayName: "NU'EST", searchTerms: ["NU'EST", '뉴이스트'] },
+  { id: 'boyfriend', name: 'Boyfriend', displayName: 'Boyfriend', searchTerms: ['Boyfriend', '보이프렌드'] },
+  { id: 'ukiss', name: 'U-KISS', displayName: 'U-KISS', searchTerms: ['U-KISS', '유키스'] },
+
+  // Solo Artists
+  { id: 'iu', name: 'IU', displayName: 'IU', searchTerms: ['IU', '아이유', 'Lee Ji-eun'] },
+  { id: 'taeyeon', name: 'Taeyeon', displayName: 'Taeyeon', searchTerms: ['Taeyeon', '태연'] },
+  { id: 'sunmi', name: 'Sunmi', displayName: 'Sunmi', searchTerms: ['Sunmi', '선미'] },
+  { id: 'hyuna', name: 'HyunA', displayName: 'HyunA', searchTerms: ['HyunA', '현아'] },
+  { id: 'jessi', name: 'Jessi', displayName: 'Jessi', searchTerms: ['Jessi', '제시'] },
+  { id: 'somi', name: 'SOMI', displayName: 'SOMI', searchTerms: ['SOMI', '전소미', 'Jeon Somi'] },
+  { id: 'yuqi', name: 'Yuqi', displayName: 'Yuqi', searchTerms: ['Yuqi', '우기', 'Song Yuqi'] },
+  { id: 'kwon-eunbi', name: 'Kwon Eunbi', displayName: 'Kwon Eunbi', searchTerms: ['Kwon Eunbi', '권은비'] },
+  { id: 'baekhyun', name: 'Baekhyun', displayName: 'Baekhyun', searchTerms: ['Baekhyun', '백현'] },
+  { id: 'kai', name: 'KAI', displayName: 'KAI', searchTerms: ['KAI', '카이', 'Kim Jongin'] },
+  { id: 'taemin', name: 'Taemin', displayName: 'Taemin', searchTerms: ['Taemin', '태민'] },
+  { id: 'g-dragon', name: 'G-Dragon', displayName: 'G-Dragon', searchTerms: ['G-Dragon', '지드래곤', 'GD'] },
+  { id: 'taeyang', name: 'Taeyang', displayName: 'Taeyang', searchTerms: ['Taeyang', '태양'] },
+  { id: 'jay-park', name: 'Jay Park', displayName: 'Jay Park', searchTerms: ['Jay Park', '박재범'] },
+  { id: 'dean', name: 'DEAN', displayName: 'DEAN', searchTerms: ['DEAN', '딘', 'Kwon Hyuk'] },
+  { id: 'crush', name: 'Crush', displayName: 'Crush', searchTerms: ['Crush', '크러쉬'] },
+  { id: 'zico', name: 'Zico', displayName: 'Zico', searchTerms: ['Zico', '지코'] },
+  
+  // Special
+  { id: 'kpop-demon-hunters', name: 'Kpop Demon Hunters', displayName: 'Kpop Demon Hunters', searchTerms: ['Kpop Demon Hunters'] },
 ];
 
-// Helper functions for working with artist configurations
-export function getArtistById(id: string): ArtistConfig | undefined {
-  return ARTISTS.find(artist => artist.id === id);
+// =============================================================================
+// EXPORTED ARTISTS ARRAY
+// =============================================================================
+
+export const ARTISTS: ArtistConfig[] = ARTISTS_DATA.map(artist => ({
+  ...artist,
+  theme: getTheme(artist.id),
+}));
+
+// =============================================================================
+// HELPER FUNCTIONS
+// =============================================================================
+
+export function getArtistById(id: string): ArtistConfig | null {
+  return ARTISTS.find(a => a.id === id) || null;
 }
 
-export function getArtistByName(name: string): ArtistConfig | undefined {
-  return ARTISTS.find(artist => 
-    artist.name.toLowerCase() === name.toLowerCase() ||
-    artist.displayName.toLowerCase() === name.toLowerCase()
-  );
-}
-
-export function getAllArtistIds(): string[] {
-  return ARTISTS.map(artist => artist.id);
+export function getArtistByName(name: string): ArtistConfig | null {
+  const lowerName = name.toLowerCase();
+  return ARTISTS.find(a => 
+    a.name.toLowerCase() === lowerName ||
+    a.displayName.toLowerCase() === lowerName ||
+    a.searchTerms.some(t => t.toLowerCase() === lowerName)
+  ) || null;
 }
 
 export function getArtistsSorted(): ArtistConfig[] {
   return [...ARTISTS].sort((a, b) => {
-    // Featured artists come first
     if (a.featured && !b.featured) return -1;
     if (!a.featured && b.featured) return 1;
-    
-    // Then sort alphabetically by display name
     return a.displayName.localeCompare(b.displayName);
   });
 }
 
-export function isValidArtistId(id: string): boolean {
-  return ARTISTS.some(artist => artist.id === id);
+export function getAllArtists(): ArtistConfig[] {
+  return ARTISTS;
 }
 
-// Validation function to ensure configuration integrity
-export function validateArtistConfig(config: ArtistConfig): string[] {
-  const errors: string[] = [];
-  
-  if (!config.id || config.id.trim() === '') {
-    errors.push('Artist ID is required');
-  }
-  
-  if (!config.name || config.name.trim() === '') {
-    errors.push('Artist name is required');
-  }
-  
-  if (!config.itunesArtistId || config.itunesArtistId.trim() === '') {
-    errors.push('iTunes Artist ID is required');
-  }
-  
-  if (!config.searchTerms || config.searchTerms.length === 0) {
-    errors.push('At least one search term is required');
-  }
-  
-  // Validate theme properties
-  const requiredThemeProps = ['primaryColor', 'gradientFrom', 'gradientTo', 'accentColor', 'spinnerColor', 'borderColor', 'bgColor', 'textColor'];
-  for (const prop of requiredThemeProps) {
-    if (!config.theme[prop as keyof ArtistTheme]) {
-      errors.push(`Theme property '${prop}' is required`);
-    }
-  }
-  
-  // Validate metadata properties
-  if (!config.metadata.imageUrl || config.metadata.imageUrl.trim() === '') {
-    errors.push('Artist image URL is required');
-  }
-  
-  if (typeof config.metadata.songCount !== 'number' || config.metadata.songCount <= 0) {
-    errors.push('Song count must be a positive number');
-  }
-  
-  if (typeof config.metadata.releaseYear !== 'number' || config.metadata.releaseYear < 1900 || config.metadata.releaseYear > new Date().getFullYear()) {
-    errors.push('Release year must be a valid year');
-  }
-  
-  // featured property is optional, so no validation needed
-  
-  return errors;
-}
+// =============================================================================
+// VALIDATION (development only)
+// =============================================================================
 
-// Validate all artist configurations on module load
-export function validateAllConfigurations(): void {
-  const allErrors: { [artistId: string]: string[] } = {};
-  
+if (process.env.NODE_ENV === 'development') {
+  const ids = new Set<string>();
   for (const artist of ARTISTS) {
-    const errors = validateArtistConfig(artist);
-    if (errors.length > 0) {
-      allErrors[artist.id] = errors;
+    if (ids.has(artist.id)) {
+      console.warn(`⚠️ Duplicate artist ID found: ${artist.id}`);
+    }
+    ids.add(artist.id);
+    
+    if (!artist.theme) {
+      console.warn(`⚠️ Artist ${artist.id} has no theme`);
     }
   }
-  
-  // Check for duplicate IDs
-  const ids = ARTISTS.map(a => a.id);
-  const duplicateIds = ids.filter((id, index) => ids.indexOf(id) !== index);
-  if (duplicateIds.length > 0) {
-    console.error('Duplicate artist IDs found:', duplicateIds);
-  }
-  
-  if (Object.keys(allErrors).length > 0) {
-    console.error('Artist configuration validation errors:', allErrors);
-  }
+  console.log(`✅ Loaded ${ARTISTS.length} artists`);
 }
-
-// Validate configurations when this module is imported
-validateAllConfigurations();

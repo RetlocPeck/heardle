@@ -51,9 +51,7 @@ export function useArtistConfig(artistId: string | null) {
     error,
     // Helper methods
     getTheme: () => artist?.theme || null,
-    getMetadata: () => artist?.metadata || null,
     getDisplayName: () => artist?.displayName || artistId?.toUpperCase() || 'Unknown Artist',
-    getITunesArtistId: () => artist?.itunesArtistId || null,
     getSearchTerms: () => artist?.searchTerms || [],
   };
 }

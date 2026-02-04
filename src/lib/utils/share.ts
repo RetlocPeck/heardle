@@ -1,11 +1,11 @@
-import type { GameState as InternalGameState } from '@/lib/game/gameLogic';
+import type { GameState as InternalGameState } from '@/lib/game';
 import { getArtistByName } from '@/config/artists';
 import {
   SKIP_MARKER,
   DURATION_PROGRESSION_MS,
   DURATION_MAP,
   MAX_TRIES,
-} from '@/lib/constants/game';
+} from '@/lib/constants';
 
 type Round = { action: 'guess'|'skip'; correct: boolean; seconds: 1|2|4|7|10|15 };
 
