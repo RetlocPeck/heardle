@@ -1,9 +1,8 @@
 import { ITunesTrack } from '@/types/song';
+import type { FilteredTrack } from '@/lib/services/trackFilters';
 
-export interface FilteredTrack {
-  track: ITunesTrack;
-  reason: string;
-}
+// Re-export for backward compatibility
+export type { FilteredTrack };
 
 /**
  * Normalize song name for grouping (remove parentheses, normalize punctuation and spacing)

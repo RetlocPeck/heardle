@@ -117,7 +117,7 @@ npx lighthouse https://heardle.live --only=seo --view
 src/app/layout.tsx           # Added comprehensive SEO metadata
 public/robots.txt            # Created with proper directives  
 public/site.webmanifest      # Updated icon references
-SEO-README.md               # This documentation
+docs/SEO.md                  # This documentation
 ```
 
 ## Next Steps After Creating Images

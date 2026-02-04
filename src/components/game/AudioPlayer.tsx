@@ -336,94 +336,99 @@ export default function AudioPlayer({
     };
   }, []);
 
+  /**
+   * Handle play errors gracefully, ignoring AbortError
+   */
+  const handlePlayError = (error: Error) => {
+    if (error.name !== 'AbortError') {
+      console.error('Audio play error:', error);
+    }
+  };
+
+  /**
+   * Pause audio and clean up timeout
+   */
+  const pauseAudio = (audio: HTMLAudioElement) => {
+    audio.pause();
+    setIsPlaying(false);
+    onPause?.();
+    
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  };
+
+  /**
+   * Start full preview playback (game over - won or lost)
+   */
+  const startFullPreview = (audio: HTMLAudioElement) => {
+    audio.currentTime = 0;
+    setCurrentTime(0);
+    audio.muted = false;
+    audio.play().catch(handlePlayError);
+    setIsPlaying(true);
+    onPlay?.();
+  };
+
+  /**
+   * Start limited preview playback (during active game)
+   */
+  const startLimitedPreview = (audio: HTMLAudioElement) => {
+    audio.currentTime = 0;
+    setCurrentTime(0);
+    
+    // Clear existing timeout
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    
+    // Set timeout to stop after duration
+    timeoutRef.current = setTimeout(() => {
+      console.log(`🎵 AudioPlayer: Play timeout reached, stopping audio after ${duration}ms`);
+      if (audio && !audio.paused) {
+        audio.pause();
+        audio.currentTime = 0;
+        audio.load();
+        setIsPlaying(false);
+        setCurrentTime(0);
+        onEnded?.();
+      }
+      timeoutRef.current = null;
+    }, duration);
+    
+    audio.muted = false;
+    audio.play().catch(handlePlayError);
+    setIsPlaying(true);
+    onPlay?.();
+  };
+
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio || !song.previewUrl) return;
     
-    // If disabled (game over but not won), allow full preview playback
+    // Handle game over (lost) - full preview playback
     if (disabled && !isGameWon) {
-      // Game is over, allow full preview playback
       if (isPlaying) {
-        audio.pause();
-        setIsPlaying(false);
-        onPause?.();
+        pauseAudio(audio);
       } else {
-        audio.currentTime = 0;
-        setCurrentTime(0);
-        audio.muted = false;
-        audio.play().then(() => {
-          // Audio started successfully
-        }).catch((error) => {
-          // Handle AbortError gracefully (audio was interrupted)
-          if (error.name !== 'AbortError') {
-            console.error('Audio play error:', error);
-          }
-        });
-        setIsPlaying(true);
-        onPlay?.();
+        startFullPreview(audio);
       }
       return;
     }
 
+    // Handle pause
     if (isPlaying) {
-      // Pause the audio
-      audio.pause();
-      setIsPlaying(false);
-      onPause?.();
-      
-      // Clear the timeout since we're manually pausing
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-        timeoutRef.current = null;
-      }
+      pauseAudio(audio);
+      return;
+    }
+
+    // Handle play based on game state
+    if (isGameWon) {
+      console.log('🎵 AudioPlayer: Playing full preview (game won)');
+      startFullPreview(audio);
     } else {
-      // Start playing
-      // Reset current time to 0 when starting playback
-      audio.currentTime = 0;
-      setCurrentTime(0);
-      
-      if (isGameWon) {
-        // For full preview (game won), no timeout - let it play to the end
-        console.log('🎵 AudioPlayer: Playing full preview (game won)');
-        audio.play().catch((error) => {
-          // Handle AbortError gracefully (audio was interrupted)
-          if (error.name !== 'AbortError') {
-            console.error('Audio play error:', error);
-          }
-        });
-        setIsPlaying(true);
-        onPlay?.();
-      } else {
-        // For limited preview (during game), set timeout
-        if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current);
-        }
-        
-        timeoutRef.current = setTimeout(() => {
-          console.log(`🎵 AudioPlayer: Play timeout reached, stopping audio after ${duration}ms`);
-          if (audio && !audio.paused) {
-            audio.pause();
-            audio.currentTime = 0;
-            audio.load(); // Reload to ensure it's completely stopped
-            setIsPlaying(false);
-            setCurrentTime(0);
-            onEnded?.();
-          }
-          timeoutRef.current = null;
-        }, duration);
-        
-        audio.muted = false;
-        audio.play().then(() => {
-          // Audio started successfully
-        }).catch((error) => {
-          // Handle AbortError gracefully (audio was interrupted)
-          if (error.name !== 'AbortError') {
-            console.error('Audio play error:', error);
-          }
-        });
-        setIsPlaying(true);
-        onPlay?.();
-      }
+      startLimitedPreview(audio);
     }
   };
 

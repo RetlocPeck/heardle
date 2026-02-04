@@ -5,15 +5,16 @@ import { useParams } from 'next/navigation';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import DynamicHeardle from '@/components/DynamicHeardle';
-import ModeSelector from '@/components/ModeSelector';
-import StatisticsButton from '@/components/StatisticsButton';
+import ModeSelector from '@/components/game/ModeSelector';
+import StatisticsButton from '@/components/stats/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
 import ArtistHeader, { DailyChallengeStatus } from '@/components/ArtistHeader';
 import NextDailyCountdown from '@/components/NextDailyCountdown';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
-import { GameMode } from '@/lib/gameLogic';
+import { GameMode } from '@/lib/game/gameLogic';
+import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants/game';
 
 
 
@@ -128,7 +129,7 @@ export default function ArtistPage() {
                   setChallengeResetKey(prev => prev + 1);
                   
                   // Dispatch event to notify other components
-                  const event = new CustomEvent('daily-challenge-updated', {
+                  const event = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
                     detail: { artistId: artist.id, date: getTodayString(), completed: false }
                   });
                   window.dispatchEvent(event);
@@ -149,11 +150,11 @@ export default function ArtistPage() {
             onGameStateChange={(gameState) => {
               // Force update of the DailyChallengeStatus component
               if (gameState.isGameOver) {
-                const event = new CustomEvent('daily-challenge-updated', {
+                const event = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
                   detail: { artistId: artist.id, date: getTodayString(), completed: gameState.isGameOver }
                 });
                 window.dispatchEvent(event);
-                console.log(`📡 Artist page dispatched daily-challenge-updated event:`, event.detail);
+                console.log(`📡 Artist page dispatched ${DAILY_CHALLENGE_UPDATED_EVENT}:`, event.detail);
               }
             }}
           />

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
-import { GameMode } from '@/lib/gameLogic';
+import { GameMode } from '@/lib/game/gameLogic';
 
 interface ModeSelectorProps {
   selectedMode: GameMode;
@@ -108,4 +108,3 @@ export default function ModeSelector({ selectedMode, onModeChange }: ModeSelecto
     </div>
   );
 }
-
