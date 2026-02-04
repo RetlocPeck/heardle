@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import ITunesService from '@/lib/services/itunesService';
 import { getSafeDateString } from '@/lib/utils/dateUtils';
+import { handleApiError } from '@/lib/utils/apiErrorHandler';
 
 export async function GET(
   request: Request,
@@ -27,10 +28,6 @@ export async function GET(
     return NextResponse.json({ song: dailySong });
   } catch (error) {
     const { artist } = await params;
-    console.error(`Failed to get daily song for ${artist}:`, error);
-    return NextResponse.json(
-      { error: 'Failed to get daily song' },
-      { status: 500 }
-    );
+    return handleApiError(error, artist, 'get daily song');
   }
 }

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants/game';
 
 // Component to show daily challenge completion status
 export function DailyChallengeStatus({ artistId }: { artistId: string }) {
@@ -39,13 +40,13 @@ export function DailyChallengeStatus({ artistId }: { artistId: string }) {
     };
     
     // Listen for custom storage event
-    window.addEventListener('daily-challenge-updated', handleStorageChange);
+    window.addEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleStorageChange);
     
     // Also listen for storage events (for cross-tab sync)
     window.addEventListener('storage', updateChallengeData);
     
     return () => {
-      window.removeEventListener('daily-challenge-updated', handleStorageChange);
+      window.removeEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleStorageChange);
       window.removeEventListener('storage', updateChallengeData);
     };
   }, [artistId]);

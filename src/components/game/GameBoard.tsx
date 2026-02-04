@@ -2,6 +2,7 @@
 
 import { GameState } from '@/lib/game/gameLogic';
 import { normalizedStringMatch } from '@/lib/utils/stringUtils';
+import { SKIP_MARKER } from '@/lib/constants/game';
 
 interface GameBoardProps {
   gameState: GameState;
@@ -88,7 +89,7 @@ export default function GameBoard({ gameState }: GameBoardProps) {
         {Array.from({ length: maxTries }, (_, index) => {
           const guess = guesses[index] || null;
           const isCorrect = guess ? 
-            (guess === '(Skipped)' ? false : // Skipped guesses are always incorrect
+            (guess === SKIP_MARKER ? false : // Skipped guesses are always incorrect
              (gameState.currentSong && 
               normalizedStringMatch(guess, gameState.currentSong.name))) : null;
           

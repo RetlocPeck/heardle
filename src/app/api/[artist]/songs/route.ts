@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import ITunesService from '@/lib/services/itunesService';
+import { handleApiError } from '@/lib/utils/apiErrorHandler';
 
 export async function GET(
   request: Request,
@@ -13,10 +14,6 @@ export async function GET(
     return NextResponse.json({ songs });
   } catch (error) {
     const { artist } = await params;
-    console.error(`Failed to get songs for ${artist}:`, error);
-    return NextResponse.json(
-      { error: 'Failed to get songs' },
-      { status: 500 }
-    );
+    return handleApiError(error, artist, 'get songs');
   }
 }

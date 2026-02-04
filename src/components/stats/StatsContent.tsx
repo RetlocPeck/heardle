@@ -2,13 +2,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { StatisticsStorage, ArtistStats, GlobalStats } from '@/lib/services/statisticsStorage';
+import type { GameMode } from '@/lib/game/gameLogic';
 
 interface StatsContentProps {
   artistId?: string; // If provided, show artist-specific stats; if not, show global stats
-  defaultMode?: 'daily' | 'practice'; // Default mode to show when opening
+  defaultMode?: GameMode; // Default mode to show when opening
 }
-
-type GameMode = 'daily' | 'practice';
 
 export default function StatsContent({ artistId, defaultMode = 'daily' }: StatsContentProps) {
   const [stats, setStats] = useState<GlobalStats | ArtistStats | null>(null);

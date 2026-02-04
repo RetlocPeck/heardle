@@ -1,5 +1,12 @@
 import { Song } from '@/types/song';
 import { normalizedStringMatch } from '@/lib/utils/stringUtils';
+import {
+  SKIP_MARKER,
+  DURATION_PROGRESSION_MS,
+  MAX_TRIES,
+  INITIAL_DURATION_MS,
+  MAX_DURATION_MS,
+} from '@/lib/constants/game';
 
 export type GameMode = 'daily' | 'practice';
 
@@ -23,13 +30,10 @@ export interface GameSettings {
 }
 
 export const DEFAULT_GAME_SETTINGS: GameSettings = {
-  initialDuration: 1000, // 1 second
-  maxDuration: 15000, // 15 seconds
-  maxTries: 6,
+  initialDuration: INITIAL_DURATION_MS,
+  maxDuration: MAX_DURATION_MS,
+  maxTries: MAX_TRIES,
 };
-
-// Duration progression: 1s, 2s, 4s, 7s, 10s, 15s
-const DURATION_PROGRESSION = [1000, 2000, 4000, 7000, 10000, 15000];
 
 export class GameLogic {
   private state: GameState;
@@ -88,7 +92,7 @@ export class GameLogic {
       console.log(`🎵 GameLogic: Processing skip. Current try: ${this.state.currentTry}, Max tries: ${this.state.maxTries}`);
       
       // Add skip to guesses array to maintain order
-      this.state.guesses.push('(Skipped)');
+      this.state.guesses.push(SKIP_MARKER);
       
       // Check if this skip would be the last try
       if (this.state.currentTry + 1 >= this.state.maxTries) {
@@ -105,8 +109,8 @@ export class GameLogic {
       
       // Set audio duration for next try
       const nextTryIndex = this.state.currentTry;
-      if (nextTryIndex < DURATION_PROGRESSION.length) {
-        this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];
+      if (nextTryIndex < DURATION_PROGRESSION_MS.length) {
+        this.state.audioDuration = DURATION_PROGRESSION_MS[nextTryIndex];
         console.log(`🎵 GameLogic: Turn ${this.state.currentTry} skipped. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s)`);
       } else {
         this.state.audioDuration = this.settings.maxDuration;
@@ -145,8 +149,8 @@ export class GameLogic {
 
     // Set audio duration for next try
     const nextTryIndex = this.state.currentTry;
-    if (nextTryIndex < DURATION_PROGRESSION.length) {
-      this.state.audioDuration = DURATION_PROGRESSION[nextTryIndex];
+    if (nextTryIndex < DURATION_PROGRESSION_MS.length) {
+      this.state.audioDuration = DURATION_PROGRESSION_MS[nextTryIndex];
       console.log(`🎵 GameLogic: Try ${this.state.currentTry} completed. Next duration: ${this.state.audioDuration}ms (${this.state.audioDuration/1000}s)`);
     } else {
       this.state.audioDuration = this.settings.maxDuration;

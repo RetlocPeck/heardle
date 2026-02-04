@@ -6,6 +6,7 @@
 import { useEffect, useRef } from 'react';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import { DAILY_CHALLENGE_UPDATED_EVENT, ROLLOVER_CHECK_INTERVAL_MS } from '@/lib/constants/game';
 
 interface RolloverDetectionOptions {
   artistId?: string;
@@ -16,7 +17,7 @@ interface RolloverDetectionOptions {
 export function useDailyRolloverDetection(options: RolloverDetectionOptions = {}) {
   const {
     artistId,
-    checkInterval = 30000,
+    checkInterval = ROLLOVER_CHECK_INTERVAL_MS,
     enabled = true
   } = options;
 
@@ -56,7 +57,7 @@ export function useDailyRolloverDetection(options: RolloverDetectionOptions = {}
 
         // Also dispatch the challenge updated event for the specific artist
         if (artistId) {
-          const challengeEvent = new CustomEvent('daily-challenge-updated', {
+          const challengeEvent = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
             detail: {
               artistId,
               date: getTodayString(),
@@ -123,11 +124,11 @@ export function useNewDailyChallengeListener(artistId: string, onNewDaily?: () =
     };
 
     // Listen for both specific challenge updates and global rollover events
-    window.addEventListener('daily-challenge-updated', handleNewDaily as EventListener);
+    window.addEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleNewDaily as EventListener);
     window.addEventListener('daily-rollover-detected', handleNewDaily as EventListener);
 
     return () => {
-      window.removeEventListener('daily-challenge-updated', handleNewDaily as EventListener);
+      window.removeEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleNewDaily as EventListener);
       window.removeEventListener('daily-rollover-detected', handleNewDaily as EventListener);
     };
   }, [artistId, onNewDaily]);

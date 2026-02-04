@@ -3,6 +3,7 @@
  */
 
 import { GameState } from '@/lib/game/gameLogic';
+import { SKIP_MARKER } from '@/lib/constants/game';
 
 /**
  * Calculate game score based on number of tries used
@@ -11,7 +12,7 @@ import { GameState } from '@/lib/game/gameLogic';
 export function calculateScore(gameState: GameState): number {
   if (!gameState.hasWon) return 0;
   
-  const triesUsed = gameState.guesses.filter(guess => guess !== '(Skipped)').length;
+  const triesUsed = gameState.guesses.filter(guess => guess !== SKIP_MARKER).length;
   const maxScore = gameState.maxTries;
   return Math.max(0, maxScore - triesUsed + 1);
 }
@@ -54,7 +55,7 @@ export function generateShareText(
   const visualRows = Array.from({ length: maxTries }, (_, index) => {
     if (index < guesses.length) {
       const guess = guesses[index];
-      if (guess === '(Skipped)') return '⏭️';
+      if (guess === SKIP_MARKER) return '⏭️';
       if (hasWon && index === guesses.length - 1) return '🎯';
       return '❌';
     }
@@ -80,7 +81,7 @@ export function getPerformanceRating(gameState: GameState): {
     };
   }
   
-  const triesUsed = gameState.guesses.filter(guess => guess !== '(Skipped)').length;
+  const triesUsed = gameState.guesses.filter(guess => guess !== SKIP_MARKER).length;
   
   switch (triesUsed) {
     case 1:

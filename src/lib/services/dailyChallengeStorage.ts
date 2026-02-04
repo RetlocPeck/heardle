@@ -1,5 +1,6 @@
 import { GameState } from '@/lib/game/gameLogic';
 import { getTodayString, isTodayInLocalTimezone, getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
+import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants/game';
 
 export interface DailyChallengeData {
   date: string; // YYYY-MM-DD format
@@ -66,11 +67,11 @@ export class DailyChallengeStorage {
       
       // Dispatch custom event to notify components of the update
       if (typeof window !== 'undefined') {
-        const event = new CustomEvent('daily-challenge-updated', {
+        const event = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
           detail: { artistId, date: today, completed: data.completed }
         });
         window.dispatchEvent(event);
-        console.log(`📡 Dispatched daily-challenge-updated event for ${artistId}:`, event.detail);
+        console.log(`📡 Dispatched ${DAILY_CHALLENGE_UPDATED_EVENT} event for ${artistId}:`, event.detail);
       }
       
       console.log(`💾 Saved daily challenge for ${artistId} on ${today}`);

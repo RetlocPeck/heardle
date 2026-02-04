@@ -7,6 +7,9 @@ import { GameLogic, GameMode, GameState } from '@/lib/game/gameLogic';
 import AudioPlayer from './game/AudioPlayer';
 import GuessInput from './game/GuessInput';
 import GameBoard from './game/GameBoard';
+import GameResultCard from './game/GameResultCard';
+import HowToPlayCard from './game/HowToPlayCard';
+import GlassCard from './ui/GlassCard';
 import { ArtistLoadingSpinner } from './ui/LoadingSpinner';
 import ErrorBoundary from './ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
@@ -14,10 +17,9 @@ import type { ArtistConfig } from '@/config/artists';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
-import ShareButton from './ShareButton';
 import SupportButton from './SupportButton';
-import { convertGameStateToShareState } from '@/lib/utils/share';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
+import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants/game';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -79,7 +81,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
         setPuzzleNumber(currentPuzzleNumber);
         
         // Notify challenge card that new daily is available (not completed)
-        const challengeResetEvent = new CustomEvent('daily-challenge-updated', {
+        const challengeResetEvent = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
           detail: { 
             artistId, 
             date: getTodayString(), 
@@ -88,7 +90,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
           }
         });
         window.dispatchEvent(challengeResetEvent);
-        console.log(`📡 Dispatched new daily challenge event for ${artistId}`);
+        console.log(`📡 Dispatched ${DAILY_CHALLENGE_UPDATED_EVENT} for ${artistId}`);
         
         // Notify parent component of reset
         onGameStateChange?.(newGameState);
@@ -193,6 +195,34 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     }
   }, [mode, gameLogic, onGameStateChange]);
 
+  /**
+   * Record game statistics and save daily challenge state after a guess/skip
+   */
+  const recordGameResult = useCallback((newGameState: GameState, song: Song | null) => {
+    const artistId = params.artist as string;
+    
+    // Save daily challenge state if in daily mode
+    if (mode === 'daily' && song) {
+      const storage = ClientDailyChallengeStorage.getInstance();
+      storage.saveDailyChallenge(artistId, song.id, newGameState, puzzleNumber);
+    }
+    
+    // Record statistics when game ends
+    if (newGameState.isGameOver && song) {
+      const statsStorage = StatisticsStorage.getInstance();
+      const tries = newGameState.currentTry + 1; // +1 because currentTry is 0-indexed
+      
+      if (mode === 'daily') {
+        statsStorage.recordDailyChallenge(artistId, newGameState.hasWon, tries);
+      } else {
+        statsStorage.recordPracticeGame(artistId, newGameState.hasWon, tries);
+      }
+    }
+    
+    // Notify parent component of game state change
+    onGameStateChange?.(newGameState);
+  }, [mode, params.artist, puzzleNumber, onGameStateChange]);
+
   const loadAvailableSongs = useCallback(async (artistId: string) => {
     try {
       const response = await fetch(`/api/${artistId}/songs`);
@@ -219,58 +249,14 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     gameLogic.makeGuess(guess);
     const newGameState = gameLogic.getGameState();
     setGameState(newGameState);
-    
-    // Save daily challenge state if in daily mode
-    if (mode === 'daily' && currentSong) {
-      const storage = ClientDailyChallengeStorage.getInstance();
-      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState, puzzleNumber);
-    }
-    
-    // Record statistics when game ends
-    if (newGameState.isGameOver && currentSong) {
-      const statsStorage = StatisticsStorage.getInstance();
-      const tries = newGameState.currentTry + 1; // +1 because currentTry is 0-indexed
-      
-      if (mode === 'daily') {
-        statsStorage.recordDailyChallenge(params.artist as string, newGameState.hasWon, tries);
-      } else {
-        statsStorage.recordPracticeGame(params.artist as string, newGameState.hasWon, tries);
-      }
-    }
-    
-    // Notify parent component of game state change
-    onGameStateChange?.(newGameState);
-    
-
+    recordGameResult(newGameState, currentSong);
   };
 
   const handleSkip = () => {
     gameLogic.makeGuess(''); // Empty guess counts as a skip
     const newGameState = gameLogic.getGameState();
     setGameState(newGameState);
-    
-    // Save daily challenge state if in daily mode
-    if (mode === 'daily' && currentSong) {
-      const storage = ClientDailyChallengeStorage.getInstance();
-      storage.saveDailyChallenge(params.artist as string, currentSong.id, newGameState, puzzleNumber);
-    }
-    
-    // Record statistics when game ends
-    if (newGameState.isGameOver && currentSong) {
-      const statsStorage = StatisticsStorage.getInstance();
-      const tries = newGameState.currentTry + 1; // +1 because currentTry is 0-indexed
-      
-      if (mode === 'daily') {
-        statsStorage.recordDailyChallenge(params.artist as string, newGameState.hasWon, tries);
-      } else {
-        statsStorage.recordPracticeGame(params.artist as string, newGameState.hasWon, tries);
-      }
-    }
-    
-    // Notify parent component of game state change
-    onGameStateChange?.(newGameState);
-    
-
+    recordGameResult(newGameState, currentSong);
   };
 
   const handleNewGame = () => {
@@ -345,7 +331,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
           {/* Left Column - uniform gap-controlled stack */}
           <div className="col-span-1 flex flex-col h-full gap-2 sm:gap-3 lg:gap-4">
             {/* Audio card */}
-            <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-2xl sm:rounded-3xl border border-white/20 p-2 sm:p-3 lg:p-6">
+            <GlassCard>
               <AudioPlayer
                 key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
                 song={currentSong}
@@ -354,11 +340,11 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                 disabled={gameState.isGameOver}
                 isGameWon={gameState.hasWon}
               />
-            </div>
+            </GlassCard>
 
             {/* Guess card (only while active) */}
             {!gameState.isGameOver && (
-              <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-2xl sm:rounded-3xl border border-white/20 p-2 sm:p-3 lg:p-6">
+              <GlassCard>
                 <GuessInput
                   onSubmit={handleGuess}
                   onSkip={handleSkip}
@@ -366,120 +352,29 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                   placeholder={isMobile ? 'Guess the song...' : `Guess the ${artist.displayName} song...`}
                   availableSongs={availableSongs}
                 />
-              </div>
+              </GlassCard>
             )}
 
             {/* Final card (always last) */}
             {!gameState.isGameOver ? (
-              <div className="lg:hidden relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-2xl sm:rounded-3xl border border-white/20 p-2 sm:p-3">
-                <h3 className="text-sm sm:text-base font-bold text-white mb-2 sm:mb-3 text-center">🎯 How to Play</h3>
-                <ul className="space-y-1 sm:space-y-2 text-white/80 text-xs sm:text-sm mx-auto max-w-md">
-                  <li className="flex items-start space-x-1 sm:space-x-2">
-                    <span className="text-pink-400 mt-0.5 text-xs sm:text-sm">🎵</span>
-                    <span>Listen to the song preview (starts with 1 second)</span>
-                  </li>
-                  <li className="flex items-start space-x-1 sm:space-x-2">
-                    <span className="text-purple-400 mt-0.5 text-xs sm:text-sm">💭</span>
-                    <span>Guess the {artist.displayName} song title or click Skip</span>
-                  </li>
-                  <li className="flex items-start space-x-1 sm:space-x-2">
-                    <span className="text-indigo-400 mt-0.5 text-xs sm:text-sm">⏰</span>
-                    <span>Each wrong guess or skip gives you more time</span>
-                  </li>
-                  <li className="flex items-start space-x-1 sm:space-x-2">
-                    <span className="text-rose-400 mt-0.5 text-xs sm:text-sm">🎯</span>
-                    <span>You have 6 tries to get it right</span>
-                  </li>
-                  <li className="flex items-start space-x-1 sm:space-x-2">
-                    <span className="text-cyan-400 mt-0.5 text-xs sm:text-sm">⏭️</span>
-                    <span>Use Skip to hear more before guessing</span>
-                  </li>
-                </ul>
-                {availableSongs.length === 0 && (
-                  <div className="mt-2 sm:mt-3 p-2 bg-blue-500/20 border border-blue-400/30 rounded-xl sm:rounded-2xl">
-                    <p className="text-blue-200 text-xs sm:text-sm">
-                      <strong>💡 Note:</strong> Song autocomplete is currently unavailable. 
-                      You can still play by typing the exact song title manually!
-                    </p>
-                  </div>
-                )}
-                {currentSong && !currentSong.previewUrl && (
-                  <div className="mt-2 sm:mt-3 p-2 bg-yellow-500/20 border border-yellow-400/30 rounded-xl sm:rounded-2xl">
-                    <p className="text-yellow-200 text-xs sm:text-sm">
-                      <strong>⚠️ Note:</strong> Song preview is not available for this track. 
-                      You can still play by guessing the song title!
-                    </p>
-                  </div>
-                )}
-              </div>
+              <GlassCard padding="sm" className="lg:hidden">
+                <HowToPlayCard
+                  artistDisplayName={artist.displayName}
+                  availableSongs={availableSongs}
+                  currentSong={currentSong}
+                />
+              </GlassCard>
             ) : (
-              <div className="relative z-10 overflow-visible lg:hidden backdrop-blur-xl bg-white/5 rounded-2xl sm:rounded-3xl border border-white/20 p-2 sm:p-3 lg:p-6">
-                <div className="text-center space-y-2 sm:space-y-4">
-                  {gameState.hasWon ? (
-                    <div className="space-y-2 sm:space-y-3">
-                      <div className="text-2xl sm:text-4xl">🎉</div>
-                      <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-green-300">Correct!</h3>
-                      <div className="text-white/80 text-sm sm:text-base lg:text-lg">
-                        You got it in <span className="text-green-300 font-bold">{gameState.currentTry + 1}</span> {gameState.currentTry === 0 ? 'try' : 'tries'}!
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="space-y-2 sm:space-y-3">
-                      <div className="text-2xl sm:text-4xl">😔</div>
-                      <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-orange-300">Game Over</h3>
-                      <div className="text-white/80 text-sm sm:text-base lg:text-lg">
-                        Better luck next time!
-                      </div>
-                    </div>
-                  )}
-                  <div className="pt-1 sm:pt-2">
-                    <div className="backdrop-blur-xl bg-white/10 rounded-xl sm:rounded-2xl border border-white/20 p-2 sm:p-3 lg:p-4">
-                      <div className="text-center space-y-2 sm:space-y-3">
-                        <div className="text-white/70 text-xs sm:text-sm lg:text-base">
-                          <span className="text-white/50">The song was:</span>
-                        </div>
-                        <div className="text-white font-bold text-sm sm:text-base lg:text-lg">
-                          {currentSong?.name}
-                        </div>
-                        <div className="text-white/70 text-xs sm:text-sm">
-                          <span className="text-white/50">Album:</span> {currentSong?.album}
-                        </div>
-                        <div className="pt-1 sm:pt-2">
-                          <a
-                            href={currentSong?.itunesUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center space-x-1 sm:space-x-2 px-3 sm:px-4 lg:px-6 py-2 sm:py-2 lg:py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-lg sm:rounded-xl font-bold text-xs sm:text-sm lg:text-base hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
-                          >
-                            <span>🎵</span>
-                            <span>Listen on iTunes</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {mode === 'daily' && (
-                    <ShareButton
-                      state={convertGameStateToShareState(
-                        gameState,
-                        artist?.displayName || 'Unknown Artist',
-                        getLocalPuzzleNumber()
-                      )}
-                      className="mt-2 sm:mt-4 rounded-lg sm:rounded-xl bg-green-500 text-white px-3 sm:px-4 py-2 sm:py-3 font-medium text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
-                    />
-                  )}
-                  {mode === 'practice' && (
-                    <div className="text-center">
-                      <button
-                        onClick={handleNewGame}
-                        className={`mt-2 px-4 py-2 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-xl font-bold text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
-                      >
-                        🎵 New Song
-                      </button>
-                    </div>
-                  )}
-                </div>
-              </div>
+              <GlassCard className="lg:hidden">
+                <GameResultCard
+                  gameState={gameState}
+                  currentSong={currentSong}
+                  mode={mode}
+                  artist={artist}
+                  onNewGame={handleNewGame}
+                  variant="mobile"
+                />
+              </GlassCard>
             )}
 
             {/* Practice mode new song button on desktop - underneath audio card */}
@@ -502,7 +397,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
 
           {/* Right Column - Game Board */}
           <div className="col-span-1 flex flex-col min-h-0 lg:min-h-[600px]">
-            <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-2xl sm:rounded-3xl border border-white/20 p-2 sm:p-3 lg:p-6 h-full flex flex-col">
+            <GlassCard fullHeight flexCol>
               <div className="flex-1">
                 <GameBoard gameState={gameState} />
               </div>
@@ -513,120 +408,31 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
               >
                 <SupportButton variant="home" />
               </div>
-            </div>
+            </GlassCard>
           </div>
 
           {/* Third Column - Game Instructions OR Game Results (hidden on mobile/tablet, shown on lg+ screens) */}
           <div className="hidden lg:block">
             {gameState.isGameOver ? (
               // Game Results Card (replaces How to Play when game ends)
-              <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
-                <div className="text-center space-y-4">
-                  {gameState.hasWon ? (
-                    <div className="space-y-3">
-                      <div className="text-4xl">🎉</div>
-                      <h3 className="text-2xl font-bold text-green-300">Correct!</h3>
-                      <div className="text-white/80 text-lg">
-                        You got it in <span className="text-green-300 font-bold">{gameState.currentTry + 1}</span> {gameState.currentTry === 0 ? 'try' : 'tries'}!
-                      </div>
-                    </div>
-                  ) : (
-                    <div className="space-y-3">
-                      <div className="text-4xl">😔</div>
-                      <h3 className="text-2xl font-bold text-orange-300">Game Over</h3>
-                      <div className="text-white/80 text-lg">
-                        Better luck next time!
-                      </div>
-                    </div>
-                  )}
-                  
-                  {/* Song details and iTunes button */}
-                  <div className="pt-4">
-                    <div className="backdrop-blur-xl bg-white/10 rounded-2xl border border-white/20 p-4">
-                      <div className="text-center space-y-3">
-                        <div className="text-white/70 text-base">
-                          <span className="text-white/50">The song was:</span>
-                        </div>
-                        <div className="text-white font-bold text-lg">
-                          {currentSong?.name}
-                        </div>
-                        <div className="text-white/70 text-sm">
-                          <span className="text-white/50">Album:</span> {currentSong?.album}
-                        </div>
-                        
-                        <div className="pt-2">
-                          <a
-                            href={currentSong?.itunesUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white rounded-xl font-bold hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105"
-                          >
-                            <span>🎵</span>
-                            <span>Listen on iTunes</span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                                      {/* Share button - below the inner sub-card (daily mode only) */}
-                  {mode === 'daily' && (
-                    <ShareButton
-                      state={convertGameStateToShareState(
-                        gameState,
-                        artist?.displayName || 'Unknown Artist',
-                        getLocalPuzzleNumber()
-                      )}
-                      className="mt-4 rounded-xl bg-green-500 text-white px-4 py-3 font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
-                    />
-                  )}
-                </div>
-              </div>
+              <GlassCard padding="lg" rounded="lg" fullHeight>
+                <GameResultCard
+                  gameState={gameState}
+                  currentSong={currentSong}
+                  mode={mode}
+                  artist={artist}
+                  variant="desktop"
+                />
+              </GlassCard>
             ) : (
               // How to Play Card (shown when game is not over)
-              <div className="relative z-10 overflow-visible backdrop-blur-xl bg-white/5 rounded-3xl border border-white/20 p-6 h-full">
-                <h3 className="text-lg font-bold text-white mb-3 text-center">🎯 How to Play</h3>
-                <ul className="space-y-2 text-white/80 text-sm mx-auto max-w-md">
-                  <li className="flex items-start space-x-2">
-                    <span className="text-pink-400 mt-0.5">🎵</span>
-                    <span>Listen to the song preview (starts with 1 second)</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-purple-400 mt-0.5">💭</span>
-                    <span>Guess the {artist.displayName} song title or click Skip</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-indigo-400 mt-0.5">⏰</span>
-                    <span>Each wrong guess or skip gives you more time</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-rose-400 mt-0.5">🎯</span>
-                    <span>You have 6 tries to get it right</span>
-                  </li>
-                  <li className="flex items-start space-x-2">
-                    <span className="text-cyan-400 mt-0.5">⏭️</span>
-                    <span>Use Skip to hear more before guessing</span>
-                  </li>
-                </ul>
-                
-                {availableSongs.length === 0 && (
-                  <div className="mt-4 p-3 bg-blue-500/20 border border-blue-400/30 rounded-2xl">
-                    <p className="text-blue-200 text-sm">
-                      <strong>💡 Note:</strong> Song autocomplete is currently unavailable. 
-                      You can still play by typing the exact song title manually!
-                    </p>
-                  </div>
-                )}
-                
-                {currentSong && !currentSong.previewUrl && (
-                  <div className="mt-4 p-3 bg-yellow-500/20 border border-yellow-400/30 rounded-2xl">
-                    <p className="text-yellow-200 text-sm">
-                      <strong>⚠️ Note:</strong> Song preview is not available for this track. 
-                      You can still play by guessing the song title!
-                    </p>
-                  </div>
-                )}
-              </div>
+              <GlassCard padding="lg" rounded="lg" fullHeight>
+                <HowToPlayCard
+                  artistDisplayName={artist.displayName}
+                  availableSongs={availableSongs}
+                  currentSong={currentSong}
+                />
+              </GlassCard>
             )}
           </div>
         </div>
