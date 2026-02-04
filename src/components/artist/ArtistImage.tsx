@@ -22,8 +22,17 @@ interface ArtistArtwork {
 }
 
 /**
- * Component that fetches and displays artist artwork from Apple Music API
- * Uses Intersection Observer for lazy loading to prevent rate limiting
+ * Component that displays artist artwork from pre-cached static JSON files
+ * 
+ * PERFORMANCE OPTIMIZATION:
+ * Instead of making API calls on every render, we load artwork URLs directly
+ * from static JSON files in /public/data/artwork/. This dramatically improves
+ * load times since:
+ * - Static files are cached and served instantly from CDN
+ * - No API roundtrips to Apple Music
+ * - No server-side processing needed
+ * 
+ * Uses Intersection Observer for lazy loading to further improve performance
  */
 export default function ArtistImage({
   artistId,
@@ -66,42 +75,68 @@ export default function ArtistImage({
   useEffect(() => {
     if (!isVisible) return;
 
-    // Fetch artist artwork from Apple Music API with delay
-    const fetchArtwork = async () => {
+    // Load artist artwork from pre-cached static JSON file
+    const loadArtwork = async () => {
       try {
-        // Add delay to stagger requests and avoid rate limiting
+        // Add delay to stagger requests (optional, mainly for visual effect now)
         if (fetchDelay > 0) {
           await new Promise(resolve => setTimeout(resolve, fetchDelay));
         }
 
-        const response = await fetch(`/api/${artistId}/artwork`);
+        // Load artwork from static JSON file (much faster than API call)
+        const response = await fetch(`/data/artwork/${artistId}.json`);
         
         if (response.ok) {
-          const data: { artwork: ArtistArtwork } = await response.json();
+          const artwork: ArtistArtwork = await response.json();
           
           // Use standard or high-res URL based on requested size
-          const appleUrl = width > 600 ? data.artwork.highResUrl : data.artwork.standardUrl;
+          const appleUrl = width > 600 ? artwork.highResUrl : artwork.standardUrl;
           
           if (appleUrl) {
-            console.log(`✅ Using Apple Music artwork for ${artistId}`);
-            setImageUrl(appleUrl);
+            // In production: use proxy for edge caching (fast after first load)
+            // In development: load directly (faster than proxy overhead on localhost)
+            const isDev = process.env.NODE_ENV === 'development';
+            const imageUrl = isDev 
+              ? appleUrl 
+              : `/api/images/proxy?url=${encodeURIComponent(appleUrl)}`;
+            setImageUrl(imageUrl);
           } else {
-            console.warn(`⚠️ No Apple Music artwork found for ${artistId}`);
+            console.warn(`⚠️ No artwork URL found for ${artistId}`);
             setHasError(true);
           }
         } else {
-          console.warn(`⚠️ Failed to fetch artwork for ${artistId}: ${response.status}`);
-          setHasError(true);
+          // Fallback to API if static file doesn't exist (shouldn't happen)
+          console.warn(`⚠️ Static artwork not found for ${artistId}, falling back to API`);
+          const apiResponse = await fetch(`/api/${artistId}/artwork`);
+          
+          if (apiResponse.ok) {
+            const data: { artwork: ArtistArtwork } = await apiResponse.json();
+            const appleUrl = width > 600 ? data.artwork.highResUrl : data.artwork.standardUrl;
+            
+            if (appleUrl) {
+              // In production: use proxy for edge caching (fast after first load)
+              // In development: load directly (faster than proxy overhead on localhost)
+              const isDev = process.env.NODE_ENV === 'development';
+              const imageUrl = isDev 
+                ? appleUrl 
+                : `/api/images/proxy?url=${encodeURIComponent(appleUrl)}`;
+              setImageUrl(imageUrl);
+            } else {
+              setHasError(true);
+            }
+          } else {
+            setHasError(true);
+          }
         }
       } catch (error) {
-        console.error(`❌ Error fetching artwork for ${artistId}:`, error);
+        console.error(`❌ Error loading artwork for ${artistId}:`, error);
         setHasError(true);
       } finally {
         setIsLoading(false);
       }
     };
 
-    fetchArtwork();
+    loadArtwork();
   }, [artistId, width, isVisible, fetchDelay]);
 
   return (

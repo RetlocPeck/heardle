@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import StatisticsButton from '@/components/stats/StatisticsButton';
 import SupportButton from '@/components/ui/buttons/SupportButton';
@@ -17,6 +17,17 @@ export default function HomePage() {
     artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
     artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
   );
+
+  // Preload artwork JSON for featured artists to improve perceived performance
+  useEffect(() => {
+    const featuredArtists = allArtists.filter(a => a.featured);
+    featuredArtists.forEach(artist => {
+      // Prefetch the artwork JSON (browser will cache it)
+      fetch(`/data/artwork/${artist.id}.json`).catch(() => {
+        // Silently fail if artwork doesn't exist
+      });
+    });
+  }, [allArtists]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
@@ -144,10 +155,10 @@ export default function HomePage() {
                     artistId={artist.id}
                     alt={artist.displayName}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    width={600}
-                    height={600}
+                    width={400}
+                    height={400}
                     priority={artist.featured}
-                    fetchDelay={index * 100} // Stagger requests by 100ms each
+                    fetchDelay={artist.featured ? 0 : index * 50} // Featured load immediately, others stagger by 50ms
                   />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
