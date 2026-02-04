@@ -1,0 +1,834 @@
+[
+  {
+    "id": "applemusic-1547595188",
+    "name": "Into the Mirror",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/50/24/3a50245b-5eae-7c11-590b-a915caeb237a/mzaf_3631603219434135123.plus.aac.p.m4a",
+    "duration": 210920,
+    "trackUrl": "https://music.apple.com/us/album/into-the-mirror/1547595187?i=1547595188",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595188"
+  },
+  {
+    "id": "applemusic-1547595189",
+    "name": "What I Said",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/e5/58/e1e558f7-6d0d-0d32-cba6-3fa30d87eefa/mzaf_13247812362569865225.plus.aac.p.m4a",
+    "duration": 206387,
+    "trackUrl": "https://music.apple.com/us/album/what-i-said/1547595187?i=1547595189",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595189"
+  },
+  {
+    "id": "applemusic-1547595190",
+    "name": "Circle",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/03/2f/14032f79-7544-f16c-d306-ab35b689fc40/mzaf_14816364795349762871.plus.aac.p.m4a",
+    "duration": 192293,
+    "trackUrl": "https://music.apple.com/us/album/circle/1547595187?i=1547595190",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595190"
+  },
+  {
+    "id": "applemusic-1547595191",
+    "name": "Chess",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/99/1b/2f/991b2f5a-e099-854d-dd67-17468feeca90/mzaf_17745010407086128729.plus.aac.p.m4a",
+    "duration": 207920,
+    "trackUrl": "https://music.apple.com/us/album/chess/1547595187?i=1547595191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595191"
+  },
+  {
+    "id": "applemusic-1547595192",
+    "name": "Up to You",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e1/e3/27/e1e3278b-2623-0880-200a-a7210ac48e6c/mzaf_17694570158678274898.plus.aac.p.m4a",
+    "duration": 193667,
+    "trackUrl": "https://music.apple.com/us/album/up-to-you/1547595187?i=1547595192",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595192"
+  },
+  {
+    "id": "applemusic-1547595193",
+    "name": "All Day",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/61/2c/d7612cd2-ec35-0f80-031f-f3dcc5bec9a0/mzaf_14358735631473092301.plus.aac.p.m4a",
+    "duration": 195053,
+    "trackUrl": "https://music.apple.com/us/album/all-day/1547595187?i=1547595193",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595193"
+  },
+  {
+    "id": "applemusic-1547595194",
+    "name": "Carry On",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f1/32/f8/f132f85e-0b87-88e0-06a5-2427f759ad42/mzaf_3794999289035339600.plus.aac.p.m4a",
+    "duration": 169787,
+    "trackUrl": "https://music.apple.com/us/album/carry-on/1547595187?i=1547595194",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595194"
+  },
+  {
+    "id": "applemusic-1547595195",
+    "name": "Eyes on You",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/02/94/fb/0294fb5b-f854-1dda-3c18-be53cf07083f/mzaf_5852708871497154379.plus.aac.p.m4a",
+    "duration": 202187,
+    "trackUrl": "https://music.apple.com/us/album/eyes-on-you/1547595187?i=1547595195",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595195"
+  },
+  {
+    "id": "applemusic-1547595196",
+    "name": "Utopia",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/94/4a/d1944ad4-3beb-f752-d749-19330bbf11bc/mzaf_376164718338747601.plus.aac.p.m4a",
+    "duration": 170827,
+    "trackUrl": "https://music.apple.com/us/album/utopia/1547595187?i=1547595196",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595196"
+  },
+  {
+    "id": "applemusic-1547595197",
+    "name": "Where Is Love?",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/ee/0f/e7ee0fbc-4d27-6419-8223-f84daf526206/mzaf_18082949372968029382.plus.aac.p.m4a",
+    "duration": 184907,
+    "trackUrl": "https://music.apple.com/us/album/where-is-love/1547595187?i=1547595197",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595197"
+  },
+  {
+    "id": "applemusic-1547595198",
+    "name": "Unpredictable",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/dc/e2/8edce2a3-bdef-1ccb-1b3e-c5d82e77629f/mzaf_8430486016803007204.plus.aac.p.m4a",
+    "duration": 189653,
+    "trackUrl": "https://music.apple.com/us/album/unpredictable/1547595187?i=1547595198",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595198"
+  },
+  {
+    "id": "applemusic-1547595199",
+    "name": "Flip a Coin",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/4d/04/ce4d043d-65e8-0ea3-a523-1da2558ea07f/mzaf_18057467366211290404.plus.aac.p.m4a",
+    "duration": 213973,
+    "trackUrl": "https://music.apple.com/us/album/flip-a-coin/1547595187?i=1547595199",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595199"
+  },
+  {
+    "id": "applemusic-1547595200",
+    "name": "We Stay",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice : The Future Is Now",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/75/50/157550a0-fc2f-a018-15fc-706b7d7fe4ca/mzaf_11686512766987694702.plus.aac.p.m4a",
+    "duration": 206533,
+    "trackUrl": "https://music.apple.com/us/album/we-stay/1547595187?i=1547595200",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/c3/93/21/c39321cc-94b8-8826-9e5d-5a041db901d1/cover_-_victon.jpg/300x300bb.jpg",
+    "trackId": "1547595200"
+  },
+  {
+    "id": "applemusic-1174127772",
+    "name": "What Time Is It Now?",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice To New World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/c7/98/f5c7986d-7adf-0960-783e-62869dbd36f6/mzaf_5315688271547948708.plus.aac.p.m4a",
+    "duration": 194290,
+    "trackUrl": "https://music.apple.com/us/album/what-time-is-it-now/1174127728?i=1174127772",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/a4/45/2ba44541-01c0-700d-4101-00fd35247405/cover-VICTOPN.jpg/300x300bb.jpg",
+    "trackId": "1174127772"
+  },
+  {
+    "id": "applemusic-1174127773",
+    "name": "I'm Fine",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice To New World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/3c/21/713c21b6-d426-afda-26a6-4e777a877f82/mzaf_11123104498062080367.plus.aac.p.m4a",
+    "duration": 212123,
+    "trackUrl": "https://music.apple.com/us/album/im-fine/1174127728?i=1174127773",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/a4/45/2ba44541-01c0-700d-4101-00fd35247405/cover-VICTOPN.jpg/300x300bb.jpg",
+    "trackId": "1174127773"
+  },
+  {
+    "id": "applemusic-1174127774",
+    "name": "Beautiful",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice To New World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/c6/6b/d0c66b08-d7af-e066-ac70-34f01a03b8f2/mzaf_6936650111741457541.plus.aac.p.m4a",
+    "duration": 225380,
+    "trackUrl": "https://music.apple.com/us/album/beautiful/1174127728?i=1174127774",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/a4/45/2ba44541-01c0-700d-4101-00fd35247405/cover-VICTOPN.jpg/300x300bb.jpg",
+    "trackId": "1174127774"
+  },
+  {
+    "id": "applemusic-1174127775",
+    "name": "Your Smile and You",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice To New World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/0a/25/050a2589-31c3-18a4-db59-d3f95e287981/mzaf_5048037667196186234.plus.aac.p.m4a",
+    "duration": 266829,
+    "trackUrl": "https://music.apple.com/us/album/your-smile-and-you/1174127728?i=1174127775",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/a4/45/2ba44541-01c0-700d-4101-00fd35247405/cover-VICTOPN.jpg/300x300bb.jpg",
+    "trackId": "1174127775"
+  },
+  {
+    "id": "applemusic-1174127776",
+    "name": "The Chemistry",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice To New World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8b/cb/eb/8bcbeb2e-e452-20ed-4b48-67ee99feb8ec/mzaf_5555007429391799056.plus.aac.p.m4a",
+    "duration": 227958,
+    "trackUrl": "https://music.apple.com/us/album/the-chemistry/1174127728?i=1174127776",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/a4/45/2ba44541-01c0-700d-4101-00fd35247405/cover-VICTOPN.jpg/300x300bb.jpg",
+    "trackId": "1174127776"
+  },
+  {
+    "id": "applemusic-1174127777",
+    "name": "Begin Again (VICTON Ver.)",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Voice To New World - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/1d/80/441d80e7-e2b7-cf39-7ff8-ab15fe2b8670/mzaf_7192588421009772471.plus.aac.p.m4a",
+    "duration": 203276,
+    "trackUrl": "https://music.apple.com/us/album/begin-again-victon-ver/1174127728?i=1174127777",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2b/a4/45/2ba44541-01c0-700d-4101-00fd35247405/cover-VICTOPN.jpg/300x300bb.jpg",
+    "trackId": "1174127777"
+  },
+  {
+    "id": "applemusic-1486137231",
+    "name": "Intro (Nostalgia)",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Nostalgia - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d3/7f/90/d37f907a-81ef-209a-7a54-a024e4ebfae4/mzaf_10068638908063666997.plus.aac.p.m4a",
+    "duration": 83307,
+    "trackUrl": "https://music.apple.com/us/album/intro-nostalgia/1486137230?i=1486137231",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/db/1c/c6/db1cc6b5-4b33-be53-69f6-c64b4c2d4c6e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1486137231"
+  },
+  {
+    "id": "applemusic-1486137233",
+    "name": "Nostalgic Night",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Nostalgia - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/da/af/e6/daafe6ef-ce1a-9581-5f56-369097563501/mzaf_12895688309734333534.plus.aac.p.m4a",
+    "duration": 195733,
+    "trackUrl": "https://music.apple.com/us/album/nostalgic-night/1486137230?i=1486137233",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/db/1c/c6/db1cc6b5-4b33-be53-69f6-c64b4c2d4c6e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1486137233"
+  },
+  {
+    "id": "applemusic-1486137234",
+    "name": "New World",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Nostalgia - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ca/21/35/ca213588-8fb0-56cc-d158-00cb476dec05/mzaf_16086553310543268766.plus.aac.p.m4a",
+    "duration": 233707,
+    "trackUrl": "https://music.apple.com/us/album/new-world/1486137230?i=1486137234",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/db/1c/c6/db1cc6b5-4b33-be53-69f6-c64b4c2d4c6e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1486137234"
+  },
+  {
+    "id": "applemusic-1486137235",
+    "name": "Farewell",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Nostalgia - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/bc/05/41bc05f1-e44c-8a03-f2a6-fd746bded51f/mzaf_10936808076247780329.plus.aac.p.m4a",
+    "duration": 215413,
+    "trackUrl": "https://music.apple.com/us/album/farewell/1486137230?i=1486137235",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/db/1c/c6/db1cc6b5-4b33-be53-69f6-c64b4c2d4c6e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1486137235"
+  },
+  {
+    "id": "applemusic-1486137236",
+    "name": "Here I Am",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Nostalgia - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6e/78/09/6e780929-771f-ea74-0bee-d9bfcc646bfb/mzaf_15342957899007811121.plus.aac.p.m4a",
+    "duration": 238987,
+    "trackUrl": "https://music.apple.com/us/album/here-i-am/1486137230?i=1486137236",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/db/1c/c6/db1cc6b5-4b33-be53-69f6-c64b4c2d4c6e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1486137236"
+  },
+  {
+    "id": "applemusic-1486137237",
+    "name": "Hands Up",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Nostalgia - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/dd/78/17dd7899-676d-730d-2b33-0eda4bf8f30c/mzaf_16409444573105035360.plus.aac.p.m4a",
+    "duration": 217079,
+    "trackUrl": "https://music.apple.com/us/album/hands-up/1486137230?i=1486137237",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/db/1c/c6/db1cc6b5-4b33-be53-69f6-c64b4c2d4c6e/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1486137237"
+  },
+  {
+    "id": "applemusic-1274338921",
+    "name": "Unbelievable",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Identity - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/dd/52/75/dd527588-d36c-6053-6abf-9b518fe2fb5b/mzaf_12135479743853317957.plus.aac.p.m4a",
+    "duration": 196626,
+    "trackUrl": "https://music.apple.com/us/album/unbelievable/1274338912?i=1274338921",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5f/7a/8e/5f7a8e4a-0107-d122-33b9-7ab775e9a93a/VICTON_3rd_Mini_Album_IDENTITY.jpg/300x300bb.jpg",
+    "trackId": "1274338921"
+  },
+  {
+    "id": "applemusic-1274338922",
+    "name": "Stay With Me",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Identity - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/10/41/c110417f-ed95-8a42-d085-7b1cc6ed3900/mzaf_15989666686757562970.plus.aac.p.m4a",
+    "duration": 206048,
+    "trackUrl": "https://music.apple.com/us/album/stay-with-me/1274338912?i=1274338922",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5f/7a/8e/5f7a8e4a-0107-d122-33b9-7ab775e9a93a/VICTON_3rd_Mini_Album_IDENTITY.jpg/300x300bb.jpg",
+    "trackId": "1274338922"
+  },
+  {
+    "id": "applemusic-1274338923",
+    "name": "Slow Goodbye",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Identity - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c2/69/00/c2690070-51b2-eff7-c061-bd582668b470/mzaf_11055622193592111140.plus.aac.p.m4a",
+    "duration": 207648,
+    "trackUrl": "https://music.apple.com/us/album/slow-goodbye/1274338912?i=1274338923",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5f/7a/8e/5f7a8e4a-0107-d122-33b9-7ab775e9a93a/VICTON_3rd_Mini_Album_IDENTITY.jpg/300x300bb.jpg",
+    "trackId": "1274338923"
+  },
+  {
+    "id": "applemusic-1274338924",
+    "name": "Flower",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Identity - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/39/39/d9/3939d926-8b55-d83f-58a8-5b53aaae5ac5/mzaf_10924195626855351600.plus.aac.p.m4a",
+    "duration": 217496,
+    "trackUrl": "https://music.apple.com/us/album/flower/1274338912?i=1274338924",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5f/7a/8e/5f7a8e4a-0107-d122-33b9-7ab775e9a93a/VICTON_3rd_Mini_Album_IDENTITY.jpg/300x300bb.jpg",
+    "trackId": "1274338924"
+  },
+  {
+    "id": "applemusic-1274338925",
+    "name": "Light",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Identity - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e0/3c/96/e03c9676-f59e-363c-a4d7-6163d0814e05/mzaf_14496874044467887627.plus.aac.p.m4a",
+    "duration": 240197,
+    "trackUrl": "https://music.apple.com/us/album/light/1274338912?i=1274338925",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/5f/7a/8e/5f7a8e4a-0107-d122-33b9-7ab775e9a93a/VICTON_3rd_Mini_Album_IDENTITY.jpg/300x300bb.jpg",
+    "trackId": "1274338925"
+  },
+  {
+    "id": "applemusic-1502073931",
+    "name": "Nightmare",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Continuous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/65/fc/47/65fc478a-3945-a62f-2c18-7a5f98f9ce10/mzaf_13596538604318769842.plus.aac.p.m4a",
+    "duration": 208853,
+    "trackUrl": "https://music.apple.com/us/album/nightmare/1502073930?i=1502073931",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9d/55/489d554d-dba0-d80b-37a4-265559bf4705/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1502073931"
+  },
+  {
+    "id": "applemusic-1502073932",
+    "name": "Howling",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Continuous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/fe/d7/d9fed788-a7e3-f9bb-8f31-9e9cc74fb7ae/mzaf_17053062724472398273.plus.aac.p.m4a",
+    "duration": 199693,
+    "trackUrl": "https://music.apple.com/us/album/howling/1502073930?i=1502073932",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9d/55/489d554d-dba0-d80b-37a4-265559bf4705/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1502073932"
+  },
+  {
+    "id": "applemusic-1502073933",
+    "name": "All I Know",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Continuous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/e3/b3/33e3b3ed-322c-79ba-b9de-4a93ad7243ac/mzaf_454801245234550514.plus.aac.p.m4a",
+    "duration": 216667,
+    "trackUrl": "https://music.apple.com/us/album/all-i-know/1502073930?i=1502073933",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9d/55/489d554d-dba0-d80b-37a4-265559bf4705/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1502073933"
+  },
+  {
+    "id": "applemusic-1502073934",
+    "name": "Petal",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Continuous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/4a/a2/3a4aa295-18df-915e-f3fe-337c7e592069/mzaf_16235107330253530418.plus.aac.p.m4a",
+    "duration": 238747,
+    "trackUrl": "https://music.apple.com/us/album/petal/1502073930?i=1502073934",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9d/55/489d554d-dba0-d80b-37a4-265559bf4705/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1502073934"
+  },
+  {
+    "id": "applemusic-1502073935",
+    "name": "White Night",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Continuous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4f/b9/03/4fb90308-4a1a-7c78-6726-ad86d3838cee/mzaf_6468735640135143646.plus.aac.p.m4a",
+    "duration": 262053,
+    "trackUrl": "https://music.apple.com/us/album/white-night/1502073930?i=1502073935",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/9d/55/489d554d-dba0-d80b-37a4-265559bf4705/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1502073935"
+  },
+  {
+    "id": "applemusic-1211180954",
+    "name": "Eyez Eyez",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Ready - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/8c/88/b68c8847-76f8-8136-8ce4-d17b03c726a4/mzaf_10177962890779546793.plus.aac.p.m4a",
+    "duration": 187651,
+    "trackUrl": "https://music.apple.com/us/album/eyez-eyez/1211180904?i=1211180954",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/a5/78/1ba57842-a97c-1f4b-5aa0-0a46a589fac0/cover-VICTON.jpg/300x300bb.jpg",
+    "trackId": "1211180954"
+  },
+  {
+    "id": "applemusic-1211180955",
+    "name": "In the Air",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Ready - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/3c/08/903c087d-1031-a6f5-186b-d896cd2b208d/mzaf_6051124890895375579.plus.aac.p.m4a",
+    "duration": 217041,
+    "trackUrl": "https://music.apple.com/us/album/in-the-air/1211180904?i=1211180955",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/a5/78/1ba57842-a97c-1f4b-5aa0-0a46a589fac0/cover-VICTON.jpg/300x300bb.jpg",
+    "trackId": "1211180955"
+  },
+  {
+    "id": "applemusic-1211180956",
+    "name": "Blank",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Ready - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/df/e7/5fdfe7c2-7236-de36-4afe-ce0974a981a8/mzaf_16854555319384425149.plus.aac.p.m4a",
+    "duration": 188627,
+    "trackUrl": "https://music.apple.com/us/album/blank/1211180904?i=1211180956",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/a5/78/1ba57842-a97c-1f4b-5aa0-0a46a589fac0/cover-VICTON.jpg/300x300bb.jpg",
+    "trackId": "1211180956"
+  },
+  {
+    "id": "applemusic-1211180957",
+    "name": "So Bad..",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Ready - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/99/77/0c/99770c3d-06b4-d463-7737-5a753abcee68/mzaf_18304395983335729259.plus.aac.p.m4a",
+    "duration": 204388,
+    "trackUrl": "https://music.apple.com/us/album/so-bad/1211180904?i=1211180957",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/a5/78/1ba57842-a97c-1f4b-5aa0-0a46a589fac0/cover-VICTON.jpg/300x300bb.jpg",
+    "trackId": "1211180957"
+  },
+  {
+    "id": "applemusic-1211180958",
+    "name": "Sunrise",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Ready - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c4/14/e4/c414e401-45e7-837a-5fa4-7d78369b26e7/mzaf_7981360627433638396.plus.aac.p.m4a",
+    "duration": 190736,
+    "trackUrl": "https://music.apple.com/us/album/sunrise/1211180904?i=1211180958",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/a5/78/1ba57842-a97c-1f4b-5aa0-0a46a589fac0/cover-VICTON.jpg/300x300bb.jpg",
+    "trackId": "1211180958"
+  },
+  {
+    "id": "applemusic-1310345423",
+    "name": "Remember Me",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "From. VICTON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/24/a2/5c/24a25c95-11ff-0d85-4ab5-d6df18e2099a/mzaf_14518846215148867240.plus.aac.p.m4a",
+    "duration": 201829,
+    "trackUrl": "https://music.apple.com/us/album/remember-me/1310345418?i=1310345423",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/f4/de/06f4de13-a484-8931-fc4a-5df6449fedb6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1310345423"
+  },
+  {
+    "id": "applemusic-1310345424",
+    "name": "Because of You",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "From. VICTON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/57/82/66/578266de-e47a-a090-61b4-b95215a7f6c1/mzaf_333553928061546895.plus.aac.p.m4a",
+    "duration": 226758,
+    "trackUrl": "https://music.apple.com/us/album/because-of-you/1310345418?i=1310345424",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/f4/de/06f4de13-a484-8931-fc4a-5df6449fedb6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1310345424"
+  },
+  {
+    "id": "applemusic-1310345425",
+    "name": "Have a Good Night (Stage Version)",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "From. VICTON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/23/ef/3823ef00-4b45-008e-3150-9e7db87baa07/mzaf_17898867401953681829.plus.aac.p.m4a",
+    "duration": 201467,
+    "trackUrl": "https://music.apple.com/us/album/have-a-good-night-stage-version/1310345418?i=1310345425",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/f4/de/06f4de13-a484-8931-fc4a-5df6449fedb6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1310345425"
+  },
+  {
+    "id": "applemusic-1310345428",
+    "name": "Timeline",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "From. VICTON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/c8/50/5ac85088-6397-1e79-4f19-9ea42be76f37/mzaf_4603435421876436877.plus.aac.p.m4a",
+    "duration": 200269,
+    "trackUrl": "https://music.apple.com/us/album/timeline/1310345418?i=1310345428",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/f4/de/06f4de13-a484-8931-fc4a-5df6449fedb6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1310345428"
+  },
+  {
+    "id": "applemusic-1626394744",
+    "name": "Stupid O'clock",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chaos - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9f/23/96/9f2396ed-c17e-f5d5-a7f6-ed276d451622/mzaf_16375241597825689321.plus.aac.p.m4a",
+    "duration": 185093,
+    "trackUrl": "https://music.apple.com/us/album/stupid-oclock/1626394743?i=1626394744",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c7/25/2fc72530-6a57-aab6-f0fb-5c72dfc546f9/cover_KM0015437_1.jpg/300x300bb.jpg",
+    "trackId": "1626394744"
+  },
+  {
+    "id": "applemusic-1626394745",
+    "name": "Bonnie and Clyde",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chaos - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f2/02/09/f20209f1-ca28-ab91-1555-9b1c5b516c33/mzaf_17288980008384116111.plus.aac.p.m4a",
+    "duration": 195107,
+    "trackUrl": "https://music.apple.com/us/album/bonnie-and-clyde/1626394743?i=1626394745",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c7/25/2fc72530-6a57-aab6-f0fb-5c72dfc546f9/cover_KM0015437_1.jpg/300x300bb.jpg",
+    "trackId": "1626394745"
+  },
+  {
+    "id": "applemusic-1626395286",
+    "name": "INK",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chaos - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/09/e9/a2/09e9a257-daa3-f7dc-62b0-52107ec385e9/mzaf_17814986551492549045.plus.aac.p.m4a",
+    "duration": 183893,
+    "trackUrl": "https://music.apple.com/us/album/ink/1626394743?i=1626395286",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c7/25/2fc72530-6a57-aab6-f0fb-5c72dfc546f9/cover_KM0015437_1.jpg/300x300bb.jpg",
+    "trackId": "1626395286"
+  },
+  {
+    "id": "applemusic-1626395287",
+    "name": "Stay",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chaos - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a1/01/3f/a1013f9b-9d22-66af-b733-a7e56cd58075/mzaf_9069543627677809533.plus.aac.p.m4a",
+    "duration": 158120,
+    "trackUrl": "https://music.apple.com/us/album/stay/1626394743?i=1626395287",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c7/25/2fc72530-6a57-aab6-f0fb-5c72dfc546f9/cover_KM0015437_1.jpg/300x300bb.jpg",
+    "trackId": "1626395287"
+  },
+  {
+    "id": "applemusic-1626395288",
+    "name": "In Love",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chaos - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/9b/3d/00/9b3d00c1-25f9-ee2d-2ba4-519bb9ce942b/mzaf_15410426415814369573.plus.aac.p.m4a",
+    "duration": 219213,
+    "trackUrl": "https://music.apple.com/us/album/in-love/1626394743?i=1626395288",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c7/25/2fc72530-6a57-aab6-f0fb-5c72dfc546f9/cover_KM0015437_1.jpg/300x300bb.jpg",
+    "trackId": "1626395288"
+  },
+  {
+    "id": "applemusic-1626395289",
+    "name": "Dear. young",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chaos - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c9/b0/47/c9b0477b-7c67-a5bf-f066-03112c67df77/mzaf_11968602134957328437.plus.aac.p.m4a",
+    "duration": 252200,
+    "trackUrl": "https://music.apple.com/us/album/dear-young/1626394743?i=1626395289",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2f/c7/25/2fc72530-6a57-aab6-f0fb-5c72dfc546f9/cover_KM0015437_1.jpg/300x300bb.jpg",
+    "trackId": "1626395289"
+  },
+  {
+    "id": "applemusic-1654511079",
+    "name": "Virus",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Choice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/43/16/74/43167476-0c4d-cbe0-4f9a-9aeb78d37f4a/mzaf_13824997726803617977.plus.aac.p.m4a",
+    "duration": 205720,
+    "trackUrl": "https://music.apple.com/us/album/virus/1654511078?i=1654511079",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/37/cd/8e/37cd8e97-84ac-0252-87c9-59c2c01d57fd/cover_KM0016471_1.jpg/300x300bb.jpg",
+    "trackId": "1654511079"
+  },
+  {
+    "id": "applemusic-1654511080",
+    "name": "Time Chaser",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Choice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ab/b5/a9/abb5a94b-448b-69dc-40a5-7330c563fb8c/mzaf_2970571178099755226.plus.aac.p.m4a",
+    "duration": 183987,
+    "trackUrl": "https://music.apple.com/us/album/time-chaser/1654511078?i=1654511080",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/37/cd/8e/37cd8e97-84ac-0252-87c9-59c2c01d57fd/cover_KM0016471_1.jpg/300x300bb.jpg",
+    "trackId": "1654511080"
+  },
+  {
+    "id": "applemusic-1654511081",
+    "name": "Alive",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Choice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/0c/cf/9b/0ccf9b4a-66cf-da23-73f2-770408bd4827/mzaf_15709066239544448658.plus.aac.p.m4a",
+    "duration": 211093,
+    "trackUrl": "https://music.apple.com/us/album/alive/1654511078?i=1654511081",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/37/cd/8e/37cd8e97-84ac-0252-87c9-59c2c01d57fd/cover_KM0016471_1.jpg/300x300bb.jpg",
+    "trackId": "1654511081"
+  },
+  {
+    "id": "applemusic-1654511082",
+    "name": "Better Place",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Choice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f8/02/ef/f802ef2a-a12a-adb4-f16e-a349221402b5/mzaf_10264350695233364142.plus.aac.p.m4a",
+    "duration": 197320,
+    "trackUrl": "https://music.apple.com/us/album/better-place/1654511078?i=1654511082",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/37/cd/8e/37cd8e97-84ac-0252-87c9-59c2c01d57fd/cover_KM0016471_1.jpg/300x300bb.jpg",
+    "trackId": "1654511082"
+  },
+  {
+    "id": "applemusic-1654511083",
+    "name": "Feels good",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Choice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4e/7c/5d/4e7c5d3e-80a1-9c44-f538-8f3a35edfe21/mzaf_16969144170011682141.plus.aac.p.m4a",
+    "duration": 196413,
+    "trackUrl": "https://music.apple.com/us/album/feels-good/1654511078?i=1654511083",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/37/cd/8e/37cd8e97-84ac-0252-87c9-59c2c01d57fd/cover_KM0016471_1.jpg/300x300bb.jpg",
+    "trackId": "1654511083"
+  },
+  {
+    "id": "applemusic-1516451236",
+    "name": "Mayday",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Mayday - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/36/8f/6c/368f6c9c-8ce6-a8d4-81c7-908ce37aafb8/mzaf_10436851362887863350.plus.aac.p.m4a",
+    "duration": 192720,
+    "trackUrl": "https://music.apple.com/us/album/mayday/1516451235?i=1516451236",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/aa/51/12/aa51121b-f10a-5a26-2d6a-aabe979eb801/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1516451236"
+  },
+  {
+    "id": "applemusic-1267160110",
+    "name": "Oasis",
+    "artists": [
+      "Huh Gak, Apink & VICTON"
+    ],
+    "album": "Oasis - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e6/99/1d/e6991d3f-93f2-cacd-a93b-fb606025f810/mzaf_11701602862907873828.plus.aac.p.m4a",
+    "duration": 241591,
+    "trackUrl": "https://music.apple.com/us/album/oasis/1267160095?i=1267160110",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/28/9e/33/289e33f1-39a8-6f3b-3695-1548e529216d/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1267160110"
+  },
+  {
+    "id": "applemusic-1612564169",
+    "name": "You Are Mine",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "You Are Mine (A Business Proposal Original Soundtrack, Pt. 2) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/18/e0/3a/18e03a8d-5c80-aa9f-c70b-204bd3d0b4ff/mzaf_8765208109345274523.plus.aac.p.m4a",
+    "duration": 207640,
+    "trackUrl": "https://music.apple.com/us/album/you-are-mine/1612564166?i=1612564169",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/d6/93/c8d6935f-ecc4-b896-36cc-49f8eda72447/cover_KM0014891_1.jpg/300x300bb.jpg",
+    "trackId": "1612564169"
+  },
+  {
+    "id": "applemusic-1388251275",
+    "name": "Time of Sorrow",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Time of Sorrow - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/64/bd/64/64bd6465-f182-8d70-49c5-24b4aad6333c/mzaf_984290064466020729.plus.aac.p.m4a",
+    "duration": 228273,
+    "trackUrl": "https://music.apple.com/us/album/time-of-sorrow/1388251271?i=1388251275",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/97/a5/14/97a514b4-ecfa-6306-1b00-4f54a9e66c42/cover-VICTON.jpg/300x300bb.jpg",
+    "trackId": "1388251275"
+  },
+  {
+    "id": "applemusic-1604700672",
+    "name": "Chronograph",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chronograph - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/70/71/85/70718514-4bf7-dc17-dcc2-192cc8c22d6f/mzaf_1108129611663652428.plus.aac.p.m4a",
+    "duration": 180093,
+    "trackUrl": "https://music.apple.com/us/album/chronograph/1604700484?i=1604700672",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/9a/6e/ba9a6e96-95d9-48ca-efeb-310cdef537e8/cover_KM0014574_1.jpg/300x300bb.jpg",
+    "trackId": "1604700672"
+  },
+  {
+    "id": "applemusic-1604700673",
+    "name": "Want me",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Chronograph - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9b/6c/73/9b6c7397-6bb0-8e75-90c1-2a9379489073/mzaf_18294428505215765733.plus.aac.p.m4a",
+    "duration": 213960,
+    "trackUrl": "https://music.apple.com/us/album/want-me/1604700484?i=1604700673",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/9a/6e/ba9a6e96-95d9-48ca-efeb-310cdef537e8/cover_KM0014574_1.jpg/300x300bb.jpg",
+    "trackId": "1604700673"
+  },
+  {
+    "id": "applemusic-1593317631",
+    "name": "Sweet Travel",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "Sweet Travel - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d5/4f/ec/d54fecd7-16ec-af56-fe98-c72584177f76/mzaf_1884677266936378985.plus.aac.p.m4a",
+    "duration": 185373,
+    "trackUrl": "https://music.apple.com/us/album/sweet-travel/1593317629?i=1593317631",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ca/2a/bc/ca2abc11-1e96-4443-5ef1-b6b27ba917e9/VICTON_5_DS_Sweet_Travel.jpg/300x300bb.jpg",
+    "trackId": "1593317631"
+  },
+  {
+    "id": "applemusic-1608509804",
+    "name": "Celebrate",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "그남자 오수 (Original Television Soundtrack), Pt. 6 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/70/30/84/703084d1-de9a-ee9e-8d16-bc561adda2d3/mzaf_17828246145040177657.plus.aac.p.m4a",
+    "duration": 233154,
+    "trackUrl": "https://music.apple.com/us/album/celebrate/1608509797?i=1608509804",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/15/9a/5a/159a5a93-05c6-dd9b-6fe1-93812b2c513d/8809856762528.jpg/300x300bb.jpg",
+    "trackId": "1608509804"
+  },
+  {
+    "id": "applemusic-1600432587",
+    "name": "Pray For Me",
+    "artists": [
+      "VICTON"
+    ],
+    "album": "One Ordinary Day (Original Television Soundtrack), Pt. 4 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ff/12/79/ff12797b-43a4-f250-ec63-f317e4c13fee/mzaf_9840059133346829288.plus.aac.p.m4a",
+    "duration": 211067,
+    "trackUrl": "https://music.apple.com/us/album/pray-for-me/1600432586?i=1600432587",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ad/3e/fe/ad3efe09-db17-aaf2-0268-3d3ca81b3ecd/191953153995.jpg/300x300bb.jpg",
+    "trackId": "1600432587"
+  }
+]

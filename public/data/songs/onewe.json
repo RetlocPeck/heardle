@@ -1,0 +1,912 @@
+[
+  {
+    "id": "applemusic-1572274606",
+    "name": "Intro : Spaceship",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/98/a1/c9/98a1c9c5-ff1a-4b6e-e3b4-31413a0aef2e/mzaf_3150615997814552146.plus.aac.p.m4a",
+    "duration": 60560,
+    "trackUrl": "https://music.apple.com/us/album/intro-spaceship/1572274605?i=1572274606",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274606"
+  },
+  {
+    "id": "applemusic-1572274607",
+    "name": "Rain To Be",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/ba/29/e8ba295d-d937-611e-2602-5d9fb5dbc667/mzaf_15447466536203805072.plus.aac.p.m4a",
+    "duration": 195747,
+    "trackUrl": "https://music.apple.com/us/album/rain-to-be/1572274605?i=1572274607",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274607"
+  },
+  {
+    "id": "applemusic-1572274608",
+    "name": "AuRoRa",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ef/99/be/ef99be35-778b-655d-9d02-19e23d223301/mzaf_15682495613609814908.plus.aac.p.m4a",
+    "duration": 221720,
+    "trackUrl": "https://music.apple.com/us/album/aurora/1572274605?i=1572274608",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274608"
+  },
+  {
+    "id": "applemusic-1572274610",
+    "name": "LOGO",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/5d/85/fa5d85eb-ce53-1f73-6596-bed572a320e4/mzaf_11813133361931458371.plus.aac.p.m4a",
+    "duration": 193520,
+    "trackUrl": "https://music.apple.com/us/album/logo/1572274605?i=1572274610",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274610"
+  },
+  {
+    "id": "applemusic-1572274611",
+    "name": "A.I.",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/b5/86/90b58624-e372-ce16-666d-5f83195fd943/mzaf_8106460302840570940.plus.aac.p.m4a",
+    "duration": 247000,
+    "trackUrl": "https://music.apple.com/us/album/a-i/1572274605?i=1572274611",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274611"
+  },
+  {
+    "id": "applemusic-1572274612",
+    "name": "Veronica",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4b/97/9d/4b979d65-2feb-9f82-73de-4db80a881cc7/mzaf_10137034691561447343.plus.aac.p.m4a",
+    "duration": 199813,
+    "trackUrl": "https://music.apple.com/us/album/veronica/1572274605?i=1572274612",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274612"
+  },
+  {
+    "id": "applemusic-1572274613",
+    "name": "COSMOS",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : Alter Ego",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e7/ae/e5/e7aee503-6ca1-eee4-e0dd-c6f2baa4d7e4/mzaf_14210453279185713384.plus.aac.p.m4a",
+    "duration": 210427,
+    "trackUrl": "https://music.apple.com/us/album/cosmos/1572274605?i=1572274613",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/25/a0/d7/25a0d73d-dd0d-bb87-302d-1dd08de7a8ab/1.jpg/300x300bb.jpg",
+    "trackId": "1572274613"
+  },
+  {
+    "id": "applemusic-1764613430",
+    "name": "Crazy good",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/7a/0d/a07a0daf-4911-31e0-1ffe-ecf43b963634/mzaf_11074444018808633172.plus.aac.p.m4a",
+    "duration": 197400,
+    "trackUrl": "https://music.apple.com/us/album/crazy-good/1764613429?i=1764613430",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613430"
+  },
+  {
+    "id": "applemusic-1764613433",
+    "name": "End of Spring",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/00/3c/bc/003cbc3c-fa86-e6bb-15a2-48ef2ca1b9a0/mzaf_4723801270160330788.plus.aac.p.m4a",
+    "duration": 209053,
+    "trackUrl": "https://music.apple.com/us/album/end-of-spring/1764613429?i=1764613433",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613433"
+  },
+  {
+    "id": "applemusic-1617389209",
+    "name": "Feeling Good (2019 ver.)",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/df/08/d2/df08d22a-7859-5f2b-0cf9-80278b5f6eb0/mzaf_12750197811036144159.plus.aac.p.m4a",
+    "duration": 162267,
+    "trackUrl": "https://music.apple.com/jp/album/feeling-good-2019-ver/1617389196?i=1617389209",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/66/65/a5/6665a58c-7527-d8a5-c607-05255be1bb1b/859758056902_cover.jpg/300x300bb.jpg",
+    "trackId": "1617389209"
+  },
+  {
+    "id": "applemusic-1764613436",
+    "name": "Love Me",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/73/a8/4873a820-d9e2-06e2-2a6a-f75929755d8d/mzaf_2780234337805643042.plus.aac.p.m4a",
+    "duration": 190893,
+    "trackUrl": "https://music.apple.com/us/album/love-me/1764613429?i=1764613436",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613436"
+  },
+  {
+    "id": "applemusic-1764613438",
+    "name": "Q (feat. Hwa Sa)",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/09/93/6a09935f-1ece-de3f-c3e2-0dd684aabaf3/mzaf_12266996672210767706.plus.aac.p.m4a",
+    "duration": 210760,
+    "trackUrl": "https://music.apple.com/us/album/q-feat-hwa-sa/1764613429?i=1764613438",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613438"
+  },
+  {
+    "id": "applemusic-1764613442",
+    "name": "Regulus",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/c8/18/ecc818ed-e00f-73fb-84d5-181ef156a090/mzaf_5228107156280307123.plus.aac.p.m4a",
+    "duration": 222707,
+    "trackUrl": "https://music.apple.com/us/album/regulus/1764613429?i=1764613442",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613442"
+  },
+  {
+    "id": "applemusic-1764613443",
+    "name": "If",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/4c/30/964c30d8-cb6c-aa63-b474-63e48752a0d7/mzaf_13668647418265629633.plus.aac.p.m4a",
+    "duration": 212440,
+    "trackUrl": "https://music.apple.com/us/album/if/1764613429?i=1764613443",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613443"
+  },
+  {
+    "id": "applemusic-1764613444",
+    "name": "0&4",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/6b/26/946b26b3-1a0f-1785-0a56-6e7af6016590/mzaf_6261945450480917417.plus.aac.p.m4a",
+    "duration": 210720,
+    "trackUrl": "https://music.apple.com/us/album/0-4/1764613429?i=1764613444",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613444"
+  },
+  {
+    "id": "applemusic-1764613445",
+    "name": "Ring on my Ears",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/0f/4c/340f4c13-c541-589b-78a2-805c5de1cf72/mzaf_9284767858184279150.plus.aac.p.m4a",
+    "duration": 225267,
+    "trackUrl": "https://music.apple.com/us/album/ring-on-my-ears/1764613429?i=1764613445",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613445"
+  },
+  {
+    "id": "applemusic-1764613446",
+    "name": "Reminisce about All",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "ONE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/48/db/0348dbb5-0f55-4aa0-3d2d-b26bb9e8dbc5/mzaf_8003382854213910579.plus.aac.p.m4a",
+    "duration": 252813,
+    "trackUrl": "https://music.apple.com/us/album/reminisce-about-all/1764613429?i=1764613446",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c2/26/fc/c226fc2a-e308-3ced-4732-ce5303ffe993/192641865794.jpg/300x300bb.jpg",
+    "trackId": "1764613446"
+  },
+  {
+    "id": "applemusic-1437510378",
+    "name": "Last Song",
+    "artists": [
+      "ONEWE & ONEUS"
+    ],
+    "album": "Last Song - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/01/48/30/0148307b-d167-6ca4-7768-765e506fdeb4/mzaf_12029668809719909252.plus.aac.p.m4a",
+    "duration": 217443,
+    "trackUrl": "https://music.apple.com/us/album/last-song/1437510154?i=1437510378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/1e/99/0b1e990c-bf90-349e-4df0-e1a2348fef71/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1437510378"
+  },
+  {
+    "id": "applemusic-1602350613",
+    "name": "Universe_",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : VOYAGER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/af/da/69/afda6970-364b-8cab-b2af-b97306fd9f62/mzaf_8374160199850997013.plus.aac.p.m4a",
+    "duration": 216307,
+    "trackUrl": "https://music.apple.com/us/album/universe/1602350611?i=1602350613",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d1/9e/fa/d19efaf8-52b7-d5a2-31e1-42f318069b35/cover_KM0014523_1.jpg/300x300bb.jpg",
+    "trackId": "1602350613"
+  },
+  {
+    "id": "applemusic-1602350614",
+    "name": "Envision_",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : VOYAGER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/9a/1d/1c/9a1d1c9d-75b7-1364-9343-5f114a9e83d0/mzaf_586330338835736641.plus.aac.p.m4a",
+    "duration": 223987,
+    "trackUrl": "https://music.apple.com/us/album/envision/1602350611?i=1602350614",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d1/9e/fa/d19efaf8-52b7-d5a2-31e1-42f318069b35/cover_KM0014523_1.jpg/300x300bb.jpg",
+    "trackId": "1602350614"
+  },
+  {
+    "id": "applemusic-1602350615",
+    "name": "Montage_",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : VOYAGER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2f/be/e0/2fbee0a9-6992-bd2d-2226-6e5e52ec32a3/mzaf_6722612993981002731.plus.aac.p.m4a",
+    "duration": 224520,
+    "trackUrl": "https://music.apple.com/us/album/montage/1602350611?i=1602350615",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d1/9e/fa/d19efaf8-52b7-d5a2-31e1-42f318069b35/cover_KM0014523_1.jpg/300x300bb.jpg",
+    "trackId": "1602350615"
+  },
+  {
+    "id": "applemusic-1602350796",
+    "name": "Trigger_",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : VOYAGER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/68/95/e6/6895e6e7-12f5-d855-d600-e3b5e87ac5d9/mzaf_16521610641435266736.plus.aac.p.m4a",
+    "duration": 202680,
+    "trackUrl": "https://music.apple.com/us/album/trigger/1602350611?i=1602350796",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d1/9e/fa/d19efaf8-52b7-d5a2-31e1-42f318069b35/cover_KM0014523_1.jpg/300x300bb.jpg",
+    "trackId": "1602350796"
+  },
+  {
+    "id": "applemusic-1602350797",
+    "name": "Orbit_",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : VOYAGER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b8/52/6d/b8526dc6-f07f-6591-9923-d01210aefcc8/mzaf_11683354994395336774.plus.aac.p.m4a",
+    "duration": 223853,
+    "trackUrl": "https://music.apple.com/us/album/orbit/1602350611?i=1602350797",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d1/9e/fa/d19efaf8-52b7-d5a2-31e1-42f318069b35/cover_KM0014523_1.jpg/300x300bb.jpg",
+    "trackId": "1602350797"
+  },
+  {
+    "id": "applemusic-1602350798",
+    "name": "From_",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : VOYAGER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4f/70/1d/4f701d08-71ff-bfd7-080a-1297a3418e9c/mzaf_17027221074539104010.plus.aac.p.m4a",
+    "duration": 266533,
+    "trackUrl": "https://music.apple.com/us/album/from/1602350611?i=1602350798",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d1/9e/fa/d19efaf8-52b7-d5a2-31e1-42f318069b35/cover_KM0014523_1.jpg/300x300bb.jpg",
+    "trackId": "1602350798"
+  },
+  {
+    "id": "applemusic-1740870166",
+    "name": "Beautiful Ashes",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : ISOTROPY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/15/5c/55155c5e-4ed1-20ab-34e0-83daa4d0433f/mzaf_12016332012797423618.plus.aac.p.m4a",
+    "duration": 212600,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-ashes/1740870165?i=1740870166",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/cc/5c73cceb-36c4-2c5c-f9ce-0d12488cbbce/cover_KM0019753_1.jpg/300x300bb.jpg",
+    "trackId": "1740870166"
+  },
+  {
+    "id": "applemusic-1740870347",
+    "name": "Shoot It Out",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : ISOTROPY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/d5/54/7cd5542e-c548-5d09-398f-f7718aea62ad/mzaf_185602575442287239.plus.aac.p.m4a",
+    "duration": 185453,
+    "trackUrl": "https://music.apple.com/us/album/shoot-it-out/1740870165?i=1740870347",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/cc/5c73cceb-36c4-2c5c-f9ce-0d12488cbbce/cover_KM0019753_1.jpg/300x300bb.jpg",
+    "trackId": "1740870347"
+  },
+  {
+    "id": "applemusic-1740870348",
+    "name": "Meteor Shower",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : ISOTROPY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/06/62/c4066277-1568-b9c0-68ae-02aaea2cb805/mzaf_3566873346695289631.plus.aac.p.m4a",
+    "duration": 237520,
+    "trackUrl": "https://music.apple.com/us/album/meteor-shower/1740870165?i=1740870348",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/cc/5c73cceb-36c4-2c5c-f9ce-0d12488cbbce/cover_KM0019753_1.jpg/300x300bb.jpg",
+    "trackId": "1740870348"
+  },
+  {
+    "id": "applemusic-1740870349",
+    "name": "Count The Stars",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : ISOTROPY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/5d/5e/7a5d5ef4-d7ec-1264-efef-e2ecbc1b283a/mzaf_6257557910042709071.plus.aac.p.m4a",
+    "duration": 214467,
+    "trackUrl": "https://music.apple.com/us/album/count-the-stars/1740870165?i=1740870349",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/cc/5c73cceb-36c4-2c5c-f9ce-0d12488cbbce/cover_KM0019753_1.jpg/300x300bb.jpg",
+    "trackId": "1740870349"
+  },
+  {
+    "id": "applemusic-1740870350",
+    "name": "Kiss in the Rain",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : ISOTROPY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/50/27/d55027ca-9d4e-97c9-d23e-91faa438c426/mzaf_11809106886013369698.plus.aac.p.m4a",
+    "duration": 259387,
+    "trackUrl": "https://music.apple.com/us/album/kiss-in-the-rain/1740870165?i=1740870350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/cc/5c73cceb-36c4-2c5c-f9ce-0d12488cbbce/cover_KM0019753_1.jpg/300x300bb.jpg",
+    "trackId": "1740870350"
+  },
+  {
+    "id": "applemusic-1740870352",
+    "name": "Pleasant",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Planet Nine : ISOTROPY - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/59/28/db/5928dbd0-3dc5-6d82-86f5-9c8b5129174b/mzaf_8019087587479288779.plus.aac.p.m4a",
+    "duration": 200053,
+    "trackUrl": "https://music.apple.com/us/album/pleasant/1740870165?i=1740870352",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5c/73/cc/5c73cceb-36c4-2c5c-f9ce-0d12488cbbce/cover_KM0019753_1.jpg/300x300bb.jpg",
+    "trackId": "1740870352"
+  },
+  {
+    "id": "applemusic-1666769507",
+    "name": "GRAVITY",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "GRAVITY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e4/c2/c3/e4c2c313-ec51-8a33-36cb-1854257b1026/mzaf_7149013600712520857.plus.aac.p.m4a",
+    "duration": 222427,
+    "trackUrl": "https://music.apple.com/us/album/gravity/1666769175?i=1666769507",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3d/c9/54/3dc954e0-b355-5c6b-1230-55981622aa99/cover_KM0016769_1.jpg/300x300bb.jpg",
+    "trackId": "1666769507"
+  },
+  {
+    "id": "applemusic-1666769511",
+    "name": "Parting",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "GRAVITY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/14/d8/54/14d85456-07da-9c18-18e6-8390b37f3068/mzaf_18260690157915379535.plus.aac.p.m4a",
+    "duration": 240787,
+    "trackUrl": "https://music.apple.com/us/album/parting/1666769175?i=1666769511",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3d/c9/54/3dc954e0-b355-5c6b-1230-55981622aa99/cover_KM0016769_1.jpg/300x300bb.jpg",
+    "trackId": "1666769511"
+  },
+  {
+    "id": "applemusic-1666769516",
+    "name": "TRAUMA",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "GRAVITY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/24/01/98/24019869-3d5c-eb08-4094-61fc70f70f4d/mzaf_5935996868816483564.plus.aac.p.m4a",
+    "duration": 238147,
+    "trackUrl": "https://music.apple.com/us/album/trauma/1666769175?i=1666769516",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3d/c9/54/3dc954e0-b355-5c6b-1230-55981622aa99/cover_KM0016769_1.jpg/300x300bb.jpg",
+    "trackId": "1666769516"
+  },
+  {
+    "id": "applemusic-1798855277",
+    "name": "Alice",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/72/53/0c7253ac-1237-6155-9d07-89bd0eee4789/mzaf_2685523857513690634.plus.aac.p.m4a",
+    "duration": 171267,
+    "trackUrl": "https://music.apple.com/us/album/alice/1798855275?i=1798855277",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855277"
+  },
+  {
+    "id": "applemusic-1798855278",
+    "name": "The Starry Night",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/14/25/f41425fa-889b-9eba-2563-aec298118171/mzaf_4447719845369021374.plus.aac.p.m4a",
+    "duration": 197733,
+    "trackUrl": "https://music.apple.com/us/album/the-starry-night/1798855275?i=1798855278",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855278"
+  },
+  {
+    "id": "applemusic-1798855489",
+    "name": "EVILDOER",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/94/45/4394458a-4b28-e4a9-00b2-a307102da944/mzaf_14645693374834270889.plus.aac.p.m4a",
+    "duration": 184773,
+    "trackUrl": "https://music.apple.com/us/album/evildoer/1798855275?i=1798855489",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855489"
+  },
+  {
+    "id": "applemusic-1798855491",
+    "name": "Traffic Love",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/17/da/2317dad8-c091-bbc3-7bf6-763129075a26/mzaf_14998143376551582102.plus.aac.p.m4a",
+    "duration": 183373,
+    "trackUrl": "https://music.apple.com/us/album/traffic-love/1798855275?i=1798855491",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855491"
+  },
+  {
+    "id": "applemusic-1798855493",
+    "name": "Coincidence",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/74/ae/0a/74ae0ac5-0c53-9b5d-372d-c3fda53de6ea/mzaf_17300782769714880396.plus.aac.p.m4a",
+    "duration": 218133,
+    "trackUrl": "https://music.apple.com/us/album/coincidence/1798855275?i=1798855493",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855493"
+  },
+  {
+    "id": "applemusic-1798855494",
+    "name": "Endless",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/d0/b2/fdd0b249-0a9e-aace-96cb-27bb71b71902/mzaf_1972393382584238336.plus.aac.p.m4a",
+    "duration": 170507,
+    "trackUrl": "https://music.apple.com/us/album/endless/1798855275?i=1798855494",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855494"
+  },
+  {
+    "id": "applemusic-1798855495",
+    "name": "Rise Again",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/2b/33/092b339a-f57e-e118-e418-eb1949adbec2/mzaf_13789054628319165755.plus.aac.p.m4a",
+    "duration": 227067,
+    "trackUrl": "https://music.apple.com/us/album/rise-again/1798855275?i=1798855495",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855495"
+  },
+  {
+    "id": "applemusic-1798855496",
+    "name": "Dreamcatcher",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/0c/b4/330cb473-3b6c-cbda-7c20-8eac45aedc7b/mzaf_14923901522852663136.plus.aac.p.m4a",
+    "duration": 238200,
+    "trackUrl": "https://music.apple.com/us/album/dreamcatcher/1798855275?i=1798855496",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855496"
+  },
+  {
+    "id": "applemusic-1798855497",
+    "name": "All the things I love",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/25/19/8b2519c0-4795-e271-7ad5-e219214f3b31/mzaf_7696851621039307636.plus.aac.p.m4a",
+    "duration": 178173,
+    "trackUrl": "https://music.apple.com/us/album/all-the-things-i-love/1798855275?i=1798855497",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855497"
+  },
+  {
+    "id": "applemusic-1798855498",
+    "name": "Indelible",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/38/8c/92388c9a-09d9-186e-b2c8-aae10990d8bf/mzaf_12238988253742709504.plus.aac.p.m4a",
+    "duration": 265307,
+    "trackUrl": "https://music.apple.com/us/album/indelible/1798855275?i=1798855498",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855498"
+  },
+  {
+    "id": "applemusic-1798855499",
+    "name": "Sole Star",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "WE : Dream Chaser",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/69/71/cf697167-266c-83aa-103a-b1982fffb8d6/mzaf_9599866212417947062.plus.aac.p.m4a",
+    "duration": 228733,
+    "trackUrl": "https://music.apple.com/us/album/sole-star/1798855275?i=1798855499",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e0/7a/da/e07adac1-65c5-1a9c-b8f0-9953f7a3e9d8/cover_KM0021358_1.jpg/300x300bb.jpg",
+    "trackId": "1798855499"
+  },
+  {
+    "id": "applemusic-1765294977",
+    "name": "OFF ROAD",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "OFF ROAD - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/4d/0d/594d0dc4-2a97-75de-4646-612d54d26a9c/mzaf_4161258003703668890.plus.aac.p.m4a",
+    "duration": 199427,
+    "trackUrl": "https://music.apple.com/us/album/off-road/1765294976?i=1765294977",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/42/bf/7e42bff4-c85a-5c90-ebd1-7b9eb7acdcdb/apple_KM0020319_1.jpg/300x300bb.jpg",
+    "trackId": "1765294977"
+  },
+  {
+    "id": "applemusic-1765294979",
+    "name": "Solar Halo Ring",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "OFF ROAD - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/70/a5/5470a5de-6e41-d071-cbbf-6eada367ebf0/mzaf_10923691053892602817.plus.aac.p.m4a",
+    "duration": 230293,
+    "trackUrl": "https://music.apple.com/us/album/solar-halo-ring/1765294976?i=1765294979",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/42/bf/7e42bff4-c85a-5c90-ebd1-7b9eb7acdcdb/apple_KM0020319_1.jpg/300x300bb.jpg",
+    "trackId": "1765294979"
+  },
+  {
+    "id": "applemusic-1765294980",
+    "name": "A piece of You",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "OFF ROAD - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/69/05/5f69056f-9eea-4e83-c667-e298dc3bcadd/mzaf_4863321787696618610.plus.aac.p.m4a",
+    "duration": 217093,
+    "trackUrl": "https://music.apple.com/us/album/a-piece-of-you/1765294976?i=1765294980",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/42/bf/7e42bff4-c85a-5c90-ebd1-7b9eb7acdcdb/apple_KM0020319_1.jpg/300x300bb.jpg",
+    "trackId": "1765294980"
+  },
+  {
+    "id": "applemusic-1841779636",
+    "name": "Lucky 12",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/7c/16/f97c1687-56ef-32b1-7fa1-6eb656b2aa2d/mzaf_16649458050573984970.plus.aac.p.m4a",
+    "duration": 217000,
+    "trackUrl": "https://music.apple.com/us/album/lucky-12/1841779635?i=1841779636",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779636"
+  },
+  {
+    "id": "applemusic-1841779637",
+    "name": "MAZE",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/1c/38/601c383c-361f-5628-a84c-fb5ab248e9d7/mzaf_10563906247170250878.plus.aac.p.m4a",
+    "duration": 249000,
+    "trackUrl": "https://music.apple.com/us/album/maze/1841779635?i=1841779637",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779637"
+  },
+  {
+    "id": "applemusic-1841779638",
+    "name": "UFO",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/ed/ed/fdededd1-5989-e83c-4b90-f79710b9691f/mzaf_7618245505739836018.plus.aac.p.m4a",
+    "duration": 210000,
+    "trackUrl": "https://music.apple.com/us/album/ufo/1841779635?i=1841779638",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779638"
+  },
+  {
+    "id": "applemusic-1841779639",
+    "name": "Hide & Seek",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/e1/24/ade12472-1a04-6f07-4bd9-0d8125e04528/mzaf_4676299346767687443.plus.aac.p.m4a",
+    "duration": 203000,
+    "trackUrl": "https://music.apple.com/us/album/hide-seek/1841779635?i=1841779639",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779639"
+  },
+  {
+    "id": "applemusic-1841779640",
+    "name": "Trace",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/50/e0/f450e023-3e5f-0e92-a526-f4cf855e7e86/mzaf_17863370017808431693.plus.aac.p.m4a",
+    "duration": 259000,
+    "trackUrl": "https://music.apple.com/us/album/trace/1841779635?i=1841779640",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779640"
+  },
+  {
+    "id": "applemusic-1841779642",
+    "name": "Diary",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/dd/d6/63ddd634-e079-cf32-9e63-b7cb5410c47f/mzaf_7649489127963167442.plus.aac.p.m4a",
+    "duration": 189000,
+    "trackUrl": "https://music.apple.com/us/album/diary/1841779635?i=1841779642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779642"
+  },
+  {
+    "id": "applemusic-1841779643",
+    "name": "Beyond the Storm",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "MAZE : AD ASTRA",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/36/0a/a3360a58-7c09-f209-ad86-8fadd7abdbe6/mzaf_3421942319395393899.plus.aac.p.m4a",
+    "duration": 229000,
+    "trackUrl": "https://music.apple.com/us/album/beyond-the-storm/1841779635?i=1841779643",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7d/f4/84/7df4845a-8ef5-c4e1-2235-c1f784de6a06/cover_KM0023486_1.jpg/300x300bb.jpg",
+    "trackId": "1841779643"
+  },
+  {
+    "id": "applemusic-1544415618",
+    "name": "A Book in Memory",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Memory : Illusion - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/92/01/b4920110-971b-2ab4-3199-389e27a24400/mzaf_15700426409128580487.plus.aac.p.m4a",
+    "duration": 237000,
+    "trackUrl": "https://music.apple.com/us/album/a-book-in-memory/1544415616?i=1544415618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d3/c5/07/d3c50720-fe06-0c0b-6ef4-634de7450f0b/ONEWE_MEMORY_illusion.jpg/300x300bb.jpg",
+    "trackId": "1544415618"
+  },
+  {
+    "id": "applemusic-1544415619",
+    "name": "Eraser",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Memory : Illusion - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/e4/c5/a7e4c593-abca-4bbd-ee97-144f445dcca1/mzaf_12142308729802765435.plus.aac.p.m4a",
+    "duration": 237053,
+    "trackUrl": "https://music.apple.com/us/album/eraser/1544415616?i=1544415619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d3/c5/07/d3c50720-fe06-0c0b-6ef4-634de7450f0b/ONEWE_MEMORY_illusion.jpg/300x300bb.jpg",
+    "trackId": "1544415619"
+  },
+  {
+    "id": "applemusic-1624475904",
+    "name": "Roommate",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "TIMELESS - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dc/e5/77/dce577db-c136-be77-3920-a3a9af52ecdb/mzaf_1107000748155682359.plus.aac.p.m4a",
+    "duration": 224107,
+    "trackUrl": "https://music.apple.com/us/album/roommate/1624475903?i=1624475904",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c0/ed/3a/c0ed3a43-927b-83ac-524e-479eddccb70e/cover_KM0015266_1.jpg/300x300bb.jpg",
+    "trackId": "1624475904"
+  },
+  {
+    "id": "applemusic-1624475905",
+    "name": "Starlight (2022 ver.)",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "TIMELESS - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/93/c6/6b/93c66b42-500a-94ab-a3ac-3c77e8b4e99c/mzaf_5596549896281852897.plus.aac.p.m4a",
+    "duration": 217067,
+    "trackUrl": "https://music.apple.com/us/album/starlight-2022-ver/1624475903?i=1624475905",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c0/ed/3a/c0ed3a43-927b-83ac-524e-479eddccb70e/cover_KM0015266_1.jpg/300x300bb.jpg",
+    "trackId": "1624475905"
+  },
+  {
+    "id": "applemusic-1617390421",
+    "name": "Koushikondou",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Reminisce About All - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c6/23/85/c6238577-cad7-7922-f486-df1180d04a18/mzaf_17237763108307127511.plus.aac.p.m4a",
+    "duration": 210720,
+    "trackUrl": "https://music.apple.com/us/album/koushikondou/1617390416?i=1617390421",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a2/d5/fe/a2d5feaa-0768-9fc3-182d-880d7ebc8cc2/859758057022_cover.png/300x300bb.jpg",
+    "trackId": "1617390421"
+  },
+  {
+    "id": "applemusic-1617390423",
+    "name": "Piasugabokuwobutsuyouni",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Reminisce About All - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/77/6d/a7776d9c-e2f6-8463-2f40-e3308e90091b/mzaf_16018151996342179159.plus.aac.p.m4a",
+    "duration": 225265,
+    "trackUrl": "https://music.apple.com/us/album/piasugabokuwobutsuyouni/1617390416?i=1617390423",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a2/d5/fe/a2d5feaa-0768-9fc3-182d-880d7ebc8cc2/859758057022_cover.png/300x300bb.jpg",
+    "trackId": "1617390423"
+  },
+  {
+    "id": "applemusic-1596197141",
+    "name": "STAR",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "STAR - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/54/f4/47/54f4475e-b53e-ae49-c660-81e2d2cd25e7/mzaf_3115307038946157673.plus.aac.p.m4a",
+    "duration": 249173,
+    "trackUrl": "https://music.apple.com/us/album/star/1596197138?i=1596197141",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d5/2e/13/d52e13e2-993d-b5c0-0209-7278e06d262b/ONEWE_STAR.png/300x300bb.jpg",
+    "trackId": "1596197141"
+  },
+  {
+    "id": "applemusic-1647741735",
+    "name": "Still Here",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Still Here - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/73/09/41/730941a8-d9fd-062d-9421-fed2ed2f8ef6/mzaf_2817515217198281809.plus.aac.p.m4a",
+    "duration": 219747,
+    "trackUrl": "https://music.apple.com/us/album/still-here/1647741734?i=1647741735",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d7/e6/b3/d7e6b365-d667-8a18-1f78-c34313a94d9b/cover_KM0016157_1.jpg/300x300bb.jpg",
+    "trackId": "1647741735"
+  },
+  {
+    "id": "applemusic-1600385855",
+    "name": "STAY",
+    "artists": [
+      "ONEWE & ONEUS"
+    ],
+    "album": "STAY - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9d/a5/97/9da5973c-346b-9143-7a09-6f417b57ee19/mzaf_8223767217505702921.plus.aac.p.m4a",
+    "duration": 202720,
+    "trackUrl": "https://music.apple.com/us/album/stay/1600385854?i=1600385855",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a0/8f/45/a08f45a0-589d-4f4c-4b59-bff073c2fcd5/cover_KM0014457_1.jpg/300x300bb.jpg",
+    "trackId": "1600385855"
+  },
+  {
+    "id": "applemusic-1785616039",
+    "name": "WE X MAS",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "SECRET SANTA - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/00/a2/de00a215-2b33-66e9-63c0-2d6345d737cf/mzaf_16009476291220537157.plus.aac.p.m4a",
+    "duration": 228933,
+    "trackUrl": "https://music.apple.com/us/album/we-x-mas/1785615768?i=1785616039",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/13/89/481389b2-55c8-4d73-1ce3-cf34cf111828/cover_KM0020788_1.jpg/300x300bb.jpg",
+    "trackId": "1785616039"
+  },
+  {
+    "id": "applemusic-1785616040",
+    "name": "ACTOR",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "SECRET SANTA - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/13/f7/7013f7dc-0baa-76d3-5cdf-7f7b8156ce41/mzaf_15052167447090778587.plus.aac.p.m4a",
+    "duration": 230320,
+    "trackUrl": "https://music.apple.com/us/album/actor/1785615768?i=1785616040",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/13/89/481389b2-55c8-4d73-1ce3-cf34cf111828/cover_KM0020788_1.jpg/300x300bb.jpg",
+    "trackId": "1785616040"
+  },
+  {
+    "id": "applemusic-1703744727",
+    "name": "SALTY BOY",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "XOXO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ea/29/b7/ea29b779-b171-e4af-c591-011094b5efb2/mzaf_1960933628926311465.plus.aac.p.m4a",
+    "duration": 243853,
+    "trackUrl": "https://music.apple.com/us/album/salty-boy/1703744724?i=1703744727",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/23/c8/2223c868-17fc-873a-7e32-956b78fab3d9/8804775298226.jpg/300x300bb.jpg",
+    "trackId": "1703744727"
+  },
+  {
+    "id": "applemusic-1703744730",
+    "name": "Omnipresent",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "XOXO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/eb/b0/ab/ebb0ab58-0d44-ebef-b988-0e8bab715172/mzaf_2554596089984317530.plus.aac.p.m4a",
+    "duration": 210493,
+    "trackUrl": "https://music.apple.com/us/album/omnipresent/1703744724?i=1703744730",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/23/c8/2223c868-17fc-873a-7e32-956b78fab3d9/8804775298226.jpg/300x300bb.jpg",
+    "trackId": "1703744730"
+  },
+  {
+    "id": "applemusic-1721104005",
+    "name": "About Her",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Was It Love?, Pt. 6 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/17/26/26/172626c3-6938-b1ce-2058-f0a2a7b0e7b4/mzaf_11115680435047855570.plus.aac.p.m4a",
+    "duration": 190053,
+    "trackUrl": "https://music.apple.com/us/album/about-her/1721103991?i=1721104005",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e7/c7/ed/e7c7edc9-21d1-0828-7bd7-fd6041e695ea/8720205246486.jpg/300x300bb.jpg",
+    "trackId": "1721104005"
+  },
+  {
+    "id": "applemusic-1867149973",
+    "name": "Ferris wheel",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Ferris wheel - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/50/e3/1950e37d-3835-62ca-f710-21303be6965c/mzaf_4225912169677207254.plus.aac.p.m4a",
+    "duration": 215000,
+    "trackUrl": "https://music.apple.com/us/album/ferris-wheel/1867149971?i=1867149973",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/99/29/a6992985-9d7f-cc5b-0920-b58506e3b4e8/cover_KM0024071_1.jpg/300x300bb.jpg",
+    "trackId": "1867149973"
+  },
+  {
+    "id": "applemusic-1830129839",
+    "name": "Lighthouse",
+    "artists": [
+      "ONEWE"
+    ],
+    "album": "Where's my hero? Special (Original Soundtrack) Pt. 3 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/4e/75/4d4e758b-b5da-2698-4774-4f9687b6d9ca/mzaf_10493156736267939205.plus.aac.p.m4a",
+    "duration": 218000,
+    "trackUrl": "https://music.apple.com/us/album/lighthouse/1830129835?i=1830129839",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8a/e5/37/8ae5377f-b37d-52ec-1ea5-63c18e4cdfc7/cover_KM0023264_1.jpg/300x300bb.jpg",
+    "trackId": "1830129839"
+  }
+]

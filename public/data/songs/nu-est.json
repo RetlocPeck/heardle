@@ -1,0 +1,691 @@
+[
+  {
+    "id": "applemusic-1478130925",
+    "name": "Who Loves the Sun feat. Jo.Ke",
+    "artists": [
+      "Nu"
+    ],
+    "album": "We Love the Sun - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/2d/a5/c22da5b1-0b04-bc24-a1af-56c9b9a90cc9/mzaf_5688411659415948565.plus.aac.p.m4a",
+    "duration": 562239,
+    "trackUrl": "https://music.apple.com/us/album/who-loves-the-sun-feat-jo-ke/1478130922?i=1478130925",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/cb/d3/bbcbd306-fa74-a3f5-79d4-a46a3f56ff63/cover.jpg/300x300bb.jpg",
+    "trackId": "1478130925"
+  },
+  {
+    "id": "applemusic-1478130924",
+    "name": "Dance in My Pants",
+    "artists": [
+      "Christopher Schwarzwälder & Nu"
+    ],
+    "album": "We Love the Sun - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/ce/90/79ce9088-5f92-cd82-9772-74b2619bd020/mzaf_8808135040863962226.plus.aac.p.m4a",
+    "duration": 399931,
+    "trackUrl": "https://music.apple.com/us/album/dance-in-my-pants/1478130922?i=1478130924",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/cb/d3/bbcbd306-fa74-a3f5-79d4-a46a3f56ff63/cover.jpg/300x300bb.jpg",
+    "trackId": "1478130924"
+  },
+  {
+    "id": "applemusic-1466886659",
+    "name": "Places",
+    "artists": [
+      "Nu & Julia Go"
+    ],
+    "album": "Places EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c0/59/d6/c059d6c6-bd9e-ee12-7d61-b298456db170/mzaf_2790287316743919920.plus.aac.p.m4a",
+    "duration": 311665,
+    "trackUrl": "https://music.apple.com/us/album/places/1466886657?i=1466886659",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c7/6d/32/c76d32cd-c91f-b6a5-2e2a-425bf5d790f7/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1466886659"
+  },
+  {
+    "id": "applemusic-546559454",
+    "name": "Kaiser",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Places - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bc/5b/4a/bc5b4aa3-4fbb-e7b7-d114-e3a72c9abb50/mzaf_5066523605848518362.plus.aac.p.m4a",
+    "duration": 391261,
+    "trackUrl": "https://music.apple.com/us/album/kaiser/546559449?i=546559454",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e5/ae/a6/e5aea6c2-267d-6230-5659-1118866c1017/5055530038547_cover.jpg/300x300bb.jpg",
+    "trackId": "546559454"
+  },
+  {
+    "id": "applemusic-546559455",
+    "name": "Schmerz",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Places - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d2/fe/56/d2fe5663-f89b-0f5a-636d-eebb030fbbfd/mzaf_1840097600052105391.plus.aac.p.m4a",
+    "duration": 516000,
+    "trackUrl": "https://music.apple.com/us/album/schmerz/546559449?i=546559455",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e5/ae/a6/e5aea6c2-267d-6230-5659-1118866c1017/5055530038547_cover.jpg/300x300bb.jpg",
+    "trackId": "546559455"
+  },
+  {
+    "id": "applemusic-546559456",
+    "name": "Amor",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Places - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/83/c5/68/83c5684f-74dc-7844-0048-91225157b6f0/mzaf_12754083136828522778.plus.aac.p.m4a",
+    "duration": 416000,
+    "trackUrl": "https://music.apple.com/us/album/amor/546559449?i=546559456",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/e5/ae/a6/e5aea6c2-267d-6230-5659-1118866c1017/5055530038547_cover.jpg/300x300bb.jpg",
+    "trackId": "546559456"
+  },
+  {
+    "id": "applemusic-1677715259",
+    "name": "Man O To",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Man O To - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dd/f7/c6/ddf7c6df-9cf3-6907-e4a6-ae719e23a388/mzaf_6497338862516029547.plus.aac.p.m4a",
+    "duration": 580406,
+    "trackUrl": "https://music.apple.com/us/album/man-o-to/1677715139?i=1677715259",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/e9/69/e2e969d3-930c-3455-afef-f3cd79d83e16/5060449918934.jpg/300x300bb.jpg",
+    "trackId": "1677715259"
+  },
+  {
+    "id": "applemusic-1569919603",
+    "name": "Who Loves the Sun (Depart Acoustica)",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Who Loves the Sun (Depart Acoustica) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/bd/75/abbd753f-7cd8-d530-7e27-12dd1270e3fb/mzaf_18427989554452254264.plus.aac.p.m4a",
+    "duration": 258898,
+    "trackUrl": "https://music.apple.com/us/album/who-loves-the-sun-depart-acoustica/1569919602?i=1569919603",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/92/80/26/92802688-0868-c538-8671-f5c1ef8085fb/artwork.jpg/300x300bb.jpg",
+    "trackId": "1569919603"
+  },
+  {
+    "id": "applemusic-1502209826",
+    "name": "Gold (feat. Cengiz Can)",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Gold (feat. Cengiz Can) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e7/30/cd/e730cd88-8708-82e6-929a-7463221d8ee9/mzaf_2441545377964505242.plus.aac.p.m4a",
+    "duration": 368571,
+    "trackUrl": "https://music.apple.com/us/album/gold-feat-cengiz-can/1502209823?i=1502209826",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/2d/4d/ac2d4d15-f2d9-a290-963e-1f4daf8c7fc3/artwork.jpg/300x300bb.jpg",
+    "trackId": "1502209826"
+  },
+  {
+    "id": "applemusic-1560909189",
+    "name": "To Nada",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/da/c1/4b/dac14bc9-bf08-554e-ebc7-8831a4cad167/mzaf_13956011360846229660.plus.aac.p.m4a",
+    "duration": 852000,
+    "trackUrl": "https://music.apple.com/us/album/to-nada/1560909188?i=1560909189",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909189"
+  },
+  {
+    "id": "applemusic-1560909190",
+    "name": "Taba So",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/51/17/7a/51177ace-bb9b-c7c7-5df9-4c0b494e3a4b/mzaf_4754963103688013923.plus.aac.p.m4a",
+    "duration": 433861,
+    "trackUrl": "https://music.apple.com/us/album/taba-so/1560909188?i=1560909190",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909190"
+  },
+  {
+    "id": "applemusic-1560909191",
+    "name": "Un End Un",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/90/e6/91/90e69130-38b9-ceeb-dce8-96363fb19950/mzaf_10171460974165286341.plus.aac.p.m4a",
+    "duration": 571139,
+    "trackUrl": "https://music.apple.com/us/album/un-end-un/1560909188?i=1560909191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909191"
+  },
+  {
+    "id": "applemusic-1560909192",
+    "name": "Zeen",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/3c/89/d4/3c89d4a5-950e-8c5b-ae3b-3e3cdfcf8e69/mzaf_1768501321321523634.plus.aac.p.m4a",
+    "duration": 608000,
+    "trackUrl": "https://music.apple.com/us/album/zeen/1560909188?i=1560909192",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909192"
+  },
+  {
+    "id": "applemusic-1560909193",
+    "name": "Forbiden",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7c/7f/89/7c7f8922-c1f2-442a-3c6b-e77aef05306a/mzaf_8364976705098645083.plus.aac.p.m4a",
+    "duration": 635844,
+    "trackUrl": "https://music.apple.com/us/album/forbiden/1560909188?i=1560909193",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909193"
+  },
+  {
+    "id": "applemusic-1560909194",
+    "name": "Try Feeling",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/04/64/f4/0464f40f-6cb0-c389-bf4e-b575e14482c4/mzaf_11669860860855292818.plus.aac.p.m4a",
+    "duration": 420250,
+    "trackUrl": "https://music.apple.com/us/album/try-feeling/1560909188?i=1560909194",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909194"
+  },
+  {
+    "id": "applemusic-1560909195",
+    "name": "SEANKEN BIMA (feat. Seanken Bima)",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/06/0d/b4/060db4a1-b384-a1a4-d022-9a2ec36cdc01/mzaf_5522269940465659268.plus.aac.p.m4a",
+    "duration": 404494,
+    "trackUrl": "https://music.apple.com/us/album/seanken-bima-feat-seanken-bima/1560909188?i=1560909195",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909195"
+  },
+  {
+    "id": "applemusic-1560909197",
+    "name": "E Ternal",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No Wake",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/51/b5/93/51b593dc-2bfb-881c-c6f3-ebe869567d54/mzaf_21414783542234144.plus.aac.p.m4a",
+    "duration": 1329231,
+    "trackUrl": "https://music.apple.com/us/album/e-ternal/1560909188?i=1560909197",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
+    "trackId": "1560909197"
+  },
+  {
+    "id": "applemusic-1140198438",
+    "name": "Deer Fox (feat. Raz Ohara, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter)",
+    "artists": [
+      "FEATHERED SUN, Joke & Nu"
+    ],
+    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/68/ef/7c68ef6b-d3a6-fab1-c460-42b7743c6cd7/mzaf_9849742946300301775.plus.aac.p.m4a",
+    "duration": 422267,
+    "trackUrl": "https://music.apple.com/us/album/deer-fox-feat-raz-ohara-acid-pauli-christopher-schwarzwalder/1140198338?i=1140198438",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
+    "trackId": "1140198438"
+  },
+  {
+    "id": "applemusic-1140198439",
+    "name": "Keep It Warm (feat. Raz Ohara, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter)",
+    "artists": [
+      "FEATHERED SUN, Joke & Nu"
+    ],
+    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/dc/69/02dc6911-83a9-8e39-66b9-1a5b111680dd/mzaf_9950289444854297302.plus.aac.p.m4a",
+    "duration": 522947,
+    "trackUrl": "https://music.apple.com/us/album/keep-it-warm-feat-raz-ohara-acid-pauli-christopher/1140198338?i=1140198439",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
+    "trackId": "1140198439"
+  },
+  {
+    "id": "applemusic-1140198557",
+    "name": "Me and My Entourage (feat. Raz Ohara, jO.K.e, Acid Pauli & Iannis Ritter)",
+    "artists": [
+      "FEATHERED SUN, Chris Schwarzwälder & Nu"
+    ],
+    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/26/08/a32608b4-1bbc-3a2c-67b0-32a999964059/mzaf_8876724155846271917.plus.aac.p.m4a",
+    "duration": 373320,
+    "trackUrl": "https://music.apple.com/us/album/me-and-my-entourage-feat-raz-ohara-jo-k-e-acid-pauli/1140198338?i=1140198557",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
+    "trackId": "1140198557"
+  },
+  {
+    "id": "applemusic-1500491011",
+    "name": "Be Real",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Be Real - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/5d/6d/415d6d12-d579-e262-490a-dc77ee4a4104/mzaf_15436652293074088091.plus.aac.p.m4a",
+    "duration": 441690,
+    "trackUrl": "https://music.apple.com/us/album/be-real/1500491008?i=1500491011",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f5/f6/35/f5f63551-9d5d-5dc8-d8e0-3b0ac1678dc5/artwork.jpg/300x300bb.jpg",
+    "trackId": "1500491011"
+  },
+  {
+    "id": "applemusic-1365078552",
+    "name": "Pensamiento",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/f5/03/1ef50317-c4e4-ae42-cc01-cf34a32eb8b3/mzaf_4495005257602613263.plus.aac.p.m4a",
+    "duration": 840000,
+    "trackUrl": "https://music.apple.com/us/album/pensamiento/1365076927?i=1365078552",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078552"
+  },
+  {
+    "id": "applemusic-1365078553",
+    "name": "Berg",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/4c/3d/d84c3d70-b63a-e222-8042-860c8ffad763/mzaf_7428217204457977931.plus.aac.p.m4a",
+    "duration": 896000,
+    "trackUrl": "https://music.apple.com/us/album/berg/1365076927?i=1365078553",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078553"
+  },
+  {
+    "id": "applemusic-1365078554",
+    "name": "Habits",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/bd/96/2abd9639-3e22-61a4-73a0-1b4e41c1a477/mzaf_17472545686771458071.plus.aac.p.m4a",
+    "duration": 572000,
+    "trackUrl": "https://music.apple.com/us/album/habits/1365076927?i=1365078554",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078554"
+  },
+  {
+    "id": "applemusic-1365078555",
+    "name": "Saudae",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/15/99/36159999-cf81-8be9-af0a-b90b81a4d9dd/mzaf_13347990363938035349.plus.aac.p.m4a",
+    "duration": 412000,
+    "trackUrl": "https://music.apple.com/us/album/saudae/1365076927?i=1365078555",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078555"
+  },
+  {
+    "id": "applemusic-654070123",
+    "name": "Abre",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Carat",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/34/cc/6a/34cc6a29-bf59-7436-38eb-65aa67a490bb/mzaf_8973549134966144959.plus.aac.p.m4a",
+    "duration": 472257,
+    "trackUrl": "https://music.apple.com/us/album/abre/654070120?i=654070123",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/46/12/89/46128954-0b1f-659a-4833-dc3fd7e134ef/ursl013.jpg/300x300bb.jpg",
+    "trackId": "654070123"
+  },
+  {
+    "id": "applemusic-654070126",
+    "name": "Sleepsong",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Carat",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3f/ab/78/3fab7867-d2ed-834d-97d3-c9904f3e3930/mzaf_11557450505746137303.plus.aac.p.m4a",
+    "duration": 295799,
+    "trackUrl": "https://music.apple.com/us/album/sleepsong/654070120?i=654070126",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/46/12/89/46128954-0b1f-659a-4833-dc3fd7e134ef/ursl013.jpg/300x300bb.jpg",
+    "trackId": "654070126"
+  },
+  {
+    "id": "applemusic-654070127",
+    "name": "Carat",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Carat",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/59/b3/e9/59b3e99c-9c47-0e1a-4aee-802fc42a5d16/mzaf_350989889197087962.plus.aac.p.m4a",
+    "duration": 400826,
+    "trackUrl": "https://music.apple.com/us/album/carat/654070120?i=654070127",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/46/12/89/46128954-0b1f-659a-4833-dc3fd7e134ef/ursl013.jpg/300x300bb.jpg",
+    "trackId": "654070127"
+  },
+  {
+    "id": "applemusic-654070150",
+    "name": "Emarceva",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Carat",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5c/e5/26/5ce52649-2c0b-5237-ce9e-97aa5c894298/mzaf_9987869943653736200.plus.aac.p.m4a",
+    "duration": 480344,
+    "trackUrl": "https://music.apple.com/us/album/emarceva/654070120?i=654070150",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/46/12/89/46128954-0b1f-659a-4833-dc3fd7e134ef/ursl013.jpg/300x300bb.jpg",
+    "trackId": "654070150"
+  },
+  {
+    "id": "applemusic-1706570962",
+    "name": "Yerbal",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Fool - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/13/82/1a/13821a09-700c-7204-1eba-bb902b3f491e/mzaf_9775827599334120476.plus.aac.p.m4a",
+    "duration": 496106,
+    "trackUrl": "https://music.apple.com/us/album/yerbal/1706570960?i=1706570962",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/ed/5e/89ed5e26-c891-cdab-ad57-4cca8a7c1ee5/artwork.jpg/300x300bb.jpg",
+    "trackId": "1706570962"
+  },
+  {
+    "id": "applemusic-1706570964",
+    "name": "Fool (feat. Jo Ke)",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Fool - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ca/ad/20/caad2011-9d8f-b071-6e8d-fa25d3c4a26e/mzaf_252078918973102361.plus.aac.p.m4a",
+    "duration": 406883,
+    "trackUrl": "https://music.apple.com/us/album/fool-feat-jo-ke/1706570960?i=1706570964",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/ed/5e/89ed5e26-c891-cdab-ad57-4cca8a7c1ee5/artwork.jpg/300x300bb.jpg",
+    "trackId": "1706570964"
+  },
+  {
+    "id": "applemusic-1706570965",
+    "name": "Soltero",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Fool - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/aa/7a/ff/aa7aff0a-503a-7bc6-c6f7-96678a0e645e/mzaf_9072215390143205192.plus.aac.p.m4a",
+    "duration": 429819,
+    "trackUrl": "https://music.apple.com/us/album/soltero/1706570960?i=1706570965",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/ed/5e/89ed5e26-c891-cdab-ad57-4cca8a7c1ee5/artwork.jpg/300x300bb.jpg",
+    "trackId": "1706570965"
+  },
+  {
+    "id": "applemusic-1478018239",
+    "name": "Mariposa",
+    "artists": [
+      "Canu, Nu & Alejandro Castelli"
+    ],
+    "album": "Mariposa",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/5e/2e/c15e2ec7-633e-133f-cc50-d46cc66dff0f/mzaf_1571283592942547305.plus.aac.p.m4a",
+    "duration": 477049,
+    "trackUrl": "https://music.apple.com/us/album/mariposa/1478018238?i=1478018239",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/34/4c/a2/344ca255-2a8e-7e54-94a4-0c66274530f4/cover.jpg/300x300bb.jpg",
+    "trackId": "1478018239"
+  },
+  {
+    "id": "applemusic-1611367133",
+    "name": "SAGA (feat. Yi Yi Thant)",
+    "artists": [
+      "Nu"
+    ],
+    "album": "SAGA (feat. Yi Yi Thant) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e4/d1/58/e4d15885-8994-c26e-7cf9-682cddce4df0/mzaf_15337271677036983990.plus.aac.p.m4a",
+    "duration": 558140,
+    "trackUrl": "https://music.apple.com/us/album/saga-feat-yi-yi-thant/1611367132?i=1611367133",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/aa/b6/a0/aab6a029-786f-cc42-d866-518b17df1773/artwork.jpg/300x300bb.jpg",
+    "trackId": "1611367133"
+  },
+  {
+    "id": "applemusic-964123844",
+    "name": "Geno",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Geno Remixes Part 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/4b/cf/af4bcf48-f39d-5a20-f08f-2acca0b8f914/mzaf_2202573773951271696.plus.aac.p.m4a",
+    "duration": 448000,
+    "trackUrl": "https://music.apple.com/us/album/geno/964123843?i=964123844",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/0f/fa/41/0ffa416b-dfd1-8069-4ea6-a8642ad459f0/5055787468357_cover.jpg/300x300bb.jpg",
+    "trackId": "964123844"
+  },
+  {
+    "id": "applemusic-1747088517",
+    "name": "Take Me Home",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Take Me Home - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/50/8b/8e508b66-8830-dafa-9269-acbdad91ffd7/mzaf_6110749727194191945.plus.aac.p.m4a",
+    "duration": 303158,
+    "trackUrl": "https://music.apple.com/us/album/take-me-home/1747088516?i=1747088517",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/3b/70/e13b7071-3bb3-f9da-111b-2d9224e1682a/artwork.jpg/300x300bb.jpg",
+    "trackId": "1747088517"
+  },
+  {
+    "id": "applemusic-1747088519",
+    "name": "TAKE ME HOME Radio Edit (Radio Edit)",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Take Me Home - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/66/10/e96610ce-34ab-92f9-df05-eb42b737f111/mzaf_17679580338609485275.plus.aac.p.m4a",
+    "duration": 223158,
+    "trackUrl": "https://music.apple.com/us/album/take-me-home-radio-edit-radio-edit/1747088516?i=1747088519",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e1/3b/70/e13b7071-3bb3-f9da-111b-2d9224e1682a/artwork.jpg/300x300bb.jpg",
+    "trackId": "1747088519"
+  },
+  {
+    "id": "applemusic-1669878025",
+    "name": "Grantine",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Grantine - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/91/b9/65/91b965ef-1f37-cb06-7cba-b38c57d040b1/mzaf_16942041130497599095.plus.aac.p.m4a",
+    "duration": 432000,
+    "trackUrl": "https://music.apple.com/us/album/grantine/1669878024?i=1669878025",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/e5/58/28e5581c-5f87-d941-670b-785ea734354b/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669878025"
+  },
+  {
+    "id": "applemusic-1550739215",
+    "name": "Alongside",
+    "artists": [
+      "Omeria"
+    ],
+    "album": "Alongside - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/50/01/da/5001da31-241e-cbf1-8c72-3888c1f7a383/mzaf_8407489641216061313.plus.aac.p.m4a",
+    "duration": 431445,
+    "trackUrl": "https://music.apple.com/us/album/alongside/1550739191?i=1550739215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/37/bb/e0/37bbe04d-5972-2b74-7299-ccd1e7a4930c/195497996018.jpg/300x300bb.jpg",
+    "trackId": "1550739215"
+  },
+  {
+    "id": "applemusic-1550739544",
+    "name": "Blind Theatre",
+    "artists": [
+      "Omeria"
+    ],
+    "album": "Alongside - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/f1/bc/7e/f1bc7e82-0701-1504-5476-78f6d97c7fe6/mzaf_7410019890134231563.plus.aac.p.m4a",
+    "duration": 349354,
+    "trackUrl": "https://music.apple.com/us/album/blind-theatre/1550739191?i=1550739544",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/37/bb/e0/37bbe04d-5972-2b74-7299-ccd1e7a4930c/195497996018.jpg/300x300bb.jpg",
+    "trackId": "1550739544"
+  },
+  {
+    "id": "applemusic-1669720980",
+    "name": "Hatuna Markata",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Hatuna Markata - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/69/a8/e7/69a8e752-26fd-b7fb-f889-ddf88d78d4cc/mzaf_16152654144416701187.plus.aac.p.m4a",
+    "duration": 528875,
+    "trackUrl": "https://music.apple.com/us/album/hatuna-markata/1669720979?i=1669720980",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fc/e4/1f/fce41fe2-0082-2a29-2112-75c40944c3f0/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669720980"
+  },
+  {
+    "id": "applemusic-1466981865",
+    "name": "Symbolo",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Geno EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/c9/44/93c9445e-a108-edbf-95c9-07ee2a8e36f6/mzaf_3008725218717876868.plus.aac.p.m4a",
+    "duration": 456774,
+    "trackUrl": "https://music.apple.com/us/album/symbolo/1466981863?i=1466981865",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d4/91/29/d49129b1-b1d1-b78b-95e6-5b0a79681b02/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1466981865"
+  },
+  {
+    "id": "applemusic-1466981866",
+    "name": "Tribute",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Geno EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/27/fc/44/27fc44bf-365d-75bb-6db8-78d37eb688e1/mzaf_5437985369280258848.plus.aac.p.m4a",
+    "duration": 539048,
+    "trackUrl": "https://music.apple.com/us/album/tribute/1466981863?i=1466981866",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d4/91/29/d49129b1-b1d1-b78b-95e6-5b0a79681b02/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1466981866"
+  },
+  {
+    "id": "applemusic-1669518820",
+    "name": "Maldidi",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Maldidi - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ef/5b/03/ef5b03b7-1814-ba08-8402-ff0be80e5dbc/mzaf_6240157236565866411.plus.aac.p.m4a",
+    "duration": 745987,
+    "trackUrl": "https://music.apple.com/us/album/maldidi/1669518819?i=1669518820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8e/33/a1/8e33a1bd-d9ca-6024-a62f-604650709e7b/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669518820"
+  },
+  {
+    "id": "applemusic-1669229290",
+    "name": "Legenda",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Legenda - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4c/ed/49/4ced4901-5a18-fb2f-668a-22d8b02b3a8d/mzaf_12084826995438474481.plus.aac.p.m4a",
+    "duration": 510968,
+    "trackUrl": "https://music.apple.com/us/album/legenda/1669229289?i=1669229290",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/84/81/15/848115a5-cf16-83dd-45c9-c85ebe8ca963/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669229290"
+  },
+  {
+    "id": "applemusic-1669323101",
+    "name": "No me Digas",
+    "artists": [
+      "Nu"
+    ],
+    "album": "No me Digas - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/fd/a6/ac/fda6ac34-db43-bbcb-b5da-a293b652ce30/mzaf_14020174380184307320.plus.aac.p.m4a",
+    "duration": 485277,
+    "trackUrl": "https://music.apple.com/us/album/no-me-digas/1669323100?i=1669323101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/15/92/b3/1592b3b4-78dc-5c2b-dd31-9f7fa95981cf/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669323101"
+  },
+  {
+    "id": "applemusic-1099406333",
+    "name": "Ensename",
+    "artists": [
+      "Nu & Matik"
+    ],
+    "album": "Ensename - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/62/c8/ab/62c8abdc-5cb9-fba6-5eb8-ca5b1490aef6/mzaf_7694560682643034201.plus.aac.p.m4a",
+    "duration": 290995,
+    "trackUrl": "https://music.apple.com/us/album/ensename/1099406325?i=1099406333",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/db/b0/1b/dbb01b99-fc88-977c-a1a8-d0131970ae88/889326613503_Cover.jpg/300x300bb.jpg",
+    "trackId": "1099406333"
+  },
+  {
+    "id": "applemusic-1669531526",
+    "name": "Beam of Light",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Beam of Light - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a8/5d/2e/a85d2e35-9392-2c62-acba-615ffedd9abf/mzaf_13332667848619848960.plus.aac.p.m4a",
+    "duration": 471111,
+    "trackUrl": "https://music.apple.com/us/album/beam-of-light/1669531520?i=1669531526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/e4/f1/f7e4f147-e386-b1a3-910b-5ed7aa943e51/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669531526"
+  },
+  {
+    "id": "applemusic-1669279120",
+    "name": "Mein Lied",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Mein Lied - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a0/5f/b7/a05fb722-6098-ad5c-9f0d-a1d380f7f33b/mzaf_9898414853970470107.plus.aac.p.m4a",
+    "duration": 558000,
+    "trackUrl": "https://music.apple.com/us/album/mein-lied/1669279118?i=1669279120",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e6/ff/6a/e6ff6a57-3114-c753-a4fc-2f07e5ba3dfb/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669279120"
+  },
+  {
+    "id": "applemusic-1805277831",
+    "name": "Rest Stop (feat. Nu)",
+    "artists": [
+      "ESTOAST"
+    ],
+    "album": "Rest Stop (feat. Nu) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/65/da/db65dade-6f97-b11d-1f4d-64c21146cd61/mzaf_861872162319835592.plus.aac.p.m4a",
+    "duration": 270345,
+    "trackUrl": "https://music.apple.com/us/album/rest-stop-feat-nu/1805277830?i=1805277831",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/2e/91/f82e91ef-bfc6-e407-1fc7-4975e51addde/artwork.jpg/300x300bb.jpg",
+    "trackId": "1805277831"
+  },
+  {
+    "id": "applemusic-1807028761",
+    "name": "BAD MEMORIES (feat. Nu)",
+    "artists": [
+      "RARE"
+    ],
+    "album": "BAD MEMORIES (feat. Nu) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/e0/50/0fe05007-5ce5-533b-556e-7ec68e870d17/mzaf_16478190019443044870.plus.aac.p.m4a",
+    "duration": 168462,
+    "trackUrl": "https://music.apple.com/us/album/bad-memories-feat-nu/1807028760?i=1807028761",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/45/7a/9e457a36-bb67-5b7c-b879-8b9ab563c207/artwork.jpg/300x300bb.jpg",
+    "trackId": "1807028761"
+  },
+  {
+    "id": "applemusic-1805782843",
+    "name": "BAD TRIP (feat. Nu)",
+    "artists": [
+      "RARE"
+    ],
+    "album": "BAD TRIP (feat. Nu) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/4c/cf/9f4ccf95-5353-8bb6-92dd-a4e6fb41f8ac/mzaf_14982576894463578330.plus.aac.p.m4a",
+    "duration": 165857,
+    "trackUrl": "https://music.apple.com/us/album/bad-trip-feat-nu/1805782841?i=1805782843",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/0f/9a/2a0f9aa4-11fe-d929-35fc-1b94318730d4/artwork.jpg/300x300bb.jpg",
+    "trackId": "1805782843"
+  },
+  {
+    "id": "applemusic-1789941519",
+    "name": "Ser De Luz",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Ser De Luz - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/7f/c9/0a7fc954-0b36-30a6-38ff-1811d66d14a3/mzaf_2870380886179490605.plus.aac.p.m4a",
+    "duration": 244801,
+    "trackUrl": "https://music.apple.com/us/album/ser-de-luz/1789941518?i=1789941519",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/cc/e0/31cce04f-f92e-83a5-523c-10d8944ce314/artwork.jpg/300x300bb.jpg",
+    "trackId": "1789941519"
+  }
+]
