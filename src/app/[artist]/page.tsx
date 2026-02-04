@@ -11,6 +11,7 @@ import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
 import ArtistHeader, { DailyChallengeStatus } from '@/components/artist/ArtistHeader';
 import NextDailyCountdown from '@/components/game/NextDailyCountdown';
 import AnimatedBackground from '@/components/ui/AnimatedBackground';
+import NotificationBanner from '@/components/ui/NotificationBanner';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
@@ -74,7 +75,7 @@ export default function ArtistPage() {
       {/* Header */}
        <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
          <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-                       <div className="flex justify-between items-center py-4 sm:py-6 md:py-8 lg:py-12">
+                       <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
               {/* Back Button - Smaller on mobile */}
               <div className="flex items-center flex-shrink-0">
                 <a href="/" className="flex items-center space-x-1 sm:space-x-2 text-white/80 hover:text-white transition-colors font-medium">
@@ -96,6 +97,13 @@ export default function ArtistPage() {
             </div>
          </div>
        </div>
+
+      {/* Notification Banner */}
+      <NotificationBanner
+        id="new-artists-2026-02"
+        message="🎵 New Update! We've added over 100 K-pop artists. Explore more on the home page!"
+        icon="✨"
+      />
 
              {/* Main Content */}
        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-4">

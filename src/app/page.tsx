@@ -7,6 +7,7 @@ import StatisticsButton from '@/components/stats/StatisticsButton';
 import SupportButton from '@/components/ui/buttons/SupportButton';
 import ArtistImage from '@/components/artist/ArtistImage';
 import AnimatedBackground from '@/components/ui/AnimatedBackground';
+import NotificationBanner from '@/components/ui/NotificationBanner';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -39,7 +40,7 @@ export default function HomePage() {
       {/* Header */}
       <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
         <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-          <div className="flex justify-between items-center py-3 sm:py-4 lg:py-6">
+          <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
             <div className="flex items-center">
               <h1 className="text-lg sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent leading-tight">
                 K-Pop Heardle
@@ -53,6 +54,13 @@ export default function HomePage() {
           </div>
         </div>
       </div>
+
+      {/* Notification Banner */}
+      <NotificationBanner
+        id="new-artists-2026-02"
+        message="🎵 New Update! We've added over 100 K-pop artists to the collection. Explore and test your knowledge!"
+        icon="✨"
+      />
 
       {/* Main Content */}
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16">
