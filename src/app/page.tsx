@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import StatisticsButton from '@/components/stats/StatisticsButton';
 import SupportButton from '@/components/ui/buttons/SupportButton';
@@ -11,12 +11,26 @@ import AnimatedBackground from '@/components/ui/AnimatedBackground';
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const allArtists = getArtistsSorted();
+  // Memoize artists list since it's static and expensive to sort on every render
+  const allArtists = useMemo(() => getArtistsSorted(), []);
   const filteredArtists = allArtists.filter(artist =>
     artist.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
     artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
     artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
   );
+
+  // Preload artwork JSON for featured artists to improve perceived performance
+  // Run only once on mount since artists list is static
+  useEffect(() => {
+    const allArtists = getArtistsSorted();
+    const featuredArtists = allArtists.filter(a => a.featured);
+    featuredArtists.forEach(artist => {
+      // Prefetch the artwork JSON (browser will cache it)
+      fetch(`/data/artwork/${artist.id}.json`).catch(() => {
+        // Silently fail if artwork doesn't exist
+      });
+    });
+  }, []); // Empty array: only run once on mount
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
@@ -84,71 +98,77 @@ export default function HomePage() {
             lg:justify-center                           
           "
         >
-          {filteredArtists.map((artist, index) => (
-            <div
-              key={artist.id}
-              className="group relative"
-              style={{ animationDelay: `${index * 200}ms` }}
-            >
-              {/* Glassmorphism Card */}
-              <div className={`group relative backdrop-blur-xl rounded-3xl overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${
-                artist.featured 
-                  ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20' 
-                  : 'bg-white/10 border border-white/20'
-              }`}>
-                {/* Gradient Border Effect */}
-                <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
-                
-                {/* Top-left stack (inside the card) */}
-                <div className="absolute left-2 sm:left-3 top-2 sm:top-3 flex items-center gap-1 sm:gap-2 z-30">
-                  {artist.featured && (
-                    <div
-                      className="
-                        group/feat inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-yellow-400 text-black
-                        pl-1.5 pr-1.5 sm:pl-2 sm:pr-2 overflow-hidden whitespace-nowrap
-                        transition-[max-width] duration-300 ease-out
-                        max-w-[24px] sm:max-w-[28px] lg:max-w-[32px]                 /* collapsed: icon(16) + padding */
-                        group-hover:max-w-[100px] sm:group-hover:max-w-[120px] lg:group-hover:max-w-[132px]    /* expanded: enough for 'Featured' */
-                        gap-0 group-hover:gap-1      /* tighten star–text spacing */
-                      "
-                    >
-                      {/* Star icon */}
-                      <svg className="w-3 h-3 sm:w-4 sm:h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                        <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-                      </svg>
-
-                      {/* Label: hidden until hover so no letters leak */}
-                      <span
-                        className="
-                          text-xs sm:text-sm font-semibold
-                          opacity-0 text-transparent
-                          transition-opacity duration-150
-                          group-hover:opacity-100 group-hover:text-current
-                        "
-                        aria-hidden="true"
-                      >
-                        Featured
-                      </span>
-                    </div>
-                  )}
+          {filteredArtists.map((artist, index) => {
+            // Calculate stagger delay based on artist's position in full sorted list, not filtered list
+            // This ensures consistent delays regardless of search state
+            const artistIndex = allArtists.findIndex(a => a.id === artist.id);
+            const staggerDelay = artist.featured ? 0 : artistIndex * 50;
+            
+            return (
+              <div
+                key={artist.id}
+                className="group relative"
+                style={{ animationDelay: `${index * 200}ms` }}
+              >
+                {/* Glassmorphism Card */}
+                <div className={`group relative backdrop-blur-xl rounded-3xl overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${
+                  artist.featured 
+                    ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20' 
+                    : 'bg-white/10 border border-white/20'
+                }`}>
+                  {/* Gradient Border Effect */}
+                  <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
                   
-                                     {/* Year Pill - Hidden (no metadata) */}
-                   <div className="inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-neutral-800/90 text-white px-2 sm:px-3 text-xs sm:text-sm font-semibold invisible">
-                     2024
-                   </div>
-                </div>
-                
-                {/* Artist Image */}
-                <div className="relative h-32 sm:h-48 lg:h-64 overflow-hidden">
-                  <ArtistImage
-                    artistId={artist.id}
-                    alt={artist.displayName}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                    width={600}
-                    height={600}
-                    priority={artist.featured}
-                    fetchDelay={index * 100} // Stagger requests by 100ms each
-                  />
+                  {/* Top-left stack (inside the card) */}
+                  <div className="absolute left-2 sm:left-3 top-2 sm:top-3 flex items-center gap-1 sm:gap-2 z-30">
+                    {artist.featured && (
+                      <div
+                        className="
+                          group/feat inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-yellow-400 text-black
+                          pl-1.5 pr-1.5 sm:pl-2 sm:pr-2 overflow-hidden whitespace-nowrap
+                          transition-[max-width] duration-300 ease-out
+                          max-w-[24px] sm:max-w-[28px] lg:max-w-[32px]                 /* collapsed: icon(16) + padding */
+                          group-hover:max-w-[100px] sm:group-hover:max-w-[120px] lg:group-hover:max-w-[132px]    /* expanded: enough for 'Featured' */
+                          gap-0 group-hover:gap-1      /* tighten star–text spacing */
+                        "
+                      >
+                        {/* Star icon */}
+                        <svg className="w-3 h-3 sm:w-4 sm:h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                        </svg>
+
+                        {/* Label: hidden until hover so no letters leak */}
+                        <span
+                          className="
+                            text-xs sm:text-sm font-semibold
+                            opacity-0 text-transparent
+                            transition-opacity duration-150
+                            group-hover:opacity-100 group-hover:text-current
+                          "
+                          aria-hidden="true"
+                        >
+                          Featured
+                        </span>
+                      </div>
+                    )}
+                    
+                                       {/* Year Pill - Hidden (no metadata) */}
+                     <div className="inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-neutral-800/90 text-white px-2 sm:px-3 text-xs sm:text-sm font-semibold invisible">
+                       2024
+                     </div>
+                  </div>
+                  
+                  {/* Artist Image */}
+                  <div className="relative h-32 sm:h-48 lg:h-64 overflow-hidden">
+                    <ArtistImage
+                      artistId={artist.id}
+                      alt={artist.displayName}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      width={400}
+                      height={400}
+                      priority={artist.featured}
+                      fetchDelay={staggerDelay}
+                    />
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   
@@ -198,7 +218,8 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-          ))}
+          );
+        })}
         </div>
 
 
