@@ -39,10 +39,12 @@ async function sleep(ms) {
 }
 
 async function fetchWithRetry(url, options, retries = 3) {
+  let lastResponse;
   for (let i = 0; i < retries; i++) {
     try {
       const response = await fetch(url, options);
       if (response.status === 429) {
+        lastResponse = response;
         const waitTime = (i + 1) * 2000;
         console.log(`  ⏳ Rate limited, waiting ${waitTime}ms...`);
         await sleep(waitTime);
@@ -54,6 +56,9 @@ async function fetchWithRetry(url, options, retries = 3) {
       await sleep(1000);
     }
   }
+  // If all retries exhausted due to rate limiting, return the last 429 response
+  // so callers can check response.ok and handle gracefully
+  return lastResponse;
 }
 
 async function fetchArtistAlbums(artistId, storefront) {
