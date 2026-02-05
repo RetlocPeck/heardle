@@ -182,45 +182,6 @@
     "trackId": "1538734207"
   },
   {
-    "id": "applemusic-1670622073",
-    "name": "Teddy Bear",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "Teddy Bear - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/91/be/5d91be0e-b61d-2de7-0937-b4fd4a7e9f0f/mzaf_10146917558968304796.plus.aac.p.m4a",
-    "duration": 189773,
-    "trackUrl": "https://music.apple.com/us/album/teddy-bear/1670622072?i=1670622073",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/e2/34/d3e23468-4920-f7b9-e955-322eb98af917/cover_KM0016800_1.jpg/300x300bb.jpg",
-    "trackId": "1670622073"
-  },
-  {
-    "id": "applemusic-1654124215",
-    "name": "Poppy",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "Poppy - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/07/69/97/076997a3-8cab-d38b-edc7-8a642ef746da/mzaf_13303718278971176677.plus.aac.p.m4a",
-    "duration": 179867,
-    "trackUrl": "https://music.apple.com/us/album/poppy/1654124214?i=1654124215",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5b/41/0b/5b410b11-0bfd-db80-2413-f2fd99454b5e/22UM1IM26561.rgb.jpg/300x300bb.jpg",
-    "trackId": "1654124215"
-  },
-  {
-    "id": "applemusic-1701915216",
-    "name": "Bubble",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "TEENFRESH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/40/d8/c740d8be-7997-562c-3759-7d3d2cdb120e/mzaf_8245578181193888387.plus.aac.p.m4a",
-    "duration": 179276,
-    "trackUrl": "https://music.apple.com/us/album/bubble/1701915214?i=1701915216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/fa/fa/c6fafa66-b751-661b-3819-4bf77608b690/cover_KM0017996_1.jpg/300x300bb.jpg",
-    "trackId": "1701915216"
-  },
-  {
     "id": "applemusic-1634360916",
     "name": "BEAUTIFUL MONSTER",
     "artists": [
@@ -260,56 +221,30 @@
     "trackId": "1634360918"
   },
   {
-    "id": "applemusic-1716677201",
-    "name": "LIT",
+    "id": "applemusic-1701915216",
+    "name": "Bubble",
     "artists": [
       "STAYC"
     ],
-    "album": "LIT - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cd/18/c8/cd18c87c-ed9b-5f1e-9f9b-437053541854/mzaf_5598812418824003336.plus.aac.p.m4a",
-    "duration": 171007,
-    "trackUrl": "https://music.apple.com/us/album/lit/1716677195?i=1716677201",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/f5/82/16f58285-c54e-14b8-ec19-b2f3dc37a89c/23UM1IM32829.rgb.jpg/300x300bb.jpg",
-    "trackId": "1716677201"
+    "album": "TEENFRESH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/40/d8/c740d8be-7997-562c-3759-7d3d2cdb120e/mzaf_8245578181193888387.plus.aac.p.m4a",
+    "duration": 179276,
+    "trackUrl": "https://music.apple.com/us/album/bubble/1701915214?i=1701915216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/fa/fa/c6fafa66-b751-661b-3819-4bf77608b690/cover_KM0017996_1.jpg/300x300bb.jpg",
+    "trackId": "1701915216"
   },
   {
-    "id": "applemusic-1800597777",
-    "name": "BEBE",
+    "id": "applemusic-1670622073",
+    "name": "Teddy Bear",
     "artists": [
       "STAYC"
     ],
-    "album": "S - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/b5/82/36b5826b-04ca-9c3b-1e9f-826c70525524/mzaf_6396367006477327293.plus.aac.p.m4a",
-    "duration": 179392,
-    "trackUrl": "https://music.apple.com/us/album/bebe/1800597776?i=1800597777",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
-    "trackId": "1800597777"
-  },
-  {
-    "id": "applemusic-1800597779",
-    "name": "DIAMOND",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "S - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/26/75/982675a5-720f-c46e-48b1-df0e341dd69d/mzaf_17214173954268199489.plus.aac.p.m4a",
-    "duration": 142192,
-    "trackUrl": "https://music.apple.com/us/album/diamond/1800597776?i=1800597779",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
-    "trackId": "1800597779"
-  },
-  {
-    "id": "applemusic-1800597780",
-    "name": "PIPE DOWN",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "S - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/08/e0/0d08e027-4047-98d7-551f-065bacddbcf8/mzaf_6709408517222693728.plus.aac.p.m4a",
-    "duration": 141310,
-    "trackUrl": "https://music.apple.com/us/album/pipe-down/1800597776?i=1800597780",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
-    "trackId": "1800597780"
+    "album": "Teddy Bear - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/91/be/5d91be0e-b61d-2de7-0937-b4fd4a7e9f0f/mzaf_10146917558968304796.plus.aac.p.m4a",
+    "duration": 189773,
+    "trackUrl": "https://music.apple.com/us/album/teddy-bear/1670622072?i=1670622073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/e2/34/d3e23468-4920-f7b9-e955-322eb98af917/cover_KM0016800_1.jpg/300x300bb.jpg",
+    "trackId": "1670622073"
   },
   {
     "id": "applemusic-1752835378",
@@ -479,6 +414,71 @@
     "trackUrl": "https://music.apple.com/us/album/trouble-maker/1752835376?i=1752835489",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/83/de/9083def4-0817-a40d-d30f-87a691f9c31d/cover_KM0020019_1.jpg/300x300bb.jpg",
     "trackId": "1752835489"
+  },
+  {
+    "id": "applemusic-1716677201",
+    "name": "LIT",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "LIT - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cd/18/c8/cd18c87c-ed9b-5f1e-9f9b-437053541854/mzaf_5598812418824003336.plus.aac.p.m4a",
+    "duration": 171007,
+    "trackUrl": "https://music.apple.com/us/album/lit/1716677195?i=1716677201",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/f5/82/16f58285-c54e-14b8-ec19-b2f3dc37a89c/23UM1IM32829.rgb.jpg/300x300bb.jpg",
+    "trackId": "1716677201"
+  },
+  {
+    "id": "applemusic-1800597777",
+    "name": "BEBE",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "S - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/b5/82/36b5826b-04ca-9c3b-1e9f-826c70525524/mzaf_6396367006477327293.plus.aac.p.m4a",
+    "duration": 179392,
+    "trackUrl": "https://music.apple.com/us/album/bebe/1800597776?i=1800597777",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
+    "trackId": "1800597777"
+  },
+  {
+    "id": "applemusic-1800597779",
+    "name": "DIAMOND",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "S - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/98/26/75/982675a5-720f-c46e-48b1-df0e341dd69d/mzaf_17214173954268199489.plus.aac.p.m4a",
+    "duration": 142192,
+    "trackUrl": "https://music.apple.com/us/album/diamond/1800597776?i=1800597779",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
+    "trackId": "1800597779"
+  },
+  {
+    "id": "applemusic-1800597780",
+    "name": "PIPE DOWN",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "S - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/08/e0/0d08e027-4047-98d7-551f-065bacddbcf8/mzaf_6709408517222693728.plus.aac.p.m4a",
+    "duration": 141310,
+    "trackUrl": "https://music.apple.com/us/album/pipe-down/1800597776?i=1800597780",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
+    "trackId": "1800597780"
+  },
+  {
+    "id": "applemusic-1654124215",
+    "name": "Poppy",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "Poppy - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/07/69/97/076997a3-8cab-d38b-edc7-8a642ef746da/mzaf_13303718278971176677.plus.aac.p.m4a",
+    "duration": 179867,
+    "trackUrl": "https://music.apple.com/us/album/poppy/1654124214?i=1654124215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/5b/41/0b/5b410b11-0bfd-db80-2413-f2fd99454b5e/22UM1IM26561.rgb.jpg/300x300bb.jpg",
+    "trackId": "1654124215"
   },
   {
     "id": "applemusic-1826933187",

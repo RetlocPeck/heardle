@@ -1,16 +1,81 @@
 [
   {
-    "id": "applemusic-1308176964",
-    "name": "Intro. New World",
+    "id": "applemusic-1700267019",
+    "name": "Good to Me",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 2nd Album 'Teen, Age'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/22/f0/b322f0b2-ff22-663e-1749-edd6d9bc21d2/mzaf_14172426132817089812.plus.aac.p.m4a",
-    "duration": 51669,
-    "trackUrl": "https://music.apple.com/us/album/intro-new-world/1308176950?i=1308176964",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/71/f1/26/71f1269f-be8a-dafd-b732-a84c58136d06/cover-.jpg/300x300bb.jpg",
-    "trackId": "1308176964"
+    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4f/fd/e0/4ffde0e2-28fd-46e9-a7c2-65838b13bff4/mzaf_1559697585893161294.plus.aac.p.m4a",
+    "duration": 189714,
+    "trackUrl": "https://music.apple.com/us/album/good-to-me/1700266862?i=1700267019",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
+    "trackId": "1700267019"
+  },
+  {
+    "id": "applemusic-1700267067",
+    "name": "Home",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b0/e0/1e/b0e01e10-8ba2-fae4-a7d2-fd48113a9b34/mzaf_11062246586717231841.plus.aac.p.m4a",
+    "duration": 203731,
+    "trackUrl": "https://music.apple.com/us/album/home/1700266862?i=1700267067",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
+    "trackId": "1700267067"
+  },
+  {
+    "id": "applemusic-1700267073",
+    "name": "Hug",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e7/61/44/e761444a-4385-f83f-3049-977e7724150b/mzaf_9557897796789807703.plus.aac.p.m4a",
+    "duration": 159110,
+    "trackUrl": "https://music.apple.com/us/album/hug/1700266862?i=1700267073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
+    "trackId": "1700267073"
+  },
+  {
+    "id": "applemusic-1700267480",
+    "name": "Chilli",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/80/71/7c/80717c2b-2889-00d1-66c9-aed993acfd39/mzaf_5385078596441671861.plus.aac.p.m4a",
+    "duration": 183066,
+    "trackUrl": "https://music.apple.com/us/album/chilli/1700266862?i=1700267480",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
+    "trackId": "1700267480"
+  },
+  {
+    "id": "applemusic-1700267503",
+    "name": "Shhh",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/61/58/33/6158338b-194e-0b3d-8db2-f90a2982f069/mzaf_1491643956552849613.plus.aac.p.m4a",
+    "duration": 186974,
+    "trackUrl": "https://music.apple.com/us/album/shhh/1700266862?i=1700267503",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
+    "trackId": "1700267503"
+  },
+  {
+    "id": "applemusic-1700267616",
+    "name": "Getting Closer",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/25/d6/97/25d697ea-de2e-0e9c-ae6e-cace495a6673/mzaf_5419143484680670302.plus.aac.p.m4a",
+    "duration": 183579,
+    "trackUrl": "https://music.apple.com/us/album/getting-closer/1700266862?i=1700267616",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
+    "trackId": "1700267616"
   },
   {
     "id": "applemusic-1308176965",
@@ -156,95 +221,108 @@
     "trackId": "1308177073"
   },
   {
-    "id": "applemusic-1308177075",
-    "name": "Outro. Incompletion",
+    "id": "applemusic-1182849729",
+    "name": "Beautiful",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 2nd Album 'Teen, Age'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/76/40/39764035-eead-eb18-28ba-f189078ef5da/mzaf_12266498426645113175.plus.aac.p.m4a",
-    "duration": 73760,
-    "trackUrl": "https://music.apple.com/us/album/outro-incompletion/1308176950?i=1308177075",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/71/f1/26/71f1269f-be8a-dafd-b732-a84c58136d06/cover-.jpg/300x300bb.jpg",
-    "trackId": "1308177075"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/2c/0f/482c0f61-30ae-4cd1-c850-65be51e24c19/mzaf_13893800463668690828.plus.aac.p.m4a",
+    "duration": 217452,
+    "trackUrl": "https://music.apple.com/us/album/beautiful/1182849724?i=1182849729",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849729"
   },
   {
-    "id": "applemusic-1700267019",
-    "name": "Good to Me",
+    "id": "applemusic-1182849730",
+    "name": "BOOMBOOM",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4f/fd/e0/4ffde0e2-28fd-46e9-a7c2-65838b13bff4/mzaf_1559697585893161294.plus.aac.p.m4a",
-    "duration": 189714,
-    "trackUrl": "https://music.apple.com/us/album/good-to-me/1700266862?i=1700267019",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
-    "trackId": "1700267019"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/33/a1/6233a166-3279-c226-9cae-053c55663f6f/mzaf_5973180851868673226.plus.aac.p.m4a",
+    "duration": 206227,
+    "trackUrl": "https://music.apple.com/us/album/boomboom/1182849724?i=1182849730",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849730"
   },
   {
-    "id": "applemusic-1700267067",
-    "name": "Home",
+    "id": "applemusic-1182849881",
+    "name": "Highlight",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b0/e0/1e/b0e01e10-8ba2-fae4-a7d2-fd48113a9b34/mzaf_11062246586717231841.plus.aac.p.m4a",
-    "duration": 203731,
-    "trackUrl": "https://music.apple.com/us/album/home/1700266862?i=1700267067",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
-    "trackId": "1700267067"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/fc/b3/43fcb391-415b-3e1b-913e-25904ea2b533/mzaf_5798893410608758866.plus.aac.p.m4a",
+    "duration": 225302,
+    "trackUrl": "https://music.apple.com/us/album/highlight/1182849724?i=1182849881",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849881"
   },
   {
-    "id": "applemusic-1700267073",
-    "name": "Hug",
+    "id": "applemusic-1182849882",
+    "name": "Lean On Me",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e7/61/44/e761444a-4385-f83f-3049-977e7724150b/mzaf_9557897796789807703.plus.aac.p.m4a",
-    "duration": 159110,
-    "trackUrl": "https://music.apple.com/us/album/hug/1700266862?i=1700267073",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
-    "trackId": "1700267073"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/c1/5a/56c15a34-50c9-8ae4-23e0-0e0bbec6edb5/mzaf_11903280382453670151.plus.aac.p.m4a",
+    "duration": 204723,
+    "trackUrl": "https://music.apple.com/us/album/lean-on-me/1182849724?i=1182849882",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849882"
   },
   {
-    "id": "applemusic-1700267480",
-    "name": "Chilli",
+    "id": "applemusic-1182849883",
+    "name": "Fast Pace",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/80/71/7c/80717c2b-2889-00d1-66c9-aed993acfd39/mzaf_5385078596441671861.plus.aac.p.m4a",
-    "duration": 183066,
-    "trackUrl": "https://music.apple.com/us/album/chilli/1700266862?i=1700267480",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
-    "trackId": "1700267480"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/eb/85/c3eb8543-a3ea-4a83-758e-5a720c2aca96/mzaf_1116142798436388334.plus.aac.p.m4a",
+    "duration": 220972,
+    "trackUrl": "https://music.apple.com/us/album/fast-pace/1182849724?i=1182849883",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849883"
   },
   {
-    "id": "applemusic-1700267503",
-    "name": "Shhh",
+    "id": "applemusic-1182849884",
+    "name": "Don't Listen In Secret",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/61/58/33/6158338b-194e-0b3d-8db2-f90a2982f069/mzaf_1491643956552849613.plus.aac.p.m4a",
-    "duration": 186974,
-    "trackUrl": "https://music.apple.com/us/album/shhh/1700266862?i=1700267503",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
-    "trackId": "1700267503"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/99/50/9e99508e-5d16-e678-fc82-4540408d53c2/mzaf_262353950790229238.plus.aac.p.m4a",
+    "duration": 237553,
+    "trackUrl": "https://music.apple.com/us/album/dont-listen-in-secret/1182849724?i=1182849884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849884"
   },
   {
-    "id": "applemusic-1700267616",
-    "name": "Getting Closer",
+    "id": "applemusic-1182849885",
+    "name": "I Don't Know",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "SEVENTEEN 6th Mini Album 'YOU MADE MY DAWN' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/25/d6/97/25d697ea-de2e-0e9c-ae6e-cace495a6673/mzaf_5419143484680670302.plus.aac.p.m4a",
-    "duration": 183579,
-    "trackUrl": "https://music.apple.com/us/album/getting-closer/1700266862?i=1700267616",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d3/c9/4c/d3c94ccd-6c20-af5a-403e-40a14b9f3df5/8804775120695_Cover.jpg/300x300bb.jpg",
-    "trackId": "1700267616"
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/5f/e8/855fe8a7-87ce-8150-66f9-e1e52ec2eec4/mzaf_13790105608112452669.plus.aac.p.m4a",
+    "duration": 231900,
+    "trackUrl": "https://music.apple.com/us/album/i-dont-know/1182849724?i=1182849885",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849885"
+  },
+  {
+    "id": "applemusic-1182849886",
+    "name": "Smile Flower",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "Going Seventeen",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/39/04/ea3904bf-7ac1-d051-2c9e-35531f3fad2c/mzaf_4087645234659789641.plus.aac.p.m4a",
+    "duration": 232395,
+    "trackUrl": "https://music.apple.com/us/album/smile-flower/1182849724?i=1182849886",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1182849886"
   },
   {
     "id": "applemusic-1618314654",
@@ -258,97 +336,6 @@
     "trackUrl": "https://music.apple.com/us/album/darl-ing/1618314646?i=1618314654",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/9f/26/fa/9f26fae1-c93e-0d47-a0a6-b8543e2a28aa/192641997679_Cover.jpg/300x300bb.jpg",
     "trackId": "1618314654"
-  },
-  {
-    "id": "applemusic-1589497192",
-    "name": "To you",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/fa/84/78fa848a-4fa5-f95c-3cf8-9d74994ad4da/mzaf_9201465622263706166.plus.aac.p.m4a",
-    "duration": 225573,
-    "trackUrl": "https://music.apple.com/us/album/to-you/1589497186?i=1589497192",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497192"
-  },
-  {
-    "id": "applemusic-1589497195",
-    "name": "Rock with you",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/6d/36/fe6d36e8-4e5d-ac85-d6ed-ac72890352f7/mzaf_12231510503702106292.plus.aac.p.m4a",
-    "duration": 180360,
-    "trackUrl": "https://music.apple.com/us/album/rock-with-you/1589497186?i=1589497195",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497195"
-  },
-  {
-    "id": "applemusic-1589497198",
-    "name": "Crush",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/2a/7f/4b2a7fb2-36b0-a864-bb6f-5a118ca82be2/mzaf_1441941161179203158.plus.aac.p.m4a",
-    "duration": 169560,
-    "trackUrl": "https://music.apple.com/us/album/crush/1589497186?i=1589497198",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497198"
-  },
-  {
-    "id": "applemusic-1589497202",
-    "name": "PANG!",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/a3/53/7ba353ae-5d5f-92d1-15d1-094504ddbb4a/mzaf_10694789630366585078.plus.aac.p.m4a",
-    "duration": 178640,
-    "trackUrl": "https://music.apple.com/us/album/pang/1589497186?i=1589497202",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497202"
-  },
-  {
-    "id": "applemusic-1589497205",
-    "name": "Imperfect love",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/08/72/a5087200-1ae4-f378-2826-ac7ed31857dd/mzaf_11723795455269036543.plus.aac.p.m4a",
-    "duration": 204720,
-    "trackUrl": "https://music.apple.com/us/album/imperfect-love/1589497186?i=1589497205",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497205"
-  },
-  {
-    "id": "applemusic-1589497423",
-    "name": "I can't run away",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/81/90/c3819008-be59-fcf7-b084-097fbd502498/mzaf_17045684010084217388.plus.aac.p.m4a",
-    "duration": 210680,
-    "trackUrl": "https://music.apple.com/us/album/i-cant-run-away/1589497186?i=1589497423",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497423"
-  },
-  {
-    "id": "applemusic-1589497426",
-    "name": "2 MINUS 1 (Bonus Track)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/e4/c2/89e4c2d6-c121-b840-d326-4f3444da7a02/mzaf_2378728262954747341.plus.aac.p.m4a",
-    "duration": 190120,
-    "trackUrl": "https://music.apple.com/us/album/2-minus-1-bonus-track/1589497186?i=1589497426",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
-    "trackId": "1589497426"
   },
   {
     "id": "applemusic-1681324043",
@@ -429,123 +416,6 @@
     "trackId": "1681324159"
   },
   {
-    "id": "applemusic-1625319407",
-    "name": "HOT",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/79/2a/06792af8-e506-19d0-0626-18db16be604d/mzaf_17626698561523643136.plus.aac.p.m4a",
-    "duration": 197587,
-    "trackUrl": "https://music.apple.com/us/album/hot/1625319240?i=1625319407",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319407"
-  },
-  {
-    "id": "applemusic-1625319414",
-    "name": "DON QUIXOTE",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/1d/a3/b41da393-3b7d-fe61-c37d-5e11e5163749/mzaf_13246146386392227422.plus.aac.p.m4a",
-    "duration": 172360,
-    "trackUrl": "https://music.apple.com/us/album/don-quixote/1625319240?i=1625319414",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319414"
-  },
-  {
-    "id": "applemusic-1625319421",
-    "name": "March",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/ab/60/beab603d-2e6b-68b6-6a59-bc579a762cf2/mzaf_11408211060311427121.plus.aac.p.m4a",
-    "duration": 196187,
-    "trackUrl": "https://music.apple.com/us/album/march/1625319240?i=1625319421",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319421"
-  },
-  {
-    "id": "applemusic-1625319666",
-    "name": "Domino",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/f3/39/33f33952-bffd-71cf-ff64-57877121a28b/mzaf_375316544063879708.plus.aac.p.m4a",
-    "duration": 214893,
-    "trackUrl": "https://music.apple.com/us/album/domino/1625319240?i=1625319666",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319666"
-  },
-  {
-    "id": "applemusic-1625319671",
-    "name": "Shadow",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/00/55/4100553a-6373-f891-6d6a-86563cedda0c/mzaf_5297703491308329439.plus.aac.p.m4a",
-    "duration": 212653,
-    "trackUrl": "https://music.apple.com/us/album/shadow/1625319240?i=1625319671",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319671"
-  },
-  {
-    "id": "applemusic-1625319677",
-    "name": "'bout you",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/ca/07/76ca0727-0ecb-75c7-c0f1-e058810f1335/mzaf_8567789196148294734.plus.aac.p.m4a",
-    "duration": 162427,
-    "trackUrl": "https://music.apple.com/us/album/bout-you/1625319240?i=1625319677",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319677"
-  },
-  {
-    "id": "applemusic-1625319685",
-    "name": "IF you leave me",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/a5/42/97a54246-bf7d-17a7-e95c-a9527f577dfa/mzaf_4555173953301878311.plus.aac.p.m4a",
-    "duration": 212507,
-    "trackUrl": "https://music.apple.com/us/album/if-you-leave-me/1625319240?i=1625319685",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319685"
-  },
-  {
-    "id": "applemusic-1625319690",
-    "name": "Ash",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/73/25/e27325b4-d135-628b-38a1-f65c95dabbdf/mzaf_8104891388515430349.plus.aac.p.m4a",
-    "duration": 201653,
-    "trackUrl": "https://music.apple.com/us/album/ash/1625319240?i=1625319690",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319690"
-  },
-  {
-    "id": "applemusic-1625319874",
-    "name": "A Message From SEVENTEEN",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/2b/ea/5b2bea3a-516c-a707-0f32-7da76f7e48e9/mzaf_17174301481622606338.plus.aac.p.m4a",
-    "duration": 62208,
-    "trackUrl": "https://music.apple.com/us/album/a-message-from-seventeen/1625319240?i=1625319874",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
-    "trackId": "1625319874"
-  },
-  {
     "id": "applemusic-1551732092",
     "name": "HIT",
     "artists": [
@@ -557,6 +427,162 @@
     "trackUrl": "https://music.apple.com/us/album/hit/1551732089?i=1551732092",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/81/e2/6b81e219-f989-9138-96be-629474d2e843/08809658315175_Cover.jpg/300x300bb.jpg",
     "trackId": "1551732092"
+  },
+  {
+    "id": "applemusic-1239346065",
+    "name": "Don't Wanna Cry",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/d3/70/0ed3705f-4129-2fe1-d498-0616631ebbf5/mzaf_7220601219983848184.plus.aac.p.m4a",
+    "duration": 203427,
+    "trackUrl": "https://music.apple.com/us/album/dont-wanna-cry/1239345692?i=1239346065",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
+    "trackId": "1239346065"
+  },
+  {
+    "id": "applemusic-1239346070",
+    "name": "Habit",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/f0/0b/05f00be2-493f-08c4-0851-e9fc1758b6d4/mzaf_14561414948179186220.plus.aac.p.m4a",
+    "duration": 253201,
+    "trackUrl": "https://music.apple.com/us/album/habit/1239345692?i=1239346070",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
+    "trackId": "1239346070"
+  },
+  {
+    "id": "applemusic-1239346071",
+    "name": "If I",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/45/d8/f645d87b-de0b-85b6-6258-b246f125e277/mzaf_298614494164552328.plus.aac.p.m4a",
+    "duration": 189236,
+    "trackUrl": "https://music.apple.com/us/album/if-i/1239345692?i=1239346071",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
+    "trackId": "1239346071"
+  },
+  {
+    "id": "applemusic-1239346072",
+    "name": "Swimming Fool",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/f4/e5/25f4e5cf-a68f-acad-b1fc-a8bd30d93d7a/mzaf_3891570681673588932.plus.aac.p.m4a",
+    "duration": 187764,
+    "trackUrl": "https://music.apple.com/us/album/swimming-fool/1239345692?i=1239346072",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
+    "trackId": "1239346072"
+  },
+  {
+    "id": "applemusic-1239346073",
+    "name": "My I",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/20/dc/1d20dcb0-dd06-ef63-b162-8e13816c9c4e/mzaf_2762039376084618657.plus.aac.p.m4a",
+    "duration": 184137,
+    "trackUrl": "https://music.apple.com/us/album/my-i/1239345692?i=1239346073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
+    "trackId": "1239346073"
+  },
+  {
+    "id": "applemusic-1239346074",
+    "name": "Crazy in Love",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/af/88/eeaf88e8-8e54-af7b-598a-d15b3bb7971d/mzaf_3248689114817342068.plus.aac.p.m4a",
+    "duration": 215557,
+    "trackUrl": "https://music.apple.com/us/album/crazy-in-love/1239345692?i=1239346074",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
+    "trackId": "1239346074"
+  },
+  {
+    "id": "applemusic-1539735974",
+    "name": "Oh My!",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "You Make My Day - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cc/86/27/cc86273d-6970-c9ea-c35c-057633934d91/mzaf_10812716729417732244.plus.aac.p.m4a",
+    "duration": 195004,
+    "trackUrl": "https://music.apple.com/us/album/oh-my/1539735672?i=1539735974",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
+    "trackId": "1539735974"
+  },
+  {
+    "id": "applemusic-1539735986",
+    "name": "Holiday",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "You Make My Day - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/63/94/ff/6394ffd1-76e3-e742-9714-d8dbb21afa4b/mzaf_1398534798485372807.plus.aac.p.m4a",
+    "duration": 205350,
+    "trackUrl": "https://music.apple.com/us/album/holiday/1539735672?i=1539735986",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
+    "trackId": "1539735986"
+  },
+  {
+    "id": "applemusic-1539735992",
+    "name": "Come To Me",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "You Make My Day - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/bb/aa/a9bbaa2b-dcf2-991a-1281-05efefc3b61a/mzaf_11907112689042687236.plus.aac.p.m4a",
+    "duration": 189513,
+    "trackUrl": "https://music.apple.com/us/album/come-to-me/1539735672?i=1539735992",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
+    "trackId": "1539735992"
+  },
+  {
+    "id": "applemusic-1539735995",
+    "name": "What's Good",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "You Make My Day - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/06/3d/fd063d6b-c2e8-4954-2f7a-eb92f7257405/mzaf_14617662454196206052.plus.aac.p.m4a",
+    "duration": 168063,
+    "trackUrl": "https://music.apple.com/us/album/whats-good/1539735672?i=1539735995",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
+    "trackId": "1539735995"
+  },
+  {
+    "id": "applemusic-1539736418",
+    "name": "Moonwalker",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "You Make My Day - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4e/ef/93/4eef9325-65a4-14c9-89dc-ad5dda21bec4/mzaf_9841064921213453715.plus.aac.p.m4a",
+    "duration": 180279,
+    "trackUrl": "https://music.apple.com/us/album/moonwalker/1539735672?i=1539736418",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
+    "trackId": "1539736418"
+  },
+  {
+    "id": "applemusic-1539736424",
+    "name": "Our Dawn Is Hotter Than Day",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "You Make My Day - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/85/70/87857030-7379-7b92-49f2-b7e8fea91928/mzaf_1930985604128068391.plus.aac.p.m4a",
+    "duration": 212309,
+    "trackUrl": "https://music.apple.com/us/album/our-dawn-is-hotter-than-day/1539735672?i=1539736424",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
+    "trackId": "1539736424"
   },
   {
     "id": "applemusic-1551739589",
@@ -676,97 +702,6 @@
     "trackId": "1551739815"
   },
   {
-    "id": "applemusic-1701948728",
-    "name": "Happy Ending",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "ALWAYS YOURS",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/80/f6/78/80f67889-3586-3c8f-114e-8e433c60506d/mzaf_16997701529357900764.plus.aac.p.m4a",
-    "duration": 209124,
-    "trackUrl": "https://music.apple.com/us/album/happy-ending/1701948718?i=1701948728",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
-    "trackId": "1701948728"
-  },
-  {
-    "id": "applemusic-1539735974",
-    "name": "Oh My!",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "You Make My Day - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cc/86/27/cc86273d-6970-c9ea-c35c-057633934d91/mzaf_10812716729417732244.plus.aac.p.m4a",
-    "duration": 195004,
-    "trackUrl": "https://music.apple.com/us/album/oh-my/1539735672?i=1539735974",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
-    "trackId": "1539735974"
-  },
-  {
-    "id": "applemusic-1539735986",
-    "name": "Holiday",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "You Make My Day - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/63/94/ff/6394ffd1-76e3-e742-9714-d8dbb21afa4b/mzaf_1398534798485372807.plus.aac.p.m4a",
-    "duration": 205350,
-    "trackUrl": "https://music.apple.com/us/album/holiday/1539735672?i=1539735986",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
-    "trackId": "1539735986"
-  },
-  {
-    "id": "applemusic-1539735992",
-    "name": "Come To Me",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "You Make My Day - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/bb/aa/a9bbaa2b-dcf2-991a-1281-05efefc3b61a/mzaf_11907112689042687236.plus.aac.p.m4a",
-    "duration": 189513,
-    "trackUrl": "https://music.apple.com/us/album/come-to-me/1539735672?i=1539735992",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
-    "trackId": "1539735992"
-  },
-  {
-    "id": "applemusic-1539735995",
-    "name": "What's Good",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "You Make My Day - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/06/3d/fd063d6b-c2e8-4954-2f7a-eb92f7257405/mzaf_14617662454196206052.plus.aac.p.m4a",
-    "duration": 168063,
-    "trackUrl": "https://music.apple.com/us/album/whats-good/1539735672?i=1539735995",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
-    "trackId": "1539735995"
-  },
-  {
-    "id": "applemusic-1539736418",
-    "name": "Moonwalker",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "You Make My Day - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4e/ef/93/4eef9325-65a4-14c9-89dc-ad5dda21bec4/mzaf_9841064921213453715.plus.aac.p.m4a",
-    "duration": 180279,
-    "trackUrl": "https://music.apple.com/us/album/moonwalker/1539735672?i=1539736418",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
-    "trackId": "1539736418"
-  },
-  {
-    "id": "applemusic-1539736424",
-    "name": "Our Dawn Is Hotter Than Day",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "You Make My Day - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/85/70/87857030-7379-7b92-49f2-b7e8fea91928/mzaf_1930985604128068391.plus.aac.p.m4a",
-    "duration": 212309,
-    "trackUrl": "https://music.apple.com/us/album/our-dawn-is-hotter-than-day/1539735672?i=1539736424",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/67/da/8c67dae9-2134-d43a-a332-ccd4b9e55ccb/192641597718_Cover.jpg/300x300bb.jpg",
-    "trackId": "1539736424"
-  },
-  {
     "id": "applemusic-1571363159",
     "name": "Heaven's Cloud",
     "artists": [
@@ -845,186 +780,95 @@
     "trackId": "1571363629"
   },
   {
-    "id": "applemusic-1182849729",
-    "name": "Beautiful",
+    "id": "applemusic-1589497192",
+    "name": "To you",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/48/2c/0f/482c0f61-30ae-4cd1-c850-65be51e24c19/mzaf_13893800463668690828.plus.aac.p.m4a",
-    "duration": 217452,
-    "trackUrl": "https://music.apple.com/us/album/beautiful/1182849724?i=1182849729",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849729"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/fa/84/78fa848a-4fa5-f95c-3cf8-9d74994ad4da/mzaf_9201465622263706166.plus.aac.p.m4a",
+    "duration": 225573,
+    "trackUrl": "https://music.apple.com/us/album/to-you/1589497186?i=1589497192",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497192"
   },
   {
-    "id": "applemusic-1182849730",
-    "name": "BOOMBOOM",
+    "id": "applemusic-1589497195",
+    "name": "Rock with you",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/33/a1/6233a166-3279-c226-9cae-053c55663f6f/mzaf_5973180851868673226.plus.aac.p.m4a",
-    "duration": 206227,
-    "trackUrl": "https://music.apple.com/us/album/boomboom/1182849724?i=1182849730",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849730"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fe/6d/36/fe6d36e8-4e5d-ac85-d6ed-ac72890352f7/mzaf_12231510503702106292.plus.aac.p.m4a",
+    "duration": 180360,
+    "trackUrl": "https://music.apple.com/us/album/rock-with-you/1589497186?i=1589497195",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497195"
   },
   {
-    "id": "applemusic-1182849881",
-    "name": "Highlight",
+    "id": "applemusic-1589497198",
+    "name": "Crush",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/fc/b3/43fcb391-415b-3e1b-913e-25904ea2b533/mzaf_5798893410608758866.plus.aac.p.m4a",
-    "duration": 225302,
-    "trackUrl": "https://music.apple.com/us/album/highlight/1182849724?i=1182849881",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849881"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/2a/7f/4b2a7fb2-36b0-a864-bb6f-5a118ca82be2/mzaf_1441941161179203158.plus.aac.p.m4a",
+    "duration": 169560,
+    "trackUrl": "https://music.apple.com/us/album/crush/1589497186?i=1589497198",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497198"
   },
   {
-    "id": "applemusic-1182849882",
-    "name": "Lean On Me",
+    "id": "applemusic-1589497202",
+    "name": "PANG!",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/c1/5a/56c15a34-50c9-8ae4-23e0-0e0bbec6edb5/mzaf_11903280382453670151.plus.aac.p.m4a",
-    "duration": 204723,
-    "trackUrl": "https://music.apple.com/us/album/lean-on-me/1182849724?i=1182849882",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849882"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/a3/53/7ba353ae-5d5f-92d1-15d1-094504ddbb4a/mzaf_10694789630366585078.plus.aac.p.m4a",
+    "duration": 178640,
+    "trackUrl": "https://music.apple.com/us/album/pang/1589497186?i=1589497202",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497202"
   },
   {
-    "id": "applemusic-1182849883",
-    "name": "Fast Pace",
+    "id": "applemusic-1589497205",
+    "name": "Imperfect love",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/eb/85/c3eb8543-a3ea-4a83-758e-5a720c2aca96/mzaf_1116142798436388334.plus.aac.p.m4a",
-    "duration": 220972,
-    "trackUrl": "https://music.apple.com/us/album/fast-pace/1182849724?i=1182849883",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849883"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/08/72/a5087200-1ae4-f378-2826-ac7ed31857dd/mzaf_11723795455269036543.plus.aac.p.m4a",
+    "duration": 204720,
+    "trackUrl": "https://music.apple.com/us/album/imperfect-love/1589497186?i=1589497205",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497205"
   },
   {
-    "id": "applemusic-1182849884",
-    "name": "Don't Listen In Secret",
+    "id": "applemusic-1589497423",
+    "name": "I can't run away",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/99/50/9e99508e-5d16-e678-fc82-4540408d53c2/mzaf_262353950790229238.plus.aac.p.m4a",
-    "duration": 237553,
-    "trackUrl": "https://music.apple.com/us/album/dont-listen-in-secret/1182849724?i=1182849884",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849884"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/81/90/c3819008-be59-fcf7-b084-097fbd502498/mzaf_17045684010084217388.plus.aac.p.m4a",
+    "duration": 210680,
+    "trackUrl": "https://music.apple.com/us/album/i-cant-run-away/1589497186?i=1589497423",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497423"
   },
   {
-    "id": "applemusic-1182849885",
-    "name": "I Don't Know",
+    "id": "applemusic-1589497426",
+    "name": "2 MINUS 1 (Bonus Track)",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/5f/e8/855fe8a7-87ce-8150-66f9-e1e52ec2eec4/mzaf_13790105608112452669.plus.aac.p.m4a",
-    "duration": 231900,
-    "trackUrl": "https://music.apple.com/us/album/i-dont-know/1182849724?i=1182849885",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849885"
-  },
-  {
-    "id": "applemusic-1182849886",
-    "name": "Smile Flower",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "Going Seventeen",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/39/04/ea3904bf-7ac1-d051-2c9e-35531f3fad2c/mzaf_4087645234659789641.plus.aac.p.m4a",
-    "duration": 232395,
-    "trackUrl": "https://music.apple.com/us/album/smile-flower/1182849724?i=1182849886",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2e/c0/94/2ec09415-c432-03b6-d032-8854f11dc379/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1182849886"
-  },
-  {
-    "id": "applemusic-1239346065",
-    "name": "Don't Wanna Cry",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/d3/70/0ed3705f-4129-2fe1-d498-0616631ebbf5/mzaf_7220601219983848184.plus.aac.p.m4a",
-    "duration": 203427,
-    "trackUrl": "https://music.apple.com/us/album/dont-wanna-cry/1239345692?i=1239346065",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
-    "trackId": "1239346065"
-  },
-  {
-    "id": "applemusic-1239346070",
-    "name": "Habit",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/f0/0b/05f00be2-493f-08c4-0851-e9fc1758b6d4/mzaf_14561414948179186220.plus.aac.p.m4a",
-    "duration": 253201,
-    "trackUrl": "https://music.apple.com/us/album/habit/1239345692?i=1239346070",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
-    "trackId": "1239346070"
-  },
-  {
-    "id": "applemusic-1239346071",
-    "name": "If I",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/45/d8/f645d87b-de0b-85b6-6258-b246f125e277/mzaf_298614494164552328.plus.aac.p.m4a",
-    "duration": 189236,
-    "trackUrl": "https://music.apple.com/us/album/if-i/1239345692?i=1239346071",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
-    "trackId": "1239346071"
-  },
-  {
-    "id": "applemusic-1239346072",
-    "name": "Swimming Fool",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/f4/e5/25f4e5cf-a68f-acad-b1fc-a8bd30d93d7a/mzaf_3891570681673588932.plus.aac.p.m4a",
-    "duration": 187764,
-    "trackUrl": "https://music.apple.com/us/album/swimming-fool/1239345692?i=1239346072",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
-    "trackId": "1239346072"
-  },
-  {
-    "id": "applemusic-1239346073",
-    "name": "My I",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/20/dc/1d20dcb0-dd06-ef63-b162-8e13816c9c4e/mzaf_2762039376084618657.plus.aac.p.m4a",
-    "duration": 184137,
-    "trackUrl": "https://music.apple.com/us/album/my-i/1239345692?i=1239346073",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
-    "trackId": "1239346073"
-  },
-  {
-    "id": "applemusic-1239346074",
-    "name": "Crazy in Love",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Mini Album 'Al1' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/af/88/eeaf88e8-8e54-af7b-598a-d15b3bb7971d/mzaf_3248689114817342068.plus.aac.p.m4a",
-    "duration": 215557,
-    "trackUrl": "https://music.apple.com/us/album/crazy-in-love/1239345692?i=1239346074",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/93/76/7e937672-f339-eda1-8d7b-708a0c16acc4/cover-.jpg/300x300bb.jpg",
-    "trackId": "1239346074"
+    "album": "SEVENTEEN 9th Mini Album 'Attacca'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/e4/c2/89e4c2d6-c121-b840-d326-4f3444da7a02/mzaf_2378728262954747341.plus.aac.p.m4a",
+    "duration": 190120,
+    "trackUrl": "https://music.apple.com/us/album/2-minus-1-bonus-track/1589497186?i=1589497426",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dd/d4/d4/ddd4d456-4696-06b8-2054-6d1bb6ae6718/192641682551_Cover.jpg/300x300bb.jpg",
+    "trackId": "1589497426"
   },
   {
     "id": "applemusic-1425785954",
@@ -1118,6 +962,123 @@
     "trackId": "1551736000"
   },
   {
+    "id": "applemusic-1625319407",
+    "name": "HOT",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/06/79/2a/06792af8-e506-19d0-0626-18db16be604d/mzaf_17626698561523643136.plus.aac.p.m4a",
+    "duration": 197587,
+    "trackUrl": "https://music.apple.com/us/album/hot/1625319240?i=1625319407",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319407"
+  },
+  {
+    "id": "applemusic-1625319414",
+    "name": "DON QUIXOTE",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/1d/a3/b41da393-3b7d-fe61-c37d-5e11e5163749/mzaf_13246146386392227422.plus.aac.p.m4a",
+    "duration": 172360,
+    "trackUrl": "https://music.apple.com/us/album/don-quixote/1625319240?i=1625319414",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319414"
+  },
+  {
+    "id": "applemusic-1625319421",
+    "name": "March",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/be/ab/60/beab603d-2e6b-68b6-6a59-bc579a762cf2/mzaf_11408211060311427121.plus.aac.p.m4a",
+    "duration": 196187,
+    "trackUrl": "https://music.apple.com/us/album/march/1625319240?i=1625319421",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319421"
+  },
+  {
+    "id": "applemusic-1625319666",
+    "name": "Domino",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/33/f3/39/33f33952-bffd-71cf-ff64-57877121a28b/mzaf_375316544063879708.plus.aac.p.m4a",
+    "duration": 214893,
+    "trackUrl": "https://music.apple.com/us/album/domino/1625319240?i=1625319666",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319666"
+  },
+  {
+    "id": "applemusic-1625319671",
+    "name": "Shadow",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/00/55/4100553a-6373-f891-6d6a-86563cedda0c/mzaf_5297703491308329439.plus.aac.p.m4a",
+    "duration": 212653,
+    "trackUrl": "https://music.apple.com/us/album/shadow/1625319240?i=1625319671",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319671"
+  },
+  {
+    "id": "applemusic-1625319677",
+    "name": "'bout you",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/ca/07/76ca0727-0ecb-75c7-c0f1-e058810f1335/mzaf_8567789196148294734.plus.aac.p.m4a",
+    "duration": 162427,
+    "trackUrl": "https://music.apple.com/us/album/bout-you/1625319240?i=1625319677",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319677"
+  },
+  {
+    "id": "applemusic-1625319685",
+    "name": "IF you leave me",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/a5/42/97a54246-bf7d-17a7-e95c-a9527f577dfa/mzaf_4555173953301878311.plus.aac.p.m4a",
+    "duration": 212507,
+    "trackUrl": "https://music.apple.com/us/album/if-you-leave-me/1625319240?i=1625319685",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319685"
+  },
+  {
+    "id": "applemusic-1625319690",
+    "name": "Ash",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/73/25/e27325b4-d135-628b-38a1-f65c95dabbdf/mzaf_8104891388515430349.plus.aac.p.m4a",
+    "duration": 201653,
+    "trackUrl": "https://music.apple.com/us/album/ash/1625319240?i=1625319690",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319690"
+  },
+  {
+    "id": "applemusic-1625319874",
+    "name": "A Message From SEVENTEEN",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/2b/ea/5b2bea3a-516c-a707-0f32-7da76f7e48e9/mzaf_17174301481622606338.plus.aac.p.m4a",
+    "duration": 62208,
+    "trackUrl": "https://music.apple.com/us/album/a-message-from-seventeen/1625319240?i=1625319874",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/eb/e6/86/ebe686b5-c4a1-24b6-69a4-db9b45f20dd2/196922058202_Cover.jpg/300x300bb.jpg",
+    "trackId": "1625319874"
+  },
+  {
     "id": "applemusic-1741446418",
     "name": "MAESTRO",
     "artists": [
@@ -1168,97 +1129,6 @@
     "trackUrl": "https://music.apple.com/us/album/cheers-to-youth/1741446411?i=1741446435",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/69/16/f0691679-835f-8b9b-5baa-292b7e49423f/196922894992_Cover.jpg/300x300bb.jpg",
     "trackId": "1741446435"
-  },
-  {
-    "id": "applemusic-1504623176",
-    "name": "Call Call Call!",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "We Make You - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/b2/05/ceb20522-7976-017b-8a14-18996a743610/mzaf_8156283124999045280.plus.aac.p.m4a",
-    "duration": 199867,
-    "trackUrl": "https://music.apple.com/us/album/call-call-call/1504623175?i=1504623176",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/72/11/757211ee-e2df-e6a9-38a8-2d927f0743e8/20UMGIM18432.rgb.jpg/300x300bb.jpg",
-    "trackId": "1504623176"
-  },
-  {
-    "id": "applemusic-1741446750",
-    "name": "Fallin' Flower (Korean Ver.)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN BEST ALBUM '17 IS RIGHT HERE'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/1a/a0/801aa0d7-8f28-9522-3024-1175379d46cc/mzaf_5666695706055613185.plus.aac.p.m4a",
-    "duration": 210107,
-    "trackUrl": "https://music.apple.com/us/album/fallin-flower-korean-ver/1741446411?i=1741446750",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/69/16/f0691679-835f-8b9b-5baa-292b7e49423f/196922894992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1741446750"
-  },
-  {
-    "id": "applemusic-1701948733",
-    "name": "24H",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "ALWAYS YOURS",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d8/d0/16/d8d01673-7daa-293f-11e8-018cf649ef1e/mzaf_11526970480014866080.plus.aac.p.m4a",
-    "duration": 188053,
-    "trackUrl": "https://music.apple.com/us/album/24h/1701948718?i=1701948733",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
-    "trackId": "1701948733"
-  },
-  {
-    "id": "applemusic-1701948734",
-    "name": "Not Alone",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "ALWAYS YOURS",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f0/11/cf/f011cf76-2ad2-7970-d289-cb1ebacf5a92/mzaf_3940385289698370798.plus.aac.p.m4a",
-    "duration": 198853,
-    "trackUrl": "https://music.apple.com/us/album/not-alone/1701948718?i=1701948734",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
-    "trackId": "1701948734"
-  },
-  {
-    "id": "applemusic-1701948735",
-    "name": "Power of Love",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "ALWAYS YOURS",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/37/b1/7e/37b17ee2-3cc0-7705-f0f3-2266ce64e12a/mzaf_18150018817871380567.plus.aac.p.m4a",
-    "duration": 229227,
-    "trackUrl": "https://music.apple.com/us/album/power-of-love/1701948718?i=1701948735",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
-    "trackId": "1701948735"
-  },
-  {
-    "id": "applemusic-1652038166",
-    "name": "DREAM",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "DREAM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2e/64/4b/2e644b2d-0e7a-306a-2058-8271cd0c0927/mzaf_3568781512875760824.plus.aac.p.m4a",
-    "duration": 186067,
-    "trackUrl": "https://music.apple.com/us/album/dream/1652038161?i=1652038166",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/61/c3/5c/61c35c39-7926-8a7d-5722-bc0c56937a22/22UM1IM08530.rgb.jpg/300x300bb.jpg",
-    "trackId": "1652038166"
-  },
-  {
-    "id": "applemusic-1741447004",
-    "name": "Ima -Even if the world ends tomorrow- (Korean Ver.)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN BEST ALBUM '17 IS RIGHT HERE'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/1b/41/011b419c-d088-2c5c-d4bf-a3674a2ade8e/mzaf_3861721150094940186.plus.aac.p.m4a",
-    "duration": 191507,
-    "trackUrl": "https://music.apple.com/us/album/ima-even-if-the-world-ends-tomorrow-korean-ver/1741446411?i=1741447004",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/69/16/f0691679-835f-8b9b-5baa-292b7e49423f/196922894992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1741447004"
   },
   {
     "id": "applemusic-1741447189",
@@ -1376,45 +1246,6 @@
     "trackUrl": "https://music.apple.com/us/album/q-a/1064779715?i=1064779717",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9b/f6/2d/9bf62d34-9f48-6dbc-082f-7c6fbce89137/COVER-_DS.jpg/300x300bb.jpg",
     "trackId": "1064779717"
-  },
-  {
-    "id": "applemusic-1344751464",
-    "name": "Thinkin' about You",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN Special Album 'Director's Cut' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/6a/e5/cc6ae5f8-00d4-c3a0-2c48-d4dfe5a51d64/mzaf_9738915667962640457.plus.aac.p.m4a",
-    "duration": 221606,
-    "trackUrl": "https://music.apple.com/us/album/thinkin-about-you/1344751461?i=1344751464",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/52/bc/bb52bcfc-f885-8fc8-0a86-6f8b132f5df6/cover-.jpg/300x300bb.jpg",
-    "trackId": "1344751464"
-  },
-  {
-    "id": "applemusic-1344751466",
-    "name": "Run to You",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN Special Album 'Director's Cut' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/95/06/e99506f2-9c27-816f-be4f-97d532bc3923/mzaf_17084098007454214817.plus.aac.p.m4a",
-    "duration": 194098,
-    "trackUrl": "https://music.apple.com/us/album/run-to-you/1344751461?i=1344751466",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/52/bc/bb52bcfc-f885-8fc8-0a86-6f8b132f5df6/cover-.jpg/300x300bb.jpg",
-    "trackId": "1344751466"
-  },
-  {
-    "id": "applemusic-1344751467",
-    "name": "Falling for U",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN Special Album 'Director's Cut' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/e0/f7/15e0f77c-7031-5195-e6f4-8c67ba511475/mzaf_2735639899593190689.plus.aac.p.m4a",
-    "duration": 235048,
-    "trackUrl": "https://music.apple.com/us/album/falling-for-u/1344751461?i=1344751467",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/52/bc/bb52bcfc-f885-8fc8-0a86-6f8b132f5df6/cover-.jpg/300x300bb.jpg",
-    "trackId": "1344751467"
   },
   {
     "id": "applemusic-1711741340",
@@ -1547,32 +1378,6 @@
     "trackId": "1038703713"
   },
   {
-    "id": "applemusic-1632682444",
-    "name": "Circles",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/e5/5f/ece55f69-a7d7-6da1-9de9-6c1c6518508a/mzaf_15493943406748163032.plus.aac.p.m4a",
-    "duration": 239613,
-    "trackUrl": "https://music.apple.com/us/album/circles/1632682433?i=1632682444",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/69/81/dc/6981dcfb-7a02-7dbf-4564-e48f32e9dcb9/192641872518_Cover.jpg/300x300bb.jpg",
-    "trackId": "1632682444"
-  },
-  {
-    "id": "applemusic-1632682452",
-    "name": "CHEERS",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/b6/6e/ebb66eb2-528d-4d47-2272-5027a3049dbb/mzaf_11728676027572872780.plus.aac.p.m4a",
-    "duration": 181467,
-    "trackUrl": "https://music.apple.com/us/album/cheers/1632682433?i=1632682452",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/69/81/dc/6981dcfb-7a02-7dbf-4564-e48f32e9dcb9/192641872518_Cover.jpg/300x300bb.jpg",
-    "trackId": "1632682452"
-  },
-  {
     "id": "applemusic-1535649374",
     "name": "Do Re Mi",
     "artists": [
@@ -1636,6 +1441,71 @@
     "trackUrl": "https://music.apple.com/us/album/all-my-love/1535649370?i=1535649389",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/6a/d1/556ad1b3-31e5-fe56-1219-84bdc0c9ee34/192641581199_Cover.jpg/300x300bb.jpg",
     "trackId": "1535649389"
+  },
+  {
+    "id": "applemusic-1632682444",
+    "name": "Circles",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/e5/5f/ece55f69-a7d7-6da1-9de9-6c1c6518508a/mzaf_15493943406748163032.plus.aac.p.m4a",
+    "duration": 239613,
+    "trackUrl": "https://music.apple.com/us/album/circles/1632682433?i=1632682444",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/69/81/dc/6981dcfb-7a02-7dbf-4564-e48f32e9dcb9/192641872518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1632682444"
+  },
+  {
+    "id": "applemusic-1632682452",
+    "name": "CHEERS",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album Repackage 'SECTOR 17'",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/b6/6e/ebb66eb2-528d-4d47-2272-5027a3049dbb/mzaf_11728676027572872780.plus.aac.p.m4a",
+    "duration": 181467,
+    "trackUrl": "https://music.apple.com/us/album/cheers/1632682433?i=1632682452",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/69/81/dc/6981dcfb-7a02-7dbf-4564-e48f32e9dcb9/192641872518_Cover.jpg/300x300bb.jpg",
+    "trackId": "1632682452"
+  },
+  {
+    "id": "applemusic-1344751464",
+    "name": "Thinkin' about You",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN Special Album 'Director's Cut' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/6a/e5/cc6ae5f8-00d4-c3a0-2c48-d4dfe5a51d64/mzaf_9738915667962640457.plus.aac.p.m4a",
+    "duration": 221606,
+    "trackUrl": "https://music.apple.com/us/album/thinkin-about-you/1344751461?i=1344751464",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/52/bc/bb52bcfc-f885-8fc8-0a86-6f8b132f5df6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1344751464"
+  },
+  {
+    "id": "applemusic-1344751466",
+    "name": "Run to You",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN Special Album 'Director's Cut' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/95/06/e99506f2-9c27-816f-be4f-97d532bc3923/mzaf_17084098007454214817.plus.aac.p.m4a",
+    "duration": 194098,
+    "trackUrl": "https://music.apple.com/us/album/run-to-you/1344751461?i=1344751466",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/52/bc/bb52bcfc-f885-8fc8-0a86-6f8b132f5df6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1344751466"
+  },
+  {
+    "id": "applemusic-1344751467",
+    "name": "Falling for U",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN Special Album 'Director's Cut' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/e0/f7/15e0f77c-7031-5195-e6f4-8c67ba511475/mzaf_2735639899593190689.plus.aac.p.m4a",
+    "duration": 235048,
+    "trackUrl": "https://music.apple.com/us/album/falling-for-u/1344751461?i=1344751467",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bb/52/bc/bb52bcfc-f885-8fc8-0a86-6f8b132f5df6/cover-.jpg/300x300bb.jpg",
+    "trackId": "1344751467"
   },
   {
     "id": "applemusic-1130828897",
@@ -1755,32 +1625,6 @@
     "trackId": "1130828913"
   },
   {
-    "id": "applemusic-1130828917",
-    "name": "Monday to Saturday (Hiphop Team Ver.)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "Love&Letter (Repackage Album)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/c8/68/d1c868bd-8945-ac15-317d-f14174cf6497/mzaf_11470341131093051799.plus.aac.p.m4a",
-    "duration": 203858,
-    "trackUrl": "https://music.apple.com/us/album/monday-to-saturday-hiphop-team-ver/1130828885?i=1130828917",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/cb/c4/32cbc434-82b9-6b8e-8cc8-752b554b49f9/cover-.jpg/300x300bb.jpg",
-    "trackId": "1130828917"
-  },
-  {
-    "id": "applemusic-999645043",
-    "name": "Shining Diamond",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "17 Carat - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/33/79/3933790c-f979-590f-da0d-944c7d640f34/mzaf_5227628118322860811.plus.aac.p.m4a",
-    "duration": 203512,
-    "trackUrl": "https://music.apple.com/us/album/shining-diamond/999644771?i=999645043",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/7d/b9/757db928-7365-3af7-4a95-22c430d2c10d/cover-.jpg/300x300bb.jpg",
-    "trackId": "999645043"
-  },
-  {
     "id": "applemusic-1130828919",
     "name": "Love Letter",
     "artists": [
@@ -1807,17 +1651,17 @@
     "trackId": "1772142745"
   },
   {
-    "id": "applemusic-1774466950",
-    "name": "LOVE, MONEY, FAME (Sped Up Ver.)",
+    "id": "applemusic-1772142757",
+    "name": "LOVE, MONEY, FAME (feat. DJ Khaled)",
     "artists": [
       "SEVENTEEN"
     ],
-    "album": "LOVE, MONEY, FAME (Remixes) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/15/e6/6915e626-6edd-2eaa-cb03-ef3d959f0bb7/mzaf_7637249477308306791.plus.aac.p.m4a",
-    "duration": 149320,
-    "trackUrl": "https://music.apple.com/jp/album/love-money-fame-sped-up-ver/1774466641?i=1774466950",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/e1/5f/04e15f68-db7e-85e9-af96-9c5b1db0b9be/24UM1IM10582.rgb.jpg/300x300bb.jpg",
-    "trackId": "1774466950"
+    "album": "SEVENTEEN 12th Mini Album 'SPILL THE FEELS' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a0/db/69/a0db69f7-a4ad-9752-f1fb-1fcc0e1d2e0f/mzaf_7189857230564623062.plus.aac.p.m4a",
+    "duration": 186387,
+    "trackUrl": "https://music.apple.com/us/album/love-money-fame-feat-dj-khaled/1772142740?i=1772142757",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/30/ec/9a30ec28-9484-eaa3-5c5d-3aa7039ce0c1/198704184437_Cover.jpg/300x300bb.jpg",
+    "trackId": "1772142757"
   },
   {
     "id": "applemusic-1772142759",
@@ -1870,6 +1714,19 @@
     "trackUrl": "https://music.apple.com/us/album/water/1772142740?i=1772143039",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9a/30/ec/9a30ec28-9484-eaa3-5c5d-3aa7039ce0c1/198704184437_Cover.jpg/300x300bb.jpg",
     "trackId": "1772143039"
+  },
+  {
+    "id": "applemusic-999645043",
+    "name": "Shining Diamond",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "17 Carat - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/39/33/79/3933790c-f979-590f-da0d-944c7d640f34/mzaf_5227628118322860811.plus.aac.p.m4a",
+    "duration": 203512,
+    "trackUrl": "https://music.apple.com/us/album/shining-diamond/999644771?i=999645043",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/75/7d/b9/757db928-7365-3af7-4a95-22c430d2c10d/cover-.jpg/300x300bb.jpg",
+    "trackId": "999645043"
   },
   {
     "id": "applemusic-999645579",
@@ -1937,45 +1794,6 @@
     "trackId": "1464380530"
   },
   {
-    "id": "applemusic-1625952667",
-    "name": "Darl+ing Music Video Behind the Scenes (Apple Music Exclusive)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 4th Album 'Face the Sun' (Extended Version)",
-    "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video122/v4/ca/dc/71/cadc719c-9d67-a36b-9d24-b550bcde6885/mzvf_10912074736742929297.720w.h264lc.U.p.m4v",
-    "duration": 657333,
-    "trackUrl": "https://music.apple.com/us/music-video/darl-ing-music-video-behind-the-scenes-apple-music/1625952667",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/83/94/cc/8394ccc6-c6cb-65a4-d3bd-d935b36cc0a1/Job6186869e-8e38-4e97-859c-d597ff0925fc-132203080-PreviewImage_preview_image_45000_video_sdr-Time1653432125330.png/300x300mv.jpg",
-    "trackId": "1625952667"
-  },
-  {
-    "id": "applemusic-1778356447",
-    "name": "Shohikigen",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "Shohikigen - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/47/c5/f347c50e-83e7-dac2-1864-9b81e61c22ff/mzaf_3302117345111514612.plus.aac.p.m4a",
-    "duration": 190533,
-    "trackUrl": "https://music.apple.com/us/album/shohikigen/1778356444?i=1778356447",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/09/88/c0098841-830a-2f47-7dfc-93342429db56/24UM1IM21475.rgb.jpg/300x300bb.jpg",
-    "trackId": "1778356447"
-  },
-  {
-    "id": "applemusic-1504024777",
-    "name": "Maiochiruhanabira (Fallin' Flower)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "Maiochiruhanabira (Fallin' Flower) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/62/94/d9/6294d952-6d3b-80c8-8886-31cbcb6f5e3a/mzaf_13355435602871121098.plus.aac.p.m4a",
-    "duration": 212333,
-    "trackUrl": "https://music.apple.com/us/album/maiochiruhanabira-fallin-flower/1504024467?i=1504024777",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ff/b7/47/ffb747fe-3c24-7774-1ad9-2d5e6b071992/20UMGIM17491.rgb.jpg/300x300bb.jpg",
-    "trackId": "1504024777"
-  },
-  {
     "id": "applemusic-1701948721",
     "name": "Ima -Even if the world ends tomorrow-",
     "artists": [
@@ -2000,6 +1818,123 @@
     "trackUrl": "https://music.apple.com/us/album/sara-sara/1701948718?i=1701948722",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
     "trackId": "1701948722"
+  },
+  {
+    "id": "applemusic-1701948727",
+    "name": "Call Call Call!",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/44/2e/f6/442ef621-5c7f-56a9-4d24-90c281a44419/mzaf_10778576334488117733.plus.aac.p.m4a",
+    "duration": 199197,
+    "trackUrl": "https://music.apple.com/us/album/call-call-call/1701948718?i=1701948727",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948727"
+  },
+  {
+    "id": "applemusic-1701948728",
+    "name": "Happy Ending",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/80/f6/78/80f67889-3586-3c8f-114e-8e433c60506d/mzaf_16997701529357900764.plus.aac.p.m4a",
+    "duration": 209124,
+    "trackUrl": "https://music.apple.com/us/album/happy-ending/1701948718?i=1701948728",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948728"
+  },
+  {
+    "id": "applemusic-1701948731",
+    "name": "Maiochiruhanabira (Fallin' Flower)",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/52/e4/18/52e41808-3e90-a8c9-d6a3-1d571bcad437/mzaf_5678306700130445164.plus.aac.p.m4a",
+    "duration": 210733,
+    "trackUrl": "https://music.apple.com/us/album/maiochiruhanabira-fallin-flower/1701948718?i=1701948731",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948731"
+  },
+  {
+    "id": "applemusic-1701948733",
+    "name": "24H",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d8/d0/16/d8d01673-7daa-293f-11e8-018cf649ef1e/mzaf_11526970480014866080.plus.aac.p.m4a",
+    "duration": 188053,
+    "trackUrl": "https://music.apple.com/us/album/24h/1701948718?i=1701948733",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948733"
+  },
+  {
+    "id": "applemusic-1701948734",
+    "name": "Not Alone",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f0/11/cf/f011cf76-2ad2-7970-d289-cb1ebacf5a92/mzaf_3940385289698370798.plus.aac.p.m4a",
+    "duration": 198853,
+    "trackUrl": "https://music.apple.com/us/album/not-alone/1701948718?i=1701948734",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948734"
+  },
+  {
+    "id": "applemusic-1701948735",
+    "name": "Power of Love",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/37/b1/7e/37b17ee2-3cc0-7705-f0f3-2266ce64e12a/mzaf_18150018817871380567.plus.aac.p.m4a",
+    "duration": 229227,
+    "trackUrl": "https://music.apple.com/us/album/power-of-love/1701948718?i=1701948735",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948735"
+  },
+  {
+    "id": "applemusic-1701948886",
+    "name": "DREAM",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "ALWAYS YOURS",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c8/71/5c/c8715ced-a5a7-7f13-f095-319a13cbe0ab/mzaf_7021265000991770422.plus.aac.p.m4a",
+    "duration": 186067,
+    "trackUrl": "https://music.apple.com/us/album/dream/1701948718?i=1701948886",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/ec/da/56ecdab5-26f1-1d03-31f1-c342bd55eba8/23UMGIM70496.rgb.jpg/300x300bb.jpg",
+    "trackId": "1701948886"
+  },
+  {
+    "id": "applemusic-1625952667",
+    "name": "Darl+ing Music Video Behind the Scenes (Apple Music Exclusive)",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "SEVENTEEN 4th Album 'Face the Sun' (Extended Version)",
+    "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video122/v4/ca/dc/71/cadc719c-9d67-a36b-9d24-b550bcde6885/mzvf_10912074736742929297.720w.h264lc.U.p.m4v",
+    "duration": 657333,
+    "trackUrl": "https://music.apple.com/us/music-video/darl-ing-music-video-behind-the-scenes-apple-music/1625952667",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/83/94/cc/8394ccc6-c6cb-65a4-d3bd-d935b36cc0a1/Job6186869e-8e38-4e97-859c-d597ff0925fc-132203080-PreviewImage_preview_image_45000_video_sdr-Time1653432125330.png/300x300mv.jpg",
+    "trackId": "1625952667"
+  },
+  {
+    "id": "applemusic-1778356447",
+    "name": "Shohikigen",
+    "artists": [
+      "SEVENTEEN"
+    ],
+    "album": "Shohikigen - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/47/c5/f347c50e-83e7-dac2-1864-9b81e61c22ff/mzaf_3302117345111514612.plus.aac.p.m4a",
+    "duration": 190533,
+    "trackUrl": "https://music.apple.com/us/album/shohikigen/1778356444?i=1778356447",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/09/88/c0098841-830a-2f47-7dfc-93342429db56/24UM1IM21475.rgb.jpg/300x300bb.jpg",
+    "trackId": "1778356447"
   },
   {
     "id": "applemusic-1846801260",
@@ -2143,19 +2078,6 @@
     "trackUrl": "https://music.apple.com/us/album/destiny-woozi-solo/1846801259?i=1846801426",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/64/e0/bc64e097-7ab4-5650-ed66-61a6b836370c/198704749377_Cover.jpg/300x300bb.jpg",
     "trackId": "1846801426"
-  },
-  {
-    "id": "applemusic-1846801428",
-    "name": "Shining Star (Vernon Solo)",
-    "artists": [
-      "SEVENTEEN"
-    ],
-    "album": "SEVENTEEN 5th Album 'HAPPY BURSTDAY'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2c/b2/0b/2cb20bb5-3d3c-1a2a-bb14-b428e4e6dc39/mzaf_12834902498737334888.plus.aac.p.m4a",
-    "duration": 201400,
-    "trackUrl": "https://music.apple.com/us/album/shining-star-vernon-solo/1846801259?i=1846801428",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/64/e0/bc64e097-7ab4-5650-ed66-61a6b836370c/198704749377_Cover.jpg/300x300bb.jpg",
-    "trackId": "1846801428"
   },
   {
     "id": "applemusic-1846801431",

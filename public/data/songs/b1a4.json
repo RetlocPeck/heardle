@@ -1,18 +1,5 @@
 [
   {
-    "id": "applemusic-1738878147",
-    "name": "Intro - Time",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "GOOD TIMING",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/63/43/d96343f4-6e60-ee1e-b665-935b138ef298/mzaf_6689368400109424441.plus.aac.p.m4a",
-    "duration": 62700,
-    "trackUrl": "https://music.apple.com/us/album/intro-time/1738878145?i=1738878147",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/02/1d/95021d78-b991-6e54-db6c-a10b0d56566e/cover_KM0004781_1.jpg/300x300bb.jpg",
-    "trackId": "1738878147"
-  },
-  {
     "id": "applemusic-1738878148",
     "name": "a lie",
     "artists": [
@@ -299,19 +286,6 @@
     "trackId": "1738876535"
   },
   {
-    "id": "applemusic-1787369742",
-    "name": "Origine (Intro)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Origine",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/15/c7/3415c70b-c6e9-d182-7dc0-b79d06eef36c/mzaf_8233265300915580279.plus.aac.p.m4a",
-    "duration": 87667,
-    "trackUrl": "https://music.apple.com/us/album/origine-intro/1787369741?i=1787369742",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/48/af/1848af18-9b52-8824-4fe4-ecaff08e7611/cover_KM0020793_1.jpg/300x300bb.jpg",
-    "trackId": "1787369742"
-  },
-  {
     "id": "applemusic-1787369743",
     "name": "Like a Movie",
     "artists": [
@@ -455,6 +429,71 @@
     "trackId": "1787369877"
   },
   {
+    "id": "applemusic-1738876765",
+    "name": "O.K",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/3f/e4/a53fe40a-979a-ed42-91c4-0f550575ad40/mzaf_14920197325528000889.plus.aac.p.m4a",
+    "duration": 213213,
+    "trackUrl": "https://music.apple.com/us/album/o-k/1738876764?i=1738876765",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876765"
+  },
+  {
+    "id": "applemusic-1738876766",
+    "name": "Remember",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/e9/c4/f8e9c4ed-a723-832e-3e56-416a681a3355/mzaf_6031349926097248508.plus.aac.p.m4a",
+    "duration": 195707,
+    "trackUrl": "https://music.apple.com/us/album/remember/1738876764?i=1738876766",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876766"
+  },
+  {
+    "id": "applemusic-1738876767",
+    "name": "Only Learned Bad Things",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/46/f3/7146f333-f0ce-1d62-3dbb-4b43127c79e3/mzaf_13195081697385622605.plus.aac.p.m4a",
+    "duration": 222533,
+    "trackUrl": "https://music.apple.com/us/album/only-learned-bad-things/1738876764?i=1738876767",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876767"
+  },
+  {
+    "id": "applemusic-1738876768",
+    "name": "Bling Girl",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/8a/96/fb8a96bc-c5af-941a-bf66-7f26293d4c69/mzaf_3184412346377559305.plus.aac.p.m4a",
+    "duration": 215787,
+    "trackUrl": "https://music.apple.com/us/album/bling-girl/1738876764?i=1738876768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876768"
+  },
+  {
+    "id": "applemusic-1738876769",
+    "name": "Only One",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/fb/66/0bfb66d2-bf2b-14b2-2a85-3519242deae9/mzaf_11871393664109982596.plus.aac.p.m4a",
+    "duration": 215867,
+    "trackUrl": "https://music.apple.com/us/album/only-one/1738876764?i=1738876769",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876769"
+  },
+  {
     "id": "applemusic-1738877581",
     "name": "Lonely",
     "artists": [
@@ -596,71 +635,6 @@
     "trackUrl": "https://music.apple.com/us/album/seoul/1738877579?i=1738877591",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a2/88/8f/a2888f21-63f3-38ed-ee5b-7eb4c9cb7455/cover_KM0004094_1.jpg/300x300bb.jpg",
     "trackId": "1738877591"
-  },
-  {
-    "id": "applemusic-1738876765",
-    "name": "O.K",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/3f/e4/a53fe40a-979a-ed42-91c4-0f550575ad40/mzaf_14920197325528000889.plus.aac.p.m4a",
-    "duration": 213213,
-    "trackUrl": "https://music.apple.com/us/album/o-k/1738876764?i=1738876765",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876765"
-  },
-  {
-    "id": "applemusic-1738876766",
-    "name": "Remember",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/e9/c4/f8e9c4ed-a723-832e-3e56-416a681a3355/mzaf_6031349926097248508.plus.aac.p.m4a",
-    "duration": 195707,
-    "trackUrl": "https://music.apple.com/us/album/remember/1738876764?i=1738876766",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876766"
-  },
-  {
-    "id": "applemusic-1738876767",
-    "name": "Only Learned Bad Things",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/46/f3/7146f333-f0ce-1d62-3dbb-4b43127c79e3/mzaf_13195081697385622605.plus.aac.p.m4a",
-    "duration": 222533,
-    "trackUrl": "https://music.apple.com/us/album/only-learned-bad-things/1738876764?i=1738876767",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876767"
-  },
-  {
-    "id": "applemusic-1738876768",
-    "name": "Bling Girl",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/8a/96/fb8a96bc-c5af-941a-bf66-7f26293d4c69/mzaf_3184412346377559305.plus.aac.p.m4a",
-    "duration": 215787,
-    "trackUrl": "https://music.apple.com/us/album/bling-girl/1738876764?i=1738876768",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876768"
-  },
-  {
-    "id": "applemusic-1738876769",
-    "name": "Only One",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/fb/66/0bfb66d2-bf2b-14b2-2a85-3519242deae9/mzaf_11871393664109982596.plus.aac.p.m4a",
-    "duration": 215867,
-    "trackUrl": "https://music.apple.com/us/album/only-one/1738876764?i=1738876769",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876769"
   },
   {
     "id": "applemusic-1738877838",
@@ -1105,6 +1079,19 @@
     "trackId": "1760494575"
   },
   {
+    "id": "applemusic-1738876668",
+    "name": "It's Christmas time",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "It's Christmas time - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/14/b0/9c14b045-17ff-2073-8bf1-095d180542f0/mzaf_9792598723144332707.plus.aac.p.m4a",
+    "duration": 230161,
+    "trackUrl": "https://music.apple.com/us/album/its-christmas-time/1738876667?i=1738876668",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/93/74/4b937482-cee0-1fe2-fc8d-fcf90ba8d75c/cover_KM0003865_1.jpg/300x300bb.jpg",
+    "trackId": "1738876668"
+  },
+  {
     "id": "applemusic-1787370592",
     "name": "REWIND",
     "artists": [
@@ -1168,19 +1155,6 @@
     "trackUrl": "https://music.apple.com/us/album/still-in-my-heart/1787370591?i=1787370596",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/03/21/a3/0321a3ce-d610-a285-5aa5-460f89a351b1/cover_KM0020804_1.jpg/300x300bb.jpg",
     "trackId": "1787370596"
-  },
-  {
-    "id": "applemusic-1738876668",
-    "name": "It's Christmas time",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "It's Christmas time - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9c/14/b0/9c14b045-17ff-2073-8bf1-095d180542f0/mzaf_9792598723144332707.plus.aac.p.m4a",
-    "duration": 230161,
-    "trackUrl": "https://music.apple.com/us/album/its-christmas-time/1738876667?i=1738876668",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4b/93/74/4b937482-cee0-1fe2-fc8d-fcf90ba8d75c/cover_KM0003865_1.jpg/300x300bb.jpg",
-    "trackId": "1738876668"
   },
   {
     "id": "applemusic-1738878463",
@@ -1365,19 +1339,6 @@
     "trackId": "569114606"
   },
   {
-    "id": "applemusic-569114607",
-    "name": "Oyasumi Good Night -Japanese Ver.-",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/51/34/b3/5134b361-992e-4fb1-1513-5f3d5a4a58de/mzaf_7458995260708601505.plus.aac.p.m4a",
-    "duration": 202347,
-    "trackUrl": "https://music.apple.com/us/album/oyasumi-good-night-japanese-ver/569114603?i=569114607",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114607"
-  },
-  {
     "id": "applemusic-569114608",
     "name": "Empty Mind",
     "artists": [
@@ -1389,19 +1350,6 @@
     "trackUrl": "https://music.apple.com/us/album/empty-mind/569114603?i=569114608",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
     "trackId": "569114608"
-  },
-  {
-    "id": "applemusic-569114769",
-    "name": "Waruikoto Bakari Manande -Japanese Ver.-",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/9f/29/5d9f29a7-838e-bd36-155b-095d3a2a94a8/mzaf_14896178509923771487.plus.aac.p.m4a",
-    "duration": 224093,
-    "trackUrl": "https://music.apple.com/us/album/waruikoto-bakari-manande-japanese-ver/569114603?i=569114769",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114769"
   },
   {
     "id": "applemusic-569114770",
@@ -1430,19 +1378,6 @@
     "trackId": "569114771"
   },
   {
-    "id": "applemusic-569114773",
-    "name": "Beautiful Target-Japanese Ver.-",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f5/be/63/f5be637a-d848-ce4b-0672-6f9f7fdfc112/mzaf_15322600443713546382.plus.aac.p.m4a",
-    "duration": 199200,
-    "trackUrl": "https://music.apple.com/us/album/beautiful-target-japanese-ver/569114603?i=569114773",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114773"
-  },
-  {
     "id": "applemusic-569114774",
     "name": "One Love",
     "artists": [
@@ -1454,19 +1389,6 @@
     "trackUrl": "https://music.apple.com/us/album/one-love/569114603?i=569114774",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
     "trackId": "569114774"
-  },
-  {
-    "id": "applemusic-569114775",
-    "name": "O.K-Japanese Ver.-",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/fc/e7/43fce7dc-f37b-986d-fab0-40e686eeca1e/mzaf_8701957336153890472.plus.aac.p.m4a",
-    "duration": 213760,
-    "trackUrl": "https://music.apple.com/us/album/o-k-japanese-ver/569114603?i=569114775",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114775"
   },
   {
     "id": "applemusic-1445043086",
@@ -1677,19 +1599,6 @@
     "trackId": "1347104159"
   },
   {
-    "id": "applemusic-1347104163",
-    "name": "Ieppo (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "B1A4 Station Kiss",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/18/2f/72/182f7263-692a-9961-2d6e-999fe3eebed0/mzaf_1752924366026592868.plus.aac.p.m4a",
-    "duration": 207720,
-    "trackUrl": "https://music.apple.com/us/album/ieppo-japanese-ver/1347104154?i=1347104163",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/d2/5b/0f/d25b0f70-7947-9a1e-8c11-fbec97b6a27b/PCCA_04624.jpg/300x300bb.jpg",
-    "trackId": "1347104163"
-  },
-  {
     "id": "applemusic-1347104164",
     "name": "Hey!!",
     "artists": [
@@ -1701,19 +1610,6 @@
     "trackUrl": "https://music.apple.com/us/album/hey/1347104154?i=1347104164",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/d2/5b/0f/d25b0f70-7947-9a1e-8c11-fbec97b6a27b/PCCA_04624.jpg/300x300bb.jpg",
     "trackId": "1347104164"
-  },
-  {
-    "id": "applemusic-1347104170",
-    "name": "Michi (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "B1A4 Station Kiss",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/c7/fc/87c7fcd2-5dc7-7c65-656a-55e596a0ac94/mzaf_12755433751432589816.plus.aac.p.m4a",
-    "duration": 225373,
-    "trackUrl": "https://music.apple.com/us/album/michi-japanese-ver/1347104154?i=1347104170",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/d2/5b/0f/d25b0f70-7947-9a1e-8c11-fbec97b6a27b/PCCA_04624.jpg/300x300bb.jpg",
-    "trackId": "1347104170"
   },
   {
     "id": "applemusic-1347079433",
@@ -1807,45 +1703,6 @@
     "trackId": "1647290277"
   },
   {
-    "id": "applemusic-1347091422",
-    "name": "Muruhanjan (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "B1A4 Station Circle",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/99/ac/8f99ac53-e701-fac1-08c6-3e219da8002e/mzaf_4795289164046939299.plus.aac.p.m4a",
-    "duration": 207947,
-    "trackUrl": "https://music.apple.com/us/album/muruhanjan-japanese-ver/1347091364?i=1347091422",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c4/53/34/c45334bf-d163-ee74-3d01-7c6076e8fdc4/PCCA_04623.jpg/300x300bb.jpg",
-    "trackId": "1347091422"
-  },
-  {
-    "id": "applemusic-1347088766",
-    "name": "Hoshikage no Uta (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "B1A4 Station Triangle",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/ba/cd/c3bacd00-7abb-acdc-4f85-cc4ddd6775e6/mzaf_17636527177647236540.plus.aac.p.m4a",
-    "duration": 220453,
-    "trackUrl": "https://music.apple.com/us/album/hoshikage-no-uta-japanese-ver/1347088575?i=1347088766",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/c7/6d/29/c76d2935-fbcc-e31d-46bc-324ecb145937/PCCA_04622.jpg/300x300bb.jpg",
-    "trackId": "1347088766"
-  },
-  {
-    "id": "applemusic-1347088576",
-    "name": "Aruite Miru (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "B1A4 Station Triangle",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/b4/ab/41b4abd7-96b4-a654-2132-a8971c98f543/mzaf_6666133093631134886.plus.aac.p.m4a",
-    "duration": 220987,
-    "trackUrl": "https://music.apple.com/us/album/aruite-miru-japanese-ver/1347088575?i=1347088576",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/c7/6d/29/c76d2935-fbcc-e31d-46bc-324ecb145937/PCCA_04622.jpg/300x300bb.jpg",
-    "trackId": "1347088576"
-  },
-  {
     "id": "applemusic-642322762",
     "name": "Sunshine",
     "artists": [
@@ -1857,19 +1714,6 @@
     "trackUrl": "https://music.apple.com/us/album/sunshine/642322566?i=642322762",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/61/c2/30/61c23092-dcf2-5777-fd6b-0a03ae32bfaa/cover.jpg/300x300bb.jpg",
     "trackId": "642322762"
-  },
-  {
-    "id": "applemusic-1347088577",
-    "name": "Waruikotobakari Manande (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "B1A4 Station Triangle",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/f7/8e/57f78e42-886c-2c55-16bb-80cfbd53c6d8/mzaf_2605425294748800316.plus.aac.p.m4a",
-    "duration": 224747,
-    "trackUrl": "https://music.apple.com/us/album/waruikotobakari-manande-japanese-ver/1347088575?i=1347088577",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/c7/6d/29/c76d2935-fbcc-e31d-46bc-324ecb145937/PCCA_04622.jpg/300x300bb.jpg",
-    "trackId": "1347088577"
   },
   {
     "id": "applemusic-1647287078",
@@ -1974,19 +1818,6 @@
     "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk3/1647285438?i=1647285448",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
     "trackId": "1647285448"
-  },
-  {
-    "id": "applemusic-1647285449",
-    "name": "If... Kimisae Ireba (Japanese Ver.)",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Miracle Radio-2.5kHz-vol.1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6c/8a/8e/6c8a8e73-4b86-e7c2-bc48-36d362a1663f/mzaf_5627756449657343653.plus.aac.p.m4a",
-    "duration": 202467,
-    "trackUrl": "https://music.apple.com/us/album/if-kimisae-ireba-japanese-ver/1647285438?i=1647285449",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
-    "trackId": "1647285449"
   },
   {
     "id": "applemusic-1647289933",

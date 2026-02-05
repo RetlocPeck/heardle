@@ -104,17 +104,108 @@
     "trackId": "1569919603"
   },
   {
-    "id": "applemusic-1502209826",
-    "name": "Gold (feat. Cengiz Can)",
+    "id": "applemusic-1140198438",
+    "name": "Deer Fox (feat. Raz Ohara, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter)",
+    "artists": [
+      "FEATHERED SUN, Joke & Nu"
+    ],
+    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/68/ef/7c68ef6b-d3a6-fab1-c460-42b7743c6cd7/mzaf_9849742946300301775.plus.aac.p.m4a",
+    "duration": 422267,
+    "trackUrl": "https://music.apple.com/us/album/deer-fox-feat-raz-ohara-acid-pauli-christopher-schwarzwalder/1140198338?i=1140198438",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
+    "trackId": "1140198438"
+  },
+  {
+    "id": "applemusic-1140198439",
+    "name": "Keep It Warm (feat. Raz Ohara, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter)",
+    "artists": [
+      "FEATHERED SUN, Joke & Nu"
+    ],
+    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/dc/69/02dc6911-83a9-8e39-66b9-1a5b111680dd/mzaf_9950289444854297302.plus.aac.p.m4a",
+    "duration": 522947,
+    "trackUrl": "https://music.apple.com/us/album/keep-it-warm-feat-raz-ohara-acid-pauli-christopher/1140198338?i=1140198439",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
+    "trackId": "1140198439"
+  },
+  {
+    "id": "applemusic-1140198557",
+    "name": "Me and My Entourage (feat. Raz Ohara, jO.K.e, Acid Pauli & Iannis Ritter)",
+    "artists": [
+      "FEATHERED SUN, Chris Schwarzwälder & Nu"
+    ],
+    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/26/08/a32608b4-1bbc-3a2c-67b0-32a999964059/mzaf_8876724155846271917.plus.aac.p.m4a",
+    "duration": 373320,
+    "trackUrl": "https://music.apple.com/us/album/me-and-my-entourage-feat-raz-ohara-jo-k-e-acid-pauli/1140198338?i=1140198557",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
+    "trackId": "1140198557"
+  },
+  {
+    "id": "applemusic-1500491011",
+    "name": "Be Real",
     "artists": [
       "Nu"
     ],
-    "album": "Gold (feat. Cengiz Can) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e7/30/cd/e730cd88-8708-82e6-929a-7463221d8ee9/mzaf_2441545377964505242.plus.aac.p.m4a",
-    "duration": 368571,
-    "trackUrl": "https://music.apple.com/us/album/gold-feat-cengiz-can/1502209823?i=1502209826",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ac/2d/4d/ac2d4d15-f2d9-a290-963e-1f4daf8c7fc3/artwork.jpg/300x300bb.jpg",
-    "trackId": "1502209826"
+    "album": "Be Real - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/5d/6d/415d6d12-d579-e262-490a-dc77ee4a4104/mzaf_15436652293074088091.plus.aac.p.m4a",
+    "duration": 441690,
+    "trackUrl": "https://music.apple.com/us/album/be-real/1500491008?i=1500491011",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f5/f6/35/f5f63551-9d5d-5dc8-d8e0-3b0ac1678dc5/artwork.jpg/300x300bb.jpg",
+    "trackId": "1500491011"
+  },
+  {
+    "id": "applemusic-1365078552",
+    "name": "Pensamiento",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/f5/03/1ef50317-c4e4-ae42-cc01-cf34a32eb8b3/mzaf_4495005257602613263.plus.aac.p.m4a",
+    "duration": 840000,
+    "trackUrl": "https://music.apple.com/us/album/pensamiento/1365076927?i=1365078552",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078552"
+  },
+  {
+    "id": "applemusic-1365078553",
+    "name": "Berg",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/4c/3d/d84c3d70-b63a-e222-8042-860c8ffad763/mzaf_7428217204457977931.plus.aac.p.m4a",
+    "duration": 896000,
+    "trackUrl": "https://music.apple.com/us/album/berg/1365076927?i=1365078553",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078553"
+  },
+  {
+    "id": "applemusic-1365078554",
+    "name": "Habits",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/bd/96/2abd9639-3e22-61a4-73a0-1b4e41c1a477/mzaf_17472545686771458071.plus.aac.p.m4a",
+    "duration": 572000,
+    "trackUrl": "https://music.apple.com/us/album/habits/1365076927?i=1365078554",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078554"
+  },
+  {
+    "id": "applemusic-1365078555",
+    "name": "Saudae",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Pensamiento",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/15/99/36159999-cf81-8be9-af0a-b90b81a4d9dd/mzaf_13347990363938035349.plus.aac.p.m4a",
+    "duration": 412000,
+    "trackUrl": "https://music.apple.com/us/album/saudae/1365076927?i=1365078555",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
+    "trackId": "1365078555"
   },
   {
     "id": "applemusic-1560909189",
@@ -219,110 +310,6 @@
     "trackUrl": "https://music.apple.com/us/album/e-ternal/1560909188?i=1560909197",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b1/d2/05/b1d2059f-c3a0-b728-59ac-295541ec32a7/artwork.jpg/300x300bb.jpg",
     "trackId": "1560909197"
-  },
-  {
-    "id": "applemusic-1140198438",
-    "name": "Deer Fox (feat. Raz Ohara, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter)",
-    "artists": [
-      "FEATHERED SUN, Joke & Nu"
-    ],
-    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/68/ef/7c68ef6b-d3a6-fab1-c460-42b7743c6cd7/mzaf_9849742946300301775.plus.aac.p.m4a",
-    "duration": 422267,
-    "trackUrl": "https://music.apple.com/us/album/deer-fox-feat-raz-ohara-acid-pauli-christopher-schwarzwalder/1140198338?i=1140198438",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
-    "trackId": "1140198438"
-  },
-  {
-    "id": "applemusic-1140198439",
-    "name": "Keep It Warm (feat. Raz Ohara, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter)",
-    "artists": [
-      "FEATHERED SUN, Joke & Nu"
-    ],
-    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/dc/69/02dc6911-83a9-8e39-66b9-1a5b111680dd/mzaf_9950289444854297302.plus.aac.p.m4a",
-    "duration": 522947,
-    "trackUrl": "https://music.apple.com/us/album/keep-it-warm-feat-raz-ohara-acid-pauli-christopher/1140198338?i=1140198439",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
-    "trackId": "1140198439"
-  },
-  {
-    "id": "applemusic-1140198557",
-    "name": "Me and My Entourage (feat. Raz Ohara, jO.K.e, Acid Pauli & Iannis Ritter)",
-    "artists": [
-      "FEATHERED SUN, Chris Schwarzwälder & Nu"
-    ],
-    "album": "PL001 (feat. Nu, Raz Ohara, jO.K.e, Acid Pauli, Christopher Schwarzwalder & Iannis Ritter) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/26/08/a32608b4-1bbc-3a2c-67b0-32a999964059/mzaf_8876724155846271917.plus.aac.p.m4a",
-    "duration": 373320,
-    "trackUrl": "https://music.apple.com/us/album/me-and-my-entourage-feat-raz-ohara-jo-k-e-acid-pauli/1140198338?i=1140198557",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/d1/4f/7fd14fae-9fae-ac92-d940-f612c8b1f382/cover.jpg/300x300bb.jpg",
-    "trackId": "1140198557"
-  },
-  {
-    "id": "applemusic-1500491011",
-    "name": "Be Real",
-    "artists": [
-      "Nu"
-    ],
-    "album": "Be Real - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/5d/6d/415d6d12-d579-e262-490a-dc77ee4a4104/mzaf_15436652293074088091.plus.aac.p.m4a",
-    "duration": 441690,
-    "trackUrl": "https://music.apple.com/us/album/be-real/1500491008?i=1500491011",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f5/f6/35/f5f63551-9d5d-5dc8-d8e0-3b0ac1678dc5/artwork.jpg/300x300bb.jpg",
-    "trackId": "1500491011"
-  },
-  {
-    "id": "applemusic-1365078552",
-    "name": "Pensamiento",
-    "artists": [
-      "Nu"
-    ],
-    "album": "Pensamiento",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/f5/03/1ef50317-c4e4-ae42-cc01-cf34a32eb8b3/mzaf_4495005257602613263.plus.aac.p.m4a",
-    "duration": 840000,
-    "trackUrl": "https://music.apple.com/us/album/pensamiento/1365076927?i=1365078552",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
-    "trackId": "1365078552"
-  },
-  {
-    "id": "applemusic-1365078553",
-    "name": "Berg",
-    "artists": [
-      "Nu"
-    ],
-    "album": "Pensamiento",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/4c/3d/d84c3d70-b63a-e222-8042-860c8ffad763/mzaf_7428217204457977931.plus.aac.p.m4a",
-    "duration": 896000,
-    "trackUrl": "https://music.apple.com/us/album/berg/1365076927?i=1365078553",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
-    "trackId": "1365078553"
-  },
-  {
-    "id": "applemusic-1365078554",
-    "name": "Habits",
-    "artists": [
-      "Nu"
-    ],
-    "album": "Pensamiento",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/bd/96/2abd9639-3e22-61a4-73a0-1b4e41c1a477/mzaf_17472545686771458071.plus.aac.p.m4a",
-    "duration": 572000,
-    "trackUrl": "https://music.apple.com/us/album/habits/1365076927?i=1365078554",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
-    "trackId": "1365078554"
-  },
-  {
-    "id": "applemusic-1365078555",
-    "name": "Saudae",
-    "artists": [
-      "Nu"
-    ],
-    "album": "Pensamiento",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/15/99/36159999-cf81-8be9-af0a-b90b81a4d9dd/mzaf_13347990363938035349.plus.aac.p.m4a",
-    "duration": 412000,
-    "trackUrl": "https://music.apple.com/us/album/saudae/1365076927?i=1365078555",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/bf/28/8d/bf288d19-d681-a84e-f0ca-18d6b4723e2d/00_Cover_Art.jpg/300x300bb.jpg",
-    "trackId": "1365078555"
   },
   {
     "id": "applemusic-654070123",
@@ -559,19 +546,6 @@
     "trackId": "1466981866"
   },
   {
-    "id": "applemusic-1669518820",
-    "name": "Maldidi",
-    "artists": [
-      "Nu"
-    ],
-    "album": "Maldidi - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ef/5b/03/ef5b03b7-1814-ba08-8402-ff0be80e5dbc/mzaf_6240157236565866411.plus.aac.p.m4a",
-    "duration": 745987,
-    "trackUrl": "https://music.apple.com/us/album/maldidi/1669518819?i=1669518820",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8e/33/a1/8e33a1bd-d9ca-6024-a62f-604650709e7b/artwork.jpg/300x300bb.jpg",
-    "trackId": "1669518820"
-  },
-  {
     "id": "applemusic-1669229290",
     "name": "Legenda",
     "artists": [
@@ -583,6 +557,19 @@
     "trackUrl": "https://music.apple.com/us/album/legenda/1669229289?i=1669229290",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/84/81/15/848115a5-cf16-83dd-45c9-c85ebe8ca963/artwork.jpg/300x300bb.jpg",
     "trackId": "1669229290"
+  },
+  {
+    "id": "applemusic-1669518820",
+    "name": "Maldidi",
+    "artists": [
+      "Nu"
+    ],
+    "album": "Maldidi - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ef/5b/03/ef5b03b7-1814-ba08-8402-ff0be80e5dbc/mzaf_6240157236565866411.plus.aac.p.m4a",
+    "duration": 745987,
+    "trackUrl": "https://music.apple.com/us/album/maldidi/1669518819?i=1669518820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8e/33/a1/8e33a1bd-d9ca-6024-a62f-604650709e7b/artwork.jpg/300x300bb.jpg",
+    "trackId": "1669518820"
   },
   {
     "id": "applemusic-1669323101",
@@ -637,6 +624,19 @@
     "trackId": "1669279120"
   },
   {
+    "id": "applemusic-1805782843",
+    "name": "BAD TRIP (feat. Nu)",
+    "artists": [
+      "RARE"
+    ],
+    "album": "BAD TRIP (feat. Nu) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/4c/cf/9f4ccf95-5353-8bb6-92dd-a4e6fb41f8ac/mzaf_14982576894463578330.plus.aac.p.m4a",
+    "duration": 165857,
+    "trackUrl": "https://music.apple.com/us/album/bad-trip-feat-nu/1805782841?i=1805782843",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/0f/9a/2a0f9aa4-11fe-d929-35fc-1b94318730d4/artwork.jpg/300x300bb.jpg",
+    "trackId": "1805782843"
+  },
+  {
     "id": "applemusic-1805277831",
     "name": "Rest Stop (feat. Nu)",
     "artists": [
@@ -661,19 +661,6 @@
     "trackUrl": "https://music.apple.com/us/album/bad-memories-feat-nu/1807028760?i=1807028761",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9e/45/7a/9e457a36-bb67-5b7c-b879-8b9ab563c207/artwork.jpg/300x300bb.jpg",
     "trackId": "1807028761"
-  },
-  {
-    "id": "applemusic-1805782843",
-    "name": "BAD TRIP (feat. Nu)",
-    "artists": [
-      "RARE"
-    ],
-    "album": "BAD TRIP (feat. Nu) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/4c/cf/9f4ccf95-5353-8bb6-92dd-a4e6fb41f8ac/mzaf_14982576894463578330.plus.aac.p.m4a",
-    "duration": 165857,
-    "trackUrl": "https://music.apple.com/us/album/bad-trip-feat-nu/1805782841?i=1805782843",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/0f/9a/2a0f9aa4-11fe-d929-35fc-1b94318730d4/artwork.jpg/300x300bb.jpg",
-    "trackId": "1805782843"
   },
   {
     "id": "applemusic-1789941519",

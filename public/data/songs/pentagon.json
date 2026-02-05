@@ -1,5 +1,70 @@
 [
   {
+    "id": "applemusic-1316394678",
+    "name": "Violet",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_02 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/ce/40/95ce4007-8465-4d80-30ab-bef937845769/mzaf_4878796906971277530.plus.aac.p.m4a",
+    "duration": 236140,
+    "trackUrl": "https://music.apple.com/us/album/violet/1316394673?i=1316394678",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
+    "trackId": "1316394678"
+  },
+  {
+    "id": "applemusic-1316394679",
+    "name": "Runaway",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_02 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/60/d8/8e/60d88ed6-2b88-c779-796c-472ebef1a282/mzaf_14563866275115944678.plus.aac.p.m4a",
+    "duration": 205114,
+    "trackUrl": "https://music.apple.com/us/album/runaway/1316394673?i=1316394679",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
+    "trackId": "1316394679"
+  },
+  {
+    "id": "applemusic-1316394680",
+    "name": "All Right",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_02 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7a/e5/b6/7ae5b69a-3c68-cb0c-57cb-fd2d81b74c5f/mzaf_383721030738526173.plus.aac.p.m4a",
+    "duration": 192379,
+    "trackUrl": "https://music.apple.com/us/album/all-right/1316394673?i=1316394680",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
+    "trackId": "1316394680"
+  },
+  {
+    "id": "applemusic-1316394681",
+    "name": "Pretty Boys (Rap Unit)",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_02 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/58/24/e258247e-b421-f94b-b6db-58d7e61705bb/mzaf_921984737034435210.plus.aac.p.m4a",
+    "duration": 222168,
+    "trackUrl": "https://music.apple.com/us/album/pretty-boys-rap-unit/1316394673?i=1316394681",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
+    "trackId": "1316394681"
+  },
+  {
+    "id": "applemusic-1316394682",
+    "name": "Stay (Vocal Unit)",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_02 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/d9/8e/21d98edf-f453-b74b-fbfe-34fe9d4c3973/mzaf_9141721394091933725.plus.aac.p.m4a",
+    "duration": 244664,
+    "trackUrl": "https://music.apple.com/us/album/stay-vocal-unit/1316394673?i=1316394682",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
+    "trackId": "1316394682"
+  },
+  {
     "id": "applemusic-1367116809",
     "name": "Off-Road",
     "artists": [
@@ -195,19 +260,6 @@
     "trackId": "1435768380"
   },
   {
-    "id": "applemusic-1421595003",
-    "name": "Wake Up",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Shine - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/93/9c/71939c41-cfd0-76d0-d8c1-da60556cfdc5/mzaf_8292692864834910854.plus.aac.p.m4a",
-    "duration": 215133,
-    "trackUrl": "https://music.apple.com/us/album/wake-up/1421594446?i=1421595003",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
-    "trackId": "1421595003"
-  },
-  {
     "id": "applemusic-1185734910",
     "name": "Pentagon",
     "artists": [
@@ -284,500 +336,6 @@
     "trackUrl": "https://music.apple.com/us/album/you-are/1185734397?i=1185734915",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/d7/1f/fb/d71ffbf4-7cf4-86e8-0cd1-36ac3d1fbe04/dj.rkwiodzh.jpg/300x300bb.jpg",
     "trackId": "1185734915"
-  },
-  {
-    "id": "applemusic-1316394678",
-    "name": "Violet",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_02 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/ce/40/95ce4007-8465-4d80-30ab-bef937845769/mzaf_4878796906971277530.plus.aac.p.m4a",
-    "duration": 236140,
-    "trackUrl": "https://music.apple.com/us/album/violet/1316394673?i=1316394678",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
-    "trackId": "1316394678"
-  },
-  {
-    "id": "applemusic-1316394679",
-    "name": "Runaway",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_02 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/60/d8/8e/60d88ed6-2b88-c779-796c-472ebef1a282/mzaf_14563866275115944678.plus.aac.p.m4a",
-    "duration": 205114,
-    "trackUrl": "https://music.apple.com/us/album/runaway/1316394673?i=1316394679",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
-    "trackId": "1316394679"
-  },
-  {
-    "id": "applemusic-1316394680",
-    "name": "All Right",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_02 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7a/e5/b6/7ae5b69a-3c68-cb0c-57cb-fd2d81b74c5f/mzaf_383721030738526173.plus.aac.p.m4a",
-    "duration": 192379,
-    "trackUrl": "https://music.apple.com/us/album/all-right/1316394673?i=1316394680",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
-    "trackId": "1316394680"
-  },
-  {
-    "id": "applemusic-1316394681",
-    "name": "Pretty Boys (Rap Unit)",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_02 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/58/24/e258247e-b421-f94b-b6db-58d7e61705bb/mzaf_921984737034435210.plus.aac.p.m4a",
-    "duration": 222168,
-    "trackUrl": "https://music.apple.com/us/album/pretty-boys-rap-unit/1316394673?i=1316394681",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
-    "trackId": "1316394681"
-  },
-  {
-    "id": "applemusic-1316394682",
-    "name": "Stay (Vocal Unit)",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_02 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/d9/8e/21d98edf-f453-b74b-fbfe-34fe9d4c3973/mzaf_9141721394091933725.plus.aac.p.m4a",
-    "duration": 244664,
-    "trackUrl": "https://music.apple.com/us/album/stay-vocal-unit/1316394673?i=1316394682",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/92/fc/27/92fc27a5-8afa-28b0-b032-a5a4e4ddabbd/cover-.jpg/300x300bb.jpg",
-    "trackId": "1316394682"
-  },
-  {
-    "id": "applemusic-1238015864",
-    "name": "Beautiful",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Beautiful - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/4b/b3/db4bb380-808d-167d-43d3-66d71fb4c74e/mzaf_5652089828932384733.plus.aac.p.m4a",
-    "duration": 223067,
-    "trackUrl": "https://music.apple.com/us/album/beautiful/1238015863?i=1238015864",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/dd/3e/84/dd3e8404-6f9a-7edd-cd78-056378df4498/cover-_DS.jpg/300x300bb.jpg",
-    "trackId": "1238015864"
-  },
-  {
-    "id": "applemusic-1279713295",
-    "name": "Like This",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_01 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/44/e8/c2/44e8c228-815a-7cd9-2cf3-588641ee2760/mzaf_11438533963864174826.plus.aac.p.m4a",
-    "duration": 227548,
-    "trackUrl": "https://music.apple.com/us/album/like-this/1279713292?i=1279713295",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
-    "trackId": "1279713295"
-  },
-  {
-    "id": "applemusic-1279713296",
-    "name": "It's Over",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_01 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/85/01/9d/85019dec-945a-8230-8ade-ab1dde4ac84c/mzaf_7568899881314695128.plus.aac.p.m4a",
-    "duration": 228607,
-    "trackUrl": "https://music.apple.com/us/album/its-over/1279713292?i=1279713296",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
-    "trackId": "1279713296"
-  },
-  {
-    "id": "applemusic-1279713297",
-    "name": "One More Night",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_01 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/fe/dc/4bfedc34-2997-98d6-14b6-e732a69afe5a/mzaf_10474112302747602147.plus.aac.p.m4a",
-    "duration": 210810,
-    "trackUrl": "https://music.apple.com/us/album/one-more-night/1279713292?i=1279713297",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
-    "trackId": "1279713297"
-  },
-  {
-    "id": "applemusic-1279713298",
-    "name": "Get That Drink",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_01 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/10/42/0210422f-e7cc-74c0-0414-c9e135eb5b18/mzaf_14161068860659779089.plus.aac.p.m4a",
-    "duration": 170779,
-    "trackUrl": "https://music.apple.com/us/album/get-that-drink/1279713292?i=1279713298",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
-    "trackId": "1279713298"
-  },
-  {
-    "id": "applemusic-1279713299",
-    "name": "When I Was in Love",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Demo_01 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7b/7b/a1/7b7ba110-bfb6-5876-3f45-f2432ec8c352/mzaf_5541568851385758541.plus.aac.p.m4a",
-    "duration": 219370,
-    "trackUrl": "https://music.apple.com/us/album/when-i-was-in-love/1279713292?i=1279713299",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
-    "trackId": "1279713299"
-  },
-  {
-    "id": "applemusic-1534295180",
-    "name": "Daisy",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "WE:TH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/fe/80/abfe8001-70c3-ffb2-e1f4-9e9ca0fda0ad/mzaf_15387655733801907267.plus.aac.p.m4a",
-    "duration": 189000,
-    "trackUrl": "https://music.apple.com/us/album/daisy/1534295129?i=1534295180",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
-    "trackId": "1534295180"
-  },
-  {
-    "id": "applemusic-1534295184",
-    "name": "Beautiful Goodbye",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "WE:TH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/ae/2f/feae2f6c-8e56-d529-94fa-3e8bf474ee4c/mzaf_2878414890517893970.plus.aac.p.m4a",
-    "duration": 202240,
-    "trackUrl": "https://music.apple.com/us/album/beautiful-goodbye/1534295129?i=1534295184",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
-    "trackId": "1534295184"
-  },
-  {
-    "id": "applemusic-1534295185",
-    "name": "Nostalgia",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "WE:TH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7f/f3/23/7ff323db-a247-e587-5b29-7f51f6a51a4a/mzaf_7773783303550408305.plus.aac.p.m4a",
-    "duration": 183947,
-    "trackUrl": "https://music.apple.com/us/album/nostalgia/1534295129?i=1534295185",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
-    "trackId": "1534295185"
-  },
-  {
-    "id": "applemusic-1534295188",
-    "name": "You Like",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "WE:TH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/22/5b/a3225bbc-44ca-88ba-2241-c389197064fc/mzaf_17543105428146733116.plus.aac.p.m4a",
-    "duration": 194707,
-    "trackUrl": "https://music.apple.com/us/album/you-like/1534295129?i=1534295188",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
-    "trackId": "1534295188"
-  },
-  {
-    "id": "applemusic-1534295190",
-    "name": "Paradise",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "WE:TH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/d7/f8/03d7f840-ef61-2b23-2e4e-15b4b00c2724/mzaf_14206469212325367472.plus.aac.p.m4a",
-    "duration": 214933,
-    "trackUrl": "https://music.apple.com/us/album/paradise/1534295129?i=1534295190",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
-    "trackId": "1534295190"
-  },
-  {
-    "id": "applemusic-1457813575",
-    "name": "Sha La La",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Genie:Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/63/30/a963302e-a20e-231b-e19e-d1bbcf9df80a/mzaf_15653441414712474985.plus.aac.p.m4a",
-    "duration": 194904,
-    "trackUrl": "https://music.apple.com/us/album/sha-la-la/1457813574?i=1457813575",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
-    "trackId": "1457813575"
-  },
-  {
-    "id": "applemusic-1457813816",
-    "name": "Lost Paradise (Hip Hop Unit)",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Genie:Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/be/ea/d1/beead178-d408-540d-2a6d-d3923a5ef36a/mzaf_5092677767455333305.plus.aac.p.m4a",
-    "duration": 222970,
-    "trackUrl": "https://music.apple.com/us/album/lost-paradise-hip-hop-unit/1457813574?i=1457813816",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
-    "trackId": "1457813816"
-  },
-  {
-    "id": "applemusic-1457813818",
-    "name": "Alien",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Genie:Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/92/eb/ea92ebf4-3a48-d9fc-9f06-c4abd2bc7ad9/mzaf_5416862497807397968.plus.aac.p.m4a",
-    "duration": 200178,
-    "trackUrl": "https://music.apple.com/us/album/alien/1457813574?i=1457813818",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
-    "trackId": "1457813818"
-  },
-  {
-    "id": "applemusic-1457813819",
-    "name": "Spring Snow",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Genie:Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/c2/ff/f5c2ff93-f3be-a2f3-26cd-736418b14692/mzaf_15015826733346463343.plus.aac.p.m4a",
-    "duration": 241093,
-    "trackUrl": "https://music.apple.com/us/album/spring-snow/1457813574?i=1457813819",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
-    "trackId": "1457813819"
-  },
-  {
-    "id": "applemusic-1459100755",
-    "name": "Round 1",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Genie:us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/34/7c/8a/347c8ac8-a827-8ab8-e5e6-60f58444e67d/mzaf_2211183924421549684.plus.aac.p.m4a",
-    "duration": 234210,
-    "trackUrl": "https://music.apple.com/jp/album/round-1/1459100743?i=1459100755",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/fd/c3/57fdc3e3-c648-613d-a346-7a27a3384389/859754811611_cover.jpg/300x300bb.jpg",
-    "trackId": "1459100755"
-  },
-  {
-    "id": "applemusic-1183605630",
-    "name": "Can You Feel It",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Five Senses - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/3a/94/213a94bf-0c61-44d9-e89a-9095ff7fd01b/mzaf_16720844585552550521.plus.aac.p.m4a",
-    "duration": 196911,
-    "trackUrl": "https://music.apple.com/us/album/can-you-feel-it/1183605557?i=1183605630",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
-    "trackId": "1183605630"
-  },
-  {
-    "id": "applemusic-1183605636",
-    "name": "Engine",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Five Senses - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/a5/6f/31a56fbc-b1f4-749d-8752-076b38da4045/mzaf_3545422876545488242.plus.aac.p.m4a",
-    "duration": 194373,
-    "trackUrl": "https://music.apple.com/us/album/engine/1183605557?i=1183605636",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
-    "trackId": "1183605636"
-  },
-  {
-    "id": "applemusic-1183605637",
-    "name": "Pretty Pretty",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Five Senses - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a1/58/62/a1586257-8ee5-a21f-78ae-fbc3aa9ff250/mzaf_8647421694863737599.plus.aac.p.m4a",
-    "duration": 189042,
-    "trackUrl": "https://music.apple.com/us/album/pretty-pretty/1183605557?i=1183605637",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
-    "trackId": "1183605637"
-  },
-  {
-    "id": "applemusic-1183605638",
-    "name": "Lose Yourself",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Five Senses - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/e0/3b/1fe03b92-ffb9-2621-30a7-78d15343ef2a/mzaf_14422433009707854433.plus.aac.p.m4a",
-    "duration": 196348,
-    "trackUrl": "https://music.apple.com/us/album/lose-yourself/1183605557?i=1183605638",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
-    "trackId": "1183605638"
-  },
-  {
-    "id": "applemusic-1183605639",
-    "name": "Stay Crazy",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Five Senses - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b8/e1/7c/b8e17c6d-9abc-0ef0-598f-74bb186edb37/mzaf_16515919709842804668.plus.aac.p.m4a",
-    "duration": 196176,
-    "trackUrl": "https://music.apple.com/us/album/stay-crazy/1183605557?i=1183605639",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
-    "trackId": "1183605639"
-  },
-  {
-    "id": "applemusic-1247341026",
-    "name": "Critical Beauty",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "CEREMONY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a6/5b/ec/a65bec47-0c36-c3a7-a0cf-d213109ef09b/mzaf_15195878490481883004.plus.aac.p.m4a",
-    "duration": 196923,
-    "trackUrl": "https://music.apple.com/us/album/critical-beauty/1247341018?i=1247341026",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
-    "trackId": "1247341026"
-  },
-  {
-    "id": "applemusic-1247341027",
-    "name": "Lucky",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "CEREMONY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/c9/79/9ec9795e-dc83-fb6e-a084-85cab5fdd75d/mzaf_6088462292324466916.plus.aac.p.m4a",
-    "duration": 204357,
-    "trackUrl": "https://music.apple.com/us/album/lucky/1247341018?i=1247341027",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
-    "trackId": "1247341027"
-  },
-  {
-    "id": "applemusic-1247341028",
-    "name": "To Universe",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "CEREMONY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4a/de/a3/4adea323-5ff8-fa42-ce59-5913a5719ff3/mzaf_1696503603826645382.plus.aac.p.m4a",
-    "duration": 224432,
-    "trackUrl": "https://music.apple.com/us/album/to-universe/1247341018?i=1247341028",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
-    "trackId": "1247341028"
-  },
-  {
-    "id": "applemusic-1247341029",
-    "name": "Nothing",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "CEREMONY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/96/61/52966191-31e4-dca1-f996-06a554b987fc/mzaf_12744551142245671786.plus.aac.p.m4a",
-    "duration": 213766,
-    "trackUrl": "https://music.apple.com/us/album/nothing/1247341018?i=1247341029",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
-    "trackId": "1247341029"
-  },
-  {
-    "id": "applemusic-1247341030",
-    "name": "Spectacular",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "CEREMONY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/e2/b1/dfe2b1ac-4382-f14f-b208-c6bd284dafca/mzaf_8542103610872467903.plus.aac.p.m4a",
-    "duration": 214268,
-    "trackUrl": "https://music.apple.com/us/album/spectacular/1247341018?i=1247341030",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
-    "trackId": "1247341030"
-  },
-  {
-    "id": "applemusic-1247341151",
-    "name": "Thank You (Jinho, Hui)",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "CEREMONY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/3a/20/753a202c-8f8e-5edd-9619-be571c2fa345/mzaf_11613302514152723708.plus.aac.p.m4a",
-    "duration": 255957,
-    "trackUrl": "https://music.apple.com/us/album/thank-you-jinho-hui/1247341018?i=1247341151",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
-    "trackId": "1247341151"
-  },
-  {
-    "id": "applemusic-1802807755",
-    "name": "Feelin' Like",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "IN:VITE U - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/f1/68/96f168d7-a3da-58b4-40b7-9732644e3272/mzaf_15044236787514156306.plus.aac.p.m4a",
-    "duration": 167213,
-    "trackUrl": "https://music.apple.com/us/album/feelin-like/1802807750?i=1802807755",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
-    "trackId": "1802807755"
-  },
-  {
-    "id": "applemusic-1802807758",
-    "name": "One Shot",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "IN:VITE U - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/b8/43/a4b843ad-674c-8200-03ae-871b475e2489/mzaf_13931408822582638314.plus.aac.p.m4a",
-    "duration": 192213,
-    "trackUrl": "https://music.apple.com/us/album/one-shot/1802807750?i=1802807758",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
-    "trackId": "1802807758"
-  },
-  {
-    "id": "applemusic-1802807765",
-    "name": "The Game",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "IN:VITE U - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/59/36/23593603-865e-d222-d8c6-590fde8018ef/mzaf_3834898953755701094.plus.aac.p.m4a",
-    "duration": 184493,
-    "trackUrl": "https://music.apple.com/us/album/the-game/1802807750?i=1802807765",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
-    "trackId": "1802807765"
-  },
-  {
-    "id": "applemusic-1802807773",
-    "name": "Call My Name",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "IN:VITE U - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/4d/da/8a4dda51-d242-8452-4bf1-f4357670aeff/mzaf_5698132022594930452.plus.aac.p.m4a",
-    "duration": 214413,
-    "trackUrl": "https://music.apple.com/us/album/call-my-name/1802807750?i=1802807773",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
-    "trackId": "1802807773"
-  },
-  {
-    "id": "applemusic-1802808142",
-    "name": "Sparkling Night",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "IN:VITE U - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/7e/ce/367ecedc-6071-d5a7-c502-6b824958273e/mzaf_1373054121729429031.plus.aac.p.m4a",
-    "duration": 176307,
-    "trackUrl": "https://music.apple.com/us/album/sparkling-night/1802807750?i=1802808142",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
-    "trackId": "1802808142"
-  },
-  {
-    "id": "applemusic-1802808153",
-    "name": "BAD",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "IN:VITE U - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/48/65/924865e9-3110-6764-664e-d4768ed2eabc/mzaf_12903254089111736519.plus.aac.p.m4a",
-    "duration": 205333,
-    "trackUrl": "https://music.apple.com/us/album/bad/1802807750?i=1802808153",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
-    "trackId": "1802808153"
   },
   {
     "id": "applemusic-1556364397",
@@ -869,6 +427,149 @@
     "trackUrl": "https://music.apple.com/us/album/boy-in-time-hui-solo-bonus-track/1556364396?i=1556364404",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/46/16/354616e0-1b9a-e28d-1465-7cdf16b39451/21UMGIM16608.rgb.jpg/300x300bb.jpg",
     "trackId": "1556364404"
+  },
+  {
+    "id": "applemusic-1238015864",
+    "name": "Beautiful",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Beautiful - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/4b/b3/db4bb380-808d-167d-43d3-66d71fb4c74e/mzaf_5652089828932384733.plus.aac.p.m4a",
+    "duration": 223067,
+    "trackUrl": "https://music.apple.com/us/album/beautiful/1238015863?i=1238015864",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/dd/3e/84/dd3e8404-6f9a-7edd-cd78-056378df4498/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1238015864"
+  },
+  {
+    "id": "applemusic-1279713295",
+    "name": "Like This",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_01 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/44/e8/c2/44e8c228-815a-7cd9-2cf3-588641ee2760/mzaf_11438533963864174826.plus.aac.p.m4a",
+    "duration": 227548,
+    "trackUrl": "https://music.apple.com/us/album/like-this/1279713292?i=1279713295",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
+    "trackId": "1279713295"
+  },
+  {
+    "id": "applemusic-1279713296",
+    "name": "It's Over",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_01 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/85/01/9d/85019dec-945a-8230-8ade-ab1dde4ac84c/mzaf_7568899881314695128.plus.aac.p.m4a",
+    "duration": 228607,
+    "trackUrl": "https://music.apple.com/us/album/its-over/1279713292?i=1279713296",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
+    "trackId": "1279713296"
+  },
+  {
+    "id": "applemusic-1279713297",
+    "name": "One More Night",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_01 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/fe/dc/4bfedc34-2997-98d6-14b6-e732a69afe5a/mzaf_10474112302747602147.plus.aac.p.m4a",
+    "duration": 210810,
+    "trackUrl": "https://music.apple.com/us/album/one-more-night/1279713292?i=1279713297",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
+    "trackId": "1279713297"
+  },
+  {
+    "id": "applemusic-1279713298",
+    "name": "Get That Drink",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_01 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/10/42/0210422f-e7cc-74c0-0414-c9e135eb5b18/mzaf_14161068860659779089.plus.aac.p.m4a",
+    "duration": 170779,
+    "trackUrl": "https://music.apple.com/us/album/get-that-drink/1279713292?i=1279713298",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
+    "trackId": "1279713298"
+  },
+  {
+    "id": "applemusic-1279713299",
+    "name": "When I Was in Love",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Demo_01 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7b/7b/a1/7b7ba110-bfb6-5876-3f45-f2432ec8c352/mzaf_5541568851385758541.plus.aac.p.m4a",
+    "duration": 219370,
+    "trackUrl": "https://music.apple.com/us/album/when-i-was-in-love/1279713292?i=1279713299",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/11/0e/a5/110ea504-02e7-3142-0723-d541f3f14aa2/cover-.jpg/300x300bb.jpg",
+    "trackId": "1279713299"
+  },
+  {
+    "id": "applemusic-1457813575",
+    "name": "Sha La La",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Genie:Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/63/30/a963302e-a20e-231b-e19e-d1bbcf9df80a/mzaf_15653441414712474985.plus.aac.p.m4a",
+    "duration": 194904,
+    "trackUrl": "https://music.apple.com/us/album/sha-la-la/1457813574?i=1457813575",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
+    "trackId": "1457813575"
+  },
+  {
+    "id": "applemusic-1457813816",
+    "name": "Lost Paradise (Hip Hop Unit)",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Genie:Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/be/ea/d1/beead178-d408-540d-2a6d-d3923a5ef36a/mzaf_5092677767455333305.plus.aac.p.m4a",
+    "duration": 222970,
+    "trackUrl": "https://music.apple.com/us/album/lost-paradise-hip-hop-unit/1457813574?i=1457813816",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
+    "trackId": "1457813816"
+  },
+  {
+    "id": "applemusic-1457813818",
+    "name": "Alien",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Genie:Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ea/92/eb/ea92ebf4-3a48-d9fc-9f06-c4abd2bc7ad9/mzaf_5416862497807397968.plus.aac.p.m4a",
+    "duration": 200178,
+    "trackUrl": "https://music.apple.com/us/album/alien/1457813574?i=1457813818",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
+    "trackId": "1457813818"
+  },
+  {
+    "id": "applemusic-1457813819",
+    "name": "Spring Snow",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Genie:Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/c2/ff/f5c2ff93-f3be-a2f3-26cd-736418b14692/mzaf_15015826733346463343.plus.aac.p.m4a",
+    "duration": 241093,
+    "trackUrl": "https://music.apple.com/us/album/spring-snow/1457813574?i=1457813819",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/68/92/ad689226-12aa-e385-f6f4-28c20afc5337/cover-.jpg/300x300bb.jpg",
+    "trackId": "1457813819"
+  },
+  {
+    "id": "applemusic-1459100755",
+    "name": "Round 1",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Genie:us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/34/7c/8a/347c8ac8-a827-8ab8-e5e6-60f58444e67d/mzaf_2211183924421549684.plus.aac.p.m4a",
+    "duration": 234210,
+    "trackUrl": "https://music.apple.com/jp/album/round-1/1459100743?i=1459100755",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/fd/c3/57fdc3e3-c648-613d-a346-7a27a3384389/859754811611_cover.jpg/300x300bb.jpg",
+    "trackId": "1459100755"
   },
   {
     "id": "applemusic-1498169614",
@@ -1001,30 +702,290 @@
     "trackId": "1582617872"
   },
   {
-    "id": "applemusic-1473558474",
-    "name": "Happiness",
+    "id": "applemusic-1534295180",
+    "name": "Daisy",
     "artists": [
       "PENTAGON"
     ],
-    "album": "Happiness / Sha La La - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/e1/8a/61e18a66-ac1a-9cc7-2bff-703d5c21d060/mzaf_14006160862621479574.plus.aac.p.m4a",
-    "duration": 204080,
-    "trackUrl": "https://music.apple.com/us/album/happiness/1473558473?i=1473558474",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/a8/7c/3da87c25-5103-f6a5-0029-40f715e2d04b/19UMGIM64159.rgb.jpg/300x300bb.jpg",
-    "trackId": "1473558474"
+    "album": "WE:TH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/fe/80/abfe8001-70c3-ffb2-e1f4-9e9ca0fda0ad/mzaf_15387655733801907267.plus.aac.p.m4a",
+    "duration": 189000,
+    "trackUrl": "https://music.apple.com/us/album/daisy/1534295129?i=1534295180",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
+    "trackId": "1534295180"
   },
   {
-    "id": "applemusic-1473558659",
-    "name": "Seasons",
+    "id": "applemusic-1534295184",
+    "name": "Beautiful Goodbye",
     "artists": [
       "PENTAGON"
     ],
-    "album": "Happiness / Sha La La - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/f2/50/30f25046-1f15-f23c-c1d8-610381df5888/mzaf_8717507561912004733.plus.aac.p.m4a",
-    "duration": 211613,
-    "trackUrl": "https://music.apple.com/us/album/seasons/1473558473?i=1473558659",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/a8/7c/3da87c25-5103-f6a5-0029-40f715e2d04b/19UMGIM64159.rgb.jpg/300x300bb.jpg",
-    "trackId": "1473558659"
+    "album": "WE:TH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/ae/2f/feae2f6c-8e56-d529-94fa-3e8bf474ee4c/mzaf_2878414890517893970.plus.aac.p.m4a",
+    "duration": 202240,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-goodbye/1534295129?i=1534295184",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
+    "trackId": "1534295184"
+  },
+  {
+    "id": "applemusic-1534295185",
+    "name": "Nostalgia",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "WE:TH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7f/f3/23/7ff323db-a247-e587-5b29-7f51f6a51a4a/mzaf_7773783303550408305.plus.aac.p.m4a",
+    "duration": 183947,
+    "trackUrl": "https://music.apple.com/us/album/nostalgia/1534295129?i=1534295185",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
+    "trackId": "1534295185"
+  },
+  {
+    "id": "applemusic-1534295188",
+    "name": "You Like",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "WE:TH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a3/22/5b/a3225bbc-44ca-88ba-2241-c389197064fc/mzaf_17543105428146733116.plus.aac.p.m4a",
+    "duration": 194707,
+    "trackUrl": "https://music.apple.com/us/album/you-like/1534295129?i=1534295188",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
+    "trackId": "1534295188"
+  },
+  {
+    "id": "applemusic-1534295190",
+    "name": "Paradise",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "WE:TH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/d7/f8/03d7f840-ef61-2b23-2e4e-15b4b00c2724/mzaf_14206469212325367472.plus.aac.p.m4a",
+    "duration": 214933,
+    "trackUrl": "https://music.apple.com/us/album/paradise/1534295129?i=1534295190",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/48/ac/98/48ac982c-9b3b-fb3d-ab48-05e095a81c66/20UMGIM85992.rgb.jpg/300x300bb.jpg",
+    "trackId": "1534295190"
+  },
+  {
+    "id": "applemusic-1802807755",
+    "name": "Feelin' Like",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "IN:VITE U - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/f1/68/96f168d7-a3da-58b4-40b7-9732644e3272/mzaf_15044236787514156306.plus.aac.p.m4a",
+    "duration": 167213,
+    "trackUrl": "https://music.apple.com/us/album/feelin-like/1802807750?i=1802807755",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
+    "trackId": "1802807755"
+  },
+  {
+    "id": "applemusic-1802807758",
+    "name": "One Shot",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "IN:VITE U - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/b8/43/a4b843ad-674c-8200-03ae-871b475e2489/mzaf_13931408822582638314.plus.aac.p.m4a",
+    "duration": 192213,
+    "trackUrl": "https://music.apple.com/us/album/one-shot/1802807750?i=1802807758",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
+    "trackId": "1802807758"
+  },
+  {
+    "id": "applemusic-1802807765",
+    "name": "The Game",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "IN:VITE U - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/59/36/23593603-865e-d222-d8c6-590fde8018ef/mzaf_3834898953755701094.plus.aac.p.m4a",
+    "duration": 184493,
+    "trackUrl": "https://music.apple.com/us/album/the-game/1802807750?i=1802807765",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
+    "trackId": "1802807765"
+  },
+  {
+    "id": "applemusic-1802807773",
+    "name": "Call My Name",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "IN:VITE U - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/4d/da/8a4dda51-d242-8452-4bf1-f4357670aeff/mzaf_5698132022594930452.plus.aac.p.m4a",
+    "duration": 214413,
+    "trackUrl": "https://music.apple.com/us/album/call-my-name/1802807750?i=1802807773",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
+    "trackId": "1802807773"
+  },
+  {
+    "id": "applemusic-1802808142",
+    "name": "Sparkling Night",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "IN:VITE U - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/7e/ce/367ecedc-6071-d5a7-c502-6b824958273e/mzaf_1373054121729429031.plus.aac.p.m4a",
+    "duration": 176307,
+    "trackUrl": "https://music.apple.com/us/album/sparkling-night/1802807750?i=1802808142",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
+    "trackId": "1802808142"
+  },
+  {
+    "id": "applemusic-1802808153",
+    "name": "BAD",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "IN:VITE U - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/48/65/924865e9-3110-6764-664e-d4768ed2eabc/mzaf_12903254089111736519.plus.aac.p.m4a",
+    "duration": 205333,
+    "trackUrl": "https://music.apple.com/us/album/bad/1802807750?i=1802808153",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b2/0d/26/b20d26d4-46af-bdfd-2eea-f3955d34c5e0/8804775250521.jpg/300x300bb.jpg",
+    "trackId": "1802808153"
+  },
+  {
+    "id": "applemusic-1247341026",
+    "name": "Critical Beauty",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "CEREMONY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a6/5b/ec/a65bec47-0c36-c3a7-a0cf-d213109ef09b/mzaf_15195878490481883004.plus.aac.p.m4a",
+    "duration": 196923,
+    "trackUrl": "https://music.apple.com/us/album/critical-beauty/1247341018?i=1247341026",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
+    "trackId": "1247341026"
+  },
+  {
+    "id": "applemusic-1247341027",
+    "name": "Lucky",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "CEREMONY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/c9/79/9ec9795e-dc83-fb6e-a084-85cab5fdd75d/mzaf_6088462292324466916.plus.aac.p.m4a",
+    "duration": 204357,
+    "trackUrl": "https://music.apple.com/us/album/lucky/1247341018?i=1247341027",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
+    "trackId": "1247341027"
+  },
+  {
+    "id": "applemusic-1247341028",
+    "name": "To Universe",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "CEREMONY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4a/de/a3/4adea323-5ff8-fa42-ce59-5913a5719ff3/mzaf_1696503603826645382.plus.aac.p.m4a",
+    "duration": 224432,
+    "trackUrl": "https://music.apple.com/us/album/to-universe/1247341018?i=1247341028",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
+    "trackId": "1247341028"
+  },
+  {
+    "id": "applemusic-1247341029",
+    "name": "Nothing",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "CEREMONY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/96/61/52966191-31e4-dca1-f996-06a554b987fc/mzaf_12744551142245671786.plus.aac.p.m4a",
+    "duration": 213766,
+    "trackUrl": "https://music.apple.com/us/album/nothing/1247341018?i=1247341029",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
+    "trackId": "1247341029"
+  },
+  {
+    "id": "applemusic-1247341030",
+    "name": "Spectacular",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "CEREMONY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/e2/b1/dfe2b1ac-4382-f14f-b208-c6bd284dafca/mzaf_8542103610872467903.plus.aac.p.m4a",
+    "duration": 214268,
+    "trackUrl": "https://music.apple.com/us/album/spectacular/1247341018?i=1247341030",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
+    "trackId": "1247341030"
+  },
+  {
+    "id": "applemusic-1247341151",
+    "name": "Thank You (Jinho, Hui)",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "CEREMONY",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/3a/20/753a202c-8f8e-5edd-9619-be571c2fa345/mzaf_11613302514152723708.plus.aac.p.m4a",
+    "duration": 255957,
+    "trackUrl": "https://music.apple.com/us/album/thank-you-jinho-hui/1247341018?i=1247341151",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music117/v4/c7/b9/07/c7b907a0-9076-9305-2ef7-d1b7b7173c0b/cover-.jpg/300x300bb.jpg",
+    "trackId": "1247341151"
+  },
+  {
+    "id": "applemusic-1183605630",
+    "name": "Can You Feel It",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Five Senses - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/21/3a/94/213a94bf-0c61-44d9-e89a-9095ff7fd01b/mzaf_16720844585552550521.plus.aac.p.m4a",
+    "duration": 196911,
+    "trackUrl": "https://music.apple.com/us/album/can-you-feel-it/1183605557?i=1183605630",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
+    "trackId": "1183605630"
+  },
+  {
+    "id": "applemusic-1183605636",
+    "name": "Engine",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Five Senses - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/a5/6f/31a56fbc-b1f4-749d-8752-076b38da4045/mzaf_3545422876545488242.plus.aac.p.m4a",
+    "duration": 194373,
+    "trackUrl": "https://music.apple.com/us/album/engine/1183605557?i=1183605636",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
+    "trackId": "1183605636"
+  },
+  {
+    "id": "applemusic-1183605637",
+    "name": "Pretty Pretty",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Five Senses - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a1/58/62/a1586257-8ee5-a21f-78ae-fbc3aa9ff250/mzaf_8647421694863737599.plus.aac.p.m4a",
+    "duration": 189042,
+    "trackUrl": "https://music.apple.com/us/album/pretty-pretty/1183605557?i=1183605637",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
+    "trackId": "1183605637"
+  },
+  {
+    "id": "applemusic-1183605638",
+    "name": "Lose Yourself",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Five Senses - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/e0/3b/1fe03b92-ffb9-2621-30a7-78d15343ef2a/mzaf_14422433009707854433.plus.aac.p.m4a",
+    "duration": 196348,
+    "trackUrl": "https://music.apple.com/us/album/lose-yourself/1183605557?i=1183605638",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
+    "trackId": "1183605638"
+  },
+  {
+    "id": "applemusic-1183605639",
+    "name": "Stay Crazy",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Five Senses - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b8/e1/7c/b8e17c6d-9abc-0ef0-598f-74bb186edb37/mzaf_16515919709842804668.plus.aac.p.m4a",
+    "duration": 196176,
+    "trackUrl": "https://music.apple.com/us/album/stay-crazy/1183605557?i=1183605639",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c8/76/b2/c876b257-1ce6-4688-7201-188939c2ae7b/cover-_PENTAGON.jpg/300x300bb.jpg",
+    "trackId": "1183605639"
   },
   {
     "id": "applemusic-1580025570",
@@ -1053,17 +1014,17 @@
     "trackId": "1630759720"
   },
   {
-    "id": "applemusic-1617984777",
-    "name": "Follow (PENTAGON Version)",
+    "id": "applemusic-1544247501",
+    "name": "Eternal Flame",
     "artists": [
       "PENTAGON"
     ],
-    "album": "Road to Kingdom (Your Song), Pt. 2 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/79/38/46/793846cb-30ae-6386-7a26-652de8618f50/mzaf_13112825213650651416.plus.aac.p.m4a",
-    "duration": 240400,
-    "trackUrl": "https://music.apple.com/us/album/follow-pentagon-version/1617984770?i=1617984777",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/22/f4/7922f4bf-93cf-3a00-67ba-d6c465647293/8809704416252_Cover.jpg/300x300bb.jpg",
-    "trackId": "1617984777"
+    "album": "Eternal Flame - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/44/be/b844becc-e7a2-e79f-02ca-23f54b929077/mzaf_3979159440926608375.plus.aac.p.m4a",
+    "duration": 226640,
+    "trackUrl": "https://music.apple.com/us/album/eternal-flame/1544247500?i=1544247501",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/38/93/423893a3-ab96-0d60-0632-767abbc625dc/20UM1IM14694.rgb.jpg/300x300bb.jpg",
+    "trackId": "1544247501"
   },
   {
     "id": "applemusic-1617984785",
@@ -1090,32 +1051,6 @@
     "trackUrl": "https://music.apple.com/us/album/quasi-una-fantasia/1617984770?i=1617985145",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/22/f4/7922f4bf-93cf-3a00-67ba-d6c465647293/8809704416252_Cover.jpg/300x300bb.jpg",
     "trackId": "1617985145"
-  },
-  {
-    "id": "applemusic-1544247501",
-    "name": "Eternal Flame",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Eternal Flame - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/44/be/b844becc-e7a2-e79f-02ca-23f54b929077/mzaf_3979159440926608375.plus.aac.p.m4a",
-    "duration": 226640,
-    "trackUrl": "https://music.apple.com/us/album/eternal-flame/1544247500?i=1544247501",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/38/93/423893a3-ab96-0d60-0632-767abbc625dc/20UM1IM14694.rgb.jpg/300x300bb.jpg",
-    "trackId": "1544247501"
-  },
-  {
-    "id": "applemusic-1628766366",
-    "name": "Very Good (From \"Road to Kingdom [King's Melody], Pt. 2\") [PENTAGON Version]",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Very Good (From \"Road to Kingdom [King's Melody], Pt. 2\") [PENTAGON Version] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c7/66/82/c76682a5-5f5f-7e4a-247f-b8dcf20e3af9/mzaf_15571557021448672774.plus.aac.p.m4a",
-    "duration": 203227,
-    "trackUrl": "https://music.apple.com/us/album/very-good-from-road-to-kingdom-kings-melody-pt-2-pentagon/1628766122?i=1628766366",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bc/31/6a/bc316a2a-2b45-987a-7899-f7d724471d6c/8809704415316_Cover.jpg/300x300bb.jpg",
-    "trackId": "1628766366"
   },
   {
     "id": "applemusic-1449101144",
@@ -1157,17 +1092,82 @@
     "trackId": "1449101165"
   },
   {
-    "id": "applemusic-1684871390",
-    "name": "Shh",
+    "id": "applemusic-1421595000",
+    "name": "I'm Fine",
     "artists": [
       "PENTAGON"
     ],
-    "album": "Shh - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/15/0d/e6/150de616-059e-47f3-2be7-01cbd69aaafc/mzaf_6839688792002856743.plus.aac.p.m4a",
-    "duration": 193293,
-    "trackUrl": "https://music.apple.com/us/album/shh/1684871389?i=1684871390",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/22/9d/bf229d86-8ce5-3991-3f7b-7524056fcb3f/5054197665301.jpg/300x300bb.jpg",
-    "trackId": "1684871390"
+    "album": "Shine - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e2/bd/78/e2bd78a1-e38a-d313-36fe-8be5da8d4583/mzaf_3343337870969319150.plus.aac.p.m4a",
+    "duration": 213373,
+    "trackUrl": "https://music.apple.com/us/album/im-fine/1421594446?i=1421595000",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
+    "trackId": "1421595000"
+  },
+  {
+    "id": "applemusic-1421595003",
+    "name": "Wake Up",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Shine - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/93/9c/71939c41-cfd0-76d0-d8c1-da60556cfdc5/mzaf_8292692864834910854.plus.aac.p.m4a",
+    "duration": 215133,
+    "trackUrl": "https://music.apple.com/us/album/wake-up/1421594446?i=1421595003",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
+    "trackId": "1421595003"
+  },
+  {
+    "id": "applemusic-1421595191",
+    "name": "Wasurerarenai",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Shine - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/02/40/b10240ff-8714-c536-bf42-0930b8852e75/mzaf_11368609574118310531.plus.aac.p.m4a",
+    "duration": 229400,
+    "trackUrl": "https://music.apple.com/us/album/wasurerarenai/1421594446?i=1421595191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
+    "trackId": "1421595191"
+  },
+  {
+    "id": "applemusic-1421595196",
+    "name": "Hey! Hey! Hey!",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Shine - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/70/4d/90704d27-d0e8-1525-8cec-23fe55be1eb6/mzaf_13953310201835913307.plus.aac.p.m4a",
+    "duration": 197787,
+    "trackUrl": "https://music.apple.com/us/album/hey-hey-hey/1421594446?i=1421595196",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
+    "trackId": "1421595196"
+  },
+  {
+    "id": "applemusic-1473558474",
+    "name": "Happiness",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Happiness / Sha La La - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/e1/8a/61e18a66-ac1a-9cc7-2bff-703d5c21d060/mzaf_14006160862621479574.plus.aac.p.m4a",
+    "duration": 204080,
+    "trackUrl": "https://music.apple.com/us/album/happiness/1473558473?i=1473558474",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/a8/7c/3da87c25-5103-f6a5-0029-40f715e2d04b/19UMGIM64159.rgb.jpg/300x300bb.jpg",
+    "trackId": "1473558474"
+  },
+  {
+    "id": "applemusic-1473558659",
+    "name": "Seasons",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Happiness / Sha La La - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/f2/50/30f25046-1f15-f23c-c1d8-610381df5888/mzaf_8717507561912004733.plus.aac.p.m4a",
+    "duration": 211613,
+    "trackUrl": "https://music.apple.com/us/album/seasons/1473558473?i=1473558659",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/a8/7c/3da87c25-5103-f6a5-0029-40f715e2d04b/19UMGIM64159.rgb.jpg/300x300bb.jpg",
+    "trackId": "1473558659"
   },
   {
     "id": "applemusic-1703721095",
@@ -1207,6 +1207,19 @@
     "trackUrl": "https://music.apple.com/us/album/made-in-heaven/1703721094?i=1703721099",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b7/38/fb/b738fb34-05a6-acfb-2e65-c2a28663a53d/5054197792366.jpg/300x300bb.jpg",
     "trackId": "1703721099"
+  },
+  {
+    "id": "applemusic-1684871390",
+    "name": "Shh",
+    "artists": [
+      "PENTAGON"
+    ],
+    "album": "Shh - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/15/0d/e6/150de616-059e-47f3-2be7-01cbd69aaafc/mzaf_6839688792002856743.plus.aac.p.m4a",
+    "duration": 193293,
+    "trackUrl": "https://music.apple.com/us/album/shh/1684871389?i=1684871390",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bf/22/9d/bf229d86-8ce5-3991-3f7b-7524056fcb3f/5054197665301.jpg/300x300bb.jpg",
+    "trackId": "1684871390"
   },
   {
     "id": "applemusic-1802485970",
@@ -1274,45 +1287,6 @@
     "trackId": "1532018867"
   },
   {
-    "id": "applemusic-1421595000",
-    "name": "I'm Fine",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Shine - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e2/bd/78/e2bd78a1-e38a-d313-36fe-8be5da8d4583/mzaf_3343337870969319150.plus.aac.p.m4a",
-    "duration": 213373,
-    "trackUrl": "https://music.apple.com/us/album/im-fine/1421594446?i=1421595000",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
-    "trackId": "1421595000"
-  },
-  {
-    "id": "applemusic-1421595191",
-    "name": "Wasurerarenai",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Shine - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/02/40/b10240ff-8714-c536-bf42-0930b8852e75/mzaf_11368609574118310531.plus.aac.p.m4a",
-    "duration": 229400,
-    "trackUrl": "https://music.apple.com/us/album/wasurerarenai/1421594446?i=1421595191",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
-    "trackId": "1421595191"
-  },
-  {
-    "id": "applemusic-1421595196",
-    "name": "Hey! Hey! Hey!",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Shine - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/70/4d/90704d27-d0e8-1525-8cec-23fe55be1eb6/mzaf_13953310201835913307.plus.aac.p.m4a",
-    "duration": 197787,
-    "trackUrl": "https://music.apple.com/us/album/hey-hey-hey/1421594446?i=1421595196",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fe/f2/4b/fef24baf-4521-2971-8385-76366a7fa018/00602567956105.rgb.jpg/300x300bb.jpg",
-    "trackId": "1421595196"
-  },
-  {
     "id": "applemusic-1638848736",
     "name": "Don't",
     "artists": [
@@ -1339,19 +1313,6 @@
     "trackId": "1638848737"
   },
   {
-    "id": "applemusic-1509419300",
-    "name": "I'm Loving You (Korean Version) [feat. PENTAGON]",
-    "artists": [
-      "GLAY × PENTAGON"
-    ],
-    "album": "I'm Loving You (Korean Version) [feat. PENTAGON] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/fb/a6/45fba667-9482-58ea-89c2-8a89cbe04397/mzaf_18378833147719498213.plus.aac.p.m4a",
-    "duration": 211915,
-    "trackUrl": "https://music.apple.com/us/album/im-loving-you-korean-version-feat-pentagon/1509419299?i=1509419300",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/32/48/ee/3248ee31-6767-3a70-fe1f-efb14c0bd647/I_mlovingyou_fix_ol_0408.jpg/300x300bb.jpg",
-    "trackId": "1509419300"
-  },
-  {
     "id": "applemusic-1442806355",
     "name": "Hikari",
     "artists": [
@@ -1376,19 +1337,6 @@
     "trackUrl": "https://music.apple.com/us/album/get-down/1442805750?i=1442806583",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/e5/69/d0/e569d087-7c63-08f7-20a8-15bac8183abe/00602557497007.rgb.jpg/300x300bb.jpg",
     "trackId": "1442806583"
-  },
-  {
-    "id": "applemusic-1647554132",
-    "name": "POPPIA (SAUDI ARABIA version)",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "KCON 2022 SAUDI ARABIA SIGNATURE SONG (SAUDI ARABIA version) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/cb/33/41/cb33410d-255f-8a94-bdc0-ece87f16b7b9/mzaf_13041512932363885295.plus.aac.p.m4a",
-    "duration": 197680,
-    "trackUrl": "https://music.apple.com/us/album/poppia-saudi-arabia-version/1647554128?i=1647554132",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bc/53/55/bc5355a1-037d-d441-4354-65357030b8c6/888272106862_Cover.jpg/300x300bb.jpg",
-    "trackId": "1647554132"
   },
   {
     "id": "applemusic-1530374702",

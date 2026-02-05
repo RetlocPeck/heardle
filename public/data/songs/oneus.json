@@ -1,18 +1,5 @@
 [
   {
-    "id": "applemusic-1448995707",
-    "name": "Intro: Light Us",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Light Us",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b2/d8/80/b2d8805e-1435-1847-d0ad-4a157b0c5522/mzaf_10935935533704357366.plus.aac.p.m4a",
-    "duration": 62338,
-    "trackUrl": "https://music.apple.com/us/album/intro-light-us/1448995706?i=1448995707",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/66/bc/8866bc39-a9f5-27a1-b7dd-cea0a1fdfe4c/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1448995707"
-  },
-  {
     "id": "applemusic-1448995708",
     "name": "ZigZag",
     "artists": [
@@ -91,17 +78,121 @@
     "trackId": "1448995713"
   },
   {
-    "id": "applemusic-1549673935",
-    "name": "Intro : Devil is in the detail",
+    "id": "applemusic-1465880738",
+    "name": "Twilight",
     "artists": [
       "ONEUS"
     ],
-    "album": "DEVIL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/aa/a6/95/aaa6953b-31bb-d118-9481-6b772e06e1a5/mzaf_5643998386191931201.plus.aac.p.m4a",
-    "duration": 93813,
-    "trackUrl": "https://music.apple.com/us/album/intro-devil-is-in-the-detail/1549673934?i=1549673935",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/3c/8a/3e3c8a3c-e624-72f8-a309-30526fab5831/1.jpg/300x300bb.jpg",
-    "trackId": "1549673935"
+    "album": "Raise Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bf/81/34/bf81344f-22b3-4d10-c434-7a9a048426f8/mzaf_2708621453948635276.plus.aac.p.m4a",
+    "duration": 217933,
+    "trackUrl": "https://music.apple.com/us/album/twilight/1465880736?i=1465880738",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
+    "trackId": "1465880738"
+  },
+  {
+    "id": "applemusic-1465880739",
+    "name": "English Girl",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Raise Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/59/57/c159572c-9f8f-7d4b-48f7-a9e3faac7151/mzaf_2556358359178232346.plus.aac.p.m4a",
+    "duration": 185933,
+    "trackUrl": "https://music.apple.com/us/album/english-girl/1465880736?i=1465880739",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
+    "trackId": "1465880739"
+  },
+  {
+    "id": "applemusic-1465880740",
+    "name": "BingBing",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Raise Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/b7/df/52b7dfaf-baa9-75d1-e651-39f75448af9a/mzaf_3606147074043397185.plus.aac.p.m4a",
+    "duration": 214400,
+    "trackUrl": "https://music.apple.com/us/album/bingbing/1465880736?i=1465880740",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
+    "trackId": "1465880740"
+  },
+  {
+    "id": "applemusic-1465880741",
+    "name": "White Night",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Raise Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/cd/58/90cd5833-5ce5-8168-cd4c-ea7fee1018ff/mzaf_9941598943745333433.plus.aac.p.m4a",
+    "duration": 198707,
+    "trackUrl": "https://music.apple.com/us/album/white-night/1465880736?i=1465880741",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
+    "trackId": "1465880741"
+  },
+  {
+    "id": "applemusic-1465880742",
+    "name": "Now",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Raise Us - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d6/6d/a4/d66da4d2-dfa5-c992-a8c1-8a2f961ade6d/mzaf_9782048378876818951.plus.aac.p.m4a",
+    "duration": 195707,
+    "trackUrl": "https://music.apple.com/us/album/now/1465880736?i=1465880742",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
+    "trackId": "1465880742"
+  },
+  {
+    "id": "applemusic-1685522859",
+    "name": "ERASE ME",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "PYGMALION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fd/01/ef/fd01ef60-3ccb-c17e-67c6-7e736e52b3fe/mzaf_15858300273632404681.plus.aac.p.m4a",
+    "duration": 189840,
+    "trackUrl": "https://music.apple.com/us/album/erase-me/1685522857?i=1685522859",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
+    "trackId": "1685522859"
+  },
+  {
+    "id": "applemusic-1685522860",
+    "name": "Unforgettable",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "PYGMALION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/94/98/c4/9498c4ed-7233-14b5-0cff-6a444c13ad26/mzaf_2871481100319391567.plus.aac.p.m4a",
+    "duration": 209880,
+    "trackUrl": "https://music.apple.com/us/album/unforgettable/1685522857?i=1685522860",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
+    "trackId": "1685522860"
+  },
+  {
+    "id": "applemusic-1685522861",
+    "name": "ECHO",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "PYGMALION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/73/f4/59/73f4596d-bec6-c2cb-46e5-3e3b49adf7cc/mzaf_12214404056459671064.plus.aac.p.m4a",
+    "duration": 184227,
+    "trackUrl": "https://music.apple.com/us/album/echo/1685522857?i=1685522861",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
+    "trackId": "1685522861"
+  },
+  {
+    "id": "applemusic-1685522862",
+    "name": "Halley's Comet",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "PYGMALION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8d/7c/69/8d7c69be-e530-53a2-dcdc-16421b9f0069/mzaf_13477034475673676261.plus.aac.p.m4a",
+    "duration": 204627,
+    "trackUrl": "https://music.apple.com/us/album/halleys-comet/1685522857?i=1685522862",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
+    "trackId": "1685522862"
   },
   {
     "id": "applemusic-1549673937",
@@ -221,97 +312,6 @@
     "trackId": "1549673945"
   },
   {
-    "id": "applemusic-1549674126",
-    "name": "Outro : Connect with US",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "DEVIL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/eb/1a/02eb1a7c-d461-9952-fdb8-be93b82d0eb0/mzaf_11381894845128561406.plus.aac.p.m4a",
-    "duration": 66920,
-    "trackUrl": "https://music.apple.com/us/album/outro-connect-with-us/1549673934?i=1549674126",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3e/3c/8a/3e3c8a3c-e624-72f8-a309-30526fab5831/1.jpg/300x300bb.jpg",
-    "trackId": "1549674126"
-  },
-  {
-    "id": "applemusic-1685522858",
-    "name": "Intro : LETHE",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "PYGMALION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f8/06/8c/f8068cfb-65b4-c7ae-5753-4765c46168fa/mzaf_3470766183950191397.plus.aac.p.m4a",
-    "duration": 86520,
-    "trackUrl": "https://music.apple.com/us/album/intro-lethe/1685522857?i=1685522858",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
-    "trackId": "1685522858"
-  },
-  {
-    "id": "applemusic-1685522859",
-    "name": "ERASE ME",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "PYGMALION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fd/01/ef/fd01ef60-3ccb-c17e-67c6-7e736e52b3fe/mzaf_15858300273632404681.plus.aac.p.m4a",
-    "duration": 189840,
-    "trackUrl": "https://music.apple.com/us/album/erase-me/1685522857?i=1685522859",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
-    "trackId": "1685522859"
-  },
-  {
-    "id": "applemusic-1685522860",
-    "name": "Unforgettable",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "PYGMALION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/94/98/c4/9498c4ed-7233-14b5-0cff-6a444c13ad26/mzaf_2871481100319391567.plus.aac.p.m4a",
-    "duration": 209880,
-    "trackUrl": "https://music.apple.com/us/album/unforgettable/1685522857?i=1685522860",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
-    "trackId": "1685522860"
-  },
-  {
-    "id": "applemusic-1685522861",
-    "name": "ECHO",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "PYGMALION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/73/f4/59/73f4596d-bec6-c2cb-46e5-3e3b49adf7cc/mzaf_12214404056459671064.plus.aac.p.m4a",
-    "duration": 184227,
-    "trackUrl": "https://music.apple.com/us/album/echo/1685522857?i=1685522861",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
-    "trackId": "1685522861"
-  },
-  {
-    "id": "applemusic-1685522862",
-    "name": "Halley's Comet",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "PYGMALION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8d/7c/69/8d7c69be-e530-53a2-dcdc-16421b9f0069/mzaf_13477034475673676261.plus.aac.p.m4a",
-    "duration": 204627,
-    "trackUrl": "https://music.apple.com/us/album/halleys-comet/1685522857?i=1685522862",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/38/1d/58/381d58fc-594d-244e-0c44-c1749511e848/cover_KM0017284_1.jpg/300x300bb.jpg",
-    "trackId": "1685522862"
-  },
-  {
-    "id": "applemusic-1481818219",
-    "name": "Intro : Fly Me to the Moon",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Fly with Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6a/30/7f/6a307f9e-c321-a657-590a-b8ad760680a2/mzaf_11174308460493105942.plus.aac.p.m4a",
-    "duration": 77773,
-    "trackUrl": "https://music.apple.com/us/album/intro-fly-me-to-the-moon/1481818218?i=1481818219",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a6/33/5f/a6335f31-46a8-2002-cc14-327103428f49/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1481818219"
-  },
-  {
     "id": "applemusic-1481818220",
     "name": "Plastic Flower",
     "artists": [
@@ -375,188 +375,6 @@
     "trackUrl": "https://music.apple.com/us/album/stand-by/1481818218?i=1481818224",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a6/33/5f/a6335f31-46a8-2002-cc14-327103428f49/cover_-.jpg/300x300bb.jpg",
     "trackId": "1481818224"
-  },
-  {
-    "id": "applemusic-1528298841",
-    "name": "Intro : Lived",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Lived - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/45/3e/96453e56-780a-56da-23dd-0a2d30d01fe0/mzaf_3205138728046838264.plus.aac.p.m4a",
-    "duration": 66840,
-    "trackUrl": "https://music.apple.com/us/album/intro-lived/1528298840?i=1528298841",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1528298841"
-  },
-  {
-    "id": "applemusic-1528298842",
-    "name": "To Be or Not to Be",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Lived - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ed/42/31/ed4231c9-7160-c735-3c7d-d90c5dca4e2f/mzaf_8842023999046809980.plus.aac.p.m4a",
-    "duration": 227440,
-    "trackUrl": "https://music.apple.com/us/album/to-be-or-not-to-be/1528298840?i=1528298842",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1528298842"
-  },
-  {
-    "id": "applemusic-1528298843",
-    "name": "Dead or Alive",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Lived - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cb/c7/0a/cbc70a0a-c7e1-a006-1920-ee7e65977a94/mzaf_13870539104955513326.plus.aac.p.m4a",
-    "duration": 223213,
-    "trackUrl": "https://music.apple.com/us/album/dead-or-alive/1528298840?i=1528298843",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1528298843"
-  },
-  {
-    "id": "applemusic-1528298844",
-    "name": "Dizzy",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Lived - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/90/5f/18905f6a-b2dd-c6c4-0400-0a42a0abfb27/mzaf_6193932424899392701.plus.aac.p.m4a",
-    "duration": 211973,
-    "trackUrl": "https://music.apple.com/us/album/dizzy/1528298840?i=1528298844",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1528298844"
-  },
-  {
-    "id": "applemusic-1528298845",
-    "name": "Airplane",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Lived - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/74/19/03741901-8748-30df-9f0b-8b4988d8329d/mzaf_15231764659113973092.plus.aac.p.m4a",
-    "duration": 210440,
-    "trackUrl": "https://music.apple.com/us/album/airplane/1528298840?i=1528298845",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1528298845"
-  },
-  {
-    "id": "applemusic-1528298847",
-    "name": "Come Back Home",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Lived - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/24/9d/3f249d3b-8e77-872b-c50f-715414572529/mzaf_11080691612087827255.plus.aac.p.m4a",
-    "duration": 228720,
-    "trackUrl": "https://music.apple.com/us/album/come-back-home/1528298840?i=1528298847",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1528298847"
-  },
-  {
-    "id": "applemusic-1465880737",
-    "name": "Intro : Time",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Raise Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/df/34/71df34a6-e99d-0b04-2842-fd741d7931a6/mzaf_7657355796543568635.plus.aac.p.m4a",
-    "duration": 108360,
-    "trackUrl": "https://music.apple.com/us/album/intro-time/1465880736?i=1465880737",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1465880737"
-  },
-  {
-    "id": "applemusic-1465880738",
-    "name": "Twilight",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Raise Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bf/81/34/bf81344f-22b3-4d10-c434-7a9a048426f8/mzaf_2708621453948635276.plus.aac.p.m4a",
-    "duration": 217933,
-    "trackUrl": "https://music.apple.com/us/album/twilight/1465880736?i=1465880738",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1465880738"
-  },
-  {
-    "id": "applemusic-1465880739",
-    "name": "English Girl",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Raise Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/59/57/c159572c-9f8f-7d4b-48f7-a9e3faac7151/mzaf_2556358359178232346.plus.aac.p.m4a",
-    "duration": 185933,
-    "trackUrl": "https://music.apple.com/us/album/english-girl/1465880736?i=1465880739",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1465880739"
-  },
-  {
-    "id": "applemusic-1465880740",
-    "name": "BingBing",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Raise Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/b7/df/52b7dfaf-baa9-75d1-e651-39f75448af9a/mzaf_3606147074043397185.plus.aac.p.m4a",
-    "duration": 214400,
-    "trackUrl": "https://music.apple.com/us/album/bingbing/1465880736?i=1465880740",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1465880740"
-  },
-  {
-    "id": "applemusic-1465880741",
-    "name": "White Night",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Raise Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/90/cd/58/90cd5833-5ce5-8168-cd4c-ea7fee1018ff/mzaf_9941598943745333433.plus.aac.p.m4a",
-    "duration": 198707,
-    "trackUrl": "https://music.apple.com/us/album/white-night/1465880736?i=1465880741",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1465880741"
-  },
-  {
-    "id": "applemusic-1465880742",
-    "name": "Now",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Raise Us - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d6/6d/a4/d66da4d2-dfa5-c992-a8c1-8a2f961ade6d/mzaf_9782048378876818951.plus.aac.p.m4a",
-    "duration": 195707,
-    "trackUrl": "https://music.apple.com/us/album/now/1465880736?i=1465880742",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/dd/60/f9/dd60f93b-1a73-53f2-b93f-caf13443b1d8/cover-_ONEUS.jpg/300x300bb.jpg",
-    "trackId": "1465880742"
-  },
-  {
-    "id": "applemusic-1504211734",
-    "name": "A Song Written Easily",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "In Its Time - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/51/4c/82514c8b-07f0-1a16-a46f-e79b5b6d634f/mzaf_10655847059993015284.plus.aac.p.m4a",
-    "duration": 213293,
-    "trackUrl": "https://music.apple.com/us/album/a-song-written-easily/1504211733?i=1504211734",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cc/70/d6/cc70d628-ac05-c2a7-c846-781660f1b388/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1504211734"
-  },
-  {
-    "id": "applemusic-1504211735",
-    "name": "Hide and Seek",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "In Its Time - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bd/b7/fe/bdb7fe93-c484-2bb4-22f6-1ebfcf795ef4/mzaf_21206189554773872.plus.aac.p.m4a",
-    "duration": 187467,
-    "trackUrl": "https://music.apple.com/us/album/hide-and-seek/1504211733?i=1504211735",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cc/70/d6/cc70d628-ac05-c2a7-c846-781660f1b388/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1504211735"
   },
   {
     "id": "applemusic-1593129788",
@@ -624,17 +442,147 @@
     "trackId": "1593129793"
   },
   {
-    "id": "applemusic-1643124165",
-    "name": "Intro : EDEN",
+    "id": "applemusic-1528298842",
+    "name": "To Be or Not to Be",
     "artists": [
       "ONEUS"
     ],
-    "album": "MALUS",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/19/0b/66/190b665d-1dfa-c884-2478-061049f26df8/mzaf_8383010889939461154.plus.aac.p.m4a",
-    "duration": 96880,
-    "trackUrl": "https://music.apple.com/us/album/intro-eden/1643124164?i=1643124165",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/4c/b9/ab/4cb9ab22-c143-6e09-737b-a02112df23b4/cover_KM0016028_1.jpg/300x300bb.jpg",
-    "trackId": "1643124165"
+    "album": "Lived - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ed/42/31/ed4231c9-7160-c735-3c7d-d90c5dca4e2f/mzaf_8842023999046809980.plus.aac.p.m4a",
+    "duration": 227440,
+    "trackUrl": "https://music.apple.com/us/album/to-be-or-not-to-be/1528298840?i=1528298842",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1528298842"
+  },
+  {
+    "id": "applemusic-1528298843",
+    "name": "Dead or Alive",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Lived - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cb/c7/0a/cbc70a0a-c7e1-a006-1920-ee7e65977a94/mzaf_13870539104955513326.plus.aac.p.m4a",
+    "duration": 223213,
+    "trackUrl": "https://music.apple.com/us/album/dead-or-alive/1528298840?i=1528298843",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1528298843"
+  },
+  {
+    "id": "applemusic-1528298844",
+    "name": "Dizzy",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Lived - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/90/5f/18905f6a-b2dd-c6c4-0400-0a42a0abfb27/mzaf_6193932424899392701.plus.aac.p.m4a",
+    "duration": 211973,
+    "trackUrl": "https://music.apple.com/us/album/dizzy/1528298840?i=1528298844",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1528298844"
+  },
+  {
+    "id": "applemusic-1528298845",
+    "name": "Airplane",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Lived - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/74/19/03741901-8748-30df-9f0b-8b4988d8329d/mzaf_15231764659113973092.plus.aac.p.m4a",
+    "duration": 210440,
+    "trackUrl": "https://music.apple.com/us/album/airplane/1528298840?i=1528298845",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1528298845"
+  },
+  {
+    "id": "applemusic-1528298847",
+    "name": "Come Back Home",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Lived - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/24/9d/3f249d3b-8e77-872b-c50f-715414572529/mzaf_11080691612087827255.plus.aac.p.m4a",
+    "duration": 228720,
+    "trackUrl": "https://music.apple.com/us/album/come-back-home/1528298840?i=1528298847",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/42/c7/2f/42c72f8e-552d-2fcd-4a6a-a56a556e844f/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1528298847"
+  },
+  {
+    "id": "applemusic-1623738942",
+    "name": "Bring it on",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "TRICKSTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/e4/45/25/e445256d-db8e-864c-e4f8-5d45e3fee51c/mzaf_134945286506968317.plus.aac.p.m4a",
+    "duration": 204493,
+    "trackUrl": "https://music.apple.com/us/album/bring-it-on/1623738939?i=1623738942",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
+    "trackId": "1623738942"
+  },
+  {
+    "id": "applemusic-1623738945",
+    "name": "Firebomb",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "TRICKSTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2a/15/51/2a15515f-4838-ad03-fc7b-29c3ccf6ba1b/mzaf_11799069727223130168.plus.aac.p.m4a",
+    "duration": 189480,
+    "trackUrl": "https://music.apple.com/us/album/firebomb/1623738939?i=1623738945",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
+    "trackId": "1623738945"
+  },
+  {
+    "id": "applemusic-1623738946",
+    "name": "Fragile",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "TRICKSTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ec/40/6f/ec406f3a-a221-3777-1226-317b93d2665f/mzaf_5509671376318817945.plus.aac.p.m4a",
+    "duration": 196347,
+    "trackUrl": "https://music.apple.com/us/album/fragile/1623738939?i=1623738946",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
+    "trackId": "1623738946"
+  },
+  {
+    "id": "applemusic-1623738947",
+    "name": "Mr. Wolf",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "TRICKSTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/23/0e/b9/230eb9aa-ed97-0b3e-d3e9-55d67e1a1b92/mzaf_6938636002468582734.plus.aac.p.m4a",
+    "duration": 189493,
+    "trackUrl": "https://music.apple.com/us/album/mr-wolf/1623738939?i=1623738947",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
+    "trackId": "1623738947"
+  },
+  {
+    "id": "applemusic-1504211734",
+    "name": "A Song Written Easily",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "In Its Time - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/51/4c/82514c8b-07f0-1a16-a46f-e79b5b6d634f/mzaf_10655847059993015284.plus.aac.p.m4a",
+    "duration": 213293,
+    "trackUrl": "https://music.apple.com/us/album/a-song-written-easily/1504211733?i=1504211734",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cc/70/d6/cc70d628-ac05-c2a7-c846-781660f1b388/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1504211734"
+  },
+  {
+    "id": "applemusic-1504211735",
+    "name": "Hide and Seek",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "In Its Time - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bd/b7/fe/bdb7fe93-c484-2bb4-22f6-1ebfcf795ef4/mzaf_21206189554773872.plus.aac.p.m4a",
+    "duration": 187467,
+    "trackUrl": "https://music.apple.com/us/album/hide-and-seek/1504211733?i=1504211735",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cc/70/d6/cc70d628-ac05-c2a7-c846-781660f1b388/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1504211735"
   },
   {
     "id": "applemusic-1643124466",
@@ -739,71 +687,6 @@
     "trackUrl": "https://music.apple.com/us/album/epilogue/1708143068?i=1708143072",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e8/55/a5/e855a562-225f-f34f-f61b-735e476c6975/cover_KM0018198_1.jpg/300x300bb.jpg",
     "trackId": "1708143072"
-  },
-  {
-    "id": "applemusic-1623738940",
-    "name": "Intro : Who Got the Joker?",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "TRICKSTER",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/3b/bb/4a/3bbb4a17-67c3-0808-6d6a-9ae23099f2f4/mzaf_3587330709293560561.plus.aac.p.m4a",
-    "duration": 91693,
-    "trackUrl": "https://music.apple.com/us/album/intro-who-got-the-joker/1623738939?i=1623738940",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
-    "trackId": "1623738940"
-  },
-  {
-    "id": "applemusic-1623738942",
-    "name": "Bring it on",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "TRICKSTER",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/e4/45/25/e445256d-db8e-864c-e4f8-5d45e3fee51c/mzaf_134945286506968317.plus.aac.p.m4a",
-    "duration": 204493,
-    "trackUrl": "https://music.apple.com/us/album/bring-it-on/1623738939?i=1623738942",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
-    "trackId": "1623738942"
-  },
-  {
-    "id": "applemusic-1623738945",
-    "name": "Firebomb",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "TRICKSTER",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2a/15/51/2a15515f-4838-ad03-fc7b-29c3ccf6ba1b/mzaf_11799069727223130168.plus.aac.p.m4a",
-    "duration": 189480,
-    "trackUrl": "https://music.apple.com/us/album/firebomb/1623738939?i=1623738945",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
-    "trackId": "1623738945"
-  },
-  {
-    "id": "applemusic-1623738946",
-    "name": "Fragile",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "TRICKSTER",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ec/40/6f/ec406f3a-a221-3777-1226-317b93d2665f/mzaf_5509671376318817945.plus.aac.p.m4a",
-    "duration": 196347,
-    "trackUrl": "https://music.apple.com/us/album/fragile/1623738939?i=1623738946",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
-    "trackId": "1623738946"
-  },
-  {
-    "id": "applemusic-1623738947",
-    "name": "Mr. Wolf",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "TRICKSTER",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/23/0e/b9/230eb9aa-ed97-0b3e-d3e9-55d67e1a1b92/mzaf_6938636002468582734.plus.aac.p.m4a",
-    "duration": 189493,
-    "trackUrl": "https://music.apple.com/us/album/mr-wolf/1623738939?i=1623738947",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/31/49/8d/31498dfe-3c5c-d215-879d-387cd57bc0ae/8804775225987.jpg/300x300bb.jpg",
-    "trackId": "1623738947"
   },
   {
     "id": "applemusic-1566551190",
@@ -975,175 +858,6 @@
     "trackId": "1822191917"
   },
   {
-    "id": "applemusic-1810963696",
-    "name": "Time Machine",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Time Machine - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/99/8e/e9998ec3-a81b-0279-ee31-4673febc2e3c/mzaf_11599847608826757053.plus.aac.p.m4a",
-    "duration": 215573,
-    "trackUrl": "https://music.apple.com/us/album/time-machine/1810963695?i=1810963696",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/a4/62/8da462d0-caa6-3721-d284-643463bc3c4e/4550708178434_cover.jpg/300x300bb.jpg",
-    "trackId": "1810963696"
-  },
-  {
-    "id": "applemusic-1612395358",
-    "name": "Be Mine",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Road to Kingdom (Your Song), Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/21/b6/3b/21b63b8d-9806-753a-a408-1b3e0e68e985/mzaf_15722409100787812354.plus.aac.p.m4a",
-    "duration": 215000,
-    "trackUrl": "https://music.apple.com/us/album/be-mine/1612395353?i=1612395358",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/71/94/877194c4-2bf2-5971-d71f-f04b2856d092/8809704416061_Cover.jpg/300x300bb.jpg",
-    "trackId": "1612395358"
-  },
-  {
-    "id": "applemusic-1612395359",
-    "name": "Hard Carry",
-    "artists": [
-      "TOO"
-    ],
-    "album": "Road to Kingdom (Your Song), Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/2d/d5/8b2dd547-80f7-8e3d-3157-0445444e380c/mzaf_14329457785011439718.plus.aac.p.m4a",
-    "duration": 227813,
-    "trackUrl": "https://music.apple.com/us/album/hard-carry/1612395353?i=1612395359",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/71/94/877194c4-2bf2-5971-d71f-f04b2856d092/8809704416061_Cover.jpg/300x300bb.jpg",
-    "trackId": "1612395359"
-  },
-  {
-    "id": "applemusic-1612395362",
-    "name": "It's Raining",
-    "artists": [
-      "ONF"
-    ],
-    "album": "Road to Kingdom (Your Song), Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/90/39/f0/9039f092-2639-bb2d-dc49-708595e857a2/mzaf_16399037662411616186.plus.aac.p.m4a",
-    "duration": 213427,
-    "trackUrl": "https://music.apple.com/us/album/its-raining/1612395353?i=1612395362",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/71/94/877194c4-2bf2-5971-d71f-f04b2856d092/8809704416061_Cover.jpg/300x300bb.jpg",
-    "trackId": "1612395362"
-  },
-  {
-    "id": "applemusic-1868336541",
-    "name": "Grenade",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "原 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/41/7d/7f417dfb-c968-eb29-5437-f7f3f7123730/mzaf_2983581737158932745.plus.aac.p.m4a",
-    "duration": 199000,
-    "trackUrl": "https://music.apple.com/us/album/grenade/1868336540?i=1868336541",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/fb/56/64fb5675-f30f-94fb-cac7-91c588782a0b/cover_KM0024086_1.jpg/300x300bb.jpg",
-    "trackId": "1868336541"
-  },
-  {
-    "id": "applemusic-1868336963",
-    "name": "STOP & MOVE",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "原 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/51/c1/6451c15a-1a2a-9cc7-9f4f-e288cc8a04a7/mzaf_12842366091526920671.plus.aac.p.m4a",
-    "duration": 171000,
-    "trackUrl": "https://music.apple.com/us/album/stop-move/1868336540?i=1868336963",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/fb/56/64fb5675-f30f-94fb-cac7-91c588782a0b/cover_KM0024086_1.jpg/300x300bb.jpg",
-    "trackId": "1868336963"
-  },
-  {
-    "id": "applemusic-1868336964",
-    "name": "When you're close to me",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "原 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/41/e7/4241e7a7-2a20-1f4d-c0f9-0240cb39ad54/mzaf_1955592045459282004.plus.aac.p.m4a",
-    "duration": 161000,
-    "trackUrl": "https://music.apple.com/us/album/when-youre-close-to-me/1868336540?i=1868336964",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/fb/56/64fb5675-f30f-94fb-cac7-91c588782a0b/cover_KM0024086_1.jpg/300x300bb.jpg",
-    "trackId": "1868336964"
-  },
-  {
-    "id": "applemusic-1693325098",
-    "name": "Dopamine",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Dopamine",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ef/a6/74/efa6748b-06f5-218a-3dab-dc44a5007aff/mzaf_16087217069869608146.plus.aac.p.m4a",
-    "duration": 187520,
-    "trackUrl": "https://music.apple.com/us/album/dopamine/1693325094?i=1693325098",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
-    "trackId": "1693325098"
-  },
-  {
-    "id": "applemusic-1693325100",
-    "name": "Katoki",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Dopamine",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/9a/00/fc/9a00fc80-5840-cb9a-4464-02f76c44b713/mzaf_15156827154764221058.plus.aac.p.m4a",
-    "duration": 210920,
-    "trackUrl": "https://music.apple.com/us/album/katoki/1693325094?i=1693325100",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
-    "trackId": "1693325100"
-  },
-  {
-    "id": "applemusic-1693325103",
-    "name": "Don't Know Why",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Dopamine",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/33/4d/63/334d6336-b618-63c9-6ad6-399151acade5/mzaf_8995079439571630738.plus.aac.p.m4a",
-    "duration": 237013,
-    "trackUrl": "https://music.apple.com/us/album/dont-know-why/1693325094?i=1693325103",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
-    "trackId": "1693325103"
-  },
-  {
-    "id": "applemusic-1693325244",
-    "name": "Leader",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Dopamine",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/07/18/8f/07188fdd-5362-ba3a-5454-131dd5818ffb/mzaf_586105444744234415.plus.aac.p.m4a",
-    "duration": 192640,
-    "trackUrl": "https://music.apple.com/us/album/leader/1693325094?i=1693325244",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
-    "trackId": "1693325244"
-  },
-  {
-    "id": "applemusic-1475204614",
-    "name": "Koisii",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Twilight - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/a7/b4/87a7b40a-ddfc-03aa-2a3c-ed8a3497ee1f/mzaf_3319211266014344487.plus.aac.p.m4a",
-    "duration": 221373,
-    "trackUrl": "https://music.apple.com/us/album/koisii/1475204406?i=1475204614",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/5e/dc/bd/5edcbd8f-6c9e-af07-c75a-2c93ab69cfca/4589994603900_cover.jpg/300x300bb.jpg",
-    "trackId": "1475204614"
-  },
-  {
-    "id": "applemusic-1475204616",
-    "name": "Kiseki",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "Twilight - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/d5/d8/50d5d82f-ce10-db1f-54d8-fc160c5a6e52/mzaf_6450164728545615553.plus.aac.p.m4a",
-    "duration": 229960,
-    "trackUrl": "https://music.apple.com/us/album/kiseki/1475204406?i=1475204616",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/5e/dc/bd/5edcbd8f-6c9e-af07-c75a-2c93ab69cfca/4589994603900_cover.jpg/300x300bb.jpg",
-    "trackId": "1475204616"
-  },
-  {
     "id": "applemusic-1789017573",
     "name": "IKUK",
     "artists": [
@@ -1209,17 +923,160 @@
     "trackId": "1789017578"
   },
   {
-    "id": "applemusic-1580873892",
-    "name": "Only One",
+    "id": "applemusic-1612395358",
+    "name": "Be Mine",
     "artists": [
       "ONEUS"
     ],
-    "album": "BLACK MIRROR - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/11/8d/15118db2-ec81-af43-07bb-8233c2d5fc79/mzaf_882672378743518219.plus.aac.p.m4a",
-    "duration": 199960,
-    "trackUrl": "https://music.apple.com/us/album/only-one/1580873886?i=1580873892",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/e2/aa/7ce2aaef-89bd-fd59-b504-0b61faadae80/859757229260_cover.jpg/300x300bb.jpg",
-    "trackId": "1580873892"
+    "album": "Road to Kingdom (Your Song), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/21/b6/3b/21b63b8d-9806-753a-a408-1b3e0e68e985/mzaf_15722409100787812354.plus.aac.p.m4a",
+    "duration": 215000,
+    "trackUrl": "https://music.apple.com/us/album/be-mine/1612395353?i=1612395358",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/71/94/877194c4-2bf2-5971-d71f-f04b2856d092/8809704416061_Cover.jpg/300x300bb.jpg",
+    "trackId": "1612395358"
+  },
+  {
+    "id": "applemusic-1612395359",
+    "name": "Hard Carry",
+    "artists": [
+      "TOO"
+    ],
+    "album": "Road to Kingdom (Your Song), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/2d/d5/8b2dd547-80f7-8e3d-3157-0445444e380c/mzaf_14329457785011439718.plus.aac.p.m4a",
+    "duration": 227813,
+    "trackUrl": "https://music.apple.com/us/album/hard-carry/1612395353?i=1612395359",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/71/94/877194c4-2bf2-5971-d71f-f04b2856d092/8809704416061_Cover.jpg/300x300bb.jpg",
+    "trackId": "1612395359"
+  },
+  {
+    "id": "applemusic-1612395362",
+    "name": "It's Raining",
+    "artists": [
+      "ONF"
+    ],
+    "album": "Road to Kingdom (Your Song), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/90/39/f0/9039f092-2639-bb2d-dc49-708595e857a2/mzaf_16399037662411616186.plus.aac.p.m4a",
+    "duration": 213427,
+    "trackUrl": "https://music.apple.com/us/album/its-raining/1612395353?i=1612395362",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/87/71/94/877194c4-2bf2-5971-d71f-f04b2856d092/8809704416061_Cover.jpg/300x300bb.jpg",
+    "trackId": "1612395362"
+  },
+  {
+    "id": "applemusic-1693325098",
+    "name": "Dopamine",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Dopamine",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ef/a6/74/efa6748b-06f5-218a-3dab-dc44a5007aff/mzaf_16087217069869608146.plus.aac.p.m4a",
+    "duration": 187520,
+    "trackUrl": "https://music.apple.com/us/album/dopamine/1693325094?i=1693325098",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
+    "trackId": "1693325098"
+  },
+  {
+    "id": "applemusic-1693325100",
+    "name": "Katoki",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Dopamine",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/9a/00/fc/9a00fc80-5840-cb9a-4464-02f76c44b713/mzaf_15156827154764221058.plus.aac.p.m4a",
+    "duration": 210920,
+    "trackUrl": "https://music.apple.com/us/album/katoki/1693325094?i=1693325100",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
+    "trackId": "1693325100"
+  },
+  {
+    "id": "applemusic-1693325103",
+    "name": "Don't Know Why",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Dopamine",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/33/4d/63/334d6336-b618-63c9-6ad6-399151acade5/mzaf_8995079439571630738.plus.aac.p.m4a",
+    "duration": 237013,
+    "trackUrl": "https://music.apple.com/us/album/dont-know-why/1693325094?i=1693325103",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
+    "trackId": "1693325103"
+  },
+  {
+    "id": "applemusic-1693325244",
+    "name": "Leader",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Dopamine",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/07/18/8f/07188fdd-5362-ba3a-5454-131dd5818ffb/mzaf_586105444744234415.plus.aac.p.m4a",
+    "duration": 192640,
+    "trackUrl": "https://music.apple.com/us/album/leader/1693325094?i=1693325244",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/18/41/94/184194ec-b1de-47ec-ffa4-80a9b40fe017/859759858727_cover.jpg/300x300bb.jpg",
+    "trackId": "1693325244"
+  },
+  {
+    "id": "applemusic-1868336541",
+    "name": "Grenade",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "原 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/41/7d/7f417dfb-c968-eb29-5437-f7f3f7123730/mzaf_2983581737158932745.plus.aac.p.m4a",
+    "duration": 199000,
+    "trackUrl": "https://music.apple.com/us/album/grenade/1868336540?i=1868336541",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/fb/56/64fb5675-f30f-94fb-cac7-91c588782a0b/cover_KM0024086_1.jpg/300x300bb.jpg",
+    "trackId": "1868336541"
+  },
+  {
+    "id": "applemusic-1868336963",
+    "name": "STOP & MOVE",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "原 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/51/c1/6451c15a-1a2a-9cc7-9f4f-e288cc8a04a7/mzaf_12842366091526920671.plus.aac.p.m4a",
+    "duration": 171000,
+    "trackUrl": "https://music.apple.com/us/album/stop-move/1868336540?i=1868336963",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/fb/56/64fb5675-f30f-94fb-cac7-91c588782a0b/cover_KM0024086_1.jpg/300x300bb.jpg",
+    "trackId": "1868336963"
+  },
+  {
+    "id": "applemusic-1868336964",
+    "name": "When you're close to me",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "原 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/41/e7/4241e7a7-2a20-1f4d-c0f9-0240cb39ad54/mzaf_1955592045459282004.plus.aac.p.m4a",
+    "duration": 161000,
+    "trackUrl": "https://music.apple.com/us/album/when-youre-close-to-me/1868336540?i=1868336964",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/64/fb/56/64fb5675-f30f-94fb-cac7-91c588782a0b/cover_KM0024086_1.jpg/300x300bb.jpg",
+    "trackId": "1868336964"
+  },
+  {
+    "id": "applemusic-1475204614",
+    "name": "Koisii",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Twilight - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/a7/b4/87a7b40a-ddfc-03aa-2a3c-ed8a3497ee1f/mzaf_3319211266014344487.plus.aac.p.m4a",
+    "duration": 221373,
+    "trackUrl": "https://music.apple.com/us/album/koisii/1475204406?i=1475204614",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/5e/dc/bd/5edcbd8f-6c9e-af07-c75a-2c93ab69cfca/4589994603900_cover.jpg/300x300bb.jpg",
+    "trackId": "1475204614"
+  },
+  {
+    "id": "applemusic-1475204616",
+    "name": "Kiseki",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Twilight - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/d5/d8/50d5d82f-ce10-db1f-54d8-fc160c5a6e52/mzaf_6450164728545615553.plus.aac.p.m4a",
+    "duration": 229960,
+    "trackUrl": "https://music.apple.com/us/album/kiseki/1475204406?i=1475204616",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/5e/dc/bd/5edcbd8f-6c9e-af07-c75a-2c93ab69cfca/4589994603900_cover.jpg/300x300bb.jpg",
+    "trackId": "1475204616"
   },
   {
     "id": "applemusic-1846243047",
@@ -1233,6 +1090,19 @@
     "trackUrl": "https://music.apple.com/us/album/fly-to-you/1846243046?i=1846243047",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/3c/c4/093cc423-5fb6-d038-ccff-8431d2f9e0bb/cover_KM0023546_1.jpg/300x300bb.jpg",
     "trackId": "1846243047"
+  },
+  {
+    "id": "applemusic-1810963696",
+    "name": "Time Machine",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "Time Machine - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/99/8e/e9998ec3-a81b-0279-ee31-4673febc2e3c/mzaf_11599847608826757053.plus.aac.p.m4a",
+    "duration": 215573,
+    "trackUrl": "https://music.apple.com/us/album/time-machine/1810963695?i=1810963696",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/a4/62/8da462d0-caa6-3721-d284-643463bc3c4e/4550708178434_cover.jpg/300x300bb.jpg",
+    "trackId": "1810963696"
   },
   {
     "id": "applemusic-1777029513",
@@ -1272,6 +1142,19 @@
     "trackUrl": "https://music.apple.com/us/album/stay/1600385854?i=1600385855",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a0/8f/45/a08f45a0-589d-4f4c-4b59-bff073c2fcd5/cover_KM0014457_1.jpg/300x300bb.jpg",
     "trackId": "1600385855"
+  },
+  {
+    "id": "applemusic-1580873892",
+    "name": "Only One",
+    "artists": [
+      "ONEUS"
+    ],
+    "album": "BLACK MIRROR - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/11/8d/15118db2-ec81-af43-07bb-8233c2d5fc79/mzaf_882672378743518219.plus.aac.p.m4a",
+    "duration": 199960,
+    "trackUrl": "https://music.apple.com/us/album/only-one/1580873886?i=1580873892",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/e2/aa/7ce2aaef-89bd-fd59-b504-0b61faadae80/859757229260_cover.jpg/300x300bb.jpg",
+    "trackId": "1580873892"
   },
   {
     "id": "applemusic-1829340551",
@@ -1324,18 +1207,5 @@
     "trackUrl": "https://music.apple.com/jp/album/engilsh-girl/1710503373?i=1710503384",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/39/31/13393183-1c54-90b3-2fce-830e55d23a4b/3617221953236_cover.jpg/300x300bb.jpg",
     "trackId": "1710503384"
-  },
-  {
-    "id": "applemusic-1710510619",
-    "name": "Intro : Window (feat. Choi Ye Lim)",
-    "artists": [
-      "ONEUS"
-    ],
-    "album": "BLOOD MOON",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e1/22/3f/e1223fc7-c1f8-ebf7-f171-0a5ad3a88422/mzaf_10816732824975432340.plus.aac.p.m4a",
-    "duration": 120120,
-    "trackUrl": "https://music.apple.com/jp/album/intro-window-feat-choi-ye-lim/1710510434?i=1710510619",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/23/c8/25/23c825e9-67e9-96ec-936b-6d3ba78ba5e0/3617221953502_cover.jpg/300x300bb.jpg",
-    "trackId": "1710510619"
   }
 ]

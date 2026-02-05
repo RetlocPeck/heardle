@@ -130,19 +130,6 @@
     "trackId": "1570372345"
   },
   {
-    "id": "applemusic-1580539199",
-    "name": "Very Good",
-    "artists": [
-      "Block B"
-    ],
-    "album": "Very Good - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/20/45/f6/2045f685-7559-732a-8e24-ca8ce8264263/mzaf_15219637379174458097.plus.aac.p.m4a",
-    "duration": 200000,
-    "trackUrl": "https://music.apple.com/us/album/very-good/1580539198?i=1580539199",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/83/cc/f683cc09-58c3-0749-ebc5-3b83cec2155f/8809388742128_Cover.jpg/300x300bb.jpg",
-    "trackId": "1580539199"
-  },
-  {
     "id": "applemusic-1570389092",
     "name": "My Zone",
     "artists": [
@@ -208,6 +195,19 @@
     "trackId": "1570389307"
   },
   {
+    "id": "applemusic-713926336",
+    "name": "Be the Light",
+    "artists": [
+      "Block B"
+    ],
+    "album": "Be the Light - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/52/03/fa520372-e9a6-273e-8665-42498f3d76f4/mzaf_7745324356229153557.plus.aac.p.m4a",
+    "duration": 206733,
+    "trackUrl": "https://music.apple.com/us/album/be-the-light/713926294?i=713926336",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/41/12/51/4112517f-67d7-37db-d6d0-54d8b97e6b44/cover.jpg/300x300bb.jpg",
+    "trackId": "713926336"
+  },
+  {
     "id": "applemusic-571166037",
     "name": "11:30",
     "artists": [
@@ -219,19 +219,6 @@
     "trackUrl": "https://music.apple.com/us/album/11-30/571165868?i=571166037",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/70/a1/ca/70a1ca32-8e7d-861b-1a5d-c29e87498c28/KM0001790-_1.jpg/300x300bb.jpg",
     "trackId": "571166037"
-  },
-  {
-    "id": "applemusic-571166038",
-    "name": "Interlude",
-    "artists": [
-      "Block B"
-    ],
-    "album": "Blockbuster",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a7/ba/0f/a7ba0ff8-c836-eb3b-4603-c257076912a7/mzaf_13477083589750757232.plus.aac.p.m4a",
-    "duration": 26774,
-    "trackUrl": "https://music.apple.com/us/album/interlude/571165868?i=571166038",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/70/a1/ca/70a1ca32-8e7d-861b-1a5d-c29e87498c28/KM0001790-_1.jpg/300x300bb.jpg",
-    "trackId": "571166038"
   },
   {
     "id": "applemusic-571166039",
@@ -338,17 +325,17 @@
     "trackId": "571166049"
   },
   {
-    "id": "applemusic-713926336",
-    "name": "Be the Light",
+    "id": "applemusic-1580539199",
+    "name": "Very Good",
     "artists": [
       "Block B"
     ],
-    "album": "Be the Light - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/52/03/fa520372-e9a6-273e-8665-42498f3d76f4/mzaf_7745324356229153557.plus.aac.p.m4a",
-    "duration": 206733,
-    "trackUrl": "https://music.apple.com/us/album/be-the-light/713926294?i=713926336",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/41/12/51/4112517f-67d7-37db-d6d0-54d8b97e6b44/cover.jpg/300x300bb.jpg",
-    "trackId": "713926336"
+    "album": "Very Good - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/20/45/f6/2045f685-7559-732a-8e24-ca8ce8264263/mzaf_15219637379174458097.plus.aac.p.m4a",
+    "duration": 200000,
+    "trackUrl": "https://music.apple.com/us/album/very-good/1580539198?i=1580539199",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f6/83/cc/f683cc09-58c3-0749-ebc5-3b83cec2155f/8809388742128_Cover.jpg/300x300bb.jpg",
+    "trackId": "1580539199"
   },
   {
     "id": "applemusic-1580539202",
@@ -507,19 +494,6 @@
     "trackId": "499748328"
   },
   {
-    "id": "applemusic-1163991464",
-    "name": "Itakunai",
-    "artists": [
-      "U-KWON"
-    ],
-    "album": "My Zone",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/23/f9/cb/23f9cb2e-9591-1cab-43ee-ef1515425d31/mzaf_7679670873642679490.plus.aac.p.m4a",
-    "duration": 242627,
-    "trackUrl": "https://music.apple.com/us/album/itakunai/1163991427?i=1163991464",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/cb/58/46/cb58462e-17ee-839a-3184-fb80aa95b43e/KICS-93430-1400.jpg/300x300bb.jpg",
-    "trackId": "1163991464"
-  },
-  {
     "id": "applemusic-524299867",
     "name": "Moving On",
     "artists": [
@@ -533,43 +507,17 @@
     "trackId": "524299867"
   },
   {
-    "id": "applemusic-1591879578",
-    "name": "Don't Leave (Japanese Version)",
+    "id": "applemusic-1163991464",
+    "name": "Itakunai",
     "artists": [
-      "블락비"
+      "U-KWON"
     ],
-    "album": "Block B THE BEST",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6a/da/5f/6ada5fe1-72b9-f495-4b18-e823fd45f7a8/mzaf_16134110344767256626.plus.aac.p.m4a",
-    "duration": 239867,
-    "trackUrl": "https://music.apple.com/kr/album/dont-leave-japanese-version/1591879264?i=1591879578",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/79/67/c67967eb-841a-a737-9746-1fefcd7a2332/4988003523855.jpg/300x300bb.jpg",
-    "trackId": "1591879578"
-  },
-  {
-    "id": "applemusic-1394354583",
-    "name": "Hinkou ZERO (Japanese Version) [Japanese Version]",
-    "artists": [
-      "BASTARZ"
-    ],
-    "album": "Block B THE BEST",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/98/99/8d/98998df8-ed9c-f012-6ef5-f99a19b6c81b/mzaf_14571709481465504441.plus.aac.p.m4a",
-    "duration": 194813,
-    "trackUrl": "https://music.apple.com/us/album/hinkou-zero-japanese-version-japanese-version/1394354569?i=1394354583",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/1d/40/871d4021-8e15-6158-7837-45010b69b2db/KICS-93721-1400.jpg/300x300bb.jpg",
-    "trackId": "1394354583"
-  },
-  {
-    "id": "applemusic-1591879580",
-    "name": "Charlie Chaplin (Japanese Version)",
-    "artists": [
-      "블락비 바스타즈"
-    ],
-    "album": "Block B THE BEST",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ad/58/9a/ad589af9-393e-2902-edd4-122a054c186e/mzaf_16820321412746411393.plus.aac.p.m4a",
-    "duration": 218440,
-    "trackUrl": "https://music.apple.com/kr/album/charlie-chaplin-japanese-version/1591879264?i=1591879580",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/79/67/c67967eb-841a-a737-9746-1fefcd7a2332/4988003523855.jpg/300x300bb.jpg",
-    "trackId": "1591879580"
+    "album": "My Zone",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/23/f9/cb/23f9cb2e-9591-1cab-43ee-ef1515425d31/mzaf_7679670873642679490.plus.aac.p.m4a",
+    "duration": 242627,
+    "trackUrl": "https://music.apple.com/us/album/itakunai/1163991427?i=1163991464",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/cb/58/46/cb58462e-17ee-839a-3184-fb80aa95b43e/KICS-93430-1400.jpg/300x300bb.jpg",
+    "trackId": "1163991464"
   },
   {
     "id": "applemusic-1394354585",

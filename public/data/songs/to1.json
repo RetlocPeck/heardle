@@ -1,18 +1,5 @@
 [
   {
-    "id": "applemusic-1605916654",
-    "name": "Reborn (Intro)",
-    "artists": [
-      "TO1"
-    ],
-    "album": "RE:BORN",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4e/11/5b/4e115b34-3a98-0c63-b009-ee3dcc94e3b2/mzaf_7129261157884369199.plus.aac.p.m4a",
-    "duration": 76960,
-    "trackUrl": "https://music.apple.com/us/album/reborn-intro/1605916653?i=1605916654",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4f/12/0f/4f120fa3-be2d-5579-3a2f-6be3e96b805b/888272080667_Cover.jpg/300x300bb.jpg",
-    "trackId": "1605916654"
-  },
-  {
     "id": "applemusic-1605916837",
     "name": "Son of Beast",
     "artists": [
@@ -76,19 +63,6 @@
     "trackUrl": "https://music.apple.com/us/album/with-you/1605916653?i=1605916859",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4f/12/0f/4f120fa3-be2d-5579-3a2f-6be3e96b805b/888272080667_Cover.jpg/300x300bb.jpg",
     "trackId": "1605916859"
-  },
-  {
-    "id": "applemusic-1592272132",
-    "name": "Realize (Intro)",
-    "artists": [
-      "TO1"
-    ],
-    "album": "RE:ALIZE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0e/50/ee/0e50ee15-18e5-1702-8389-37cce38dab1a/mzaf_17686731484347911562.plus.aac.p.m4a",
-    "duration": 126387,
-    "trackUrl": "https://music.apple.com/us/album/realize-intro/1592272130?i=1592272132",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/ca/04/3aca04cf-966e-aa58-ef7c-6b69c7efb7ea/8809704423427_Cover.jpg/300x300bb.jpg",
-    "trackId": "1592272132"
   },
   {
     "id": "applemusic-1592272139",
@@ -208,6 +182,58 @@
     "trackId": "1636400101"
   },
   {
+    "id": "applemusic-1640670003",
+    "name": "Gulliver",
+    "artists": [
+      "KANG SEUNG YOON"
+    ],
+    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/cd/c0/43/cdc043fe-4fec-06d3-5310-5854914d5ad1/mzaf_4157802584397699465.plus.aac.p.m4a",
+    "duration": 183636,
+    "trackUrl": "https://music.apple.com/us/album/gulliver/1640669997?i=1640670003",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
+    "trackId": "1640670003"
+  },
+  {
+    "id": "applemusic-1640670010",
+    "name": "Remember Us",
+    "artists": [
+      "KANGDANIEL"
+    ],
+    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/1e/99/a0/1e99a0a6-3207-5917-b147-a14344e44cc2/mzaf_2246799736850456082.plus.aac.p.m4a",
+    "duration": 237947,
+    "trackUrl": "https://music.apple.com/us/album/remember-us/1640669997?i=1640670010",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
+    "trackId": "1640670010"
+  },
+  {
+    "id": "applemusic-1640670014",
+    "name": "Young Forever",
+    "artists": [
+      "TO1"
+    ],
+    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/b2/10/f9/b210f9bf-a2ec-bb40-2496-4f5e8b27641f/mzaf_15659545864495548511.plus.aac.p.m4a",
+    "duration": 222307,
+    "trackUrl": "https://music.apple.com/us/album/young-forever/1640669997?i=1640670014",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
+    "trackId": "1640670014"
+  },
+  {
+    "id": "applemusic-1640670380",
+    "name": "Hypothetical (feat. Doyle Untold)",
+    "artists": [
+      "Linnéa"
+    ],
+    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/59/a9/75/59a97538-c5a0-be39-e3eb-bfc4354a7aac/mzaf_7092222385779374943.plus.aac.p.m4a",
+    "duration": 163720,
+    "trackUrl": "https://music.apple.com/us/album/hypothetical-feat-doyle-untold/1640669997?i=1640670380",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
+    "trackId": "1640670380"
+  },
+  {
     "id": "applemusic-1655831206",
     "name": "Troublemaker",
     "artists": [
@@ -273,58 +299,6 @@
     "trackId": "1655831986"
   },
   {
-    "id": "applemusic-1640670003",
-    "name": "Gulliver",
-    "artists": [
-      "KANG SEUNG YOON"
-    ],
-    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/cd/c0/43/cdc043fe-4fec-06d3-5310-5854914d5ad1/mzaf_4157802584397699465.plus.aac.p.m4a",
-    "duration": 183636,
-    "trackUrl": "https://music.apple.com/us/album/gulliver/1640669997?i=1640670003",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
-    "trackId": "1640670003"
-  },
-  {
-    "id": "applemusic-1640670010",
-    "name": "Remember Us",
-    "artists": [
-      "KANGDANIEL"
-    ],
-    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/1e/99/a0/1e99a0a6-3207-5917-b147-a14344e44cc2/mzaf_2246799736850456082.plus.aac.p.m4a",
-    "duration": 237947,
-    "trackUrl": "https://music.apple.com/us/album/remember-us/1640669997?i=1640670010",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
-    "trackId": "1640670010"
-  },
-  {
-    "id": "applemusic-1640670014",
-    "name": "Young Forever",
-    "artists": [
-      "TO1"
-    ],
-    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/b2/10/f9/b210f9bf-a2ec-bb40-2496-4f5e8b27641f/mzaf_15659545864495548511.plus.aac.p.m4a",
-    "duration": 222307,
-    "trackUrl": "https://music.apple.com/us/album/young-forever/1640669997?i=1640670014",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
-    "trackId": "1640670014"
-  },
-  {
-    "id": "applemusic-1640670380",
-    "name": "Hypothetical (feat. Doyle Untold)",
-    "artists": [
-      "Linnéa"
-    ],
-    "album": "Street Man Fighter (SMF) Original, Vol. 2 (Original Television Soundtrack) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/59/a9/75/59a97538-c5a0-be39-e3eb-bfc4354a7aac/mzaf_7092222385779374943.plus.aac.p.m4a",
-    "duration": 163720,
-    "trackUrl": "https://music.apple.com/us/album/hypothetical-feat-doyle-untold/1640669997?i=1640670380",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fc/76/25/fc762500-d071-9dac-24cf-88e6afafd2f5/888272104721_Cover.jpg/300x300bb.jpg",
-    "trackId": "1640670380"
-  },
-  {
     "id": "applemusic-1675830714",
     "name": "Hug",
     "artists": [
@@ -336,32 +310,6 @@
     "trackUrl": "https://music.apple.com/us/album/hug/1675830711?i=1675830714",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/c1/4f/62c14fb8-5e88-9722-4e40-eb67b9ba0b26/888272113983_Cover.jpg/300x300bb.jpg",
     "trackId": "1675830714"
-  },
-  {
-    "id": "applemusic-1592271783",
-    "name": "Infinite City (From \"1st Track of CJ LiveCity\") [Groundbreak Version]",
-    "artists": [
-      "TO1"
-    ],
-    "album": "Infinite City (From \"1st Track of CJ LiveCity\") [Groundbreak Version] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6b/d5/74/6bd574fb-f9ac-fc9a-e6e0-423ce99daffa/mzaf_15716215581707816707.plus.aac.p.m4a",
-    "duration": 251080,
-    "trackUrl": "https://music.apple.com/us/album/infinite-city-from-1st-track-of-cj-livecity/1592271778?i=1592271783",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/cc/7a/28cc7a53-ea4c-9c14-d586-84abbd0ed5f8/888272088540_Cover.jpg/300x300bb.jpg",
-    "trackId": "1592271783"
-  },
-  {
-    "id": "applemusic-1648274712",
-    "name": "POPPIA (JAPAN version)",
-    "artists": [
-      "TO1 & INI"
-    ],
-    "album": "KCON 2022 JAPAN SIGNATURE SONG (JAPAN version) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/b2/0f/d0/b20fd0f9-c2d3-f299-9ca9-44975922ebe8/mzaf_3499277818208244995.plus.aac.p.m4a",
-    "duration": 193840,
-    "trackUrl": "https://music.apple.com/us/album/poppia-japan-version/1648274711?i=1648274712",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/89/43/ec/8943ec65-6fff-c071-506e-9e8980db55cb/888272106923_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648274712"
   },
   {
     "id": "applemusic-1658287051",

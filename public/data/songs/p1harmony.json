@@ -1,18 +1,5 @@
 [
   {
-    "id": "applemusic-1537068468",
-    "name": "Intro; Breakthrough",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Stand Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ca/b2/7f/cab27f23-fb7f-0966-b8a0-493d3b0a748b/mzaf_2775198567678405643.plus.aac.p.m4a",
-    "duration": 83307,
-    "trackUrl": "https://music.apple.com/us/album/intro-breakthrough/1537068467?i=1537068468",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ad/c5/46/adc54684-5c71-d1a9-ef85-de38bb200562/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1537068468"
-  },
-  {
     "id": "applemusic-1537068469",
     "name": "Siren",
     "artists": [
@@ -50,97 +37,6 @@
     "trackUrl": "https://music.apple.com/us/album/butterfly/1537068467?i=1537068472",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ad/c5/46/adc54684-5c71-d1a9-ef85-de38bb200562/cover_-.jpg/300x300bb.jpg",
     "trackId": "1537068472"
-  },
-  {
-    "id": "applemusic-1537068473",
-    "name": "Skit; Disharmony #1",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Stand Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/58/f8/f6/58f8f652-3151-9cde-84c7-4e6cd5f24d12/mzaf_1307814277398589562.plus.aac.p.m4a",
-    "duration": 93173,
-    "trackUrl": "https://music.apple.com/us/album/skit-disharmony-1/1537068467?i=1537068473",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ad/c5/46/adc54684-5c71-d1a9-ef85-de38bb200562/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1537068473"
-  },
-  {
-    "id": "applemusic-1562957457",
-    "name": "Scared",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Break Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/05/52/49/0552497c-a010-5de4-9492-7e9f24bc7fb5/mzaf_10493646211676617778.plus.aac.p.m4a",
-    "duration": 188307,
-    "trackUrl": "https://music.apple.com/us/album/scared/1562957456?i=1562957457",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
-    "trackId": "1562957457"
-  },
-  {
-    "id": "applemusic-1562957459",
-    "name": "Reset",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Break Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/9b/e5/58/9be5588e-1949-f624-76d4-4a79278fe81c/mzaf_223558689706077149.plus.aac.p.m4a",
-    "duration": 195920,
-    "trackUrl": "https://music.apple.com/us/album/reset/1562957456?i=1562957459",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
-    "trackId": "1562957459"
-  },
-  {
-    "id": "applemusic-1562957460",
-    "name": "Pyramid",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Break Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/f2/63/f1/f263f174-a670-d2be-6602-7200f110ea54/mzaf_12152418171977096998.plus.aac.p.m4a",
-    "duration": 220307,
-    "trackUrl": "https://music.apple.com/us/album/pyramid/1562957456?i=1562957460",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
-    "trackId": "1562957460"
-  },
-  {
-    "id": "applemusic-1562957461",
-    "name": "Ayaya",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Break Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/bd/c7/cb/bdc7cb6a-333f-e7ae-d22b-c877c492d498/mzaf_14476154955318228345.plus.aac.p.m4a",
-    "duration": 150533,
-    "trackUrl": "https://music.apple.com/us/album/ayaya/1562957456?i=1562957461",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
-    "trackId": "1562957461"
-  },
-  {
-    "id": "applemusic-1562957462",
-    "name": "End It",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Break Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/ee/5f/95ee5f40-d6c4-b87b-16de-a439570487f7/mzaf_7186846796406117816.plus.aac.p.m4a",
-    "duration": 212973,
-    "trackUrl": "https://music.apple.com/us/album/end-it/1562957456?i=1562957462",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
-    "trackId": "1562957462"
-  },
-  {
-    "id": "applemusic-1562957463",
-    "name": "If You Call Me",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Disharmony : Break Out - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/34/4a/a9/344aa982-2918-99ff-8f36-e1a757245509/mzaf_2587125166534113329.plus.aac.p.m4a",
-    "duration": 208733,
-    "trackUrl": "https://music.apple.com/us/album/if-you-call-me/1562957456?i=1562957463",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
-    "trackId": "1562957463"
   },
   {
     "id": "applemusic-1837123545",
@@ -284,6 +180,84 @@
     "trackUrl": "https://music.apple.com/us/album/gotta-get-back-feat-pink-sweat%24/1626025208?i=1626025209",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/96/28/43/962843b8-bbf8-9a7a-371c-649eb1ef6cd9/5054197190896.jpg/300x300bb.jpg",
     "trackId": "1626025209"
+  },
+  {
+    "id": "applemusic-1562957457",
+    "name": "Scared",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "Disharmony : Break Out - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/05/52/49/0552497c-a010-5de4-9492-7e9f24bc7fb5/mzaf_10493646211676617778.plus.aac.p.m4a",
+    "duration": 188307,
+    "trackUrl": "https://music.apple.com/us/album/scared/1562957456?i=1562957457",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
+    "trackId": "1562957457"
+  },
+  {
+    "id": "applemusic-1562957459",
+    "name": "Reset",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "Disharmony : Break Out - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/9b/e5/58/9be5588e-1949-f624-76d4-4a79278fe81c/mzaf_223558689706077149.plus.aac.p.m4a",
+    "duration": 195920,
+    "trackUrl": "https://music.apple.com/us/album/reset/1562957456?i=1562957459",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
+    "trackId": "1562957459"
+  },
+  {
+    "id": "applemusic-1562957460",
+    "name": "Pyramid",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "Disharmony : Break Out - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/f2/63/f1/f263f174-a670-d2be-6602-7200f110ea54/mzaf_12152418171977096998.plus.aac.p.m4a",
+    "duration": 220307,
+    "trackUrl": "https://music.apple.com/us/album/pyramid/1562957456?i=1562957460",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
+    "trackId": "1562957460"
+  },
+  {
+    "id": "applemusic-1562957461",
+    "name": "Ayaya",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "Disharmony : Break Out - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/bd/c7/cb/bdc7cb6a-333f-e7ae-d22b-c877c492d498/mzaf_14476154955318228345.plus.aac.p.m4a",
+    "duration": 150533,
+    "trackUrl": "https://music.apple.com/us/album/ayaya/1562957456?i=1562957461",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
+    "trackId": "1562957461"
+  },
+  {
+    "id": "applemusic-1562957462",
+    "name": "End It",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "Disharmony : Break Out - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/ee/5f/95ee5f40-d6c4-b87b-16de-a439570487f7/mzaf_7186846796406117816.plus.aac.p.m4a",
+    "duration": 212973,
+    "trackUrl": "https://music.apple.com/us/album/end-it/1562957456?i=1562957462",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
+    "trackId": "1562957462"
+  },
+  {
+    "id": "applemusic-1562957463",
+    "name": "If You Call Me",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "Disharmony : Break Out - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/34/4a/a9/344aa982-2918-99ff-8f36-e1a757245509/mzaf_2587125166534113329.plus.aac.p.m4a",
+    "duration": 208733,
+    "trackUrl": "https://music.apple.com/us/album/if-you-call-me/1562957456?i=1562957463",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/47/eb/fc/47ebfc9b-5a88-d077-9656-cd9c13c2933c/2.jpg/300x300bb.jpg",
+    "trackId": "1562957463"
   },
   {
     "id": "applemusic-1725937044",
@@ -494,6 +468,71 @@
     "trackId": "1766053877"
   },
   {
+    "id": "applemusic-1602205499",
+    "name": "Do It Like This",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "DISHARMONY : FIND OUT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b8/cf/f8/b8cff821-235d-31f3-f998-ccc766a215bc/mzaf_4939572007846074195.plus.aac.p.m4a",
+    "duration": 192093,
+    "trackUrl": "https://music.apple.com/us/album/do-it-like-this/1602205497?i=1602205499",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
+    "trackId": "1602205499"
+  },
+  {
+    "id": "applemusic-1602205501",
+    "name": "Follow Me",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "DISHARMONY : FIND OUT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/58/81/bf/5881bf7e-d3d1-4747-d179-93af57321360/mzaf_8316849832025043742.plus.aac.p.m4a",
+    "duration": 214400,
+    "trackUrl": "https://music.apple.com/us/album/follow-me/1602205497?i=1602205501",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
+    "trackId": "1602205501"
+  },
+  {
+    "id": "applemusic-1602205502",
+    "name": "Bop",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "DISHARMONY : FIND OUT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fc/97/25/fc97251d-48ad-70f8-8a5f-ff925518b170/mzaf_17315783025914582469.plus.aac.p.m4a",
+    "duration": 199680,
+    "trackUrl": "https://music.apple.com/us/album/bop/1602205497?i=1602205502",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
+    "trackId": "1602205502"
+  },
+  {
+    "id": "applemusic-1602205503",
+    "name": "Before The Dawn",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "DISHARMONY : FIND OUT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/67/3b/6f/673b6f0c-7ce5-6d6e-c429-49e7a8698829/mzaf_14424574830837441222.plus.aac.p.m4a",
+    "duration": 260720,
+    "trackUrl": "https://music.apple.com/us/album/before-the-dawn/1602205497?i=1602205503",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
+    "trackId": "1602205503"
+  },
+  {
+    "id": "applemusic-1602205504",
+    "name": "Peacemaker",
+    "artists": [
+      "P1Harmony"
+    ],
+    "album": "DISHARMONY : FIND OUT - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/45/fc/05/45fc0514-1fd6-ab3c-cf3c-46e20cc77d08/mzaf_3106891830626416310.plus.aac.p.m4a",
+    "duration": 205427,
+    "trackUrl": "https://music.apple.com/us/album/peacemaker/1602205497?i=1602205504",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
+    "trackId": "1602205504"
+  },
+  {
     "id": "applemusic-1634771084",
     "name": "Doom Du Doom",
     "artists": [
@@ -585,19 +624,6 @@
     "trackId": "1655611885"
   },
   {
-    "id": "applemusic-1655611886",
-    "name": "BFF (Best Friends Forever)",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "HARMONY : SET IN - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/52/54/29/52542990-18ab-a9f1-4443-9af2ee005e50/mzaf_9096866648390550925.plus.aac.p.m4a",
-    "duration": 160040,
-    "trackUrl": "https://music.apple.com/us/album/bff-best-friends-forever/1655611884?i=1655611886",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ad/50/be/ad50bec8-46ec-027f-3bc4-c238f83b6106/cover_KM0016516_1.jpg/300x300bb.jpg",
-    "trackId": "1655611886"
-  },
-  {
     "id": "applemusic-1655611887",
     "name": "Secret Sauce",
     "artists": [
@@ -648,71 +674,6 @@
     "trackUrl": "https://music.apple.com/us/album/better-together/1655611884?i=1655611890",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ad/50/be/ad50bec8-46ec-027f-3bc4-c238f83b6106/cover_KM0016516_1.jpg/300x300bb.jpg",
     "trackId": "1655611890"
-  },
-  {
-    "id": "applemusic-1602205499",
-    "name": "Do It Like This",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "DISHARMONY : FIND OUT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b8/cf/f8/b8cff821-235d-31f3-f998-ccc766a215bc/mzaf_4939572007846074195.plus.aac.p.m4a",
-    "duration": 192093,
-    "trackUrl": "https://music.apple.com/us/album/do-it-like-this/1602205497?i=1602205499",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
-    "trackId": "1602205499"
-  },
-  {
-    "id": "applemusic-1602205501",
-    "name": "Follow Me",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "DISHARMONY : FIND OUT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/58/81/bf/5881bf7e-d3d1-4747-d179-93af57321360/mzaf_8316849832025043742.plus.aac.p.m4a",
-    "duration": 214400,
-    "trackUrl": "https://music.apple.com/us/album/follow-me/1602205497?i=1602205501",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
-    "trackId": "1602205501"
-  },
-  {
-    "id": "applemusic-1602205502",
-    "name": "Bop",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "DISHARMONY : FIND OUT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fc/97/25/fc97251d-48ad-70f8-8a5f-ff925518b170/mzaf_17315783025914582469.plus.aac.p.m4a",
-    "duration": 199680,
-    "trackUrl": "https://music.apple.com/us/album/bop/1602205497?i=1602205502",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
-    "trackId": "1602205502"
-  },
-  {
-    "id": "applemusic-1602205503",
-    "name": "Before The Dawn",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "DISHARMONY : FIND OUT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/67/3b/6f/673b6f0c-7ce5-6d6e-c429-49e7a8698829/mzaf_14424574830837441222.plus.aac.p.m4a",
-    "duration": 260720,
-    "trackUrl": "https://music.apple.com/us/album/before-the-dawn/1602205497?i=1602205503",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
-    "trackId": "1602205503"
-  },
-  {
-    "id": "applemusic-1602205504",
-    "name": "Peacemaker",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "DISHARMONY : FIND OUT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/45/fc/05/45fc0514-1fd6-ab3c-cf3c-46e20cc77d08/mzaf_3106891830626416310.plus.aac.p.m4a",
-    "duration": 205427,
-    "trackUrl": "https://music.apple.com/us/album/peacemaker/1602205497?i=1602205504",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/ce/ec/b9ceecc8-f4fa-50af-44db-2f161538817d/cover_KM0014520_1.jpg/300x300bb.jpg",
-    "trackId": "1602205504"
   },
   {
     "id": "applemusic-1690536590",
@@ -791,19 +752,6 @@
     "trackUrl": "https://music.apple.com/us/album/i-am-you/1690536589?i=1690536595",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/be/9f/b2/be9fb204-139d-3a64-b59a-6a9ae6500e09/cover_KM0017408_1.jpg/300x300bb.jpg",
     "trackId": "1690536595"
-  },
-  {
-    "id": "applemusic-1546599963",
-    "name": "Breakthrough (Full Version)",
-    "artists": [
-      "P1Harmony"
-    ],
-    "album": "Breakthrough (Full Version) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bc/40/57/bc4057d5-65a2-0ce3-3f24-67856a67137c/mzaf_8173867629666803092.plus.aac.p.m4a",
-    "duration": 174053,
-    "trackUrl": "https://music.apple.com/us/album/breakthrough-full-version/1546599962?i=1546599963",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/e1/b1/3be1b1ec-4e85-55b9-3027-d01e89432043/dj.frilwthh.jpg/300x300bb.jpg",
-    "trackId": "1546599963"
   },
   {
     "id": "applemusic-1682431728",

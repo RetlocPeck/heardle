@@ -13,6 +13,136 @@
     "trackId": "1486274788"
   },
   {
+    "id": "applemusic-1423421229",
+    "name": "U & Me",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "A'wesome - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/60/cb/2360cbd3-7bc3-7c87-93f6-a58c97d3ae99/mzaf_4089891152441104955.plus.aac.p.m4a",
+    "duration": 207669,
+    "trackUrl": "https://music.apple.com/us/album/u-me/1423421228?i=1423421229",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
+    "trackId": "1423421229"
+  },
+  {
+    "id": "applemusic-1423422101",
+    "name": "How's This",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "A'wesome - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/6e/98/b96e98a8-582c-c7fd-a87e-d71ea1398d7a/mzaf_11318963619226543230.plus.aac.p.m4a",
+    "duration": 199210,
+    "trackUrl": "https://music.apple.com/us/album/hows-this/1423421228?i=1423422101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
+    "trackId": "1423422101"
+  },
+  {
+    "id": "applemusic-1423422102",
+    "name": "Do It!",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "A'wesome - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/0d/bb/af0dbbc3-3aa9-a03a-a743-24a0af737c93/mzaf_18279225971993543307.plus.aac.p.m4a",
+    "duration": 199127,
+    "trackUrl": "https://music.apple.com/us/album/do-it/1423421228?i=1423422102",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
+    "trackId": "1423422102"
+  },
+  {
+    "id": "applemusic-1423422103",
+    "name": "Morning Glory (feat. Isle Qim)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "A'wesome - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/b3/28/22b3283b-33ea-38d5-f351-de6d572fb2fd/mzaf_15797377025575654327.plus.aac.p.m4a",
+    "duration": 211072,
+    "trackUrl": "https://music.apple.com/us/album/morning-glory-feat-isle-qim/1423421228?i=1423422103",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
+    "trackId": "1423422103"
+  },
+  {
+    "id": "applemusic-1423422104",
+    "name": "Freaky",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "A'wesome - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/63/9b/aa639b02-94d3-eea1-0e7e-a391276fe45b/mzaf_2005212062413498025.plus.aac.p.m4a",
+    "duration": 197648,
+    "trackUrl": "https://music.apple.com/us/album/freaky/1423421228?i=1423422104",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
+    "trackId": "1423422104"
+  },
+  {
+    "id": "applemusic-1508488550",
+    "name": "Wolf (feat. HANHE)",
+    "artists": [
+      "ヒョナ"
+    ],
+    "album": "A'wesome - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/77/ea/ce/77eacebb-0d63-e08b-84dc-cab8175b524b/mzaf_3032622205325585077.plus.aac.p.m4a",
+    "duration": 234140,
+    "trackUrl": "https://music.apple.com/jp/album/wolf-feat-hanhe/1508487935?i=1508488550",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/48/38/7548385d-40c9-f4a9-4329-6b03dcae055b/859755631355_cover.jpg/300x300bb.jpg",
+    "trackId": "1508488550"
+  },
+  {
+    "id": "applemusic-1508124488",
+    "name": "Cause I'm God Girl (feat. Ilhoon)",
+    "artists": [
+      "ヒョナ"
+    ],
+    "album": "A+ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/04/bf/4704bf71-8477-33ad-bd0a-5f4216d3403d/mzaf_1452200762731505678.plus.aac.p.m4a",
+    "duration": 202547,
+    "trackUrl": "https://music.apple.com/jp/album/cause-im-god-girl-feat-ilhoon/1508124335?i=1508124488",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6e/3c/8d/6e3c8d39-7a23-2bd1-2b03-8ed7c8c0675b/859755624173_cover.jpg/300x300bb.jpg",
+    "trackId": "1508124488"
+  },
+  {
+    "id": "applemusic-1508124489",
+    "name": "Ice Ice (feat. Jidam Yuk)",
+    "artists": [
+      "ヒョナ"
+    ],
+    "album": "A+ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/e4/cc/49e4cc56-2313-0178-9ad2-31d28d4cedf5/mzaf_4758286309313804976.plus.aac.p.m4a",
+    "duration": 196827,
+    "trackUrl": "https://music.apple.com/jp/album/ice-ice-feat-jidam-yuk/1508124335?i=1508124489",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6e/3c/8d/6e3c8d39-7a23-2bd1-2b03-8ed7c8c0675b/859755624173_cover.jpg/300x300bb.jpg",
+    "trackId": "1508124489"
+  },
+  {
+    "id": "applemusic-1508124492",
+    "name": "Get Outta My House (feat. Jungyoel Kwon)",
+    "artists": [
+      "ヒョナ"
+    ],
+    "album": "A+ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f2/79/c5/f279c550-00fb-f888-fa49-8dcdb19635b5/mzaf_17192270835326796612.plus.aac.p.m4a",
+    "duration": 202840,
+    "trackUrl": "https://music.apple.com/jp/album/get-outta-my-house-feat-jungyoel-kwon/1508124335?i=1508124492",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6e/3c/8d/6e3c8d39-7a23-2bd1-2b03-8ed7c8c0675b/859755624173_cover.jpg/300x300bb.jpg",
+    "trackId": "1508124492"
+  },
+  {
+    "id": "applemusic-1344606218",
+    "name": "Serene",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "A+ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/1d/00/151d0096-8273-a1ec-578e-62f4048fe0f9/mzaf_6350159617922004550.plus.aac.p.m4a",
+    "duration": 222480,
+    "trackUrl": "https://music.apple.com/us/album/serene/1344606211?i=1344606218",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/9c/e9/37/9ce93715-5341-d09c-46b3-1a6cf8c7bcab/cover-HyunA_A.jpg/300x300bb.jpg",
+    "trackId": "1344606218"
+  },
+  {
     "id": "applemusic-1550034890",
     "name": "I'm Not Cool",
     "artists": [
@@ -128,149 +258,6 @@
     "trackUrl": "https://music.apple.com/us/album/mirror/1276492813?i=1276492823",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ab/ba/be/abbabe5b-5342-328f-56da-35ca828c5f3a/cover-.jpg/300x300bb.jpg",
     "trackId": "1276492823"
-  },
-  {
-    "id": "applemusic-1423421229",
-    "name": "U & Me",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A'wesome - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/23/60/cb/2360cbd3-7bc3-7c87-93f6-a58c97d3ae99/mzaf_4089891152441104955.plus.aac.p.m4a",
-    "duration": 207669,
-    "trackUrl": "https://music.apple.com/us/album/u-me/1423421228?i=1423421229",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
-    "trackId": "1423421229"
-  },
-  {
-    "id": "applemusic-1423422101",
-    "name": "How's This",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A'wesome - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/6e/98/b96e98a8-582c-c7fd-a87e-d71ea1398d7a/mzaf_11318963619226543230.plus.aac.p.m4a",
-    "duration": 199210,
-    "trackUrl": "https://music.apple.com/us/album/hows-this/1423421228?i=1423422101",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
-    "trackId": "1423422101"
-  },
-  {
-    "id": "applemusic-1423422102",
-    "name": "Do It!",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A'wesome - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/0d/bb/af0dbbc3-3aa9-a03a-a743-24a0af737c93/mzaf_18279225971993543307.plus.aac.p.m4a",
-    "duration": 199127,
-    "trackUrl": "https://music.apple.com/us/album/do-it/1423421228?i=1423422102",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
-    "trackId": "1423422102"
-  },
-  {
-    "id": "applemusic-1423422103",
-    "name": "Morning Glory (feat. Isle Qim)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A'wesome - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/b3/28/22b3283b-33ea-38d5-f351-de6d572fb2fd/mzaf_15797377025575654327.plus.aac.p.m4a",
-    "duration": 211072,
-    "trackUrl": "https://music.apple.com/us/album/morning-glory-feat-isle-qim/1423421228?i=1423422103",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
-    "trackId": "1423422103"
-  },
-  {
-    "id": "applemusic-1423422104",
-    "name": "Freaky",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A'wesome - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/63/9b/aa639b02-94d3-eea1-0e7e-a391276fe45b/mzaf_2005212062413498025.plus.aac.p.m4a",
-    "duration": 197648,
-    "trackUrl": "https://music.apple.com/us/album/freaky/1423421228?i=1423422104",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/83/a0/57/83a0577e-4125-145f-6239-044e66d5cbdc/cover-_A_wesome.jpg/300x300bb.jpg",
-    "trackId": "1423422104"
-  },
-  {
-    "id": "applemusic-1508488550",
-    "name": "Wolf (feat. HANHE)",
-    "artists": [
-      "ヒョナ"
-    ],
-    "album": "A'wesome - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/77/ea/ce/77eacebb-0d63-e08b-84dc-cab8175b524b/mzaf_3032622205325585077.plus.aac.p.m4a",
-    "duration": 234140,
-    "trackUrl": "https://music.apple.com/jp/album/wolf-feat-hanhe/1508487935?i=1508488550",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/48/38/7548385d-40c9-f4a9-4329-6b03dcae055b/859755631355_cover.jpg/300x300bb.jpg",
-    "trackId": "1508488550"
-  },
-  {
-    "id": "applemusic-1344606213",
-    "name": "Run & Run (Intro)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A+ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e8/97/a6/e897a621-8b09-1ed9-b773-868cd0ece096/mzaf_188601465089631288.plus.aac.p.m4a",
-    "duration": 91080,
-    "trackUrl": "https://music.apple.com/us/album/run-run-intro/1344606211?i=1344606213",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/9c/e9/37/9ce93715-5341-d09c-46b3-1a6cf8c7bcab/cover-HyunA_A.jpg/300x300bb.jpg",
-    "trackId": "1344606213"
-  },
-  {
-    "id": "applemusic-1508124488",
-    "name": "Cause I'm God Girl (feat. Ilhoon)",
-    "artists": [
-      "ヒョナ"
-    ],
-    "album": "A+ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/04/bf/4704bf71-8477-33ad-bd0a-5f4216d3403d/mzaf_1452200762731505678.plus.aac.p.m4a",
-    "duration": 202547,
-    "trackUrl": "https://music.apple.com/jp/album/cause-im-god-girl-feat-ilhoon/1508124335?i=1508124488",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6e/3c/8d/6e3c8d39-7a23-2bd1-2b03-8ed7c8c0675b/859755624173_cover.jpg/300x300bb.jpg",
-    "trackId": "1508124488"
-  },
-  {
-    "id": "applemusic-1508124489",
-    "name": "Ice Ice (feat. Jidam Yuk)",
-    "artists": [
-      "ヒョナ"
-    ],
-    "album": "A+ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/e4/cc/49e4cc56-2313-0178-9ad2-31d28d4cedf5/mzaf_4758286309313804976.plus.aac.p.m4a",
-    "duration": 196827,
-    "trackUrl": "https://music.apple.com/jp/album/ice-ice-feat-jidam-yuk/1508124335?i=1508124489",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6e/3c/8d/6e3c8d39-7a23-2bd1-2b03-8ed7c8c0675b/859755624173_cover.jpg/300x300bb.jpg",
-    "trackId": "1508124489"
-  },
-  {
-    "id": "applemusic-1508124492",
-    "name": "Get Outta My House (feat. Jungyoel Kwon)",
-    "artists": [
-      "ヒョナ"
-    ],
-    "album": "A+ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f2/79/c5/f279c550-00fb-f888-fa49-8dcdb19635b5/mzaf_17192270835326796612.plus.aac.p.m4a",
-    "duration": 202840,
-    "trackUrl": "https://music.apple.com/jp/album/get-outta-my-house-feat-jungyoel-kwon/1508124335?i=1508124492",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6e/3c/8d/6e3c8d39-7a23-2bd1-2b03-8ed7c8c0675b/859755624173_cover.jpg/300x300bb.jpg",
-    "trackId": "1508124492"
-  },
-  {
-    "id": "applemusic-1344606218",
-    "name": "Serene",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "A+ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/1d/00/151d0096-8273-a1ec-578e-62f4048fe0f9/mzaf_6350159617922004550.plus.aac.p.m4a",
-    "duration": 222480,
-    "trackUrl": "https://music.apple.com/us/album/serene/1344606211?i=1344606218",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/9c/e9/37/9ce93715-5341-d09c-46b3-1a6cf8c7bcab/cover-HyunA_A.jpg/300x300bb.jpg",
-    "trackId": "1344606218"
   },
   {
     "id": "applemusic-1289660741",
@@ -468,71 +455,6 @@
     "trackId": "1343090229"
   },
   {
-    "id": "applemusic-1343706208",
-    "name": "Straight Up",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/d2/af/aed2af51-4d8a-63a3-dc15-2f20f3a1562c/mzaf_397323096254812132.plus.aac.p.m4a",
-    "duration": 173996,
-    "trackUrl": "https://music.apple.com/us/album/straight-up/1343706195?i=1343706208",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706208"
-  },
-  {
-    "id": "applemusic-1343706209",
-    "name": "Ice Cream (feat. Maboos)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/95/15/aa951563-487a-523f-232c-fdce9326ef19/mzaf_6335294249814060626.plus.aac.p.m4a",
-    "duration": 195735,
-    "trackUrl": "https://music.apple.com/us/album/ice-cream-feat-maboos/1343706195?i=1343706209",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706209"
-  },
-  {
-    "id": "applemusic-1343706210",
-    "name": "Green Apple (feat. JUNG ILHOON)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/42/bb/1f42bbb6-6a08-3d46-2221-f7ad5848e728/mzaf_11746111162145304321.plus.aac.p.m4a",
-    "duration": 195587,
-    "trackUrl": "https://music.apple.com/us/album/green-apple-feat-jung-ilhoon/1343706195?i=1343706210",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706210"
-  },
-  {
-    "id": "applemusic-1343706215",
-    "name": "Dear Boyfriend",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/10/18/81101800-2b1c-7df1-dd67-2764385e57b6/mzaf_4778990231239966406.plus.aac.p.m4a",
-    "duration": 222324,
-    "trackUrl": "https://music.apple.com/us/album/dear-boyfriend/1343706195?i=1343706215",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706215"
-  },
-  {
-    "id": "applemusic-1343706216",
-    "name": "Very Hot (feat. Liwon)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/58/37/335837ff-8457-edf2-a87b-65bbd8928dd9/mzaf_11264908794341813300.plus.aac.p.m4a",
-    "duration": 221001,
-    "trackUrl": "https://music.apple.com/us/album/very-hot-feat-liwon/1343706195?i=1343706216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706216"
-  },
-  {
     "id": "applemusic-1634771003",
     "name": "Nabillera",
     "artists": [
@@ -609,6 +531,71 @@
     "trackUrl": "https://music.apple.com/us/album/mrs-nail/1810712590?i=1810712591",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/38/b4/b638b4d4-3d7c-da88-9e99-64206a2f710c/888272152630_Cover.jpg/300x300bb.jpg",
     "trackId": "1810712591"
+  },
+  {
+    "id": "applemusic-1343706208",
+    "name": "Straight Up",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/d2/af/aed2af51-4d8a-63a3-dc15-2f20f3a1562c/mzaf_397323096254812132.plus.aac.p.m4a",
+    "duration": 173996,
+    "trackUrl": "https://music.apple.com/us/album/straight-up/1343706195?i=1343706208",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706208"
+  },
+  {
+    "id": "applemusic-1343706209",
+    "name": "Ice Cream (feat. Maboos)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/95/15/aa951563-487a-523f-232c-fdce9326ef19/mzaf_6335294249814060626.plus.aac.p.m4a",
+    "duration": 195735,
+    "trackUrl": "https://music.apple.com/us/album/ice-cream-feat-maboos/1343706195?i=1343706209",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706209"
+  },
+  {
+    "id": "applemusic-1343706210",
+    "name": "Green Apple (feat. JUNG ILHOON)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/42/bb/1f42bbb6-6a08-3d46-2221-f7ad5848e728/mzaf_11746111162145304321.plus.aac.p.m4a",
+    "duration": 195587,
+    "trackUrl": "https://music.apple.com/us/album/green-apple-feat-jung-ilhoon/1343706195?i=1343706210",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706210"
+  },
+  {
+    "id": "applemusic-1343706215",
+    "name": "Dear Boyfriend",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/10/18/81101800-2b1c-7df1-dd67-2764385e57b6/mzaf_4778990231239966406.plus.aac.p.m4a",
+    "duration": 222324,
+    "trackUrl": "https://music.apple.com/us/album/dear-boyfriend/1343706195?i=1343706215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706215"
+  },
+  {
+    "id": "applemusic-1343706216",
+    "name": "Very Hot (feat. Liwon)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/58/37/335837ff-8457-edf2-a87b-65bbd8928dd9/mzaf_11264908794341813300.plus.aac.p.m4a",
+    "duration": 221001,
+    "trackUrl": "https://music.apple.com/us/album/very-hot-feat-liwon/1343706195?i=1343706216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706216"
   },
   {
     "id": "applemusic-1860415622",

@@ -39,19 +39,6 @@
     "trackId": "1580386673"
   },
   {
-    "id": "applemusic-1580387599",
-    "name": "All I Wanna Do",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "Everything You Wanted",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/d8/3f/b2d83fc1-513d-8a39-783f-27da1218d6cc/mzaf_8437409319995820215.plus.aac.p.m4a",
-    "duration": 209393,
-    "trackUrl": "https://music.apple.com/us/album/all-i-wanna-do/1580386461?i=1580387599",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/98/8e/c9988e81-4b47-969d-eb3f-7dbf10926875/8809380634810_Cover.jpg/300x300bb.jpg",
-    "trackId": "1580387599"
-  },
-  {
     "id": "applemusic-1580386748",
     "name": "Limousine (feat. KrNFx)",
     "artists": [
@@ -156,19 +143,6 @@
     "trackId": "1580386976"
   },
   {
-    "id": "applemusic-1580387591",
-    "name": "Me Like Yuh",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "Everything You Wanted",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/14/50/32145068-0928-98dd-d446-877fcbdaaa69/mzaf_12835057677513915853.plus.aac.p.m4a",
-    "duration": 223642,
-    "trackUrl": "https://music.apple.com/us/album/me-like-yuh/1580386461?i=1580387591",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/98/8e/c9988e81-4b47-969d-eb3f-7dbf10926875/8809380634810_Cover.jpg/300x300bb.jpg",
-    "trackId": "1580387591"
-  },
-  {
     "id": "applemusic-1580387327",
     "name": "2nd Thots",
     "artists": [
@@ -208,6 +182,32 @@
     "trackId": "1580387345"
   },
   {
+    "id": "applemusic-1580387591",
+    "name": "Me Like Yuh",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "Everything You Wanted",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/14/50/32145068-0928-98dd-d446-877fcbdaaa69/mzaf_12835057677513915853.plus.aac.p.m4a",
+    "duration": 223642,
+    "trackUrl": "https://music.apple.com/us/album/me-like-yuh/1580386461?i=1580387591",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/98/8e/c9988e81-4b47-969d-eb3f-7dbf10926875/8809380634810_Cover.jpg/300x300bb.jpg",
+    "trackId": "1580387591"
+  },
+  {
+    "id": "applemusic-1580387599",
+    "name": "All I Wanna Do",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "Everything You Wanted",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/d8/3f/b2d83fc1-513d-8a39-783f-27da1218d6cc/mzaf_8437409319995820215.plus.aac.p.m4a",
+    "duration": 209393,
+    "trackUrl": "https://music.apple.com/us/album/all-i-wanna-do/1580386461?i=1580387599",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/98/8e/c9988e81-4b47-969d-eb3f-7dbf10926875/8809380634810_Cover.jpg/300x300bb.jpg",
+    "trackId": "1580387599"
+  },
+  {
     "id": "applemusic-1286672458",
     "name": "Iffy",
     "artists": [
@@ -232,6 +232,32 @@
     "trackUrl": "https://music.apple.com/us/album/ganadara-feat-iu/1613272549?i=1613272550",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/fb/31/73fb31ac-1ca6-643d-3bef-44832b988fbf/cover_KM0014893_1.jpg/300x300bb.jpg",
     "trackId": "1613272550"
+  },
+  {
+    "id": "applemusic-1607270589",
+    "name": "Dank",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "V - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/21/19/10/211910f2-aff8-1fa0-8834-39e990d70343/mzaf_1916638550465807570.plus.aac.p.m4a",
+    "duration": 198950,
+    "trackUrl": "https://music.apple.com/us/album/dank/1607270455?i=1607270589",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/2f/12/ef2f12cd-662f-812c-398b-bb950e8f1e06/8809380638870_Cover.jpg/300x300bb.jpg",
+    "trackId": "1607270589"
+  },
+  {
+    "id": "applemusic-1607270617",
+    "name": "V",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "V - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/53/ec/96/53ec9642-28ff-c23a-d49c-064bc0e9ae6c/mzaf_993505184220544156.plus.aac.p.m4a",
+    "duration": 227084,
+    "trackUrl": "https://music.apple.com/us/album/v/1607270455?i=1607270617",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/2f/12/ef2f12cd-662f-812c-398b-bb950e8f1e06/8809380638870_Cover.jpg/300x300bb.jpg",
+    "trackId": "1607270617"
   },
   {
     "id": "applemusic-1411554369",
@@ -323,110 +349,6 @@
     "trackUrl": "https://music.apple.com/us/album/soju-feat-2-chainz/1411553693?i=1411554481",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9a/97/8a/9a978ac8-94f5-d8bc-6adf-d5c4a6da5fa3/00810760030700.rgb.jpg/300x300bb.jpg",
     "trackId": "1411554481"
-  },
-  {
-    "id": "applemusic-1607270589",
-    "name": "Dank",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "V - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/21/19/10/211910f2-aff8-1fa0-8834-39e990d70343/mzaf_1916638550465807570.plus.aac.p.m4a",
-    "duration": 198950,
-    "trackUrl": "https://music.apple.com/us/album/dank/1607270455?i=1607270589",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/2f/12/ef2f12cd-662f-812c-398b-bb950e8f1e06/8809380638870_Cover.jpg/300x300bb.jpg",
-    "trackId": "1607270589"
-  },
-  {
-    "id": "applemusic-1607270617",
-    "name": "V",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "V - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/53/ec/96/53ec9642-28ff-c23a-d49c-064bc0e9ae6c/mzaf_993505184220544156.plus.aac.p.m4a",
-    "duration": 227084,
-    "trackUrl": "https://music.apple.com/us/album/v/1607270455?i=1607270617",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/2f/12/ef2f12cd-662f-812c-398b-bb950e8f1e06/8809380638870_Cover.jpg/300x300bb.jpg",
-    "trackId": "1607270617"
-  },
-  {
-    "id": "applemusic-1476781663",
-    "name": "GIDDY UP",
-    "artists": [
-      "Sik-K, HAON, pH-1, Jay Park, Woodie Gochild & GroovyRoom"
-    ],
-    "album": "GIDDY UP - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/20/a5/5d20a55d-101d-e04f-a8ba-fee34bbdbfc5/mzaf_5707180792961716032.plus.aac.p.m4a",
-    "duration": 200973,
-    "trackUrl": "https://music.apple.com/us/album/giddy-up/1476781647?i=1476781663",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/29/0d/3e/290d3ebf-a7b3-ec74-e4ee-6238a16a9d86/cover-Dingo_X_H1GHR_MUSIC_DS.jpg/300x300bb.jpg",
-    "trackId": "1476781663"
-  },
-  {
-    "id": "applemusic-1633448039",
-    "name": "Need To Know",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "Need To Know - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/02/12/ee/0212ee88-3b03-0e48-686d-8ea05b1cd608/mzaf_14089339725091503646.plus.aac.p.m4a",
-    "duration": 169252,
-    "trackUrl": "https://music.apple.com/us/album/need-to-know/1633448037?i=1633448039",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e8/40/d9/e840d988-5518-f993-ed6c-0f4e7465cf35/cover_KM0015671_1.jpg/300x300bb.jpg",
-    "trackId": "1633448039"
-  },
-  {
-    "id": "applemusic-1617994001",
-    "name": "Forget About Tomorrow",
-    "artists": [
-      "Yultron & Jay Park"
-    ],
-    "album": "Forget About Tomorrow - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8d/73/e0/8d73e0dd-474d-7bf7-a126-c8e162b57bc7/mzaf_5705070436872032912.plus.aac.p.m4a",
-    "duration": 187200,
-    "trackUrl": "https://music.apple.com/us/album/forget-about-tomorrow/1617993604?i=1617994001",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/04/66/a70466b1-d02e-9558-15cc-3f4a3d31c659/8809603540034_Cover.jpg/300x300bb.jpg",
-    "trackId": "1617994001"
-  },
-  {
-    "id": "applemusic-1485504878",
-    "name": "Drip (feat. Jay Park)",
-    "artists": [
-      "Jessi"
-    ],
-    "album": "Drip (feat. Jay Park) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/cc/d3/d9ccd3a8-1e0d-4aa3-fa8b-48a8bd669ba2/mzaf_10869930954154769650.plus.aac.p.m4a",
-    "duration": 212840,
-    "trackUrl": "https://music.apple.com/us/album/drip-feat-jay-park/1485504184?i=1485504878",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c1/53/50/c15350f9-da89-83b8-3333-ae679bae4137/JJP-Drip_07c_FINAL-CoverArt.jpg/300x300bb.jpg",
-    "trackId": "1485504878"
-  },
-  {
-    "id": "applemusic-1462947596",
-    "name": "K-TOWN",
-    "artists": [
-      "Jay Park & Hit-Boy"
-    ],
-    "album": "K-TOWN - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/ad/7c/f5ad7cd1-8113-d557-9018-3c719eb25ab8/mzaf_7886994362042540392.plus.aac.p.m4a",
-    "duration": 123278,
-    "trackUrl": "https://music.apple.com/us/album/k-town/1462947405?i=1462947596",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b1/ab/b6/b1abb643-3ed7-462a-bb69-c45d7fb13319/19UMGIM41294.rgb.jpg/300x300bb.jpg",
-    "trackId": "1462947596"
-  },
-  {
-    "id": "applemusic-1606343299",
-    "name": "RUN IT (feat. Woo & Jessi)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "RUN IT (feat. Woo & Jessi) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/22/b5/aa/22b5aaca-8bf9-78bc-4fb2-7fede240c35b/mzaf_6872527790939743053.plus.aac.p.m4a",
-    "duration": 191188,
-    "trackUrl": "https://music.apple.com/us/album/run-it-feat-woo-jessi/1606343295?i=1606343299",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/49/57/c54957dc-9a76-e1cc-6a4d-8099fc5c5f81/8809534469817_Cover.jpg/300x300bb.jpg",
-    "trackId": "1606343299"
   },
   {
     "id": "applemusic-1604136128",
@@ -609,6 +531,84 @@
     "trackUrl": "https://music.apple.com/us/album/seattle-2-seoul/1604136127?i=1604136904",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/33/65/2e33655c-f96b-bbda-c03a-5b583e0413a3/8809380633561_Cover.jpg/300x300bb.jpg",
     "trackId": "1604136904"
+  },
+  {
+    "id": "applemusic-1476781663",
+    "name": "GIDDY UP",
+    "artists": [
+      "Sik-K, HAON, pH-1, Jay Park, Woodie Gochild & GroovyRoom"
+    ],
+    "album": "GIDDY UP - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/20/a5/5d20a55d-101d-e04f-a8ba-fee34bbdbfc5/mzaf_5707180792961716032.plus.aac.p.m4a",
+    "duration": 200973,
+    "trackUrl": "https://music.apple.com/us/album/giddy-up/1476781647?i=1476781663",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/29/0d/3e/290d3ebf-a7b3-ec74-e4ee-6238a16a9d86/cover-Dingo_X_H1GHR_MUSIC_DS.jpg/300x300bb.jpg",
+    "trackId": "1476781663"
+  },
+  {
+    "id": "applemusic-1633448039",
+    "name": "Need To Know",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "Need To Know - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/02/12/ee/0212ee88-3b03-0e48-686d-8ea05b1cd608/mzaf_14089339725091503646.plus.aac.p.m4a",
+    "duration": 169252,
+    "trackUrl": "https://music.apple.com/us/album/need-to-know/1633448037?i=1633448039",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e8/40/d9/e840d988-5518-f993-ed6c-0f4e7465cf35/cover_KM0015671_1.jpg/300x300bb.jpg",
+    "trackId": "1633448039"
+  },
+  {
+    "id": "applemusic-1617994001",
+    "name": "Forget About Tomorrow",
+    "artists": [
+      "Yultron & Jay Park"
+    ],
+    "album": "Forget About Tomorrow - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8d/73/e0/8d73e0dd-474d-7bf7-a126-c8e162b57bc7/mzaf_5705070436872032912.plus.aac.p.m4a",
+    "duration": 187200,
+    "trackUrl": "https://music.apple.com/us/album/forget-about-tomorrow/1617993604?i=1617994001",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a7/04/66/a70466b1-d02e-9558-15cc-3f4a3d31c659/8809603540034_Cover.jpg/300x300bb.jpg",
+    "trackId": "1617994001"
+  },
+  {
+    "id": "applemusic-1485504878",
+    "name": "Drip (feat. Jay Park)",
+    "artists": [
+      "Jessi"
+    ],
+    "album": "Drip (feat. Jay Park) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/cc/d3/d9ccd3a8-1e0d-4aa3-fa8b-48a8bd669ba2/mzaf_10869930954154769650.plus.aac.p.m4a",
+    "duration": 212840,
+    "trackUrl": "https://music.apple.com/us/album/drip-feat-jay-park/1485504184?i=1485504878",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c1/53/50/c15350f9-da89-83b8-3333-ae679bae4137/JJP-Drip_07c_FINAL-CoverArt.jpg/300x300bb.jpg",
+    "trackId": "1485504878"
+  },
+  {
+    "id": "applemusic-1462947596",
+    "name": "K-TOWN",
+    "artists": [
+      "Jay Park & Hit-Boy"
+    ],
+    "album": "K-TOWN - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f5/ad/7c/f5ad7cd1-8113-d557-9018-3c719eb25ab8/mzaf_7886994362042540392.plus.aac.p.m4a",
+    "duration": 123278,
+    "trackUrl": "https://music.apple.com/us/album/k-town/1462947405?i=1462947596",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/b1/ab/b6/b1abb643-3ed7-462a-bb69-c45d7fb13319/19UMGIM41294.rgb.jpg/300x300bb.jpg",
+    "trackId": "1462947596"
+  },
+  {
+    "id": "applemusic-1606343299",
+    "name": "RUN IT (feat. Woo & Jessi)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "RUN IT (feat. Woo & Jessi) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/22/b5/aa/22b5aaca-8bf9-78bc-4fb2-7fede240c35b/mzaf_6872527790939743053.plus.aac.p.m4a",
+    "duration": 191188,
+    "trackUrl": "https://music.apple.com/us/album/run-it-feat-woo-jessi/1606343295?i=1606343299",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c5/49/57/c54957dc-9a76-e1cc-6a4d-8099fc5c5f81/8809534469817_Cover.jpg/300x300bb.jpg",
+    "trackId": "1606343299"
   },
   {
     "id": "applemusic-1677107144",
@@ -1547,6 +1547,123 @@
     "trackId": "1475495049"
   },
   {
+    "id": "applemusic-1634524368",
+    "name": "EVOLUTION (feat. GRAY)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/53/e0/69/53e06907-a274-dafe-fb6a-cde14f52d27e/mzaf_8179132637924537113.plus.aac.p.m4a",
+    "duration": 274450,
+    "trackUrl": "https://music.apple.com/us/album/evolution-feat-gray/1634523795?i=1634524368",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524368"
+  },
+  {
+    "id": "applemusic-1634524378",
+    "name": "So Good (feat. Common Ground)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/21/38/54/2138543e-65c2-5c28-0c2e-45855cdd49ce/mzaf_5151695070611318556.plus.aac.p.m4a",
+    "duration": 195392,
+    "trackUrl": "https://music.apple.com/us/album/so-good-feat-common-ground/1634523795?i=1634524378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524378"
+  },
+  {
+    "id": "applemusic-1634524386",
+    "name": "The Promise",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/25/27/7a/25277acf-8b17-7699-bfe1-94a7e3654a30/mzaf_14505068946312313095.plus.aac.p.m4a",
+    "duration": 201776,
+    "trackUrl": "https://music.apple.com/us/album/the-promise/1634523795?i=1634524386",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524386"
+  },
+  {
+    "id": "applemusic-1634524786",
+    "name": "Ride Me",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/72/0f/a6/720fa615-95aa-f5ed-0fd7-01f3fc5adde7/mzaf_18315344166011415104.plus.aac.p.m4a",
+    "duration": 240759,
+    "trackUrl": "https://music.apple.com/us/album/ride-me/1634523795?i=1634524786",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524786"
+  },
+  {
+    "id": "applemusic-1634524787",
+    "name": "Metronome (feat. Simon Dominic & GRAY)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/66/44/22/66442294-61ce-5c23-cf42-ab6e7f435e59/mzaf_1170852318433221224.plus.aac.p.m4a",
+    "duration": 238994,
+    "trackUrl": "https://music.apple.com/us/album/metronome-feat-simon-dominic-gray/1634523795?i=1634524787",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524787"
+  },
+  {
+    "id": "applemusic-1634524804",
+    "name": "GGG",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/1f/7b/5a/1f7b5a82-bf32-9e07-1f93-9192b54d6830/mzaf_1152760572046535197.plus.aac.p.m4a",
+    "duration": 206120,
+    "trackUrl": "https://music.apple.com/us/album/ggg/1634523795?i=1634524804",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524804"
+  },
+  {
+    "id": "applemusic-1634524805",
+    "name": "Who the F*ck Is U (feat. B-Free & Take One)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/1d/14/6a/1d146a12-531a-2d90-862c-f2fe5c8a4eb0/mzaf_12803871613265232571.plus.aac.p.m4a",
+    "duration": 326107,
+    "trackUrl": "https://music.apple.com/us/album/who-the-f-ck-is-u-feat-b-free-take-one/1634523795?i=1634524805",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634524805"
+  },
+  {
+    "id": "applemusic-1634525157",
+    "name": "Success Crazed (feat. GRAY, Loco, Simon Dominic & Trinidad James)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/d0/5f/3a/d05f3a73-2f2d-a1f0-5176-1e2ac838d778/mzaf_5987385966458551456.plus.aac.p.m4a",
+    "duration": 293002,
+    "trackUrl": "https://music.apple.com/us/album/success-crazed-feat-gray-loco-simon-dominic-trinidad-james/1634523795?i=1634525157",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634525157"
+  },
+  {
+    "id": "applemusic-1634525172",
+    "name": "Nana (feat. Loco)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "EVOLUTION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/7c/b6/c8/7cb6c814-25e4-cb74-d445-aaf60933428c/mzaf_1057091096874085959.plus.aac.p.m4a",
+    "duration": 203329,
+    "trackUrl": "https://music.apple.com/us/album/nana-feat-loco/1634523795?i=1634525172",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634525172"
+  },
+  {
     "id": "applemusic-1638086946",
     "name": "PLP (feat. Far East Movement)",
     "artists": [
@@ -1597,19 +1714,6 @@
     "trackUrl": "https://music.apple.com/us/album/all-in/1578624505?i=1578624512",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/23/59/97/235997bb-4195-72e7-feb8-47f5214cec9f/888272084016_Cover.jpg/300x300bb.jpg",
     "trackId": "1578624512"
-  },
-  {
-    "id": "applemusic-1678714170",
-    "name": "New Breed (Intro)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "New Breed",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/16/26/2a/16262a2e-1317-55e3-56b2-e1c1e63c0ad4/mzaf_12210738989808176477.plus.aac.p.m4a",
-    "duration": 151267,
-    "trackUrl": "https://music.apple.com/us/album/new-breed-intro/1678714169?i=1678714170",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/8b/bc/328bbcaf-85db-f6e0-3e03-9c72c0d3cb0f/8809259907601_Cover.jpg/300x300bb.jpg",
-    "trackId": "1678714170"
   },
   {
     "id": "applemusic-1678714172",
@@ -1729,19 +1833,6 @@
     "trackId": "1678714461"
   },
   {
-    "id": "applemusic-1678714465",
-    "name": "End of Me (Acoustic Version)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "New Breed",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5a/46/ca/5a46ca72-c467-8352-666d-093dc3510328/mzaf_5910585386828117692.plus.aac.p.m4a",
-    "duration": 207160,
-    "trackUrl": "https://music.apple.com/us/album/end-of-me-acoustic-version/1678714169?i=1678714465",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/32/8b/bc/328bbcaf-85db-f6e0-3e03-9c72c0d3cb0f/8809259907601_Cover.jpg/300x300bb.jpg",
-    "trackId": "1678714465"
-  },
-  {
     "id": "applemusic-1678714467",
     "name": "AON & 1Llionaire (feat. The Quiett & Dok2)",
     "artists": [
@@ -1807,123 +1898,6 @@
     "trackId": "1312756159"
   },
   {
-    "id": "applemusic-1634524368",
-    "name": "EVOLUTION (feat. GRAY)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/53/e0/69/53e06907-a274-dafe-fb6a-cde14f52d27e/mzaf_8179132637924537113.plus.aac.p.m4a",
-    "duration": 274450,
-    "trackUrl": "https://music.apple.com/us/album/evolution-feat-gray/1634523795?i=1634524368",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524368"
-  },
-  {
-    "id": "applemusic-1634524378",
-    "name": "So Good (feat. Common Ground)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/21/38/54/2138543e-65c2-5c28-0c2e-45855cdd49ce/mzaf_5151695070611318556.plus.aac.p.m4a",
-    "duration": 195392,
-    "trackUrl": "https://music.apple.com/us/album/so-good-feat-common-ground/1634523795?i=1634524378",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524378"
-  },
-  {
-    "id": "applemusic-1634524386",
-    "name": "The Promise",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/25/27/7a/25277acf-8b17-7699-bfe1-94a7e3654a30/mzaf_14505068946312313095.plus.aac.p.m4a",
-    "duration": 201776,
-    "trackUrl": "https://music.apple.com/us/album/the-promise/1634523795?i=1634524386",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524386"
-  },
-  {
-    "id": "applemusic-1634524786",
-    "name": "Ride Me",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/72/0f/a6/720fa615-95aa-f5ed-0fd7-01f3fc5adde7/mzaf_18315344166011415104.plus.aac.p.m4a",
-    "duration": 240759,
-    "trackUrl": "https://music.apple.com/us/album/ride-me/1634523795?i=1634524786",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524786"
-  },
-  {
-    "id": "applemusic-1634524787",
-    "name": "Metronome (feat. Simon Dominic & GRAY)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/66/44/22/66442294-61ce-5c23-cf42-ab6e7f435e59/mzaf_1170852318433221224.plus.aac.p.m4a",
-    "duration": 238994,
-    "trackUrl": "https://music.apple.com/us/album/metronome-feat-simon-dominic-gray/1634523795?i=1634524787",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524787"
-  },
-  {
-    "id": "applemusic-1634524804",
-    "name": "GGG",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/1f/7b/5a/1f7b5a82-bf32-9e07-1f93-9192b54d6830/mzaf_1152760572046535197.plus.aac.p.m4a",
-    "duration": 206120,
-    "trackUrl": "https://music.apple.com/us/album/ggg/1634523795?i=1634524804",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524804"
-  },
-  {
-    "id": "applemusic-1634524805",
-    "name": "Who the F*ck Is U (feat. B-Free & Take One)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/1d/14/6a/1d146a12-531a-2d90-862c-f2fe5c8a4eb0/mzaf_12803871613265232571.plus.aac.p.m4a",
-    "duration": 326107,
-    "trackUrl": "https://music.apple.com/us/album/who-the-f-ck-is-u-feat-b-free-take-one/1634523795?i=1634524805",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634524805"
-  },
-  {
-    "id": "applemusic-1634525157",
-    "name": "Success Crazed (feat. GRAY, Loco, Simon Dominic & Trinidad James)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/d0/5f/3a/d05f3a73-2f2d-a1f0-5176-1e2ac838d778/mzaf_5987385966458551456.plus.aac.p.m4a",
-    "duration": 293002,
-    "trackUrl": "https://music.apple.com/us/album/success-crazed-feat-gray-loco-simon-dominic-trinidad-james/1634523795?i=1634525157",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634525157"
-  },
-  {
-    "id": "applemusic-1634525172",
-    "name": "Nana (feat. Loco)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "EVOLUTION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/7c/b6/c8/7cb6c814-25e4-cb74-d445-aaf60933428c/mzaf_1057091096874085959.plus.aac.p.m4a",
-    "duration": 203329,
-    "trackUrl": "https://music.apple.com/us/album/nana-feat-loco/1634523795?i=1634525172",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/33/4b/07/334b0771-8615-8562-f31d-cd11410534af/8809380632304_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634525172"
-  },
-  {
     "id": "applemusic-1559642086",
     "name": "Us2",
     "artists": [
@@ -1950,19 +1924,6 @@
     "trackId": "1377059531"
   },
   {
-    "id": "applemusic-1553922102",
-    "name": "Promise (feat. Jay Park & Masiwei)",
-    "artists": [
-      "HARIKIRI"
-    ],
-    "album": "Promise (feat. Jay Park & Masiwei) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/84/3c/e8/843ce861-3005-a05e-6a7c-337d3e6de0a9/mzaf_8640809699365018524.plus.aac.p.m4a",
-    "duration": 207761,
-    "trackUrl": "https://music.apple.com/us/album/promise-feat-jay-park-masiwei/1553922101?i=1553922102",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/10/5b/46/105b46dc-1f96-c141-17e6-828dc813f56e/artwork.jpg/300x300bb.jpg",
-    "trackId": "1553922102"
-  },
-  {
     "id": "applemusic-1637788222",
     "name": "Tattoo (feat. Jay Park)",
     "artists": [
@@ -1974,6 +1935,19 @@
     "trackUrl": "https://music.apple.com/us/album/tattoo-feat-jay-park/1637788221?i=1637788222",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/8f/3c/02/8f3c022c-a71e-a62c-bfca-9ca5dff6871a/8809484117776_Cover.jpg/300x300bb.jpg",
     "trackId": "1637788222"
+  },
+  {
+    "id": "applemusic-1553922102",
+    "name": "Promise (feat. Jay Park & Masiwei)",
+    "artists": [
+      "HARIKIRI"
+    ],
+    "album": "Promise (feat. Jay Park & Masiwei) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/84/3c/e8/843ce861-3005-a05e-6a7c-337d3e6de0a9/mzaf_8640809699365018524.plus.aac.p.m4a",
+    "duration": 207761,
+    "trackUrl": "https://music.apple.com/us/album/promise-feat-jay-park-masiwei/1553922101?i=1553922102",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/10/5b/46/105b46dc-1f96-c141-17e6-828dc813f56e/artwork.jpg/300x300bb.jpg",
+    "trackId": "1553922102"
   },
   {
     "id": "applemusic-1490509086",
@@ -2041,19 +2015,6 @@
     "trackId": "1683059270"
   },
   {
-    "id": "applemusic-1815693739",
-    "name": "Keep It Sexy (MOMMAE 2) [feat. JEON SOMI]",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "Keep It Sexy (MOMMAE 2) [feat. JEON SOMI] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/e7/b0/95e7b048-5f2b-a963-74a5-b21e1c5e66f0/mzaf_15773435657406442179.plus.aac.p.m4a",
-    "duration": 152106,
-    "trackUrl": "https://music.apple.com/us/album/keep-it-sexy-mommae-2-feat-jeon-somi/1815693738?i=1815693739",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/d3/e1/cad3e137-4aea-b193-f0bc-f8c7e39cc088/cover_KM0022882_1.jpg/300x300bb.jpg",
-    "trackId": "1815693739"
-  },
-  {
     "id": "applemusic-1678659160",
     "name": "One Nation (feat. Plastic Kid)",
     "artists": [
@@ -2104,6 +2065,19 @@
     "trackUrl": "https://music.apple.com/us/album/baddest-nice-guys-feat-simon-dominic-dj-light-dj-wegun/1678659157?i=1678659288",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/24/4b/15/244b15d0-5645-a897-76b1-37738e9f7286/8809658315298_Cover.jpg/300x300bb.jpg",
     "trackId": "1678659288"
+  },
+  {
+    "id": "applemusic-1815693739",
+    "name": "Keep It Sexy (MOMMAE 2) [feat. JEON SOMI]",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": "Keep It Sexy (MOMMAE 2) [feat. JEON SOMI] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/e7/b0/95e7b048-5f2b-a963-74a5-b21e1c5e66f0/mzaf_15773435657406442179.plus.aac.p.m4a",
+    "duration": 152106,
+    "trackUrl": "https://music.apple.com/us/album/keep-it-sexy-mommae-2-feat-jeon-somi/1815693738?i=1815693739",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/d3/e1/cad3e137-4aea-b193-f0bc-f8c7e39cc088/cover_KM0022882_1.jpg/300x300bb.jpg",
+    "trackId": "1815693739"
   },
   {
     "id": "applemusic-1629390382",
@@ -2158,6 +2132,19 @@
     "trackId": "1614198002"
   },
   {
+    "id": "applemusic-1453177584",
+    "name": "With You (feat. Jay Park)",
+    "artists": [
+      "Twopee Southside"
+    ],
+    "album": "With You (feat. Jay Park) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/0c/36/260c3672-4136-0d1e-ef15-8acfb119872d/mzaf_15988988014595259983.plus.aac.p.m4a",
+    "duration": 219250,
+    "trackUrl": "https://music.apple.com/us/album/with-you-feat-jay-park/1453177582?i=1453177584",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b3/46/fd/b346fd8d-437e-5cda-102b-c320bd715851/cover.jpg/300x300bb.jpg",
+    "trackId": "1453177584"
+  },
+  {
     "id": "applemusic-1612426002",
     "name": "Trip",
     "artists": [
@@ -2182,32 +2169,6 @@
     "trackUrl": "https://music.apple.com/us/album/fake-feat-paul-blanco/1612425663?i=1612426008",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b3/31/d5/b331d5d2-5197-79bf-75b8-245f72c87d1d/888272076356_Cover.jpg/300x300bb.jpg",
     "trackId": "1612426008"
-  },
-  {
-    "id": "applemusic-1453177584",
-    "name": "With You (feat. Jay Park)",
-    "artists": [
-      "Twopee Southside"
-    ],
-    "album": "With You (feat. Jay Park) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/0c/36/260c3672-4136-0d1e-ef15-8acfb119872d/mzaf_15988988014595259983.plus.aac.p.m4a",
-    "duration": 219250,
-    "trackUrl": "https://music.apple.com/us/album/with-you-feat-jay-park/1453177582?i=1453177584",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b3/46/fd/b346fd8d-437e-5cda-102b-c320bd715851/cover.jpg/300x300bb.jpg",
-    "trackId": "1453177584"
-  },
-  {
-    "id": "applemusic-1759302131",
-    "name": "Xtra McNasty (feat. Jessi, Awich, MILLI, Ramengvrl, Lil Cherry, MIRANI, Maliibu Miitch & CAMO)",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "Xtra McNasty (feat. Jessi, Awich, MILLI, Ramengvrl, Lil Cherry, MIRANI, Maliibu Miitch & CAMO) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/bb/14/3dbb14d3-0d87-0a01-cda8-d84c023a05b9/mzaf_282667517398846802.plus.aac.p.m4a",
-    "duration": 367539,
-    "trackUrl": "https://music.apple.com/us/album/xtra-mcnasty-feat-jessi-awich-milli-ramengvrl-lil-cherry/1759302130?i=1759302131",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/21/46/a721468f-5351-d865-3f15-744ce5b565ab/cover_KM0020191_1.jpg/300x300bb.jpg",
-    "trackId": "1759302131"
   },
   {
     "id": "applemusic-1651555066",
@@ -2286,6 +2247,45 @@
     "trackUrl": "https://music.apple.com/us/album/our-lives-feat-jay-park-ugly-duck/1151346179?i=1151346280",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/7a/82/0a/7a820a97-604a-070d-4eeb-972e01bc69ed/546876854121321.jpg/300x300bb.jpg",
     "trackId": "1151346280"
+  },
+  {
+    "id": "applemusic-1785555152",
+    "name": "Merry Merry Christmas :)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": ";( Merry Christmas :) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/0d/cd/0f0dcdcd-d117-0a47-261d-579c3c550934/mzaf_6257317343359004806.plus.aac.p.m4a",
+    "duration": 155027,
+    "trackUrl": "https://music.apple.com/us/album/merry-merry-christmas/1785555151?i=1785555152",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/37/b5/1c37b54d-e162-15ac-5714-8f16d1d862d9/cover_KM0020780_1.jpg/300x300bb.jpg",
+    "trackId": "1785555152"
+  },
+  {
+    "id": "applemusic-1785555153",
+    "name": "Lonely Christmas ;(",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": ";( Merry Christmas :) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/08/a8/2908a807-84b6-287f-0304-4ad738b06182/mzaf_13999546439557138016.plus.aac.p.m4a",
+    "duration": 208200,
+    "trackUrl": "https://music.apple.com/us/album/lonely-christmas/1785555151?i=1785555153",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/37/b5/1c37b54d-e162-15ac-5714-8f16d1d862d9/cover_KM0020780_1.jpg/300x300bb.jpg",
+    "trackId": "1785555153"
+  },
+  {
+    "id": "applemusic-1785555155",
+    "name": "Lonely Christmas ;( (Sped Up)",
+    "artists": [
+      "Jay Park"
+    ],
+    "album": ";( Merry Christmas :) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/a5/e0/0fa5e021-a8d8-eb2d-699e-79b81bc7ff83/mzaf_5968572226675684332.plus.aac.p.m4a",
+    "duration": 160293,
+    "trackUrl": "https://music.apple.com/us/album/lonely-christmas-sped-up/1785555151?i=1785555155",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/37/b5/1c37b54d-e162-15ac-5714-8f16d1d862d9/cover_KM0020780_1.jpg/300x300bb.jpg",
+    "trackId": "1785555155"
   },
   {
     "id": "applemusic-1521633989",
@@ -2379,19 +2379,6 @@
     "trackId": "1678672841"
   },
   {
-    "id": "applemusic-1706107903",
-    "name": "Raw Sh!t",
-    "artists": [
-      "Jay Park"
-    ],
-    "album": "Raw Sh!t - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b8/f5/45/b8f545a5-1417-e160-fcff-51639793fdca/mzaf_8308876418891845467.plus.aac.p.m4a",
-    "duration": 176616,
-    "trackUrl": "https://music.apple.com/us/album/raw-sh-t/1706107892?i=1706107903",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/90/ee/ef/90eeefee-c074-4d13-1919-7860cab608a2/8809380635435_Cover.jpg/300x300bb.jpg",
-    "trackId": "1706107903"
-  },
-  {
     "id": "applemusic-1605941757",
     "name": "Summer (feat. Jay Park)",
     "artists": [
@@ -2442,45 +2429,6 @@
     "trackUrl": "https://music.apple.com/jp/album/remedy/1826668773?i=1826668774",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/17/b2/e9/17b2e935-09f4-edc1-eff9-c050cb25a3cb/cover_KM0023180_1.jpg/300x300bb.jpg",
     "trackId": "1826668774"
-  },
-  {
-    "id": "applemusic-1785555152",
-    "name": "Merry Merry Christmas :)",
-    "artists": [
-      "ジェイ・パーク"
-    ],
-    "album": ";( Merry Christmas :) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/0d/cd/0f0dcdcd-d117-0a47-261d-579c3c550934/mzaf_6257317343359004806.plus.aac.p.m4a",
-    "duration": 155027,
-    "trackUrl": "https://music.apple.com/jp/album/merry-merry-christmas/1785555151?i=1785555152",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/37/b5/1c37b54d-e162-15ac-5714-8f16d1d862d9/cover_KM0020780_1.jpg/300x300bb.jpg",
-    "trackId": "1785555152"
-  },
-  {
-    "id": "applemusic-1785555153",
-    "name": "Lonely Christmas ;(",
-    "artists": [
-      "ジェイ・パーク"
-    ],
-    "album": ";( Merry Christmas :) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/08/a8/2908a807-84b6-287f-0304-4ad738b06182/mzaf_13999546439557138016.plus.aac.p.m4a",
-    "duration": 208200,
-    "trackUrl": "https://music.apple.com/jp/album/lonely-christmas/1785555151?i=1785555153",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/37/b5/1c37b54d-e162-15ac-5714-8f16d1d862d9/cover_KM0020780_1.jpg/300x300bb.jpg",
-    "trackId": "1785555153"
-  },
-  {
-    "id": "applemusic-1785555155",
-    "name": "Lonely Christmas ;( (Sped Up)",
-    "artists": [
-      "ジェイ・パーク"
-    ],
-    "album": ";( Merry Christmas :) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0f/a5/e0/0fa5e021-a8d8-eb2d-699e-79b81bc7ff83/mzaf_5968572226675684332.plus.aac.p.m4a",
-    "duration": 160293,
-    "trackUrl": "https://music.apple.com/jp/album/lonely-christmas-sped-up/1785555151?i=1785555155",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1c/37/b5/1c37b54d-e162-15ac-5714-8f16d1d862d9/cover_KM0020780_1.jpg/300x300bb.jpg",
-    "trackId": "1785555155"
   },
   {
     "id": "applemusic-1756333919",

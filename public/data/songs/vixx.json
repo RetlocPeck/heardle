@@ -195,6 +195,149 @@
     "trackId": "1523264620"
   },
   {
+    "id": "applemusic-1523273029",
+    "name": "PARALLEL",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "PARALLEL - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/df/b8/f1/dfb8f1da-dac3-25a3-27b9-bebe9b7a1a4b/mzaf_8964343469493088195.plus.aac.p.m4a",
+    "duration": 213507,
+    "trackUrl": "https://music.apple.com/us/album/parallel/1523273028?i=1523273029",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/20/60/b02060b5-8545-3737-6855-c0028a0bde04/1.jpg/300x300bb.jpg",
+    "trackId": "1523273029"
+  },
+  {
+    "id": "applemusic-1523271153",
+    "name": "Milky Way",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/70/0a/36700a68-50f2-fc80-2330-5131030dbd9b/mzaf_1883684753916078982.plus.aac.p.m4a",
+    "duration": 202937,
+    "trackUrl": "https://music.apple.com/us/album/milky-way/1523271151?i=1523271153",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271153"
+  },
+  {
+    "id": "applemusic-1523271154",
+    "name": "Dynamite",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/20/1f/6a/201f6acf-5ebc-3c33-e07b-18f6b3357120/mzaf_2455796991940114652.plus.aac.p.m4a",
+    "duration": 210485,
+    "trackUrl": "https://music.apple.com/us/album/dynamite/1523271151?i=1523271154",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271154"
+  },
+  {
+    "id": "applemusic-1523271155",
+    "name": "Six Feet Under",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/1d/42/df1d42be-8390-7c8c-1ad5-e59cce6dd51b/mzaf_1196242248895403672.plus.aac.p.m4a",
+    "duration": 175173,
+    "trackUrl": "https://music.apple.com/us/album/six-feet-under/1523271151?i=1523271155",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271155"
+  },
+  {
+    "id": "applemusic-1523271337",
+    "name": "Fantasy",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/00/3d/20/003d2095-68c9-63f8-3cfe-3637e322dc54/mzaf_11056230741698213548.plus.aac.p.m4a",
+    "duration": 208645,
+    "trackUrl": "https://music.apple.com/us/album/fantasy/1523271151?i=1523271337",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271337"
+  },
+  {
+    "id": "applemusic-1523271338",
+    "name": "Love Me Do",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/dd/31/cfdd3141-4b3a-3542-0728-6891e4a19357/mzaf_1912976844222353565.plus.aac.p.m4a",
+    "duration": 230615,
+    "trackUrl": "https://music.apple.com/us/album/love-me-do/1523271151?i=1523271338",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271338"
+  },
+  {
+    "id": "applemusic-1523271340",
+    "name": "The Closer",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/76/cc/b676cc65-c3e0-339c-e88e-0bcbcb565744/mzaf_16847460217229671672.plus.aac.p.m4a",
+    "duration": 225393,
+    "trackUrl": "https://music.apple.com/us/album/the-closer/1523271151?i=1523271340",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271340"
+  },
+  {
+    "id": "applemusic-1523271341",
+    "name": "Desperate",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/99/3e/a2993e7d-598d-86aa-3f0f-28f1f7382656/mzaf_5790338077187590895.plus.aac.p.m4a",
+    "duration": 211050,
+    "trackUrl": "https://music.apple.com/us/album/desperate/1523271151?i=1523271341",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271341"
+  },
+  {
+    "id": "applemusic-1523271342",
+    "name": "Shooting Star",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/d9/08/5ad9085d-04d9-d66c-1d1b-ec79affdcf57/mzaf_4030344665728541522.plus.aac.p.m4a",
+    "duration": 208769,
+    "trackUrl": "https://music.apple.com/us/album/shooting-star/1523271151?i=1523271342",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271342"
+  },
+  {
+    "id": "applemusic-1523271344",
+    "name": "Good Night & Good Morning",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/40/d3/fa40d352-589a-7025-7833-40fe7017a270/mzaf_5340737420903011006.plus.aac.p.m4a",
+    "duration": 197612,
+    "trackUrl": "https://music.apple.com/us/album/good-night-good-morning/1523271151?i=1523271344",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271344"
+  },
+  {
+    "id": "applemusic-1523271345",
+    "name": "The Romance Is Over",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "VIXX 2016 CONCEPTION KER Special Package",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/90/fc/3a90fca7-0b3e-149c-aeec-9b02f2dfd850/mzaf_9066230349768623270.plus.aac.p.m4a",
+    "duration": 221446,
+    "trackUrl": "https://music.apple.com/us/album/the-romance-is-over/1523271151?i=1523271345",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
+    "trackId": "1523271345"
+  },
+  {
     "id": "applemusic-1523269435",
     "name": "Voodoo",
     "artists": [
@@ -377,149 +520,6 @@
     "trackId": "1523269538"
   },
   {
-    "id": "applemusic-1523273029",
-    "name": "PARALLEL",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "PARALLEL - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/df/b8/f1/dfb8f1da-dac3-25a3-27b9-bebe9b7a1a4b/mzaf_8964343469493088195.plus.aac.p.m4a",
-    "duration": 213507,
-    "trackUrl": "https://music.apple.com/us/album/parallel/1523273028?i=1523273029",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b0/20/60/b02060b5-8545-3737-6855-c0028a0bde04/1.jpg/300x300bb.jpg",
-    "trackId": "1523273029"
-  },
-  {
-    "id": "applemusic-1523271153",
-    "name": "Milky Way",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/36/70/0a/36700a68-50f2-fc80-2330-5131030dbd9b/mzaf_1883684753916078982.plus.aac.p.m4a",
-    "duration": 202937,
-    "trackUrl": "https://music.apple.com/us/album/milky-way/1523271151?i=1523271153",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271153"
-  },
-  {
-    "id": "applemusic-1523271154",
-    "name": "Dynamite",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/20/1f/6a/201f6acf-5ebc-3c33-e07b-18f6b3357120/mzaf_2455796991940114652.plus.aac.p.m4a",
-    "duration": 210485,
-    "trackUrl": "https://music.apple.com/us/album/dynamite/1523271151?i=1523271154",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271154"
-  },
-  {
-    "id": "applemusic-1523271155",
-    "name": "Six Feet Under",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/df/1d/42/df1d42be-8390-7c8c-1ad5-e59cce6dd51b/mzaf_1196242248895403672.plus.aac.p.m4a",
-    "duration": 175173,
-    "trackUrl": "https://music.apple.com/us/album/six-feet-under/1523271151?i=1523271155",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271155"
-  },
-  {
-    "id": "applemusic-1523271337",
-    "name": "Fantasy",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/00/3d/20/003d2095-68c9-63f8-3cfe-3637e322dc54/mzaf_11056230741698213548.plus.aac.p.m4a",
-    "duration": 208645,
-    "trackUrl": "https://music.apple.com/us/album/fantasy/1523271151?i=1523271337",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271337"
-  },
-  {
-    "id": "applemusic-1523271338",
-    "name": "Love Me Do",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cf/dd/31/cfdd3141-4b3a-3542-0728-6891e4a19357/mzaf_1912976844222353565.plus.aac.p.m4a",
-    "duration": 230615,
-    "trackUrl": "https://music.apple.com/us/album/love-me-do/1523271151?i=1523271338",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271338"
-  },
-  {
-    "id": "applemusic-1523271340",
-    "name": "The Closer",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/76/cc/b676cc65-c3e0-339c-e88e-0bcbcb565744/mzaf_16847460217229671672.plus.aac.p.m4a",
-    "duration": 225393,
-    "trackUrl": "https://music.apple.com/us/album/the-closer/1523271151?i=1523271340",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271340"
-  },
-  {
-    "id": "applemusic-1523271341",
-    "name": "Desperate",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/99/3e/a2993e7d-598d-86aa-3f0f-28f1f7382656/mzaf_5790338077187590895.plus.aac.p.m4a",
-    "duration": 211050,
-    "trackUrl": "https://music.apple.com/us/album/desperate/1523271151?i=1523271341",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271341"
-  },
-  {
-    "id": "applemusic-1523271342",
-    "name": "Shooting Star",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/d9/08/5ad9085d-04d9-d66c-1d1b-ec79affdcf57/mzaf_4030344665728541522.plus.aac.p.m4a",
-    "duration": 208769,
-    "trackUrl": "https://music.apple.com/us/album/shooting-star/1523271151?i=1523271342",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271342"
-  },
-  {
-    "id": "applemusic-1523271344",
-    "name": "Good Night & Good Morning",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/40/d3/fa40d352-589a-7025-7833-40fe7017a270/mzaf_5340737420903011006.plus.aac.p.m4a",
-    "duration": 197612,
-    "trackUrl": "https://music.apple.com/us/album/good-night-good-morning/1523271151?i=1523271344",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271344"
-  },
-  {
-    "id": "applemusic-1523271345",
-    "name": "The Romance Is Over",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "VIXX 2016 CONCEPTION KER Special Package",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/90/fc/3a90fca7-0b3e-149c-aeec-9b02f2dfd850/mzaf_9066230349768623270.plus.aac.p.m4a",
-    "duration": 221446,
-    "trackUrl": "https://music.apple.com/us/album/the-romance-is-over/1523271151?i=1523271345",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/15/c7/26/15c72612-4026-c35d-ddb0-2bc0088af617/2.jpg/300x300bb.jpg",
-    "trackId": "1523271345"
-  },
-  {
     "id": "applemusic-1527031000",
     "name": "Butterfly Effect",
     "artists": [
@@ -557,71 +557,6 @@
     "trackUrl": "https://music.apple.com/us/album/badbye/1527029549?i=1527029552",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1b/97/23/1b97236e-b4d3-8e4b-b0f0-ab030cc7f478/39._Zelos.jpg/300x300bb.jpg",
     "trackId": "1527029552"
-  },
-  {
-    "id": "applemusic-1435857810",
-    "name": "Reincarnation",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "Reincarnation",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/07/2a/9e072aff-bf2f-c363-3d36-6746905bf40a/mzaf_8722292625406062304.plus.aac.p.m4a",
-    "duration": 186267,
-    "trackUrl": "https://music.apple.com/us/album/reincarnation/1435857804?i=1435857810",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
-    "trackId": "1435857810"
-  },
-  {
-    "id": "applemusic-1435857818",
-    "name": "Sugar",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "Reincarnation",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/c4/aa/8dc4aa7e-f782-7652-25f5-66d0cc2d7fc6/mzaf_15222787146554697953.plus.aac.p.m4a",
-    "duration": 246067,
-    "trackUrl": "https://music.apple.com/us/album/sugar/1435857804?i=1435857818",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
-    "trackId": "1435857818"
-  },
-  {
-    "id": "applemusic-1435857820",
-    "name": "Last Note",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "Reincarnation",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/b7/d4/32b7d4ac-ae43-28b2-6a5c-a543b1b3577f/mzaf_335283447620885182.plus.aac.p.m4a",
-    "duration": 243933,
-    "trackUrl": "https://music.apple.com/us/album/last-note/1435857804?i=1435857820",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
-    "trackId": "1435857820"
-  },
-  {
-    "id": "applemusic-1435858131",
-    "name": "But Not For Me",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "Reincarnation",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/f0/f3/4cf0f3a8-780d-c3da-15e7-b4a87722fa12/mzaf_10143106750666719657.plus.aac.p.m4a",
-    "duration": 266133,
-    "trackUrl": "https://music.apple.com/us/album/but-not-for-me/1435857804?i=1435858131",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
-    "trackId": "1435858131"
-  },
-  {
-    "id": "applemusic-1435858133",
-    "name": "The Rain",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "Reincarnation",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/86/e6/0786e659-c76f-6e1e-2c30-4fa078861a59/mzaf_12079512995872665217.plus.aac.p.m4a",
-    "duration": 240533,
-    "trackUrl": "https://music.apple.com/us/album/the-rain/1435857804?i=1435858133",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
-    "trackId": "1435858133"
   },
   {
     "id": "applemusic-1527028116",
@@ -715,6 +650,71 @@
     "trackId": "1527028123"
   },
   {
+    "id": "applemusic-1435857810",
+    "name": "Reincarnation",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "Reincarnation",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/07/2a/9e072aff-bf2f-c363-3d36-6746905bf40a/mzaf_8722292625406062304.plus.aac.p.m4a",
+    "duration": 186267,
+    "trackUrl": "https://music.apple.com/us/album/reincarnation/1435857804?i=1435857810",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
+    "trackId": "1435857810"
+  },
+  {
+    "id": "applemusic-1435857818",
+    "name": "Sugar",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "Reincarnation",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/c4/aa/8dc4aa7e-f782-7652-25f5-66d0cc2d7fc6/mzaf_15222787146554697953.plus.aac.p.m4a",
+    "duration": 246067,
+    "trackUrl": "https://music.apple.com/us/album/sugar/1435857804?i=1435857818",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
+    "trackId": "1435857818"
+  },
+  {
+    "id": "applemusic-1435857820",
+    "name": "Last Note",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "Reincarnation",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/b7/d4/32b7d4ac-ae43-28b2-6a5c-a543b1b3577f/mzaf_335283447620885182.plus.aac.p.m4a",
+    "duration": 243933,
+    "trackUrl": "https://music.apple.com/us/album/last-note/1435857804?i=1435857820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
+    "trackId": "1435857820"
+  },
+  {
+    "id": "applemusic-1435858131",
+    "name": "But Not For Me",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "Reincarnation",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/f0/f3/4cf0f3a8-780d-c3da-15e7-b4a87722fa12/mzaf_10143106750666719657.plus.aac.p.m4a",
+    "duration": 266133,
+    "trackUrl": "https://music.apple.com/us/album/but-not-for-me/1435857804?i=1435858131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
+    "trackId": "1435858131"
+  },
+  {
+    "id": "applemusic-1435858133",
+    "name": "The Rain",
+    "artists": [
+      "VIXX"
+    ],
+    "album": "Reincarnation",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/86/e6/0786e659-c76f-6e1e-2c30-4fa078861a59/mzaf_12079512995872665217.plus.aac.p.m4a",
+    "duration": 240533,
+    "trackUrl": "https://music.apple.com/us/album/the-rain/1435857804?i=1435858133",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3f/4f/c1/3f4fc1ef-1333-4e8d-81a7-f744225f042f/VICL-65045.jpg/300x300bb.jpg",
+    "trackId": "1435858133"
+  },
+  {
     "id": "applemusic-1523396959",
     "name": "Steel Heart",
     "artists": [
@@ -791,19 +791,6 @@
     "trackUrl": "https://music.apple.com/us/album/what-u-waiting-for/1523396958?i=1523396964",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/28/cd/e6/28cde695-71cd-1d2e-6131-9e1ea57cd709/1.jpg/300x300bb.jpg",
     "trackId": "1523396964"
-  },
-  {
-    "id": "applemusic-1523271713",
-    "name": "Mistress (Intro)",
-    "artists": [
-      "VIXX"
-    ],
-    "album": "Chained Up",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/af/9c/37af9cde-1acb-e930-205b-7cdba0f4106b/mzaf_6799025494771201877.plus.aac.p.m4a",
-    "duration": 71259,
-    "trackUrl": "https://music.apple.com/us/album/mistress-intro/1523271712?i=1523271713",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0b/0f/b6/0b0fb651-49e4-82f9-ed0c-26f0cb0a11ef/1.jpg/300x300bb.jpg",
-    "trackId": "1523271713"
   },
   {
     "id": "applemusic-1523271714",

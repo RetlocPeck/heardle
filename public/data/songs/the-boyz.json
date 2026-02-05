@@ -1,5 +1,83 @@
 [
   {
+    "id": "applemusic-1671747356",
+    "name": "Awake",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/ec/6d/8bec6d9c-23bd-4f67-8f19-55321035a93c/mzaf_13424093849127600052.plus.aac.p.m4a",
+    "duration": 137960,
+    "trackUrl": "https://music.apple.com/us/album/awake/1671747355?i=1671747356",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
+    "trackId": "1671747356"
+  },
+  {
+    "id": "applemusic-1671747357",
+    "name": "ROAR",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/36/23/5a/36235a7f-91e2-7bb3-7518-8cc44417bb54/mzaf_16847866578966408020.plus.aac.p.m4a",
+    "duration": 220107,
+    "trackUrl": "https://music.apple.com/us/album/roar/1671747355?i=1671747357",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
+    "trackId": "1671747357"
+  },
+  {
+    "id": "applemusic-1671747358",
+    "name": "Blah Blah",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3e/be/b7/3ebeb740-fe15-5c40-b01a-d899da9f5c0f/mzaf_16088086732097200734.plus.aac.p.m4a",
+    "duration": 172733,
+    "trackUrl": "https://music.apple.com/us/album/blah-blah/1671747355?i=1671747358",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
+    "trackId": "1671747358"
+  },
+  {
+    "id": "applemusic-1671747359",
+    "name": "Savior",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a0/83/f4/a083f426-f216-3584-4d4f-8b261ee982d6/mzaf_9560599908485008076.plus.aac.p.m4a",
+    "duration": 246573,
+    "trackUrl": "https://music.apple.com/us/album/savior/1671747355?i=1671747359",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
+    "trackId": "1671747359"
+  },
+  {
+    "id": "applemusic-1671747360",
+    "name": "Horizon",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/da/0c/92/da0c9265-da87-8099-e65b-2ed22beb39dd/mzaf_11387523079406279532.plus.aac.p.m4a",
+    "duration": 210413,
+    "trackUrl": "https://music.apple.com/us/album/horizon/1671747355?i=1671747360",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
+    "trackId": "1671747360"
+  },
+  {
+    "id": "applemusic-1671747361",
+    "name": "Diamond Life",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d1/69/61/d1696150-8876-4f17-2ac6-c8b398fb3dd1/mzaf_216342765992001641.plus.aac.p.m4a",
+    "duration": 206600,
+    "trackUrl": "https://music.apple.com/us/album/diamond-life/1671747355?i=1671747361",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
+    "trackId": "1671747361"
+  },
+  {
     "id": "applemusic-1497852252",
     "name": "Ego",
     "artists": [
@@ -115,97 +193,6 @@
     "trackUrl": "https://music.apple.com/us/album/spring-snow/1497852251?i=1497852260",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7d/e7/42/7de742d4-48b8-0275-701e-e5eb517859d5/F_REVEAL_cover_3000_3000.jpg/300x300bb.jpg",
     "trackId": "1497852260"
-  },
-  {
-    "id": "applemusic-1532013226",
-    "name": "Shine Shine",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/2f/a0/8e2fa0dc-0a39-add3-3bd4-8841a474fba1/mzaf_10044126274614885015.plus.aac.p.m4a",
-    "duration": 215106,
-    "trackUrl": "https://music.apple.com/us/album/shine-shine/1532013225?i=1532013226",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1532013226"
-  },
-  {
-    "id": "applemusic-1532013227",
-    "name": "The Stealer",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/58/38/6b5838b7-0dc7-af04-44aa-05435416cc64/mzaf_17578672994914729249.plus.aac.p.m4a",
-    "duration": 210938,
-    "trackUrl": "https://music.apple.com/us/album/the-stealer/1532013225?i=1532013227",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1532013227"
-  },
-  {
-    "id": "applemusic-1532013228",
-    "name": "Insanity",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/54/cd/6254cd17-5052-b7ce-9daf-a3436267a789/mzaf_10127757782668348696.plus.aac.p.m4a",
-    "duration": 232903,
-    "trackUrl": "https://music.apple.com/us/album/insanity/1532013225?i=1532013228",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1532013228"
-  },
-  {
-    "id": "applemusic-1532013229",
-    "name": "Whiplash",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/38/e8/fd38e81e-ef86-d1f5-5c21-b592f16cf040/mzaf_1781704748510932304.plus.aac.p.m4a",
-    "duration": 201966,
-    "trackUrl": "https://music.apple.com/us/album/whiplash/1532013225?i=1532013229",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1532013229"
-  },
-  {
-    "id": "applemusic-1532013230",
-    "name": "Make or Break",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/10/32/891032f3-74cc-4166-8ca3-1317764b21f9/mzaf_4164538953204280404.plus.aac.p.m4a",
-    "duration": 205291,
-    "trackUrl": "https://music.apple.com/us/album/make-or-break/1532013225?i=1532013230",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1532013230"
-  },
-  {
-    "id": "applemusic-1532013231",
-    "name": "CHECKMATE (Stage Version)",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/5e/3e/ed5e3eed-b01f-2bcb-02c2-166489e06ffa/mzaf_1653936145238684712.plus.aac.p.m4a",
-    "duration": 211936,
-    "trackUrl": "https://music.apple.com/us/album/checkmate-stage-version/1532013225?i=1532013231",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1532013231"
-  },
-  {
-    "id": "applemusic-1321824020",
-    "name": "Intro",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ Debut Album 'The First' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/ac/c5/aeacc57c-a33f-d2a3-67ea-5a9c2e845541/mzaf_5355424109713622378.plus.aac.p.m4a",
-    "duration": 39276,
-    "trackUrl": "https://music.apple.com/us/album/intro/1321824011?i=1321824020",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/34/2e/29/342e2947-a59e-eda3-bf90-6d01fa697141/cover_KM0005812_1.jpg/300x300bb.jpg",
-    "trackId": "1321824020"
   },
   {
     "id": "applemusic-1321824021",
@@ -338,201 +325,6 @@
     "trackId": "1367395841"
   },
   {
-    "id": "applemusic-1579843211",
-    "name": "THRILL RIDE",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/5f/dd/9b5fdd81-c78d-3340-e104-f46753329044/mzaf_4230716477837418601.plus.aac.p.m4a",
-    "duration": 196333,
-    "trackUrl": "https://music.apple.com/us/album/thrill-ride/1579843208?i=1579843211",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
-    "trackId": "1579843211"
-  },
-  {
-    "id": "applemusic-1579843229",
-    "name": "Out Of Control",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/c5/a4/11c5a449-1fb9-38a2-b9ef-d3f3d345aa99/mzaf_3293511864674923301.plus.aac.p.m4a",
-    "duration": 215667,
-    "trackUrl": "https://music.apple.com/us/album/out-of-control/1579843208?i=1579843229",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
-    "trackId": "1579843229"
-  },
-  {
-    "id": "applemusic-1579843230",
-    "name": "Dancing Till We Drop",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/be/b8/d6beb855-3b19-0c2f-8b90-96efd6b8a58c/mzaf_3505193858225221983.plus.aac.p.m4a",
-    "duration": 215813,
-    "trackUrl": "https://music.apple.com/us/album/dancing-till-we-drop/1579843208?i=1579843230",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
-    "trackId": "1579843230"
-  },
-  {
-    "id": "applemusic-1579843231",
-    "name": "Nightmares",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/5a/ce/935ace1f-a2ed-0897-8ff2-9e830713d9c7/mzaf_6628993502154889114.plus.aac.p.m4a",
-    "duration": 183680,
-    "trackUrl": "https://music.apple.com/us/album/nightmares/1579843208?i=1579843231",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
-    "trackId": "1579843231"
-  },
-  {
-    "id": "applemusic-1579843232",
-    "name": "Merry Bad Ending",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/49/37/1049372d-eadd-96ae-b09e-fc71aeb04602/mzaf_3155821276807660399.plus.aac.p.m4a",
-    "duration": 203147,
-    "trackUrl": "https://music.apple.com/us/album/merry-bad-ending/1579843208?i=1579843232",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
-    "trackId": "1579843232"
-  },
-  {
-    "id": "applemusic-1557494755",
-    "name": "PRISM",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/04/09/26/04092662-d9e4-4076-8966-f83d1b00172e/mzaf_16524838446130143207.plus.aac.p.m4a",
-    "duration": 201893,
-    "trackUrl": "https://music.apple.com/us/album/prism/1557493862?i=1557494755",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557494755"
-  },
-  {
-    "id": "applemusic-1557494980",
-    "name": "EINSTEIN",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/6d/21/89/6d21891a-7773-83ed-a145-b5748a23de3a/mzaf_14341732097565371342.plus.aac.p.m4a",
-    "duration": 188280,
-    "trackUrl": "https://music.apple.com/us/album/einstein/1557493862?i=1557494980",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557494980"
-  },
-  {
-    "id": "applemusic-1557495406",
-    "name": "Breaking Dawn",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/12/43/b5/1243b5de-c9aa-7e54-6cc2-7d37ffe994a3/mzaf_14569956392602450545.plus.aac.p.m4a",
-    "duration": 197493,
-    "trackUrl": "https://music.apple.com/us/album/breaking-dawn/1557493862?i=1557495406",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557495406"
-  },
-  {
-    "id": "applemusic-1557495424",
-    "name": "FLAG",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/2a/23/75/2a237531-723e-45bb-d333-f9bbb4bf7207/mzaf_4725380960723627768.plus.aac.p.m4a",
-    "duration": 235133,
-    "trackUrl": "https://music.apple.com/us/album/flag/1557493862?i=1557495424",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557495424"
-  },
-  {
-    "id": "applemusic-1557495616",
-    "name": "Penalty",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/85/08/9b/85089b4a-dcc4-4b71-8f6b-440d488b5925/mzaf_945159733017429915.plus.aac.p.m4a",
-    "duration": 182200,
-    "trackUrl": "https://music.apple.com/us/album/penalty/1557493862?i=1557495616",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557495616"
-  },
-  {
-    "id": "applemusic-1557496000",
-    "name": "Kiss Me If You Can",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/8b/ee/64/8bee64e0-fb08-b267-04f5-3dee593a6031/mzaf_16031526772561573799.plus.aac.p.m4a",
-    "duration": 209960,
-    "trackUrl": "https://music.apple.com/us/album/kiss-me-if-you-can/1557493862?i=1557496000",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557496000"
-  },
-  {
-    "id": "applemusic-1557496210",
-    "name": "HUSH",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/48/50/d7/4850d74f-261c-8988-977a-8246f39716ee/mzaf_1264685838522306617.plus.aac.p.m4a",
-    "duration": 189720,
-    "trackUrl": "https://music.apple.com/us/album/hush/1557493862?i=1557496210",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557496210"
-  },
-  {
-    "id": "applemusic-1557496223",
-    "name": "Closer",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Breaking Dawn",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/c5/92/d5/c592d54a-a32f-2d20-6145-2a4c1ac87b7a/mzaf_14376603822284382408.plus.aac.p.m4a",
-    "duration": 201667,
-    "trackUrl": "https://music.apple.com/us/album/closer/1557493862?i=1557496223",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
-    "trackId": "1557496223"
-  },
-  {
-    "id": "applemusic-1705659792",
-    "name": "Drink It",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Drink It - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/52/a0/49/52a0494e-06a3-c462-2503-cc68125b7176/mzaf_8233792965940142848.plus.aac.p.m4a",
-    "duration": 206947,
-    "trackUrl": "https://music.apple.com/us/album/drink-it/1705659791?i=1705659792",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4c/7b/6d/4c7b6dbc-4e48-acf2-d7c0-251656306e48/888272122763.jpg/300x300bb.jpg",
-    "trackId": "1705659792"
-  },
-  {
-    "id": "applemusic-1411246962",
-    "name": "Keeper",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Keeper - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8a/87/98/8a879810-561b-0eec-d7be-766012223525/mzaf_13613203183720114199.plus.aac.p.m4a",
-    "duration": 200704,
-    "trackUrl": "https://music.apple.com/us/album/keeper/1411246723?i=1411246962",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6f/2a/af/6f2aaf75-05b3-9877-0f08-ebbd909c2d55/cover-_DS.jpg/300x300bb.jpg",
-    "trackId": "1411246962"
-  },
-  {
     "id": "applemusic-1444996042",
     "name": "Breath to Breath",
     "artists": [
@@ -598,6 +390,175 @@
     "trackId": "1444996047"
   },
   {
+    "id": "applemusic-1579843211",
+    "name": "THRILL RIDE",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/5f/dd/9b5fdd81-c78d-3340-e104-f46753329044/mzaf_4230716477837418601.plus.aac.p.m4a",
+    "duration": 196333,
+    "trackUrl": "https://music.apple.com/us/album/thrill-ride/1579843208?i=1579843211",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
+    "trackId": "1579843211"
+  },
+  {
+    "id": "applemusic-1579843229",
+    "name": "Out Of Control",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/c5/a4/11c5a449-1fb9-38a2-b9ef-d3f3d345aa99/mzaf_3293511864674923301.plus.aac.p.m4a",
+    "duration": 215667,
+    "trackUrl": "https://music.apple.com/us/album/out-of-control/1579843208?i=1579843229",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
+    "trackId": "1579843229"
+  },
+  {
+    "id": "applemusic-1579843230",
+    "name": "Dancing Till We Drop",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/be/b8/d6beb855-3b19-0c2f-8b90-96efd6b8a58c/mzaf_3505193858225221983.plus.aac.p.m4a",
+    "duration": 215813,
+    "trackUrl": "https://music.apple.com/us/album/dancing-till-we-drop/1579843208?i=1579843230",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
+    "trackId": "1579843230"
+  },
+  {
+    "id": "applemusic-1579843231",
+    "name": "Nightmares",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/93/5a/ce/935ace1f-a2ed-0897-8ff2-9e830713d9c7/mzaf_6628993502154889114.plus.aac.p.m4a",
+    "duration": 183680,
+    "trackUrl": "https://music.apple.com/us/album/nightmares/1579843208?i=1579843231",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
+    "trackId": "1579843231"
+  },
+  {
+    "id": "applemusic-1579843232",
+    "name": "Merry Bad Ending",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 6TH MINI ALBUM [THRILL-ING] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/49/37/1049372d-eadd-96ae-b09e-fc71aeb04602/mzaf_3155821276807660399.plus.aac.p.m4a",
+    "duration": 203147,
+    "trackUrl": "https://music.apple.com/us/album/merry-bad-ending/1579843208?i=1579843232",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2b/2e/1f/2b2e1fbc-121b-d19b-e6c8-fde4754600c6/thrill-ing_cover_final.jpg/300x300bb.jpg",
+    "trackId": "1579843232"
+  },
+  {
+    "id": "applemusic-1532013226",
+    "name": "Shine Shine",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/2f/a0/8e2fa0dc-0a39-add3-3bd4-8841a474fba1/mzaf_10044126274614885015.plus.aac.p.m4a",
+    "duration": 215106,
+    "trackUrl": "https://music.apple.com/us/album/shine-shine/1532013225?i=1532013226",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1532013226"
+  },
+  {
+    "id": "applemusic-1532013227",
+    "name": "The Stealer",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6b/58/38/6b5838b7-0dc7-af04-44aa-05435416cc64/mzaf_17578672994914729249.plus.aac.p.m4a",
+    "duration": 210938,
+    "trackUrl": "https://music.apple.com/us/album/the-stealer/1532013225?i=1532013227",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1532013227"
+  },
+  {
+    "id": "applemusic-1532013228",
+    "name": "Insanity",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/54/cd/6254cd17-5052-b7ce-9daf-a3436267a789/mzaf_10127757782668348696.plus.aac.p.m4a",
+    "duration": 232903,
+    "trackUrl": "https://music.apple.com/us/album/insanity/1532013225?i=1532013228",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1532013228"
+  },
+  {
+    "id": "applemusic-1532013229",
+    "name": "Whiplash",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/38/e8/fd38e81e-ef86-d1f5-5c21-b592f16cf040/mzaf_1781704748510932304.plus.aac.p.m4a",
+    "duration": 201966,
+    "trackUrl": "https://music.apple.com/us/album/whiplash/1532013225?i=1532013229",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1532013229"
+  },
+  {
+    "id": "applemusic-1532013230",
+    "name": "Make or Break",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 5th MINI ALBUM [CHASE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/10/32/891032f3-74cc-4166-8ca3-1317764b21f9/mzaf_4164538953204280404.plus.aac.p.m4a",
+    "duration": 205291,
+    "trackUrl": "https://music.apple.com/us/album/make-or-break/1532013225?i=1532013230",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/9f/82/299f8291-010a-2fb7-74fc-6ca5c85d9936/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1532013230"
+  },
+  {
+    "id": "applemusic-1705659792",
+    "name": "Drink It",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Drink It - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/52/a0/49/52a0494e-06a3-c462-2503-cc68125b7176/mzaf_8233792965940142848.plus.aac.p.m4a",
+    "duration": 206947,
+    "trackUrl": "https://music.apple.com/us/album/drink-it/1705659791?i=1705659792",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/4c/7b/6d/4c7b6dbc-4e48-acf2-d7c0-251656306e48/888272122763.jpg/300x300bb.jpg",
+    "trackId": "1705659792"
+  },
+  {
+    "id": "applemusic-1554238404",
+    "name": "Breaking Dawn",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f2/cc/b9/f2ccb9b0-0f3a-e648-50de-27963a7a2413/mzaf_2941001399806855242.plus.aac.p.m4a",
+    "duration": 197493,
+    "trackUrl": "https://music.apple.com/us/album/breaking-dawn/1554238403?i=1554238404",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/44/e6/9a44e699-3044-ba38-852b-ea3a8059bca9/4547366497762.jpg/300x300bb.jpg",
+    "trackId": "1554238404"
+  },
+  {
+    "id": "applemusic-1411246962",
+    "name": "Keeper",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Keeper - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8a/87/98/8a879810-561b-0eec-d7be-766012223525/mzaf_13613203183720114199.plus.aac.p.m4a",
+    "duration": 200704,
+    "trackUrl": "https://music.apple.com/us/album/keeper/1411246723?i=1411246962",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/6f/2a/af/6f2aaf75-05b3-9877-0f08-ebbd909c2d55/cover-_DS.jpg/300x300bb.jpg",
+    "trackId": "1411246962"
+  },
+  {
     "id": "applemusic-1592216370",
     "name": "MAVERICK",
     "artists": [
@@ -635,227 +596,6 @@
     "trackUrl": "https://music.apple.com/us/album/russian-roulette/1592216369?i=1592216372",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/6b/2d/046b2d11-5c93-d51a-985e-c0b4cb4c581f/cover.jpg/300x300bb.jpg",
     "trackId": "1592216372"
-  },
-  {
-    "id": "applemusic-1705660174",
-    "name": "SWEET",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SWEET - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6f/8c/71/6f8c7168-445c-6d93-1b1b-40515cdb41e6/mzaf_17081836373759179930.plus.aac.p.m4a",
-    "duration": 184000,
-    "trackUrl": "https://music.apple.com/us/album/sweet/1705660172?i=1705660174",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f4/ac/3c/f4ac3cbe-3e77-3226-fbcf-0ba9101b85b3/888272122817.jpg/300x300bb.jpg",
-    "trackId": "1705660174"
-  },
-  {
-    "id": "applemusic-1671747356",
-    "name": "Awake",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8b/ec/6d/8bec6d9c-23bd-4f67-8f19-55321035a93c/mzaf_13424093849127600052.plus.aac.p.m4a",
-    "duration": 137960,
-    "trackUrl": "https://music.apple.com/us/album/awake/1671747355?i=1671747356",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
-    "trackId": "1671747356"
-  },
-  {
-    "id": "applemusic-1671747357",
-    "name": "ROAR",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/36/23/5a/36235a7f-91e2-7bb3-7518-8cc44417bb54/mzaf_16847866578966408020.plus.aac.p.m4a",
-    "duration": 220107,
-    "trackUrl": "https://music.apple.com/us/album/roar/1671747355?i=1671747357",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
-    "trackId": "1671747357"
-  },
-  {
-    "id": "applemusic-1671747358",
-    "name": "Blah Blah",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3e/be/b7/3ebeb740-fe15-5c40-b01a-d899da9f5c0f/mzaf_16088086732097200734.plus.aac.p.m4a",
-    "duration": 172733,
-    "trackUrl": "https://music.apple.com/us/album/blah-blah/1671747355?i=1671747358",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
-    "trackId": "1671747358"
-  },
-  {
-    "id": "applemusic-1671747359",
-    "name": "Savior",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a0/83/f4/a083f426-f216-3584-4d4f-8b261ee982d6/mzaf_9560599908485008076.plus.aac.p.m4a",
-    "duration": 246573,
-    "trackUrl": "https://music.apple.com/us/album/savior/1671747355?i=1671747359",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
-    "trackId": "1671747359"
-  },
-  {
-    "id": "applemusic-1671747360",
-    "name": "Horizon",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/da/0c/92/da0c9265-da87-8099-e65b-2ed22beb39dd/mzaf_11387523079406279532.plus.aac.p.m4a",
-    "duration": 210413,
-    "trackUrl": "https://music.apple.com/us/album/horizon/1671747355?i=1671747360",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
-    "trackId": "1671747360"
-  },
-  {
-    "id": "applemusic-1671747361",
-    "name": "Diamond Life",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 8th MINI ALBUM [BE AWAKE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d1/69/61/d1696150-8876-4f17-2ac6-c8b398fb3dd1/mzaf_216342765992001641.plus.aac.p.m4a",
-    "duration": 206600,
-    "trackUrl": "https://music.apple.com/us/album/diamond-life/1671747355?i=1671747361",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/99/9e/c1/999ec191-8164-c64a-b13d-0ef5ced73f53/cover_KM0016858_1.jpg/300x300bb.jpg",
-    "trackId": "1671747361"
-  },
-  {
-    "id": "applemusic-1461745580",
-    "name": "Bloom Bloom",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Bloom Bloom - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/31/8e/dd/318edd72-7e0e-d6b1-669b-f5ff1ae02f7b/mzaf_8689400059880412102.plus.aac.p.m4a",
-    "duration": 224053,
-    "trackUrl": "https://music.apple.com/us/album/bloom-bloom/1461745579?i=1461745580",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/5c/61/1d5c616d-ee6e-6ac3-4c1f-117ea610a110/cover-_THE_BOYZ.jpg/300x300bb.jpg",
-    "trackId": "1461745580"
-  },
-  {
-    "id": "applemusic-1461745581",
-    "name": "Butterfly",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Bloom Bloom - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8b/56/b7/8b56b74c-9900-e29d-8352-b5d93933cecf/mzaf_7284660583729960374.plus.aac.p.m4a",
-    "duration": 241627,
-    "trackUrl": "https://music.apple.com/us/album/butterfly/1461745579?i=1461745581",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/5c/61/1d5c616d-ee6e-6ac3-4c1f-117ea610a110/cover-_THE_BOYZ.jpg/300x300bb.jpg",
-    "trackId": "1461745581"
-  },
-  {
-    "id": "applemusic-1461745582",
-    "name": "Clover",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Bloom Bloom - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/80/7b/61807b9d-c7e0-15f4-149d-a64b2fadb912/mzaf_1650204341503255761.plus.aac.p.m4a",
-    "duration": 187439,
-    "trackUrl": "https://music.apple.com/us/album/clover/1461745579?i=1461745582",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/5c/61/1d5c616d-ee6e-6ac3-4c1f-117ea610a110/cover-_THE_BOYZ.jpg/300x300bb.jpg",
-    "trackId": "1461745582"
-  },
-  {
-    "id": "applemusic-1543671653",
-    "name": "Christmassy!",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "Christmassy! - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/6d/de/ce6ddea4-2783-1270-de3b-fbd3f209a889/mzaf_6630990185982930673.plus.aac.p.m4a",
-    "duration": 205533,
-    "trackUrl": "https://music.apple.com/us/album/christmassy/1543671652?i=1543671653",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/93/0b/46930b13-794d-da33-e327-eb30b586e84f/cover_3000.jpg/300x300bb.jpg",
-    "trackId": "1543671653"
-  },
-  {
-    "id": "applemusic-1639285555",
-    "name": "WHISPER",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/04/ad/0904ad1e-395d-e66e-9059-6ac5575cc78f/mzaf_3357388748067108977.plus.aac.p.m4a",
-    "duration": 191853,
-    "trackUrl": "https://music.apple.com/us/album/whisper/1639285554?i=1639285555",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
-    "trackId": "1639285555"
-  },
-  {
-    "id": "applemusic-1639285557",
-    "name": "Bump & Love",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/da/c8/dddac8ff-9090-a659-5b27-9a2aac41da9d/mzaf_5161728669839533972.plus.aac.p.m4a",
-    "duration": 224013,
-    "trackUrl": "https://music.apple.com/us/album/bump-love/1639285554?i=1639285557",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
-    "trackId": "1639285557"
-  },
-  {
-    "id": "applemusic-1639285558",
-    "name": "C.O.D.E",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/e9/bf/1ce9bfd8-0140-4511-192e-51e3326c3f4c/mzaf_4447892184398629649.plus.aac.p.m4a",
-    "duration": 172173,
-    "trackUrl": "https://music.apple.com/us/album/c-o-d-e/1639285554?i=1639285558",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
-    "trackId": "1639285558"
-  },
-  {
-    "id": "applemusic-1639285560",
-    "name": "Levitating",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/f2/b8/0bf2b8fc-9166-aa6e-571a-1a5dbc89b999/mzaf_7470562897027330872.plus.aac.p.m4a",
-    "duration": 180387,
-    "trackUrl": "https://music.apple.com/us/album/levitating/1639285554?i=1639285560",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
-    "trackId": "1639285560"
-  },
-  {
-    "id": "applemusic-1639285561",
-    "name": "Survive The Night",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/9d/c1/0e9dc12b-ee7a-8616-2d56-d74569e66c93/mzaf_2627529332647851457.plus.aac.p.m4a",
-    "duration": 204253,
-    "trackUrl": "https://music.apple.com/us/album/survive-the-night/1639285554?i=1639285561",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
-    "trackId": "1639285561"
-  },
-  {
-    "id": "applemusic-1639285564",
-    "name": "Timeless",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/4d/30/3b4d30ea-3c73-0315-5e74-9b5a3821cb1b/mzaf_14504109709179149178.plus.aac.p.m4a",
-    "duration": 189147,
-    "trackUrl": "https://music.apple.com/us/album/timeless/1639285554?i=1639285564",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
-    "trackId": "1639285564"
   },
   {
     "id": "applemusic-1477033163",
@@ -1014,6 +754,240 @@
     "trackId": "1716515987"
   },
   {
+    "id": "applemusic-1705660174",
+    "name": "SWEET",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "SWEET - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6f/8c/71/6f8c7168-445c-6d93-1b1b-40515cdb41e6/mzaf_17081836373759179930.plus.aac.p.m4a",
+    "duration": 184000,
+    "trackUrl": "https://music.apple.com/us/album/sweet/1705660172?i=1705660174",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f4/ac/3c/f4ac3cbe-3e77-3226-fbcf-0ba9101b85b3/888272122817.jpg/300x300bb.jpg",
+    "trackId": "1705660174"
+  },
+  {
+    "id": "applemusic-1557494755",
+    "name": "PRISM",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/04/09/26/04092662-d9e4-4076-8966-f83d1b00172e/mzaf_16524838446130143207.plus.aac.p.m4a",
+    "duration": 201893,
+    "trackUrl": "https://music.apple.com/us/album/prism/1557493862?i=1557494755",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557494755"
+  },
+  {
+    "id": "applemusic-1557494980",
+    "name": "EINSTEIN",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/6d/21/89/6d21891a-7773-83ed-a145-b5748a23de3a/mzaf_14341732097565371342.plus.aac.p.m4a",
+    "duration": 188280,
+    "trackUrl": "https://music.apple.com/us/album/einstein/1557493862?i=1557494980",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557494980"
+  },
+  {
+    "id": "applemusic-1557495424",
+    "name": "FLAG",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/2a/23/75/2a237531-723e-45bb-d333-f9bbb4bf7207/mzaf_4725380960723627768.plus.aac.p.m4a",
+    "duration": 235133,
+    "trackUrl": "https://music.apple.com/us/album/flag/1557493862?i=1557495424",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557495424"
+  },
+  {
+    "id": "applemusic-1557495616",
+    "name": "Penalty",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/85/08/9b/85089b4a-dcc4-4b71-8f6b-440d488b5925/mzaf_945159733017429915.plus.aac.p.m4a",
+    "duration": 182200,
+    "trackUrl": "https://music.apple.com/us/album/penalty/1557493862?i=1557495616",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557495616"
+  },
+  {
+    "id": "applemusic-1557496000",
+    "name": "Kiss Me If You Can",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/8b/ee/64/8bee64e0-fb08-b267-04f5-3dee593a6031/mzaf_16031526772561573799.plus.aac.p.m4a",
+    "duration": 209960,
+    "trackUrl": "https://music.apple.com/us/album/kiss-me-if-you-can/1557493862?i=1557496000",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557496000"
+  },
+  {
+    "id": "applemusic-1557496210",
+    "name": "HUSH",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/48/50/d7/4850d74f-261c-8988-977a-8246f39716ee/mzaf_1264685838522306617.plus.aac.p.m4a",
+    "duration": 189720,
+    "trackUrl": "https://music.apple.com/us/album/hush/1557493862?i=1557496210",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557496210"
+  },
+  {
+    "id": "applemusic-1557496223",
+    "name": "Closer",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Breaking Dawn",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/c5/92/d5/c592d54a-a32f-2d20-6145-2a4c1ac87b7a/mzaf_14376603822284382408.plus.aac.p.m4a",
+    "duration": 201667,
+    "trackUrl": "https://music.apple.com/us/album/closer/1557493862?i=1557496223",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/9d/f1/ca9df1ed-d1f4-68d5-f29a-3a287b1776ed/4547366503852.jpg/300x300bb.jpg",
+    "trackId": "1557496223"
+  },
+  {
+    "id": "applemusic-1461745580",
+    "name": "Bloom Bloom",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Bloom Bloom - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/31/8e/dd/318edd72-7e0e-d6b1-669b-f5ff1ae02f7b/mzaf_8689400059880412102.plus.aac.p.m4a",
+    "duration": 224053,
+    "trackUrl": "https://music.apple.com/us/album/bloom-bloom/1461745579?i=1461745580",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/5c/61/1d5c616d-ee6e-6ac3-4c1f-117ea610a110/cover-_THE_BOYZ.jpg/300x300bb.jpg",
+    "trackId": "1461745580"
+  },
+  {
+    "id": "applemusic-1461745581",
+    "name": "Butterfly",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Bloom Bloom - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8b/56/b7/8b56b74c-9900-e29d-8352-b5d93933cecf/mzaf_7284660583729960374.plus.aac.p.m4a",
+    "duration": 241627,
+    "trackUrl": "https://music.apple.com/us/album/butterfly/1461745579?i=1461745581",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/5c/61/1d5c616d-ee6e-6ac3-4c1f-117ea610a110/cover-_THE_BOYZ.jpg/300x300bb.jpg",
+    "trackId": "1461745581"
+  },
+  {
+    "id": "applemusic-1461745582",
+    "name": "Clover",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Bloom Bloom - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/80/7b/61807b9d-c7e0-15f4-149d-a64b2fadb912/mzaf_1650204341503255761.plus.aac.p.m4a",
+    "duration": 187439,
+    "trackUrl": "https://music.apple.com/us/album/clover/1461745579?i=1461745582",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1d/5c/61/1d5c616d-ee6e-6ac3-4c1f-117ea610a110/cover-_THE_BOYZ.jpg/300x300bb.jpg",
+    "trackId": "1461745582"
+  },
+  {
+    "id": "applemusic-1543671653",
+    "name": "Christmassy!",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "Christmassy! - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/6d/de/ce6ddea4-2783-1270-de3b-fbd3f209a889/mzaf_6630990185982930673.plus.aac.p.m4a",
+    "duration": 205533,
+    "trackUrl": "https://music.apple.com/us/album/christmassy/1543671652?i=1543671653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/93/0b/46930b13-794d-da33-e327-eb30b586e84f/cover_3000.jpg/300x300bb.jpg",
+    "trackId": "1543671653"
+  },
+  {
+    "id": "applemusic-1639285555",
+    "name": "WHISPER",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/04/ad/0904ad1e-395d-e66e-9059-6ac5575cc78f/mzaf_3357388748067108977.plus.aac.p.m4a",
+    "duration": 191853,
+    "trackUrl": "https://music.apple.com/us/album/whisper/1639285554?i=1639285555",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
+    "trackId": "1639285555"
+  },
+  {
+    "id": "applemusic-1639285557",
+    "name": "Bump & Love",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dd/da/c8/dddac8ff-9090-a659-5b27-9a2aac41da9d/mzaf_5161728669839533972.plus.aac.p.m4a",
+    "duration": 224013,
+    "trackUrl": "https://music.apple.com/us/album/bump-love/1639285554?i=1639285557",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
+    "trackId": "1639285557"
+  },
+  {
+    "id": "applemusic-1639285558",
+    "name": "C.O.D.E",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/e9/bf/1ce9bfd8-0140-4511-192e-51e3326c3f4c/mzaf_4447892184398629649.plus.aac.p.m4a",
+    "duration": 172173,
+    "trackUrl": "https://music.apple.com/us/album/c-o-d-e/1639285554?i=1639285558",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
+    "trackId": "1639285558"
+  },
+  {
+    "id": "applemusic-1639285560",
+    "name": "Levitating",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/f2/b8/0bf2b8fc-9166-aa6e-571a-1a5dbc89b999/mzaf_7470562897027330872.plus.aac.p.m4a",
+    "duration": 180387,
+    "trackUrl": "https://music.apple.com/us/album/levitating/1639285554?i=1639285560",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
+    "trackId": "1639285560"
+  },
+  {
+    "id": "applemusic-1639285561",
+    "name": "Survive The Night",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0e/9d/c1/0e9dc12b-ee7a-8616-2d56-d74569e66c93/mzaf_2627529332647851457.plus.aac.p.m4a",
+    "duration": 204253,
+    "trackUrl": "https://music.apple.com/us/album/survive-the-night/1639285554?i=1639285561",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
+    "trackId": "1639285561"
+  },
+  {
+    "id": "applemusic-1639285564",
+    "name": "Timeless",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 7TH MINI ALBUM [BE AWARE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/4d/30/3b4d30ea-3c73-0315-5e74-9b5a3821cb1b/mzaf_14504109709179149178.plus.aac.p.m4a",
+    "duration": 189147,
+    "trackUrl": "https://music.apple.com/us/album/timeless/1639285554?i=1639285564",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/95/5f/d5/955fd539-8301-390f-0a01-83f621b8ecc4/cover_KM0015896_1.jpg/300x300bb.jpg",
+    "trackId": "1639285564"
+  },
+  {
     "id": "applemusic-1435290014",
     "name": "Right Here",
     "artists": [
@@ -1118,6 +1092,97 @@
     "trackId": "1700632632"
   },
   {
+    "id": "applemusic-1538123157",
+    "name": "Back All Black",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "TATTOO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/99/2e/49992ec5-46c7-39b2-b6e1-5e5db41652cf/mzaf_7960161340088702541.plus.aac.p.m4a",
+    "duration": 201040,
+    "trackUrl": "https://music.apple.com/us/album/back-all-black/1538123156?i=1538123157",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538123157"
+  },
+  {
+    "id": "applemusic-1538123158",
+    "name": "TATTOO",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "TATTOO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/11/82/88/11828871-de5f-90fa-4a46-f7ea7a133c6d/mzaf_830684499768429288.plus.aac.p.m4a",
+    "duration": 232160,
+    "trackUrl": "https://music.apple.com/us/album/tattoo/1538123156?i=1538123158",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538123158"
+  },
+  {
+    "id": "applemusic-1538123159",
+    "name": "Espionage",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "TATTOO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/54/d5/81/54d58119-f5d8-4ab7-df05-7e63541f49f3/mzaf_2049743225759648680.plus.aac.p.m4a",
+    "duration": 196587,
+    "trackUrl": "https://music.apple.com/us/album/espionage/1538123156?i=1538123159",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538123159"
+  },
+  {
+    "id": "applemusic-1538123160",
+    "name": "Stupid Sorry",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "TATTOO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e4/18/6e/e4186e5c-bb4c-986b-4029-44b714ed57d3/mzaf_4230418882177015946.plus.aac.p.m4a",
+    "duration": 210547,
+    "trackUrl": "https://music.apple.com/us/album/stupid-sorry/1538123156?i=1538123160",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538123160"
+  },
+  {
+    "id": "applemusic-1538123161",
+    "name": "Bye Bye Bye",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "TATTOO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/51/93/57519377-dcf7-61f9-8c12-2871b6f86b46/mzaf_10303592142291621161.plus.aac.p.m4a",
+    "duration": 209280,
+    "trackUrl": "https://music.apple.com/us/album/bye-bye-bye/1538123156?i=1538123161",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538123161"
+  },
+  {
+    "id": "applemusic-1538123162",
+    "name": "Brighter",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "TATTOO - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/4c/c8/db4cc889-eb4d-94a6-f433-57be4301560a/mzaf_10420859861536025297.plus.aac.p.m4a",
+    "duration": 207440,
+    "trackUrl": "https://music.apple.com/us/album/brighter/1538123156?i=1538123162",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538123162"
+  },
+  {
+    "id": "applemusic-1605106910",
+    "name": "O Sole Mio (The Red Wedding)",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "KINGDOM <RE-BORN>, Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/51/07/d7/5107d718-40a5-df59-3192-ad99e5d63ce6/mzaf_17330162411717895445.plus.aac.p.m4a",
+    "duration": 210907,
+    "trackUrl": "https://music.apple.com/us/album/o-sole-mio-the-red-wedding/1605106901?i=1605106910",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/70/76/e5/7076e594-5dc6-1730-5dca-a66f359a2588/888272079203_Cover.jpg/300x300bb.jpg",
+    "trackId": "1605106910"
+  },
+  {
     "id": "applemusic-1490559166",
     "name": "White",
     "artists": [
@@ -1220,6 +1285,45 @@
     "trackUrl": "https://music.apple.com/us/album/they-see-me-dream/1775158756?i=1775158946",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/46/29/ea/4629ea81-e059-2fe5-a81b-bf7c6e6ac23f/cover_KM0020493_1.jpg/300x300bb.jpg",
     "trackId": "1775158946"
+  },
+  {
+    "id": "applemusic-1735258834",
+    "name": "Nectar",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 2ND ALBUM [PHANTASY] Pt.3 Love Letter - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/6e/a2/6e6ea2c7-d199-90a9-5c01-2508387dbe4e/mzaf_6106579122783563442.plus.aac.p.m4a",
+    "duration": 184373,
+    "trackUrl": "https://music.apple.com/us/album/nectar/1735258833?i=1735258834",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a2/08/caa2083c-126b-ee91-a09c-b4088b999bf8/cover_KM0019598_1.jpg/300x300bb.jpg",
+    "trackId": "1735258834"
+  },
+  {
+    "id": "applemusic-1735258835",
+    "name": "Hurt Me Less",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 2ND ALBUM [PHANTASY] Pt.3 Love Letter - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/49/26/3949260d-1ef6-c5e3-589a-8a67f3eedcc8/mzaf_3371538419741916904.plus.aac.p.m4a",
+    "duration": 210627,
+    "trackUrl": "https://music.apple.com/us/album/hurt-me-less/1735258833?i=1735258835",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a2/08/caa2083c-126b-ee91-a09c-b4088b999bf8/cover_KM0019598_1.jpg/300x300bb.jpg",
+    "trackId": "1735258835"
+  },
+  {
+    "id": "applemusic-1735258836",
+    "name": "Dear.",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ 2ND ALBUM [PHANTASY] Pt.3 Love Letter - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/40/76/3d4076db-daf8-33bf-a5fb-34632197a9d6/mzaf_11717502830681789397.plus.aac.p.m4a",
+    "duration": 204213,
+    "trackUrl": "https://music.apple.com/us/album/dear/1735258833?i=1735258836",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a2/08/caa2083c-126b-ee91-a09c-b4088b999bf8/cover_KM0019598_1.jpg/300x300bb.jpg",
+    "trackId": "1735258836"
   },
   {
     "id": "applemusic-1801443498",
@@ -1339,147 +1443,17 @@
     "trackId": "1801445100"
   },
   {
-    "id": "applemusic-1538123157",
-    "name": "Back All Black",
+    "id": "applemusic-1597850226",
+    "name": "Candles",
     "artists": [
       "THE BOYZ"
     ],
-    "album": "TATTOO - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/99/2e/49992ec5-46c7-39b2-b6e1-5e5db41652cf/mzaf_7960161340088702541.plus.aac.p.m4a",
-    "duration": 201040,
-    "trackUrl": "https://music.apple.com/us/album/back-all-black/1538123156?i=1538123157",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1538123157"
-  },
-  {
-    "id": "applemusic-1538123158",
-    "name": "TATTOO",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "TATTOO - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/11/82/88/11828871-de5f-90fa-4a46-f7ea7a133c6d/mzaf_830684499768429288.plus.aac.p.m4a",
-    "duration": 232160,
-    "trackUrl": "https://music.apple.com/us/album/tattoo/1538123156?i=1538123158",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1538123158"
-  },
-  {
-    "id": "applemusic-1538123159",
-    "name": "Espionage",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "TATTOO - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/54/d5/81/54d58119-f5d8-4ab7-df05-7e63541f49f3/mzaf_2049743225759648680.plus.aac.p.m4a",
-    "duration": 196587,
-    "trackUrl": "https://music.apple.com/us/album/espionage/1538123156?i=1538123159",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1538123159"
-  },
-  {
-    "id": "applemusic-1538123160",
-    "name": "Stupid Sorry",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "TATTOO - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e4/18/6e/e4186e5c-bb4c-986b-4029-44b714ed57d3/mzaf_4230418882177015946.plus.aac.p.m4a",
-    "duration": 210547,
-    "trackUrl": "https://music.apple.com/us/album/stupid-sorry/1538123156?i=1538123160",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1538123160"
-  },
-  {
-    "id": "applemusic-1538123161",
-    "name": "Bye Bye Bye",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "TATTOO - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/51/93/57519377-dcf7-61f9-8c12-2871b6f86b46/mzaf_10303592142291621161.plus.aac.p.m4a",
-    "duration": 209280,
-    "trackUrl": "https://music.apple.com/us/album/bye-bye-bye/1538123156?i=1538123161",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1538123161"
-  },
-  {
-    "id": "applemusic-1538123162",
-    "name": "Brighter",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "TATTOO - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/4c/c8/db4cc889-eb4d-94a6-f433-57be4301560a/mzaf_10420859861536025297.plus.aac.p.m4a",
-    "duration": 207440,
-    "trackUrl": "https://music.apple.com/us/album/brighter/1538123156?i=1538123162",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/cc/5f/a8/cc5fa8f2-8a94-edb6-2768-f9df87283762/jacket_BVXX01278B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1538123162"
-  },
-  {
-    "id": "applemusic-1605106910",
-    "name": "O Sole Mio (The Red Wedding)",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "KINGDOM <RE-BORN>, Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/51/07/d7/5107d718-40a5-df59-3192-ad99e5d63ce6/mzaf_17330162411717895445.plus.aac.p.m4a",
-    "duration": 210907,
-    "trackUrl": "https://music.apple.com/us/album/o-sole-mio-the-red-wedding/1605106901?i=1605106910",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/70/76/e5/7076e594-5dc6-1730-5dca-a66f359a2588/888272079203_Cover.jpg/300x300bb.jpg",
-    "trackId": "1605106910"
-  },
-  {
-    "id": "applemusic-1735258834",
-    "name": "Nectar",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 2ND ALBUM [PHANTASY] Pt.3 Love Letter - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/6e/a2/6e6ea2c7-d199-90a9-5c01-2508387dbe4e/mzaf_6106579122783563442.plus.aac.p.m4a",
-    "duration": 184373,
-    "trackUrl": "https://music.apple.com/us/album/nectar/1735258833?i=1735258834",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a2/08/caa2083c-126b-ee91-a09c-b4088b999bf8/cover_KM0019598_1.jpg/300x300bb.jpg",
-    "trackId": "1735258834"
-  },
-  {
-    "id": "applemusic-1735258835",
-    "name": "Hurt Me Less",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 2ND ALBUM [PHANTASY] Pt.3 Love Letter - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/49/26/3949260d-1ef6-c5e3-589a-8a67f3eedcc8/mzaf_3371538419741916904.plus.aac.p.m4a",
-    "duration": 210627,
-    "trackUrl": "https://music.apple.com/us/album/hurt-me-less/1735258833?i=1735258835",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a2/08/caa2083c-126b-ee91-a09c-b4088b999bf8/cover_KM0019598_1.jpg/300x300bb.jpg",
-    "trackId": "1735258835"
-  },
-  {
-    "id": "applemusic-1735258836",
-    "name": "Dear.",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ 2ND ALBUM [PHANTASY] Pt.3 Love Letter - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/40/76/3d4076db-daf8-33bf-a5fb-34632197a9d6/mzaf_11717502830681789397.plus.aac.p.m4a",
-    "duration": 204213,
-    "trackUrl": "https://music.apple.com/us/album/dear/1735258833?i=1735258836",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a2/08/caa2083c-126b-ee91-a09c-b4088b999bf8/cover_KM0019598_1.jpg/300x300bb.jpg",
-    "trackId": "1735258836"
-  },
-  {
-    "id": "applemusic-1617984777",
-    "name": "Follow (PENTAGON Version)",
-    "artists": [
-      "PENTAGON"
-    ],
-    "album": "Road to Kingdom (Your Song), Pt. 2 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/79/38/46/793846cb-30ae-6386-7a26-652de8618f50/mzaf_13112825213650651416.plus.aac.p.m4a",
-    "duration": 240400,
-    "trackUrl": "https://music.apple.com/us/album/follow-pentagon-version/1617984770?i=1617984777",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/22/f4/7922f4bf-93cf-3a00-67ba-d6c465647293/8809704416252_Cover.jpg/300x300bb.jpg",
-    "trackId": "1617984777"
+    "album": "Candles - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b4/a7/be/b4a7be5a-9200-39c8-4dd7-76fcdb814c9b/mzaf_1936500984937467704.plus.aac.p.m4a",
+    "duration": 231093,
+    "trackUrl": "https://music.apple.com/us/album/candles/1597849835?i=1597850226",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/fd/e9/56fde9f2-ef8a-22ed-8934-c76b72c17d57/THE_BOYZ_Candles_fin.jpg/300x300bb.jpg",
+    "trackId": "1597850226"
   },
   {
     "id": "applemusic-1617984785",
@@ -1508,17 +1482,82 @@
     "trackId": "1617985145"
   },
   {
-    "id": "applemusic-1597850226",
-    "name": "Candles",
+    "id": "applemusic-1620821016",
+    "name": "SHE'S THE BOSS",
     "artists": [
       "THE BOYZ"
     ],
-    "album": "Candles - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b4/a7/be/b4a7be5a-9200-39c8-4dd7-76fcdb814c9b/mzaf_1936500984937467704.plus.aac.p.m4a",
-    "duration": 231093,
-    "trackUrl": "https://music.apple.com/us/album/candles/1597849835?i=1597850226",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/56/fd/e9/56fde9f2-ef8a-22ed-8934-c76b72c17d57/THE_BOYZ_Candles_fin.jpg/300x300bb.jpg",
-    "trackId": "1597850226"
+    "album": "SHE'S THE BOSS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/53/8f/7b/538f7b36-7db1-e07a-17ff-67ffd61ef3c7/mzaf_11918517351130105338.plus.aac.p.m4a",
+    "duration": 227009,
+    "trackUrl": "https://music.apple.com/us/album/shes-the-boss/1620820623?i=1620821016",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
+    "trackId": "1620821016"
+  },
+  {
+    "id": "applemusic-1620821020",
+    "name": "Toxic Love",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "SHE'S THE BOSS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/59/b8/88/59b8880d-891e-e83d-72af-b3817606129d/mzaf_11211193995624314282.plus.aac.p.m4a",
+    "duration": 225006,
+    "trackUrl": "https://music.apple.com/us/album/toxic-love/1620820623?i=1620821020",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
+    "trackId": "1620821020"
+  },
+  {
+    "id": "applemusic-1620821024",
+    "name": "Why Why Why",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "SHE'S THE BOSS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e0/10/6f/e0106f5c-b7d0-fe44-777d-72343d805e1c/mzaf_17533547083745914206.plus.aac.p.m4a",
+    "duration": 208020,
+    "trackUrl": "https://music.apple.com/us/album/why-why-why/1620820623?i=1620821024",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
+    "trackId": "1620821024"
+  },
+  {
+    "id": "applemusic-1620821025",
+    "name": "Don't Cry",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "SHE'S THE BOSS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6d/9b/48/6d9b487e-16a7-008c-8314-239309b63f85/mzaf_14805760706691962462.plus.aac.p.m4a",
+    "duration": 212986,
+    "trackUrl": "https://music.apple.com/us/album/dont-cry/1620820623?i=1620821025",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
+    "trackId": "1620821025"
+  },
+  {
+    "id": "applemusic-1620821031",
+    "name": "One Dance",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "SHE'S THE BOSS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/24/94/a0/2494a0be-0844-380c-a2bf-855bbc5691eb/mzaf_8925365764924191996.plus.aac.p.m4a",
+    "duration": 221997,
+    "trackUrl": "https://music.apple.com/us/album/one-dance/1620820623?i=1620821031",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
+    "trackId": "1620821031"
+  },
+  {
+    "id": "applemusic-1620821034",
+    "name": "ALWAYS TOGETHER",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "SHE'S THE BOSS - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c2/6c/ef/c26cef4a-ac3f-e4f9-131c-f317b9faff2a/mzaf_11731498830982518297.plus.aac.p.m4a",
+    "duration": 162501,
+    "trackUrl": "https://music.apple.com/us/album/always-together/1620820623?i=1620821034",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
+    "trackId": "1620821034"
   },
   {
     "id": "applemusic-1754071576",
@@ -1623,149 +1662,6 @@
     "trackUrl": "https://music.apple.com/us/album/nothing-without-you/1754071574?i=1754071708",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/bd/c5/c5bdc54e-b5f0-66ce-61c1-22616c11ff1d/24UMGIM64293.rgb.jpg/300x300bb.jpg",
     "trackId": "1754071708"
-  },
-  {
-    "id": "applemusic-1620821016",
-    "name": "SHE'S THE BOSS",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SHE'S THE BOSS - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/53/8f/7b/538f7b36-7db1-e07a-17ff-67ffd61ef3c7/mzaf_11918517351130105338.plus.aac.p.m4a",
-    "duration": 227009,
-    "trackUrl": "https://music.apple.com/us/album/shes-the-boss/1620820623?i=1620821016",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
-    "trackId": "1620821016"
-  },
-  {
-    "id": "applemusic-1620821020",
-    "name": "Toxic Love",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SHE'S THE BOSS - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/59/b8/88/59b8880d-891e-e83d-72af-b3817606129d/mzaf_11211193995624314282.plus.aac.p.m4a",
-    "duration": 225006,
-    "trackUrl": "https://music.apple.com/us/album/toxic-love/1620820623?i=1620821020",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
-    "trackId": "1620821020"
-  },
-  {
-    "id": "applemusic-1620821024",
-    "name": "Why Why Why",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SHE'S THE BOSS - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e0/10/6f/e0106f5c-b7d0-fe44-777d-72343d805e1c/mzaf_17533547083745914206.plus.aac.p.m4a",
-    "duration": 208020,
-    "trackUrl": "https://music.apple.com/us/album/why-why-why/1620820623?i=1620821024",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
-    "trackId": "1620821024"
-  },
-  {
-    "id": "applemusic-1620821025",
-    "name": "Don't Cry",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SHE'S THE BOSS - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6d/9b/48/6d9b487e-16a7-008c-8314-239309b63f85/mzaf_14805760706691962462.plus.aac.p.m4a",
-    "duration": 212986,
-    "trackUrl": "https://music.apple.com/us/album/dont-cry/1620820623?i=1620821025",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
-    "trackId": "1620821025"
-  },
-  {
-    "id": "applemusic-1620821031",
-    "name": "One Dance",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SHE'S THE BOSS - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/24/94/a0/2494a0be-0844-380c-a2bf-855bbc5691eb/mzaf_8925365764924191996.plus.aac.p.m4a",
-    "duration": 221997,
-    "trackUrl": "https://music.apple.com/us/album/one-dance/1620820623?i=1620821031",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
-    "trackId": "1620821031"
-  },
-  {
-    "id": "applemusic-1620821034",
-    "name": "ALWAYS TOGETHER",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "SHE'S THE BOSS - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c2/6c/ef/c26cef4a-ac3f-e4f9-131c-f317b9faff2a/mzaf_11731498830982518297.plus.aac.p.m4a",
-    "duration": 162501,
-    "trackUrl": "https://music.apple.com/us/album/always-together/1620820623?i=1620821034",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/84/dc/2c84dc0f-7c7c-a77e-6ce4-32b6af1f5693/22UMGIM44029.rgb.jpg/300x300bb.jpg",
-    "trackId": "1620821034"
-  },
-  {
-    "id": "applemusic-1828596003",
-    "name": "Stylish",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/10/9b/84109b3c-a34b-dc63-f99f-485f98d74afb/mzaf_11799998330126636850.plus.aac.p.m4a",
-    "duration": 155000,
-    "trackUrl": "https://music.apple.com/us/album/stylish/1828596000?i=1828596003",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
-    "trackId": "1828596003"
-  },
-  {
-    "id": "applemusic-1828596008",
-    "name": "Talk",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/18/cf/0318cfd1-6270-9c19-aef7-2ffbaef75009/mzaf_15125997107719288020.plus.aac.p.m4a",
-    "duration": 167000,
-    "trackUrl": "https://music.apple.com/us/album/talk/1828596000?i=1828596008",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
-    "trackId": "1828596008"
-  },
-  {
-    "id": "applemusic-1828596292",
-    "name": "You and I",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/af/7a/2baf7a28-e672-e873-e32f-5addd7a05bbe/mzaf_16533344276992963944.plus.aac.p.m4a",
-    "duration": 207000,
-    "trackUrl": "https://music.apple.com/us/album/you-and-i/1828596000?i=1828596292",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
-    "trackId": "1828596292"
-  },
-  {
-    "id": "applemusic-1828596294",
-    "name": "Constellation",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/e0/66/57e06615-9bf4-51b0-1904-bcd7da17d394/mzaf_5818370433450634570.plus.aac.p.m4a",
-    "duration": 191000,
-    "trackUrl": "https://music.apple.com/us/album/constellation/1828596000?i=1828596294",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
-    "trackId": "1828596294"
-  },
-  {
-    "id": "applemusic-1828596297",
-    "name": "AURA",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/9a/54/a69a5433-13a9-4957-0b01-93d42d1210c3/mzaf_5670753700844934975.plus.aac.p.m4a",
-    "duration": 191000,
-    "trackUrl": "https://music.apple.com/us/album/aura/1828596000?i=1828596297",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
-    "trackId": "1828596297"
   },
   {
     "id": "applemusic-1782546511",
@@ -1911,6 +1807,71 @@
     "trackId": "1688121274"
   },
   {
+    "id": "applemusic-1828596003",
+    "name": "Stylish",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/10/9b/84109b3c-a34b-dc63-f99f-485f98d74afb/mzaf_11799998330126636850.plus.aac.p.m4a",
+    "duration": 155000,
+    "trackUrl": "https://music.apple.com/us/album/stylish/1828596000?i=1828596003",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
+    "trackId": "1828596003"
+  },
+  {
+    "id": "applemusic-1828596008",
+    "name": "Talk",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/18/cf/0318cfd1-6270-9c19-aef7-2ffbaef75009/mzaf_15125997107719288020.plus.aac.p.m4a",
+    "duration": 167000,
+    "trackUrl": "https://music.apple.com/us/album/talk/1828596000?i=1828596008",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
+    "trackId": "1828596008"
+  },
+  {
+    "id": "applemusic-1828596292",
+    "name": "You and I",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/af/7a/2baf7a28-e672-e873-e32f-5addd7a05bbe/mzaf_16533344276992963944.plus.aac.p.m4a",
+    "duration": 207000,
+    "trackUrl": "https://music.apple.com/us/album/you-and-i/1828596000?i=1828596292",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
+    "trackId": "1828596292"
+  },
+  {
+    "id": "applemusic-1828596294",
+    "name": "Constellation",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/e0/66/57e06615-9bf4-51b0-1904-bcd7da17d394/mzaf_5818370433450634570.plus.aac.p.m4a",
+    "duration": 191000,
+    "trackUrl": "https://music.apple.com/us/album/constellation/1828596000?i=1828596294",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
+    "trackId": "1828596294"
+  },
+  {
+    "id": "applemusic-1828596297",
+    "name": "AURA",
+    "artists": [
+      "THE BOYZ"
+    ],
+    "album": "THE BOYZ The 10th Mini Album (a;eﬀect) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/9a/54/a69a5433-13a9-4957-0b01-93d42d1210c3/mzaf_5670753700844934975.plus.aac.p.m4a",
+    "duration": 191000,
+    "trackUrl": "https://music.apple.com/us/album/aura/1828596000?i=1828596297",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/86/69/87866978-93a7-2d3c-0277-934e9b2b4f67/888272157833_Cover.jpg/300x300bb.jpg",
+    "trackId": "1828596297"
+  },
+  {
     "id": "applemusic-1850620704",
     "name": "Tiger",
     "artists": [
@@ -2039,19 +2000,6 @@
     "trackUrl": "https://music.apple.com/us/album/we-are/1715221365?i=1715221366",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a8/cd/9c/a8cd9cf9-532b-7fbf-d8f0-f954f6c06922/cover_KM0018890_1.jpg/300x300bb.jpg",
     "trackId": "1715221366"
-  },
-  {
-    "id": "applemusic-1685777214",
-    "name": "THE POYZ BANANA CHACHA (Korean Ver.)",
-    "artists": [
-      "THE BOYZ"
-    ],
-    "album": "THE POYZ BANANA CHACHA - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/05/94/98/05949861-8ea4-fd39-6ced-b9024f05ad74/mzaf_8708965492028949954.plus.aac.p.m4a",
-    "duration": 133265,
-    "trackUrl": "https://music.apple.com/us/album/the-poyz-banana-chacha-korean-ver/1685777213?i=1685777214",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/49/bd/ab49bd10-098d-04b3-dbc2-dc8f3d5835e3/cover_KM0017299_1.jpg/300x300bb.jpg",
-    "trackId": "1685777214"
   },
   {
     "id": "applemusic-1761321494",

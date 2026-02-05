@@ -104,6 +104,84 @@
     "trackId": "1685400471"
   },
   {
+    "id": "applemusic-1587844524",
+    "name": "aenergy",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/a1/f4/2da1f4a0-4c9d-7577-91ed-b40b3ba4dc67/mzaf_13618372704394142197.plus.aac.p.m4a",
+    "duration": 147400,
+    "trackUrl": "https://music.apple.com/us/album/aenergy/1587844523?i=1587844524",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844524"
+  },
+  {
+    "id": "applemusic-1587844525",
+    "name": "Savage",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9c/d5/ad/9cd5ad86-f09f-3422-6c99-42577c976b47/mzaf_3749214757514845374.plus.aac.p.m4a",
+    "duration": 238144,
+    "trackUrl": "https://music.apple.com/us/album/savage/1587844523?i=1587844525",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844525"
+  },
+  {
+    "id": "applemusic-1587844526",
+    "name": "I'll Make You Cry",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/5d/95/9b5d9531-cd28-7337-0bc6-ccb775abc7c7/mzaf_7876179176319650806.plus.aac.p.m4a",
+    "duration": 214853,
+    "trackUrl": "https://music.apple.com/us/album/ill-make-you-cry/1587844523?i=1587844526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844526"
+  },
+  {
+    "id": "applemusic-1587844527",
+    "name": "YEPPI YEPPI",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/78/db/b178db0d-7b00-6ee8-888b-85e663907ada/mzaf_748078857816205824.plus.aac.p.m4a",
+    "duration": 213560,
+    "trackUrl": "https://music.apple.com/us/album/yeppi-yeppi/1587844523?i=1587844527",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844527"
+  },
+  {
+    "id": "applemusic-1587844528",
+    "name": "ICONIC",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/91/dc/3291dc67-1af5-c206-c0f0-ec22862aea5d/mzaf_8913875961990120321.plus.aac.p.m4a",
+    "duration": 191200,
+    "trackUrl": "https://music.apple.com/us/album/iconic/1587844523?i=1587844528",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844528"
+  },
+  {
+    "id": "applemusic-1587844529",
+    "name": "Lucid Dream",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Savage - The 1st Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/c2/97/c1c29738-d852-cff6-b631-32b3bdf42fd8/mzaf_3347219267097722076.plus.aac.p.m4a",
+    "duration": 210560,
+    "trackUrl": "https://music.apple.com/us/album/lucid-dream/1587844523?i=1587844529",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
+    "trackId": "1587844529"
+  },
+  {
     "id": "applemusic-1773694547",
     "name": "Armageddon",
     "artists": [
@@ -193,84 +271,6 @@
     "trackUrl": "https://music.apple.com/us/album/melody/1773694541?i=1773694664",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/300x300bb.jpg",
     "trackId": "1773694664"
-  },
-  {
-    "id": "applemusic-1587844524",
-    "name": "aenergy",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Savage - The 1st Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/a1/f4/2da1f4a0-4c9d-7577-91ed-b40b3ba4dc67/mzaf_13618372704394142197.plus.aac.p.m4a",
-    "duration": 147400,
-    "trackUrl": "https://music.apple.com/us/album/aenergy/1587844523?i=1587844524",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
-    "trackId": "1587844524"
-  },
-  {
-    "id": "applemusic-1587844525",
-    "name": "Savage",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Savage - The 1st Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9c/d5/ad/9cd5ad86-f09f-3422-6c99-42577c976b47/mzaf_3749214757514845374.plus.aac.p.m4a",
-    "duration": 238144,
-    "trackUrl": "https://music.apple.com/us/album/savage/1587844523?i=1587844525",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
-    "trackId": "1587844525"
-  },
-  {
-    "id": "applemusic-1587844526",
-    "name": "I'll Make You Cry",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Savage - The 1st Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/5d/95/9b5d9531-cd28-7337-0bc6-ccb775abc7c7/mzaf_7876179176319650806.plus.aac.p.m4a",
-    "duration": 214853,
-    "trackUrl": "https://music.apple.com/us/album/ill-make-you-cry/1587844523?i=1587844526",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
-    "trackId": "1587844526"
-  },
-  {
-    "id": "applemusic-1587844527",
-    "name": "YEPPI YEPPI",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Savage - The 1st Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/78/db/b178db0d-7b00-6ee8-888b-85e663907ada/mzaf_748078857816205824.plus.aac.p.m4a",
-    "duration": 213560,
-    "trackUrl": "https://music.apple.com/us/album/yeppi-yeppi/1587844523?i=1587844527",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
-    "trackId": "1587844527"
-  },
-  {
-    "id": "applemusic-1587844528",
-    "name": "ICONIC",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Savage - The 1st Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/91/dc/3291dc67-1af5-c206-c0f0-ec22862aea5d/mzaf_8913875961990120321.plus.aac.p.m4a",
-    "duration": 191200,
-    "trackUrl": "https://music.apple.com/us/album/iconic/1587844523?i=1587844528",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
-    "trackId": "1587844528"
-  },
-  {
-    "id": "applemusic-1587844529",
-    "name": "Lucid Dream",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Savage - The 1st Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/c2/97/c1c29738-d852-cff6-b631-32b3bdf42fd8/mzaf_3347219267097722076.plus.aac.p.m4a",
-    "duration": 210560,
-    "trackUrl": "https://music.apple.com/us/album/lucid-dream/1587844523?i=1587844529",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/51/f7/85/51f7852b-7602-136b-ac15-8b3878260c64/4000aespa_M01_Savage_DC.jpg/300x300bb.jpg",
-    "trackId": "1587844529"
   },
   {
     "id": "applemusic-1699294567",
@@ -676,6 +676,19 @@
     "trackId": "1833164157"
   },
   {
+    "id": "applemusic-1818922031",
+    "name": "Dirty Work",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Dirty Work (Apple Music Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/99/5b/34995b17-ef75-35c6-fd7a-f268a05b3af1/mzaf_14449820366923483879.plus.aac.p.m4a",
+    "duration": 180250,
+    "trackUrl": "https://music.apple.com/us/album/dirty-work/1818922030?i=1818922031",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/0d/b3/090db3d2-50a0-b1ed-014a-4ac6ccdaa519/888735952029_Cover.jpg/300x300bb.jpg",
+    "trackId": "1818922031"
+  },
+  {
     "id": "applemusic-1850395173",
     "name": "BLUE (WINTER Solo)",
     "artists": [
@@ -739,19 +752,6 @@
     "trackUrl": "https://music.apple.com/us/album/beautiful-christmas/1659173767?i=1659173768",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/2c/83/ef/2c83ef10-5a81-14b7-9c04-f2c25f24da99/dj.ecugmyoo.jpg/300x300bb.jpg",
     "trackId": "1659173768"
-  },
-  {
-    "id": "applemusic-1818922031",
-    "name": "Dirty Work",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Dirty Work (Apple Music Edition) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/99/5b/34995b17-ef75-35c6-fd7a-f268a05b3af1/mzaf_14449820366923483879.plus.aac.p.m4a",
-    "duration": 180250,
-    "trackUrl": "https://music.apple.com/us/album/dirty-work/1818922030?i=1818922031",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/0d/b3/090db3d2-50a0-b1ed-014a-4ac6ccdaa519/888735952029_Cover.jpg/300x300bb.jpg",
-    "trackId": "1818922031"
   },
   {
     "id": "applemusic-1709483322",
@@ -856,19 +856,6 @@
     "trackUrl": "https://music.apple.com/us/album/we-go/1703219660?i=1703219661",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/aa/1b/d6aa1b90-17e5-0ba0-7a86-3a2058f060a2/888272121766.jpg/300x300bb.jpg",
     "trackId": "1703219661"
-  },
-  {
-    "id": "applemusic-1725110791",
-    "name": "Regret of the Times (2024 aespa Remake Version)",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Regret of the Times (2024 aespa Remake Version) - SM STATION - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b2/bb/21/b2bb213f-b1cb-7f2b-d3a7-8119323f24e4/mzaf_6640888583826066194.plus.aac.p.m4a",
-    "duration": 171947,
-    "trackUrl": "https://music.apple.com/us/album/regret-of-the-times-2024-aespa-remake-version/1725110790?i=1725110791",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/16/75/68/1675686d-e8fd-5e8e-40d9-7a411ed5c0c7/2024_aespa_Remake_Ver.jpg/300x300bb.jpg",
-    "trackId": "1725110791"
   },
   {
     "id": "applemusic-1703219662",

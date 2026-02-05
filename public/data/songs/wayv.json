@@ -1,31 +1,5 @@
 [
   {
-    "id": "applemusic-1484920170",
-    "name": "Love Talk",
-    "artists": [
-      "WayV"
-    ],
-    "album": "Take Over the Moon (The 2nd Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/a9/83/c5a98364-8f85-7773-265b-898d9570fc14/mzaf_17899446983311389480.plus.aac.p.m4a",
-    "duration": 232694,
-    "trackUrl": "https://music.apple.com/us/album/love-talk/1484920167?i=1484920170",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/bd/83/6d/bd836d2d-4ce5-363c-9e7f-d17f9d5b7a1c/WayV_Take_Over_The_Moon-_-.jpg/300x300bb.jpg",
-    "trackId": "1484920170"
-  },
-  {
-    "id": "applemusic-1516959486",
-    "name": "Bad Alive",
-    "artists": [
-      "WayV"
-    ],
-    "album": "Awaken The World - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/d5/7c/87d57cb2-8d6b-1a8f-379c-51ed04760f6d/mzaf_3369989247094648191.plus.aac.p.m4a",
-    "duration": 229280,
-    "trackUrl": "https://music.apple.com/us/album/bad-alive/1516959364?i=1516959486",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/c8/02/bac8023f-481f-de80-14aa-1ee2ee935e2f/1._WayV_1_-.jpg/300x300bb.jpg",
-    "trackId": "1516959486"
-  },
-  {
     "id": "applemusic-1484920168",
     "name": "Moonwalk",
     "artists": [
@@ -50,6 +24,19 @@
     "trackUrl": "https://music.apple.com/us/album/yeah-yeah-yeah/1484920167?i=1484920169",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/bd/83/6d/bd836d2d-4ce5-363c-9e7f-d17f9d5b7a1c/WayV_Take_Over_The_Moon-_-.jpg/300x300bb.jpg",
     "trackId": "1484920169"
+  },
+  {
+    "id": "applemusic-1484920170",
+    "name": "Love Talk",
+    "artists": [
+      "WayV"
+    ],
+    "album": "Take Over the Moon (The 2nd Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c5/a9/83/c5a98364-8f85-7773-265b-898d9570fc14/mzaf_17899446983311389480.plus.aac.p.m4a",
+    "duration": 232694,
+    "trackUrl": "https://music.apple.com/us/album/love-talk/1484920167?i=1484920170",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/bd/83/6d/bd836d2d-4ce5-363c-9e7f-d17f9d5b7a1c/WayV_Take_Over_The_Moon-_-.jpg/300x300bb.jpg",
+    "trackId": "1484920170"
   },
   {
     "id": "applemusic-1484920173",
@@ -104,6 +91,19 @@
     "trackId": "1516959365"
   },
   {
+    "id": "applemusic-1516959486",
+    "name": "Bad Alive",
+    "artists": [
+      "WayV"
+    ],
+    "album": "Awaken The World - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/87/d5/7c/87d57cb2-8d6b-1a8f-379c-51ed04760f6d/mzaf_3369989247094648191.plus.aac.p.m4a",
+    "duration": 229280,
+    "trackUrl": "https://music.apple.com/us/album/bad-alive/1516959364?i=1516959486",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/c8/02/bac8023f-481f-de80-14aa-1ee2ee935e2f/1._WayV_1_-.jpg/300x300bb.jpg",
+    "trackId": "1516959486"
+  },
+  {
     "id": "applemusic-1516959488",
     "name": "Unbreakable",
     "artists": [
@@ -128,19 +128,6 @@
     "trackUrl": "https://music.apple.com/us/album/after-midnight/1516959364?i=1516959490",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/c8/02/bac8023f-481f-de80-14aa-1ee2ee935e2f/1._WayV_1_-.jpg/300x300bb.jpg",
     "trackId": "1516959490"
-  },
-  {
-    "id": "applemusic-1516959494",
-    "name": "Interlude: Awaken The World",
-    "artists": [
-      "WayV"
-    ],
-    "album": "Awaken The World - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/59/7a/20/597a20bd-8b17-90e4-56b4-f7c4dcae1592/mzaf_10271661324139678416.plus.aac.p.m4a",
-    "duration": 53600,
-    "trackUrl": "https://music.apple.com/us/album/interlude-awaken-the-world/1516959364?i=1516959494",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/c8/02/bac8023f-481f-de80-14aa-1ee2ee935e2f/1._WayV_1_-.jpg/300x300bb.jpg",
-    "trackId": "1516959494"
   },
   {
     "id": "applemusic-1516959497",
@@ -208,6 +195,45 @@
     "trackId": "1516959511"
   },
   {
+    "id": "applemusic-1449462314",
+    "name": "Regular",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Vision - The 1st Digital EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/e3/cf/c8e3cf74-b59a-66d1-e196-0ac691e4b7e0/mzaf_8686052712443264613.plus.aac.p.m4a",
+    "duration": 217587,
+    "trackUrl": "https://music.apple.com/us/album/regular/1449461860?i=1449462314",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/b2/1e/71b21ea1-aece-c8d1-a04d-f3ad5ce7038f/The_Vision-cover.jpg/300x300bb.jpg",
+    "trackId": "1449462314"
+  },
+  {
+    "id": "applemusic-1449462324",
+    "name": "Come Back",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Vision - The 1st Digital EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/82/86/eb8286da-b7d1-ffd4-5541-dbdf1dd7001e/mzaf_10348128784921287409.plus.aac.p.m4a",
+    "duration": 205293,
+    "trackUrl": "https://music.apple.com/us/album/come-back/1449461860?i=1449462324",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/b2/1e/71b21ea1-aece-c8d1-a04d-f3ad5ce7038f/The_Vision-cover.jpg/300x300bb.jpg",
+    "trackId": "1449462324"
+  },
+  {
+    "id": "applemusic-1449462330",
+    "name": "Dream Launch",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Vision - The 1st Digital EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/94/37/6b/94376bd4-54e9-52a4-4d90-85b9f120d625/mzaf_406216085386508773.plus.aac.p.m4a",
+    "duration": 226547,
+    "trackUrl": "https://music.apple.com/us/album/dream-launch/1449461860?i=1449462330",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/b2/1e/71b21ea1-aece-c8d1-a04d-f3ad5ce7038f/The_Vision-cover.jpg/300x300bb.jpg",
+    "trackId": "1449462330"
+  },
+  {
     "id": "applemusic-1462855351",
     "name": "Take Off",
     "artists": [
@@ -219,19 +245,6 @@
     "trackUrl": "https://music.apple.com/us/album/take-off/1462855350?i=1462855351",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/24/31/c9/2431c988-f355-2722-4dfb-051a9dfad924/WayV_TakeOff-Digital_Cover-R.jpg/300x300bb.jpg",
     "trackId": "1462855351"
-  },
-  {
-    "id": "applemusic-1462855352",
-    "name": "Regular",
-    "artists": [
-      "WayV"
-    ],
-    "album": "Take Off (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/88/c9/5f88c939-6162-397f-b014-593b1dd4eceb/mzaf_6847089133380059877.plus.aac.p.m4a",
-    "duration": 217587,
-    "trackUrl": "https://music.apple.com/us/album/regular/1462855350?i=1462855352",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/24/31/c9/2431c988-f355-2722-4dfb-051a9dfad924/WayV_TakeOff-Digital_Cover-R.jpg/300x300bb.jpg",
-    "trackId": "1462855352"
   },
   {
     "id": "applemusic-1462855353",
@@ -247,19 +260,6 @@
     "trackId": "1462855353"
   },
   {
-    "id": "applemusic-1462855356",
-    "name": "Come Back",
-    "artists": [
-      "WayV"
-    ],
-    "album": "Take Off (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ea/14/ec/ea14ec3c-63c0-ed22-d624-1055974585ff/mzaf_12630337691539246037.plus.aac.p.m4a",
-    "duration": 205293,
-    "trackUrl": "https://music.apple.com/us/album/come-back/1462855350?i=1462855356",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/24/31/c9/2431c988-f355-2722-4dfb-051a9dfad924/WayV_TakeOff-Digital_Cover-R.jpg/300x300bb.jpg",
-    "trackId": "1462855356"
-  },
-  {
     "id": "applemusic-1462855357",
     "name": "Let Me Love U",
     "artists": [
@@ -271,19 +271,6 @@
     "trackUrl": "https://music.apple.com/us/album/let-me-love-u/1462855350?i=1462855357",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/24/31/c9/2431c988-f355-2722-4dfb-051a9dfad924/WayV_TakeOff-Digital_Cover-R.jpg/300x300bb.jpg",
     "trackId": "1462855357"
-  },
-  {
-    "id": "applemusic-1462855364",
-    "name": "Dream Launch",
-    "artists": [
-      "WayV"
-    ],
-    "album": "Take Off (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ed/ee/de/edeede9b-6762-fbe6-ff63-cb0af6f73c7c/mzaf_10871787210169009160.plus.aac.p.m4a",
-    "duration": 226547,
-    "trackUrl": "https://music.apple.com/us/album/dream-launch/1462855350?i=1462855364",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/24/31/c9/2431c988-f355-2722-4dfb-051a9dfad924/WayV_TakeOff-Digital_Cover-R.jpg/300x300bb.jpg",
-    "trackId": "1462855364"
   },
   {
     "id": "applemusic-1713114151",
@@ -624,19 +611,6 @@
     "trackId": "1748702084"
   },
   {
-    "id": "applemusic-1779782930",
-    "name": "FREQUENCY (Korean Version)",
-    "artists": [
-      "WayV"
-    ],
-    "album": "FREQUENCY - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/32/ad/da32add8-486b-0818-1373-2c71ed2a7677/mzaf_5215165861081666680.plus.aac.p.m4a",
-    "duration": 160147,
-    "trackUrl": "https://music.apple.com/us/album/frequency-korean-version/1779782929?i=1779782930",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/62/76/3f/62763faf-66e0-9b48-0556-dfb887f1d46b/888735950216.png/300x300bb.jpg",
-    "trackId": "1779782930"
-  },
-  {
     "id": "applemusic-1779782931",
     "name": "HIGH FIVE",
     "artists": [
@@ -689,84 +663,6 @@
     "trackId": "1779782935"
   },
   {
-    "id": "applemusic-1758724811",
-    "name": "Go Higher",
-    "artists": [
-      "WayV"
-    ],
-    "album": "The Highest - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/ac/61/7eac61ea-9944-0ea7-e66d-5f827f8d28c6/mzaf_1281511395364320545.plus.aac.p.m4a",
-    "duration": 197840,
-    "trackUrl": "https://music.apple.com/us/album/go-higher/1758724810?i=1758724811",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
-    "trackId": "1758724811"
-  },
-  {
-    "id": "applemusic-1758724812",
-    "name": "Tempo",
-    "artists": [
-      "WayV"
-    ],
-    "album": "The Highest - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/99/47/a19947b4-54a9-8b94-5112-ddd22a828049/mzaf_2358575491538897134.plus.aac.p.m4a",
-    "duration": 189067,
-    "trackUrl": "https://music.apple.com/us/album/tempo/1758724810?i=1758724812",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
-    "trackId": "1758724812"
-  },
-  {
-    "id": "applemusic-1758724813",
-    "name": "Deep Ocean",
-    "artists": [
-      "WayV"
-    ],
-    "album": "The Highest - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/4a/13/e24a13b8-b361-b653-fbee-118c094d45b5/mzaf_17465003294674048161.plus.aac.p.m4a",
-    "duration": 181787,
-    "trackUrl": "https://music.apple.com/us/album/deep-ocean/1758724810?i=1758724813",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
-    "trackId": "1758724813"
-  },
-  {
-    "id": "applemusic-1758724816",
-    "name": "What A Good Time",
-    "artists": [
-      "WayV"
-    ],
-    "album": "The Highest - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/07/54/cc0754b7-347e-468f-e125-f7bede74e7bc/mzaf_9277925083700278404.plus.aac.p.m4a",
-    "duration": 192613,
-    "trackUrl": "https://music.apple.com/us/album/what-a-good-time/1758724810?i=1758724816",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
-    "trackId": "1758724816"
-  },
-  {
-    "id": "applemusic-1758724817",
-    "name": "Images",
-    "artists": [
-      "WayV"
-    ],
-    "album": "The Highest - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/ec/b3/63ecb30a-b814-45c9-3db4-1b3d8af7e59c/mzaf_14443049143930437065.plus.aac.p.m4a",
-    "duration": 215587,
-    "trackUrl": "https://music.apple.com/us/album/images/1758724810?i=1758724817",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
-    "trackId": "1758724817"
-  },
-  {
-    "id": "applemusic-1758724939",
-    "name": "Bandage",
-    "artists": [
-      "WayV"
-    ],
-    "album": "The Highest - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/10/a2/f110a2c7-c6dc-f36f-ef2a-553a1818bf64/mzaf_6728888070318134005.plus.aac.p.m4a",
-    "duration": 203227,
-    "trackUrl": "https://music.apple.com/us/album/bandage/1758724810?i=1758724939",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
-    "trackId": "1758724939"
-  },
-  {
     "id": "applemusic-1684906958",
     "name": "Welcome To My Paradise",
     "artists": [
@@ -778,32 +674,6 @@
     "trackUrl": "https://music.apple.com/us/album/welcome-to-my-paradise/1684906956?i=1684906958",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e5/4a/bd/e54abd47-42bf-0f5d-22a0-1ba7a14bf4dd/ANTCD-A0000010104.jpg/300x300bb.jpg",
     "trackId": "1684906958"
-  },
-  {
-    "id": "applemusic-1825364281",
-    "name": "Ice Tea",
-    "artists": [
-      "WayV"
-    ],
-    "album": "BIG BANDS - The 7th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/25/79/5e25793e-e907-5e79-d1be-6fa96f0b7dae/mzaf_12422019656301039180.plus.aac.p.m4a",
-    "duration": 187000,
-    "trackUrl": "https://music.apple.com/us/album/ice-tea/1825364278?i=1825364281",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/78/cc/b878cce6-d805-ed8b-4497-5bae1e80d43d/888735952807.png/300x300bb.jpg",
-    "trackId": "1825364281"
-  },
-  {
-    "id": "applemusic-1825364437",
-    "name": "BIG BANDS (Korean Version)",
-    "artists": [
-      "WayV"
-    ],
-    "album": "BIG BANDS - The 7th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/3e/2d/a13e2db9-2bfa-bf5b-2b96-387f9ee089dc/mzaf_6714305899770409709.plus.aac.p.m4a",
-    "duration": 178000,
-    "trackUrl": "https://music.apple.com/us/album/big-bands-korean-version/1825364278?i=1825364437",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/78/cc/b878cce6-d805-ed8b-4497-5bae1e80d43d/888735952807.png/300x300bb.jpg",
-    "trackId": "1825364437"
   },
   {
     "id": "applemusic-1855728952",
@@ -897,6 +767,97 @@
     "trackId": "1855728961"
   },
   {
+    "id": "applemusic-1825364281",
+    "name": "Ice Tea",
+    "artists": [
+      "WayV"
+    ],
+    "album": "BIG BANDS - The 7th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/25/79/5e25793e-e907-5e79-d1be-6fa96f0b7dae/mzaf_12422019656301039180.plus.aac.p.m4a",
+    "duration": 187000,
+    "trackUrl": "https://music.apple.com/us/album/ice-tea/1825364278?i=1825364281",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/78/cc/b878cce6-d805-ed8b-4497-5bae1e80d43d/888735952807.png/300x300bb.jpg",
+    "trackId": "1825364281"
+  },
+  {
+    "id": "applemusic-1758724811",
+    "name": "Go Higher",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Highest - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/ac/61/7eac61ea-9944-0ea7-e66d-5f827f8d28c6/mzaf_1281511395364320545.plus.aac.p.m4a",
+    "duration": 197840,
+    "trackUrl": "https://music.apple.com/us/album/go-higher/1758724810?i=1758724811",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
+    "trackId": "1758724811"
+  },
+  {
+    "id": "applemusic-1758724812",
+    "name": "Tempo",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Highest - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/99/47/a19947b4-54a9-8b94-5112-ddd22a828049/mzaf_2358575491538897134.plus.aac.p.m4a",
+    "duration": 189067,
+    "trackUrl": "https://music.apple.com/us/album/tempo/1758724810?i=1758724812",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
+    "trackId": "1758724812"
+  },
+  {
+    "id": "applemusic-1758724813",
+    "name": "Deep Ocean",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Highest - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/4a/13/e24a13b8-b361-b653-fbee-118c094d45b5/mzaf_17465003294674048161.plus.aac.p.m4a",
+    "duration": 181787,
+    "trackUrl": "https://music.apple.com/us/album/deep-ocean/1758724810?i=1758724813",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
+    "trackId": "1758724813"
+  },
+  {
+    "id": "applemusic-1758724816",
+    "name": "What A Good Time",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Highest - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/07/54/cc0754b7-347e-468f-e125-f7bede74e7bc/mzaf_9277925083700278404.plus.aac.p.m4a",
+    "duration": 192613,
+    "trackUrl": "https://music.apple.com/us/album/what-a-good-time/1758724810?i=1758724816",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
+    "trackId": "1758724816"
+  },
+  {
+    "id": "applemusic-1758724817",
+    "name": "Images",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Highest - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/63/ec/b3/63ecb30a-b814-45c9-3db4-1b3d8af7e59c/mzaf_14443049143930437065.plus.aac.p.m4a",
+    "duration": 215587,
+    "trackUrl": "https://music.apple.com/us/album/images/1758724810?i=1758724817",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
+    "trackId": "1758724817"
+  },
+  {
+    "id": "applemusic-1758724939",
+    "name": "Bandage",
+    "artists": [
+      "WayV"
+    ],
+    "album": "The Highest - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/10/a2/f110a2c7-c6dc-f36f-ef2a-553a1818bf64/mzaf_6728888070318134005.plus.aac.p.m4a",
+    "duration": 203227,
+    "trackUrl": "https://music.apple.com/us/album/bandage/1758724810?i=1758724939",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/69/7b/ba/697bba20-9723-1965-cfe4-0453f4a5d5c5/ANTCD-A0000014188.jpg/300x300bb.jpg",
+    "trackId": "1758724939"
+  },
+  {
     "id": "applemusic-1540895594",
     "name": "90's Love",
     "artists": [
@@ -988,19 +949,6 @@
     "trackId": "1540895602"
   },
   {
-    "id": "applemusic-1540895606",
-    "name": "Interlude: Past to Present",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT RESONANCE Pt. 2 - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/7f/7c/c87f7cbc-d7ad-b380-d1dd-f822565d405e/mzaf_8256959328490821106.plus.aac.p.m4a",
-    "duration": 70867,
-    "trackUrl": "https://music.apple.com/jp/album/interlude-past-to-present/1540895592?i=1540895606",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
-    "trackId": "1540895606"
-  },
-  {
     "id": "applemusic-1540895607",
     "name": "Make A Wish (Birthday Song)",
     "artists": [
@@ -1066,19 +1014,6 @@
     "trackId": "1540895614"
   },
   {
-    "id": "applemusic-1540895768",
-    "name": "Interlude: Present to Future",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT RESONANCE Pt. 2 - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/da/89/4bda8940-a5b2-8aee-db92-b4f0c5ec0230/mzaf_4480600788266197514.plus.aac.p.m4a",
-    "duration": 81240,
-    "trackUrl": "https://music.apple.com/jp/album/interlude-present-to-future/1540895592?i=1540895768",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
-    "trackId": "1540895768"
-  },
-  {
     "id": "applemusic-1540895769",
     "name": "Work It",
     "artists": [
@@ -1116,18 +1051,5 @@
     "trackUrl": "https://music.apple.com/jp/album/i-o-u/1540895592?i=1540895772",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
     "trackId": "1540895772"
-  },
-  {
-    "id": "applemusic-1540895773",
-    "name": "Outro: Dream Routine",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT RESONANCE Pt. 2 - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/38/1f/e1381f41-510f-6289-d198-ecd0592519d1/mzaf_9986566165161824789.plus.aac.p.m4a",
-    "duration": 50347,
-    "trackUrl": "https://music.apple.com/jp/album/outro-dream-routine/1540895592?i=1540895773",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
-    "trackId": "1540895773"
   }
 ]
