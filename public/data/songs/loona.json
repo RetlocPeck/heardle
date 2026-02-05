@@ -91,19 +91,6 @@
     "trackId": "1842251793"
   },
   {
-    "id": "applemusic-1842251797",
-    "name": "Star (Voice English Version)",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/b0/7d/c2b07d73-7301-38d6-6c72-d91dfea5ce2c/mzaf_7632111203485024259.plus.aac.p.m4a",
-    "duration": 198187,
-    "trackUrl": "https://music.apple.com/us/album/star-voice-english-version/1842251630?i=1842251797",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251797"
-  },
-  {
     "id": "applemusic-1431643740",
     "name": "+ +",
     "artists": [
@@ -468,6 +455,58 @@
     "trackId": "1606681634"
   },
   {
+    "id": "applemusic-1264960640",
+    "name": "Love Cherry Motion",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Choerry - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/d1/e4/f2d1e466-0e67-7339-a82f-e3d58679e57a/mzaf_4692563446041134246.plus.aac.p.m4a",
+    "duration": 221848,
+    "trackUrl": "https://music.apple.com/us/album/love-cherry-motion/1264960632?i=1264960640",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/4b/ab/084bab73-eb50-2145-672b-16deaae51ad7/8809550033146.jpg/300x300bb.jpg",
+    "trackId": "1264960640"
+  },
+  {
+    "id": "applemusic-1264960645",
+    "name": "Puzzle",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Choerry - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/e1/e5/c8e1e544-5160-b0ff-1ecf-a524be776e62/mzaf_4162838191929411175.plus.aac.p.m4a",
+    "duration": 220044,
+    "trackUrl": "https://music.apple.com/us/album/puzzle/1264960632?i=1264960645",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/4b/ab/084bab73-eb50-2145-672b-16deaae51ad7/8809550033146.jpg/300x300bb.jpg",
+    "trackId": "1264960645"
+  },
+  {
+    "id": "applemusic-1606681333",
+    "name": "Eclipse",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Kim Lip - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/eb/06/e8eb06bb-700f-bf39-78c7-005b6dcf7f51/mzaf_16205771941882297004.plus.aac.p.m4a",
+    "duration": 231237,
+    "trackUrl": "https://music.apple.com/us/album/eclipse/1606681332?i=1606681333",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/18/9c/e3/189ce32a-35d6-474b-3b14-54c3acc20146/8804775132988.jpg/300x300bb.jpg",
+    "trackId": "1606681333"
+  },
+  {
+    "id": "applemusic-1606681334",
+    "name": "Twilight",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Kim Lip - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/c5/c5/91c5c5eb-c30c-9cc7-bf68-78acb3993127/mzaf_6939425986070016806.plus.aac.p.m4a",
+    "duration": 186722,
+    "trackUrl": "https://music.apple.com/us/album/twilight/1606681332?i=1606681334",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/18/9c/e3/189ce32a-35d6-474b-3b14-54c3acc20146/8804775132988.jpg/300x300bb.jpg",
+    "trackId": "1606681334"
+  },
+  {
     "id": "applemusic-1628492602",
     "name": "The Journey",
     "artists": [
@@ -544,58 +583,6 @@
     "trackUrl": "https://music.apple.com/us/album/playback/1628492601?i=1628492798",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/14/dc/41/14dc4183-1b00-9196-d9c2-8b5841c940ae/5054197200588.jpg/300x300bb.jpg",
     "trackId": "1628492798"
-  },
-  {
-    "id": "applemusic-1264960640",
-    "name": "Love Cherry Motion",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Choerry - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/d1/e4/f2d1e466-0e67-7339-a82f-e3d58679e57a/mzaf_4692563446041134246.plus.aac.p.m4a",
-    "duration": 221848,
-    "trackUrl": "https://music.apple.com/us/album/love-cherry-motion/1264960632?i=1264960640",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/4b/ab/084bab73-eb50-2145-672b-16deaae51ad7/8809550033146.jpg/300x300bb.jpg",
-    "trackId": "1264960640"
-  },
-  {
-    "id": "applemusic-1264960645",
-    "name": "Puzzle",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Choerry - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/e1/e5/c8e1e544-5160-b0ff-1ecf-a524be776e62/mzaf_4162838191929411175.plus.aac.p.m4a",
-    "duration": 220044,
-    "trackUrl": "https://music.apple.com/us/album/puzzle/1264960632?i=1264960645",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/08/4b/ab/084bab73-eb50-2145-672b-16deaae51ad7/8809550033146.jpg/300x300bb.jpg",
-    "trackId": "1264960645"
-  },
-  {
-    "id": "applemusic-1606681333",
-    "name": "Eclipse",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Kim Lip - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/eb/06/e8eb06bb-700f-bf39-78c7-005b6dcf7f51/mzaf_16205771941882297004.plus.aac.p.m4a",
-    "duration": 231237,
-    "trackUrl": "https://music.apple.com/us/album/eclipse/1606681332?i=1606681333",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/18/9c/e3/189ce32a-35d6-474b-3b14-54c3acc20146/8804775132988.jpg/300x300bb.jpg",
-    "trackId": "1606681333"
-  },
-  {
-    "id": "applemusic-1606681334",
-    "name": "Twilight",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Kim Lip - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/c5/c5/91c5c5eb-c30c-9cc7-bf68-78acb3993127/mzaf_6939425986070016806.plus.aac.p.m4a",
-    "duration": 186722,
-    "trackUrl": "https://music.apple.com/us/album/twilight/1606681332?i=1606681334",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/18/9c/e3/189ce32a-35d6-474b-3b14-54c3acc20146/8804775132988.jpg/300x300bb.jpg",
-    "trackId": "1606681334"
   },
   {
     "id": "applemusic-1606677555",
@@ -843,19 +830,6 @@
     "trackUrl": "https://music.apple.com/us/album/see-sea-bae/1625813105?i=1625813415",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b0/67/9c/b0679cdf-2c02-5094-7bfe-4d9d6a67ece7/888272099928_Cover.jpg/300x300bb.jpg",
     "trackId": "1625813415"
-  },
-  {
-    "id": "applemusic-1617975097",
-    "name": "WA DA DA (QUEENDOM2 Version)",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "<Queendom2>, Pt. 1-2 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ec/3f/29/ec3f297e-baa8-64ae-72e0-8f4d1a2ee3aa/mzaf_15615361715461757285.plus.aac.p.m4a",
-    "duration": 234600,
-    "trackUrl": "https://music.apple.com/us/album/wa-da-da-queendom2-version/1617974885?i=1617975097",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/3c/ad/673cadfe-e01e-bc5a-22f6-1358e742b617/888272097214_Cover.jpg/300x300bb.jpg",
-    "trackId": "1617975097"
   },
   {
     "id": "applemusic-1617975112",

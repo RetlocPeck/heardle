@@ -75,9 +75,21 @@ export class AppleMusicService {
     const cachedDataService = CachedDataService.getInstance();
     const staticCachedSongs = cachedDataService.getCachedSongs(artistId);
     if (staticCachedSongs && staticCachedSongs.length > 0) {
-      console.log(`📦 Using ${staticCachedSongs.length} pre-cached songs for ${artistId}`);
-      this.availableTracks.set(artistId, staticCachedSongs);
-      return staticCachedSongs;
+      console.log(`📦 Found ${staticCachedSongs.length} pre-cached songs for ${artistId}`);
+      
+      // IMPORTANT: Always apply runtime filters to static cached data
+      // This ensures old cache files (built before filter updates) don't leak
+      // intro/outro/skit/version tracks into the game
+      const filteredSongs = this.applyRuntimeFiltersToSongs(staticCachedSongs);
+      
+      const filteredCount = staticCachedSongs.length - filteredSongs.length;
+      if (filteredCount > 0) {
+        console.log(`🔍 Runtime filter removed ${filteredCount} tracks from static cache`);
+      }
+      
+      console.log(`✅ Using ${filteredSongs.length} filtered songs for ${artistId}`);
+      this.availableTracks.set(artistId, filteredSongs);
+      return filteredSongs;
     }
 
     const artist = this.configService.getArtist(artistId);
@@ -350,6 +362,30 @@ export class AppleMusicService {
       console.error('Failed to search for artist:', error);
       return null;
     }
+  }
+
+  /**
+   * Apply runtime filters to Song[] array
+   * Used for static cached songs that may have been built with older filter logic
+   */
+  private applyRuntimeFiltersToSongs(songs: Song[]): Song[] {
+    // Create a minimal track adapter for the filter chain
+    const trackAdapters = songs.map(song => ({
+      id: song.trackId,
+      attributes: {
+        name: song.name,
+        albumName: song.album,
+        previews: [{ url: song.previewUrl }]
+      }
+    } as any));
+
+    // Apply filter chain
+    const filters = getDefaultFilterChain();
+    const { valid: validTracks } = applyFilterChain(trackAdapters, filters);
+
+    // Map back to original Song objects
+    const validTrackIds = new Set(validTracks.map((t: any) => t.id.toString()));
+    return songs.filter(song => validTrackIds.has(song.trackId.toString()));
   }
 
   /**

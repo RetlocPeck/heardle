@@ -234,19 +234,6 @@
     "trackId": "1762581540"
   },
   {
-    "id": "applemusic-1732228802",
-    "name": "YURA YURA",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "YURA YURA - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/36/26/1b36266d-b23e-91ca-a185-d8d743f2d4fd/mzaf_1845571551319753168.plus.aac.p.m4a",
-    "duration": 184748,
-    "trackUrl": "https://music.apple.com/us/album/yura-yura/1732228794?i=1732228802",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/40/37/13/4037133b-f512-8bd5-21a1-d9e9dbb8ccbb/4547366669343.jpg/300x300bb.jpg",
-    "trackId": "1732228802"
-  },
-  {
     "id": "applemusic-1741273773",
     "name": "SWEAT",
     "artists": [
@@ -258,71 +245,6 @@
     "trackUrl": "https://music.apple.com/us/album/sweat/1741273766?i=1741273773",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/60/8a/8a/608a8ad6-4808-9e8c-39b9-e444dd3333ba/888272132878_Cover.jpg/300x300bb.jpg",
     "trackId": "1741273773"
-  },
-  {
-    "id": "applemusic-1744311937",
-    "name": "Solar POWER",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "You had me at HELLO",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/1a/73/411a7322-e164-5d65-d0f6-3a22148d917b/mzaf_908414723709035605.plus.aac.p.m4a",
-    "duration": 171374,
-    "trackUrl": "https://music.apple.com/us/album/solar-power/1744311935?i=1744311937",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
-    "trackId": "1744311937"
-  },
-  {
-    "id": "applemusic-1744311947",
-    "name": "Feel the POP",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "You had me at HELLO",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/84/84/258484cf-30fa-4e7d-94ae-ef098d6986c5/mzaf_7530017743616000161.plus.aac.p.m4a",
-    "duration": 176212,
-    "trackUrl": "https://music.apple.com/us/album/feel-the-pop/1744311935?i=1744311947",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
-    "trackId": "1744311947"
-  },
-  {
-    "id": "applemusic-1744312132",
-    "name": "Dear ECLIPSE",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "You had me at HELLO",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/52/5e/01525e16-069f-9403-5bb8-4b474b7b9906/mzaf_17468481380329156353.plus.aac.p.m4a",
-    "duration": 169405,
-    "trackUrl": "https://music.apple.com/us/album/dear-eclipse/1744311935?i=1744312132",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
-    "trackId": "1744312132"
-  },
-  {
-    "id": "applemusic-1744312135",
-    "name": "Sunday RIDE",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "You had me at HELLO",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/a5/b0/6ca5b029-243c-fcdd-1d34-56310fcbddd0/mzaf_13965558725143867200.plus.aac.p.m4a",
-    "duration": 179784,
-    "trackUrl": "https://music.apple.com/us/album/sunday-ride/1744311935?i=1744312135",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
-    "trackId": "1744312135"
-  },
-  {
-    "id": "applemusic-1744312138",
-    "name": "HELLO",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "You had me at HELLO",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/27/a4/ac27a491-bf01-514f-9c5f-7435ee55f82c/mzaf_2059129014525337340.plus.aac.p.m4a",
-    "duration": 213787,
-    "trackUrl": "https://music.apple.com/us/album/hello/1744311935?i=1744312138",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
-    "trackId": "1744312138"
   },
   {
     "id": "applemusic-1795372996",
@@ -390,6 +312,71 @@
     "trackId": "1795373251"
   },
   {
+    "id": "applemusic-1744311937",
+    "name": "Solar POWER",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "You had me at HELLO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/1a/73/411a7322-e164-5d65-d0f6-3a22148d917b/mzaf_908414723709035605.plus.aac.p.m4a",
+    "duration": 171374,
+    "trackUrl": "https://music.apple.com/us/album/solar-power/1744311935?i=1744311937",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
+    "trackId": "1744311937"
+  },
+  {
+    "id": "applemusic-1744311947",
+    "name": "Feel the POP",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "You had me at HELLO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/84/84/258484cf-30fa-4e7d-94ae-ef098d6986c5/mzaf_7530017743616000161.plus.aac.p.m4a",
+    "duration": 176212,
+    "trackUrl": "https://music.apple.com/us/album/feel-the-pop/1744311935?i=1744311947",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
+    "trackId": "1744311947"
+  },
+  {
+    "id": "applemusic-1744312132",
+    "name": "Dear ECLIPSE",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "You had me at HELLO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/52/5e/01525e16-069f-9403-5bb8-4b474b7b9906/mzaf_17468481380329156353.plus.aac.p.m4a",
+    "duration": 169405,
+    "trackUrl": "https://music.apple.com/us/album/dear-eclipse/1744311935?i=1744312132",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
+    "trackId": "1744312132"
+  },
+  {
+    "id": "applemusic-1744312135",
+    "name": "Sunday RIDE",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "You had me at HELLO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/a5/b0/6ca5b029-243c-fcdd-1d34-56310fcbddd0/mzaf_13965558725143867200.plus.aac.p.m4a",
+    "duration": 179784,
+    "trackUrl": "https://music.apple.com/us/album/sunday-ride/1744311935?i=1744312135",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
+    "trackId": "1744312135"
+  },
+  {
+    "id": "applemusic-1744312138",
+    "name": "HELLO",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "You had me at HELLO",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/27/a4/ac27a491-bf01-514f-9c5f-7435ee55f82c/mzaf_2059129014525337340.plus.aac.p.m4a",
+    "duration": 213787,
+    "trackUrl": "https://music.apple.com/us/album/hello/1744311935?i=1744312138",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/81/1b/ff811b4a-51e4-a4c4-7b9e-afa775a31d66/196922960017_Cover.jpg/300x300bb.jpg",
+    "trackId": "1744312138"
+  },
+  {
     "id": "applemusic-1826911166",
     "name": "ICONIK",
     "artists": [
@@ -455,19 +442,6 @@
     "trackId": "1826911173"
   },
   {
-    "id": "applemusic-1787161008",
-    "name": "NOW OR NEVER",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "NOW OR NEVER - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/26/04/3f260402-8f72-e75e-6a3c-69d35d645a9a/mzaf_1314210903710895365.plus.aac.p.m4a",
-    "duration": 201733,
-    "trackUrl": "https://music.apple.com/us/album/now-or-never/1787161005?i=1787161008",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/91/01/a39101d2-c6a1-cdb4-a54a-2bbeed339af4/4547366726855.jpg/300x300bb.jpg",
-    "trackId": "1787161008"
-  },
-  {
     "id": "applemusic-1826911178",
     "name": "EXTRA",
     "artists": [
@@ -520,17 +494,43 @@
     "trackId": "1826911311"
   },
   {
-    "id": "applemusic-1868932586",
+    "id": "applemusic-1872047340",
+    "name": "Running to Future",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "RE-FLOW - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/0e/41/a00e4185-969f-7c42-592c-148866ceb4a7/mzaf_18368696578516238010.plus.aac.p.m4a",
+    "duration": 199000,
+    "trackUrl": "https://music.apple.com/us/album/running-to-future/1872047338?i=1872047340",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/69/ad/6f69adc9-b349-e897-1b59-d0645b5c7fb7/198704967405_Cover.jpg/300x300bb.jpg",
+    "trackId": "1872047340"
+  },
+  {
+    "id": "applemusic-1872047342",
     "name": "ROSES",
     "artists": [
       "ZEROBASEONE"
     ],
-    "album": "ROSES - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/af/08/a5af082b-b476-860b-b9f3-bc550574e673/mzaf_2078861933252083150.plus.aac.p.m4a",
+    "album": "RE-FLOW - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/ec/c9/b0ecc92a-63a8-1db3-e5a8-68ba8394060c/mzaf_9516206831445903813.plus.aac.p.m4a",
     "duration": 141000,
-    "trackUrl": "https://music.apple.com/us/album/roses/1868932579?i=1868932586",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/15/87/d215871b-e0b8-6b4b-04fe-3893c9618d12/198704950223_Cover.jpg/300x300bb.jpg",
-    "trackId": "1868932586"
+    "trackUrl": "https://music.apple.com/us/album/roses/1872047338?i=1872047342",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/69/ad/6f69adc9-b349-e897-1b59-d0645b5c7fb7/198704967405_Cover.jpg/300x300bb.jpg",
+    "trackId": "1872047342"
+  },
+  {
+    "id": "applemusic-1872047346",
+    "name": "LOVEPOCALYPSE",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "RE-FLOW - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/8d/13/e28d136a-9c2e-0a30-9682-412fbbf1f229/mzaf_4872617675288590745.plus.aac.p.m4a",
+    "duration": 169000,
+    "trackUrl": "https://music.apple.com/us/album/lovepocalypse/1872047338?i=1872047346",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/69/ad/6f69adc9-b349-e897-1b59-d0645b5c7fb7/198704967405_Cover.jpg/300x300bb.jpg",
+    "trackId": "1872047346"
   },
   {
     "id": "applemusic-1770742864",
@@ -546,30 +546,17 @@
     "trackId": "1770742864"
   },
   {
-    "id": "applemusic-1872047340",
-    "name": "Running to Future",
+    "id": "applemusic-1787161008",
+    "name": "NOW OR NEVER",
     "artists": [
       "ZEROBASEONE"
     ],
-    "album": "RE-FLOW - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/0e/41/a00e4185-969f-7c42-592c-148866ceb4a7/mzaf_18368696578516238010.plus.aac.p.m4a",
-    "duration": 199000,
-    "trackUrl": "https://music.apple.com/us/album/running-to-future/1872047338?i=1872047340",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/69/ad/6f69adc9-b349-e897-1b59-d0645b5c7fb7/198704967405_Cover.jpg/300x300bb.jpg",
-    "trackId": "1872047340"
-  },
-  {
-    "id": "applemusic-1872047346",
-    "name": "LOVEPOCALYPSE",
-    "artists": [
-      "ZEROBASEONE"
-    ],
-    "album": "RE-FLOW - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e2/8d/13/e28d136a-9c2e-0a30-9682-412fbbf1f229/mzaf_4872617675288590745.plus.aac.p.m4a",
-    "duration": 169000,
-    "trackUrl": "https://music.apple.com/us/album/lovepocalypse/1872047338?i=1872047346",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/69/ad/6f69adc9-b349-e897-1b59-d0645b5c7fb7/198704967405_Cover.jpg/300x300bb.jpg",
-    "trackId": "1872047346"
+    "album": "NOW OR NEVER - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3f/26/04/3f260402-8f72-e75e-6a3c-69d35d645a9a/mzaf_1314210903710895365.plus.aac.p.m4a",
+    "duration": 201733,
+    "trackUrl": "https://music.apple.com/us/album/now-or-never/1787161005?i=1787161008",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/91/01/a39101d2-c6a1-cdb4-a54a-2bbeed339af4/4547366726855.jpg/300x300bb.jpg",
+    "trackId": "1787161008"
   },
   {
     "id": "applemusic-1790854498",
@@ -596,6 +583,19 @@
     "trackUrl": "https://music.apple.com/us/album/hana/1790854495?i=1790854502",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cb/88/c1/cb88c1de-ba0b-56db-e97d-dc4807061096/4547366727227.jpg/300x300bb.jpg",
     "trackId": "1790854502"
+  },
+  {
+    "id": "applemusic-1732228802",
+    "name": "YURA YURA",
+    "artists": [
+      "ZEROBASEONE"
+    ],
+    "album": "YURA YURA - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/36/26/1b36266d-b23e-91ca-a185-d8d743f2d4fd/mzaf_1845571551319753168.plus.aac.p.m4a",
+    "duration": 184748,
+    "trackUrl": "https://music.apple.com/us/album/yura-yura/1732228794?i=1732228802",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/40/37/13/4037133b-f512-8bd5-21a1-d9e9dbb8ccbb/4547366669343.jpg/300x300bb.jpg",
+    "trackId": "1732228802"
   },
   {
     "id": "applemusic-1766258777",

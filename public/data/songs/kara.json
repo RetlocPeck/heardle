@@ -1,5 +1,174 @@
 [
   {
+    "id": "applemusic-1698642089",
+    "name": "Happy Hour",
+    "artists": [
+      "KARA"
+    ],
+    "album": "MOVE AGAIN - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/27/83/ba/2783ba72-4ada-dd2c-3ee3-afbb430a71fc/mzaf_13391492829513258330.plus.aac.p.m4a",
+    "duration": 212507,
+    "trackUrl": "https://music.apple.com/us/album/happy-hour/1698642087?i=1698642089",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
+    "trackId": "1698642089"
+  },
+  {
+    "id": "applemusic-1698642090",
+    "name": "WHEN I MOVE",
+    "artists": [
+      "KARA"
+    ],
+    "album": "MOVE AGAIN - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a1/4a/1c/a14a1c81-a3cb-cc69-9f7c-99d6fdf19079/mzaf_5325161242564541719.plus.aac.p.m4a",
+    "duration": 178360,
+    "trackUrl": "https://music.apple.com/us/album/when-i-move/1698642087?i=1698642090",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
+    "trackId": "1698642090"
+  },
+  {
+    "id": "applemusic-1698642091",
+    "name": "Shout It Out",
+    "artists": [
+      "KARA"
+    ],
+    "album": "MOVE AGAIN - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2f/05/e5/2f05e53f-4a21-a6fa-cb4d-b29a09250ab8/mzaf_14873113562030310832.plus.aac.p.m4a",
+    "duration": 199027,
+    "trackUrl": "https://music.apple.com/us/album/shout-it-out/1698642087?i=1698642091",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
+    "trackId": "1698642091"
+  },
+  {
+    "id": "applemusic-1698642092",
+    "name": "Oxygen",
+    "artists": [
+      "KARA"
+    ],
+    "album": "MOVE AGAIN - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/16/19/0316192f-b85e-2fb6-9e27-6b0ee6b79a5e/mzaf_10820580454685824615.plus.aac.p.m4a",
+    "duration": 220067,
+    "trackUrl": "https://music.apple.com/us/album/oxygen/1698642087?i=1698642092",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
+    "trackId": "1698642092"
+  },
+  {
+    "id": "applemusic-1758700101",
+    "name": "I Do I Do",
+    "artists": [
+      "KARA"
+    ],
+    "album": "I Do I Do - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/5d/d0/7d5dd051-cc52-bc3c-c87a-612214333273/mzaf_17773108886314940843.plus.aac.p.m4a",
+    "duration": 196707,
+    "trackUrl": "https://music.apple.com/us/album/i-do-i-do/1758700100?i=1758700101",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/50/ae/d450aec9-b74c-740d-f8e3-92169bb44aa3/8804775306235.jpg/300x300bb.jpg",
+    "trackId": "1758700101"
+  },
+  {
+    "id": "applemusic-1758700102",
+    "name": "Hello",
+    "artists": [
+      "KARA"
+    ],
+    "album": "I Do I Do - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/7b/05/4e7b056a-5bfe-5738-e735-0da2f62125ad/mzaf_16950989943329750692.plus.aac.p.m4a",
+    "duration": 240293,
+    "trackUrl": "https://music.apple.com/us/album/hello/1758700100?i=1758700102",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/50/ae/d450aec9-b74c-740d-f8e3-92169bb44aa3/8804775306235.jpg/300x300bb.jpg",
+    "trackId": "1758700102"
+  },
+  {
+    "id": "applemusic-1386116787",
+    "name": "Honey",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Honey (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/45/2e/d8452eaa-2f16-0648-cd88-8e4c225bc8f0/mzaf_14224916153781760192.plus.aac.p.m4a",
+    "duration": 195000,
+    "trackUrl": "https://music.apple.com/us/album/honey/1386116786?i=1386116787",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b0/a5/ae/b0a5ae8d-9c9a-16f1-34d4-1ec8ceedafd1/cover-KARA_Honey_Special_Edition.jpg/300x300bb.jpg",
+    "trackId": "1386116787"
+  },
+  {
+    "id": "applemusic-1386116790",
+    "name": "Goodday Season 2",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Honey (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b8/33/f8/b833f805-fca8-1e9c-2fad-477174b7c0fb/mzaf_17551368346836988251.plus.aac.p.m4a",
+    "duration": 193040,
+    "trackUrl": "https://music.apple.com/us/album/goodday-season-2/1386116786?i=1386116790",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b0/a5/ae/b0a5ae8d-9c9a-16f1-34d4-1ec8ceedafd1/cover-KARA_Honey_Special_Edition.jpg/300x300bb.jpg",
+    "trackId": "1386116790"
+  },
+  {
+    "id": "applemusic-1391571476",
+    "name": "Step",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA 3rd Album STEP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/19/ee/1d/19ee1db1-3bc7-871d-24a9-a79befcee0a5/mzaf_12205130678124247073.plus.aac.p.m4a",
+    "duration": 203587,
+    "trackUrl": "https://music.apple.com/us/album/step/1391571273?i=1391571476",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
+    "trackId": "1391571476"
+  },
+  {
+    "id": "applemusic-1391571477",
+    "name": "Rider",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA 3rd Album STEP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/63/53/b16353dc-f2e3-1226-9d41-21a94f0371c3/mzaf_11283054314821124038.plus.aac.p.m4a",
+    "duration": 185907,
+    "trackUrl": "https://music.apple.com/us/album/rider/1391571273?i=1391571477",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
+    "trackId": "1391571477"
+  },
+  {
+    "id": "applemusic-1391571478",
+    "name": "Strawberry",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA 3rd Album STEP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/62/ec/1162ec24-fe25-51ee-8fb5-fbce4d7fa3c7/mzaf_1448546085565739676.plus.aac.p.m4a",
+    "duration": 213280,
+    "trackUrl": "https://music.apple.com/us/album/strawberry/1391571273?i=1391571478",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
+    "trackId": "1391571478"
+  },
+  {
+    "id": "applemusic-1391571480",
+    "name": "Date (My Boy)",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA 3rd Album STEP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/94/c5/ac94c596-eed5-9dae-d8f0-53bb5d61ba41/mzaf_9704139446162360758.plus.aac.p.m4a",
+    "duration": 204747,
+    "trackUrl": "https://music.apple.com/us/album/date-my-boy/1391571273?i=1391571480",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
+    "trackId": "1391571480"
+  },
+  {
+    "id": "applemusic-1391571484",
+    "name": "Dear Kamilia",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA 3rd Album STEP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/a1/ab/7fa1abee-260d-3905-4baf-e3b19a10b322/mzaf_18286042464069182316.plus.aac.p.m4a",
+    "duration": 349093,
+    "trackUrl": "https://music.apple.com/us/album/dear-kamilia/1391571273?i=1391571484",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
+    "trackId": "1391571484"
+  },
+  {
     "id": "applemusic-696587068",
     "name": "Runaway",
     "artists": [
@@ -89,318 +258,6 @@
     "trackUrl": "https://music.apple.com/us/album/2night/696587050?i=696587195",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/ce/b5/84/ceb58441-588e-220c-74e0-bd7cd84eb222/COVER-_4.jpg/300x300bb.jpg",
     "trackId": "696587195"
-  },
-  {
-    "id": "applemusic-1698642089",
-    "name": "Happy Hour",
-    "artists": [
-      "KARA"
-    ],
-    "album": "MOVE AGAIN - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/27/83/ba/2783ba72-4ada-dd2c-3ee3-afbb430a71fc/mzaf_13391492829513258330.plus.aac.p.m4a",
-    "duration": 212507,
-    "trackUrl": "https://music.apple.com/us/album/happy-hour/1698642087?i=1698642089",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
-    "trackId": "1698642089"
-  },
-  {
-    "id": "applemusic-1698642090",
-    "name": "WHEN I MOVE",
-    "artists": [
-      "KARA"
-    ],
-    "album": "MOVE AGAIN - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a1/4a/1c/a14a1c81-a3cb-cc69-9f7c-99d6fdf19079/mzaf_5325161242564541719.plus.aac.p.m4a",
-    "duration": 178360,
-    "trackUrl": "https://music.apple.com/us/album/when-i-move/1698642087?i=1698642090",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
-    "trackId": "1698642090"
-  },
-  {
-    "id": "applemusic-1698642091",
-    "name": "Shout It Out",
-    "artists": [
-      "KARA"
-    ],
-    "album": "MOVE AGAIN - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2f/05/e5/2f05e53f-4a21-a6fa-cb4d-b29a09250ab8/mzaf_14873113562030310832.plus.aac.p.m4a",
-    "duration": 199027,
-    "trackUrl": "https://music.apple.com/us/album/shout-it-out/1698642087?i=1698642091",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
-    "trackId": "1698642091"
-  },
-  {
-    "id": "applemusic-1698642092",
-    "name": "Oxygen",
-    "artists": [
-      "KARA"
-    ],
-    "album": "MOVE AGAIN - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/16/19/0316192f-b85e-2fb6-9e27-6b0ee6b79a5e/mzaf_10820580454685824615.plus.aac.p.m4a",
-    "duration": 220067,
-    "trackUrl": "https://music.apple.com/us/album/oxygen/1698642087?i=1698642092",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/38/b7/42/38b7422d-f87a-3be3-bbcf-e089f8f86911/8809912843864.jpg/300x300bb.jpg",
-    "trackId": "1698642092"
-  },
-  {
-    "id": "applemusic-1443122760",
-    "name": "Jumpin'",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/24/f6/2d24f646-b5ec-31a1-9aa4-3a657e815590/mzaf_994699058328420853.plus.aac.p.m4a",
-    "duration": 178347,
-    "trackUrl": "https://music.apple.com/us/album/jumpin/1443122757?i=1443122760",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443122760"
-  },
-  {
-    "id": "applemusic-1443122762",
-    "name": "Mister (Japanese Version)",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a2/00/12/a20012e2-4ec9-ce32-100c-604f92280e2a/mzaf_16425073390589052187.plus.aac.p.m4a",
-    "duration": 192733,
-    "trackUrl": "https://music.apple.com/us/album/mister-japanese-version/1443122757?i=1443122762",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443122762"
-  },
-  {
-    "id": "applemusic-1443122768",
-    "name": "Baby I Need You",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9c/ce/76/9cce76e1-9ce9-69e0-5d7d-021dcb0f69fa/mzaf_6896496156443277790.plus.aac.p.m4a",
-    "duration": 224920,
-    "trackUrl": "https://music.apple.com/us/album/baby-i-need-you/1443122757?i=1443122768",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443122768"
-  },
-  {
-    "id": "applemusic-1443123258",
-    "name": "Sweet Days",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/86/1a/a9/861aa9d2-0815-4f38-b8cf-92eefda358af/mzaf_14771687162760683034.plus.aac.p.m4a",
-    "duration": 208880,
-    "trackUrl": "https://music.apple.com/us/album/sweet-days/1443122757?i=1443123258",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443123258"
-  },
-  {
-    "id": "applemusic-1443123263",
-    "name": "Sos",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/87/c2/fd87c2b4-ff17-eb4b-82c8-be5be241fb41/mzaf_7141501396625543141.plus.aac.p.m4a",
-    "duration": 282667,
-    "trackUrl": "https://music.apple.com/us/album/sos/1443122757?i=1443123263",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443123263"
-  },
-  {
-    "id": "applemusic-1443123264",
-    "name": "Love Is",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d9/b1/d4/d9b1d4a2-ff59-7050-eda4-4c9e3a9d3e38/mzaf_7998046534316752920.plus.aac.p.m4a",
-    "duration": 205720,
-    "trackUrl": "https://music.apple.com/us/album/love-is/1443122757?i=1443123264",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443123264"
-  },
-  {
-    "id": "applemusic-1443123266",
-    "name": "Binks",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/46/d7/f5/46d7f55f-7fe2-f67d-8f46-42c115c8be72/mzaf_5253174138136162365.plus.aac.p.m4a",
-    "duration": 193667,
-    "trackUrl": "https://music.apple.com/us/album/binks/1443122757?i=1443123266",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443123266"
-  },
-  {
-    "id": "applemusic-1443123268",
-    "name": "Umbrella",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/c7/1f/71c71f8e-1bfa-0ff0-7fdc-9aec270e567f/mzaf_328663867788133587.plus.aac.p.m4a",
-    "duration": 226080,
-    "trackUrl": "https://music.apple.com/us/album/umbrella/1443122757?i=1443123268",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443123268"
-  },
-  {
-    "id": "applemusic-1443123273",
-    "name": "Burn",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Girl's Talk",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/29/2b/65292b23-cc5e-33dc-6c86-c67b8eb58b98/mzaf_17121988548903732442.plus.aac.p.m4a",
-    "duration": 210600,
-    "trackUrl": "https://music.apple.com/us/album/burn/1443122757?i=1443123273",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
-    "trackId": "1443123273"
-  },
-  {
-    "id": "applemusic-1391576694",
-    "name": "Lupin",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Lupin - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/2d/5b/2b2d5b14-11e5-c625-b6d3-3443ac3334e4/mzaf_10735020003512414306.plus.aac.p.m4a",
-    "duration": 192440,
-    "trackUrl": "https://music.apple.com/us/album/lupin/1391576341?i=1391576694",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/96/e8/e296e8fd-33b2-7da5-a443-cc323ac2e06d/cover-_Lupin.jpg/300x300bb.jpg",
-    "trackId": "1391576694"
-  },
-  {
-    "id": "applemusic-1442865704",
-    "name": "Jet Coaster Love",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4e/71/61/4e716197-5860-96b7-e95b-0cef2b774a0b/mzaf_6780108706173008034.plus.aac.p.m4a",
-    "duration": 220600,
-    "trackUrl": "https://music.apple.com/us/album/jet-coaster-love/1442865393?i=1442865704",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865704"
-  },
-  {
-    "id": "applemusic-1442865718",
-    "name": "Winter Magic",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/4b/e8/ce4be8ce-8c80-07cc-d364-123fc75e0f7e/mzaf_5098883080268905452.plus.aac.p.m4a",
-    "duration": 292973,
-    "trackUrl": "https://music.apple.com/us/album/winter-magic/1442865393?i=1442865718",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865718"
-  },
-  {
-    "id": "applemusic-1442865914",
-    "name": "Go Go Summer !",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/2a/11/382a1166-cc88-4641-5fec-8702507a43c7/mzaf_2337084826221422567.plus.aac.p.m4a",
-    "duration": 200533,
-    "trackUrl": "https://music.apple.com/us/album/go-go-summer/1442865393?i=1442865914",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865914"
-  },
-  {
-    "id": "applemusic-1442865919",
-    "name": "Dreamin' Girl",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/5a/3d/d05a3d84-d1a9-a460-93b2-1ca3dc016d4a/mzaf_12280545078141783003.plus.aac.p.m4a",
-    "duration": 195693,
-    "trackUrl": "https://music.apple.com/us/album/dreamin-girl/1442865393?i=1442865919",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865919"
-  },
-  {
-    "id": "applemusic-1442865924",
-    "name": "Ima Okuritai Arigatou",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/69/cc/d069cc72-113c-811e-f7d0-f0546b43aded/mzaf_6420319281530265452.plus.aac.p.m4a",
-    "duration": 351960,
-    "trackUrl": "https://music.apple.com/us/album/ima-okuritai-arigatou/1442865393?i=1442865924",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865924"
-  },
-  {
-    "id": "applemusic-1442865931",
-    "name": "Only For You",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/7c/c7/057cc7ca-c491-5f11-ab91-6110d9a57dda/mzaf_4895549589378080672.plus.aac.p.m4a",
-    "duration": 221893,
-    "trackUrl": "https://music.apple.com/us/album/only-for-you/1442865393?i=1442865931",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865931"
-  },
-  {
-    "id": "applemusic-1442865937",
-    "name": "Whisper",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/66/ce/88/66ce88d7-1faf-efa3-f563-7d7fb8603a3d/mzaf_4759766163370534769.plus.aac.p.m4a",
-    "duration": 217160,
-    "trackUrl": "https://music.apple.com/us/album/whisper/1442865393?i=1442865937",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442865937"
-  },
-  {
-    "id": "applemusic-1442866068",
-    "name": "Missing",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/aa/09/e5aa0966-c9dd-9cc0-f78e-1e59b7f67d93/mzaf_4191455899256440540.plus.aac.p.m4a",
-    "duration": 304360,
-    "trackUrl": "https://music.apple.com/us/album/missing/1442865393?i=1442866068",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442866068"
-  },
-  {
-    "id": "applemusic-1442866077",
-    "name": "Do It ! Do It !",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/55/7e/e0/557ee0b5-b15f-f2bc-4e40-65d88cf914c3/mzaf_15184532045810191046.plus.aac.p.m4a",
-    "duration": 237307,
-    "trackUrl": "https://music.apple.com/us/album/do-it-do-it/1442865393?i=1442866077",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442866077"
-  },
-  {
-    "id": "applemusic-1442866089",
-    "name": "Girls Be Ambitious !",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Super Girl",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/59/e7/1559e7a0-c911-fe5d-1075-80ae39914a90/mzaf_3744158781175040096.plus.aac.p.m4a",
-    "duration": 216707,
-    "trackUrl": "https://music.apple.com/us/album/girls-be-ambitious/1442865393?i=1442866089",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
-    "trackId": "1442866089"
   },
   {
     "id": "applemusic-1391549742",
@@ -611,108 +468,108 @@
     "trackId": "998407829"
   },
   {
-    "id": "applemusic-1391571362",
-    "name": "Ey! Oh! (Intro)",
+    "id": "applemusic-1443122760",
+    "name": "Jumpin'",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1b/e1/4f/1be14fd2-a8d2-b3ac-e91e-da414b60d0d6/mzaf_4293448783474969500.plus.aac.p.m4a",
-    "duration": 63947,
-    "trackUrl": "https://music.apple.com/us/album/ey-oh-intro/1391571273?i=1391571362",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571362"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/24/f6/2d24f646-b5ec-31a1-9aa4-3a657e815590/mzaf_994699058328420853.plus.aac.p.m4a",
+    "duration": 178347,
+    "trackUrl": "https://music.apple.com/us/album/jumpin/1443122757?i=1443122760",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443122760"
   },
   {
-    "id": "applemusic-1391571476",
-    "name": "Step",
+    "id": "applemusic-1443122768",
+    "name": "Baby I Need You",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/19/ee/1d/19ee1db1-3bc7-871d-24a9-a79befcee0a5/mzaf_12205130678124247073.plus.aac.p.m4a",
-    "duration": 203587,
-    "trackUrl": "https://music.apple.com/us/album/step/1391571273?i=1391571476",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571476"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9c/ce/76/9cce76e1-9ce9-69e0-5d7d-021dcb0f69fa/mzaf_6896496156443277790.plus.aac.p.m4a",
+    "duration": 224920,
+    "trackUrl": "https://music.apple.com/us/album/baby-i-need-you/1443122757?i=1443122768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443122768"
   },
   {
-    "id": "applemusic-1391571477",
-    "name": "Rider",
+    "id": "applemusic-1443123258",
+    "name": "Sweet Days",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/63/53/b16353dc-f2e3-1226-9d41-21a94f0371c3/mzaf_11283054314821124038.plus.aac.p.m4a",
-    "duration": 185907,
-    "trackUrl": "https://music.apple.com/us/album/rider/1391571273?i=1391571477",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571477"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/86/1a/a9/861aa9d2-0815-4f38-b8cf-92eefda358af/mzaf_14771687162760683034.plus.aac.p.m4a",
+    "duration": 208880,
+    "trackUrl": "https://music.apple.com/us/album/sweet-days/1443122757?i=1443123258",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443123258"
   },
   {
-    "id": "applemusic-1391571478",
-    "name": "Strawberry",
+    "id": "applemusic-1443123263",
+    "name": "Sos",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/11/62/ec/1162ec24-fe25-51ee-8fb5-fbce4d7fa3c7/mzaf_1448546085565739676.plus.aac.p.m4a",
-    "duration": 213280,
-    "trackUrl": "https://music.apple.com/us/album/strawberry/1391571273?i=1391571478",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571478"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fd/87/c2/fd87c2b4-ff17-eb4b-82c8-be5be241fb41/mzaf_7141501396625543141.plus.aac.p.m4a",
+    "duration": 282667,
+    "trackUrl": "https://music.apple.com/us/album/sos/1443122757?i=1443123263",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443123263"
   },
   {
-    "id": "applemusic-1391571480",
-    "name": "Date (My Boy)",
+    "id": "applemusic-1443123264",
+    "name": "Love Is",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/94/c5/ac94c596-eed5-9dae-d8f0-53bb5d61ba41/mzaf_9704139446162360758.plus.aac.p.m4a",
-    "duration": 204747,
-    "trackUrl": "https://music.apple.com/us/album/date-my-boy/1391571273?i=1391571480",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571480"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d9/b1/d4/d9b1d4a2-ff59-7050-eda4-4c9e3a9d3e38/mzaf_7998046534316752920.plus.aac.p.m4a",
+    "duration": 205720,
+    "trackUrl": "https://music.apple.com/us/album/love-is/1443122757?i=1443123264",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443123264"
   },
   {
-    "id": "applemusic-1386113353",
-    "name": "Ing",
+    "id": "applemusic-1443123266",
+    "name": "Binks",
     "artists": [
       "KARA"
     ],
-    "album": "Pretty Girl (2nd Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/a3/a6/82a3a6a6-bb50-2388-0b47-a5d40d039a91/mzaf_17533133203678736582.plus.aac.p.m4a",
-    "duration": 222509,
-    "trackUrl": "https://music.apple.com/us/album/ing/1386113287?i=1386113353",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ce/f0/4a/cef04aa6-2ead-088a-2ca1-f5c81a503dfb/cover-KARA_Pretty_Girl_2nd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1386113353"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/46/d7/f5/46d7f55f-7fe2-f67d-8f46-42c115c8be72/mzaf_5253174138136162365.plus.aac.p.m4a",
+    "duration": 193667,
+    "trackUrl": "https://music.apple.com/us/album/binks/1443122757?i=1443123266",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443123266"
   },
   {
-    "id": "applemusic-1391571482",
-    "name": "KARA 4 U (Outro)",
+    "id": "applemusic-1443123268",
+    "name": "Umbrella",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6e/c7/90/6ec7909b-3e97-4273-8988-34b827299c76/mzaf_2819168431183933659.plus.aac.p.m4a",
-    "duration": 65947,
-    "trackUrl": "https://music.apple.com/us/album/kara-4-u-outro/1391571273?i=1391571482",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571482"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/71/c7/1f/71c71f8e-1bfa-0ff0-7fdc-9aec270e567f/mzaf_328663867788133587.plus.aac.p.m4a",
+    "duration": 226080,
+    "trackUrl": "https://music.apple.com/us/album/umbrella/1443122757?i=1443123268",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443123268"
   },
   {
-    "id": "applemusic-1391571484",
-    "name": "Dear Kamilia",
+    "id": "applemusic-1443123273",
+    "name": "Burn",
     "artists": [
       "KARA"
     ],
-    "album": "KARA 3rd Album STEP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/a1/ab/7fa1abee-260d-3905-4baf-e3b19a10b322/mzaf_18286042464069182316.plus.aac.p.m4a",
-    "duration": 349093,
-    "trackUrl": "https://music.apple.com/us/album/dear-kamilia/1391571273?i=1391571484",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/cf/a7/cd/cfa7cde0-6361-50f9-3e67-a660e07a7041/cover-_KARA_3rd_Album_STEP.jpg/300x300bb.jpg",
-    "trackId": "1391571484"
+    "album": "Girl's Talk",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/29/2b/65292b23-cc5e-33dc-6c86-c67b8eb58b98/mzaf_17121988548903732442.plus.aac.p.m4a",
+    "duration": 210600,
+    "trackUrl": "https://music.apple.com/us/album/burn/1443122757?i=1443123273",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b8/b2/be/b8b2be53-6e38-b22c-4849-a7ad60c2a843/00044002055774.rgb.jpg/300x300bb.jpg",
+    "trackId": "1443123273"
   },
   {
     "id": "applemusic-1391576345",
@@ -726,6 +583,19 @@
     "trackUrl": "https://music.apple.com/us/album/tasty-love/1391576341?i=1391576345",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/96/e8/e296e8fd-33b2-7da5-a443-cc323ac2e06d/cover-_Lupin.jpg/300x300bb.jpg",
     "trackId": "1391576345"
+  },
+  {
+    "id": "applemusic-1391576694",
+    "name": "Lupin",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Lupin - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/2d/5b/2b2d5b14-11e5-c625-b6d3-3443ac3334e4/mzaf_10735020003512414306.plus.aac.p.m4a",
+    "duration": 192440,
+    "trackUrl": "https://music.apple.com/us/album/lupin/1391576341?i=1391576694",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/96/e8/e296e8fd-33b2-7da5-a443-cc323ac2e06d/cover-_Lupin.jpg/300x300bb.jpg",
+    "trackId": "1391576694"
   },
   {
     "id": "applemusic-1391576696",
@@ -806,43 +676,134 @@
     "trackId": "1391579981"
   },
   {
-    "id": "applemusic-1756260928",
-    "name": "Hello",
+    "id": "applemusic-1442865704",
+    "name": "Jet Coaster Love",
     "artists": [
       "KARA"
     ],
-    "album": "Hello - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/c1/7c/3bc17caf-600b-a195-bcc1-cef42d691d9c/mzaf_18342488058317329561.plus.aac.p.m4a",
-    "duration": 240293,
-    "trackUrl": "https://music.apple.com/us/album/hello/1756260927?i=1756260928",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b2/c0/ad/b2c0adaa-a282-b363-b0a9-2b4f1c6ec3c7/cover_KM0020139_1.jpg/300x300bb.jpg",
-    "trackId": "1756260928"
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4e/71/61/4e716197-5860-96b7-e95b-0cef2b774a0b/mzaf_6780108706173008034.plus.aac.p.m4a",
+    "duration": 220600,
+    "trackUrl": "https://music.apple.com/us/album/jet-coaster-love/1442865393?i=1442865704",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865704"
   },
   {
-    "id": "applemusic-1758700101",
-    "name": "I Do I Do",
+    "id": "applemusic-1442865718",
+    "name": "Winter Magic",
     "artists": [
       "KARA"
     ],
-    "album": "I Do I Do - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/5d/d0/7d5dd051-cc52-bc3c-c87a-612214333273/mzaf_17773108886314940843.plus.aac.p.m4a",
-    "duration": 196707,
-    "trackUrl": "https://music.apple.com/us/album/i-do-i-do/1758700100?i=1758700101",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d4/50/ae/d450aec9-b74c-740d-f8e3-92169bb44aa3/8804775306235.jpg/300x300bb.jpg",
-    "trackId": "1758700101"
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ce/4b/e8/ce4be8ce-8c80-07cc-d364-123fc75e0f7e/mzaf_5098883080268905452.plus.aac.p.m4a",
+    "duration": 292973,
+    "trackUrl": "https://music.apple.com/us/album/winter-magic/1442865393?i=1442865718",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865718"
   },
   {
-    "id": "applemusic-1386113289",
-    "name": "Honey",
+    "id": "applemusic-1442865914",
+    "name": "Go Go Summer !",
     "artists": [
       "KARA"
     ],
-    "album": "Pretty Girl (2nd Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9f/c8/52/9fc85203-4edb-5e76-d3d5-0f8e2fe3d4e3/mzaf_3258382981935464555.plus.aac.p.m4a",
-    "duration": 221355,
-    "trackUrl": "https://music.apple.com/us/album/honey/1386113287?i=1386113289",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ce/f0/4a/cef04aa6-2ead-088a-2ca1-f5c81a503dfb/cover-KARA_Pretty_Girl_2nd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1386113289"
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/2a/11/382a1166-cc88-4641-5fec-8702507a43c7/mzaf_2337084826221422567.plus.aac.p.m4a",
+    "duration": 200533,
+    "trackUrl": "https://music.apple.com/us/album/go-go-summer/1442865393?i=1442865914",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865914"
+  },
+  {
+    "id": "applemusic-1442865919",
+    "name": "Dreamin' Girl",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/5a/3d/d05a3d84-d1a9-a460-93b2-1ca3dc016d4a/mzaf_12280545078141783003.plus.aac.p.m4a",
+    "duration": 195693,
+    "trackUrl": "https://music.apple.com/us/album/dreamin-girl/1442865393?i=1442865919",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865919"
+  },
+  {
+    "id": "applemusic-1442865924",
+    "name": "Ima Okuritai Arigatou",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d0/69/cc/d069cc72-113c-811e-f7d0-f0546b43aded/mzaf_6420319281530265452.plus.aac.p.m4a",
+    "duration": 351960,
+    "trackUrl": "https://music.apple.com/us/album/ima-okuritai-arigatou/1442865393?i=1442865924",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865924"
+  },
+  {
+    "id": "applemusic-1442865931",
+    "name": "Only For You",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/05/7c/c7/057cc7ca-c491-5f11-ab91-6110d9a57dda/mzaf_4895549589378080672.plus.aac.p.m4a",
+    "duration": 221893,
+    "trackUrl": "https://music.apple.com/us/album/only-for-you/1442865393?i=1442865931",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865931"
+  },
+  {
+    "id": "applemusic-1442865937",
+    "name": "Whisper",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/66/ce/88/66ce88d7-1faf-efa3-f563-7d7fb8603a3d/mzaf_4759766163370534769.plus.aac.p.m4a",
+    "duration": 217160,
+    "trackUrl": "https://music.apple.com/us/album/whisper/1442865393?i=1442865937",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442865937"
+  },
+  {
+    "id": "applemusic-1442866068",
+    "name": "Missing",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/aa/09/e5aa0966-c9dd-9cc0-f78e-1e59b7f67d93/mzaf_4191455899256440540.plus.aac.p.m4a",
+    "duration": 304360,
+    "trackUrl": "https://music.apple.com/us/album/missing/1442865393?i=1442866068",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442866068"
+  },
+  {
+    "id": "applemusic-1442866077",
+    "name": "Do It ! Do It !",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/55/7e/e0/557ee0b5-b15f-f2bc-4e40-65d88cf914c3/mzaf_15184532045810191046.plus.aac.p.m4a",
+    "duration": 237307,
+    "trackUrl": "https://music.apple.com/us/album/do-it-do-it/1442865393?i=1442866077",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442866077"
+  },
+  {
+    "id": "applemusic-1442866089",
+    "name": "Girls Be Ambitious !",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Super Girl",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/59/e7/1559e7a0-c911-fe5d-1075-80ae39914a90/mzaf_3744158781175040096.plus.aac.p.m4a",
+    "duration": 216707,
+    "trackUrl": "https://music.apple.com/us/album/girls-be-ambitious/1442865393?i=1442866089",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d7/65/40/d76540ba-d2a0-b340-fd6d-0cf885792a13/00600406148544.rgb.jpg/300x300bb.jpg",
+    "trackId": "1442866089"
   },
   {
     "id": "applemusic-1386113290",
@@ -869,6 +830,19 @@
     "trackUrl": "https://music.apple.com/us/album/my-darling/1386113287?i=1386113352",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ce/f0/4a/cef04aa6-2ead-088a-2ca1-f5c81a503dfb/cover-KARA_Pretty_Girl_2nd_Mini_Album.jpg/300x300bb.jpg",
     "trackId": "1386113352"
+  },
+  {
+    "id": "applemusic-1386113353",
+    "name": "Ing",
+    "artists": [
+      "KARA"
+    ],
+    "album": "Pretty Girl (2nd Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/a3/a6/82a3a6a6-bb50-2388-0b47-a5d40d039a91/mzaf_17533133203678736582.plus.aac.p.m4a",
+    "duration": 222509,
+    "trackUrl": "https://music.apple.com/us/album/ing/1386113287?i=1386113353",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ce/f0/4a/cef04aa6-2ead-088a-2ca1-f5c81a503dfb/cover-KARA_Pretty_Girl_2nd_Mini_Album.jpg/300x300bb.jpg",
+    "trackId": "1386113353"
   },
   {
     "id": "applemusic-1386119205",
@@ -949,45 +923,6 @@
     "trackId": "1386119211"
   },
   {
-    "id": "applemusic-1386116790",
-    "name": "Goodday Season 2",
-    "artists": [
-      "KARA"
-    ],
-    "album": "Honey (Special Edition) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b8/33/f8/b833f805-fca8-1e9c-2fad-477174b7c0fb/mzaf_17551368346836988251.plus.aac.p.m4a",
-    "duration": 193040,
-    "trackUrl": "https://music.apple.com/us/album/goodday-season-2/1386116786?i=1386116790",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b0/a5/ae/b0a5ae8d-9c9a-16f1-34d4-1ec8ceedafd1/cover-KARA_Honey_Special_Edition.jpg/300x300bb.jpg",
-    "trackId": "1386116790"
-  },
-  {
-    "id": "applemusic-789595898",
-    "name": "Beautiful Night",
-    "artists": [
-      "KARA"
-    ],
-    "album": "KARA the ANIMATION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/69/ed/4b69edd8-b572-37e5-ceed-7a450b109d86/mzaf_4676988529579538985.plus.aac.p.m4a",
-    "duration": 204408,
-    "trackUrl": "https://music.apple.com/us/album/beautiful-night/789595892?i=789595898",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/47/f4/6447f440-bd60-63dd-5d36-05b5d4d3f91b/jk_1400px.jpg/300x300bb.jpg",
-    "trackId": "789595898"
-  },
-  {
-    "id": "applemusic-789595899",
-    "name": "Love Letter",
-    "artists": [
-      "KARA"
-    ],
-    "album": "KARA the ANIMATION - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/8f/a1/b48fa1f7-210b-ae51-1a0c-0051017707ce/mzaf_5458132460074288642.plus.aac.p.m4a",
-    "duration": 210521,
-    "trackUrl": "https://music.apple.com/us/album/love-letter/789595892?i=789595899",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/47/f4/6447f440-bd60-63dd-5d36-05b5d4d3f91b/jk_1400px.jpg/300x300bb.jpg",
-    "trackId": "789595899"
-  },
-  {
     "id": "applemusic-1463771972",
     "name": "Guilty",
     "artists": [
@@ -1038,6 +973,32 @@
     "trackUrl": "https://music.apple.com/us/album/wanna-do/1463771784?i=1463771975",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/97/06/1e/97061e41-f1e5-287d-f188-67d1136021d8/karasolo.jpg/300x300bb.jpg",
     "trackId": "1463771975"
+  },
+  {
+    "id": "applemusic-789595898",
+    "name": "Beautiful Night",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA the ANIMATION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/69/ed/4b69edd8-b572-37e5-ceed-7a450b109d86/mzaf_4676988529579538985.plus.aac.p.m4a",
+    "duration": 204408,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-night/789595892?i=789595898",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/47/f4/6447f440-bd60-63dd-5d36-05b5d4d3f91b/jk_1400px.jpg/300x300bb.jpg",
+    "trackId": "789595898"
+  },
+  {
+    "id": "applemusic-789595899",
+    "name": "Love Letter",
+    "artists": [
+      "KARA"
+    ],
+    "album": "KARA the ANIMATION - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b4/8f/a1/b48fa1f7-210b-ae51-1a0c-0051017707ce/mzaf_5458132460074288642.plus.aac.p.m4a",
+    "duration": 210521,
+    "trackUrl": "https://music.apple.com/us/album/love-letter/789595892?i=789595899",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/64/47/f4/6447f440-bd60-63dd-5d36-05b5d4d3f91b/jk_1400px.jpg/300x300bb.jpg",
+    "trackId": "789595899"
   },
   {
     "id": "applemusic-1571916933",
@@ -1584,19 +1545,6 @@
     "trackUrl": "https://music.apple.com/jp/album/im-ing/1674392395?i=1674392409",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c4/a5/f3/c4a5f3bb-6296-5734-20fe-f73f17469f14/859759357923_cover.jpg/300x300bb.jpg",
     "trackId": "1674392409"
-  },
-  {
-    "id": "applemusic-1674392228",
-    "name": "What's This (Plastic Ver.)",
-    "artists": [
-      "KARA"
-    ],
-    "album": "HONEY (Special Edition) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/cc/03/00/cc03006d-e263-b929-5f02-a5ce72e7a3dd/mzaf_13165492493796316474.plus.aac.p.m4a",
-    "duration": 184227,
-    "trackUrl": "https://music.apple.com/jp/album/whats-this-plastic-ver/1674392225?i=1674392228",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a6/d5/6d/a6d56d50-31da-7120-1445-6d1c2b110184/859759357961_cover.png/300x300bb.jpg",
-    "trackId": "1674392228"
   },
   {
     "id": "applemusic-1674392235",

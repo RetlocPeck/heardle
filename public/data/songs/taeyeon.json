@@ -481,19 +481,6 @@
     "trackId": "1209885647"
   },
   {
-    "id": "applemusic-1854677088",
-    "name": "I (Solo Version)",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "Panorama : The Best of TAEYEON",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/1a/a5/0a1aa548-5a33-760f-d900-ff44bf5d7b18/mzaf_14695570232869975032.plus.aac.p.m4a",
-    "duration": 163000,
-    "trackUrl": "https://music.apple.com/us/album/i-solo-version/1854676984?i=1854677088",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c0/4c/66/c04c668f-392d-e529-dc6c-c3bcd727a9d5/888735954184.png/300x300bb.jpg",
-    "trackId": "1854677088"
-  },
-  {
     "id": "applemusic-1046202718",
     "name": "U R",
     "artists": [
@@ -689,162 +676,6 @@
     "trackId": "1501652968"
   },
   {
-    "id": "applemusic-1462270131",
-    "name": "VOICE",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "VOICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c3/ec/13/c3ec13f5-c234-19f9-c0d8-affdf4ae25f0/mzaf_553832882687128889.plus.aac.p.m4a",
-    "duration": 191976,
-    "trackUrl": "https://music.apple.com/us/album/voice/1462270130?i=1462270131",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1462270131"
-  },
-  {
-    "id": "applemusic-1462270133",
-    "name": "I Found You",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "VOICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/39/a3/ec39a340-afed-fc32-28ed-b1e63071a0f1/mzaf_9334252267268185094.plus.aac.p.m4a",
-    "duration": 231039,
-    "trackUrl": "https://music.apple.com/us/album/i-found-you/1462270130?i=1462270133",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1462270133"
-  },
-  {
-    "id": "applemusic-1462270558",
-    "name": "HORIZON",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "VOICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/a0/09/91a009cf-c6ec-ec90-1f5d-81b71e99205c/mzaf_11661851197617461865.plus.aac.p.m4a",
-    "duration": 231657,
-    "trackUrl": "https://music.apple.com/us/album/horizon/1462270130?i=1462270558",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1462270558"
-  },
-  {
-    "id": "applemusic-1462270565",
-    "name": "Vanilla",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "VOICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ed/2f/94/ed2f94d5-a987-2122-5656-bc167c9956f1/mzaf_15986962480592697760.plus.aac.p.m4a",
-    "duration": 241748,
-    "trackUrl": "https://music.apple.com/us/album/vanilla/1462270130?i=1462270565",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1462270565"
-  },
-  {
-    "id": "applemusic-1462270568",
-    "name": "TURNT AND BURNT",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "VOICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ed/fd/64/edfd6438-8c62-d68d-c46a-65cc0315ca76/mzaf_17352985467341565045.plus.aac.p.m4a",
-    "duration": 180794,
-    "trackUrl": "https://music.apple.com/us/album/turnt-and-burnt/1462270130?i=1462270568",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1462270568"
-  },
-  {
-    "id": "applemusic-1462270571",
-    "name": "SIGNAL",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "VOICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/05/ef/c105ef26-4506-047f-ef18-76e8420ae1ff/mzaf_15536119256569979284.plus.aac.p.m4a",
-    "duration": 250654,
-    "trackUrl": "https://music.apple.com/us/album/signal/1462270130?i=1462270571",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1462270571"
-  },
-  {
-    "id": "applemusic-1717568642",
-    "name": "To. X",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "To. X - The 5th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/47/da/9747daf7-ca2d-36ab-9379-6048398be273/mzaf_17458116814498446690.plus.aac.p.m4a",
-    "duration": 170387,
-    "trackUrl": "https://music.apple.com/us/album/to-x/1717568641?i=1717568642",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
-    "trackId": "1717568642"
-  },
-  {
-    "id": "applemusic-1717568643",
-    "name": "Melt Away",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "To. X - The 5th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/4f/f4/854ff416-ca47-643b-9e83-b85943b51c6e/mzaf_1048437429469869053.plus.aac.p.m4a",
-    "duration": 196000,
-    "trackUrl": "https://music.apple.com/us/album/melt-away/1717568641?i=1717568643",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
-    "trackId": "1717568643"
-  },
-  {
-    "id": "applemusic-1717568644",
-    "name": "Burn It Down",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "To. X - The 5th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ed/d9/fd/edd9fd30-e737-91b0-5fb2-9dce36e4ace1/mzaf_13509686595283282459.plus.aac.p.m4a",
-    "duration": 170853,
-    "trackUrl": "https://music.apple.com/us/album/burn-it-down/1717568641?i=1717568644",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
-    "trackId": "1717568644"
-  },
-  {
-    "id": "applemusic-1717568645",
-    "name": "Nightmare",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "To. X - The 5th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/be/15/f6/be15f628-2a2c-7997-ea4f-7da20d66c537/mzaf_14512753699938339850.plus.aac.p.m4a",
-    "duration": 175707,
-    "trackUrl": "https://music.apple.com/us/album/nightmare/1717568641?i=1717568645",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
-    "trackId": "1717568645"
-  },
-  {
-    "id": "applemusic-1717568646",
-    "name": "All For Nothing",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "To. X - The 5th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/54/25/63/5425634f-901b-50fb-619b-a48fb54b63e1/mzaf_17620854977185336758.plus.aac.p.m4a",
-    "duration": 190693,
-    "trackUrl": "https://music.apple.com/us/album/all-for-nothing/1717568641?i=1717568646",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
-    "trackId": "1717568646"
-  },
-  {
-    "id": "applemusic-1717568647",
-    "name": "Fabulous",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "To. X - The 5th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/5d/62/41/5d624171-41ab-2fe5-7564-268d7fca6c00/mzaf_3336736861773310506.plus.aac.p.m4a",
-    "duration": 171907,
-    "trackUrl": "https://music.apple.com/us/album/fabulous/1717568641?i=1717568647",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
-    "trackId": "1717568647"
-  },
-  {
     "id": "applemusic-1127321299",
     "name": "Why",
     "artists": [
@@ -936,6 +767,84 @@
     "trackId": "1127321955"
   },
   {
+    "id": "applemusic-1717568642",
+    "name": "To. X",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "To. X - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/97/47/da/9747daf7-ca2d-36ab-9379-6048398be273/mzaf_17458116814498446690.plus.aac.p.m4a",
+    "duration": 170387,
+    "trackUrl": "https://music.apple.com/us/album/to-x/1717568641?i=1717568642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
+    "trackId": "1717568642"
+  },
+  {
+    "id": "applemusic-1717568643",
+    "name": "Melt Away",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "To. X - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/4f/f4/854ff416-ca47-643b-9e83-b85943b51c6e/mzaf_1048437429469869053.plus.aac.p.m4a",
+    "duration": 196000,
+    "trackUrl": "https://music.apple.com/us/album/melt-away/1717568641?i=1717568643",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
+    "trackId": "1717568643"
+  },
+  {
+    "id": "applemusic-1717568644",
+    "name": "Burn It Down",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "To. X - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ed/d9/fd/edd9fd30-e737-91b0-5fb2-9dce36e4ace1/mzaf_13509686595283282459.plus.aac.p.m4a",
+    "duration": 170853,
+    "trackUrl": "https://music.apple.com/us/album/burn-it-down/1717568641?i=1717568644",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
+    "trackId": "1717568644"
+  },
+  {
+    "id": "applemusic-1717568645",
+    "name": "Nightmare",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "To. X - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/be/15/f6/be15f628-2a2c-7997-ea4f-7da20d66c537/mzaf_14512753699938339850.plus.aac.p.m4a",
+    "duration": 175707,
+    "trackUrl": "https://music.apple.com/us/album/nightmare/1717568641?i=1717568645",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
+    "trackId": "1717568645"
+  },
+  {
+    "id": "applemusic-1717568646",
+    "name": "All For Nothing",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "To. X - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/54/25/63/5425634f-901b-50fb-619b-a48fb54b63e1/mzaf_17620854977185336758.plus.aac.p.m4a",
+    "duration": 190693,
+    "trackUrl": "https://music.apple.com/us/album/all-for-nothing/1717568641?i=1717568646",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
+    "trackId": "1717568646"
+  },
+  {
+    "id": "applemusic-1717568647",
+    "name": "Fabulous",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "To. X - The 5th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/5d/62/41/5d624171-41ab-2fe5-7564-268d7fca6c00/mzaf_3336736861773310506.plus.aac.p.m4a",
+    "duration": 171907,
+    "trackUrl": "https://music.apple.com/us/album/fabulous/1717568641?i=1717568647",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/300x300bb.jpg",
+    "trackId": "1717568647"
+  },
+  {
     "id": "applemusic-1534821176",
     "name": "Angel (feat. TAEYEON)",
     "artists": [
@@ -960,6 +869,58 @@
     "trackUrl": "https://music.apple.com/us/album/heaven/1755142657?i=1755142659",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2a/8f/96/2a8f9605-3490-a33c-2f7e-bab062ce2064/TY_Heaven_DC_4000x4000.jpg/300x300bb.jpg",
     "trackId": "1755142659"
+  },
+  {
+    "id": "applemusic-1222459066",
+    "name": "Make Me Love You",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "My Voice - The 1st Album (Deluxe Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/55/76/3455761d-ffc2-04f4-c6a5-f43699201109/mzaf_1045865182074273571.plus.aac.p.m4a",
+    "duration": 213160,
+    "trackUrl": "https://music.apple.com/us/album/make-me-love-you/1222458971?i=1222459066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1222459066"
+  },
+  {
+    "id": "applemusic-1222459075",
+    "name": "I Blame On You",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "My Voice - The 1st Album (Deluxe Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/64/55/416455fb-4715-3cf1-442e-3a5e6db8c4ec/mzaf_636725233083540067.plus.aac.p.m4a",
+    "duration": 203418,
+    "trackUrl": "https://music.apple.com/us/album/i-blame-on-you/1222458971?i=1222459075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1222459075"
+  },
+  {
+    "id": "applemusic-1222459077",
+    "name": "11:11",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "My Voice - The 1st Album (Deluxe Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/82/f8/73/82f873b7-03b7-9f5c-0ab0-f2d15af0c4d8/mzaf_18221829472496988530.plus.aac.p.m4a",
+    "duration": 223452,
+    "trackUrl": "https://music.apple.com/us/album/11-11/1222458971?i=1222459077",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1222459077"
+  },
+  {
+    "id": "applemusic-1222459081",
+    "name": "Curtain Call",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "My Voice - The 1st Album (Deluxe Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/5a/d7/a95ad79a-ba85-8e70-791c-aba796b3352b/mzaf_15425709591431953179.plus.aac.p.m4a",
+    "duration": 232579,
+    "trackUrl": "https://music.apple.com/us/album/curtain-call/1222458971?i=1222459081",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1222459081"
   },
   {
     "id": "applemusic-1494441370",
@@ -999,19 +960,6 @@
     "trackUrl": "https://music.apple.com/us/album/drawing-our-moments/1494441368?i=1494441378",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a8/8a/b1/a88ab1aa-c2d1-025c-06e1-a4393e1a372c/TY_R02_Digital_Cover_F_s.jpg/300x300bb.jpg",
     "trackId": "1494441378"
-  },
-  {
-    "id": "applemusic-1080296146",
-    "name": "Rain",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "Rain - SM STATION",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/6e/96/586e9676-0a86-9374-44d2-6e290ce589c4/mzaf_8657459177787297495.plus.aac.p.m4a",
-    "duration": 222047,
-    "trackUrl": "https://music.apple.com/us/album/rain/1080295545?i=1080296146",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/19/25/b7192532-3aaf-135a-50be-154718cafadc/dj.axrvzqrv.jpg/300x300bb.jpg",
-    "trackId": "1080296146"
   },
   {
     "id": "applemusic-1779015075",
@@ -1092,95 +1040,17 @@
     "trackId": "1779015441"
   },
   {
-    "id": "applemusic-1222459066",
-    "name": "Make Me Love You",
+    "id": "applemusic-1080296146",
+    "name": "Rain",
     "artists": [
       "TAEYEON"
     ],
-    "album": "My Voice - The 1st Album (Deluxe Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/55/76/3455761d-ffc2-04f4-c6a5-f43699201109/mzaf_1045865182074273571.plus.aac.p.m4a",
-    "duration": 213160,
-    "trackUrl": "https://music.apple.com/us/album/make-me-love-you/1222458971?i=1222459066",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1222459066"
-  },
-  {
-    "id": "applemusic-1222459075",
-    "name": "I Blame On You",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "My Voice - The 1st Album (Deluxe Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/64/55/416455fb-4715-3cf1-442e-3a5e6db8c4ec/mzaf_636725233083540067.plus.aac.p.m4a",
-    "duration": 203418,
-    "trackUrl": "https://music.apple.com/us/album/i-blame-on-you/1222458971?i=1222459075",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1222459075"
-  },
-  {
-    "id": "applemusic-1222459077",
-    "name": "11:11",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "My Voice - The 1st Album (Deluxe Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/82/f8/73/82f873b7-03b7-9f5c-0ab0-f2d15af0c4d8/mzaf_18221829472496988530.plus.aac.p.m4a",
-    "duration": 223452,
-    "trackUrl": "https://music.apple.com/us/album/11-11/1222458971?i=1222459077",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1222459077"
-  },
-  {
-    "id": "applemusic-1222459081",
-    "name": "Curtain Call",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "My Voice - The 1st Album (Deluxe Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/5a/d7/a95ad79a-ba85-8e70-791c-aba796b3352b/mzaf_15425709591431953179.plus.aac.p.m4a",
-    "duration": 232579,
-    "trackUrl": "https://music.apple.com/us/album/curtain-call/1222458971?i=1222459081",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/db/7f/5adb7f61-e99f-1d5e-1e8e-6aa4a467f4a3/TY_01RE_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1222459081"
-  },
-  {
-    "id": "applemusic-1762892470",
-    "name": "I'm Not The Only One",
-    "artists": [
-      "Sam Smith & TAEYEON"
-    ],
-    "album": "I’m Not The Only One - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/d4/06/18d4063e-eb5a-4796-3446-4240af92db2c/mzaf_14582236720580783056.plus.aac.p.m4a",
-    "duration": 239620,
-    "trackUrl": "https://music.apple.com/us/album/im-not-the-only-one/1762892449?i=1762892470",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/22/b9/ca22b990-e33f-5ca0-42b9-71f6b2461d10/24UMGIM80251.rgb.jpg/300x300bb.jpg",
-    "trackId": "1762892470"
-  },
-  {
-    "id": "applemusic-1404306849",
-    "name": "Stay",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "Stay - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/d1/f1/c1d1f185-a1dc-344f-7b30-e705a659bdc2/mzaf_2138567794475744238.plus.aac.p.m4a",
-    "duration": 252977,
-    "trackUrl": "https://music.apple.com/us/album/stay/1404306824?i=1404306849",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/08/8c/92088c56-de85-2d3d-c18c-48bf3c6fafcf/Stay_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1404306849"
-  },
-  {
-    "id": "applemusic-1404306850",
-    "name": "I'm The Greatest",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "Stay - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/16/e7/7e16e736-0959-2760-c3a7-a10e5b7e9afe/mzaf_5834404170253668553.plus.aac.p.m4a",
-    "duration": 194406,
-    "trackUrl": "https://music.apple.com/us/album/im-the-greatest/1404306824?i=1404306850",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/08/8c/92088c56-de85-2d3d-c18c-48bf3c6fafcf/Stay_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1404306850"
+    "album": "Rain - SM STATION",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/6e/96/586e9676-0a86-9374-44d2-6e290ce589c4/mzaf_8657459177787297495.plus.aac.p.m4a",
+    "duration": 222047,
+    "trackUrl": "https://music.apple.com/us/album/rain/1080295545?i=1080296146",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/19/25/b7192532-3aaf-135a-50be-154718cafadc/dj.axrvzqrv.jpg/300x300bb.jpg",
+    "trackId": "1080296146"
   },
   {
     "id": "applemusic-1323945029",
@@ -1261,30 +1131,17 @@
     "trackId": "1323945034"
   },
   {
-    "id": "applemusic-1489433883",
-    "name": "I Do",
+    "id": "applemusic-1762892470",
+    "name": "I'm Not The Only One",
     "artists": [
-      "TAEYEON"
+      "Sam Smith & TAEYEON"
     ],
-    "album": "I Do - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/53/81/4153815c-82eb-6dd0-979a-f8823ad0fdbc/mzaf_15954901551069169328.plus.aac.p.m4a",
-    "duration": 233960,
-    "trackUrl": "https://music.apple.com/us/album/i-do/1489433882?i=1489433883",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e8/2f/e4/e82fe448-dce8-60bf-ea55-1674ba89f3b9/TY_I_Do_JK_4000X4000.jpg/300x300bb.jpg",
-    "trackId": "1489433883"
-  },
-  {
-    "id": "applemusic-1500394822",
-    "name": "A Train to Chuncheon (Monthly Project 2019 May Yoon Jong Shin with TAEYEON)",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "A Train to Chuncheon (Monthly Project 2019 May Yoon Jong Shin with TAEYEON) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8d/b1/43/8db143c6-1139-6b47-07a7-465ad0c3936c/mzaf_5455808002112558473.plus.aac.p.m4a",
-    "duration": 294701,
-    "trackUrl": "https://music.apple.com/us/album/a-train-to-chuncheon-monthly-project-2019-may-yoon/1500394821?i=1500394822",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/92/30/099230c7-ad8b-19b5-7b47-35c4743152a0/888735929854.jpg/300x300bb.jpg",
-    "trackId": "1500394822"
+    "album": "I’m Not The Only One - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/d4/06/18d4063e-eb5a-4796-3446-4240af92db2c/mzaf_14582236720580783056.plus.aac.p.m4a",
+    "duration": 239620,
+    "trackUrl": "https://music.apple.com/us/album/im-not-the-only-one/1762892449?i=1762892470",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ca/22/b9/ca22b990-e33f-5ca0-42b9-71f6b2461d10/24UMGIM80251.rgb.jpg/300x300bb.jpg",
+    "trackId": "1762892470"
   },
   {
     "id": "applemusic-1533408655",
@@ -1326,6 +1183,19 @@
     "trackId": "1533408663"
   },
   {
+    "id": "applemusic-1533408664",
+    "name": "I Do",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "#GirlsSpkOut - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5d/50/b2/5d50b2c9-f7a6-14ab-aadf-dd3fc32e4faa/mzaf_8282046222130809522.plus.aac.p.m4a",
+    "duration": 233401,
+    "trackUrl": "https://music.apple.com/us/album/i-do/1533408642?i=1533408664",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/cf/d3/4dcfd3a1-b758-dda8-58e4-4a3b52a7f634/GirlsSpkOut.jpg/300x300bb.jpg",
+    "trackId": "1533408664"
+  },
+  {
     "id": "applemusic-1533408665",
     "name": "Sorrow",
     "artists": [
@@ -1337,6 +1207,123 @@
     "trackUrl": "https://music.apple.com/us/album/sorrow/1533408642?i=1533408665",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/cf/d3/4dcfd3a1-b758-dda8-58e4-4a3b52a7f634/GirlsSpkOut.jpg/300x300bb.jpg",
     "trackId": "1533408665"
+  },
+  {
+    "id": "applemusic-1404306849",
+    "name": "Stay",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "Stay - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/d1/f1/c1d1f185-a1dc-344f-7b30-e705a659bdc2/mzaf_2138567794475744238.plus.aac.p.m4a",
+    "duration": 252977,
+    "trackUrl": "https://music.apple.com/us/album/stay/1404306824?i=1404306849",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/08/8c/92088c56-de85-2d3d-c18c-48bf3c6fafcf/Stay_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1404306849"
+  },
+  {
+    "id": "applemusic-1404306850",
+    "name": "I'm The Greatest",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "Stay - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/16/e7/7e16e736-0959-2760-c3a7-a10e5b7e9afe/mzaf_5834404170253668553.plus.aac.p.m4a",
+    "duration": 194406,
+    "trackUrl": "https://music.apple.com/us/album/im-the-greatest/1404306824?i=1404306850",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/92/08/8c/92088c56-de85-2d3d-c18c-48bf3c6fafcf/Stay_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1404306850"
+  },
+  {
+    "id": "applemusic-1462270131",
+    "name": "VOICE",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "VOICE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c3/ec/13/c3ec13f5-c234-19f9-c0d8-affdf4ae25f0/mzaf_553832882687128889.plus.aac.p.m4a",
+    "duration": 191976,
+    "trackUrl": "https://music.apple.com/us/album/voice/1462270130?i=1462270131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1462270131"
+  },
+  {
+    "id": "applemusic-1462270133",
+    "name": "I Found You",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "VOICE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/39/a3/ec39a340-afed-fc32-28ed-b1e63071a0f1/mzaf_9334252267268185094.plus.aac.p.m4a",
+    "duration": 231039,
+    "trackUrl": "https://music.apple.com/us/album/i-found-you/1462270130?i=1462270133",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1462270133"
+  },
+  {
+    "id": "applemusic-1462270558",
+    "name": "HORIZON",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "VOICE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/a0/09/91a009cf-c6ec-ec90-1f5d-81b71e99205c/mzaf_11661851197617461865.plus.aac.p.m4a",
+    "duration": 231657,
+    "trackUrl": "https://music.apple.com/us/album/horizon/1462270130?i=1462270558",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1462270558"
+  },
+  {
+    "id": "applemusic-1462270565",
+    "name": "Vanilla",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "VOICE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ed/2f/94/ed2f94d5-a987-2122-5656-bc167c9956f1/mzaf_15986962480592697760.plus.aac.p.m4a",
+    "duration": 241748,
+    "trackUrl": "https://music.apple.com/us/album/vanilla/1462270130?i=1462270565",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1462270565"
+  },
+  {
+    "id": "applemusic-1462270568",
+    "name": "TURNT AND BURNT",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "VOICE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ed/fd/64/edfd6438-8c62-d68d-c46a-65cc0315ca76/mzaf_17352985467341565045.plus.aac.p.m4a",
+    "duration": 180794,
+    "trackUrl": "https://music.apple.com/us/album/turnt-and-burnt/1462270130?i=1462270568",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1462270568"
+  },
+  {
+    "id": "applemusic-1462270571",
+    "name": "SIGNAL",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "VOICE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c1/05/ef/c105ef26-4506-047f-ef18-76e8420ae1ff/mzaf_15536119256569979284.plus.aac.p.m4a",
+    "duration": 250654,
+    "trackUrl": "https://music.apple.com/us/album/signal/1462270130?i=1462270571",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/89/22/6c/89226c4e-efc7-b76c-a24b-d9af772dc19e/TAEYEON_VOICE_4000X4000.jpg/300x300bb.jpg",
+    "trackId": "1462270571"
+  },
+  {
+    "id": "applemusic-1500394822",
+    "name": "A Train to Chuncheon (Monthly Project 2019 May Yoon Jong Shin with TAEYEON)",
+    "artists": [
+      "TAEYEON"
+    ],
+    "album": "A Train to Chuncheon (Monthly Project 2019 May Yoon Jong Shin with TAEYEON) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8d/b1/43/8db143c6-1139-6b47-07a7-465ad0c3936c/mzaf_5455808002112558473.plus.aac.p.m4a",
+    "duration": 294701,
+    "trackUrl": "https://music.apple.com/us/album/a-train-to-chuncheon-monthly-project-2019-may-yoon/1500394821?i=1500394822",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/92/30/099230c7-ad8b-19b5-7b47-35c4743152a0/888735929854.jpg/300x300bb.jpg",
+    "trackId": "1500394822"
   },
   {
     "id": "applemusic-1854676985",
@@ -1456,19 +1443,6 @@
     "trackId": "1646409904"
   },
   {
-    "id": "applemusic-1804674494",
-    "name": "Kiss me",
-    "artists": [
-      "TAEYEON"
-    ],
-    "album": "Do You Like Brahms? (Original Television Soundtrack), Pt. 5 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/6e/52/7f6e5290-0ce9-82b1-7b3c-f263370fd669/mzaf_16807033400759668132.plus.aac.p.m4a",
-    "duration": 239832,
-    "trackUrl": "https://music.apple.com/us/album/kiss-me/1804674493?i=1804674494",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/93/ce/7193ce89-e49b-0006-b872-bfd3b4bbf6ff/cover_KM0011188_1.jpg/300x300bb.jpg",
-    "trackId": "1804674494"
-  },
-  {
     "id": "applemusic-1622743911",
     "name": "By My Side",
     "artists": [
@@ -1508,17 +1482,17 @@
     "trackId": "854922033"
   },
   {
-    "id": "applemusic-1538941271",
-    "name": "My Love (Duet Version)",
+    "id": "applemusic-1804674494",
+    "name": "Kiss me",
     "artists": [
-      "Lee Seung Chul & TAEYEON"
+      "TAEYEON"
     ],
-    "album": "Lee Seung Chul 35th Anniversary Album Special 'My Love' - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/88/fa/7c/88fa7ce9-a2a7-750b-87ad-0b2b3cc0666c/mzaf_8191201232601789839.plus.aac.p.m4a",
-    "duration": 227000,
-    "trackUrl": "https://music.apple.com/us/album/my-love-duet-version/1538941268?i=1538941271",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f9/5e/cf/f95ecfad-d2e3-1ce5-690c-66654c9bca3c/cover_-_DS.jpg/300x300bb.jpg",
-    "trackId": "1538941271"
+    "album": "Do You Like Brahms? (Original Television Soundtrack), Pt. 5 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/6e/52/7f6e5290-0ce9-82b1-7b3c-f263370fd669/mzaf_16807033400759668132.plus.aac.p.m4a",
+    "duration": 239832,
+    "trackUrl": "https://music.apple.com/us/album/kiss-me/1804674493?i=1804674494",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/71/93/ce/7193ce89-e49b-0006-b872-bfd3b4bbf6ff/cover_KM0011188_1.jpg/300x300bb.jpg",
+    "trackId": "1804674494"
   },
   {
     "id": "applemusic-1698510262",

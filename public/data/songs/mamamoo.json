@@ -78,17 +78,82 @@
     "trackId": "1456234171"
   },
   {
-    "id": "applemusic-1456234172",
-    "name": "4season (Outro)",
+    "id": "applemusic-1676209348",
+    "name": "Star Wind Flower Sun",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "White Wind",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/58/c2/ba58c231-ed6b-ea44-2d75-920fc3616786/mzaf_6240190599905064899.plus.aac.p.m4a",
-    "duration": 82276,
-    "trackUrl": "https://music.apple.com/us/album/4season-outro/1456233895?i=1456234172",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fa/30/f3/fa30f379-ef28-8a82-0a79-5ce1d2634867/cover-_Mamamoo.jpg/300x300bb.jpg",
-    "trackId": "1456234172"
+    "album": "Yellow Flower",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/db/bb/cd/dbbbcd6c-303f-88ca-b241-9448799eee87/mzaf_13982087955475762564.plus.aac.p.m4a",
+    "duration": 223127,
+    "trackUrl": "https://music.apple.com/us/album/star-wind-flower-sun/1676209346?i=1676209348",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
+    "trackId": "1676209348"
+  },
+  {
+    "id": "applemusic-1676209349",
+    "name": "Starry Night",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Yellow Flower",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/09/f8/ae/09f8ae97-c853-189d-b8d6-af006caf86b1/mzaf_12462035726817231225.plus.aac.p.m4a",
+    "duration": 211237,
+    "trackUrl": "https://music.apple.com/us/album/starry-night/1676209346?i=1676209349",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
+    "trackId": "1676209349"
+  },
+  {
+    "id": "applemusic-1676209350",
+    "name": "Be Calm",
+    "artists": [
+      "HWASA"
+    ],
+    "album": "Yellow Flower",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/39/b6/86/39b6862d-a653-42bd-729d-efd8ef40ba8f/mzaf_14772019816158770240.plus.aac.p.m4a",
+    "duration": 208735,
+    "trackUrl": "https://music.apple.com/us/album/be-calm/1676209346?i=1676209350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
+    "trackId": "1676209350"
+  },
+  {
+    "id": "applemusic-1676209351",
+    "name": "Rude Boy",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Yellow Flower",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/9c/66/a79c66b4-9f09-3de1-f30d-ad08e076eb31/mzaf_10745955504798283810.plus.aac.p.m4a",
+    "duration": 190319,
+    "trackUrl": "https://music.apple.com/us/album/rude-boy/1676209346?i=1676209351",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
+    "trackId": "1676209351"
+  },
+  {
+    "id": "applemusic-1676209352",
+    "name": "Spring Fever",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Yellow Flower",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/49/e7/73/49e773a0-3f5a-dd4d-0519-5be75d14c3b4/mzaf_15381675104704023260.plus.aac.p.m4a",
+    "duration": 228618,
+    "trackUrl": "https://music.apple.com/us/album/spring-fever/1676209346?i=1676209352",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
+    "trackId": "1676209352"
+  },
+  {
+    "id": "applemusic-1676209353",
+    "name": "Paint Me",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Yellow Flower",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/67/e4/a5/67e4a564-ae80-72cf-a8d0-0ce16400afe8/mzaf_742742652644051104.plus.aac.p.m4a",
+    "duration": 218917,
+    "trackUrl": "https://music.apple.com/us/album/paint-me/1676209346?i=1676209353",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
+    "trackId": "1676209353"
   },
   {
     "id": "applemusic-1487928106",
@@ -221,95 +286,82 @@
     "trackId": "1487928115"
   },
   {
-    "id": "applemusic-1676209347",
-    "name": "From Winter to Spring (Intro)",
+    "id": "applemusic-1676209532",
+    "name": "Midnight Summer Dream",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a9/13/6c/a9136c8f-b5ee-cca1-b82f-65c98e50130f/mzaf_14456084312702749365.plus.aac.p.m4a",
-    "duration": 24692,
-    "trackUrl": "https://music.apple.com/us/album/from-winter-to-spring-intro/1676209346?i=1676209347",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209347"
+    "album": "Red Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c3/f1/b7/c3f1b748-ccf9-15ff-7fa0-6fc5d5d22a81/mzaf_11094861031713490498.plus.aac.p.m4a",
+    "duration": 198785,
+    "trackUrl": "https://music.apple.com/us/album/midnight-summer-dream/1676209531?i=1676209532",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
+    "trackId": "1676209532"
   },
   {
-    "id": "applemusic-1676209348",
-    "name": "Star Wind Flower Sun",
+    "id": "applemusic-1676209533",
+    "name": "Egotistic",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/db/bb/cd/dbbbcd6c-303f-88ca-b241-9448799eee87/mzaf_13982087955475762564.plus.aac.p.m4a",
-    "duration": 223127,
-    "trackUrl": "https://music.apple.com/us/album/star-wind-flower-sun/1676209346?i=1676209348",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209348"
+    "album": "Red Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c9/3a/58/c93a5826-33e5-4593-15b8-0279f1ebd422/mzaf_9596426838304717045.plus.aac.p.m4a",
+    "duration": 196018,
+    "trackUrl": "https://music.apple.com/us/album/egotistic/1676209531?i=1676209533",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
+    "trackId": "1676209533"
   },
   {
-    "id": "applemusic-1676209349",
-    "name": "Starry Night",
+    "id": "applemusic-1676209534",
+    "name": "Rainy Season",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/09/f8/ae/09f8ae97-c853-189d-b8d6-af006caf86b1/mzaf_12462035726817231225.plus.aac.p.m4a",
-    "duration": 211237,
-    "trackUrl": "https://music.apple.com/us/album/starry-night/1676209346?i=1676209349",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209349"
+    "album": "Red Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c8/aa/f5/c8aaf51d-52d5-b333-d107-ae8c51d8166c/mzaf_4923437119397455749.plus.aac.p.m4a",
+    "duration": 222286,
+    "trackUrl": "https://music.apple.com/us/album/rainy-season/1676209531?i=1676209534",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
+    "trackId": "1676209534"
   },
   {
-    "id": "applemusic-1676209350",
-    "name": "Be Calm",
-    "artists": [
-      "HWASA"
-    ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/39/b6/86/39b6862d-a653-42bd-729d-efd8ef40ba8f/mzaf_14772019816158770240.plus.aac.p.m4a",
-    "duration": 208735,
-    "trackUrl": "https://music.apple.com/us/album/be-calm/1676209346?i=1676209350",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209350"
-  },
-  {
-    "id": "applemusic-1676209351",
-    "name": "Rude Boy",
+    "id": "applemusic-1676209535",
+    "name": "Sky! Sky!",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/9c/66/a79c66b4-9f09-3de1-f30d-ad08e076eb31/mzaf_10745955504798283810.plus.aac.p.m4a",
-    "duration": 190319,
-    "trackUrl": "https://music.apple.com/us/album/rude-boy/1676209346?i=1676209351",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209351"
+    "album": "Red Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1a/f0/00/1af000e4-5469-d709-93c1-e621dc160f7b/mzaf_9170940746943041436.plus.aac.p.m4a",
+    "duration": 201454,
+    "trackUrl": "https://music.apple.com/us/album/sky-sky/1676209531?i=1676209535",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
+    "trackId": "1676209535"
   },
   {
-    "id": "applemusic-1676209352",
-    "name": "Spring Fever",
+    "id": "applemusic-1676209537",
+    "name": "Sleep in the Car",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/49/e7/73/49e773a0-3f5a-dd4d-0519-5be75d14c3b4/mzaf_15381675104704023260.plus.aac.p.m4a",
-    "duration": 228618,
-    "trackUrl": "https://music.apple.com/us/album/spring-fever/1676209346?i=1676209352",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209352"
+    "album": "Red Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/16/3d/ab/163dab29-77ce-4608-10f3-e39dd381f8dd/mzaf_14083874111362066168.plus.aac.p.m4a",
+    "duration": 202067,
+    "trackUrl": "https://music.apple.com/us/album/sleep-in-the-car/1676209531?i=1676209537",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
+    "trackId": "1676209537"
   },
   {
-    "id": "applemusic-1676209353",
-    "name": "Paint Me",
+    "id": "applemusic-1676209539",
+    "name": "Selfish (feat. Seulgi)",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Yellow Flower",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/67/e4/a5/67e4a564-ae80-72cf-a8d0-0ce16400afe8/mzaf_742742652644051104.plus.aac.p.m4a",
-    "duration": 218917,
-    "trackUrl": "https://music.apple.com/us/album/paint-me/1676209346?i=1676209353",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/53/01/ad/5301ada5-1529-9c87-0cc4-be17434f385b/cover_KM0006618_1.jpg/300x300bb.jpg",
-    "trackId": "1676209353"
+    "album": "Red Moon - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/40/df/17/40df1724-8e72-4611-1b0d-0c1596e1e54e/mzaf_1035126773904056571.plus.aac.p.m4a",
+    "duration": 192578,
+    "trackUrl": "https://music.apple.com/us/album/selfish-feat-seulgi/1676209531?i=1676209539",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
+    "trackId": "1676209539"
   },
   {
     "id": "applemusic-1579991272",
@@ -455,82 +507,134 @@
     "trackId": "1579991282"
   },
   {
-    "id": "applemusic-1676209532",
-    "name": "Midnight Summer Dream",
+    "id": "applemusic-1444996258",
+    "name": "No more drama",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Red Moon - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c3/f1/b7/c3f1b748-ccf9-15ff-7fa0-6fc5d5d22a81/mzaf_11094861031713490498.plus.aac.p.m4a",
-    "duration": 198785,
-    "trackUrl": "https://music.apple.com/us/album/midnight-summer-dream/1676209531?i=1676209532",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
-    "trackId": "1676209532"
+    "album": "BLUE;S - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/98/16/fe/9816fe4e-c53b-5dcf-dcc5-bb105f3444bf/mzaf_14433722463296803344.plus.aac.p.m4a",
+    "duration": 190794,
+    "trackUrl": "https://music.apple.com/us/album/no-more-drama/1444996256?i=1444996258",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
+    "trackId": "1444996258"
   },
   {
-    "id": "applemusic-1676209533",
-    "name": "Egotistic",
+    "id": "applemusic-1444996259",
+    "name": "Wind flower",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Red Moon - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c9/3a/58/c93a5826-33e5-4593-15b8-0279f1ebd422/mzaf_9596426838304717045.plus.aac.p.m4a",
-    "duration": 196018,
-    "trackUrl": "https://music.apple.com/us/album/egotistic/1676209531?i=1676209533",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
-    "trackId": "1676209533"
+    "album": "BLUE;S - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/e5/84/dae58418-c5c3-b3b3-4d36-1c7f44d58b53/mzaf_10078447809246734525.plus.aac.p.m4a",
+    "duration": 236816,
+    "trackUrl": "https://music.apple.com/us/album/wind-flower/1444996256?i=1444996259",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
+    "trackId": "1444996259"
   },
   {
-    "id": "applemusic-1676209534",
-    "name": "Rainy Season",
+    "id": "applemusic-1610527177",
+    "name": "Hello",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Red Moon - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c8/aa/f5/c8aaf51d-52d5-b333-d107-ae8c51d8166c/mzaf_4923437119397455749.plus.aac.p.m4a",
-    "duration": 222286,
-    "trackUrl": "https://music.apple.com/us/album/rainy-season/1676209531?i=1676209534",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
-    "trackId": "1676209534"
+    "album": "Hello - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/64/99/bf/6499bfe3-9f1d-147a-213d-242330244cf5/mzaf_14652567014185645688.plus.aac.p.m4a",
+    "duration": 43588,
+    "trackUrl": "https://music.apple.com/us/album/hello/1610526815?i=1610527177",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/63/8b/28638b69-76e9-fb16-e418-af3262640f8c/8809388746577_Cover.jpg/300x300bb.jpg",
+    "trackId": "1610527177"
   },
   {
-    "id": "applemusic-1676209535",
-    "name": "Sky! Sky!",
+    "id": "applemusic-1444996261",
+    "name": "Better than I thought",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Red Moon - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/1a/f0/00/1af000e4-5469-d709-93c1-e621dc160f7b/mzaf_9170940746943041436.plus.aac.p.m4a",
-    "duration": 201454,
-    "trackUrl": "https://music.apple.com/us/album/sky-sky/1676209531?i=1676209535",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
-    "trackId": "1676209535"
+    "album": "BLUE;S - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/19/3b/b1193b85-1b58-3592-b5de-cb7895e8b3cf/mzaf_17006119898256516495.plus.aac.p.m4a",
+    "duration": 203301,
+    "trackUrl": "https://music.apple.com/us/album/better-than-i-thought/1444996256?i=1444996261",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
+    "trackId": "1444996261"
   },
   {
-    "id": "applemusic-1676209537",
-    "name": "Sleep in the Car",
+    "id": "applemusic-1444996262",
+    "name": "Morning",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Red Moon - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/16/3d/ab/163dab29-77ce-4608-10f3-e39dd381f8dd/mzaf_14083874111362066168.plus.aac.p.m4a",
-    "duration": 202067,
-    "trackUrl": "https://music.apple.com/us/album/sleep-in-the-car/1676209531?i=1676209537",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
-    "trackId": "1676209537"
+    "album": "BLUE;S - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9c/36/b2/9c36b27c-3ab0-48b9-f8fe-4b42bd63f2e0/mzaf_6707126942581212921.plus.aac.p.m4a",
+    "duration": 244605,
+    "trackUrl": "https://music.apple.com/us/album/morning/1444996256?i=1444996262",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
+    "trackId": "1444996262"
   },
   {
-    "id": "applemusic-1676209539",
-    "name": "Selfish (feat. Seulgi)",
+    "id": "applemusic-1538554408",
+    "name": "Travel",
     "artists": [
       "MAMAMOO"
     ],
-    "album": "Red Moon - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/40/df/17/40df1724-8e72-4611-1b0d-0c1596e1e54e/mzaf_1035126773904056571.plus.aac.p.m4a",
-    "duration": 192578,
-    "trackUrl": "https://music.apple.com/us/album/selfish-feat-seulgi/1676209531?i=1676209539",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3f/5e/07/3f5e07ee-b36f-5a61-4c3d-56895ea0a47e/cover_KM0007054_1.jpg/300x300bb.jpg",
-    "trackId": "1676209539"
+    "album": "Travel - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/ee/e6/eeeee6f5-8681-afd6-c957-f2068a41ad37/mzaf_16296006879400776071.plus.aac.p.m4a",
+    "duration": 211533,
+    "trackUrl": "https://music.apple.com/us/album/travel/1538554407?i=1538554408",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1538554408"
+  },
+  {
+    "id": "applemusic-1538554409",
+    "name": "Aya",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Travel - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/ab/e9/44abe9a8-ba48-1272-9ff4-2c1353f4f9a0/mzaf_4904349340019780365.plus.aac.p.m4a",
+    "duration": 211280,
+    "trackUrl": "https://music.apple.com/us/album/aya/1538554407?i=1538554409",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1538554409"
+  },
+  {
+    "id": "applemusic-1538554410",
+    "name": "Chuck",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Travel - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/16/a2/9316a241-56de-8df7-9936-f0bf35a43c5b/mzaf_4615471320822836875.plus.aac.p.m4a",
+    "duration": 196533,
+    "trackUrl": "https://music.apple.com/us/album/chuck/1538554407?i=1538554410",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1538554410"
+  },
+  {
+    "id": "applemusic-1538554411",
+    "name": "Diamond",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Travel - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/a3/f2/e0a3f21c-4a28-b0ce-09b6-0fb37a2cebe1/mzaf_15645604306229514084.plus.aac.p.m4a",
+    "duration": 160173,
+    "trackUrl": "https://music.apple.com/us/album/diamond/1538554407?i=1538554411",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1538554411"
+  },
+  {
+    "id": "applemusic-1538554412",
+    "name": "Good Night",
+    "artists": [
+      "MAMAMOO"
+    ],
+    "album": "Travel - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/66/69/b6666934-2a42-ae8a-9bb7-7bb0cd0683cc/mzaf_14013997340942778793.plus.aac.p.m4a",
+    "duration": 248613,
+    "trackUrl": "https://music.apple.com/us/album/good-night/1538554407?i=1538554412",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
+    "trackId": "1538554412"
   },
   {
     "id": "applemusic-1610953989",
@@ -598,84 +702,6 @@
     "trackId": "1648479715"
   },
   {
-    "id": "applemusic-1444996257",
-    "name": "Intro",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "BLUE;S - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/53/8e/9b/538e9b70-c21c-4731-9494-498fe8da669f/mzaf_17987837122138493382.plus.aac.p.m4a",
-    "duration": 96653,
-    "trackUrl": "https://music.apple.com/us/album/intro/1444996256?i=1444996257",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
-    "trackId": "1444996257"
-  },
-  {
-    "id": "applemusic-1444996258",
-    "name": "No more drama",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "BLUE;S - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/98/16/fe/9816fe4e-c53b-5dcf-dcc5-bb105f3444bf/mzaf_14433722463296803344.plus.aac.p.m4a",
-    "duration": 190794,
-    "trackUrl": "https://music.apple.com/us/album/no-more-drama/1444996256?i=1444996258",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
-    "trackId": "1444996258"
-  },
-  {
-    "id": "applemusic-1444996259",
-    "name": "Wind flower",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "BLUE;S - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/e5/84/dae58418-c5c3-b3b3-4d36-1c7f44d58b53/mzaf_10078447809246734525.plus.aac.p.m4a",
-    "duration": 236816,
-    "trackUrl": "https://music.apple.com/us/album/wind-flower/1444996256?i=1444996259",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
-    "trackId": "1444996259"
-  },
-  {
-    "id": "applemusic-1610527177",
-    "name": "Hello",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Hello - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/64/99/bf/6499bfe3-9f1d-147a-213d-242330244cf5/mzaf_14652567014185645688.plus.aac.p.m4a",
-    "duration": 43588,
-    "trackUrl": "https://music.apple.com/us/album/hello/1610526815?i=1610527177",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/63/8b/28638b69-76e9-fb16-e418-af3262640f8c/8809388746577_Cover.jpg/300x300bb.jpg",
-    "trackId": "1610527177"
-  },
-  {
-    "id": "applemusic-1444996261",
-    "name": "Better than I thought",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "BLUE;S - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b1/19/3b/b1193b85-1b58-3592-b5de-cb7895e8b3cf/mzaf_17006119898256516495.plus.aac.p.m4a",
-    "duration": 203301,
-    "trackUrl": "https://music.apple.com/us/album/better-than-i-thought/1444996256?i=1444996261",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
-    "trackId": "1444996261"
-  },
-  {
-    "id": "applemusic-1444996262",
-    "name": "Morning",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "BLUE;S - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9c/36/b2/9c36b27c-3ab0-48b9-f8fe-4b42bd63f2e0/mzaf_6707126942581212921.plus.aac.p.m4a",
-    "duration": 244605,
-    "trackUrl": "https://music.apple.com/us/album/morning/1444996256?i=1444996262",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/66/52/20/665220cb-5cd1-d7a8-b50b-c4c796928305/cover-_Mamamoo.jpg/300x300bb.jpg",
-    "trackId": "1444996262"
-  },
-  {
     "id": "applemusic-1764832632",
     "name": "Yes I Am",
     "artists": [
@@ -739,71 +765,6 @@
     "trackUrl": "https://music.apple.com/us/album/da-ra-da-feat-whee-in-jeff-bernat-b-o/1764832631?i=1764832636",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/f0/3a/6bf03adc-8ee9-0dd9-d4f3-c03d172ec698/192641615078.jpg/300x300bb.jpg",
     "trackId": "1764832636"
-  },
-  {
-    "id": "applemusic-1538554408",
-    "name": "Travel",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Travel - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/ee/e6/eeeee6f5-8681-afd6-c957-f2068a41ad37/mzaf_16296006879400776071.plus.aac.p.m4a",
-    "duration": 211533,
-    "trackUrl": "https://music.apple.com/us/album/travel/1538554407?i=1538554408",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1538554408"
-  },
-  {
-    "id": "applemusic-1538554409",
-    "name": "Aya",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Travel - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/ab/e9/44abe9a8-ba48-1272-9ff4-2c1353f4f9a0/mzaf_4904349340019780365.plus.aac.p.m4a",
-    "duration": 211280,
-    "trackUrl": "https://music.apple.com/us/album/aya/1538554407?i=1538554409",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1538554409"
-  },
-  {
-    "id": "applemusic-1538554410",
-    "name": "Chuck",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Travel - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/16/a2/9316a241-56de-8df7-9936-f0bf35a43c5b/mzaf_4615471320822836875.plus.aac.p.m4a",
-    "duration": 196533,
-    "trackUrl": "https://music.apple.com/us/album/chuck/1538554407?i=1538554410",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1538554410"
-  },
-  {
-    "id": "applemusic-1538554411",
-    "name": "Diamond",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Travel - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/a3/f2/e0a3f21c-4a28-b0ce-09b6-0fb37a2cebe1/mzaf_15645604306229514084.plus.aac.p.m4a",
-    "duration": 160173,
-    "trackUrl": "https://music.apple.com/us/album/diamond/1538554407?i=1538554411",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1538554411"
-  },
-  {
-    "id": "applemusic-1538554412",
-    "name": "Good Night",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Travel - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/66/69/b6666934-2a42-ae8a-9bb7-7bb0cd0683cc/mzaf_14013997340942778793.plus.aac.p.m4a",
-    "duration": 248613,
-    "trackUrl": "https://music.apple.com/us/album/good-night/1538554407?i=1538554412",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fc/9d/37/fc9d37ac-f872-343a-5625-1825a37280e9/cover_-.jpg/300x300bb.jpg",
-    "trackId": "1538554412"
   },
   {
     "id": "applemusic-1579989308",
@@ -908,19 +869,6 @@
     "trackUrl": "https://music.apple.com/us/album/shampoo/1497476011?i=1497476012",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/3c/f5/08/3cf5088f-b90d-2448-81e1-394adbe7c03c/VEATP-37190.jpg/300x300bb.jpg",
     "trackId": "1497476012"
-  },
-  {
-    "id": "applemusic-1610987523",
-    "name": "Put It Straight (Nightmare Version)",
-    "artists": [
-      "i-dle"
-    ],
-    "album": "Queendom <Box of Pandora>, Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a4/15/1e/a4151e74-7faf-e502-fb14-8c77fb26b138/mzaf_3139090203510264284.plus.aac.p.m4a",
-    "duration": 256493,
-    "trackUrl": "https://music.apple.com/us/album/put-it-straight-nightmare-version/1610987520?i=1610987523",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/e6/1e/f5e61e34-4ff2-b640-740d-c68ad9918285/8809658319005_Cover.jpg/300x300bb.jpg",
-    "trackId": "1610987523"
   },
   {
     "id": "applemusic-1570199514",
@@ -1105,19 +1053,6 @@
     "trackId": "1610527348"
   },
   {
-    "id": "applemusic-1610527546",
-    "name": "I do me (Solo Version) [feat. Hwa Sa]",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "Hello - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/c9/41/2c/c9412c33-b580-b7a7-7b20-12c0ce443dc0/mzaf_14724220336933609599.plus.aac.p.m4a",
-    "duration": 187836,
-    "trackUrl": "https://music.apple.com/us/album/i-do-me-solo-version-feat-hwa-sa/1610526815?i=1610527546",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/28/63/8b/28638b69-76e9-fb16-e418-af3262640f8c/8809388746577_Cover.jpg/300x300bb.jpg",
-    "trackId": "1610527546"
-  },
-  {
     "id": "applemusic-1782082885",
     "name": "Don't Be Happy (2021)",
     "artists": [
@@ -1285,19 +1220,6 @@
     "trackUrl": "https://music.apple.com/us/album/dont-be-happy-2021/1585079676?i=1585079698",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f7/14/c9/f714c9cc-373f-4ed5-cc93-c05efbd78abe/cover.jpg/300x300bb.jpg",
     "trackId": "1585079698"
-  },
-  {
-    "id": "applemusic-1782082891",
-    "name": "Peppermint Chocolate (MMM ver.)",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "I SAY MAMAMOO : THE BEST",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2b/46/d1/2b46d1c6-78a9-adeb-f770-9cc409ecb7be/mzaf_17814196085015231328.plus.aac.p.m4a",
-    "duration": 211067,
-    "trackUrl": "https://music.apple.com/jp/album/peppermint-chocolate-mmm-ver/1782082642?i=1782082891",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/55/2b/da/552bda0d-462f-37a7-7a78-29ed68aee99b/4571640502934_cover.jpg/300x300bb.jpg",
-    "trackId": "1782082891"
   },
   {
     "id": "applemusic-1585079701",
@@ -1560,6 +1482,19 @@
     "trackId": "1789888473"
   },
   {
+    "id": "applemusic-818951098",
+    "name": "Peppermint Chocolate (feat. Wheesung)",
+    "artists": [
+      "K.Will & MAMAMOO"
+    ],
+    "album": "Peppermint Chocolate - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f5/64/3c/f5643c7f-b4aa-1fa1-9192-bebccfab0f35/mzaf_14133993804435374395.plus.aac.p.m4a",
+    "duration": 210250,
+    "trackUrl": "https://music.apple.com/us/album/peppermint-chocolate-feat-wheesung/818950991?i=818951098",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/f7/e1/7c/f7e17c5a-7df0-75dc-aa4d-9b3e2bbaab39/KM0002562-_DS-0211.jpg/300x300bb.jpg",
+    "trackId": "818951098"
+  },
+  {
     "id": "applemusic-1567952656",
     "name": "My Everything",
     "artists": [
@@ -1623,19 +1558,6 @@
     "trackUrl": "https://music.apple.com/jp/album/1-2-3-eoi/1648836961?i=1648836962",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/ac/89/1f/ac891f13-d7a9-8019-8db7-48b4e3b8561e/859758786557_cover.jpg/300x300bb.jpg",
     "trackId": "1648836962"
-  },
-  {
-    "id": "applemusic-1626810906",
-    "name": "From Autumn to Winter (Intro)",
-    "artists": [
-      "MAMAMOO"
-    ],
-    "album": "BLUE;S - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9a/25/20/9a252094-cff1-9396-f667-02a102849ddd/mzaf_16649506719743089689.plus.aac.p.m4a",
-    "duration": 96652,
-    "trackUrl": "https://music.apple.com/jp/album/from-autumn-to-winter-intro/1626810393?i=1626810906",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/a6/47/70a64784-70a6-bc7e-fa76-cc0435c95ebb/859758325510_cover.jpg/300x300bb.jpg",
-    "trackId": "1626810906"
   },
   {
     "id": "applemusic-1503162431",

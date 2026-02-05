@@ -1,83 +1,5 @@
 [
   {
-    "id": "applemusic-1520396359",
-    "name": "RED UP",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "VIVID - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/c5/0c/32c50cc1-afc8-f35f-33aa-24ff0c61274c/mzaf_9954658031784401151.plus.aac.p.m4a",
-    "duration": 219037,
-    "trackUrl": "https://music.apple.com/us/album/red-up/1520396358?i=1520396359",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
-    "trackId": "1520396359"
-  },
-  {
-    "id": "applemusic-1520396360",
-    "name": "VIVID",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "VIVID - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cd/64/f6/cd64f66a-c930-090d-252f-749aadc308bf/mzaf_5710106150292446435.plus.aac.p.m4a",
-    "duration": 204069,
-    "trackUrl": "https://music.apple.com/us/album/vivid/1520396358?i=1520396360",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
-    "trackId": "1520396360"
-  },
-  {
-    "id": "applemusic-1520396361",
-    "name": "THE ANSWER",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "VIVID - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/22/5b/2f/225b2f6a-3a2b-077f-bc68-25c6fb31d384/mzaf_16186289641288527972.plus.aac.p.m4a",
-    "duration": 190832,
-    "trackUrl": "https://music.apple.com/us/album/the-answer/1520396358?i=1520396361",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
-    "trackId": "1520396361"
-  },
-  {
-    "id": "applemusic-1520396362",
-    "name": "SURREAL",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "VIVID - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c9/e3/4d/c9e34d07-efdc-008c-2634-2b619798861b/mzaf_11313570962743262572.plus.aac.p.m4a",
-    "duration": 193756,
-    "trackUrl": "https://music.apple.com/us/album/surreal/1520396358?i=1520396362",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
-    "trackId": "1520396362"
-  },
-  {
-    "id": "applemusic-1520396363",
-    "name": "MIDNIGHT BLUE",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "VIVID - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8c/09/d7/8c09d762-cd5a-1ed8-cad5-a9edfcb3b1dd/mzaf_7420762824562783817.plus.aac.p.m4a",
-    "duration": 188082,
-    "trackUrl": "https://music.apple.com/us/album/midnight-blue/1520396358?i=1520396363",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
-    "trackId": "1520396363"
-  },
-  {
-    "id": "applemusic-1520396365",
-    "name": "HOLD TIGHT",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "VIVID - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8e/fe/36/8efe36b5-b3ec-93eb-911e-09cbfc6eee33/mzaf_10115985574049196820.plus.aac.p.m4a",
-    "duration": 202125,
-    "trackUrl": "https://music.apple.com/us/album/hold-tight/1520396358?i=1520396365",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
-    "trackId": "1520396365"
-  },
-  {
     "id": "applemusic-1463405853",
     "name": "SHINING STARS",
     "artists": [
@@ -156,69 +78,82 @@
     "trackId": "1463405861"
   },
   {
-    "id": "applemusic-1563739888",
-    "name": "HEADLINE",
+    "id": "applemusic-1520396359",
+    "name": "RED UP",
     "artists": [
       "AB6IX"
     ],
-    "album": "MO' COMPLETE: HAVE A DREAM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/fd/6f/9dfd6f42-d500-ea0b-035d-d01f316e9922/mzaf_16644465547124226702.plus.aac.p.m4a",
-    "duration": 210681,
-    "trackUrl": "https://music.apple.com/us/album/headline/1563739875?i=1563739888",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
-    "trackId": "1563739888"
+    "album": "VIVID - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/c5/0c/32c50cc1-afc8-f35f-33aa-24ff0c61274c/mzaf_9954658031784401151.plus.aac.p.m4a",
+    "duration": 219037,
+    "trackUrl": "https://music.apple.com/us/album/red-up/1520396358?i=1520396359",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
+    "trackId": "1520396359"
   },
   {
-    "id": "applemusic-1563740165",
-    "name": "CLOSE",
+    "id": "applemusic-1520396360",
+    "name": "VIVID",
     "artists": [
       "AB6IX"
     ],
-    "album": "MO' COMPLETE: HAVE A DREAM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/c8/00/32c80013-96d9-bf2e-4170-3889ff6323ff/mzaf_15642692337228496874.plus.aac.p.m4a",
-    "duration": 219834,
-    "trackUrl": "https://music.apple.com/us/album/close/1563739875?i=1563740165",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
-    "trackId": "1563740165"
+    "album": "VIVID - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cd/64/f6/cd64f66a-c930-090d-252f-749aadc308bf/mzaf_5710106150292446435.plus.aac.p.m4a",
+    "duration": 204069,
+    "trackUrl": "https://music.apple.com/us/album/vivid/1520396358?i=1520396360",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
+    "trackId": "1520396360"
   },
   {
-    "id": "applemusic-1563740204",
-    "name": "LULULALA",
+    "id": "applemusic-1520396361",
+    "name": "THE ANSWER",
     "artists": [
       "AB6IX"
     ],
-    "album": "MO' COMPLETE: HAVE A DREAM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/59/50/5b/59505b16-93c0-006d-5fd4-c9d0ac2bc26b/mzaf_2947792754484160107.plus.aac.p.m4a",
-    "duration": 185346,
-    "trackUrl": "https://music.apple.com/us/album/lululala/1563739875?i=1563740204",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
-    "trackId": "1563740204"
+    "album": "VIVID - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/22/5b/2f/225b2f6a-3a2b-077f-bc68-25c6fb31d384/mzaf_16186289641288527972.plus.aac.p.m4a",
+    "duration": 190832,
+    "trackUrl": "https://music.apple.com/us/album/the-answer/1520396358?i=1520396361",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
+    "trackId": "1520396361"
   },
   {
-    "id": "applemusic-1563740208",
-    "name": "MERRY-GO-ROUND",
+    "id": "applemusic-1520396362",
+    "name": "SURREAL",
     "artists": [
       "AB6IX"
     ],
-    "album": "MO' COMPLETE: HAVE A DREAM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/13/f4/8f13f407-cf3f-00ed-5c38-e8882b4fc83a/mzaf_9188307324663476926.plus.aac.p.m4a",
-    "duration": 204014,
-    "trackUrl": "https://music.apple.com/us/album/merry-go-round/1563739875?i=1563740208",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
-    "trackId": "1563740208"
+    "album": "VIVID - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c9/e3/4d/c9e34d07-efdc-008c-2634-2b619798861b/mzaf_11313570962743262572.plus.aac.p.m4a",
+    "duration": 193756,
+    "trackUrl": "https://music.apple.com/us/album/surreal/1520396358?i=1520396362",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
+    "trackId": "1520396362"
   },
   {
-    "id": "applemusic-1563740215",
-    "name": "A LONG WINTER",
+    "id": "applemusic-1520396363",
+    "name": "MIDNIGHT BLUE",
     "artists": [
       "AB6IX"
     ],
-    "album": "MO' COMPLETE: HAVE A DREAM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/9f/07/2e9f07ea-6c8d-6586-8a2f-e01cd0adc3e9/mzaf_4148007721948669554.plus.aac.p.m4a",
-    "duration": 201585,
-    "trackUrl": "https://music.apple.com/us/album/a-long-winter/1563739875?i=1563740215",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
-    "trackId": "1563740215"
+    "album": "VIVID - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8c/09/d7/8c09d762-cd5a-1ed8-cad5-a9edfcb3b1dd/mzaf_7420762824562783817.plus.aac.p.m4a",
+    "duration": 188082,
+    "trackUrl": "https://music.apple.com/us/album/midnight-blue/1520396358?i=1520396363",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
+    "trackId": "1520396363"
+  },
+  {
+    "id": "applemusic-1520396365",
+    "name": "HOLD TIGHT",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "VIVID - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8e/fe/36/8efe36b5-b3ec-93eb-911e-09cbfc6eee33/mzaf_10115985574049196820.plus.aac.p.m4a",
+    "duration": 202125,
+    "trackUrl": "https://music.apple.com/us/album/hold-tight/1520396358?i=1520396365",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e6/77/45/e67745a5-2c15-33e8-d6fb-58a757e43a3d/190295187125.jpg/300x300bb.jpg",
+    "trackId": "1520396365"
   },
   {
     "id": "applemusic-1481883178",
@@ -507,6 +442,71 @@
     "trackId": "1537980150"
   },
   {
+    "id": "applemusic-1563739888",
+    "name": "HEADLINE",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "MO' COMPLETE: HAVE A DREAM - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9d/fd/6f/9dfd6f42-d500-ea0b-035d-d01f316e9922/mzaf_16644465547124226702.plus.aac.p.m4a",
+    "duration": 210681,
+    "trackUrl": "https://music.apple.com/us/album/headline/1563739875?i=1563739888",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
+    "trackId": "1563739888"
+  },
+  {
+    "id": "applemusic-1563740165",
+    "name": "CLOSE",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "MO' COMPLETE: HAVE A DREAM - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/32/c8/00/32c80013-96d9-bf2e-4170-3889ff6323ff/mzaf_15642692337228496874.plus.aac.p.m4a",
+    "duration": 219834,
+    "trackUrl": "https://music.apple.com/us/album/close/1563739875?i=1563740165",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
+    "trackId": "1563740165"
+  },
+  {
+    "id": "applemusic-1563740204",
+    "name": "LULULALA",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "MO' COMPLETE: HAVE A DREAM - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/59/50/5b/59505b16-93c0-006d-5fd4-c9d0ac2bc26b/mzaf_2947792754484160107.plus.aac.p.m4a",
+    "duration": 185346,
+    "trackUrl": "https://music.apple.com/us/album/lululala/1563739875?i=1563740204",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
+    "trackId": "1563740204"
+  },
+  {
+    "id": "applemusic-1563740208",
+    "name": "MERRY-GO-ROUND",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "MO' COMPLETE: HAVE A DREAM - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/13/f4/8f13f407-cf3f-00ed-5c38-e8882b4fc83a/mzaf_9188307324663476926.plus.aac.p.m4a",
+    "duration": 204014,
+    "trackUrl": "https://music.apple.com/us/album/merry-go-round/1563739875?i=1563740208",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
+    "trackId": "1563740208"
+  },
+  {
+    "id": "applemusic-1563740215",
+    "name": "A LONG WINTER",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "MO' COMPLETE: HAVE A DREAM - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/9f/07/2e9f07ea-6c8d-6586-8a2f-e01cd0adc3e9/mzaf_4148007721948669554.plus.aac.p.m4a",
+    "duration": 201585,
+    "trackUrl": "https://music.apple.com/us/album/a-long-winter/1563739875?i=1563740215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/89/b1/bf/89b1bf8b-29ee-11d6-8542-5432cc67c2ea/190296694134.jpg/300x300bb.jpg",
+    "trackId": "1563740215"
+  },
+  {
     "id": "applemusic-1705658497",
     "name": "GEMINI",
     "artists": [
@@ -598,17 +598,108 @@
     "trackId": "1647379689"
   },
   {
-    "id": "applemusic-1641215987",
-    "name": "CHANCE",
+    "id": "applemusic-1688995413",
+    "name": "BLAZE",
     "artists": [
       "AB6IX"
     ],
-    "album": "CHANCE - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/4f/f8/38/4ff83819-9620-82ec-f59d-0061333f5d29/mzaf_16579004530783949423.plus.aac.p.m4a",
-    "duration": 171208,
-    "trackUrl": "https://music.apple.com/us/album/chance/1641215986?i=1641215987",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/72/f8/8772f8ce-353e-e88f-1b76-5b9a416d7cdf/5054197327117.jpg/300x300bb.jpg",
-    "trackId": "1641215987"
+    "album": "THE FUTURE IS OURS: LOST - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/ad/04/03ad040a-1b3d-9678-8796-5c38192786f9/mzaf_3428771723708846476.plus.aac.p.m4a",
+    "duration": 186307,
+    "trackUrl": "https://music.apple.com/us/album/blaze/1688995412?i=1688995413",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
+    "trackId": "1688995413"
+  },
+  {
+    "id": "applemusic-1688995414",
+    "name": "LOSER",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "THE FUTURE IS OURS: LOST - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/42/38/f8/4238f851-6d00-80be-870b-9692ae9ed716/mzaf_17013259602703298179.plus.aac.p.m4a",
+    "duration": 210401,
+    "trackUrl": "https://music.apple.com/us/album/loser/1688995412?i=1688995414",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
+    "trackId": "1688995414"
+  },
+  {
+    "id": "applemusic-1688995415",
+    "name": "REALITY",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "THE FUTURE IS OURS: LOST - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4b/10/bc/4b10bc3b-9a1c-ff0d-a1f4-3b828f5c5f4d/mzaf_14026061734774876171.plus.aac.p.m4a",
+    "duration": 221452,
+    "trackUrl": "https://music.apple.com/us/album/reality/1688995412?i=1688995415",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
+    "trackId": "1688995415"
+  },
+  {
+    "id": "applemusic-1688995416",
+    "name": "EDEN",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "THE FUTURE IS OURS: LOST - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/a8/32/b3a83202-d2ec-3b7b-7cdd-d16da8ca0c0b/mzaf_2534768457691150758.plus.aac.p.m4a",
+    "duration": 259312,
+    "trackUrl": "https://music.apple.com/us/album/eden/1688995412?i=1688995416",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
+    "trackId": "1688995416"
+  },
+  {
+    "id": "applemusic-1688995417",
+    "name": "SUCKER",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "THE FUTURE IS OURS: LOST - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/05/ba/c2/05bac2fb-aafd-8e57-1ef6-496d92e9533d/mzaf_9075647406920687210.plus.aac.p.m4a",
+    "duration": 206265,
+    "trackUrl": "https://music.apple.com/us/album/sucker/1688995412?i=1688995417",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
+    "trackId": "1688995417"
+  },
+  {
+    "id": "applemusic-1548495947",
+    "name": "APRICITY",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "SALUTE: A NEW HOPE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/de/ac/45/deac452f-8cf2-7002-98c3-54918a377380/mzaf_13973165582081827483.plus.aac.p.m4a",
+    "duration": 221000,
+    "trackUrl": "https://music.apple.com/us/album/apricity/1548495940?i=1548495947",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/10/4d/75104df5-da94-c241-a4c5-3d8a2905c9a1/190295023645.jpg/300x300bb.jpg",
+    "trackId": "1548495947"
+  },
+  {
+    "id": "applemusic-1548495957",
+    "name": "STAY YOUNG",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "SALUTE: A NEW HOPE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/b7/41/cab741ae-4cdf-492c-df23-c21bc54cb869/mzaf_9724826267622816502.plus.aac.p.m4a",
+    "duration": 208930,
+    "trackUrl": "https://music.apple.com/us/album/stay-young/1548495940?i=1548495957",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/10/4d/75104df5-da94-c241-a4c5-3d8a2905c9a1/190295023645.jpg/300x300bb.jpg",
+    "trackId": "1548495957"
+  },
+  {
+    "id": "applemusic-1548495963",
+    "name": "ENCORE (feat. ABNEW)",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "SALUTE: A NEW HOPE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/ec/ff/8fecff58-b320-f31e-2c8e-8db9746f9629/mzaf_15077953076918294062.plus.aac.p.m4a",
+    "duration": 225375,
+    "trackUrl": "https://music.apple.com/us/album/encore-feat-abnew/1548495940?i=1548495963",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/10/4d/75104df5-da94-c241-a4c5-3d8a2905c9a1/190295023645.jpg/300x300bb.jpg",
+    "trackId": "1548495963"
   },
   {
     "id": "applemusic-1586331677",
@@ -752,110 +843,6 @@
     "trackUrl": "https://music.apple.com/us/album/moonlight/1644033055?i=1644033056",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a8/af/59/a8af5913-f788-c558-b125-ca26e3be2035/5054197357787.jpg/300x300bb.jpg",
     "trackId": "1644033056"
-  },
-  {
-    "id": "applemusic-1688995413",
-    "name": "BLAZE",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "THE FUTURE IS OURS: LOST - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/03/ad/04/03ad040a-1b3d-9678-8796-5c38192786f9/mzaf_3428771723708846476.plus.aac.p.m4a",
-    "duration": 186307,
-    "trackUrl": "https://music.apple.com/us/album/blaze/1688995412?i=1688995413",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
-    "trackId": "1688995413"
-  },
-  {
-    "id": "applemusic-1688995414",
-    "name": "LOSER",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "THE FUTURE IS OURS: LOST - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/42/38/f8/4238f851-6d00-80be-870b-9692ae9ed716/mzaf_17013259602703298179.plus.aac.p.m4a",
-    "duration": 210401,
-    "trackUrl": "https://music.apple.com/us/album/loser/1688995412?i=1688995414",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
-    "trackId": "1688995414"
-  },
-  {
-    "id": "applemusic-1688995415",
-    "name": "REALITY",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "THE FUTURE IS OURS: LOST - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4b/10/bc/4b10bc3b-9a1c-ff0d-a1f4-3b828f5c5f4d/mzaf_14026061734774876171.plus.aac.p.m4a",
-    "duration": 221452,
-    "trackUrl": "https://music.apple.com/us/album/reality/1688995412?i=1688995415",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
-    "trackId": "1688995415"
-  },
-  {
-    "id": "applemusic-1688995416",
-    "name": "EDEN",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "THE FUTURE IS OURS: LOST - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b3/a8/32/b3a83202-d2ec-3b7b-7cdd-d16da8ca0c0b/mzaf_2534768457691150758.plus.aac.p.m4a",
-    "duration": 259312,
-    "trackUrl": "https://music.apple.com/us/album/eden/1688995412?i=1688995416",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
-    "trackId": "1688995416"
-  },
-  {
-    "id": "applemusic-1688995417",
-    "name": "SUCKER",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "THE FUTURE IS OURS: LOST - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/05/ba/c2/05bac2fb-aafd-8e57-1ef6-496d92e9533d/mzaf_9075647406920687210.plus.aac.p.m4a",
-    "duration": 206265,
-    "trackUrl": "https://music.apple.com/us/album/sucker/1688995412?i=1688995417",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/68/55/0768554d-ce35-79a7-c949-81bbf95e6cff/5054197700958.jpg/300x300bb.jpg",
-    "trackId": "1688995417"
-  },
-  {
-    "id": "applemusic-1548495947",
-    "name": "APRICITY",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "SALUTE: A NEW HOPE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/de/ac/45/deac452f-8cf2-7002-98c3-54918a377380/mzaf_13973165582081827483.plus.aac.p.m4a",
-    "duration": 221000,
-    "trackUrl": "https://music.apple.com/us/album/apricity/1548495940?i=1548495947",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/10/4d/75104df5-da94-c241-a4c5-3d8a2905c9a1/190295023645.jpg/300x300bb.jpg",
-    "trackId": "1548495947"
-  },
-  {
-    "id": "applemusic-1548495957",
-    "name": "STAY YOUNG",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "SALUTE: A NEW HOPE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/b7/41/cab741ae-4cdf-492c-df23-c21bc54cb869/mzaf_9724826267622816502.plus.aac.p.m4a",
-    "duration": 208930,
-    "trackUrl": "https://music.apple.com/us/album/stay-young/1548495940?i=1548495957",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/10/4d/75104df5-da94-c241-a4c5-3d8a2905c9a1/190295023645.jpg/300x300bb.jpg",
-    "trackId": "1548495957"
-  },
-  {
-    "id": "applemusic-1548495963",
-    "name": "ENCORE (feat. ABNEW)",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "SALUTE: A NEW HOPE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/ec/ff/8fecff58-b320-f31e-2c8e-8db9746f9629/mzaf_15077953076918294062.plus.aac.p.m4a",
-    "duration": 225375,
-    "trackUrl": "https://music.apple.com/us/album/encore-feat-abnew/1548495940?i=1548495963",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/10/4d/75104df5-da94-c241-a4c5-3d8a2905c9a1/190295023645.jpg/300x300bb.jpg",
-    "trackId": "1548495963"
   },
   {
     "id": "applemusic-1623739723",
@@ -1051,6 +1038,19 @@
     "trackUrl": "https://music.apple.com/us/album/in-your-eyes/1604378211?i=1604378218",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/52/ea/33/52ea3311-9ee5-b5d4-1664-42800484b94d/190296275852.jpg/300x300bb.jpg",
     "trackId": "1604378218"
+  },
+  {
+    "id": "applemusic-1641215987",
+    "name": "CHANCE",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "CHANCE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/4f/f8/38/4ff83819-9620-82ec-f59d-0061333f5d29/mzaf_16579004530783949423.plus.aac.p.m4a",
+    "duration": 171208,
+    "trackUrl": "https://music.apple.com/us/album/chance/1641215986?i=1641215987",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/87/72/f8/8772f8ce-353e-e88f-1b76-5b9a416d7cdf/5054197327117.jpg/300x300bb.jpg",
+    "trackId": "1641215987"
   },
   {
     "id": "applemusic-1772601215",
@@ -1287,19 +1287,6 @@
     "trackId": "1761752445"
   },
   {
-    "id": "applemusic-1761752599",
-    "name": "Top Tier (Rock Version)",
-    "artists": [
-      "PARK WOO JIN & AB6IX"
-    ],
-    "album": "Find YOU - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/76/a5/5a76a5ab-c7d4-bfa0-2002-067c980170a3/mzaf_8887854325106153569.plus.aac.p.m4a",
-    "duration": 172268,
-    "trackUrl": "https://music.apple.com/us/album/top-tier-rock-version/1761752442?i=1761752599",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d9/d1/66/d9d16606-2938-a1ef-c18f-288dd5a75569/5021732463555.jpg/300x300bb.jpg",
-    "trackId": "1761752599"
-  },
-  {
     "id": "applemusic-1635929688",
     "name": "Set You Free",
     "artists": [
@@ -1326,19 +1313,6 @@
     "trackId": "1635929690"
   },
   {
-    "id": "applemusic-1871120792",
-    "name": "A Minute, A Second",
-    "artists": [
-      "AB6IX"
-    ],
-    "album": "A Minute, A Second - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/83/e6/f783e6c1-3cf5-3b94-e5b2-c13584597139/mzaf_16998679493767448180.plus.aac.p.m4a",
-    "duration": 192475,
-    "trackUrl": "https://music.apple.com/us/album/a-minute-a-second/1871120581?i=1871120792",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/ed/96/2ded9652-4ee6-b501-da5b-be5f1dc99d23/5026854591865.jpg/300x300bb.jpg",
-    "trackId": "1871120792"
-  },
-  {
     "id": "applemusic-1546575107",
     "name": "Hold You",
     "artists": [
@@ -1350,6 +1324,19 @@
     "trackUrl": "https://music.apple.com/us/album/hold-you/1546575106?i=1546575107",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/84/e1/43/84e143c9-1b78-6ca8-1543-2841e9f8e382/cover_-_AB6IX_DS.jpg/300x300bb.jpg",
     "trackId": "1546575107"
+  },
+  {
+    "id": "applemusic-1871120792",
+    "name": "A Minute, A Second",
+    "artists": [
+      "AB6IX"
+    ],
+    "album": "A Minute, A Second - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/83/e6/f783e6c1-3cf5-3b94-e5b2-c13584597139/mzaf_16998679493767448180.plus.aac.p.m4a",
+    "duration": 192475,
+    "trackUrl": "https://music.apple.com/us/album/a-minute-a-second/1871120581?i=1871120792",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/ed/96/2ded9652-4ee6-b501-da5b-be5f1dc99d23/5026854591865.jpg/300x300bb.jpg",
+    "trackId": "1871120792"
   },
   {
     "id": "applemusic-1752428785",

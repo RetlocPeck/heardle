@@ -55,40 +55,17 @@ export default function GuessInput({
     refs.setReference(el);
   };
 
-  // Check if song should be filtered out based on unwanted words
-  const shouldFilterOutSong = (songName: string): boolean => {
-    const unwantedWords = ['outro', 'intro', 'introduction', 'skit', 'outros', 'intros', 'introductions', 'skits'];
-    
-    // Create a regex pattern that matches the unwanted words as standalone words
-    // Word boundaries (\b) ensure we only match complete words
-    // We also check for the words when they're followed by colons or hyphens
-    const pattern = new RegExp(
-      `\\b(${unwantedWords.join('|')})\\b|` + // standalone words
-      `\\((${unwantedWords.join('|')})\\)|` + // words in parentheses
-      `^(${unwantedWords.join('|')})[:|-]|` + // words at start followed by colon/hyphen
-      `[:|-]\\s*(${unwantedWords.join('|')})\\b`, // words after colon/hyphen
-      'i' // case insensitive
-    );
-    
-    return pattern.test(songName);
-  };
-
   // Filter songs based on input
+  // Note: availableSongs are already filtered by the API/service layer
+  // (trackFilters.ts removes intro/outro/skit/version tracks)
+  // No need to filter again here - just match by prefix
   useEffect(() => {
     console.log(`🔍 GuessInput: Filtering songs. Input: "${guess}", Available songs: ${availableSongs.length}`);
     
     if (guess.trim() && availableSongs.length > 0) {
-      const matchingByPrefix = availableSongs.filter(song => 
+      const filtered = availableSongs.filter(song => 
         song.name.toLowerCase().startsWith(guess.toLowerCase())
       );
-      
-      const filtered = matchingByPrefix.filter(song => {
-        const isFiltered = shouldFilterOutSong(song.name);
-        if (isFiltered) {
-          console.log(`🚫 GuessInput: Filtering out song: "${song.name}"`);
-        }
-        return !isFiltered;
-      });
       
       // Deduplicate by song title - keep only one entry per unique song name
       const uniqueSongs = filtered.reduce((acc: Song[], currentSong) => {

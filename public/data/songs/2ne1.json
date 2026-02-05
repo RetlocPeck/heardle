@@ -91,19 +91,6 @@
     "trackId": "1317765251"
   },
   {
-    "id": "applemusic-1317765252",
-    "name": "MTBD (CL Solo Version)",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "Crush",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/76/14/61761405-dfa9-70c6-73ae-c2813b4bccf0/mzaf_442561489069106310.plus.aac.p.m4a",
-    "duration": 195748,
-    "trackUrl": "https://music.apple.com/us/album/mtbd-cl-solo-version/1317764593?i=1317765252",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/90/c0/d4/90c0d401-f1d2-6540-ea9a-e2ada5ce25e5/2NE1_NEW_ALBUM_Digital_Single.png/300x300bb.jpg",
-    "trackId": "1317765252"
-  },
-  {
     "id": "applemusic-1317765253",
     "name": "Happy",
     "artists": [
@@ -141,19 +128,6 @@
     "trackUrl": "https://music.apple.com/us/album/baby-i-miss-you/1317764593?i=1317765255",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/90/c0/d4/90c0d401-f1d2-6540-ea9a-e2ada5ce25e5/2NE1_NEW_ALBUM_Digital_Single.png/300x300bb.jpg",
     "trackId": "1317765255"
-  },
-  {
-    "id": "applemusic-1331279981",
-    "name": "I Love You",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "I Love You - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/25/1b/95251b62-2245-0693-e630-5821428dd66f/mzaf_12288513236714370096.plus.aac.p.m4a",
-    "duration": 237138,
-    "trackUrl": "https://music.apple.com/us/album/i-love-you/1331279619?i=1331279981",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/62/2c/97622c95-a666-1c13-c07e-a70b5b7f5d75/8806384535785.jpg/300x300bb.jpg",
-    "trackId": "1331279981"
   },
   {
     "id": "applemusic-1339060468",
@@ -247,95 +221,17 @@
     "trackId": "1339060475"
   },
   {
-    "id": "applemusic-1328816348",
-    "name": "Missing You",
+    "id": "applemusic-1331279981",
+    "name": "I Love You",
     "artists": [
       "2NE1"
     ],
-    "album": "Missing You - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/1e/ea/a21eeaf9-b6e8-8056-f03f-4534a6878e05/mzaf_9970508907693273339.plus.aac.p.m4a",
-    "duration": 219302,
-    "trackUrl": "https://music.apple.com/us/album/missing-you/1328816347?i=1328816348",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/24/09/d3/2409d3c9-ac4b-6cf8-e5f6-f7563fe5aed1/8806163369167.jpg/300x300bb.jpg",
-    "trackId": "1328816348"
-  },
-  {
-    "id": "applemusic-1338689928",
-    "name": "Ugly",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2nd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b2/be/f0/b2bef07a-fa66-d223-1c63-47d47863af09/mzaf_3033246808133774647.plus.aac.p.m4a",
-    "duration": 248711,
-    "trackUrl": "https://music.apple.com/us/album/ugly/1338689900?i=1338689928",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
-    "trackId": "1338689928"
-  },
-  {
-    "id": "applemusic-1338689929",
-    "name": "Lonely",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2nd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/92/50/41925048-831f-9ff1-8c4c-d149d0aa4765/mzaf_6887219705739822831.plus.aac.p.m4a",
-    "duration": 209987,
-    "trackUrl": "https://music.apple.com/us/album/lonely/1338689900?i=1338689929",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
-    "trackId": "1338689929"
-  },
-  {
-    "id": "applemusic-1338689930",
-    "name": "Hate You",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2nd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2d/b3/19/2db319a2-ce4a-32d7-86b6-0f483893895e/mzaf_8104401392532931775.plus.aac.p.m4a",
-    "duration": 213147,
-    "trackUrl": "https://music.apple.com/us/album/hate-you/1338689900?i=1338689930",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
-    "trackId": "1338689930"
-  },
-  {
-    "id": "applemusic-1338689931",
-    "name": "Don't Cry",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2nd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/9f/6a/489f6af0-f486-99c4-dba1-69dc95ff5efe/mzaf_7002152683466417527.plus.aac.p.m4a",
-    "duration": 192787,
-    "trackUrl": "https://music.apple.com/us/album/dont-cry/1338689900?i=1338689931",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
-    "trackId": "1338689931"
-  },
-  {
-    "id": "applemusic-1338689932",
-    "name": "Don't Stop the Music",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2nd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/95/04/ec9504e3-1d89-ac05-bdb0-39824818734e/mzaf_10482975255840895074.plus.aac.p.m4a",
-    "duration": 229640,
-    "trackUrl": "https://music.apple.com/us/album/dont-stop-the-music/1338689900?i=1338689932",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
-    "trackId": "1338689932"
-  },
-  {
-    "id": "applemusic-1331282752",
-    "name": "Falling In Love",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "Falling In Love - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/28/32/3428327b-f5dd-9e1a-90dd-262feeb2d0f5/mzaf_10959639166349346632.plus.aac.p.m4a",
-    "duration": 226575,
-    "trackUrl": "https://music.apple.com/us/album/falling-in-love/1331282526?i=1331282752",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/20/0c/11/200c113b-f61c-5ee0-765b-7793d3ecae7b/8806163399973.jpg/300x300bb.jpg",
-    "trackId": "1331282752"
+    "album": "I Love You - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/25/1b/95251b62-2245-0693-e630-5821428dd66f/mzaf_12288513236714370096.plus.aac.p.m4a",
+    "duration": 237138,
+    "trackUrl": "https://music.apple.com/us/album/i-love-you/1331279619?i=1331279981",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/97/62/2c/97622c95-a666-1c13-c07e-a70b5b7f5d75/8806384535785.jpg/300x300bb.jpg",
+    "trackId": "1331279981"
   },
   {
     "id": "applemusic-1336366700",
@@ -468,6 +364,97 @@
     "trackId": "1336366709"
   },
   {
+    "id": "applemusic-1328816348",
+    "name": "Missing You",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "Missing You - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/1e/ea/a21eeaf9-b6e8-8056-f03f-4534a6878e05/mzaf_9970508907693273339.plus.aac.p.m4a",
+    "duration": 219302,
+    "trackUrl": "https://music.apple.com/us/album/missing-you/1328816347?i=1328816348",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/24/09/d3/2409d3c9-ac4b-6cf8-e5f6-f7563fe5aed1/8806163369167.jpg/300x300bb.jpg",
+    "trackId": "1328816348"
+  },
+  {
+    "id": "applemusic-1338689928",
+    "name": "Ugly",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "2NE1 2nd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b2/be/f0/b2bef07a-fa66-d223-1c63-47d47863af09/mzaf_3033246808133774647.plus.aac.p.m4a",
+    "duration": 248711,
+    "trackUrl": "https://music.apple.com/us/album/ugly/1338689900?i=1338689928",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
+    "trackId": "1338689928"
+  },
+  {
+    "id": "applemusic-1338689929",
+    "name": "Lonely",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "2NE1 2nd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/92/50/41925048-831f-9ff1-8c4c-d149d0aa4765/mzaf_6887219705739822831.plus.aac.p.m4a",
+    "duration": 209987,
+    "trackUrl": "https://music.apple.com/us/album/lonely/1338689900?i=1338689929",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
+    "trackId": "1338689929"
+  },
+  {
+    "id": "applemusic-1338689930",
+    "name": "Hate You",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "2NE1 2nd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2d/b3/19/2db319a2-ce4a-32d7-86b6-0f483893895e/mzaf_8104401392532931775.plus.aac.p.m4a",
+    "duration": 213147,
+    "trackUrl": "https://music.apple.com/us/album/hate-you/1338689900?i=1338689930",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
+    "trackId": "1338689930"
+  },
+  {
+    "id": "applemusic-1338689931",
+    "name": "Don't Cry",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "2NE1 2nd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/9f/6a/489f6af0-f486-99c4-dba1-69dc95ff5efe/mzaf_7002152683466417527.plus.aac.p.m4a",
+    "duration": 192787,
+    "trackUrl": "https://music.apple.com/us/album/dont-cry/1338689900?i=1338689931",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
+    "trackId": "1338689931"
+  },
+  {
+    "id": "applemusic-1338689932",
+    "name": "Don't Stop the Music",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "2NE1 2nd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/95/04/ec9504e3-1d89-ac05-bdb0-39824818734e/mzaf_10482975255840895074.plus.aac.p.m4a",
+    "duration": 229640,
+    "trackUrl": "https://music.apple.com/us/album/dont-stop-the-music/1338689900?i=1338689932",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/7b/18/6d7b1854-a5df-5455-5f05-a8dc624d608a/8806384556049.jpg/300x300bb.jpg",
+    "trackId": "1338689932"
+  },
+  {
+    "id": "applemusic-1331282752",
+    "name": "Falling In Love",
+    "artists": [
+      "2NE1"
+    ],
+    "album": "Falling In Love - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/28/32/3428327b-f5dd-9e1a-90dd-262feeb2d0f5/mzaf_10959639166349346632.plus.aac.p.m4a",
+    "duration": 226575,
+    "trackUrl": "https://music.apple.com/us/album/falling-in-love/1331282526?i=1331282752",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/20/0c/11/200c113b-f61c-5ee0-765b-7793d3ecae7b/8806163399973.jpg/300x300bb.jpg",
+    "trackId": "1331282752"
+  },
+  {
     "id": "applemusic-1331435802",
     "name": "Do You Love Me",
     "artists": [
@@ -481,32 +468,6 @@
     "trackId": "1331435802"
   },
   {
-    "id": "applemusic-510287592",
-    "name": "Follow Me (JP Ver.)",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "Collection",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/6c/c3/2e6cc3d9-a71a-2e6a-8042-c43161e800be/mzaf_3499315492437256856.plus.aac.p.m4a",
-    "duration": 187787,
-    "trackUrl": "https://music.apple.com/us/album/follow-me-jp-ver/510287557?i=510287592",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/10/7c/e8107c02-24b5-cb57-01ad-c9884001625c/AVCY-58036.jpg/300x300bb.jpg",
-    "trackId": "510287592"
-  },
-  {
-    "id": "applemusic-510287603",
-    "name": "Love Is Ouch (JP Ver.)",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "Collection",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/e7/0c/7ae70c8b-a086-80be-da38-9d9cc563a874/mzaf_14685690449275584943.plus.aac.p.m4a",
-    "duration": 232747,
-    "trackUrl": "https://music.apple.com/us/album/love-is-ouch-jp-ver/510287557?i=510287603",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/10/7c/e8107c02-24b5-cb57-01ad-c9884001625c/AVCY-58036.jpg/300x300bb.jpg",
-    "trackId": "510287603"
-  },
-  {
     "id": "applemusic-510287611",
     "name": "Like a Virgin",
     "artists": [
@@ -518,304 +479,5 @@
     "trackUrl": "https://music.apple.com/us/album/like-a-virgin/510287557?i=510287611",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/10/7c/e8107c02-24b5-cb57-01ad-c9884001625c/AVCY-58036.jpg/300x300bb.jpg",
     "trackId": "510287611"
-  },
-  {
-    "id": "applemusic-610329523",
-    "name": "I DON'T CARE (REGGAE MIX) - 2012 NEW EVOLUTION in Japan ver.",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2012 1st Global Tour - New Evolution In Japan (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/04/7b/96047b73-f7c6-14ff-c480-444db3642b91/mzaf_2353539394386894206.plus.aac.p.m4a",
-    "duration": 235602,
-    "trackUrl": "https://music.apple.com/us/album/i-dont-care-reggae-mix-2012-new-evolution-in-japan-ver/610329447?i=610329523",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/f3/0b/3b/f30b3b3a-3993-6af9-c51e-ddc6626521c6/AVBY-58133.jpg/300x300bb.jpg",
-    "trackId": "610329523"
-  },
-  {
-    "id": "applemusic-610329525",
-    "name": "DON'T CRY & YOU AND I by BOM (from 2NE1) - 2012 NEW EVOLUTION in Japan ver.",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2012 1st Global Tour - New Evolution In Japan (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/65/70/6f65708d-b443-30ee-7738-786bf035cbcf/mzaf_3877725111681201471.plus.aac.p.m4a",
-    "duration": 369236,
-    "trackUrl": "https://music.apple.com/us/album/dont-cry-you-and-i-by-bom-from-2ne1-2012-new/610329447?i=610329525",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/f3/0b/3b/f30b3b3a-3993-6af9-c51e-ddc6626521c6/AVBY-58133.jpg/300x300bb.jpg",
-    "trackId": "610329525"
-  },
-  {
-    "id": "applemusic-610329931",
-    "name": "PLEASE DON'T GO by CL & MINZY (from 2NE1) - 2012 NEW EVOLUTION in Japan ver.",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2012 1st Global Tour - New Evolution In Japan (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/54/22/1f5422a8-4cb7-0878-ff8f-6daa1485e9aa/mzaf_14744996316517302467.plus.aac.p.m4a",
-    "duration": 240207,
-    "trackUrl": "https://music.apple.com/us/album/please-dont-go-by-cl-minzy-from-2ne1-2012-new-evolution/610329447?i=610329931",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/f3/0b/3b/f30b3b3a-3993-6af9-c51e-ddc6626521c6/AVBY-58133.jpg/300x300bb.jpg",
-    "trackId": "610329931"
-  },
-  {
-    "id": "applemusic-610329933",
-    "name": "KISS by DARA (from 2NE1) - 2012 NEW EVOLUTION in Japan ver.",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2NE1 2012 1st Global Tour - New Evolution In Japan (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/82/d5/7282d506-df31-7d93-c6ce-9eda6403d603/mzaf_10407004083706190503.plus.aac.p.m4a",
-    "duration": 194795,
-    "trackUrl": "https://music.apple.com/us/album/kiss-by-dara-from-2ne1-2012-new-evolution-in-japan-ver/610329447?i=610329933",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/f3/0b/3b/f30b3b3a-3993-6af9-c51e-ddc6626521c6/AVBY-58133.jpg/300x300bb.jpg",
-    "trackId": "610329933"
-  },
-  {
-    "id": "applemusic-945603028",
-    "name": "CRUSH -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/8a/cf/fd8acfcd-c370-f203-a1e4-c779c0868cc9/mzaf_2322510603719107651.plus.aac.p.m4a",
-    "duration": 203570,
-    "trackUrl": "https://music.apple.com/us/album/crush-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603028",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603028"
-  },
-  {
-    "id": "applemusic-945603035",
-    "name": "FIRE -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/58/00/47/580047ee-8271-826f-3d03-94647718d8c5/mzaf_17238178180355421549.plus.aac.p.m4a",
-    "duration": 224591,
-    "trackUrl": "https://music.apple.com/us/album/fire-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603035",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603035"
-  },
-  {
-    "id": "applemusic-945603036",
-    "name": "CLAP YOUR HANDS -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a5/f6/72/a5f672e6-6546-f7ec-04c1-f14f6d778701/mzaf_3985474018515171793.plus.aac.p.m4a",
-    "duration": 263197,
-    "trackUrl": "https://music.apple.com/us/album/clap-your-hands-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603036",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603036"
-  },
-  {
-    "id": "applemusic-945603037",
-    "name": "PRETTY BOY -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/23/1c/29231cee-5043-73c7-42e4-322fd96adbfe/mzaf_16584026417170483260.plus.aac.p.m4a",
-    "duration": 210143,
-    "trackUrl": "https://music.apple.com/us/album/pretty-boy-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603037",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603037"
-  },
-  {
-    "id": "applemusic-945603038",
-    "name": "DON'T STOP THE MUSIC -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a9/63/b0/a963b0c0-32ca-91bf-4278-7af2e62f9118/mzaf_11485424106976334818.plus.aac.p.m4a",
-    "duration": 162196,
-    "trackUrl": "https://music.apple.com/us/album/dont-stop-the-music-2014-world-tour-all-or-nothing-in/945603010?i=945603038",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603038"
-  },
-  {
-    "id": "applemusic-945603039",
-    "name": "MISSING YOU -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1d/94/ea/1d94eaa8-b24b-ce6d-e915-c9d53c7ed3d0/mzaf_14573527388483449935.plus.aac.p.m4a",
-    "duration": 219319,
-    "trackUrl": "https://music.apple.com/us/album/missing-you-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603039",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603039"
-  },
-  {
-    "id": "applemusic-945603040",
-    "name": "IF I WERE YOU -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/47/53/b7/4753b778-eb9b-4365-af5f-31d07cb728ae/mzaf_2193471668434871533.plus.aac.p.m4a",
-    "duration": 218585,
-    "trackUrl": "https://music.apple.com/us/album/if-i-were-you-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603040",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603040"
-  },
-  {
-    "id": "applemusic-945603045",
-    "name": "UGLY -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e1/3b/95/e13b951f-a19e-3df1-69b7-67e15576c0ff/mzaf_9253212881579851707.plus.aac.p.m4a",
-    "duration": 232599,
-    "trackUrl": "https://music.apple.com/us/album/ugly-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603045",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603045"
-  },
-  {
-    "id": "applemusic-945603046",
-    "name": "I LOVE YOU -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/3c/9a/043c9ad7-bb5b-9778-b6bc-f27825edb6e7/mzaf_11838362977909738075.plus.aac.p.m4a",
-    "duration": 267968,
-    "trackUrl": "https://music.apple.com/us/album/i-love-you-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603046",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603046"
-  },
-  {
-    "id": "applemusic-945603047",
-    "name": "COME BACK HOME -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f6/46/9e/f6469e51-0b29-cb6c-60b5-68242d174aad/mzaf_9860278351088145511.plus.aac.p.m4a",
-    "duration": 231598,
-    "trackUrl": "https://music.apple.com/us/album/come-back-home-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603047",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603047"
-  },
-  {
-    "id": "applemusic-945603048",
-    "name": "GOTTA BE YOU -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/9b/b6/9e9bb653-97c3-1f65-233c-cbbe46cebc4f/mzaf_169454020955082502.plus.aac.p.m4a",
-    "duration": 234101,
-    "trackUrl": "https://music.apple.com/us/album/gotta-be-you-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603048",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603048"
-  },
-  {
-    "id": "applemusic-945603052",
-    "name": "DO YOU LOVE ME -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/49/a0/7a49a0e9-427a-3519-3349-87e3ded44224/mzaf_6850828890882114546.plus.aac.p.m4a",
-    "duration": 202736,
-    "trackUrl": "https://music.apple.com/us/album/do-you-love-me-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603052",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603052"
-  },
-  {
-    "id": "applemusic-945603053",
-    "name": "THE BADDEST FEMALE & MTBD (CL Solo) -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/25/86/6d25860b-3a98-bf62-23ad-6466fbbc53a2/mzaf_607323840343354056.plus.aac.p.m4a",
-    "duration": 305672,
-    "trackUrl": "https://music.apple.com/us/album/the-baddest-female-mtbd-cl-solo-2014-world-tour-all/945603010?i=945603053",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603053"
-  },
-  {
-    "id": "applemusic-945603057",
-    "name": "SCREAM -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/52/d8/6d/52d86d6b-2070-5465-0313-7398ebe7a752/mzaf_11159781705290514889.plus.aac.p.m4a",
-    "duration": 246947,
-    "trackUrl": "https://music.apple.com/us/album/scream-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603057",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603057"
-  },
-  {
-    "id": "applemusic-945603058",
-    "name": "I AM THE BEST -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3c/6b/67/3c6b6701-02d7-6680-8932-e6528e17a43e/mzaf_15829664824871568656.plus.aac.p.m4a",
-    "duration": 234101,
-    "trackUrl": "https://music.apple.com/us/album/i-am-the-best-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603058",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603058"
-  },
-  {
-    "id": "applemusic-945603059",
-    "name": "I DON'T CARE -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/9c/13/fb9c1334-65ed-e2da-386f-6d9fd6504e63/mzaf_10135417631211120727.plus.aac.p.m4a",
-    "duration": 286653,
-    "trackUrl": "https://music.apple.com/us/album/i-dont-care-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603059",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603059"
-  },
-  {
-    "id": "applemusic-945603060",
-    "name": "GO AWAY -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/13/33/a3/1333a380-878d-1462-d030-4ba7a6a39eee/mzaf_18351463836302309332.plus.aac.p.m4a",
-    "duration": 218418,
-    "trackUrl": "https://music.apple.com/us/album/go-away-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603060",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603060"
-  },
-  {
-    "id": "applemusic-945603061",
-    "name": "LONELY -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/79/ee/13/79ee139a-5b65-fedd-f803-c6081f9ba855/mzaf_12399641924280166971.plus.aac.p.m4a",
-    "duration": 231265,
-    "trackUrl": "https://music.apple.com/us/album/lonely-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603061",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603061"
-  },
-  {
-    "id": "applemusic-945603063",
-    "name": "CAN'T NOBODY -2014 WORLD TOUR ~ALL OR NOTHING~ in JAPAN Ver.-",
-    "artists": [
-      "2NE1"
-    ],
-    "album": "2014 2NE1 WORLD TOUR ~ALL OR NOTHING~ in JAPAN (Live)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/2c/06/242c06c9-62b3-8957-dc1d-761b5106519e/mzaf_15398836934115258086.plus.aac.p.m4a",
-    "duration": 283817,
-    "trackUrl": "https://music.apple.com/us/album/cant-nobody-2014-world-tour-all-or-nothing-in-japan-ver/945603010?i=945603063",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/9d/f3/b2/9df3b25f-7fed-7933-22d9-bcbe97ef89b1/ANTCD-12940.jpg/300x300bb.jpg",
-    "trackId": "945603063"
   }
 ]

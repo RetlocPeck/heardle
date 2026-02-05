@@ -247,19 +247,6 @@
     "trackId": "1811884402"
   },
   {
-    "id": "applemusic-1831161463",
-    "name": "Topping",
-    "artists": [
-      "ILLIT"
-    ],
-    "album": "Topping - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f7/d1/c0/f7d1c0c8-cca2-e4d2-fa81-aacdbba27c1b/mzaf_13250041209914240795.plus.aac.p.m4a",
-    "duration": 166640,
-    "trackUrl": "https://music.apple.com/us/album/topping/1831161459?i=1831161463",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6f/8a/6a/6f8a6a91-fa22-00b0-9195-84b215cca29f/25UM1IM01077.rgb.jpg/300x300bb.jpg",
-    "trackId": "1831161463"
-  },
-  {
     "id": "applemusic-1833184648",
     "name": "Toki Yo Tomare",
     "artists": [
@@ -273,17 +260,17 @@
     "trackId": "1833184648"
   },
   {
-    "id": "applemusic-1833184650",
-    "name": "Karitekita Neko (Do the Dance) [Japanese Ver.]",
+    "id": "applemusic-1833184649",
+    "name": "Topping",
     "artists": [
       "ILLIT"
     ],
     "album": "Toki Yo Tomare - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/31/af/bc31af29-23fa-8926-2d0d-c99e081c320d/mzaf_13921552018639761364.plus.aac.p.m4a",
-    "duration": 188640,
-    "trackUrl": "https://music.apple.com/us/album/karitekita-neko-do-the-dance-japanese-ver/1833184647?i=1833184650",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/2d/cf/ac2dcf2a-b2ca-37e2-b251-43ca9677d180/mzaf_3959038112027204117.plus.aac.p.m4a",
+    "duration": 166640,
+    "trackUrl": "https://music.apple.com/us/album/topping/1833184647?i=1833184649",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/dd/38/7add3855-6b63-424b-4617-7fdd80b30afe/25UM1IM06749.rgb.jpg/300x300bb.jpg",
-    "trackId": "1833184650"
+    "trackId": "1833184649"
   },
   {
     "id": "applemusic-1860773641",

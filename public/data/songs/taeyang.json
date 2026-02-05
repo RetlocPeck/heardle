@@ -130,19 +130,6 @@
     "trackId": "1271987711"
   },
   {
-    "id": "applemusic-1345850751",
-    "name": "Intro (HOT)",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Hot - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/d9/40/fad9408a-c916-74d6-dd20-53e3e0824852/mzaf_14949748503137844774.plus.aac.p.m4a",
-    "duration": 89507,
-    "trackUrl": "https://music.apple.com/us/album/intro-hot/1345850307?i=1345850751",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c3/c5/89/c3c58914-7430-8e79-0d73-46dd94c49303/editedit_59568488_1401961567226_1_600x600.jpg/300x300bb.jpg",
-    "trackId": "1345850751"
-  },
-  {
     "id": "applemusic-1317322831",
     "name": "Eyes, Nose, Lips",
     "artists": [
@@ -312,147 +299,30 @@
     "trackId": "1682582674"
   },
   {
-    "id": "applemusic-1345820260",
-    "name": "Solar (Intro)",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4a/22/1c/4a221cde-8130-76e9-7539-b7c375957939/mzaf_7246435562529059854.plus.aac.p.m4a",
-    "duration": 57027,
-    "trackUrl": "https://music.apple.com/us/album/solar-intro/1345819924?i=1345820260",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820260"
-  },
-  {
-    "id": "applemusic-1345820265",
+    "id": "applemusic-1345362021",
     "name": "Superstar",
     "artists": [
       "TAEYANG"
     ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/14/4c/9d/144c9d2b-546e-8e7e-5ee5-3ab46e45593d/mzaf_14635989746482187453.plus.aac.p.m4a",
-    "duration": 194587,
-    "trackUrl": "https://music.apple.com/us/album/superstar/1345819924?i=1345820265",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820265"
-  },
-  {
-    "id": "applemusic-1345820268",
-    "name": "Prayer (feat. Teddy)",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/eb/e4/9e/ebe49ea1-ae5f-44c7-eac9-2df518a22e16/mzaf_11549399474132174361.plus.aac.p.m4a",
-    "duration": 221587,
-    "trackUrl": "https://music.apple.com/us/album/prayer-feat-teddy/1345819924?i=1345820268",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820268"
-  },
-  {
-    "id": "applemusic-1345820286",
-    "name": "I'll Be There (Korean Version)",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/b5/55/0cb555e9-c99c-6749-0dc0-77a69893616c/mzaf_14592839796945240680.plus.aac.p.m4a",
-    "duration": 195800,
-    "trackUrl": "https://music.apple.com/us/album/ill-be-there-korean-version/1345819924?i=1345820286",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820286"
-  },
-  {
-    "id": "applemusic-1345362029",
-    "name": "Wedding Dress",
-    "artists": [
-      "TAEYANG"
-    ],
     "album": "Solar",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0f/c7/89/0fc78963-f2b5-d1eb-97a5-ec614665feee/mzaf_6939451434371227722.plus.aac.p.m4a",
-    "duration": 242747,
-    "trackUrl": "https://music.apple.com/us/album/wedding-dress/1345362019?i=1345362029",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0d/e3/59/0de359bc-8fd7-3756-8722-c464eb290611/mzaf_3990680913716794141.plus.aac.p.m4a",
+    "duration": 194587,
+    "trackUrl": "https://music.apple.com/us/album/superstar/1345362019?i=1345362021",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
-    "trackId": "1345362029"
+    "trackId": "1345362021"
   },
   {
-    "id": "applemusic-1345820279",
-    "name": "Connection (English Version) [feat. Bigtone]",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/af/c7/2aafc732-6e31-ed64-0ce1-996d3e9e21a5/mzaf_13884476486528762031.plus.aac.p.m4a",
-    "duration": 212053,
-    "trackUrl": "https://music.apple.com/us/album/connection-english-version-feat-bigtone/1345819924?i=1345820279",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820279"
-  },
-  {
-    "id": "applemusic-1345820281",
-    "name": "Move (feat. Teddy)",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f8/41/6d/f8416dd0-25ef-2802-c0ca-fcf59b150def/mzaf_6950981000428346000.plus.aac.p.m4a",
-    "duration": 233333,
-    "trackUrl": "https://music.apple.com/us/album/move-feat-teddy/1345819924?i=1345820281",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820281"
-  },
-  {
-    "id": "applemusic-1345820282",
-    "name": "Where U At",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d3/5e/8e/d35e8e22-66c5-90c5-ac82-c6eb9b672600/mzaf_16776807500466549274.plus.aac.p.m4a",
-    "duration": 229373,
-    "trackUrl": "https://music.apple.com/us/album/where-u-at/1345819924?i=1345820282",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820282"
-  },
-  {
-    "id": "applemusic-1345820283",
+    "id": "applemusic-1345362022",
     "name": "I Need a Girl (feat. G-DRAGON)",
     "artists": [
       "TAEYANG"
     ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/b9/da/29b9da1e-a098-ac40-cab4-e0b634ad0a2a/mzaf_9568060228956954225.plus.aac.p.m4a",
-    "duration": 220133,
-    "trackUrl": "https://music.apple.com/us/album/i-need-a-girl-feat-g-dragon/1345819924?i=1345820283",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820283"
-  },
-  {
-    "id": "applemusic-1345820284",
-    "name": "Only Look At Me",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3f/c4/aa/3fc4aa94-1235-7d65-977c-6124e240dce5/mzaf_10702393115053917071.plus.aac.p.m4a",
-    "duration": 240920,
-    "trackUrl": "https://music.apple.com/us/album/only-look-at-me/1345819924?i=1345820284",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820284"
-  },
-  {
-    "id": "applemusic-1345820285",
-    "name": "Take It Slow",
-    "artists": [
-      "TAEYANG"
-    ],
-    "album": "Solar International",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/42/5e/dc/425edcc3-859e-1336-9b75-9e7c2369ec7e/mzaf_2102230065944856586.plus.aac.p.m4a",
-    "duration": 262773,
-    "trackUrl": "https://music.apple.com/us/album/take-it-slow/1345819924?i=1345820285",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
-    "trackId": "1345820285"
+    "album": "Solar",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/78/b9/a0/78b9a07d-0748-20f3-2cb0-6c4e942c6514/mzaf_7277097963612169587.plus.aac.p.m4a",
+    "duration": 219307,
+    "trackUrl": "https://music.apple.com/us/album/i-need-a-girl-feat-g-dragon/1345362019?i=1345362022",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
+    "trackId": "1345362022"
   },
   {
     "id": "applemusic-1345362023",
@@ -481,6 +351,19 @@
     "trackId": "1345362024"
   },
   {
+    "id": "applemusic-1345362025",
+    "name": "Move (feat. TEDDY)",
+    "artists": [
+      "TAEYANG"
+    ],
+    "album": "Solar",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bd/e0/83/bde08343-aa85-83cf-f426-1c03184128b8/mzaf_13444472810675828491.plus.aac.p.m4a",
+    "duration": 232333,
+    "trackUrl": "https://music.apple.com/us/album/move-feat-teddy/1345362019?i=1345362025",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
+    "trackId": "1345362025"
+  },
+  {
     "id": "applemusic-1345362026",
     "name": "Break Down",
     "artists": [
@@ -505,6 +388,71 @@
     "trackUrl": "https://music.apple.com/us/album/after-you-sleep-feat-swings/1345362019?i=1345362027",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
     "trackId": "1345362027"
+  },
+  {
+    "id": "applemusic-1345362028",
+    "name": "Where U At",
+    "artists": [
+      "TAEYANG"
+    ],
+    "album": "Solar",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/69/3c/5d/693c5ddd-f9aa-ac7b-e4c7-17b14f4a135b/mzaf_6380706476894618295.plus.aac.p.m4a",
+    "duration": 229373,
+    "trackUrl": "https://music.apple.com/us/album/where-u-at/1345362019?i=1345362028",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
+    "trackId": "1345362028"
+  },
+  {
+    "id": "applemusic-1345362029",
+    "name": "Wedding Dress",
+    "artists": [
+      "TAEYANG"
+    ],
+    "album": "Solar",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0f/c7/89/0fc78963-f2b5-d1eb-97a5-ec614665feee/mzaf_6939451434371227722.plus.aac.p.m4a",
+    "duration": 242747,
+    "trackUrl": "https://music.apple.com/us/album/wedding-dress/1345362019?i=1345362029",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
+    "trackId": "1345362029"
+  },
+  {
+    "id": "applemusic-1345362030",
+    "name": "Take It Slow",
+    "artists": [
+      "TAEYANG"
+    ],
+    "album": "Solar",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/7b/38/307b38a2-d9d9-0275-c230-f4031d967b7e/mzaf_1689946215620284646.plus.aac.p.m4a",
+    "duration": 260773,
+    "trackUrl": "https://music.apple.com/us/album/take-it-slow/1345362019?i=1345362030",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/49/cf/c9/49cfc92a-4f0d-07f3-6905-bffad7849451/edit_Taeyang_-_Solar.jpg/300x300bb.jpg",
+    "trackId": "1345362030"
+  },
+  {
+    "id": "applemusic-1345820268",
+    "name": "Prayer (feat. Teddy)",
+    "artists": [
+      "TAEYANG"
+    ],
+    "album": "Solar International",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/eb/e4/9e/ebe49ea1-ae5f-44c7-eac9-2df518a22e16/mzaf_11549399474132174361.plus.aac.p.m4a",
+    "duration": 221587,
+    "trackUrl": "https://music.apple.com/us/album/prayer-feat-teddy/1345819924?i=1345820268",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
+    "trackId": "1345820268"
+  },
+  {
+    "id": "applemusic-1345820284",
+    "name": "Only Look At Me",
+    "artists": [
+      "TAEYANG"
+    ],
+    "album": "Solar International",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3f/c4/aa/3fc4aa94-1235-7d65-977c-6124e240dce5/mzaf_10702393115053917071.plus.aac.p.m4a",
+    "duration": 240920,
+    "trackUrl": "https://music.apple.com/us/album/only-look-at-me/1345819924?i=1345820284",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/b9/56/3db95640-a9ba-e0df-0bf1-7379597414c8/edit_Taeyang_-_Solar_International.jpg/300x300bb.jpg",
+    "trackId": "1345820284"
   },
   {
     "id": "applemusic-1809914558",
@@ -585,19 +533,6 @@
     "trackId": "947778019"
   },
   {
-    "id": "applemusic-886500211",
-    "name": "STAY WITH ME FEAT. G-DRAGON (from BIGBANG)",
-    "artists": [
-      "SOL (from BIGBANG)"
-    ],
-    "album": "RISE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/12/81/fa1281ee-8d2d-84bf-7813-9e1895c29dec/mzaf_1444224132980423179.plus.aac.p.m4a",
-    "duration": 202702,
-    "trackUrl": "https://music.apple.com/jp/album/stay-with-me-feat-g-dragon-from-bigbang/886500188?i=886500211",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/02/a4/9802a4ac-9331-c581-c9a0-d472baf21c6a/ANTCD-11829.jpg/300x300bb.jpg",
-    "trackId": "886500211"
-  },
-  {
     "id": "applemusic-1273012604",
     "name": "TONIGHT feat. ZICO",
     "artists": [
@@ -609,6 +544,19 @@
     "trackUrl": "https://music.apple.com/jp/album/tonight-feat-zico/1273012201?i=1273012604",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/c9/85/88/c98588b7-1e63-5de2-8259-70a5b404198e/ANTCD-24545.jpg/300x300bb.jpg",
     "trackId": "1273012604"
+  },
+  {
+    "id": "applemusic-886500211",
+    "name": "STAY WITH ME FEAT. G-DRAGON (from BIGBANG)",
+    "artists": [
+      "SOL (from BIGBANG)"
+    ],
+    "album": "RISE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fa/12/81/fa1281ee-8d2d-84bf-7813-9e1895c29dec/mzaf_1444224132980423179.plus.aac.p.m4a",
+    "duration": 202702,
+    "trackUrl": "https://music.apple.com/jp/album/stay-with-me-feat-g-dragon-from-bigbang/886500188?i=886500211",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/98/02/a4/9802a4ac-9331-c581-c9a0-d472baf21c6a/ANTCD-11829.jpg/300x300bb.jpg",
+    "trackId": "886500211"
   },
   {
     "id": "applemusic-1327192238",

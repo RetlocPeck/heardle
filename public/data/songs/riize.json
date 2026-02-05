@@ -286,19 +286,6 @@
     "trackId": "1742276112"
   },
   {
-    "id": "applemusic-1749589154",
-    "name": "Boom Boom Bass",
-    "artists": [
-      "RIIZE"
-    ],
-    "album": "RIIZING - The 1st Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/e2/06/01e20685-e5ca-adea-3e2f-e6f398d621f9/mzaf_16034371568655553441.plus.aac.p.m4a",
-    "duration": 152890,
-    "trackUrl": "https://music.apple.com/us/album/boom-boom-bass/1749589149?i=1749589154",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/3d/5d/253d5dd8-95fe-4d8d-20bc-969854a3bc9b/888735948015.jpg/300x300bb.jpg",
-    "trackId": "1749589154"
-  },
-  {
     "id": "applemusic-1787328075",
     "name": "Hug",
     "artists": [
@@ -310,6 +297,19 @@
     "trackUrl": "https://music.apple.com/us/album/hug/1787328074?i=1787328075",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/27/ac/4127ac96-1c35-c861-32eb-b75349eae330/888735951169.png/300x300bb.jpg",
     "trackId": "1787328075"
+  },
+  {
+    "id": "applemusic-1749589154",
+    "name": "Boom Boom Bass",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "RIIZING - The 1st Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/e2/06/01e20685-e5ca-adea-3e2f-e6f398d621f9/mzaf_16034371568655553441.plus.aac.p.m4a",
+    "duration": 152890,
+    "trackUrl": "https://music.apple.com/us/album/boom-boom-bass/1749589149?i=1749589154",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/25/3d/5d/253d5dd8-95fe-4d8d-20bc-969854a3bc9b/888735948015.jpg/300x300bb.jpg",
+    "trackId": "1749589154"
   },
   {
     "id": "applemusic-1764373567",

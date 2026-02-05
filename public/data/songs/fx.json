@@ -468,136 +468,6 @@
     "trackId": "905856956"
   },
   {
-    "id": "applemusic-1017693589",
-    "name": "Pinocchio",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Summer Special Pinocchio / Hot Summer - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/78/8a/90788afa-9dc2-af0a-656b-52bca4e61014/mzaf_17880702547560532438.plus.aac.p.m4a",
-    "duration": 190360,
-    "trackUrl": "https://music.apple.com/us/album/pinocchio/1017693587?i=1017693589",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/a8/92/5f/a8925fe8-2eee-b65c-9e18-527b17f5c597/AVCK-79271.jpg/300x300bb.jpg",
-    "trackId": "1017693589"
-  },
-  {
-    "id": "applemusic-854892536",
-    "name": "Sweet Witches",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/9e/c8/bd9ec8d7-e5fc-0144-07fc-06fd26505472/mzaf_309386796901221264.plus.aac.p.m4a",
-    "duration": 207400,
-    "trackUrl": "https://music.apple.com/us/album/sweet-witches/854892507?i=854892536",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892536"
-  },
-  {
-    "id": "applemusic-854892539",
-    "name": "Dangerous",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/7c/45/827c45a1-c138-1f7c-2e85-cd3f3087e4de/mzaf_16430474734059390408.plus.aac.p.m4a",
-    "duration": 193921,
-    "trackUrl": "https://music.apple.com/us/album/dangerous/854892507?i=854892539",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892539"
-  },
-  {
-    "id": "applemusic-854892541",
-    "name": "Beautiful Goodbye",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b3/85/9f/b3859f4c-ea31-f399-eb76-de3da606bd24/mzaf_14671759197954105723.plus.aac.p.m4a",
-    "duration": 245696,
-    "trackUrl": "https://music.apple.com/us/album/beautiful-goodbye/854892507?i=854892541",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892541"
-  },
-  {
-    "id": "applemusic-854892544",
-    "name": "Gangsta Boy",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b1/ce/dd/b1cedd99-dbf6-9c3e-7028-aa520ca07da3/mzaf_12450635488093219196.plus.aac.p.m4a",
-    "duration": 187939,
-    "trackUrl": "https://music.apple.com/us/album/gangsta-boy/854892507?i=854892544",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892544"
-  },
-  {
-    "id": "applemusic-854892546",
-    "name": "Love",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/83/60/698360cb-20d2-a3ef-929e-32ccf65784b3/mzaf_13790479094996739331.plus.aac.p.m4a",
-    "duration": 193973,
-    "trackUrl": "https://music.apple.com/us/album/love/854892507?i=854892546",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892546"
-  },
-  {
-    "id": "applemusic-854892548",
-    "name": "Stand Up!",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c3/83/58/c3835879-373f-691d-4ce6-b7f9724fe496/mzaf_14871065711459368800.plus.aac.p.m4a",
-    "duration": 234515,
-    "trackUrl": "https://music.apple.com/us/album/stand-up/854892507?i=854892548",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892548"
-  },
-  {
-    "id": "applemusic-854892551",
-    "name": "My Style",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0f/74/b2/0f74b202-cb41-cc68-c089-ca32529f206a/mzaf_5369084555205515316.plus.aac.p.m4a",
-    "duration": 220540,
-    "trackUrl": "https://music.apple.com/us/album/my-style/854892507?i=854892551",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892551"
-  },
-  {
-    "id": "applemusic-854892553",
-    "name": "So Into U",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/94/7d/07947d4c-5f2d-78e1-4fec-ab557d22fd04/mzaf_10060683521698074527.plus.aac.p.m4a",
-    "duration": 213931,
-    "trackUrl": "https://music.apple.com/us/album/so-into-u/854892507?i=854892553",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892553"
-  },
-  {
-    "id": "applemusic-854892556",
-    "name": "Lollipop (feat. Shinee)",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Pinocchio - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4e/16/4b/4e164ba4-c77f-987b-1326-34d75b6505a8/mzaf_1027476174482512129.plus.aac.p.m4a",
-    "duration": 190604,
-    "trackUrl": "https://music.apple.com/us/album/lollipop-feat-shinee/854892507?i=854892556",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/e3/00/b6/e300b69b-da35-47c5-2dbd-84713ac9b209/asset.jpg/300x300bb.jpg",
-    "trackId": "854892556"
-  },
-  {
     "id": "applemusic-1078549616",
     "name": "LA chA TA",
     "artists": [
@@ -609,19 +479,6 @@
     "trackUrl": "https://music.apple.com/us/album/la-cha-ta/1078549610?i=1078549616",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/3e/28/ba/3e28ba29-18db-955f-cf6c-7be6d7b15728/f_x_LA_chA_TA.jpg/300x300bb.jpg",
     "trackId": "1078549616"
-  },
-  {
-    "id": "applemusic-854892830",
-    "name": "Hot Summer",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "Hot Summer",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ff/dd/5d/ffdd5dd7-46ae-855d-0712-e82e94cb3610/mzaf_9942619231494113460.plus.aac.p.m4a",
-    "duration": 223831,
-    "trackUrl": "https://music.apple.com/us/album/hot-summer/854892762?i=854892830",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
-    "trackId": "854892830"
   },
   {
     "id": "applemusic-854917495",
@@ -702,6 +559,149 @@
     "trackId": "854917533"
   },
   {
+    "id": "applemusic-854892830",
+    "name": "Hot Summer",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ff/dd/5d/ffdd5dd7-46ae-855d-0712-e82e94cb3610/mzaf_9942619231494113460.plus.aac.p.m4a",
+    "duration": 223831,
+    "trackUrl": "https://music.apple.com/us/album/hot-summer/854892762?i=854892830",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892830"
+  },
+  {
+    "id": "applemusic-1017693589",
+    "name": "Pinocchio",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Summer Special Pinocchio / Hot Summer - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/78/8a/90788afa-9dc2-af0a-656b-52bca4e61014/mzaf_17880702547560532438.plus.aac.p.m4a",
+    "duration": 190360,
+    "trackUrl": "https://music.apple.com/us/album/pinocchio/1017693587?i=1017693589",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/a8/92/5f/a8925fe8-2eee-b65c-9e18-527b17f5c597/AVCK-79271.jpg/300x300bb.jpg",
+    "trackId": "1017693589"
+  },
+  {
+    "id": "applemusic-854892832",
+    "name": "Sweet Witches",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/dc/b5/62/dcb5629b-9f9a-6717-35fd-01ff70c8d798/mzaf_17421539403490743336.plus.aac.p.m4a",
+    "duration": 207400,
+    "trackUrl": "https://music.apple.com/us/album/sweet-witches/854892762?i=854892832",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892832"
+  },
+  {
+    "id": "applemusic-854892835",
+    "name": "Dangerous",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/85/6e/32/856e320e-9b54-6c81-c615-c15feb78b201/mzaf_5735609614792794557.plus.aac.p.m4a",
+    "duration": 193921,
+    "trackUrl": "https://music.apple.com/us/album/dangerous/854892762?i=854892835",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892835"
+  },
+  {
+    "id": "applemusic-854892836",
+    "name": "Beautiful Goodbye",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4f/8e/d7/4f8ed760-b8d3-ab85-def0-e9e7e3731450/mzaf_889416417401890973.plus.aac.p.m4a",
+    "duration": 245696,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-goodbye/854892762?i=854892836",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892836"
+  },
+  {
+    "id": "applemusic-854892837",
+    "name": "Gangsta Boy",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/54/13/25/541325f8-9099-ed34-5d8f-1c5f1906f6fb/mzaf_15817970734150706922.plus.aac.p.m4a",
+    "duration": 187939,
+    "trackUrl": "https://music.apple.com/us/album/gangsta-boy/854892762?i=854892837",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892837"
+  },
+  {
+    "id": "applemusic-854892838",
+    "name": "Love",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e3/47/b2/e347b20e-c5ec-0445-f2fb-0bfcbaeca0cd/mzaf_17482800604030588391.plus.aac.p.m4a",
+    "duration": 193973,
+    "trackUrl": "https://music.apple.com/us/album/love/854892762?i=854892838",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892838"
+  },
+  {
+    "id": "applemusic-854892840",
+    "name": "Stand Up!",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0d/92/b1/0d92b19a-ebca-7ff3-4a4c-acc3bdf379d1/mzaf_7161511939853183666.plus.aac.p.m4a",
+    "duration": 234515,
+    "trackUrl": "https://music.apple.com/us/album/stand-up/854892762?i=854892840",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892840"
+  },
+  {
+    "id": "applemusic-854892841",
+    "name": "My Style",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/70/b3/a4/70b3a4cc-630a-e39e-c5eb-16e4c549eac2/mzaf_12361129978339428205.plus.aac.p.m4a",
+    "duration": 220540,
+    "trackUrl": "https://music.apple.com/us/album/my-style/854892762?i=854892841",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892841"
+  },
+  {
+    "id": "applemusic-854892842",
+    "name": "So Into U",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4f/dd/dd/4fdddd05-49d2-6e54-d7e8-c28dcd26992c/mzaf_13004004200052992991.plus.aac.p.m4a",
+    "duration": 213931,
+    "trackUrl": "https://music.apple.com/us/album/so-into-u/854892762?i=854892842",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892842"
+  },
+  {
+    "id": "applemusic-854892844",
+    "name": "Lollipop (feat. SHINee)",
+    "artists": [
+      "f(x)"
+    ],
+    "album": "Hot Summer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f7/d9/b0/f7d9b0d7-caaa-f6d5-87aa-42e2c1f51176/mzaf_6034966527478747091.plus.aac.p.m4a",
+    "duration": 190604,
+    "trackUrl": "https://music.apple.com/us/album/lollipop-feat-shinee/854892762?i=854892844",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/16/53/05/165305c5-1b91-4fec-47cd-e8683c168115/asset.jpg/300x300bb.jpg",
+    "trackId": "854892844"
+  },
+  {
     "id": "applemusic-1136507249",
     "name": "All Mine",
     "artists": [
@@ -739,19 +739,6 @@
     "trackUrl": "https://music.apple.com/us/album/you-are-my-destiny-sung-by-f-luna-krystal/1077728802?i=1077728808",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/8b/16/a2/8b16a266-f31c-d736-da2c-14e0e545e7db/dfsfdschu.jpg/300x300bb.jpg",
     "trackId": "1077728808"
-  },
-  {
-    "id": "applemusic-1164370459",
-    "name": "Cowboy (JP version)",
-    "artists": [
-      "f(x)"
-    ],
-    "album": "4 Walls / Cowboy - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a1/db/71/a1db71a7-bdca-26b1-0030-85999c5d03d6/mzaf_3048532602640750164.plus.aac.p.m4a",
-    "duration": 201987,
-    "trackUrl": "https://music.apple.com/us/album/cowboy-jp-version/1164370401?i=1164370459",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/c3/16/fdc3161f-8a9a-b67d-fab0-b4f328edf7aa/AVCK-79347.jpg/300x300bb.jpg",
-    "trackId": "1164370459"
   },
   {
     "id": "applemusic-1754659688",

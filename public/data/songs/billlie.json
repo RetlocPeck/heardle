@@ -52,84 +52,6 @@
     "trackId": "1788004247"
   },
   {
-    "id": "applemusic-1787820496",
-    "name": "RING X RING",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception : chapter one - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/82/48/df824836-8367-d882-01b8-2c294be0f2f8/mzaf_10886307555785608088.plus.aac.p.m4a",
-    "duration": 200933,
-    "trackUrl": "https://music.apple.com/us/album/ring-x-ring/1787820495?i=1787820496",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
-    "trackId": "1787820496"
-  },
-  {
-    "id": "applemusic-1787820497",
-    "name": "flipp!ng a coin",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception : chapter one - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/d3/0b/a4d30b8a-3a39-0468-c3b7-a9705e964b20/mzaf_6816758441382326504.plus.aac.p.m4a",
-    "duration": 195053,
-    "trackUrl": "https://music.apple.com/us/album/flipp-ng-a-coin/1787820495?i=1787820497",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
-    "trackId": "1787820497"
-  },
-  {
-    "id": "applemusic-1787820498",
-    "name": "FLOWERLD",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception : chapter one - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/70/89/14708936-d460-bdb2-fb4b-8f960bde35fd/mzaf_16810355674986058908.plus.aac.p.m4a",
-    "duration": 203373,
-    "trackUrl": "https://music.apple.com/us/album/flowerld/1787820495?i=1787820498",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
-    "trackId": "1787820498"
-  },
-  {
-    "id": "applemusic-1787820649",
-    "name": "the eleventh day",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception : chapter one - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/17/59/77175915-aa7b-68da-9bcc-f5917f47e1af/mzaf_8367102562821950184.plus.aac.p.m4a",
-    "duration": 211653,
-    "trackUrl": "https://music.apple.com/us/album/the-eleventh-day/1787820495?i=1787820649",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
-    "trackId": "1787820649"
-  },
-  {
-    "id": "applemusic-1787820650",
-    "name": "everybody's got a $ECRET",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception : chapter one - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/44/b3/4344b344-1232-6d30-cec4-9c8649832a75/mzaf_14159287154350285918.plus.aac.p.m4a",
-    "duration": 182907,
-    "trackUrl": "https://music.apple.com/us/album/everybodys-got-a-%24ecret/1787820495?i=1787820650",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
-    "trackId": "1787820650"
-  },
-  {
-    "id": "applemusic-1787820651",
-    "name": "the rumor",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception : chapter one - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/2b/3b/9d2b3b4e-d52e-ffe1-ea1c-6f5f1e805b0e/mzaf_4449190567281337962.plus.aac.p.m4a",
-    "duration": 170467,
-    "trackUrl": "https://music.apple.com/us/album/the-rumor/1787820495?i=1787820651",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
-    "trackId": "1787820651"
-  },
-  {
     "id": "applemusic-1787519880",
     "name": "enchanted night ~ white night",
     "artists": [
@@ -206,6 +128,84 @@
     "trackUrl": "https://music.apple.com/us/album/nevertheless/1787519876?i=1787519888",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
     "trackId": "1787519888"
+  },
+  {
+    "id": "applemusic-1787820496",
+    "name": "RING X RING",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception : chapter one - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/82/48/df824836-8367-d882-01b8-2c294be0f2f8/mzaf_10886307555785608088.plus.aac.p.m4a",
+    "duration": 200933,
+    "trackUrl": "https://music.apple.com/us/album/ring-x-ring/1787820495?i=1787820496",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
+    "trackId": "1787820496"
+  },
+  {
+    "id": "applemusic-1787820497",
+    "name": "flipp!ng a coin",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception : chapter one - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/d3/0b/a4d30b8a-3a39-0468-c3b7-a9705e964b20/mzaf_6816758441382326504.plus.aac.p.m4a",
+    "duration": 195053,
+    "trackUrl": "https://music.apple.com/us/album/flipp-ng-a-coin/1787820495?i=1787820497",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
+    "trackId": "1787820497"
+  },
+  {
+    "id": "applemusic-1787820498",
+    "name": "FLOWERLD",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception : chapter one - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/14/70/89/14708936-d460-bdb2-fb4b-8f960bde35fd/mzaf_16810355674986058908.plus.aac.p.m4a",
+    "duration": 203373,
+    "trackUrl": "https://music.apple.com/us/album/flowerld/1787820495?i=1787820498",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
+    "trackId": "1787820498"
+  },
+  {
+    "id": "applemusic-1787820649",
+    "name": "the eleventh day",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception : chapter one - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/17/59/77175915-aa7b-68da-9bcc-f5917f47e1af/mzaf_8367102562821950184.plus.aac.p.m4a",
+    "duration": 211653,
+    "trackUrl": "https://music.apple.com/us/album/the-eleventh-day/1787820495?i=1787820649",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
+    "trackId": "1787820649"
+  },
+  {
+    "id": "applemusic-1787820650",
+    "name": "everybody's got a $ECRET",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception : chapter one - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/44/b3/4344b344-1232-6d30-cec4-9c8649832a75/mzaf_14159287154350285918.plus.aac.p.m4a",
+    "duration": 182907,
+    "trackUrl": "https://music.apple.com/us/album/everybodys-got-a-%24ecret/1787820495?i=1787820650",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
+    "trackId": "1787820650"
+  },
+  {
+    "id": "applemusic-1787820651",
+    "name": "the rumor",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception : chapter one - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9d/2b/3b/9d2b3b4e-d52e-ffe1-ea1c-6f5f1e805b0e/mzaf_4449190567281337962.plus.aac.p.m4a",
+    "duration": 170467,
+    "trackUrl": "https://music.apple.com/us/album/the-rumor/1787820495?i=1787820651",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/1b/7f/261b7f9d-df08-90f7-5c94-2b4ce15c269c/8804775223433.jpg/300x300bb.jpg",
+    "trackId": "1787820651"
   },
   {
     "id": "applemusic-1787530001",
@@ -518,71 +518,6 @@
     "trackUrl": "https://music.apple.com/us/album/welcome-to-the-strange-world-ggmgy/1787528741?i=1787528750",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6d/06/33/6d0633cd-0ac6-a365-cfc3-e50ceedde5d2/8804775247583.jpg/300x300bb.jpg",
     "trackId": "1787528750"
-  },
-  {
-    "id": "applemusic-1684192625",
-    "name": "GingaMingaYo (The Strange World) - Japanese Ver. -",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "GingaMingaYo (The Strange World) - Japanese Ver. - - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a3/5c/a2/a35ca291-3adf-c17b-216c-f9534de22b6a/mzaf_8833238746866201113.plus.aac.p.m4a",
-    "duration": 217267,
-    "trackUrl": "https://music.apple.com/us/album/gingamingayo-the-strange-world-japanese-ver/1684192624?i=1684192625",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/85/9f/7d/859f7d60-f595-87c0-8962-efca89854800/VICL-37676.jpg/300x300bb.jpg",
-    "trackId": "1684192625"
-  },
-  {
-    "id": "applemusic-1726858401",
-    "name": "Domino ~ Butterfly Effect - Japanese Ver. -",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "Knock-on Effect - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/9c/99/6b9c9916-10ac-e440-2890-7ce5b33b1b29/mzaf_7302795473865095316.plus.aac.p.m4a",
-    "duration": 179867,
-    "trackUrl": "https://music.apple.com/us/album/domino-butterfly-effect-japanese-ver/1726858400?i=1726858401",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
-    "trackId": "1726858401"
-  },
-  {
-    "id": "applemusic-1726858402",
-    "name": "Dang! (Hocus Pocus) - Japanese Ver. -",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "Knock-on Effect - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/c3/36/26c3365e-0040-fb26-1cc7-8b5d1551a4bc/mzaf_11937109445439671301.plus.aac.p.m4a",
-    "duration": 185800,
-    "trackUrl": "https://music.apple.com/us/album/dang-hocus-pocus-japanese-ver/1726858400?i=1726858402",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
-    "trackId": "1726858402"
-  },
-  {
-    "id": "applemusic-1726858410",
-    "name": "BYOB (Bring Your Own Best Friend) - Japanese Ver. -",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "Knock-on Effect - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/ae/6d/42ae6dfb-357d-5cc0-c3b3-210c1248ff79/mzaf_5138570870124654974.plus.aac.p.m4a",
-    "duration": 159400,
-    "trackUrl": "https://music.apple.com/us/album/byob-bring-your-own-best-friend-japanese-ver/1726858400?i=1726858410",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
-    "trackId": "1726858410"
-  },
-  {
-    "id": "applemusic-1726858411",
-    "name": "RING ma Bell (What a Wonderful World) - Japanese Ver. -",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "Knock-on Effect - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/b6/4d/a9b64d6b-deba-5e48-e222-8b288057514d/mzaf_4160527618625151441.plus.aac.p.m4a",
-    "duration": 206133,
-    "trackUrl": "https://music.apple.com/us/album/ring-ma-bell-what-a-wonderful-world-japanese-ver/1726858400?i=1726858411",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
-    "trackId": "1726858411"
   },
   {
     "id": "applemusic-1787522443",

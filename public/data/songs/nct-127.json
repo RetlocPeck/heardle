@@ -13,17 +13,17 @@
     "trackId": "1470501093"
   },
   {
-    "id": "applemusic-1358690825",
-    "name": "INTRO: Neo Got My Back",
+    "id": "applemusic-1451737864",
+    "name": "Let's Shut Up & Dance",
     "artists": [
-      "NCT U"
+      "Jason Derulo, LAY & NCT 127"
     ],
-    "album": "NCT 2018 EMPATHY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/15/74/16/1574168c-2a9b-d021-f980-c4077b37f38d/mzaf_9447749054667831089.plus.aac.p.m4a",
-    "duration": 117326,
-    "trackUrl": "https://music.apple.com/us/album/intro-neo-got-my-back/1358690306?i=1358690825",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/3c/67/4b3c67ba-2721-19ce-424d-6742f420e800/NCT2018_EMPATHY_COVER_4000x4000px_1.jpg/300x300bb.jpg",
-    "trackId": "1358690825"
+    "album": "Let's Shut Up & Dance - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/75/e3/fb75e3c0-fd9f-31dc-24e3-a67e614c1ea1/mzaf_14992532953090345355.plus.aac.p.m4a",
+    "duration": 208261,
+    "trackUrl": "https://music.apple.com/us/album/lets-shut-up-dance/1451737750?i=1451737864",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/bb/31/06bb31cf-289e-6938-f116-a4b6e58c4461/190296908903.jpg/300x300bb.jpg",
+    "trackId": "1451737864"
   },
   {
     "id": "applemusic-1358690826",
@@ -141,45 +141,6 @@
     "trackUrl": "https://music.apple.com/us/album/dream-in-a-dream/1358690306?i=1358690958",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/3c/67/4b3c67ba-2721-19ce-424d-6742f420e800/NCT2018_EMPATHY_COVER_4000x4000px_1.jpg/300x300bb.jpg",
     "trackId": "1358690958"
-  },
-  {
-    "id": "applemusic-1358690959",
-    "name": "OUTRO: VISION",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT 2018 EMPATHY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/88/65/da/8865da07-8292-a232-41c6-84dc671d9dce/mzaf_10253240731299722501.plus.aac.p.m4a",
-    "duration": 57474,
-    "trackUrl": "https://music.apple.com/us/album/outro-vision/1358690306?i=1358690959",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4b/3c/67/4b3c67ba-2721-19ce-424d-6742f420e800/NCT2018_EMPATHY_COVER_4000x4000px_1.jpg/300x300bb.jpg",
-    "trackId": "1358690959"
-  },
-  {
-    "id": "applemusic-1451737864",
-    "name": "Let's Shut Up & Dance",
-    "artists": [
-      "Jason Derulo, LAY & NCT 127"
-    ],
-    "album": "Let's Shut Up & Dance - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/75/e3/fb75e3c0-fd9f-31dc-24e3-a67e614c1ea1/mzaf_14992532953090345355.plus.aac.p.m4a",
-    "duration": 208261,
-    "trackUrl": "https://music.apple.com/us/album/lets-shut-up-dance/1451737750?i=1451737864",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/06/bb/31/06bb31cf-289e-6938-f116-a4b6e58c4461/190296908903.jpg/300x300bb.jpg",
-    "trackId": "1451737864"
-  },
-  {
-    "id": "applemusic-1767964920",
-    "name": "Highway to Heaven",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/9f/cc/f99fcc15-475c-d1ad-b407-e4cc6e5e12e8/mzaf_2987467598568917535.plus.aac.p.m4a",
-    "duration": 200573,
-    "trackUrl": "https://music.apple.com/us/album/highway-to-heaven/1767964918?i=1767964920",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/af/75/e5af7528-1b74-2a6d-e831-bce3e79b308f/00888735930041_Cover.jpg/300x300bb.jpg",
-    "trackId": "1767964920"
   },
   {
     "id": "applemusic-1191383494",
@@ -325,6 +286,110 @@
     "trackId": "1247335805"
   },
   {
+    "id": "applemusic-1438380114",
+    "name": "City 127",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/f1/6e/61f16ea9-9792-1278-73a0-8364f7b7c06f/mzaf_2593322423329740090.plus.aac.p.m4a",
+    "duration": 199187,
+    "trackUrl": "https://music.apple.com/us/album/city-127/1438380104?i=1438380114",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380114"
+  },
+  {
+    "id": "applemusic-1438380118",
+    "name": "Replay (PM 01:27)",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/54/9f/29549f8b-6c24-43d2-7f2f-331c8cb8cb34/mzaf_12265731069492415085.plus.aac.p.m4a",
+    "duration": 219627,
+    "trackUrl": "https://music.apple.com/us/album/replay-pm-01-27/1438380104?i=1438380118",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380118"
+  },
+  {
+    "id": "applemusic-1438380119",
+    "name": "Knock On",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/55/22/ac/5522ac83-7af0-7abd-ad40-35755aafda1f/mzaf_15521966383599744342.plus.aac.p.m4a",
+    "duration": 205947,
+    "trackUrl": "https://music.apple.com/us/album/knock-on/1438380104?i=1438380119",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380119"
+  },
+  {
+    "id": "applemusic-1438380120",
+    "name": "No Longer",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/e1/6a/5de16a63-bc4c-87cb-868a-9e34818bc9b3/mzaf_7241810788292031657.plus.aac.p.m4a",
+    "duration": 297747,
+    "trackUrl": "https://music.apple.com/us/album/no-longer/1438380104?i=1438380120",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380120"
+  },
+  {
+    "id": "applemusic-1438380122",
+    "name": "My Van",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6f/73/84/6f73848c-4238-29f4-b3df-6b3b433145bb/mzaf_11032954792260610295.plus.aac.p.m4a",
+    "duration": 206107,
+    "trackUrl": "https://music.apple.com/us/album/my-van/1438380104?i=1438380122",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380122"
+  },
+  {
+    "id": "applemusic-1438380123",
+    "name": "Come Back",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c2/0c/cd/c20ccd51-34ce-aa94-3b3b-df9ea56619a1/mzaf_15739598775788121015.plus.aac.p.m4a",
+    "duration": 205147,
+    "trackUrl": "https://music.apple.com/us/album/come-back/1438380104?i=1438380123",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380123"
+  },
+  {
+    "id": "applemusic-1438380124",
+    "name": "Fly Away With Me",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/6c/4e/296c4e8e-c71f-e2dd-39d6-3dab0ba0deda/mzaf_9025168215377695121.plus.aac.p.m4a",
+    "duration": 212880,
+    "trackUrl": "https://music.apple.com/us/album/fly-away-with-me/1438380104?i=1438380124",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380124"
+  },
+  {
+    "id": "applemusic-1438380126",
+    "name": "Run Back 2 U (Bonus Track)",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 Regular-Irregular - The 1st Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/41/35/bd413531-81eb-5da8-6c4b-3a8b921139af/mzaf_17957660537359440862.plus.aac.p.m4a",
+    "duration": 219720,
+    "trackUrl": "https://music.apple.com/us/album/run-back-2-u-bonus-track/1438380104?i=1438380126",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
+    "trackId": "1438380126"
+  },
+  {
     "id": "applemusic-1767044391",
     "name": "Elevator (127F)",
     "artists": [
@@ -388,19 +453,6 @@
     "trackUrl": "https://music.apple.com/us/album/day-dream/1767044390?i=1767044689",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/0c/b3/cc0cb3a0-e661-7e4d-50e3-60975cc7b3f7/00888735933363_Cover.jpg/300x300bb.jpg",
     "trackId": "1767044689"
-  },
-  {
-    "id": "applemusic-1767044692",
-    "name": "Interlude: Neo Zone",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Neo Zone - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/da/05/c4da052a-a4a3-e9cb-b54a-167267cb6bef/mzaf_3732269396673805981.plus.aac.p.m4a",
-    "duration": 99120,
-    "trackUrl": "https://music.apple.com/us/album/interlude-neo-zone/1767044390?i=1767044692",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cc/0c/b3/cc0cb3a0-e661-7e4d-50e3-60975cc7b3f7/00888735933363_Cover.jpg/300x300bb.jpg",
-    "trackId": "1767044692"
   },
   {
     "id": "applemusic-1767044696",
@@ -494,6 +546,19 @@
     "trackId": "1767044713"
   },
   {
+    "id": "applemusic-1767964920",
+    "name": "Highway to Heaven",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/9f/cc/f99fcc15-475c-d1ad-b407-e4cc6e5e12e8/mzaf_2987467598568917535.plus.aac.p.m4a",
+    "duration": 200573,
+    "trackUrl": "https://music.apple.com/us/album/highway-to-heaven/1767964918?i=1767964920",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/af/75/e5af7528-1b74-2a6d-e831-bce3e79b308f/00888735930041_Cover.jpg/300x300bb.jpg",
+    "trackId": "1767964920"
+  },
+  {
     "id": "applemusic-1767964924",
     "name": "Superhuman",
     "artists": [
@@ -544,19 +609,6 @@
     "trackUrl": "https://music.apple.com/us/album/paper-plane/1767964918?i=1767964933",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/af/75/e5af7528-1b74-2a6d-e831-bce3e79b308f/00888735930041_Cover.jpg/300x300bb.jpg",
     "trackId": "1767964933"
-  },
-  {
-    "id": "applemusic-1767964936",
-    "name": "OUTRO: WE ARE 127",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 WE ARE SUPERHUMAN - The 4th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/d5/6f/5bd56f55-7012-695e-524a-7e47cb724b85/mzaf_7770400017714332621.plus.aac.p.m4a",
-    "duration": 87320,
-    "trackUrl": "https://music.apple.com/us/album/outro-we-are-127/1767964918?i=1767964936",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e5/af/75/e5af7528-1b74-2a6d-e831-bce3e79b308f/00888735930041_Cover.jpg/300x300bb.jpg",
-    "trackId": "1767964936"
   },
   {
     "id": "applemusic-1766560181",
@@ -884,17 +936,108 @@
     "trackId": "1766659687"
   },
   {
-    "id": "applemusic-1132509047",
+    "id": "applemusic-1456606275",
+    "name": "Lips",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9f/a3/44/9fa344fa-2cfd-346c-b905-662a1324ab83/mzaf_17894148216550790372.plus.aac.p.m4a",
+    "duration": 185799,
+    "trackUrl": "https://music.apple.com/us/album/lips/1456606274?i=1456606275",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606275"
+  },
+  {
+    "id": "applemusic-1456606278",
+    "name": "Wakey-Wakey",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/6a/6d/a96a6dc6-20b2-b8af-a929-a465e389ff31/mzaf_10644939146034844631.plus.aac.p.m4a",
+    "duration": 182386,
+    "trackUrl": "https://music.apple.com/us/album/wakey-wakey/1456606274?i=1456606278",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606278"
+  },
+  {
+    "id": "applemusic-1456606281",
+    "name": "Chain",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/64/cf/b664cf3e-a4d1-b12b-e9be-fa7dc79d8ae1/mzaf_7775925670266155367.plus.aac.p.m4a",
+    "duration": 222292,
+    "trackUrl": "https://music.apple.com/us/album/chain/1456606274?i=1456606281",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606281"
+  },
+  {
+    "id": "applemusic-1456606408",
+    "name": "Blow My Mind",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ae/e4/86/aee4861f-d11e-264e-39ab-3dd62fa7e3d6/mzaf_11218686295168972836.plus.aac.p.m4a",
+    "duration": 227599,
+    "trackUrl": "https://music.apple.com/us/album/blow-my-mind/1456606274?i=1456606408",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606408"
+  },
+  {
+    "id": "applemusic-1456606412",
+    "name": "Long Slow Distance",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/f2/f9/57f2f90e-81b6-5331-4202-aec3a0e6f0fc/mzaf_14153825123606281842.plus.aac.p.m4a",
+    "duration": 264946,
+    "trackUrl": "https://music.apple.com/us/album/long-slow-distance/1456606274?i=1456606412",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606412"
+  },
+  {
+    "id": "applemusic-1456606415",
+    "name": "Kitchen Beat",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/05/07/20/05072011-3c7a-fd53-ab52-179ce1770c4a/mzaf_10448336168470552896.plus.aac.p.m4a",
+    "duration": 209399,
+    "trackUrl": "https://music.apple.com/us/album/kitchen-beat/1456606274?i=1456606415",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606415"
+  },
+  {
+    "id": "applemusic-1456606423",
     "name": "Fire Truck",
     "artists": [
       "NCT 127"
     ],
-    "album": "NCT #127 – The 1st Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/40/2c/93402cf6-3f0e-30e8-628f-888876c54594/mzaf_15415703267427613770.plus.aac.p.m4a",
-    "duration": 178565,
-    "trackUrl": "https://music.apple.com/us/album/fire-truck/1132508841?i=1132509047",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/2b/f7/b0/2bf7b080-2731-5e19-8437-4c4ede4f6442/NCT127_4000x4000.jpg/300x300bb.jpg",
-    "trackId": "1132509047"
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bc/41/f4/bc41f4a5-f598-8317-a4c0-23c8c6fca2e4/mzaf_4351564193475769585.plus.aac.p.m4a",
+    "duration": 177972,
+    "trackUrl": "https://music.apple.com/us/album/fire-truck/1456606274?i=1456606423",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606423"
+  },
+  {
+    "id": "applemusic-1456606428",
+    "name": "End to Start",
+    "artists": [
+      "NCT 127"
+    ],
+    "album": "Awaken",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/56/db/a4/56dba4b3-1431-0624-ce10-126c63a06655/mzaf_4820754788296882958.plus.aac.p.m4a",
+    "duration": 209679,
+    "trackUrl": "https://music.apple.com/us/album/end-to-start/1456606274?i=1456606428",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
+    "trackId": "1456606428"
   },
   {
     "id": "applemusic-1132509048",
@@ -973,136 +1116,6 @@
     "trackUrl": "https://music.apple.com/us/album/switch-feat-sr15b-bonus-track/1132508841?i=1132509060",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music60/v4/2b/f7/b0/2bf7b080-2731-5e19-8437-4c4ede4f6442/NCT127_4000x4000.jpg/300x300bb.jpg",
     "trackId": "1132509060"
-  },
-  {
-    "id": "applemusic-1438380114",
-    "name": "City 127",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/f1/6e/61f16ea9-9792-1278-73a0-8364f7b7c06f/mzaf_2593322423329740090.plus.aac.p.m4a",
-    "duration": 199187,
-    "trackUrl": "https://music.apple.com/us/album/city-127/1438380104?i=1438380114",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380114"
-  },
-  {
-    "id": "applemusic-1456606282",
-    "name": "Regular (English Ver.)",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8d/57/ee/8d57ee5e-4b9b-3a9b-60c7-43827a9cdae7/mzaf_11675310720407239793.plus.aac.p.m4a",
-    "duration": 219506,
-    "trackUrl": "https://music.apple.com/us/album/regular-english-ver/1456606274?i=1456606282",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606282"
-  },
-  {
-    "id": "applemusic-1438380118",
-    "name": "Replay (PM 01:27)",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/54/9f/29549f8b-6c24-43d2-7f2f-331c8cb8cb34/mzaf_12265731069492415085.plus.aac.p.m4a",
-    "duration": 219627,
-    "trackUrl": "https://music.apple.com/us/album/replay-pm-01-27/1438380104?i=1438380118",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380118"
-  },
-  {
-    "id": "applemusic-1438380119",
-    "name": "Knock On",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/55/22/ac/5522ac83-7af0-7abd-ad40-35755aafda1f/mzaf_15521966383599744342.plus.aac.p.m4a",
-    "duration": 205947,
-    "trackUrl": "https://music.apple.com/us/album/knock-on/1438380104?i=1438380119",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380119"
-  },
-  {
-    "id": "applemusic-1438380120",
-    "name": "No Longer",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/e1/6a/5de16a63-bc4c-87cb-868a-9e34818bc9b3/mzaf_7241810788292031657.plus.aac.p.m4a",
-    "duration": 297747,
-    "trackUrl": "https://music.apple.com/us/album/no-longer/1438380104?i=1438380120",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380120"
-  },
-  {
-    "id": "applemusic-1438380121",
-    "name": "Interlude: Regular to Irregular",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/d2/ad/50d2ad93-33f0-a77d-75b8-5d30218b6b60/mzaf_13765740009014197921.plus.aac.p.m4a",
-    "duration": 190560,
-    "trackUrl": "https://music.apple.com/us/album/interlude-regular-to-irregular/1438380104?i=1438380121",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380121"
-  },
-  {
-    "id": "applemusic-1438380122",
-    "name": "My Van",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6f/73/84/6f73848c-4238-29f4-b3df-6b3b433145bb/mzaf_11032954792260610295.plus.aac.p.m4a",
-    "duration": 206107,
-    "trackUrl": "https://music.apple.com/us/album/my-van/1438380104?i=1438380122",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380122"
-  },
-  {
-    "id": "applemusic-1438380123",
-    "name": "Come Back",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c2/0c/cd/c20ccd51-34ce-aa94-3b3b-df9ea56619a1/mzaf_15739598775788121015.plus.aac.p.m4a",
-    "duration": 205147,
-    "trackUrl": "https://music.apple.com/us/album/come-back/1438380104?i=1438380123",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380123"
-  },
-  {
-    "id": "applemusic-1438380124",
-    "name": "Fly Away With Me",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/6c/4e/296c4e8e-c71f-e2dd-39d6-3dab0ba0deda/mzaf_9025168215377695121.plus.aac.p.m4a",
-    "duration": 212880,
-    "trackUrl": "https://music.apple.com/us/album/fly-away-with-me/1438380104?i=1438380124",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380124"
-  },
-  {
-    "id": "applemusic-1438380126",
-    "name": "Run Back 2 U (Bonus Track)",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regular-Irregular - The 1st Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bd/41/35/bd413531-81eb-5da8-6c4b-3a8b921139af/mzaf_17957660537359440862.plus.aac.p.m4a",
-    "duration": 219720,
-    "trackUrl": "https://music.apple.com/us/album/run-back-2-u-bonus-track/1438380104?i=1438380126",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f0/33/10/f033106d-6453-96d9-6984-8e3a6dc6c9be/NCT_127_coverart.jpg/300x300bb.jpg",
-    "trackId": "1438380126"
   },
   {
     "id": "applemusic-1766840563",
@@ -1274,58 +1287,6 @@
     "trackId": "1766621837"
   },
   {
-    "id": "applemusic-1443571957",
-    "name": "Welcome To My Playground",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regulate - The 1st Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7d/bc/0c/7dbc0c08-36fa-9259-b90a-622cfe6dfec1/mzaf_16998744687009467884.plus.aac.p.m4a",
-    "duration": 239133,
-    "trackUrl": "https://music.apple.com/us/album/welcome-to-my-playground/1443571952?i=1443571957",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/df/c8/fddfc8b2-01ce-a3f6-3f00-bbc17037309d/NCT_127_Cover.jpg/300x300bb.jpg",
-    "trackId": "1443571957"
-  },
-  {
-    "id": "applemusic-1443572113",
-    "name": "Simon Says",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "NCT #127 Regulate - The 1st Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/80/3d/bf803d00-b8a5-7c6f-7ad2-8dd01073af9e/mzaf_11160100660203186153.plus.aac.p.m4a",
-    "duration": 199773,
-    "trackUrl": "https://music.apple.com/us/album/simon-says/1443571952?i=1443572113",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/df/c8/fddfc8b2-01ce-a3f6-3f00-bbc17037309d/NCT_127_Cover.jpg/300x300bb.jpg",
-    "trackId": "1443572113"
-  },
-  {
-    "id": "applemusic-1456606281",
-    "name": "Chain",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/64/cf/b664cf3e-a4d1-b12b-e9be-fa7dc79d8ae1/mzaf_7775925670266155367.plus.aac.p.m4a",
-    "duration": 222292,
-    "trackUrl": "https://music.apple.com/us/album/chain/1456606274?i=1456606281",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606281"
-  },
-  {
-    "id": "applemusic-1766628778",
-    "name": "Intro: Wall to Wall",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "WALK - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/28/e1/b9/28e1b90f-33a3-5fc9-def8-ed9b71770cbd/mzaf_10162533568871991562.plus.aac.p.m4a",
-    "duration": 151680,
-    "trackUrl": "https://music.apple.com/us/album/intro-wall-to-wall/1766628771?i=1766628778",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/a2/dd/e2a2dd12-a6c8-75d2-f505-2ebaaa98a242/00888735948176_Cover.jpg/300x300bb.jpg",
-    "trackId": "1766628778"
-  },
-  {
     "id": "applemusic-1766628787",
     "name": "Walk",
     "artists": [
@@ -1456,82 +1417,30 @@
     "trackId": "1766629498"
   },
   {
-    "id": "applemusic-1456606275",
-    "name": "Lips",
+    "id": "applemusic-1443571957",
+    "name": "Welcome To My Playground",
     "artists": [
       "NCT 127"
     ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9f/a3/44/9fa344fa-2cfd-346c-b905-662a1324ab83/mzaf_17894148216550790372.plus.aac.p.m4a",
-    "duration": 185799,
-    "trackUrl": "https://music.apple.com/us/album/lips/1456606274?i=1456606275",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606275"
+    "album": "NCT #127 Regulate - The 1st Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7d/bc/0c/7dbc0c08-36fa-9259-b90a-622cfe6dfec1/mzaf_16998744687009467884.plus.aac.p.m4a",
+    "duration": 239133,
+    "trackUrl": "https://music.apple.com/us/album/welcome-to-my-playground/1443571952?i=1443571957",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/df/c8/fddfc8b2-01ce-a3f6-3f00-bbc17037309d/NCT_127_Cover.jpg/300x300bb.jpg",
+    "trackId": "1443571957"
   },
   {
-    "id": "applemusic-1456606278",
-    "name": "Wakey-Wakey",
+    "id": "applemusic-1443572113",
+    "name": "Simon Says",
     "artists": [
       "NCT 127"
     ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/6a/6d/a96a6dc6-20b2-b8af-a929-a465e389ff31/mzaf_10644939146034844631.plus.aac.p.m4a",
-    "duration": 182386,
-    "trackUrl": "https://music.apple.com/us/album/wakey-wakey/1456606274?i=1456606278",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606278"
-  },
-  {
-    "id": "applemusic-1456606408",
-    "name": "Blow My Mind",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ae/e4/86/aee4861f-d11e-264e-39ab-3dd62fa7e3d6/mzaf_11218686295168972836.plus.aac.p.m4a",
-    "duration": 227599,
-    "trackUrl": "https://music.apple.com/us/album/blow-my-mind/1456606274?i=1456606408",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606408"
-  },
-  {
-    "id": "applemusic-1456606412",
-    "name": "Long Slow Distance",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/57/f2/f9/57f2f90e-81b6-5331-4202-aec3a0e6f0fc/mzaf_14153825123606281842.plus.aac.p.m4a",
-    "duration": 264946,
-    "trackUrl": "https://music.apple.com/us/album/long-slow-distance/1456606274?i=1456606412",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606412"
-  },
-  {
-    "id": "applemusic-1456606415",
-    "name": "Kitchen Beat",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/05/07/20/05072011-3c7a-fd53-ab52-179ce1770c4a/mzaf_10448336168470552896.plus.aac.p.m4a",
-    "duration": 209399,
-    "trackUrl": "https://music.apple.com/us/album/kitchen-beat/1456606274?i=1456606415",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606415"
-  },
-  {
-    "id": "applemusic-1456606428",
-    "name": "End to Start",
-    "artists": [
-      "NCT 127"
-    ],
-    "album": "Awaken",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/56/db/a4/56dba4b3-1431-0624-ce10-126c63a06655/mzaf_4820754788296882958.plus.aac.p.m4a",
-    "duration": 209679,
-    "trackUrl": "https://music.apple.com/us/album/end-to-start/1456606274?i=1456606428",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/fd/fc/25/fdfc2528-5daf-09a3-8a51-bbe20c46cfd9/AVCK-79578.jpg/300x300bb.jpg",
-    "trackId": "1456606428"
+    "album": "NCT #127 Regulate - The 1st Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bf/80/3d/bf803d00-b8a5-7c6f-7ad2-8dd01073af9e/mzaf_11160100660203186153.plus.aac.p.m4a",
+    "duration": 199773,
+    "trackUrl": "https://music.apple.com/us/album/simon-says/1443571952?i=1443572113",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/df/c8/fddfc8b2-01ce-a3f6-3f00-bbc17037309d/NCT_127_Cover.jpg/300x300bb.jpg",
+    "trackId": "1443572113"
   },
   {
     "id": "applemusic-1767026374",
@@ -1872,19 +1781,6 @@
     "trackId": "1540895602"
   },
   {
-    "id": "applemusic-1540895606",
-    "name": "Interlude: Past to Present",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT RESONANCE Pt. 2 - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/7f/7c/c87f7cbc-d7ad-b380-d1dd-f822565d405e/mzaf_8256959328490821106.plus.aac.p.m4a",
-    "duration": 70867,
-    "trackUrl": "https://music.apple.com/jp/album/interlude-past-to-present/1540895592?i=1540895606",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
-    "trackId": "1540895606"
-  },
-  {
     "id": "applemusic-1540895607",
     "name": "Make A Wish (Birthday Song)",
     "artists": [
@@ -1950,19 +1846,6 @@
     "trackId": "1540895614"
   },
   {
-    "id": "applemusic-1540895768",
-    "name": "Interlude: Present to Future",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT RESONANCE Pt. 2 - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/da/89/4bda8940-a5b2-8aee-db92-b4f0c5ec0230/mzaf_4480600788266197514.plus.aac.p.m4a",
-    "duration": 81240,
-    "trackUrl": "https://music.apple.com/jp/album/interlude-present-to-future/1540895592?i=1540895768",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
-    "trackId": "1540895768"
-  },
-  {
     "id": "applemusic-1540895769",
     "name": "Work It",
     "artists": [
@@ -2000,18 +1883,5 @@
     "trackUrl": "https://music.apple.com/jp/album/i-o-u/1540895592?i=1540895772",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
     "trackId": "1540895772"
-  },
-  {
-    "id": "applemusic-1540895773",
-    "name": "Outro: Dream Routine",
-    "artists": [
-      "NCT U"
-    ],
-    "album": "NCT RESONANCE Pt. 2 - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/38/1f/e1381f41-510f-6289-d198-ecd0592519d1/mzaf_9986566165161824789.plus.aac.p.m4a",
-    "duration": 50347,
-    "trackUrl": "https://music.apple.com/jp/album/outro-dream-routine/1540895592?i=1540895773",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/50/01/3650011e-fee5-64c7-8d58-6f407473d11b/digitalcover.jpg/300x300bb.jpg",
-    "trackId": "1540895773"
   }
 ]

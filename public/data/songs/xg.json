@@ -52,19 +52,6 @@
     "trackId": "1692289011"
   },
   {
-    "id": "applemusic-1861009518",
-    "name": "XIGNAL (The Intro)",
-    "artists": [
-      "XG"
-    ],
-    "album": "THE CORE - 核",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/39/1a/fc391a6e-e4d1-f6e6-2e49-380fa1598377/mzaf_4788350440377310163.plus.aac.p.m4a",
-    "duration": 96171,
-    "trackUrl": "https://music.apple.com/us/album/xignal-the-intro/1861009513?i=1861009518",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/40/bc/d240bc00-1056-57c1-3ec8-cd57f957bcaf/4571694810689.jpg/300x300bb.jpg",
-    "trackId": "1861009518"
-  },
-  {
     "id": "applemusic-1861009520",
     "name": "GALA",
     "artists": [
@@ -182,6 +169,84 @@
     "trackId": "1861009829"
   },
   {
+    "id": "applemusic-1775445627",
+    "name": "HOWL",
+    "artists": [
+      "XG"
+    ],
+    "album": "AWE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/94/ff/1294ff4b-1750-35cf-438b-292f4634c8ae/mzaf_4869174434065306253.plus.aac.p.m4a",
+    "duration": 78173,
+    "trackUrl": "https://music.apple.com/us/album/howl/1775445626?i=1775445627",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
+    "trackId": "1775445627"
+  },
+  {
+    "id": "applemusic-1775445628",
+    "name": "HOWLING",
+    "artists": [
+      "XG"
+    ],
+    "album": "AWE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/03/da/e803da83-9d89-1d1e-4cbd-f04e02843305/mzaf_4514958063900327150.plus.aac.p.m4a",
+    "duration": 188702,
+    "trackUrl": "https://music.apple.com/us/album/howling/1775445626?i=1775445628",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
+    "trackId": "1775445628"
+  },
+  {
+    "id": "applemusic-1775445630",
+    "name": "IYKYK",
+    "artists": [
+      "XG"
+    ],
+    "album": "AWE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/75/85/807585dd-da63-076f-0f66-25b7ffd7ff71/mzaf_15914021623904308398.plus.aac.p.m4a",
+    "duration": 180000,
+    "trackUrl": "https://music.apple.com/us/album/iykyk/1775445626?i=1775445630",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
+    "trackId": "1775445630"
+  },
+  {
+    "id": "applemusic-1775445631",
+    "name": "SOMETHING AIN'T RIGHT",
+    "artists": [
+      "XG"
+    ],
+    "album": "AWE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/4f/d6/094fd624-f984-229f-a903-776a12592b02/mzaf_619756648410088497.plus.aac.p.m4a",
+    "duration": 190667,
+    "trackUrl": "https://music.apple.com/us/album/something-aint-right/1775445626?i=1775445631",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
+    "trackId": "1775445631"
+  },
+  {
+    "id": "applemusic-1775445632",
+    "name": "IN THE RAIN",
+    "artists": [
+      "XG"
+    ],
+    "album": "AWE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/c1/e0/acc1e008-9640-31cc-0429-e96b448f559f/mzaf_9150651834619153659.plus.aac.p.m4a",
+    "duration": 188200,
+    "trackUrl": "https://music.apple.com/us/album/in-the-rain/1775445626?i=1775445632",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
+    "trackId": "1775445632"
+  },
+  {
+    "id": "applemusic-1775445637",
+    "name": "IS THIS LOVE",
+    "artists": [
+      "XG"
+    ],
+    "album": "AWE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/af/71/b1af71ea-e159-1e11-1a18-3cfe30f3ec4b/mzaf_9554712132118939602.plus.aac.p.m4a",
+    "duration": 155080,
+    "trackUrl": "https://music.apple.com/us/album/is-this-love/1775445626?i=1775445637",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
+    "trackId": "1775445637"
+  },
+  {
     "id": "applemusic-1624618717",
     "name": "MASCARA",
     "artists": [
@@ -193,19 +258,6 @@
     "trackUrl": "https://music.apple.com/us/album/mascara/1624618716?i=1624618717",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b3/83/c1/b383c1eb-a2aa-0bb1-c77f-b9fef0d19e68/ANTCD-A0000007238.jpg/300x300bb.jpg",
     "trackId": "1624618717"
-  },
-  {
-    "id": "applemusic-1757581944",
-    "name": "SOMETHING AIN'T RIGHT",
-    "artists": [
-      "XG"
-    ],
-    "album": "SOMETHING AIN'T RIGHT - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/13/c5/5f13c5ae-73b4-b151-3f6f-fea66479af17/mzaf_14584513978478153173.plus.aac.p.m4a",
-    "duration": 190667,
-    "trackUrl": "https://music.apple.com/us/album/something-aint-right/1757581943?i=1757581944",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/82/ea/7582eab4-bc79-a418-3909-457d34779d91/ANTCD-A0000014081.jpg/300x300bb.jpg",
-    "trackId": "1757581944"
   },
   {
     "id": "applemusic-1703356591",
@@ -297,84 +349,6 @@
     "trackUrl": "https://music.apple.com/us/album/tippy-toes/1609402380?i=1609402381",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b8/5a/f6/b85af686-80fa-6dc5-9cfd-cb2681c43f67/ANTCD-A0000005398.jpg/300x300bb.jpg",
     "trackId": "1609402381"
-  },
-  {
-    "id": "applemusic-1775445627",
-    "name": "HOWL",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/94/ff/1294ff4b-1750-35cf-438b-292f4634c8ae/mzaf_4869174434065306253.plus.aac.p.m4a",
-    "duration": 78173,
-    "trackUrl": "https://music.apple.com/us/album/howl/1775445626?i=1775445627",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445627"
-  },
-  {
-    "id": "applemusic-1775445628",
-    "name": "HOWLING",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/03/da/e803da83-9d89-1d1e-4cbd-f04e02843305/mzaf_4514958063900327150.plus.aac.p.m4a",
-    "duration": 188702,
-    "trackUrl": "https://music.apple.com/us/album/howling/1775445626?i=1775445628",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445628"
-  },
-  {
-    "id": "applemusic-1775445629",
-    "name": "SPACE MEETING Skit",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/ae/60/16ae601d-405d-c63e-fce1-bd731ec9c698/mzaf_17785157805008893595.plus.aac.p.m4a",
-    "duration": 51627,
-    "trackUrl": "https://music.apple.com/us/album/space-meeting-skit/1775445626?i=1775445629",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445629"
-  },
-  {
-    "id": "applemusic-1775445630",
-    "name": "IYKYK",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/80/75/85/807585dd-da63-076f-0f66-25b7ffd7ff71/mzaf_15914021623904308398.plus.aac.p.m4a",
-    "duration": 180000,
-    "trackUrl": "https://music.apple.com/us/album/iykyk/1775445626?i=1775445630",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445630"
-  },
-  {
-    "id": "applemusic-1775445632",
-    "name": "IN THE RAIN",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/c1/e0/acc1e008-9640-31cc-0429-e96b448f559f/mzaf_9150651834619153659.plus.aac.p.m4a",
-    "duration": 188200,
-    "trackUrl": "https://music.apple.com/us/album/in-the-rain/1775445626?i=1775445632",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445632"
-  },
-  {
-    "id": "applemusic-1775445637",
-    "name": "IS THIS LOVE",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/af/71/b1af71ea-e159-1e11-1a18-3cfe30f3ec4b/mzaf_9554712132118939602.plus.aac.p.m4a",
-    "duration": 155080,
-    "trackUrl": "https://music.apple.com/us/album/is-this-love/1775445626?i=1775445637",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445637"
   },
   {
     "id": "applemusic-1717738435",
@@ -544,31 +518,5 @@
     "trackUrl": "https://music.apple.com/us/album/in-the-rain-x-xdm/1804320421?i=1804320426",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/48/d0/7648d0c1-de88-1bf4-4b47-70e2e755ce99/ANTCD-A0000016489.jpg/300x300bb.jpg",
     "trackId": "1804320426"
-  },
-  {
-    "id": "applemusic-1768000817",
-    "name": "INTRO",
-    "artists": [
-      "XG"
-    ],
-    "album": "WOKE UP REMIXX (PROD BY JAKOPS) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/8e/1c/f78e1cb6-7f8f-9c5c-8f2d-47ad0c33c762/mzaf_14999480829746529536.plus.aac.p.m4a",
-    "duration": 35967,
-    "trackUrl": "https://music.apple.com/us/album/intro/1768000816?i=1768000817",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/6b/d3/a86bd3d1-a6d5-7ec5-7f92-7fa0834f7b72/ANTCD-A0000014652.jpg/300x300bb.jpg",
-    "trackId": "1768000817"
-  },
-  {
-    "id": "applemusic-1768001000",
-    "name": "WOKE UP REMIXX (FEAT. Jay Park, OZworld, AKLO, Paloalto, VERBAL, Awich, Tak, Dok2)",
-    "artists": [
-      "XG"
-    ],
-    "album": "WOKE UP REMIXX (PROD BY JAKOPS) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/84/85/55848597-555d-f224-4ff3-4bad4d3d4edd/mzaf_4189823588137463700.plus.aac.p.m4a",
-    "duration": 379292,
-    "trackUrl": "https://music.apple.com/us/album/woke-up-remixx-feat-jay-park-ozworld-aklo-paloalto/1768000816?i=1768001000",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/6b/d3/a86bd3d1-a6d5-7ec5-7f92-7fa0834f7b72/ANTCD-A0000014652.jpg/300x300bb.jpg",
-    "trackId": "1768001000"
   }
 ]

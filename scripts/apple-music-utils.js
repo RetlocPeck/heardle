@@ -231,7 +231,7 @@ function deduplicateSongs(songs) {
 }
 
 function filterTracks(tracks) {
-  // Filter out instrumentals, remixes, karaoke, etc.
+  // Filter out instrumentals, remixes, karaoke, intros, outros, skits, etc.
   const excludePatterns = [
     /\binstrumental\b/i,
     /\bkaraoke\b/i,
@@ -246,9 +246,45 @@ function filterTracks(tracks) {
     /\(inst\)/i,
   ];
   
+  // Pattern to match intro/outro/skit tracks
+  // Matches:
+  // - Word boundary matches: "The Intro Song" -> matches "Intro"
+  // - In parentheses: "(Intro)" or "(Outro)"
+  // - At start with colon: "Intro: Symphony"
+  // - At start with dash: "Intro - Symphony" or "Intro- Symphony"
+  // - At start with period: "Intro. Something"
+  // - At start standalone followed by space: "Intro The Beginning"
+  const introOutroWords = ['outro', 'intro', 'introduction', 'skit', 'interlude'];
+  const introOutroPattern = new RegExp(
+    `\\b(${introOutroWords.join('|')})s?\\b|` +           // Word boundary match
+    `\\((${introOutroWords.join('|')})\\)|` +              // In parentheses
+    `^(${introOutroWords.join('|')})\\s*[:.\-–—]|` +      // Start with colon, period, or dash
+    `^(${introOutroWords.join('|')})\\s+[A-Z]`,           // Start followed by space and capital letter
+    'i'
+  );
+  
+  // Pattern to match version indicators (Japanese Ver., Korean Version, English Ver., etc.)
+  // Matches versions in parentheses, brackets, or between dashes
+  const versionWords = [
+    'version', 'ver\\.?', 'versión', 'japanese', 'kor', 'korean', 'english',
+    'eng', 'jap', 'spanish', 'español', 'chinese', 'mandarin', 'cantonese'
+  ];
+  const versionPatterns = [
+    // In parentheses: "(Japanese Ver.)" or "(Korean Version)"
+    new RegExp(`\\([^)]*(?:${versionWords.join('|')})[^)]*\\)`, 'i'),
+    // In brackets: "[English Ver.]"
+    new RegExp(`\\[[^\\]]*(?:${versionWords.join('|')})[^\\]]*\\]`, 'i'),
+    // Between dashes: "- Japanese Ver. -" or "- Korean -"
+    new RegExp(`[‑\\-–—]\\s*(?:${versionWords.join('|')})\\s*[‑\\-–—]`, 'i'),
+    // With "ver." anywhere
+    /ver\./i,
+  ];
+  
   let noPreviewCount = 0;
   let nonEnglishCount = 0;
   let patternExcludeCount = 0;
+  let introOutroCount = 0;
+  let versionCount = 0;
   
   const filtered = tracks.filter(track => {
     const name = track.attributes?.name || '';
@@ -266,7 +302,21 @@ function filterTracks(tracks) {
       return false;
     }
     
-    // Check for excluded patterns
+    // Check for intro/outro/skit patterns
+    if (introOutroPattern.test(name)) {
+      introOutroCount++;
+      return false;
+    }
+    
+    // Check for version indicators (Japanese Ver., Korean Version, etc.)
+    for (const pattern of versionPatterns) {
+      if (pattern.test(name)) {
+        versionCount++;
+        return false;
+      }
+    }
+    
+    // Check for excluded patterns (instrumental, remix, live, etc.)
     for (const pattern of excludePatterns) {
       if (pattern.test(name)) {
         patternExcludeCount++;
@@ -279,6 +329,8 @@ function filterTracks(tracks) {
   
   if (noPreviewCount > 0) console.log(`    ⏭️  Removed ${noPreviewCount} tracks without preview`);
   if (nonEnglishCount > 0) console.log(`    🌏 Removed ${nonEnglishCount} non-English tracks`);
+  if (introOutroCount > 0) console.log(`    🚫 Removed ${introOutroCount} intro/outro/skit tracks`);
+  if (versionCount > 0) console.log(`    🚫 Removed ${versionCount} version tracks (Japanese/Korean/English ver.)`);
   if (patternExcludeCount > 0) console.log(`    🚫 Removed ${patternExcludeCount} instrumental/remix/live tracks`);
   
   return filtered;

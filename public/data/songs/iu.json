@@ -195,19 +195,6 @@
     "trackId": "1613272550"
   },
   {
-    "id": "applemusic-1417069365",
-    "name": "SoulMate (feat. IU)",
-    "artists": [
-      "ZICO"
-    ],
-    "album": "SoulMate (feat. IU) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/8c/5b/738c5bee-2ba0-cd06-5c30-9bf835649438/mzaf_9427056855818479756.plus.aac.p.m4a",
-    "duration": 219391,
-    "trackUrl": "https://music.apple.com/us/album/soulmate-feat-iu/1417068270?i=1417069365",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/57/17/db571748-dfc5-0e07-3ffb-5125cf1efa40/886447238585.jpg/300x300bb.jpg",
-    "trackId": "1417069365"
-  },
-  {
     "id": "applemusic-1560113134",
     "name": "Lilac",
     "artists": [
@@ -323,6 +310,19 @@
     "trackUrl": "https://music.apple.com/us/album/epilogue/1560113132?i=1560113353",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/9f/83/359f83b3-1423-3153-1641-98e948b7fc65/cover_-_EDAM_5_LILAC.jpg/300x300bb.jpg",
     "trackId": "1560113353"
+  },
+  {
+    "id": "applemusic-1417069365",
+    "name": "SoulMate (feat. IU)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "SoulMate (feat. IU) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/8c/5b/738c5bee-2ba0-cd06-5c30-9bf835649438/mzaf_9427056855818479756.plus.aac.p.m4a",
+    "duration": 219391,
+    "trackUrl": "https://music.apple.com/us/album/soulmate-feat-iu/1417068270?i=1417069365",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/57/17/db571748-dfc5-0e07-3ffb-5125cf1efa40/886447238585.jpg/300x300bb.jpg",
+    "trackId": "1417069365"
   },
   {
     "id": "applemusic-1485849443",
@@ -494,199 +494,17 @@
     "trackId": "1288487942"
   },
   {
-    "id": "applemusic-786863008",
-    "name": "Friday (feat. Jang Yi-jeong)",
+    "id": "applemusic-1051977844",
+    "name": "Red Queen (feat. Zion.T)",
     "artists": [
       "IU"
     ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/b6/df/7cb6df7b-ca30-bd0b-bed8-9471f34b1675/mzaf_4255039572410898691.plus.aac.p.m4a",
-    "duration": 217090,
-    "trackUrl": "https://music.apple.com/us/album/friday-feat-jang-yi-jeong/786862990?i=786863008",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863008"
-  },
-  {
-    "id": "applemusic-786863012",
-    "name": "Crayon (From Drama \"Pretty Boy\")",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/e2/96/b7e2967a-d1a4-266c-c72e-4d20016363f8/mzaf_15864691540204862731.plus.aac.p.m4a",
-    "duration": 193811,
-    "trackUrl": "https://music.apple.com/us/album/crayon-from-drama-pretty-boy/786862990?i=786863012",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863012"
-  },
-  {
-    "id": "applemusic-786863013",
-    "name": "Love of B (with Park Ju-won)",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2b/4d/7f/2b4d7f16-c071-09af-37e6-860ff380b305/mzaf_9460145539599299634.plus.aac.p.m4a",
-    "duration": 191320,
-    "trackUrl": "https://music.apple.com/us/album/love-of-b-with-park-ju-won/786862990?i=786863013",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863013"
-  },
-  {
-    "id": "applemusic-786863014",
-    "name": "Everybody Has Secrets (feat. GAIN)",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/ce/06/9bce06ae-89f6-1e97-ccf9-9b72d21936ca/mzaf_3992364183934978866.plus.aac.p.m4a",
-    "duration": 229360,
-    "trackUrl": "https://music.apple.com/us/album/everybody-has-secrets-feat-gain/786862990?i=786863014",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863014"
-  },
-  {
-    "id": "applemusic-786863015",
-    "name": "Between the Lips (50 cm)",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/ad/55/fead55ae-b5d6-6f4f-22cf-7e28bb0156ad/mzaf_15726145250509191193.plus.aac.p.m4a",
-    "duration": 170716,
-    "trackUrl": "https://music.apple.com/us/album/between-the-lips-50-cm/786862990?i=786863015",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863015"
-  },
-  {
-    "id": "applemusic-786863016",
-    "name": "The Red Shoes",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c9/e3/3d/c9e33d84-5689-c7e8-46be-5419615be872/mzaf_13229020014238844951.plus.aac.p.m4a",
-    "duration": 254191,
-    "trackUrl": "https://music.apple.com/us/album/the-red-shoes/786862990?i=786863016",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863016"
-  },
-  {
-    "id": "applemusic-786863017",
-    "name": "Modern Times",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/af/05/23/af05232c-8f44-2ba7-a863-3d0d8e95157e/mzaf_1418981833140720906.plus.aac.p.m4a",
-    "duration": 205500,
-    "trackUrl": "https://music.apple.com/us/album/modern-times/786862990?i=786863017",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863017"
-  },
-  {
-    "id": "applemusic-786863018",
-    "name": "Bad Day",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/39/d4/1b/39d41b78-b111-e5b6-286e-545b12dae120/mzaf_4480875246720566026.plus.aac.p.m4a",
-    "duration": 232711,
-    "trackUrl": "https://music.apple.com/us/album/bad-day/786862990?i=786863018",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863018"
-  },
-  {
-    "id": "applemusic-786863019",
-    "name": "Obliviate",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/65/9d/1e659d39-2f73-013d-a936-264577f8ddd7/mzaf_6291001278756282463.plus.aac.p.m4a",
-    "duration": 190173,
-    "trackUrl": "https://music.apple.com/us/album/obliviate/786862990?i=786863019",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863019"
-  },
-  {
-    "id": "applemusic-786863020",
-    "name": "Walk With Me, Girl (feat. Choi Baek Ho)",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/ff/21/c1ff212a-40db-e107-23bf-862d61185c92/mzaf_3099229262516375706.plus.aac.p.m4a",
-    "duration": 299999,
-    "trackUrl": "https://music.apple.com/us/album/walk-with-me-girl-feat-choi-baek-ho/786862990?i=786863020",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863020"
-  },
-  {
-    "id": "applemusic-786863021",
-    "name": "Havana",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d2/45/49/d2454940-af7c-5f12-9bdf-a715ba079787/mzaf_4557615096156606848.plus.aac.p.m4a",
-    "duration": 249054,
-    "trackUrl": "https://music.apple.com/us/album/havana/786862990?i=786863021",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863021"
-  },
-  {
-    "id": "applemusic-786863022",
-    "name": "A Gloomy Clock (feat. JONGHYUN)",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/93/1e/28931e5a-74b1-7c80-4dde-11086f28035a/mzaf_17810539729199523751.plus.aac.p.m4a",
-    "duration": 168084,
-    "trackUrl": "https://music.apple.com/us/album/a-gloomy-clock-feat-jonghyun/786862990?i=786863022",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863022"
-  },
-  {
-    "id": "applemusic-786863023",
-    "name": "Daydream (feat. Yang Hee-eun)",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/1e/aa/521eaaf1-839a-0ac2-cb96-a1ad38b5f4d8/mzaf_9667544622513932024.plus.aac.p.m4a",
-    "duration": 220738,
-    "trackUrl": "https://music.apple.com/us/album/daydream-feat-yang-hee-eun/786862990?i=786863023",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863023"
-  },
-  {
-    "id": "applemusic-786863024",
-    "name": "Wait",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times – Epilogue",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/7b/ba/247bba1e-d2d9-d4a1-10b5-093214547596/mzaf_2341988217241152581.plus.aac.p.m4a",
-    "duration": 150878,
-    "trackUrl": "https://music.apple.com/us/album/wait/786862990?i=786863024",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
-    "trackId": "786863024"
-  },
-  {
-    "id": "applemusic-721958319",
-    "name": "Voice Mail (Korean Ver) [Bonus Track]",
-    "artists": [
-      "IU"
-    ],
-    "album": "Modern Times",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/93/9e/9f939e68-de94-605c-ee1d-5549f2ddc8da/mzaf_12619613536352181210.plus.aac.p.m4a",
-    "duration": 246103,
-    "trackUrl": "https://music.apple.com/us/album/voice-mail-korean-ver-bonus-track/721958263?i=721958319",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
-    "trackId": "721958319"
+    "album": "CHAT-SHIRE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/2b/e8/022be879-d131-7616-ada4-8ea80ee599e9/mzaf_9212848457926311277.plus.aac.p.m4a",
+    "duration": 212518,
+    "trackUrl": "https://music.apple.com/us/album/red-queen-feat-zion-t/1051977837?i=1051977844",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/75/d2/f875d2e2-1317-7f5a-2025-7ca9513dbb3d/COVER-.jpg/300x300bb.jpg",
+    "trackId": "1051977844"
   },
   {
     "id": "applemusic-1680524008",
@@ -767,17 +585,69 @@
     "trackId": "1731352618"
   },
   {
-    "id": "applemusic-1051977844",
-    "name": "Red Queen (feat. Zion.T)",
+    "id": "applemusic-1602185214",
+    "name": "Drama",
     "artists": [
       "IU"
     ],
-    "album": "CHAT-SHIRE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/2b/e8/022be879-d131-7616-ada4-8ea80ee599e9/mzaf_9212848457926311277.plus.aac.p.m4a",
-    "duration": 212518,
-    "trackUrl": "https://music.apple.com/us/album/red-queen-feat-zion-t/1051977837?i=1051977844",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f8/75/d2/f875d2e2-1317-7f5a-2025-7ca9513dbb3d/COVER-.jpg/300x300bb.jpg",
-    "trackId": "1051977844"
+    "album": "Pieces - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2a/1b/28/2a1b280b-1af7-6dfe-9579-c39711aca8ac/mzaf_9146780514413476104.plus.aac.p.m4a",
+    "duration": 128107,
+    "trackUrl": "https://music.apple.com/us/album/drama/1602185213?i=1602185214",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
+    "trackId": "1602185214"
+  },
+  {
+    "id": "applemusic-1602185216",
+    "name": "Next Stop",
+    "artists": [
+      "IU"
+    ],
+    "album": "Pieces - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/33/7d/5e/337d5ee8-db7d-98b4-9f7b-c223649e918d/mzaf_3532334532614676681.plus.aac.p.m4a",
+    "duration": 236480,
+    "trackUrl": "https://music.apple.com/us/album/next-stop/1602185213?i=1602185216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
+    "trackId": "1602185216"
+  },
+  {
+    "id": "applemusic-1602185217",
+    "name": "Winter Sleep",
+    "artists": [
+      "IU"
+    ],
+    "album": "Pieces - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7e/82/d4/7e82d4de-be15-fcb7-4d2b-ae578eddb881/mzaf_2472149605248089994.plus.aac.p.m4a",
+    "duration": 262120,
+    "trackUrl": "https://music.apple.com/us/album/winter-sleep/1602185213?i=1602185217",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
+    "trackId": "1602185217"
+  },
+  {
+    "id": "applemusic-1602185218",
+    "name": "You",
+    "artists": [
+      "IU"
+    ],
+    "album": "Pieces - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e5/b6/33/e5b633f0-cedd-8be0-168a-3ee38a68ac60/mzaf_1375679969451428235.plus.aac.p.m4a",
+    "duration": 206373,
+    "trackUrl": "https://music.apple.com/us/album/you/1602185213?i=1602185218",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
+    "trackId": "1602185218"
+  },
+  {
+    "id": "applemusic-1602185219",
+    "name": "Love Letter",
+    "artists": [
+      "IU"
+    ],
+    "album": "Pieces - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a7/60/26/a760260a-20e3-22e6-a299-810684193ad4/mzaf_9222624349657177998.plus.aac.p.m4a",
+    "duration": 238333,
+    "trackUrl": "https://music.apple.com/us/album/love-letter/1602185213?i=1602185219",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
+    "trackId": "1602185219"
   },
   {
     "id": "applemusic-995855732",
@@ -856,71 +726,6 @@
     "trackUrl": "https://music.apple.com/us/album/dreams-in-summer-night/879281073?i=879281082",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/1a/7b/301a7b9e-edf2-2db1-e4c5-64044774389a/KM0002740-_-0516.jpg/300x300bb.jpg",
     "trackId": "879281082"
-  },
-  {
-    "id": "applemusic-1602185214",
-    "name": "Drama",
-    "artists": [
-      "IU"
-    ],
-    "album": "Pieces - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2a/1b/28/2a1b280b-1af7-6dfe-9579-c39711aca8ac/mzaf_9146780514413476104.plus.aac.p.m4a",
-    "duration": 128107,
-    "trackUrl": "https://music.apple.com/us/album/drama/1602185213?i=1602185214",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
-    "trackId": "1602185214"
-  },
-  {
-    "id": "applemusic-1602185216",
-    "name": "Next Stop",
-    "artists": [
-      "IU"
-    ],
-    "album": "Pieces - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/33/7d/5e/337d5ee8-db7d-98b4-9f7b-c223649e918d/mzaf_3532334532614676681.plus.aac.p.m4a",
-    "duration": 236480,
-    "trackUrl": "https://music.apple.com/us/album/next-stop/1602185213?i=1602185216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
-    "trackId": "1602185216"
-  },
-  {
-    "id": "applemusic-1602185217",
-    "name": "Winter Sleep",
-    "artists": [
-      "IU"
-    ],
-    "album": "Pieces - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7e/82/d4/7e82d4de-be15-fcb7-4d2b-ae578eddb881/mzaf_2472149605248089994.plus.aac.p.m4a",
-    "duration": 262120,
-    "trackUrl": "https://music.apple.com/us/album/winter-sleep/1602185213?i=1602185217",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
-    "trackId": "1602185217"
-  },
-  {
-    "id": "applemusic-1602185218",
-    "name": "You",
-    "artists": [
-      "IU"
-    ],
-    "album": "Pieces - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e5/b6/33/e5b633f0-cedd-8be0-168a-3ee38a68ac60/mzaf_1375679969451428235.plus.aac.p.m4a",
-    "duration": 206373,
-    "trackUrl": "https://music.apple.com/us/album/you/1602185213?i=1602185218",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
-    "trackId": "1602185218"
-  },
-  {
-    "id": "applemusic-1602185219",
-    "name": "Love Letter",
-    "artists": [
-      "IU"
-    ],
-    "album": "Pieces - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a7/60/26/a760260a-20e3-22e6-a299-810684193ad4/mzaf_9222624349657177998.plus.aac.p.m4a",
-    "duration": 238333,
-    "trackUrl": "https://music.apple.com/us/album/love-letter/1602185213?i=1602185219",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b6/d7/03/b6d70395-380c-42b1-6cab-04d51c1c4d9d/cover_KM0014526_1.jpg/300x300bb.jpg",
-    "trackId": "1602185219"
   },
   {
     "id": "applemusic-526669180",
@@ -1170,6 +975,110 @@
     "trackId": "484346312"
   },
   {
+    "id": "applemusic-721958294",
+    "name": "Love of B (with Park Ju-won)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2a/5e/b7/2a5eb702-4daf-cc1b-2675-5339236bd68c/mzaf_15467888579998456732.plus.aac.p.m4a",
+    "duration": 191320,
+    "trackUrl": "https://music.apple.com/us/album/love-of-b-with-park-ju-won/721958263?i=721958294",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958294"
+  },
+  {
+    "id": "applemusic-721958299",
+    "name": "Between the Lips (50 cm)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/5c/59/7b5c596f-10f5-5fcd-d177-110133d76c39/mzaf_9222606712574786641.plus.aac.p.m4a",
+    "duration": 170716,
+    "trackUrl": "https://music.apple.com/us/album/between-the-lips-50-cm/721958263?i=721958299",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958299"
+  },
+  {
+    "id": "applemusic-721958301",
+    "name": "The Red Shoes",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6f/73/55/6f73551b-48e0-2e3f-a5f8-94a473b34cd7/mzaf_5926323430802697003.plus.aac.p.m4a",
+    "duration": 254191,
+    "trackUrl": "https://music.apple.com/us/album/the-red-shoes/721958263?i=721958301",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958301"
+  },
+  {
+    "id": "applemusic-721958302",
+    "name": "Modern Times",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/91/f5/5e91f507-5d69-7285-5a6e-3457a5a281d0/mzaf_1297336367498560318.plus.aac.p.m4a",
+    "duration": 205500,
+    "trackUrl": "https://music.apple.com/us/album/modern-times/721958263?i=721958302",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958302"
+  },
+  {
+    "id": "applemusic-721958303",
+    "name": "Bad Day",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/73/78/84/7378847a-cdb9-51fb-efd5-eea73d95865d/mzaf_10079749168054896141.plus.aac.p.m4a",
+    "duration": 232711,
+    "trackUrl": "https://music.apple.com/us/album/bad-day/721958263?i=721958303",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958303"
+  },
+  {
+    "id": "applemusic-721958304",
+    "name": "Obliviate",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/69/ab/e4/69abe4e2-75e7-69f2-8e2b-a8735ae2a61a/mzaf_2676265526854953020.plus.aac.p.m4a",
+    "duration": 190173,
+    "trackUrl": "https://music.apple.com/us/album/obliviate/721958263?i=721958304",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958304"
+  },
+  {
+    "id": "applemusic-721958309",
+    "name": "Havana",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/67/1c/ff671cf6-5b12-4a85-1607-73c79f08e24e/mzaf_11657763960425156784.plus.aac.p.m4a",
+    "duration": 249054,
+    "trackUrl": "https://music.apple.com/us/album/havana/721958263?i=721958309",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958309"
+  },
+  {
+    "id": "applemusic-721958318",
+    "name": "Wait",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/dd/ab/bf/ddabbf8f-ac00-5afa-b435-0ed3890748c2/mzaf_12979715088670550115.plus.aac.p.m4a",
+    "duration": 150878,
+    "trackUrl": "https://music.apple.com/us/album/wait/721958263?i=721958318",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/b6/84/fd/b684fdae-92d3-782b-fa89-eb3b9986c2a5/KM0002335-_3_-1008.jpg/300x300bb.jpg",
+    "trackId": "721958318"
+  },
+  {
     "id": "applemusic-378048655",
     "name": "Nitpicking (with Lim Seul Ong) [feat. Lim Seul Ong]",
     "artists": [
@@ -1220,6 +1129,162 @@
     "trackUrl": "https://music.apple.com/us/album/fairy-tale-feat-iu/1445990936?i=1445990938",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/cd/b4/c8/cdb4c875-3541-01cf-c200-fa7dc02600da/cover-_DS_NEW.jpg/300x300bb.jpg",
     "trackId": "1445990938"
+  },
+  {
+    "id": "applemusic-786863008",
+    "name": "Friday (feat. Jang Yi-jeong)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times – Epilogue",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/b6/df/7cb6df7b-ca30-bd0b-bed8-9471f34b1675/mzaf_4255039572410898691.plus.aac.p.m4a",
+    "duration": 217090,
+    "trackUrl": "https://music.apple.com/us/album/friday-feat-jang-yi-jeong/786862990?i=786863008",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
+    "trackId": "786863008"
+  },
+  {
+    "id": "applemusic-786863012",
+    "name": "Crayon (From Drama \"Pretty Boy\")",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times – Epilogue",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b7/e2/96/b7e2967a-d1a4-266c-c72e-4d20016363f8/mzaf_15864691540204862731.plus.aac.p.m4a",
+    "duration": 193811,
+    "trackUrl": "https://music.apple.com/us/album/crayon-from-drama-pretty-boy/786862990?i=786863012",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
+    "trackId": "786863012"
+  },
+  {
+    "id": "applemusic-786863014",
+    "name": "Everybody Has Secrets (feat. GAIN)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times – Epilogue",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/ce/06/9bce06ae-89f6-1e97-ccf9-9b72d21936ca/mzaf_3992364183934978866.plus.aac.p.m4a",
+    "duration": 229360,
+    "trackUrl": "https://music.apple.com/us/album/everybody-has-secrets-feat-gain/786862990?i=786863014",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
+    "trackId": "786863014"
+  },
+  {
+    "id": "applemusic-786863020",
+    "name": "Walk With Me, Girl (feat. Choi Baek Ho)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times – Epilogue",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/ff/21/c1ff212a-40db-e107-23bf-862d61185c92/mzaf_3099229262516375706.plus.aac.p.m4a",
+    "duration": 299999,
+    "trackUrl": "https://music.apple.com/us/album/walk-with-me-girl-feat-choi-baek-ho/786862990?i=786863020",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
+    "trackId": "786863020"
+  },
+  {
+    "id": "applemusic-786863022",
+    "name": "A Gloomy Clock (feat. JONGHYUN)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times – Epilogue",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/93/1e/28931e5a-74b1-7c80-4dde-11086f28035a/mzaf_17810539729199523751.plus.aac.p.m4a",
+    "duration": 168084,
+    "trackUrl": "https://music.apple.com/us/album/a-gloomy-clock-feat-jonghyun/786862990?i=786863022",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
+    "trackId": "786863022"
+  },
+  {
+    "id": "applemusic-786863023",
+    "name": "Daydream (feat. Yang Hee-eun)",
+    "artists": [
+      "IU"
+    ],
+    "album": "Modern Times – Epilogue",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/1e/aa/521eaaf1-839a-0ac2-cb96-a1ad38b5f4d8/mzaf_9667544622513932024.plus.aac.p.m4a",
+    "duration": 220738,
+    "trackUrl": "https://music.apple.com/us/album/daydream-feat-yang-hee-eun/786862990?i=786863023",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/7e/c4/63/7ec46341-e1c2-0e22-00a9-b2a11d4b559a/KM0002460-_3_-1220.jpg/300x300bb.jpg",
+    "trackId": "786863023"
+  },
+  {
+    "id": "applemusic-1499290393",
+    "name": "Give You My Heart",
+    "artists": [
+      "IU"
+    ],
+    "album": "Crash Landing on You (Original Television Soundtrack), Pt. 11 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2b/51/ef/2b51ef89-bc48-f2ca-8e65-c1198c9c27d0/mzaf_14182623094209612803.plus.aac.p.m4a",
+    "duration": 280360,
+    "trackUrl": "https://music.apple.com/us/album/give-you-my-heart/1499290392?i=1499290393",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/46/24/3a/46243ae1-132d-7a20-6fb1-5a08d66b3a55/cover_-_OST_Part.11.png/300x300bb.jpg",
+    "trackId": "1499290393"
+  },
+  {
+    "id": "applemusic-340375486",
+    "name": "Love Attack",
+    "artists": [
+      "IU"
+    ],
+    "album": "IU...IM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/0e/13/280e1313-3dd7-7ed1-6e52-7f06db051ddc/mzaf_18198683471119883621.plus.aac.p.m4a",
+    "duration": 191964,
+    "trackUrl": "https://music.apple.com/us/album/love-attack/340375473?i=340375486",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
+    "trackId": "340375486"
+  },
+  {
+    "id": "applemusic-340375487",
+    "name": "Taking a Train",
+    "artists": [
+      "IU"
+    ],
+    "album": "IU...IM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/9a/bf/169abf85-078e-0d94-ab4b-d655a88d2dbb/mzaf_2708708602710853169.plus.aac.p.m4a",
+    "duration": 224738,
+    "trackUrl": "https://music.apple.com/us/album/taking-a-train/340375473?i=340375487",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
+    "trackId": "340375487"
+  },
+  {
+    "id": "applemusic-340375488",
+    "name": "Marshmallow",
+    "artists": [
+      "IU"
+    ],
+    "album": "IU...IM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/77/1d/84771d09-a6ae-c1d0-4ef2-bee1d4d64216/mzaf_15653420737307347071.plus.aac.p.m4a",
+    "duration": 195796,
+    "trackUrl": "https://music.apple.com/us/album/marshmallow/340375473?i=340375488",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
+    "trackId": "340375488"
+  },
+  {
+    "id": "applemusic-340375489",
+    "name": "Tear Drops in the Morning",
+    "artists": [
+      "IU"
+    ],
+    "album": "IU...IM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/63/93/cc/6393ccc5-1e9f-7309-9797-25fc384386c1/mzaf_9273586932481739497.plus.aac.p.m4a",
+    "duration": 231732,
+    "trackUrl": "https://music.apple.com/us/album/tear-drops-in-the-morning/340375473?i=340375489",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
+    "trackId": "340375489"
+  },
+  {
+    "id": "applemusic-340375498",
+    "name": "Heart Beating Date",
+    "artists": [
+      "IU"
+    ],
+    "album": "IU...IM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/fe/3a/81fe3ab5-7ba4-8b09-958d-da56abbc2fda/mzaf_4586824187675137120.plus.aac.p.m4a",
+    "duration": 203046,
+    "trackUrl": "https://music.apple.com/us/album/heart-beating-date/340375473?i=340375498",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
+    "trackId": "340375498"
   },
   {
     "id": "applemusic-343278917",
@@ -1376,84 +1441,6 @@
     "trackUrl": "https://music.apple.com/us/album/face-to-face-after-looking-at-you/343278916?i=343278945",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/16/25/3b162583-e45c-ac9e-15db-44332860a2d9/mzi.mgxmjkaw.jpg/300x300bb.jpg",
     "trackId": "343278945"
-  },
-  {
-    "id": "applemusic-1499290393",
-    "name": "Give You My Heart",
-    "artists": [
-      "IU"
-    ],
-    "album": "Crash Landing on You (Original Television Soundtrack), Pt. 11 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2b/51/ef/2b51ef89-bc48-f2ca-8e65-c1198c9c27d0/mzaf_14182623094209612803.plus.aac.p.m4a",
-    "duration": 280360,
-    "trackUrl": "https://music.apple.com/us/album/give-you-my-heart/1499290392?i=1499290393",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/46/24/3a/46243ae1-132d-7a20-6fb1-5a08d66b3a55/cover_-_OST_Part.11.png/300x300bb.jpg",
-    "trackId": "1499290393"
-  },
-  {
-    "id": "applemusic-340375486",
-    "name": "Love Attack",
-    "artists": [
-      "IU"
-    ],
-    "album": "IU...IM",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/0e/13/280e1313-3dd7-7ed1-6e52-7f06db051ddc/mzaf_18198683471119883621.plus.aac.p.m4a",
-    "duration": 191964,
-    "trackUrl": "https://music.apple.com/us/album/love-attack/340375473?i=340375486",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
-    "trackId": "340375486"
-  },
-  {
-    "id": "applemusic-340375487",
-    "name": "Taking a Train",
-    "artists": [
-      "IU"
-    ],
-    "album": "IU...IM",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/9a/bf/169abf85-078e-0d94-ab4b-d655a88d2dbb/mzaf_2708708602710853169.plus.aac.p.m4a",
-    "duration": 224738,
-    "trackUrl": "https://music.apple.com/us/album/taking-a-train/340375473?i=340375487",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
-    "trackId": "340375487"
-  },
-  {
-    "id": "applemusic-340375488",
-    "name": "Marshmallow",
-    "artists": [
-      "IU"
-    ],
-    "album": "IU...IM",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/77/1d/84771d09-a6ae-c1d0-4ef2-bee1d4d64216/mzaf_15653420737307347071.plus.aac.p.m4a",
-    "duration": 195796,
-    "trackUrl": "https://music.apple.com/us/album/marshmallow/340375473?i=340375488",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
-    "trackId": "340375488"
-  },
-  {
-    "id": "applemusic-340375489",
-    "name": "Tear Drops in the Morning",
-    "artists": [
-      "IU"
-    ],
-    "album": "IU...IM",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/63/93/cc/6393ccc5-1e9f-7309-9797-25fc384386c1/mzaf_9273586932481739497.plus.aac.p.m4a",
-    "duration": 231732,
-    "trackUrl": "https://music.apple.com/us/album/tear-drops-in-the-morning/340375473?i=340375489",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
-    "trackId": "340375489"
-  },
-  {
-    "id": "applemusic-340375498",
-    "name": "Heart Beating Date",
-    "artists": [
-      "IU"
-    ],
-    "album": "IU...IM",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/fe/3a/81fe3ab5-7ba4-8b09-958d-da56abbc2fda/mzaf_4586824187675137120.plus.aac.p.m4a",
-    "duration": 203046,
-    "trackUrl": "https://music.apple.com/us/album/heart-beating-date/340375473?i=340375498",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e8/f0/8e/mzi.mmjkqcht.jpg/300x300bb.jpg",
-    "trackId": "340375498"
   },
   {
     "id": "applemusic-1802808901",
@@ -1740,19 +1727,6 @@
     "trackUrl": "https://music.apple.com/jp/album/new-world/720582961?i=720583147",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/0f/65/e5/0f65e5ff-3b73-cd42-70e3-9dec9cbfdafb/05099995889559.jpg/300x300bb.jpg",
     "trackId": "720583147"
-  },
-  {
-    "id": "applemusic-720589934",
-    "name": "You & I (Japanese Version)",
-    "artists": [
-      "IU"
-    ],
-    "album": "You & I (Japanese Version) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9c/57/bf/9c57bfaf-0e64-2722-4eda-7c1f3e9c770c/mzaf_1906632706081758866.plus.aac.p.m4a",
-    "duration": 241667,
-    "trackUrl": "https://music.apple.com/jp/album/you-i-japanese-version/720589620?i=720589934",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1f/d2/93/1fd2936b-6a60-5aee-19be-bedf18eaba80/05099997247050.jpg/300x300bb.jpg",
-    "trackId": "720589934"
   },
   {
     "id": "applemusic-724923580",

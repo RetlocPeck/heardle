@@ -11,6 +11,19 @@ Shared utility module containing common functions for Apple Music API operations
 - **Helper Functions**: `sleep`, `isEnglishOnly`, `getBaseName`, `normalizeName`
 - **Main Function**: `fetchAllTracksForArtist(appleMusicArtistId)` - Complete workflow to fetch and process all tracks for an artist
 
+### Track Filtering
+
+The `filterTracks()` function removes:
+- Tracks without preview URLs
+- Non-English track names (Korean, Japanese, Chinese characters)
+- **Intro/outro/skit tracks** (intro, outro, introduction, skit, interlude)
+- **Version tracks** (Japanese Ver., Korean Version, English Ver., etc.)
+- Instrumentals, karaoke, acapella versions
+- Remixes, remasters, demos
+- Live versions, concert recordings
+
+**Note**: This matches the runtime filtering logic in `src/lib/services/trackFilters.ts` to ensure consistency between build-time and runtime filtering.
+
 ### Constants
 
 - `BASE_URL` - Apple Music API base URL
@@ -123,3 +136,36 @@ node scripts/refetch-artist.js triples 1651595986
 - After adding a new artist to `src/config/artists.ts`
 - When you need to refresh data for a specific artist (e.g., new releases)
 - When fixing data issues for a single artist
+
+## Bulk Regeneration
+
+### regenerate-all-artists.ps1 / regenerate-all-artists.sh
+
+Helper scripts to regenerate song data for all artists at once.
+
+#### Usage (Windows PowerShell)
+
+```powershell
+powershell scripts/regenerate-all-artists.ps1
+```
+
+#### Usage (Linux/Mac)
+
+```bash
+bash scripts/regenerate-all-artists.sh
+```
+
+#### What It Does
+
+1. Prompts for confirmation before starting
+2. Runs `node scripts/prefetch-songs.js`
+3. Regenerates all artist data with current filters
+4. Shows summary of results
+
+#### When to Use
+
+- After updating filter logic in `apple-music-utils.js`
+- To apply new filtering rules to all existing artists
+- When data needs a complete refresh across the entire catalog
+
+**Note**: This will take 10-30 minutes depending on the number of artists configured.

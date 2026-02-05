@@ -143,19 +143,6 @@
     "trackId": "1335980964"
   },
   {
-    "id": "applemusic-1342128212",
-    "name": "Intro",
-    "artists": [
-      "G-DRAGON & T.O.P"
-    ],
-    "album": "GD&TOP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/33/05/7b/33057b7a-8f88-eb58-6bed-14299e2df198/mzaf_17828667513700249439.plus.aac.p.m4a",
-    "duration": 127102,
-    "trackUrl": "https://music.apple.com/us/album/intro/1342128207?i=1342128212",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/5f/7d/5b5f7d20-3e27-22c3-04c8-c45bb163e251/edit_final_itunes_cover.jpg/300x300bb.jpg",
-    "trackId": "1342128212"
-  },
-  {
     "id": "applemusic-1342128213",
     "name": "High High",
     "artists": [
@@ -286,19 +273,6 @@
     "trackId": "1348147297"
   },
   {
-    "id": "applemusic-1348147335",
-    "name": "NILIRIA (G-DRAGON Version)",
-    "artists": [
-      "G-DRAGON"
-    ],
-    "album": "COUP D'ETAT",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c6/0f/d4/c60fd4e0-b21c-7f88-8647-85eeff7fd43a/mzaf_1681562803994672718.plus.aac.p.m4a",
-    "duration": 172295,
-    "trackUrl": "https://music.apple.com/us/album/niliria-g-dragon-version/1348146514?i=1348147335",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e0/2d/fd/e02dfdb5-07d1-80cc-a9fd-d023d98f76b6/8806197910472.jpg/300x300bb.jpg",
-    "trackId": "1348147335"
-  },
-  {
     "id": "applemusic-1348147299",
     "name": "R.O.D. (feat. LYDIA PAEK)",
     "artists": [
@@ -401,19 +375,6 @@
     "trackUrl": "https://music.apple.com/us/album/i-love-it-feat-zion-t-boys-noize/1348146514?i=1348147337",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e0/2d/fd/e02dfdb5-07d1-80cc-a9fd-d023d98f76b6/8806197910472.jpg/300x300bb.jpg",
     "trackId": "1348147337"
-  },
-  {
-    "id": "applemusic-1348147338",
-    "name": "YOU DO (Outro)",
-    "artists": [
-      "G-DRAGON"
-    ],
-    "album": "COUP D'ETAT",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d4/2a/4e/d42a4e0e-9b66-9bab-81f7-bf7afd1a8417/mzaf_16591532293612233989.plus.aac.p.m4a",
-    "duration": 157871,
-    "trackUrl": "https://music.apple.com/us/album/you-do-outro/1348146514?i=1348147338",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/e0/2d/fd/e02dfdb5-07d1-80cc-a9fd-d023d98f76b6/8806197910472.jpg/300x300bb.jpg",
-    "trackId": "1348147338"
   },
   {
     "id": "applemusic-1337476499",
@@ -559,19 +520,6 @@
     "trackId": "1832404207"
   },
   {
-    "id": "applemusic-740327419",
-    "name": "BLACK [feat. BOM (from 2NE1)] -JPN-",
-    "artists": [
-      "G-DRAGON (from BIGBANG)"
-    ],
-    "album": "COUP D'ETAT [+ ONE OF A KIND & HEARTBREAKER]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/1e/4a/451e4a11-940a-61ed-c394-1455a5f2a367/mzaf_13937802261415051741.plus.aac.p.m4a",
-    "duration": 205520,
-    "trackUrl": "https://music.apple.com/us/album/black-feat-bom-from-2ne1-jpn/740327399?i=740327419",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fa/21/99/fa21992a-656d-035c-8b8f-8d2b23209384/AVCY-58118.jpg/300x300bb.jpg",
-    "trackId": "740327419"
-  },
-  {
     "id": "applemusic-1354799202",
     "name": "Only Look At Me, Pt. 2",
     "artists": [
@@ -583,6 +531,19 @@
     "trackUrl": "https://music.apple.com/us/album/only-look-at-me-pt-2/1354798889?i=1354799202",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/82/a3/83/82a383ea-c1a3-f7b2-5c95-edbe7434475a/itunes_2.jpg/300x300bb.jpg",
     "trackId": "1354799202"
+  },
+  {
+    "id": "applemusic-740327419",
+    "name": "BLACK [feat. BOM (from 2NE1)] -JPN-",
+    "artists": [
+      "G-DRAGON (from BIGBANG)"
+    ],
+    "album": "COUP D'ETAT [+ ONE OF A KIND & HEARTBREAKER]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/1e/4a/451e4a11-940a-61ed-c394-1455a5f2a367/mzaf_13937802261415051741.plus.aac.p.m4a",
+    "duration": 205520,
+    "trackUrl": "https://music.apple.com/us/album/black-feat-bom-from-2ne1-jpn/740327399?i=740327419",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fa/21/99/fa21992a-656d-035c-8b8f-8d2b23209384/AVCY-58118.jpg/300x300bb.jpg",
+    "trackId": "740327419"
   },
   {
     "id": "applemusic-1837828874",
@@ -676,19 +637,6 @@
     "trackId": "947778019"
   },
   {
-    "id": "applemusic-1246061647",
-    "name": "INTRO: KWON JI YONG (Middle Fingers-Up)",
-    "artists": [
-      "G-DRAGON (from BIGBANG)"
-    ],
-    "album": "KWON JI YONG -KR EDITION- - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/67/2c/c3672c68-f2aa-35c4-04f2-831680d042e9/mzaf_15720528801229562847.plus.aac.p.m4a",
-    "duration": 222722,
-    "trackUrl": "https://music.apple.com/jp/album/intro-kwon-ji-yong-middle-fingers-up/1246061639?i=1246061647",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/23/17/1e/23171e01-7d6e-db1c-5fe3-2e14db7a4864/dj.jsiokmqj.jpg/300x300bb.jpg",
-    "trackId": "1246061647"
-  },
-  {
     "id": "applemusic-1246061648",
     "name": "BULLSHIT",
     "artists": [
@@ -700,19 +648,6 @@
     "trackUrl": "https://music.apple.com/jp/album/bullshit/1246061639?i=1246061648",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/23/17/1e/23171e01-7d6e-db1c-5fe3-2e14db7a4864/dj.jsiokmqj.jpg/300x300bb.jpg",
     "trackId": "1246061648"
-  },
-  {
-    "id": "applemusic-1246061831",
-    "name": "OUTRO: Divina Commedia",
-    "artists": [
-      "G-DRAGON (from BIGBANG)"
-    ],
-    "album": "KWON JI YONG -KR EDITION- - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/93/54/c09354c0-a906-a4d7-b6bc-a4c9ef4a4394/mzaf_490526973023259093.plus.aac.p.m4a",
-    "duration": 224400,
-    "trackUrl": "https://music.apple.com/jp/album/outro-divina-commedia/1246061639?i=1246061831",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/23/17/1e/23171e01-7d6e-db1c-5fe3-2e14db7a4864/dj.jsiokmqj.jpg/300x300bb.jpg",
-    "trackId": "1246061831"
   },
   {
     "id": "applemusic-1798155284",

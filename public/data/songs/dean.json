@@ -13,19 +13,6 @@
     "trackId": "1445152073"
   },
   {
-    "id": "applemusic-1422639669",
-    "name": "And You? (Outro)",
-    "artists": [
-      "DEAN"
-    ],
-    "album": "130 Mood: TRBL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d6/d1/2b/d6d12bca-59bf-ca0e-17be-1715083db23a/mzaf_6717131306487040537.plus.aac.p.m4a",
-    "duration": 133287,
-    "trackUrl": "https://music.apple.com/us/album/and-you-outro/1422639416?i=1422639669",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8e/a2/d0/8ea2d001-0b52-a451-4a7c-de35d3502155/00602547860828.rgb.jpg/300x300bb.jpg",
-    "trackId": "1422639669"
-  },
-  {
     "id": "applemusic-1422639670",
     "name": "Pour Up (feat. ZICO)",
     "artists": [
@@ -362,18 +349,5 @@
     "trackUrl": "https://music.apple.com/us/album/bad-vibes-lonely-feat-dean/1626817235?i=1626817419",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/9e/a0/949ea0e8-0d79-fe6a-d8f3-af39d1cde674/8809484113525_Cover.jpg/300x300bb.jpg",
     "trackId": "1626817419"
-  },
-  {
-    "id": "applemusic-1872641957",
-    "name": "Yin and Yang (feat. DEAN & PENOMECO) [FANXY CHILD Ver.]",
-    "artists": [
-      "ZICO & Crush"
-    ],
-    "album": "Yin and Yang (feat. DEAN & PENOMECO) [FANXY CHILD Ver.] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/0c/47/260c472a-136c-fbb7-cfb2-9bd307f7862a/mzaf_2990273812058681992.plus.aac.p.m4a",
-    "duration": 222000,
-    "trackUrl": "https://music.apple.com/us/album/yin-and-yang-feat-dean-penomeco-fanxy-child-ver/1872641956?i=1872641957",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/3c/46/f53c461f-d7a1-182d-62fc-2aac2d293ad7/191953512969.jpg/300x300bb.jpg",
-    "trackId": "1872641957"
   }
 ]

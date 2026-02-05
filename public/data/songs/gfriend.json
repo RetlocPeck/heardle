@@ -143,19 +143,6 @@
     "trackId": "1754053907"
   },
   {
-    "id": "applemusic-1754049578",
-    "name": "INTRO",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "LOL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/3b/0b/243b0b0f-7a15-43ea-d813-fe5ef6592add/mzaf_13369933037839017374.plus.aac.p.m4a",
-    "duration": 66187,
-    "trackUrl": "https://music.apple.com/us/album/intro/1754049565?i=1754049578",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/e1/5c/94e15ce9-8d5a-6921-2433-700553417da2/8804775072109_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754049578"
-  },
-  {
     "id": "applemusic-1754047953",
     "name": "Time for the moon night",
     "artists": [
@@ -572,123 +559,6 @@
     "trackId": "1754045818"
   },
   {
-    "id": "applemusic-1483715341",
-    "name": "Memoria",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "Fallin' Light",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/e3/c3/9ee3c392-b3b4-c666-1db8-fe4aa6f4e643/mzaf_3212310856791391912.plus.aac.p.m4a",
-    "duration": 250427,
-    "trackUrl": "https://music.apple.com/jp/album/memoria/1483715338?i=1483715341",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/6c/ce/596cceec-57c8-eaa0-7aff-e8965d78dce2/KICS-93871-1400.jpg/300x300bb.jpg",
-    "trackId": "1483715341"
-  },
-  {
-    "id": "applemusic-1754046901",
-    "name": "Love Whisper",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/dc/6b/cadc6b68-d53d-b819-c53e-50cf14bfd9cf/mzaf_13289364223376662972.plus.aac.p.m4a",
-    "duration": 211972,
-    "trackUrl": "https://music.apple.com/us/album/love-whisper/1754046896?i=1754046901",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754046901"
-  },
-  {
-    "id": "applemusic-1754046904",
-    "name": "Summer Rain",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/45/7e/01457e8c-2a2d-b737-2c91-54b18f1fa8f0/mzaf_8491865642207690243.plus.aac.p.m4a",
-    "duration": 200237,
-    "trackUrl": "https://music.apple.com/us/album/summer-rain/1754046896?i=1754046904",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754046904"
-  },
-  {
-    "id": "applemusic-1754046906",
-    "name": "Rainbow",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/7a/0c/cc7a0cb8-5595-994a-cea6-b7e54451ca53/mzaf_18145840829385858728.plus.aac.p.m4a",
-    "duration": 232445,
-    "trackUrl": "https://music.apple.com/us/album/rainbow/1754046896?i=1754046906",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754046906"
-  },
-  {
-    "id": "applemusic-1754046916",
-    "name": "Ave Maria",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/d3/5e/13d35e25-3702-3be9-8a7f-3ec59cc3c3ad/mzaf_5190314735503852946.plus.aac.p.m4a",
-    "duration": 197902,
-    "trackUrl": "https://music.apple.com/us/album/ave-maria/1754046896?i=1754046916",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754046916"
-  },
-  {
-    "id": "applemusic-1754046917",
-    "name": "One-Half",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/43/7f/ee437fe9-9f7e-52be-b8ec-90a7647f0361/mzaf_12527777226559952131.plus.aac.p.m4a",
-    "duration": 214058,
-    "trackUrl": "https://music.apple.com/us/album/one-half/1754046896?i=1754046917",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754046917"
-  },
-  {
-    "id": "applemusic-1754047189",
-    "name": "Life Is a Party",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/3a/f7/0c3af7db-be4e-8c23-c901-3015a8f1baad/mzaf_15970778491831874987.plus.aac.p.m4a",
-    "duration": 179987,
-    "trackUrl": "https://music.apple.com/us/album/life-is-a-party/1754046896?i=1754047189",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754047189"
-  },
-  {
-    "id": "applemusic-1754047190",
-    "name": "Red Umbrella",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/19/09/601909e3-3379-6c40-1b53-0dab2f2ba695/mzaf_3276786140137927018.plus.aac.p.m4a",
-    "duration": 206103,
-    "trackUrl": "https://music.apple.com/us/album/red-umbrella/1754046896?i=1754047190",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754047190"
-  },
-  {
-    "id": "applemusic-1754047195",
-    "name": "Falling Asleep Again",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "RAINBOW",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/af/b8/6aafb874-b3e3-3d35-3fa4-12e3f0b675a1/mzaf_7988815740675903891.plus.aac.p.m4a",
-    "duration": 223825,
-    "trackUrl": "https://music.apple.com/us/album/falling-asleep-again/1754046896?i=1754047195",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
-    "trackId": "1754047195"
-  },
-  {
     "id": "applemusic-1754049580",
     "name": "Fall in Love",
     "artists": [
@@ -817,6 +687,110 @@
     "trackUrl": "https://music.apple.com/us/album/gone-with-the-wind/1754049565?i=1754049875",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/e1/5c/94e15ce9-8d5a-6921-2433-700553417da2/8804775072109_Cover.jpg/300x300bb.jpg",
     "trackId": "1754049875"
+  },
+  {
+    "id": "applemusic-1754046901",
+    "name": "Love Whisper",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/dc/6b/cadc6b68-d53d-b819-c53e-50cf14bfd9cf/mzaf_13289364223376662972.plus.aac.p.m4a",
+    "duration": 211972,
+    "trackUrl": "https://music.apple.com/us/album/love-whisper/1754046896?i=1754046901",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754046901"
+  },
+  {
+    "id": "applemusic-1754046904",
+    "name": "Summer Rain",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/45/7e/01457e8c-2a2d-b737-2c91-54b18f1fa8f0/mzaf_8491865642207690243.plus.aac.p.m4a",
+    "duration": 200237,
+    "trackUrl": "https://music.apple.com/us/album/summer-rain/1754046896?i=1754046904",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754046904"
+  },
+  {
+    "id": "applemusic-1754046906",
+    "name": "Rainbow",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/7a/0c/cc7a0cb8-5595-994a-cea6-b7e54451ca53/mzaf_18145840829385858728.plus.aac.p.m4a",
+    "duration": 232445,
+    "trackUrl": "https://music.apple.com/us/album/rainbow/1754046896?i=1754046906",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754046906"
+  },
+  {
+    "id": "applemusic-1754046916",
+    "name": "Ave Maria",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/13/d3/5e/13d35e25-3702-3be9-8a7f-3ec59cc3c3ad/mzaf_5190314735503852946.plus.aac.p.m4a",
+    "duration": 197902,
+    "trackUrl": "https://music.apple.com/us/album/ave-maria/1754046896?i=1754046916",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754046916"
+  },
+  {
+    "id": "applemusic-1754046917",
+    "name": "One-Half",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/43/7f/ee437fe9-9f7e-52be-b8ec-90a7647f0361/mzaf_12527777226559952131.plus.aac.p.m4a",
+    "duration": 214058,
+    "trackUrl": "https://music.apple.com/us/album/one-half/1754046896?i=1754046917",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754046917"
+  },
+  {
+    "id": "applemusic-1754047189",
+    "name": "Life Is a Party",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/3a/f7/0c3af7db-be4e-8c23-c901-3015a8f1baad/mzaf_15970778491831874987.plus.aac.p.m4a",
+    "duration": 179987,
+    "trackUrl": "https://music.apple.com/us/album/life-is-a-party/1754046896?i=1754047189",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754047189"
+  },
+  {
+    "id": "applemusic-1754047190",
+    "name": "Red Umbrella",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/19/09/601909e3-3379-6c40-1b53-0dab2f2ba695/mzaf_3276786140137927018.plus.aac.p.m4a",
+    "duration": 206103,
+    "trackUrl": "https://music.apple.com/us/album/red-umbrella/1754046896?i=1754047190",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754047190"
+  },
+  {
+    "id": "applemusic-1754047195",
+    "name": "Falling Asleep Again",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "RAINBOW",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6a/af/b8/6aafb874-b3e3-3d35-3fa4-12e3f0b675a1/mzaf_7988815740675903891.plus.aac.p.m4a",
+    "duration": 223825,
+    "trackUrl": "https://music.apple.com/us/album/falling-asleep-again/1754046896?i=1754047195",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c2/d1/9a/c2d19a76-38e7-c1df-b4b6-3a45040163c3/8804775083983_Cover.jpg/300x300bb.jpg",
+    "trackId": "1754047195"
   },
   {
     "id": "applemusic-1754047324",
@@ -960,19 +934,6 @@
     "trackUrl": "https://music.apple.com/us/album/hope/1754047336?i=1754047917",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/f3/f3/0df3f3f4-1b22-b529-657b-dd0e21ddd436/8804775131288_Cover.jpg/300x300bb.jpg",
     "trackId": "1754047917"
-  },
-  {
-    "id": "applemusic-1483715343",
-    "name": "FLOWER",
-    "artists": [
-      "GFRIEND"
-    ],
-    "album": "Fallin' Light",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/83/9d/c1839d37-52cf-b14e-0e85-da4b597c65ad/mzaf_10125518356534903939.plus.aac.p.m4a",
-    "duration": 218880,
-    "trackUrl": "https://music.apple.com/jp/album/flower/1483715338?i=1483715343",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/6c/ce/596cceec-57c8-eaa0-7aff-e8965d78dce2/KICS-93871-1400.jpg/300x300bb.jpg",
-    "trackId": "1483715343"
   },
   {
     "id": "applemusic-1754048194",
@@ -1194,6 +1155,32 @@
     "trackUrl": "https://music.apple.com/jp/album/emotional-days/1483715338?i=1483715340",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/6c/ce/596cceec-57c8-eaa0-7aff-e8965d78dce2/KICS-93871-1400.jpg/300x300bb.jpg",
     "trackId": "1483715340"
+  },
+  {
+    "id": "applemusic-1483715341",
+    "name": "Memoria",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "Fallin' Light",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9e/e3/c3/9ee3c392-b3b4-c666-1db8-fe4aa6f4e643/mzaf_3212310856791391912.plus.aac.p.m4a",
+    "duration": 250427,
+    "trackUrl": "https://music.apple.com/jp/album/memoria/1483715338?i=1483715341",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/6c/ce/596cceec-57c8-eaa0-7aff-e8965d78dce2/KICS-93871-1400.jpg/300x300bb.jpg",
+    "trackId": "1483715341"
+  },
+  {
+    "id": "applemusic-1483715343",
+    "name": "FLOWER",
+    "artists": [
+      "GFRIEND"
+    ],
+    "album": "Fallin' Light",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/83/9d/c1839d37-52cf-b14e-0e85-da4b597c65ad/mzaf_10125518356534903939.plus.aac.p.m4a",
+    "duration": 218880,
+    "trackUrl": "https://music.apple.com/jp/album/flower/1483715338?i=1483715343",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/59/6c/ce/596cceec-57c8-eaa0-7aff-e8965d78dce2/KICS-93871-1400.jpg/300x300bb.jpg",
+    "trackId": "1483715343"
   },
   {
     "id": "applemusic-1483715344",

@@ -1,18 +1,5 @@
 [
   {
-    "id": "applemusic-1700423047",
-    "name": "Intro",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[Dystopia : Lose Myself] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/43/81/c9/4381c9ba-cadb-1fd1-6f11-a60dbd6b8f21/mzaf_3972029687355531567.plus.aac.p.m4a",
-    "duration": 99747,
-    "trackUrl": "https://music.apple.com/us/album/intro/1700423046?i=1700423047",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/15/74/dc/1574dcfd-dc75-160e-153e-e0a71a7e4e48/cover_KM0017911_1.jpg/300x300bb.jpg",
-    "trackId": "1700423047"
-  },
-  {
     "id": "applemusic-1700423051",
     "name": "BOCA",
     "artists": [
@@ -234,19 +221,6 @@
     "trackId": "1700422658"
   },
   {
-    "id": "applemusic-1695504844",
-    "name": "Intro : Save us",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[Apocalypse : Save us]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/35/6c/d9/356cd975-187c-e3b3-d7f1-33f31947369f/mzaf_6848423267914493552.plus.aac.p.m4a",
-    "duration": 61120,
-    "trackUrl": "https://music.apple.com/us/album/intro-save-us/1695504843?i=1695504844",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/fe/c5/07fec590-0a41-ef12-829e-b02bbcf54b3b/82595388.jpg/300x300bb.jpg",
-    "trackId": "1695504844"
-  },
-  {
     "id": "applemusic-1695504845",
     "name": "Locked Inside A Door",
     "artists": [
@@ -310,19 +284,6 @@
     "trackUrl": "https://music.apple.com/us/album/always/1695504843?i=1695504849",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/fe/c5/07fec590-0a41-ef12-829e-b02bbcf54b3b/82595388.jpg/300x300bb.jpg",
     "trackId": "1695504849"
-  },
-  {
-    "id": "applemusic-1695504850",
-    "name": "Skit : The seven doors",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[Apocalypse : Save us]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d2/08/a8/d208a85c-5085-d36b-5277-643077e40611/mzaf_9189052060539706810.plus.aac.p.m4a",
-    "duration": 105720,
-    "trackUrl": "https://music.apple.com/us/album/skit-the-seven-doors/1695504843?i=1695504850",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/fe/c5/07fec590-0a41-ef12-829e-b02bbcf54b3b/82595388.jpg/300x300bb.jpg",
-    "trackId": "1695504850"
   },
   {
     "id": "applemusic-1695504851",
@@ -414,19 +375,6 @@
     "trackUrl": "https://music.apple.com/us/album/playground-gahyeon-solo/1695504843?i=1695505007",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/fe/c5/07fec590-0a41-ef12-829e-b02bbcf54b3b/82595388.jpg/300x300bb.jpg",
     "trackId": "1695505007"
-  },
-  {
-    "id": "applemusic-1688543257",
-    "name": "Intro : From us",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[Apocalypse : From us] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/7b/49/857b4955-0d8e-e552-af98-0cbb42b707bf/mzaf_5226014021362208047.plus.aac.p.m4a",
-    "duration": 68493,
-    "trackUrl": "https://music.apple.com/us/album/intro-from-us/1688543256?i=1688543257",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/72/0e/8c/720e8cd4-141f-1d1a-ca38-5dc834f48f6b/cover_KM0017367_1.jpg/300x300bb.jpg",
-    "trackId": "1688543257"
   },
   {
     "id": "applemusic-1688543258",
@@ -533,19 +481,6 @@
     "trackId": "1700421898"
   },
   {
-    "id": "applemusic-1728639007",
-    "name": "Before & After (Intro)",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Prequel - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/70/49/b8/7049b88a-9ef6-d46f-13fc-fb71594b106f/mzaf_10329955490186576397.plus.aac.p.m4a",
-    "duration": 70612,
-    "trackUrl": "https://music.apple.com/us/album/before-after-intro/1728639006?i=1728639007",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8d/56/2d/8d562dcf-808f-8b99-e1f4-3d62f4643c8c/cover_KM0019452_1.jpg/300x300bb.jpg",
-    "trackId": "1728639007"
-  },
-  {
     "id": "applemusic-1728639008",
     "name": "Fly high",
     "artists": [
@@ -650,175 +585,6 @@
     "trackId": "1695506338"
   },
   {
-    "id": "applemusic-1475888109",
-    "name": "Breaking Out",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "The Beginning of the End",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/ac/6f/c1ac6f3f-5b6f-ae4c-b2ae-9bff1bca6863/mzaf_9307561368053469874.plus.aac.p.m4a",
-    "duration": 199120,
-    "trackUrl": "https://music.apple.com/us/album/breaking-out/1475888107?i=1475888109",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
-    "trackId": "1475888109"
-  },
-  {
-    "id": "applemusic-1475888113",
-    "name": "My Way - Kono Michi No Sakie -",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "The Beginning of the End",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/43/fb/cb/43fbcb42-d1ef-8089-96ea-c677840c8e09/mzaf_5205750521703539565.plus.aac.p.m4a",
-    "duration": 204920,
-    "trackUrl": "https://music.apple.com/us/album/my-way-kono-michi-no-sakie/1475888107?i=1475888113",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
-    "trackId": "1475888113"
-  },
-  {
-    "id": "applemusic-1728785743",
-    "name": "Chase Me",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "악몽 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/70/1d/8a/701d8ab0-3650-1355-e679-01d307765e29/mzaf_5729237228935226448.plus.aac.p.m4a",
-    "duration": 189351,
-    "trackUrl": "https://music.apple.com/us/album/chase-me/1728785741?i=1728785743",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/6d/64/ce6d6461-7a1b-19d7-7894-46944bdf232f/cover_KM0019450_1.jpg/300x300bb.jpg",
-    "trackId": "1728785743"
-  },
-  {
-    "id": "applemusic-1728638713",
-    "name": "GOOD NIGHT",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "악몽·Fall asleep in the mirror - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ca/1b/f8/ca1bf812-fd71-3cd0-a254-8e73e78f53ac/mzaf_13420825995891096198.plus.aac.p.m4a",
-    "duration": 174744,
-    "trackUrl": "https://music.apple.com/us/album/good-night/1728638710?i=1728638713",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/7f/5e/7d7f5e4e-f70c-56ed-fe34-7b1dbd9cf8dd/cover_KM0019451_1.jpg/300x300bb.jpg",
-    "trackId": "1728638713"
-  },
-  {
-    "id": "applemusic-1475888121",
-    "name": "I Miss You",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "The Beginning of the End",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2d/82/95/2d829585-28d9-1e32-f518-b71bfc8e033c/mzaf_15066524379148338730.plus.aac.p.m4a",
-    "duration": 188013,
-    "trackUrl": "https://music.apple.com/us/album/i-miss-you/1475888107?i=1475888121",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
-    "trackId": "1475888121"
-  },
-  {
-    "id": "applemusic-1475888122",
-    "name": "Mata Hitori Ni Natta (Japanese Version)",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "The Beginning of the End",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/0c/14/d00c1412-a0df-bff8-58d9-6d3807dd2f4b/mzaf_6167002084786828175.plus.aac.p.m4a",
-    "duration": 174347,
-    "trackUrl": "https://music.apple.com/us/album/mata-hitori-ni-natta-japanese-version/1475888107?i=1475888122",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
-    "trackId": "1475888122"
-  },
-  {
-    "id": "applemusic-1728639281",
-    "name": "YOU AND I",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Nightmare·Escape The ERA - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bf/0b/6d/bf0b6d83-3a91-33d3-d701-f1d28d91635f/mzaf_2975045255431953249.plus.aac.p.m4a",
-    "duration": 195017,
-    "trackUrl": "https://music.apple.com/us/album/you-and-i/1728639278?i=1728639281",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
-    "trackId": "1728639281"
-  },
-  {
-    "id": "applemusic-1475888124",
-    "name": "Outro",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "The Beginning of the End",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6e/d7/6a/6ed76acc-63ba-73a0-9a70-29684da7a7d7/mzaf_16798870280125349293.plus.aac.p.m4a",
-    "duration": 104253,
-    "trackUrl": "https://music.apple.com/us/album/outro/1475888107?i=1475888124",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
-    "trackId": "1475888124"
-  },
-  {
-    "id": "applemusic-1728639279",
-    "name": "INSIDE-OUTSIDE (Intro)",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Nightmare·Escape The ERA - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/09/22/b0/0922b0ea-7dfb-e85b-17d0-80255ff014ab/mzaf_6378099378252459597.plus.aac.p.m4a",
-    "duration": 83720,
-    "trackUrl": "https://music.apple.com/us/album/inside-outside-intro/1728639278?i=1728639279",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
-    "trackId": "1728639279"
-  },
-  {
-    "id": "applemusic-1728639282",
-    "name": "Mayday",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Nightmare·Escape The ERA - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3b/08/96/3b089681-ceae-4e65-c728-0701e73b0ef8/mzaf_2192928436009769426.plus.aac.p.m4a",
-    "duration": 184548,
-    "trackUrl": "https://music.apple.com/us/album/mayday/1728639278?i=1728639282",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
-    "trackId": "1728639282"
-  },
-  {
-    "id": "applemusic-1728639284",
-    "name": "Which a star",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Nightmare·Escape The ERA - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/58/06/ee/5806ee17-415b-03b8-8add-f7130f6a769e/mzaf_1432571353694108644.plus.aac.p.m4a",
-    "duration": 248487,
-    "trackUrl": "https://music.apple.com/us/album/which-a-star/1728639278?i=1728639284",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
-    "trackId": "1728639284"
-  },
-  {
-    "id": "applemusic-1728639285",
-    "name": "Scar",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Nightmare·Escape The ERA - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ce/23/f1/ce23f1f1-c9cd-247a-e1e1-9910ba9f2663/mzaf_12529853562802967109.plus.aac.p.m4a",
-    "duration": 196566,
-    "trackUrl": "https://music.apple.com/us/album/scar/1728639278?i=1728639285",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
-    "trackId": "1728639285"
-  },
-  {
-    "id": "applemusic-1716693594",
-    "name": "Intro : This My Fashion",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[VillainS] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/7b/e9/29/7be92935-eb71-1cf4-968c-ed07e9c9a600/mzaf_14063783023315239256.plus.aac.p.m4a",
-    "duration": 68666,
-    "trackUrl": "https://music.apple.com/us/album/intro-this-my-fashion/1716693593?i=1716693594",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5f/23/e3/5f23e377-342b-3a7f-fe4c-75d9f72edd84/cover_KM0018954_1.jpg/300x300bb.jpg",
-    "trackId": "1716693594"
-  },
-  {
     "id": "applemusic-1716693596",
     "name": "OOTD",
     "artists": [
@@ -871,17 +637,56 @@
     "trackId": "1716693600"
   },
   {
-    "id": "applemusic-1695507161",
-    "name": "Intro : Chaotical X",
+    "id": "applemusic-1728639281",
+    "name": "YOU AND I",
     "artists": [
       "Dreamcatcher"
     ],
-    "album": "[Apocalypse : Follow us] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/cc/91/d7/cc91d7cf-7d5e-7843-ec9d-ce2bd8cf9c04/mzaf_16934935831498112537.plus.aac.p.m4a",
-    "duration": 72920,
-    "trackUrl": "https://music.apple.com/us/album/intro-chaotical-x/1695507160?i=1695507161",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/75/6f/9c/756f9cb7-0a16-3bbd-f928-7e81d2639ad7/83035237.jpg/300x300bb.jpg",
-    "trackId": "1695507161"
+    "album": "Nightmare·Escape The ERA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bf/0b/6d/bf0b6d83-3a91-33d3-d701-f1d28d91635f/mzaf_2975045255431953249.plus.aac.p.m4a",
+    "duration": 195017,
+    "trackUrl": "https://music.apple.com/us/album/you-and-i/1728639278?i=1728639281",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
+    "trackId": "1728639281"
+  },
+  {
+    "id": "applemusic-1728639282",
+    "name": "Mayday",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "Nightmare·Escape The ERA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3b/08/96/3b089681-ceae-4e65-c728-0701e73b0ef8/mzaf_2192928436009769426.plus.aac.p.m4a",
+    "duration": 184548,
+    "trackUrl": "https://music.apple.com/us/album/mayday/1728639278?i=1728639282",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
+    "trackId": "1728639282"
+  },
+  {
+    "id": "applemusic-1728639284",
+    "name": "Which a star",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "Nightmare·Escape The ERA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/58/06/ee/5806ee17-415b-03b8-8add-f7130f6a769e/mzaf_1432571353694108644.plus.aac.p.m4a",
+    "duration": 248487,
+    "trackUrl": "https://music.apple.com/us/album/which-a-star/1728639278?i=1728639284",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
+    "trackId": "1728639284"
+  },
+  {
+    "id": "applemusic-1728639285",
+    "name": "Scar",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "Nightmare·Escape The ERA - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ce/23/f1/ce23f1f1-c9cd-247a-e1e1-9910ba9f2663/mzaf_12529853562802967109.plus.aac.p.m4a",
+    "duration": 196566,
+    "trackUrl": "https://music.apple.com/us/album/scar/1728639278?i=1728639285",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0e/a4/29/0ea429d0-fcf0-6f98-d433-d2fa4700fc37/cover_KM0019454_1.jpg/300x300bb.jpg",
+    "trackId": "1728639285"
   },
   {
     "id": "applemusic-1695507162",
@@ -936,32 +741,6 @@
     "trackId": "1695507165"
   },
   {
-    "id": "applemusic-1695507466",
-    "name": "Outro : Mother Nature",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[Apocalypse : Follow us] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/df/84/15/df8415cc-b607-6239-1fd1-f268bb69407d/mzaf_6476976601179967058.plus.aac.p.m4a",
-    "duration": 71627,
-    "trackUrl": "https://music.apple.com/us/album/outro-mother-nature/1695507160?i=1695507466",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/75/6f/9c/756f9cb7-0a16-3bbd-f928-7e81d2639ad7/83035237.jpg/300x300bb.jpg",
-    "trackId": "1695507466"
-  },
-  {
-    "id": "applemusic-1755345447",
-    "name": "Intro : 7' Dreamcatcher",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "[VirtuouS] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a6/35/6b/a6356b71-8113-deae-b6af-d61742d23f0f/mzaf_16370750201601595041.plus.aac.p.m4a",
-    "duration": 235467,
-    "trackUrl": "https://music.apple.com/us/album/intro-7-dreamcatcher/1755345446?i=1755345447",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ca/a9/be/caa9be00-bfe1-2396-ec4f-d9972915d8b5/8804775332708.jpg/300x300bb.jpg",
-    "trackId": "1755345447"
-  },
-  {
     "id": "applemusic-1755345448",
     "name": "JUSTICE",
     "artists": [
@@ -1001,17 +780,17 @@
     "trackId": "1755345451"
   },
   {
-    "id": "applemusic-1728785742",
-    "name": "Welcome to Dream (Intro)",
+    "id": "applemusic-1728785743",
+    "name": "Chase Me",
     "artists": [
       "Dreamcatcher"
     ],
     "album": "악몽 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ce/ac/01/ceac01c0-352b-7dd7-490d-e5deea90e7ce/mzaf_15795039242486645207.plus.aac.p.m4a",
-    "duration": 40204,
-    "trackUrl": "https://music.apple.com/us/album/welcome-to-dream-intro/1728785741?i=1728785742",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/70/1d/8a/701d8ab0-3650-1355-e679-01d307765e29/mzaf_5729237228935226448.plus.aac.p.m4a",
+    "duration": 189351,
+    "trackUrl": "https://music.apple.com/us/album/chase-me/1728785741?i=1728785743",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ce/6d/64/ce6d6461-7a1b-19d7-7894-46944bdf232f/cover_KM0019450_1.jpg/300x300bb.jpg",
-    "trackId": "1728785742"
+    "trackId": "1728785743"
   },
   {
     "id": "applemusic-1728785744",
@@ -1027,17 +806,17 @@
     "trackId": "1728785744"
   },
   {
-    "id": "applemusic-1728638712",
-    "name": "My Toys (Intro)",
+    "id": "applemusic-1728638713",
+    "name": "GOOD NIGHT",
     "artists": [
       "Dreamcatcher"
     ],
     "album": "악몽·Fall asleep in the mirror - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/99/a0/9b/99a09bbe-f371-1b40-cad2-379f29ddb2eb/mzaf_5586416933797778718.plus.aac.p.m4a",
-    "duration": 66808,
-    "trackUrl": "https://music.apple.com/us/album/my-toys-intro/1728638710?i=1728638712",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ca/1b/f8/ca1bf812-fd71-3cd0-a254-8e73e78f53ac/mzaf_13420825995891096198.plus.aac.p.m4a",
+    "duration": 174744,
+    "trackUrl": "https://music.apple.com/us/album/good-night/1728638710?i=1728638713",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/7f/5e/7d7f5e4e-f70c-56ed-fe34-7b1dbd9cf8dd/cover_KM0019451_1.jpg/300x300bb.jpg",
-    "trackId": "1728638712"
+    "trackId": "1728638713"
   },
   {
     "id": "applemusic-1728638714",
@@ -1051,58 +830,6 @@
     "trackUrl": "https://music.apple.com/us/album/lullaby/1728638710?i=1728638714",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/7f/5e/7d7f5e4e-f70c-56ed-fe34-7b1dbd9cf8dd/cover_KM0019451_1.jpg/300x300bb.jpg",
     "trackId": "1728638714"
-  },
-  {
-    "id": "applemusic-1537937757",
-    "name": "NO MORE",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "NO MORE - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/02/72/b90272c2-965d-1540-a7ac-401d0fb34437/mzaf_1915411275898675641.plus.aac.p.m4a",
-    "duration": 195853,
-    "trackUrl": "https://music.apple.com/us/album/no-more/1537937756?i=1537937757",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/5b/92/0a5b92ff-debf-d4a5-1d58-aaeb64d5b707/PCSP_03128_A.jpg/300x300bb.jpg",
-    "trackId": "1537937757"
-  },
-  {
-    "id": "applemusic-1500550523",
-    "name": "Endless Night",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Endless Night - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a5/f8/25/a5f8252b-3407-2b55-63f2-ef537a1f3af1/mzaf_11822977881299736825.plus.aac.p.m4a",
-    "duration": 198000,
-    "trackUrl": "https://music.apple.com/us/album/endless-night/1500550522?i=1500550523",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/6f/cd/dd6fcdcb-6c6f-b591-9902-fb0fce49f8d6/PCCA_04940.jpg/300x300bb.jpg",
-    "trackId": "1500550523"
-  },
-  {
-    "id": "applemusic-1701075771",
-    "name": "Over the Sky",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "1st Album [Dystopia : The Tree of Language]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ee/4c/f4/ee4cf411-9d41-860f-7df3-1f254c03e3f3/mzaf_7112813262514829767.plus.aac.p.m4a",
-    "duration": 197740,
-    "trackUrl": "https://music.apple.com/us/album/over-the-sky/1701075545?i=1701075771",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/b5/eb/71b5eba6-b03e-b02b-31cb-39cadd2786ad/cover_KM0010056_1.jpg/300x300bb.jpg",
-    "trackId": "1701075771"
-  },
-  {
-    "id": "applemusic-1558683455",
-    "name": "Eclipse",
-    "artists": [
-      "Dreamcatcher"
-    ],
-    "album": "Eclipse - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/fb/24/e7/fb24e7c7-e49c-a371-6d3b-0515c0384657/mzaf_11315887740056430524.plus.aac.p.m4a",
-    "duration": 203613,
-    "trackUrl": "https://music.apple.com/us/album/eclipse/1558683454?i=1558683455",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/55/13/fc551363-df51-c315-a6a0-7e6a2e6bce95/PCCA_06017.jpg/300x300bb.jpg",
-    "trackId": "1558683455"
   },
   {
     "id": "applemusic-1701075548",
@@ -1222,6 +949,19 @@
     "trackId": "1701075770"
   },
   {
+    "id": "applemusic-1701075771",
+    "name": "Over the Sky",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "1st Album [Dystopia : The Tree of Language]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ee/4c/f4/ee4cf411-9d41-860f-7df3-1f254c03e3f3/mzaf_7112813262514829767.plus.aac.p.m4a",
+    "duration": 197740,
+    "trackUrl": "https://music.apple.com/us/album/over-the-sky/1701075545?i=1701075771",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/b5/eb/71b5eba6-b03e-b02b-31cb-39cadd2786ad/cover_KM0010056_1.jpg/300x300bb.jpg",
+    "trackId": "1701075771"
+  },
+  {
     "id": "applemusic-1498873901",
     "name": "Paradise",
     "artists": [
@@ -1233,6 +973,84 @@
     "trackUrl": "https://music.apple.com/jp/album/paradise/1498873792?i=1498873901",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f6/43/92/f64392ac-15b3-05a9-7d46-935524c387dc/PCSP_02909.jpg/300x300bb.jpg",
     "trackId": "1498873901"
+  },
+  {
+    "id": "applemusic-1537937757",
+    "name": "NO MORE",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "NO MORE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/02/72/b90272c2-965d-1540-a7ac-401d0fb34437/mzaf_1915411275898675641.plus.aac.p.m4a",
+    "duration": 195853,
+    "trackUrl": "https://music.apple.com/us/album/no-more/1537937756?i=1537937757",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/5b/92/0a5b92ff-debf-d4a5-1d58-aaeb64d5b707/PCSP_03128_A.jpg/300x300bb.jpg",
+    "trackId": "1537937757"
+  },
+  {
+    "id": "applemusic-1500550523",
+    "name": "Endless Night",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "Endless Night - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a5/f8/25/a5f8252b-3407-2b55-63f2-ef537a1f3af1/mzaf_11822977881299736825.plus.aac.p.m4a",
+    "duration": 198000,
+    "trackUrl": "https://music.apple.com/us/album/endless-night/1500550522?i=1500550523",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dd/6f/cd/dd6fcdcb-6c6f-b591-9902-fb0fce49f8d6/PCCA_04940.jpg/300x300bb.jpg",
+    "trackId": "1500550523"
+  },
+  {
+    "id": "applemusic-1558683455",
+    "name": "Eclipse",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "Eclipse - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/fb/24/e7/fb24e7c7-e49c-a371-6d3b-0515c0384657/mzaf_11315887740056430524.plus.aac.p.m4a",
+    "duration": 203613,
+    "trackUrl": "https://music.apple.com/us/album/eclipse/1558683454?i=1558683455",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/55/13/fc551363-df51-c315-a6a0-7e6a2e6bce95/PCCA_06017.jpg/300x300bb.jpg",
+    "trackId": "1558683455"
+  },
+  {
+    "id": "applemusic-1475888109",
+    "name": "Breaking Out",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "The Beginning of the End",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/ac/6f/c1ac6f3f-5b6f-ae4c-b2ae-9bff1bca6863/mzaf_9307561368053469874.plus.aac.p.m4a",
+    "duration": 199120,
+    "trackUrl": "https://music.apple.com/us/album/breaking-out/1475888107?i=1475888109",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
+    "trackId": "1475888109"
+  },
+  {
+    "id": "applemusic-1475888113",
+    "name": "My Way - Kono Michi No Sakie -",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "The Beginning of the End",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/43/fb/cb/43fbcb42-d1ef-8089-96ea-c677840c8e09/mzaf_5205750521703539565.plus.aac.p.m4a",
+    "duration": 204920,
+    "trackUrl": "https://music.apple.com/us/album/my-way-kono-michi-no-sakie/1475888107?i=1475888113",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
+    "trackId": "1475888113"
+  },
+  {
+    "id": "applemusic-1475888121",
+    "name": "I Miss You",
+    "artists": [
+      "Dreamcatcher"
+    ],
+    "album": "The Beginning of the End",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2d/82/95/2d829585-28d9-1e32-f518-b71bfc8e033c/mzaf_15066524379148338730.plus.aac.p.m4a",
+    "duration": 188013,
+    "trackUrl": "https://music.apple.com/us/album/i-miss-you/1475888107?i=1475888121",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/b1/dd/07/b1dd0774-efe8-33db-c56b-e61409eea539/PCCA_04812.jpg/300x300bb.jpg",
+    "trackId": "1475888121"
   },
   {
     "id": "applemusic-1695505715",

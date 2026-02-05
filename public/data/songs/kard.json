@@ -117,19 +117,6 @@
     "trackId": "1315951650"
   },
   {
-    "id": "applemusic-1315951655",
-    "name": "Trust Me (BM & Somin Version)",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 2nd Mini Album 'You & Me' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/79/d7/2d/79d72d37-5154-53a4-3be2-23c24194bb13/mzaf_13380104895377937690.plus.aac.p.m4a",
-    "duration": 276196,
-    "trackUrl": "https://music.apple.com/us/album/trust-me-bm-somin-version/1315951648?i=1315951655",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
-    "trackId": "1315951655"
-  },
-  {
     "id": "applemusic-1315951652",
     "name": "Push & Pull",
     "artists": [
@@ -219,58 +206,6 @@
     "trackUrl": "https://music.apple.com/us/album/inferno/1498018609?i=1498018613",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/23/42/ac/2342acc0-d770-9137-524b-f23e57d0516c/KARD_4th_MIni_Album_RED_MOON.jpg/300x300bb.jpg",
     "trackId": "1498018613"
-  },
-  {
-    "id": "applemusic-1417145458",
-    "name": "Intro : Humming",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/19/ec/5e/19ec5eb3-4d11-8388-8cf8-8a4a90740e52/mzaf_13842637127303938214.plus.aac.p.m4a",
-    "duration": 72312,
-    "trackUrl": "https://music.apple.com/us/album/intro-humming/1417145456?i=1417145458",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145458"
-  },
-  {
-    "id": "applemusic-1417145459",
-    "name": "Moonlight",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/ab/0b/c2ab0bc1-c36d-e069-f4d2-b0b214fff903/mzaf_5497715210265152858.plus.aac.p.m4a",
-    "duration": 199716,
-    "trackUrl": "https://music.apple.com/us/album/moonlight/1417145456?i=1417145459",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145459"
-  },
-  {
-    "id": "applemusic-1417145460",
-    "name": "Ride on the Wind",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/9d/6f/479d6f31-4c5a-40b1-f94e-12a5dbd8a8f9/mzaf_11842967120163105914.plus.aac.p.m4a",
-    "duration": 176632,
-    "trackUrl": "https://music.apple.com/us/album/ride-on-the-wind/1417145456?i=1417145460",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145460"
-  },
-  {
-    "id": "applemusic-1417145461",
-    "name": "Knockin' on My Heaven's Door",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/6b/31/d56b313b-4370-26bd-ae71-d29e652b1f1f/mzaf_6940228646269955283.plus.aac.p.m4a",
-    "duration": 230153,
-    "trackUrl": "https://music.apple.com/us/album/knockin-on-my-heavens-door/1417145456?i=1417145461",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145461"
   },
   {
     "id": "applemusic-1688377739",
@@ -375,6 +310,45 @@
     "trackUrl": "https://music.apple.com/us/album/hold-on/1528669381?i=1528669385",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/29/b1/c6/29b1c65e-5587-bbf9-f913-f894f2414104/KARD_1st_Single_Way_With_Words.jpg/300x300bb.jpg",
     "trackId": "1528669385"
+  },
+  {
+    "id": "applemusic-1417145459",
+    "name": "Moonlight",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/ab/0b/c2ab0bc1-c36d-e069-f4d2-b0b214fff903/mzaf_5497715210265152858.plus.aac.p.m4a",
+    "duration": 199716,
+    "trackUrl": "https://music.apple.com/us/album/moonlight/1417145456?i=1417145459",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
+    "trackId": "1417145459"
+  },
+  {
+    "id": "applemusic-1417145460",
+    "name": "Ride on the Wind",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/9d/6f/479d6f31-4c5a-40b1-f94e-12a5dbd8a8f9/mzaf_11842967120163105914.plus.aac.p.m4a",
+    "duration": 176632,
+    "trackUrl": "https://music.apple.com/us/album/ride-on-the-wind/1417145456?i=1417145460",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
+    "trackId": "1417145460"
+  },
+  {
+    "id": "applemusic-1417145461",
+    "name": "Knockin' on My Heaven's Door",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/6b/31/d56b313b-4370-26bd-ae71-d29e652b1f1f/mzaf_6940228646269955283.plus.aac.p.m4a",
+    "duration": 230153,
+    "trackUrl": "https://music.apple.com/us/album/knockin-on-my-heavens-door/1417145456?i=1417145461",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
+    "trackId": "1417145461"
   },
   {
     "id": "applemusic-1630019013",

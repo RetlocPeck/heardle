@@ -1,31 +1,5 @@
 [
   {
-    "id": "applemusic-1552036359",
-    "name": "Loca",
-    "artists": [
-      "TRI.BE"
-    ],
-    "album": "TRI.BE Da Loca - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/12/38/8812381a-4931-f321-29bd-b99e5ae1cc6e/mzaf_2614717277465494236.plus.aac.p.m4a",
-    "duration": 176067,
-    "trackUrl": "https://music.apple.com/us/album/loca/1552036144?i=1552036359",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/e7/b5/00e7b548-6910-06c5-e151-68b5b369ebd2/21UMGIM03022.rgb.jpg/300x300bb.jpg",
-    "trackId": "1552036359"
-  },
-  {
-    "id": "applemusic-1552036362",
-    "name": "DOOM DOOM TA",
-    "artists": [
-      "TRI.BE"
-    ],
-    "album": "TRI.BE Da Loca - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/7a/4a/727a4a63-8f64-e2cf-fb40-d4f5aaccf4a0/mzaf_13993218593016975642.plus.aac.p.m4a",
-    "duration": 195787,
-    "trackUrl": "https://music.apple.com/us/album/doom-doom-ta/1552036144?i=1552036362",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/e7/b5/00e7b548-6910-06c5-e151-68b5b369ebd2/21UMGIM03022.rgb.jpg/300x300bb.jpg",
-    "trackId": "1552036362"
-  },
-  {
     "id": "applemusic-1566299695",
     "name": "RUB-A-DUM",
     "artists": [
@@ -52,82 +26,30 @@
     "trackId": "1566299699"
   },
   {
-    "id": "applemusic-1640530300",
-    "name": "Memu Aagamu",
-    "artists": [
-      "Armaan Malik, TRI.BE & Lost Stories"
-    ],
-    "album": "Memu Aagamu - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a4/24/4a/a4244a23-663d-937f-6e13-f25f3cd07231/mzaf_4007151897106116519.plus.aac.p.m4a",
-    "duration": 167547,
-    "trackUrl": "https://music.apple.com/us/album/memu-aagamu/1640530295?i=1640530300",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1d/ca/0f/1dca0fdd-f798-6c19-b8e6-b00cdea0d0ff/22UMGIM92590.rgb.jpg/300x300bb.jpg",
-    "trackId": "1640530300"
-  },
-  {
-    "id": "applemusic-1599673066",
-    "name": "The Bha Bha Song (We Baby Bears Theme)",
+    "id": "applemusic-1552036359",
+    "name": "Loca",
     "artists": [
       "TRI.BE"
     ],
-    "album": "The Bha Bha Song (We Baby Bears Theme) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/be/cf/e5/becfe506-1422-2647-cefe-46cd0fe3a5f4/mzaf_17737717668715504868.plus.aac.p.m4a",
-    "duration": 165160,
-    "trackUrl": "https://music.apple.com/us/album/the-bha-bha-song-we-baby-bears-theme/1599672744?i=1599673066",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/aa/39/89aa391e-25d2-95c9-1bd9-4dfb6d8c1226/21UM1IM54517.rgb.jpg/300x300bb.jpg",
-    "trackId": "1599673066"
+    "album": "TRI.BE Da Loca - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/12/38/8812381a-4931-f321-29bd-b99e5ae1cc6e/mzaf_2614717277465494236.plus.aac.p.m4a",
+    "duration": 176067,
+    "trackUrl": "https://music.apple.com/us/album/loca/1552036144?i=1552036359",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/e7/b5/00e7b548-6910-06c5-e151-68b5b369ebd2/21UMGIM03022.rgb.jpg/300x300bb.jpg",
+    "trackId": "1552036359"
   },
   {
-    "id": "applemusic-1670598553",
-    "name": "STAY TOGETHER",
+    "id": "applemusic-1552036362",
+    "name": "DOOM DOOM TA",
     "artists": [
       "TRI.BE"
     ],
-    "album": "W.A.Y - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/88/9a/68889aff-c752-253d-bcdb-576303cc85f9/mzaf_1189907375028709320.plus.aac.p.m4a",
-    "duration": 200440,
-    "trackUrl": "https://music.apple.com/us/album/stay-together/1670598529?i=1670598553",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
-    "trackId": "1670598553"
-  },
-  {
-    "id": "applemusic-1670598803",
-    "name": "WE ARE YOUNG",
-    "artists": [
-      "TRI.BE"
-    ],
-    "album": "W.A.Y - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/8b/18/e68b18f8-40c6-d44c-ab4e-28b4fbb51b83/mzaf_12310274424905709698.plus.aac.p.m4a",
-    "duration": 177973,
-    "trackUrl": "https://music.apple.com/us/album/we-are-young/1670598529?i=1670598803",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
-    "trackId": "1670598803"
-  },
-  {
-    "id": "applemusic-1670598916",
-    "name": "WITCH",
-    "artists": [
-      "TRI.BE"
-    ],
-    "album": "W.A.Y - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/e3/ea/49e3ea98-55d0-5a26-cc36-980e5e59c9ae/mzaf_9607582706693758180.plus.aac.p.m4a",
-    "duration": 188800,
-    "trackUrl": "https://music.apple.com/us/album/witch/1670598529?i=1670598916",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
-    "trackId": "1670598916"
-  },
-  {
-    "id": "applemusic-1670598926",
-    "name": "WONDERLAND",
-    "artists": [
-      "TRI.BE"
-    ],
-    "album": "W.A.Y - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/d4/73/80d47366-d2ad-dd79-2317-788d798729a2/mzaf_15111899664571735517.plus.aac.p.m4a",
-    "duration": 177533,
-    "trackUrl": "https://music.apple.com/us/album/wonderland/1670598529?i=1670598926",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
-    "trackId": "1670598926"
+    "album": "TRI.BE Da Loca - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/7a/4a/727a4a63-8f64-e2cf-fb40-d4f5aaccf4a0/mzaf_13993218593016975642.plus.aac.p.m4a",
+    "duration": 195787,
+    "trackUrl": "https://music.apple.com/us/album/doom-doom-ta/1552036144?i=1552036362",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/00/e7/b5/00e7b548-6910-06c5-e151-68b5b369ebd2/21UMGIM03022.rgb.jpg/300x300bb.jpg",
+    "trackId": "1552036362"
   },
   {
     "id": "applemusic-1588219790",
@@ -195,6 +117,32 @@
     "trackId": "1588219795"
   },
   {
+    "id": "applemusic-1640530300",
+    "name": "Memu Aagamu",
+    "artists": [
+      "Armaan Malik, TRI.BE & Lost Stories"
+    ],
+    "album": "Memu Aagamu - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a4/24/4a/a4244a23-663d-937f-6e13-f25f3cd07231/mzaf_4007151897106116519.plus.aac.p.m4a",
+    "duration": 167547,
+    "trackUrl": "https://music.apple.com/us/album/memu-aagamu/1640530295?i=1640530300",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/1d/ca/0f/1dca0fdd-f798-6c19-b8e6-b00cdea0d0ff/22UMGIM92590.rgb.jpg/300x300bb.jpg",
+    "trackId": "1640530300"
+  },
+  {
+    "id": "applemusic-1599673066",
+    "name": "The Bha Bha Song (We Baby Bears Theme)",
+    "artists": [
+      "TRI.BE"
+    ],
+    "album": "The Bha Bha Song (We Baby Bears Theme) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/be/cf/e5/becfe506-1422-2647-cefe-46cd0fe3a5f4/mzaf_17737717668715504868.plus.aac.p.m4a",
+    "duration": 165160,
+    "trackUrl": "https://music.apple.com/us/album/the-bha-bha-song-we-baby-bears-theme/1599672744?i=1599673066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/aa/39/89aa391e-25d2-95c9-1bd9-4dfb6d8c1226/21UM1IM54517.rgb.jpg/300x300bb.jpg",
+    "trackId": "1599673066"
+  },
+  {
     "id": "applemusic-1729349927",
     "name": "Diamond",
     "artists": [
@@ -219,6 +167,58 @@
     "trackUrl": "https://music.apple.com/us/album/run/1729349476?i=1729349928",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/07/67/13/076713ec-918b-0eda-2e01-a4ff37d50ab6/24UMGIM07624.rgb.jpg/300x300bb.jpg",
     "trackId": "1729349928"
+  },
+  {
+    "id": "applemusic-1670598553",
+    "name": "STAY TOGETHER",
+    "artists": [
+      "TRI.BE"
+    ],
+    "album": "W.A.Y - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/88/9a/68889aff-c752-253d-bcdb-576303cc85f9/mzaf_1189907375028709320.plus.aac.p.m4a",
+    "duration": 200440,
+    "trackUrl": "https://music.apple.com/us/album/stay-together/1670598529?i=1670598553",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
+    "trackId": "1670598553"
+  },
+  {
+    "id": "applemusic-1670598803",
+    "name": "WE ARE YOUNG",
+    "artists": [
+      "TRI.BE"
+    ],
+    "album": "W.A.Y - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/8b/18/e68b18f8-40c6-d44c-ab4e-28b4fbb51b83/mzaf_12310274424905709698.plus.aac.p.m4a",
+    "duration": 177973,
+    "trackUrl": "https://music.apple.com/us/album/we-are-young/1670598529?i=1670598803",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
+    "trackId": "1670598803"
+  },
+  {
+    "id": "applemusic-1670598916",
+    "name": "WITCH",
+    "artists": [
+      "TRI.BE"
+    ],
+    "album": "W.A.Y - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/49/e3/ea/49e3ea98-55d0-5a26-cc36-980e5e59c9ae/mzaf_9607582706693758180.plus.aac.p.m4a",
+    "duration": 188800,
+    "trackUrl": "https://music.apple.com/us/album/witch/1670598529?i=1670598916",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
+    "trackId": "1670598916"
+  },
+  {
+    "id": "applemusic-1670598926",
+    "name": "WONDERLAND",
+    "artists": [
+      "TRI.BE"
+    ],
+    "album": "W.A.Y - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/d4/73/80d47366-d2ad-dd79-2317-788d798729a2/mzaf_15111899664571735517.plus.aac.p.m4a",
+    "duration": 177533,
+    "trackUrl": "https://music.apple.com/us/album/wonderland/1670598529?i=1670598926",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/33/b7/6f33b704-8e7d-18b8-3849-7343c9fea36b/23UMGIM10798.rgb.jpg/300x300bb.jpg",
+    "trackId": "1670598926"
   },
   {
     "id": "applemusic-1637029090",

@@ -39,45 +39,6 @@
     "trackId": "1600423435"
   },
   {
-    "id": "applemusic-1602315216",
-    "name": "Shine (Kep1er Ver.)",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "FIRST IMPACT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d7/d7/8a/d7d78a72-972a-bdf4-22e1-77ecd92c2c82/mzaf_7624082577630455807.plus.aac.p.m4a",
-    "duration": 214467,
-    "trackUrl": "https://music.apple.com/jp/album/shine-kep1er-ver/1602315032?i=1602315216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/64/0b/1d640bd1-735a-7dd9-0188-f5cf5dc30814/4547366547740.jpg/300x300bb.jpg",
-    "trackId": "1602315216"
-  },
-  {
-    "id": "applemusic-1602315219",
-    "name": "Another Dream (Kep1er Ver.)",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "FIRST IMPACT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/02/b6/d4/02b6d465-0a39-ea4e-a800-7efccb227d6d/mzaf_8426730026787035599.plus.aac.p.m4a",
-    "duration": 201320,
-    "trackUrl": "https://music.apple.com/jp/album/another-dream-kep1er-ver/1602315032?i=1602315219",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/64/0b/1d640bd1-735a-7dd9-0188-f5cf5dc30814/4547366547740.jpg/300x300bb.jpg",
-    "trackId": "1602315219"
-  },
-  {
-    "id": "applemusic-1602315220",
-    "name": "O.O.O (Over&Over&Over) (Kep1er Ver.)",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "FIRST IMPACT - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/af/f2/b8/aff2b85d-0fd8-c52f-4d39-a06284d116c3/mzaf_8327724284524237881.plus.aac.p.m4a",
-    "duration": 247667,
-    "trackUrl": "https://music.apple.com/jp/album/o-o-o-over-over-over-kep1er-ver/1602315032?i=1602315220",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1d/64/0b/1d640bd1-735a-7dd9-0188-f5cf5dc30814/4547366547740.jpg/300x300bb.jpg",
-    "trackId": "1602315220"
-  },
-  {
     "id": "applemusic-1628511840",
     "name": "Up!",
     "artists": [
@@ -208,6 +169,58 @@
     "trackId": "1679270115"
   },
   {
+    "id": "applemusic-1648412216",
+    "name": "We Fresh",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4a/25/3b/4a253bfc-4b64-f79b-26da-7fbb460bf05c/mzaf_11104712301531499998.plus.aac.p.m4a",
+    "duration": 195880,
+    "trackUrl": "https://music.apple.com/us/album/we-fresh/1648412215?i=1648412216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412216"
+  },
+  {
+    "id": "applemusic-1648412217",
+    "name": "Lion Tamer",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/dc/76/1a/dc761a7c-cb18-c1a0-0ee0-bdf5acb5afa9/mzaf_6903778384594045327.plus.aac.p.m4a",
+    "duration": 182173,
+    "trackUrl": "https://music.apple.com/us/album/lion-tamer/1648412215?i=1648412217",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412217"
+  },
+  {
+    "id": "applemusic-1648412220",
+    "name": "Downtown",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/24/22/89/242289a8-8dcf-fc62-4d41-b49a95b183e4/mzaf_10603764768740898304.plus.aac.p.m4a",
+    "duration": 157653,
+    "trackUrl": "https://music.apple.com/us/album/downtown/1648412215?i=1648412220",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412220"
+  },
+  {
+    "id": "applemusic-1648412222",
+    "name": "Dreams",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/7f/ae/9a/7fae9a4e-8d46-8361-2248-c097b5e9b9f6/mzaf_13363407107341943771.plus.aac.p.m4a",
+    "duration": 202467,
+    "trackUrl": "https://music.apple.com/us/album/dreams/1648412215?i=1648412222",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412222"
+  },
+  {
     "id": "applemusic-1777025520",
     "name": "sync-love",
     "artists": [
@@ -271,123 +284,6 @@
     "trackUrl": "https://music.apple.com/us/album/heart-surf/1777025515?i=1777025785",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/dd/78/35dd78a1-9d50-ee4f-f3cd-6e56c759be0b/198704225178_Cover.jpg/300x300bb.jpg",
     "trackId": "1777025785"
-  },
-  {
-    "id": "applemusic-1648412216",
-    "name": "We Fresh",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4a/25/3b/4a253bfc-4b64-f79b-26da-7fbb460bf05c/mzaf_11104712301531499998.plus.aac.p.m4a",
-    "duration": 195880,
-    "trackUrl": "https://music.apple.com/us/album/we-fresh/1648412215?i=1648412216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412216"
-  },
-  {
-    "id": "applemusic-1648412217",
-    "name": "Lion Tamer",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/dc/76/1a/dc761a7c-cb18-c1a0-0ee0-bdf5acb5afa9/mzaf_6903778384594045327.plus.aac.p.m4a",
-    "duration": 182173,
-    "trackUrl": "https://music.apple.com/us/album/lion-tamer/1648412215?i=1648412217",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412217"
-  },
-  {
-    "id": "applemusic-1648412220",
-    "name": "Downtown",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/24/22/89/242289a8-8dcf-fc62-4d41-b49a95b183e4/mzaf_10603764768740898304.plus.aac.p.m4a",
-    "duration": 157653,
-    "trackUrl": "https://music.apple.com/us/album/downtown/1648412215?i=1648412220",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412220"
-  },
-  {
-    "id": "applemusic-1648412222",
-    "name": "Dreams",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/7f/ae/9a/7fae9a4e-8d46-8361-2248-c097b5e9b9f6/mzaf_13363407107341943771.plus.aac.p.m4a",
-    "duration": 202467,
-    "trackUrl": "https://music.apple.com/us/album/dreams/1648412215?i=1648412222",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412222"
-  },
-  {
-    "id": "applemusic-1706470350",
-    "name": "Galileo",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "Magic Hour - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/71/b6/ff71b6c0-9e4b-86d4-c261-cd6fa3541b60/mzaf_9737591725653619545.plus.aac.p.m4a",
-    "duration": 188253,
-    "trackUrl": "https://music.apple.com/us/album/galileo/1706470349?i=1706470350",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
-    "trackId": "1706470350"
-  },
-  {
-    "id": "applemusic-1706470351",
-    "name": "The Door",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "Magic Hour - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dd/f1/fd/ddf1fd2f-de04-e261-afff-50ecef2ca982/mzaf_3837468838753106796.plus.aac.p.m4a",
-    "duration": 181720,
-    "trackUrl": "https://music.apple.com/us/album/the-door/1706470349?i=1706470351",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
-    "trackId": "1706470351"
-  },
-  {
-    "id": "applemusic-1706470362",
-    "name": "Love on Lock",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "Magic Hour - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ee/73/ab/ee73ab88-bb32-0810-02ab-c749a864d72b/mzaf_18229618991331898963.plus.aac.p.m4a",
-    "duration": 171373,
-    "trackUrl": "https://music.apple.com/us/album/love-on-lock/1706470349?i=1706470362",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
-    "trackId": "1706470362"
-  },
-  {
-    "id": "applemusic-1706470819",
-    "name": "Tropical Light",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "Magic Hour - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/88/d4/88/88d48898-10a4-fd32-daf0-d1b87837ae55/mzaf_1163138782274289783.plus.aac.p.m4a",
-    "duration": 182933,
-    "trackUrl": "https://music.apple.com/us/album/tropical-light/1706470349?i=1706470819",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
-    "trackId": "1706470819"
-  },
-  {
-    "id": "applemusic-1706470820",
-    "name": "TAPE",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "Magic Hour - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f4/2d/c2/f42dc222-9782-1496-a321-a1c4b2c1907e/mzaf_6007539723804678075.plus.aac.p.m4a",
-    "duration": 171187,
-    "trackUrl": "https://music.apple.com/us/album/tape/1706470349?i=1706470820",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
-    "trackId": "1706470820"
   },
   {
     "id": "applemusic-1748091287",
@@ -494,30 +390,69 @@
     "trackId": "1748091766"
   },
   {
-    "id": "applemusic-1740911561",
-    "name": "Grand Prix",
+    "id": "applemusic-1706470350",
+    "name": "Galileo",
     "artists": [
       "Kep1er"
     ],
-    "album": "Kep1going",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/7d/18/e77d1852-f9f5-0e31-782f-cdd4b987f3c7/mzaf_15828769711066782140.plus.aac.p.m4a",
-    "duration": 187027,
-    "trackUrl": "https://music.apple.com/us/album/grand-prix/1740911551?i=1740911561",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/5a/5c/875a5cc5-03f6-6c8b-6f83-375e2ca24660/4547366682786.jpg/300x300bb.jpg",
-    "trackId": "1740911561"
+    "album": "Magic Hour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/71/b6/ff71b6c0-9e4b-86d4-c261-cd6fa3541b60/mzaf_9737591725653619545.plus.aac.p.m4a",
+    "duration": 188253,
+    "trackUrl": "https://music.apple.com/us/album/galileo/1706470349?i=1706470350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
+    "trackId": "1706470350"
   },
   {
-    "id": "applemusic-1740911558",
-    "name": "Straight Line",
+    "id": "applemusic-1706470351",
+    "name": "The Door",
     "artists": [
       "Kep1er"
     ],
-    "album": "Kep1going",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/02/49/8402490f-b67c-c9e1-f31b-2299dfed98b4/mzaf_12620634985952007536.plus.aac.p.m4a",
-    "duration": 165693,
-    "trackUrl": "https://music.apple.com/us/album/straight-line/1740911551?i=1740911558",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/5a/5c/875a5cc5-03f6-6c8b-6f83-375e2ca24660/4547366682786.jpg/300x300bb.jpg",
-    "trackId": "1740911558"
+    "album": "Magic Hour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dd/f1/fd/ddf1fd2f-de04-e261-afff-50ecef2ca982/mzaf_3837468838753106796.plus.aac.p.m4a",
+    "duration": 181720,
+    "trackUrl": "https://music.apple.com/us/album/the-door/1706470349?i=1706470351",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
+    "trackId": "1706470351"
+  },
+  {
+    "id": "applemusic-1706470362",
+    "name": "Love on Lock",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "Magic Hour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ee/73/ab/ee73ab88-bb32-0810-02ab-c749a864d72b/mzaf_18229618991331898963.plus.aac.p.m4a",
+    "duration": 171373,
+    "trackUrl": "https://music.apple.com/us/album/love-on-lock/1706470349?i=1706470362",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
+    "trackId": "1706470362"
+  },
+  {
+    "id": "applemusic-1706470819",
+    "name": "Tropical Light",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "Magic Hour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/88/d4/88/88d48898-10a4-fd32-daf0-d1b87837ae55/mzaf_1163138782274289783.plus.aac.p.m4a",
+    "duration": 182933,
+    "trackUrl": "https://music.apple.com/us/album/tropical-light/1706470349?i=1706470819",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
+    "trackId": "1706470819"
+  },
+  {
+    "id": "applemusic-1706470820",
+    "name": "TAPE",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "Magic Hour - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f4/2d/c2/f42dc222-9782-1496-a321-a1c4b2c1907e/mzaf_6007539723804678075.plus.aac.p.m4a",
+    "duration": 171187,
+    "trackUrl": "https://music.apple.com/us/album/tape/1706470349?i=1706470820",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f8/66/3f/f8663f14-ced2-b1cd-9a70-1e09f045f809/888272123371_Cover.jpg/300x300bb.jpg",
+    "trackId": "1706470820"
   },
   {
     "id": "applemusic-1622360038",
@@ -557,6 +492,32 @@
     "trackUrl": "https://music.apple.com/us/album/so-what/1619951910?i=1619952374",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/4e/4b/e24e4ba2-6d90-5e94-f0cf-eecf7ceccea6/888272098020_Cover.jpg/300x300bb.jpg",
     "trackId": "1619952374"
+  },
+  {
+    "id": "applemusic-1669654965",
+    "name": "I do! Do you?",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "<FLY-BY> - Special Edition - - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7a/00/09/7a0009dd-68d5-3fb5-20a8-cee501ff803b/mzaf_1632548088788821223.plus.aac.p.m4a",
+    "duration": 214827,
+    "trackUrl": "https://music.apple.com/us/album/i-do-do-you/1669654964?i=1669654965",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
+    "trackId": "1669654965"
+  },
+  {
+    "id": "applemusic-1669655146",
+    "name": "tOgether fOrever",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "<FLY-BY> - Special Edition - - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e9/92/d8/e992d8d9-33c4-9d1e-87cf-8daaf789b0ad/mzaf_15582653803161876469.plus.aac.p.m4a",
+    "duration": 211533,
+    "trackUrl": "https://music.apple.com/us/album/together-forever/1669654964?i=1669655146",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
+    "trackId": "1669655146"
   },
   {
     "id": "applemusic-1617975112",
@@ -624,19 +585,6 @@
     "trackId": "1832943830"
   },
   {
-    "id": "applemusic-1805135363",
-    "name": "Yum",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "AGAINST THE WORLD - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/31/ef/4531efa2-130a-6c6b-51e8-2b4ea0bb14d9/mzaf_6366894355491114509.plus.aac.p.m4a",
-    "duration": 149680,
-    "trackUrl": "https://music.apple.com/us/album/yum/1805135361?i=1805135363",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/ff/8f/88ff8f14-1e12-22a4-98bd-70d4e6c1dc1d/4547366743975.jpg/300x300bb.jpg",
-    "trackId": "1805135363"
-  },
-  {
     "id": "applemusic-1636412214",
     "name": "Wing Wing",
     "artists": [
@@ -663,43 +611,30 @@
     "trackId": "1636412222"
   },
   {
-    "id": "applemusic-1669654965",
-    "name": "I do! Do you?",
+    "id": "applemusic-1740911558",
+    "name": "Straight Line",
     "artists": [
       "Kep1er"
     ],
-    "album": "<FLY-BY> - Special Edition - - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7a/00/09/7a0009dd-68d5-3fb5-20a8-cee501ff803b/mzaf_1632548088788821223.plus.aac.p.m4a",
-    "duration": 214827,
-    "trackUrl": "https://music.apple.com/us/album/i-do-do-you/1669654964?i=1669654965",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
-    "trackId": "1669654965"
+    "album": "Kep1going",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/84/02/49/8402490f-b67c-c9e1-f31b-2299dfed98b4/mzaf_12620634985952007536.plus.aac.p.m4a",
+    "duration": 165693,
+    "trackUrl": "https://music.apple.com/us/album/straight-line/1740911551?i=1740911558",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/5a/5c/875a5cc5-03f6-6c8b-6f83-375e2ca24660/4547366682786.jpg/300x300bb.jpg",
+    "trackId": "1740911558"
   },
   {
-    "id": "applemusic-1669655146",
-    "name": "tOgether fOrever",
+    "id": "applemusic-1740911561",
+    "name": "Grand Prix",
     "artists": [
       "Kep1er"
     ],
-    "album": "<FLY-BY> - Special Edition - - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e9/92/d8/e992d8d9-33c4-9d1e-87cf-8daaf789b0ad/mzaf_15582653803161876469.plus.aac.p.m4a",
-    "duration": 211533,
-    "trackUrl": "https://music.apple.com/us/album/together-forever/1669654964?i=1669655146",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
-    "trackId": "1669655146"
-  },
-  {
-    "id": "applemusic-1805135364",
-    "name": "Hell or Heaven",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "AGAINST THE WORLD - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/db/e9/cddbe9d6-1b1c-6dca-e135-418cbc321afc/mzaf_14955484341964440513.plus.aac.p.m4a",
-    "duration": 174240,
-    "trackUrl": "https://music.apple.com/us/album/hell-or-heaven/1805135361?i=1805135364",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/ff/8f/88ff8f14-1e12-22a4-98bd-70d4e6c1dc1d/4547366743975.jpg/300x300bb.jpg",
-    "trackId": "1805135364"
+    "album": "Kep1going",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e7/7d/18/e77d1852-f9f5-0e31-782f-cdd4b987f3c7/mzaf_15828769711066782140.plus.aac.p.m4a",
+    "duration": 187027,
+    "trackUrl": "https://music.apple.com/us/album/grand-prix/1740911551?i=1740911561",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/5a/5c/875a5cc5-03f6-6c8b-6f83-375e2ca24660/4547366682786.jpg/300x300bb.jpg",
+    "trackId": "1740911561"
   },
   {
     "id": "applemusic-1740911752",
@@ -767,17 +702,30 @@
     "trackId": "1740911772"
   },
   {
-    "id": "applemusic-1645068306",
-    "name": "WA DA DA (Japanese version) - From THE FIRST TAKE",
+    "id": "applemusic-1805135363",
+    "name": "Yum",
     "artists": [
       "Kep1er"
     ],
-    "album": "WA DA DA (Japanese version) - From THE FIRST TAKE - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/af/73/cf/af73cfe5-64c4-e7bb-fec1-da88614df165/mzaf_7709572118363428701.plus.aac.p.m4a",
-    "duration": 191710,
-    "trackUrl": "https://music.apple.com/us/album/wa-da-da-japanese-version-from-the-first-take/1645068291?i=1645068306",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/07/eb/7007eb46-4957-920c-2acc-c3b0be781870/4547366585988.jpg/300x300bb.jpg",
-    "trackId": "1645068306"
+    "album": "AGAINST THE WORLD - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/31/ef/4531efa2-130a-6c6b-51e8-2b4ea0bb14d9/mzaf_6366894355491114509.plus.aac.p.m4a",
+    "duration": 149680,
+    "trackUrl": "https://music.apple.com/us/album/yum/1805135361?i=1805135363",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/ff/8f/88ff8f14-1e12-22a4-98bd-70d4e6c1dc1d/4547366743975.jpg/300x300bb.jpg",
+    "trackId": "1805135363"
+  },
+  {
+    "id": "applemusic-1805135364",
+    "name": "Hell or Heaven",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "AGAINST THE WORLD - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/db/e9/cddbe9d6-1b1c-6dca-e135-418cbc321afc/mzaf_14955484341964440513.plus.aac.p.m4a",
+    "duration": 174240,
+    "trackUrl": "https://music.apple.com/us/album/hell-or-heaven/1805135361?i=1805135364",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/ff/8f/88ff8f14-1e12-22a4-98bd-70d4e6c1dc1d/4547366743975.jpg/300x300bb.jpg",
+    "trackId": "1805135364"
   },
   {
     "id": "applemusic-1645481697",
