@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://heardle.live'),
   title: "K-Pop Heardle 🎵",
   description: "Challenge yourself with music guessing games featuring your favorite K-pop artists. Listen to short previews and test your knowledge of TWICE, LE SSERAFIM, and more!",
   keywords: "K-pop, Heardle, music game, TWICE, LE SSERAFIM, guess the song, Korean music",
@@ -86,6 +87,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Preconnect to Apple Music CDN for faster image loads */}
+        <link rel="preconnect" href="https://is1-ssl.mzstatic.com" />
+        <link rel="preconnect" href="https://is2-ssl.mzstatic.com" />
+        <link rel="preconnect" href="https://is3-ssl.mzstatic.com" />
+        <link rel="preconnect" href="https://is4-ssl.mzstatic.com" />
+        <link rel="preconnect" href="https://is5-ssl.mzstatic.com" />
+        {/* DNS prefetch for audio preview URLs */}
+        <link rel="dns-prefetch" href="https://audio-ssl.itunes.apple.com" />
+        
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -97,7 +107,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning={true}
       >
-        {children}
+        {/* Skip to content link for accessibility */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-pink-500 focus:text-white focus:rounded-lg focus:outline-none"
+        >
+          Skip to main content
+        </a>
+        <main id="main-content">
+          {children}
+        </main>
         <Analytics />
         <SpeedInsights />
       </body>

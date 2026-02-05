@@ -98,17 +98,19 @@ export default function ArtistHeader({ artist }: ArtistHeaderProps) {
           md:gap-2
         "
       >
-        <h1
+        {/* Visual branding element (not a semantic heading - H1 is in content section below) */}
+        <div
           className={`
             m-0
             text-lg sm:text-2xl lg:text-4xl font-bold bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} bg-clip-text text-transparent
             leading-tight md:leading-tight
             tracking-tight
           `}
+          aria-label={`${artist.displayName} Heardle`}
         >
           <span className="hidden sm:inline">{artist.displayName} Heardle</span>
           <span className="sm:hidden">{artist.displayName}</span>
-        </h1>
+        </div>
 
         <p
           className="

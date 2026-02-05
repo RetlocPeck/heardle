@@ -11,5 +11,8 @@ Allow: /logo-*.png
 Allow: /icon-*.png
 Allow: /groups/
 
+# Block API endpoints to save crawl budget
+Disallow: /api/
+
 # Sitemaps
 Sitemap: https://heardle.live/sitemap.xml
