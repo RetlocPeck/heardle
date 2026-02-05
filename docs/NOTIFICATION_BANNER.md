@@ -55,10 +55,13 @@ The banner is currently displayed on:
 ## How Dismissal Works
 
 1. User clicks the `×` button
-2. Component animates out (300ms fade)
-3. `localStorage.setItem('notification-{id}-dismissed', 'true')` is set
-4. Notification won't appear again for this user/browser
-5. Changing the `id` prop will show a new notification
+2. `localStorage.setItem('notification-{id}-dismissed', 'true')` is set **immediately**
+3. Component animates out (300ms fade + 50ms buffer)
+4. Component unmounts after animation completes
+5. Notification won't appear again for this user/browser
+6. Changing the `id` prop will show a new notification
+
+**Note:** Dismissal is saved immediately upon click (not after animation) to ensure the preference persists even if the component unmounts, the page navigates, or the `id` prop changes during the exit animation.
 
 ## Mobile Considerations
 
@@ -134,6 +137,42 @@ The banner uses the app's gradient theme:
 - Icon has `aria-hidden="true"` (decorative)
 - Keyboard accessible with focus ring
 - Color contrast meets WCAG AA standards
+
+## Browser Compatibility
+
+### Private Browsing Mode Support
+
+The component gracefully handles scenarios where localStorage is unavailable:
+
+**Scenarios Handled:**
+- Safari/Firefox private browsing mode (throws `SecurityError`)
+- Disabled localStorage in browser settings
+- Quota exceeded errors
+- Cross-origin restrictions
+
+**Behavior:**
+- **Read failure**: Notification shows every time (acceptable fallback)
+- **Write failure**: Notification dismisses for current session only
+- **No crashes**: All localStorage operations wrapped in try-catch
+
+**Implementation:**
+```typescript
+// Safe localStorage read
+try {
+  dismissed = localStorage.getItem('key') === 'true';
+} catch (error) {
+  // Default to showing notification
+  dismissed = false;
+}
+
+// Safe localStorage write
+try {
+  localStorage.setItem('key', 'true');
+} catch (error) {
+  // Fails silently - acceptable degradation
+  console.warn('Failed to save dismissal:', error);
+}
+```
 
 ## Removing the Banner
 

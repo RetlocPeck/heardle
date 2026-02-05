@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 interface NotificationBannerProps {
   /** Unique ID for this notification (used for dismissal tracking) */
@@ -25,23 +25,90 @@ export default function NotificationBanner({
 }: NotificationBannerProps) {
   const [isVisible, setIsVisible] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const dismissTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const animationTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
+    // Cancel any pending timeouts when id changes
+    // This prevents old animations/dismissals from affecting the new notification
+    if (dismissTimeoutRef.current) {
+      clearTimeout(dismissTimeoutRef.current);
+      dismissTimeoutRef.current = null;
+    }
+    if (animationTimeoutRef.current) {
+      clearTimeout(animationTimeoutRef.current);
+      animationTimeoutRef.current = null;
+    }
+    
+    // Reset animation state when id changes to ensure new notification animates in
+    setIsAnimating(false);
+    
     // Check if user has dismissed this notification
-    const dismissed = localStorage.getItem(`notification-${id}-dismissed`);
+    // Wrap in try-catch for private browsing mode / disabled localStorage
+    let dismissed = false;
+    try {
+      dismissed = localStorage.getItem(`notification-${id}-dismissed`) === 'true';
+    } catch (error) {
+      // localStorage not available (private browsing, disabled, etc.)
+      // Default to showing notification
+      console.warn('localStorage not available, notification will show every time:', error);
+    }
+    
     if (!dismissed) {
       setIsVisible(true);
-      // Trigger animation after mount
-      setTimeout(() => setIsAnimating(true), 100);
+      // Trigger animation after mount with small delay for new notification
+      animationTimeoutRef.current = setTimeout(() => {
+        setIsAnimating(true);
+        animationTimeoutRef.current = null;
+      }, 100);
+    } else {
+      // If dismissed, hide immediately
+      setIsVisible(false);
     }
+    
+    // Cleanup: cancel BOTH timeouts if component unmounts or id changes
+    // This prevents state updates on unmounted components and memory leaks
+    return () => {
+      if (animationTimeoutRef.current) {
+        clearTimeout(animationTimeoutRef.current);
+        animationTimeoutRef.current = null;
+      }
+      if (dismissTimeoutRef.current) {
+        clearTimeout(dismissTimeoutRef.current);
+        dismissTimeoutRef.current = null;
+      }
+    };
   }, [id]);
 
+
   const handleDismiss = () => {
-    setIsAnimating(false);
-    setTimeout(() => {
-      setIsVisible(false);
+    // Cancel animation timeout if user dismisses before animation completes
+    // This prevents the animation from flickering back to visible
+    if (animationTimeoutRef.current) {
+      clearTimeout(animationTimeoutRef.current);
+      animationTimeoutRef.current = null;
+    }
+    
+    // Save dismissal state IMMEDIATELY to ensure it persists even if:
+    // - Component unmounts during animation
+    // - id prop changes during animation
+    // - User navigates away during animation
+    // Wrap in try-catch for private browsing mode / disabled localStorage
+    try {
       localStorage.setItem(`notification-${id}-dismissed`, 'true');
-    }, 300); // Match animation duration
+    } catch (error) {
+      // localStorage not available (private browsing, quota exceeded, etc.)
+      // Notification will show again on next visit, but that's acceptable
+      console.warn('Failed to save notification dismissal:', error);
+    }
+    
+    setIsAnimating(false);
+    
+    // Store timeout ref so it can be cancelled if component unmounts or id changes
+    dismissTimeoutRef.current = setTimeout(() => {
+      setIsVisible(false);
+      dismissTimeoutRef.current = null;
+    }, 350); // CSS animation is 300ms + 50ms buffer for React render/paint delays
   };
 
   if (!isVisible) return null;
