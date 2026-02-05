@@ -1,0 +1,730 @@
+[
+  {
+    "id": "applemusic-1705659234",
+    "name": "D-D-DANCE",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "D-D-DANCE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/82/f7/ae/82f7ae10-6e4d-d578-0e34-cd8155fa1ae9/mzaf_10292154721228895344.plus.aac.p.m4a",
+    "duration": 205067,
+    "trackUrl": "https://music.apple.com/us/album/d-d-dance/1705659233?i=1705659234",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/ca/3c/f5ca3cd6-a876-3c09-574a-8ad5eb821dbe/888272122732.jpg/300x300bb.jpg",
+    "trackId": "1705659234"
+  },
+  {
+    "id": "applemusic-1569293223",
+    "name": "Hey. Bae. Like it.",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "HEART*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/98/59/b89859b8-77ca-0314-0a5f-c5201d0624ed/mzaf_14865656177124890640.plus.aac.p.m4a",
+    "duration": 212674,
+    "trackUrl": "https://music.apple.com/us/album/hey-bae-like-it/1569293222?i=1569293223",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569293223"
+  },
+  {
+    "id": "applemusic-1569293224",
+    "name": "Violeta",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "HEART*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d7/33/19/d7331903-fe99-4527-3a8c-4a76138f2035/mzaf_18085221217626509583.plus.aac.p.m4a",
+    "duration": 200912,
+    "trackUrl": "https://music.apple.com/us/album/violeta/1569293222?i=1569293224",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569293224"
+  },
+  {
+    "id": "applemusic-1569293225",
+    "name": "Highlight",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "HEART*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fc/71/e7/fc71e787-03ed-fd21-34df-c440f2db7185/mzaf_10859548693393170009.plus.aac.p.m4a",
+    "duration": 208867,
+    "trackUrl": "https://music.apple.com/us/album/highlight/1569293222?i=1569293225",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569293225"
+  },
+  {
+    "id": "applemusic-1569293558",
+    "name": "Really Like You",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "HEART*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/a5/71/73a57121-8a95-a288-6040-5274196b4730/mzaf_1941789577709639212.plus.aac.p.m4a",
+    "duration": 190507,
+    "trackUrl": "https://music.apple.com/us/album/really-like-you/1569293222?i=1569293558",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569293558"
+  },
+  {
+    "id": "applemusic-1569293559",
+    "name": "Airplane",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "HEART*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/0a/10/c20a109b-6208-6286-a011-93ac5dc1962b/mzaf_14754769079272494817.plus.aac.p.m4a",
+    "duration": 183951,
+    "trackUrl": "https://music.apple.com/us/album/airplane/1569293222?i=1569293559",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569293559"
+  },
+  {
+    "id": "applemusic-1569293560",
+    "name": "Up",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "HEART*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/26/d6/f926d63e-be08-a4db-6e4f-ebbe2c8bf3ee/mzaf_6304600710225570118.plus.aac.p.m4a",
+    "duration": 192851,
+    "trackUrl": "https://music.apple.com/us/album/up/1569293222?i=1569293560",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569293560"
+  },
+  {
+    "id": "applemusic-1569281733",
+    "name": "EYES",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/6a/f6/946af677-2ffd-3087-7d1b-6a5e15b78ece/mzaf_13474897641630376798.plus.aac.p.m4a",
+    "duration": 217960,
+    "trackUrl": "https://music.apple.com/us/album/eyes/1569281731?i=1569281733",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281733"
+  },
+  {
+    "id": "applemusic-1569281734",
+    "name": "FIESTA",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4d/aa/b5/4daab5a6-0710-b325-54f5-ca1d11788f5f/mzaf_6819508331410297511.plus.aac.p.m4a",
+    "duration": 217760,
+    "trackUrl": "https://music.apple.com/us/album/fiesta/1569281731?i=1569281734",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281734"
+  },
+  {
+    "id": "applemusic-1569281889",
+    "name": "DREAMLIKE",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/28/41/fc284176-020e-e918-a23a-5b34066ac8a8/mzaf_16060171173478091151.plus.aac.p.m4a",
+    "duration": 226787,
+    "trackUrl": "https://music.apple.com/us/album/dreamlike/1569281731?i=1569281889",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281889"
+  },
+  {
+    "id": "applemusic-1569281904",
+    "name": "AYAYAYA",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3e/76/74/3e767414-10de-4ca3-e2de-bcc2c88bd62f/mzaf_14160970307789987447.plus.aac.p.m4a",
+    "duration": 202400,
+    "trackUrl": "https://music.apple.com/us/album/ayayaya/1569281731?i=1569281904",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281904"
+  },
+  {
+    "id": "applemusic-1569281976",
+    "name": "SO CURIOUS",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/0e/67/d50e67ff-d494-89e9-b816-e466bb5defc1/mzaf_989644237821256334.plus.aac.p.m4a",
+    "duration": 202587,
+    "trackUrl": "https://music.apple.com/us/album/so-curious/1569281731?i=1569281976",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569281976"
+  },
+  {
+    "id": "applemusic-1569282002",
+    "name": "SPACESHIP",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/1b/82/da1b8275-f9ba-d147-604c-ad45378fa911/mzaf_1949268890570118898.plus.aac.p.m4a",
+    "duration": 171387,
+    "trackUrl": "https://music.apple.com/us/album/spaceship/1569281731?i=1569282002",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282002"
+  },
+  {
+    "id": "applemusic-1569282066",
+    "name": "DESTINY",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/8c/5f/e08c5f2e-a304-eff0-86fa-e32a579fae9e/mzaf_15992052696721643221.plus.aac.p.m4a",
+    "duration": 201533,
+    "trackUrl": "https://music.apple.com/us/album/destiny/1569281731?i=1569282066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282066"
+  },
+  {
+    "id": "applemusic-1569282070",
+    "name": "YOU & I",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/14/bc/7614bc43-a8a8-577d-9670-3ed1adff0a4b/mzaf_1975671239349797666.plus.aac.p.m4a",
+    "duration": 204560,
+    "trackUrl": "https://music.apple.com/us/album/you-i/1569281731?i=1569282070",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282070"
+  },
+  {
+    "id": "applemusic-1569282073",
+    "name": "DAYDREAM",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b9/89/21/b989210d-ad8a-d0cc-8982-1a1137a44857/mzaf_16939794537411005135.plus.aac.p.m4a",
+    "duration": 203667,
+    "trackUrl": "https://music.apple.com/us/album/daydream/1569281731?i=1569282073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282073"
+  },
+  {
+    "id": "applemusic-1569282076",
+    "name": "PINK BLUSHER",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/01/8e/bf/018ebfb3-bcd4-787e-7c09-9beb8177a10c/mzaf_13007532321007205261.plus.aac.p.m4a",
+    "duration": 194000,
+    "trackUrl": "https://music.apple.com/us/album/pink-blusher/1569281731?i=1569282076",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282076"
+  },
+  {
+    "id": "applemusic-1569282077",
+    "name": "SOMEDAY",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2b/b5/ef/2bb5efa4-68ea-30e0-b863-759611975039/mzaf_12723202758581695652.plus.aac.p.m4a",
+    "duration": 197173,
+    "trackUrl": "https://music.apple.com/us/album/someday/1569281731?i=1569282077",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282077"
+  },
+  {
+    "id": "applemusic-1569282078",
+    "name": "OPEN YOUR EYES",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "BLOOM*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/30/b9/81/30b981e8-997c-b8b9-258c-2f465a3986b8/mzaf_14505200039941536040.plus.aac.p.m4a",
+    "duration": 197972,
+    "trackUrl": "https://music.apple.com/us/album/open-your-eyes/1569281731?i=1569282078",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3c/18/cd/3c18cd7d-e4f7-bfd8-9e4a-b7c1bd48bb33/8809658318862_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282078"
+  },
+  {
+    "id": "applemusic-1569280528",
+    "name": "Colors",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "COLOR*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8c/59/fb/8c59fb6c-fcf4-d398-167d-5fce50d44ec3/mzaf_16871965348552397825.plus.aac.p.m4a",
+    "duration": 218285,
+    "trackUrl": "https://music.apple.com/us/album/colors/1569280525?i=1569280528",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/7a/50/ac7a5028-425b-af8e-535b-f59dd4bedba0/8809603546906_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280528"
+  },
+  {
+    "id": "applemusic-1569280529",
+    "name": "O' My!",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "COLOR*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/11/47/65/11476599-1fba-7191-b725-87ecda77ebf7/mzaf_12272594158629934553.plus.aac.p.m4a",
+    "duration": 203303,
+    "trackUrl": "https://music.apple.com/us/album/o-my/1569280525?i=1569280529",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/7a/50/ac7a5028-425b-af8e-535b-f59dd4bedba0/8809603546906_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280529"
+  },
+  {
+    "id": "applemusic-1569280531",
+    "name": "La Vie en Rose",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "COLOR*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4b/85/27/4b8527a4-aef9-96b5-cff0-e88ec7264c95/mzaf_10520981644503147066.plus.aac.p.m4a",
+    "duration": 218994,
+    "trackUrl": "https://music.apple.com/us/album/la-vie-en-rose/1569280525?i=1569280531",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/7a/50/ac7a5028-425b-af8e-535b-f59dd4bedba0/8809603546906_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280531"
+  },
+  {
+    "id": "applemusic-1569280532",
+    "name": "Memory",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "COLOR*IZ",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/be/ed/7c/beed7c09-4e61-7605-85ff-21a7ebf2bf2e/mzaf_291319269461818147.plus.aac.p.m4a",
+    "duration": 202917,
+    "trackUrl": "https://music.apple.com/us/album/memory/1569280525?i=1569280532",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ac/7a/50/ac7a5028-425b-af8e-535b-f59dd4bedba0/8809603546906_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280532"
+  },
+  {
+    "id": "applemusic-1569282882",
+    "name": "Welcome",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Oneiric Diary",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b7/a2/d2/b7a2d2d3-64d2-7620-d3b4-5156b4d887b8/mzaf_12979321357795456883.plus.aac.p.m4a",
+    "duration": 85147,
+    "trackUrl": "https://music.apple.com/us/album/welcome/1569282878?i=1569282882",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282882"
+  },
+  {
+    "id": "applemusic-1569282884",
+    "name": "Secret Story of the Swan",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Oneiric Diary",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/bb/49/85/bb498529-e19b-2940-c81e-a333822c1e10/mzaf_7801622475361485665.plus.aac.p.m4a",
+    "duration": 192333,
+    "trackUrl": "https://music.apple.com/us/album/secret-story-of-the-swan/1569282878?i=1569282884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282884"
+  },
+  {
+    "id": "applemusic-1569282885",
+    "name": "Pretty",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Oneiric Diary",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e6/fa/13/e6fa1399-e0de-9d85-2179-4c5d98d38fea/mzaf_1731048158862592772.plus.aac.p.m4a",
+    "duration": 199933,
+    "trackUrl": "https://music.apple.com/us/album/pretty/1569282878?i=1569282885",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282885"
+  },
+  {
+    "id": "applemusic-1569282889",
+    "name": "Merry-Go-Round",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Oneiric Diary",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c7/13/44/c71344da-4cfe-19c6-bc9f-1ae1cd557a0e/mzaf_5552706710529565478.plus.aac.p.m4a",
+    "duration": 180827,
+    "trackUrl": "https://music.apple.com/us/album/merry-go-round/1569282878?i=1569282889",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282889"
+  },
+  {
+    "id": "applemusic-1569282891",
+    "name": "Rococo",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Oneiric Diary",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/92/3f/bd/923fbda8-3c45-4200-b598-0364b3babf63/mzaf_1989120796898671228.plus.aac.p.m4a",
+    "duration": 193120,
+    "trackUrl": "https://music.apple.com/us/album/rococo/1569282878?i=1569282891",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282891"
+  },
+  {
+    "id": "applemusic-1569282896",
+    "name": "With*One",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Oneiric Diary",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/00/4c/95004c4a-d05e-fe4b-58ca-d848c322174b/mzaf_11340444939927434436.plus.aac.p.m4a",
+    "duration": 219013,
+    "trackUrl": "https://music.apple.com/us/album/with-one/1569282878?i=1569282896",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/78/6d/2c786d9c-1ad9-8016-67b9-74a3e077addf/8809704415637_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569282896"
+  },
+  {
+    "id": "applemusic-1569286889",
+    "name": "Panorama",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "One-reeler / Act IV - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/b8/c4/a9b8c486-3207-4217-5462-eaf49b8cfe10/mzaf_13911690752979177202.plus.aac.p.m4a",
+    "duration": 222853,
+    "trackUrl": "https://music.apple.com/us/album/panorama/1569286882?i=1569286889",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/c2/e347c25d-0fee-35cb-1f5d-6bf651f977ae/888272071962_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569286889"
+  },
+  {
+    "id": "applemusic-1569286895",
+    "name": "Island",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "One-reeler / Act IV - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a1/5b/79/a15b79ae-7fed-7100-d5d7-3a7e31927cdb/mzaf_5069302772909384762.plus.aac.p.m4a",
+    "duration": 193533,
+    "trackUrl": "https://music.apple.com/us/album/island/1569286882?i=1569286895",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/c2/e347c25d-0fee-35cb-1f5d-6bf651f977ae/888272071962_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569286895"
+  },
+  {
+    "id": "applemusic-1569287196",
+    "name": "Sequence",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "One-reeler / Act IV - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/b7/8f/43b78fbc-d7b2-c451-2d6b-f02e3d81c160/mzaf_11374130319675444707.plus.aac.p.m4a",
+    "duration": 190867,
+    "trackUrl": "https://music.apple.com/us/album/sequence/1569286882?i=1569287196",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/c2/e347c25d-0fee-35cb-1f5d-6bf651f977ae/888272071962_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569287196"
+  },
+  {
+    "id": "applemusic-1569287198",
+    "name": "O Sole Mio",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "One-reeler / Act IV - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/97/bf/7e/97bf7ee8-0042-be3f-5a59-8949d68a5049/mzaf_1565292122178742293.plus.aac.p.m4a",
+    "duration": 210320,
+    "trackUrl": "https://music.apple.com/us/album/o-sole-mio/1569286882?i=1569287198",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/c2/e347c25d-0fee-35cb-1f5d-6bf651f977ae/888272071962_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569287198"
+  },
+  {
+    "id": "applemusic-1569287224",
+    "name": "Slow Journey",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "One-reeler / Act IV - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/82/f0/26/82f0260f-8db6-84e7-17c2-952664aa758f/mzaf_2681728107031907675.plus.aac.p.m4a",
+    "duration": 199147,
+    "trackUrl": "https://music.apple.com/us/album/slow-journey/1569286882?i=1569287224",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/47/c2/e347c25d-0fee-35cb-1f5d-6bf651f977ae/888272071962_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569287224"
+  },
+  {
+    "id": "applemusic-1553043299",
+    "name": "ZERO:ATTITUDE (feat. pH-1)",
+    "artists": [
+      "SoYou & IZ*ONE"
+    ],
+    "album": "ZERO:ATTITUDE (feat. pH-1) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/69/f7/1d/69f71d46-1f98-2e32-a7eb-008b6a14c7a5/mzaf_15535545766730968996.plus.aac.p.m4a",
+    "duration": 180907,
+    "trackUrl": "https://music.apple.com/us/album/zero-attitude-feat-ph-1/1553043296?i=1553043299",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b6/a5/6a/b6a56a13-0485-6c2c-ea8c-9795b43de3a8/1.jpg/300x300bb.jpg",
+    "trackId": "1553043299"
+  },
+  {
+    "id": "applemusic-1533391523",
+    "name": "Beware",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/6d/23/af6d2326-7da6-74e3-e71b-709a0f521104/mzaf_1438583736559033467.plus.aac.p.m4a",
+    "duration": 250829,
+    "trackUrl": "https://music.apple.com/us/album/beware/1533391521?i=1533391523",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391523"
+  },
+  {
+    "id": "applemusic-1533391524",
+    "name": "Vampire",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/dd/8c/7fdd8c92-382b-dd1b-b7d3-da3ee023f4b2/mzaf_6006491860000981059.plus.aac.p.m4a",
+    "duration": 228658,
+    "trackUrl": "https://music.apple.com/us/album/vampire/1533391521?i=1533391524",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391524"
+  },
+  {
+    "id": "applemusic-1533391525",
+    "name": "Sukito Iwasetai",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/eb/b7/93ebb7b0-317c-3fbe-b166-5f1bce8a3377/mzaf_6452083638203807438.plus.aac.p.m4a",
+    "duration": 241201,
+    "trackUrl": "https://music.apple.com/us/album/sukito-iwasetai/1533391521?i=1533391525",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391525"
+  },
+  {
+    "id": "applemusic-1533391526",
+    "name": "Waiting",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/64/74/20/64742066-1227-2da9-187c-fe7d74b9609a/mzaf_1302661463944130125.plus.aac.p.m4a",
+    "duration": 252203,
+    "trackUrl": "https://music.apple.com/us/album/waiting/1533391521?i=1533391526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391526"
+  },
+  {
+    "id": "applemusic-1533391527",
+    "name": "Buenos Aires",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cf/b3/07/cfb307bc-3535-9034-cdda-f1ddde76ad3f/mzaf_12115823577745279893.plus.aac.p.m4a",
+    "duration": 263407,
+    "trackUrl": "https://music.apple.com/us/album/buenos-aires/1533391521?i=1533391527",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391527"
+  },
+  {
+    "id": "applemusic-1533391529",
+    "name": "Yummy Summer",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/21/05/99/2105999d-6922-f94f-e773-65ce8cb52198/mzaf_4725718605149500852.plus.aac.p.m4a",
+    "duration": 206377,
+    "trackUrl": "https://music.apple.com/us/album/yummy-summer/1533391521?i=1533391529",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391529"
+  },
+  {
+    "id": "applemusic-1533391746",
+    "name": "Dousurebaii?",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/8a/6b/8f8a6b02-fa79-ff85-1492-d10127bf04aa/mzaf_14262593281362036807.plus.aac.p.m4a",
+    "duration": 174319,
+    "trackUrl": "https://music.apple.com/us/album/dousurebaii/1533391521?i=1533391746",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391746"
+  },
+  {
+    "id": "applemusic-1533391747",
+    "name": "Shy boy",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/a8/ed/d0a8ed1f-8d34-687c-f7e3-07a57325a342/mzaf_4906316223639230579.plus.aac.p.m4a",
+    "duration": 263067,
+    "trackUrl": "https://music.apple.com/us/album/shy-boy/1533391521?i=1533391747",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391747"
+  },
+  {
+    "id": "applemusic-1450365852",
+    "name": "Gwaen Chanha Yo",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Sukito Iwasetai (Type A) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/51/4b/5f514b28-79e0-eacb-c96b-1c8574303222/mzaf_3419817709333200966.plus.aac.p.m4a",
+    "duration": 256640,
+    "trackUrl": "https://music.apple.com/us/album/gwaen-chanha-yo/1450365850?i=1450365852",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/99/c2/7c99c265-fc34-82fe-7ca2-76c1afdb1ecb/00602577441394.rgb.jpg/300x300bb.jpg",
+    "trackId": "1450365852"
+  },
+  {
+    "id": "applemusic-1450365855",
+    "name": "Gokigen Sayonara",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Sukito Iwasetai (Type A) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ba/c8/23/bac82337-0641-7157-b0aa-4cee33478484/mzaf_118953448269229548.plus.aac.p.m4a",
+    "duration": 263773,
+    "trackUrl": "https://music.apple.com/us/album/gokigen-sayonara/1450365850?i=1450365855",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/99/c2/7c99c265-fc34-82fe-7ca2-76c1afdb1ecb/00602577441394.rgb.jpg/300x300bb.jpg",
+    "trackId": "1450365855"
+  },
+  {
+    "id": "applemusic-1466727940",
+    "name": "Tomorrow",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Buenos Aires (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ae/8b/aa/ae8baa98-53f1-1606-3d13-16c8edc6fcde/mzaf_8212807473844933834.plus.aac.p.m4a",
+    "duration": 185040,
+    "trackUrl": "https://music.apple.com/us/album/tomorrow/1466727926?i=1466727940",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/41/d0/c8/41d0c837-e3eb-3616-3e71-9fe346e675eb/19UMGIM45068.rgb.jpg/300x300bb.jpg",
+    "trackId": "1466727940"
+  },
+  {
+    "id": "applemusic-1466727944",
+    "name": "Target",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Buenos Aires (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4f/2e/2d/4f2e2d81-cc02-2b0e-d641-26b4dd4b146a/mzaf_10411594038624155942.plus.aac.p.m4a",
+    "duration": 221387,
+    "trackUrl": "https://music.apple.com/us/album/target/1466727926?i=1466727944",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/41/d0/c8/41d0c837-e3eb-3616-3e71-9fe346e675eb/19UMGIM45068.rgb.jpg/300x300bb.jpg",
+    "trackId": "1466727944"
+  },
+  {
+    "id": "applemusic-1466727948",
+    "name": "Toshishita Boyfriend",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Buenos Aires (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/aa/df/baaadfca-2ff6-d4d2-6219-5074f6816fea/mzaf_11283284999540267585.plus.aac.p.m4a",
+    "duration": 233067,
+    "trackUrl": "https://music.apple.com/us/album/toshishita-boyfriend/1466727926?i=1466727948",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/41/d0/c8/41d0c837-e3eb-3616-3e71-9fe346e675eb/19UMGIM45068.rgb.jpg/300x300bb.jpg",
+    "trackId": "1466727948"
+  },
+  {
+    "id": "applemusic-1466727949",
+    "name": "Human Love",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Buenos Aires (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b3/0f/c5/b30fc513-55f3-18ef-41f4-be93103077f4/mzaf_6303791848462254072.plus.aac.p.m4a",
+    "duration": 237360,
+    "trackUrl": "https://music.apple.com/us/album/human-love/1466727926?i=1466727949",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/41/d0/c8/41d0c837-e3eb-3616-3e71-9fe346e675eb/19UMGIM45068.rgb.jpg/300x300bb.jpg",
+    "trackId": "1466727949"
+  },
+  {
+    "id": "applemusic-1478594954",
+    "name": "Kimi Igai",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Vampire (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/86/78/dc/8678dc7a-baa0-dc92-a98b-0731707fad0d/mzaf_17792254079737050301.plus.aac.p.m4a",
+    "duration": 212880,
+    "trackUrl": "https://music.apple.com/us/album/kimi-igai/1478594946?i=1478594954",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/300x300bb.jpg",
+    "trackId": "1478594954"
+  },
+  {
+    "id": "applemusic-1478594955",
+    "name": "Love Bubble",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Vampire (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/95/72/bf/9572bf8a-2fa4-3c14-b6f4-ff6a97baf93c/mzaf_5478152215252942083.plus.aac.p.m4a",
+    "duration": 197787,
+    "trackUrl": "https://music.apple.com/us/album/love-bubble/1478594946?i=1478594955",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/300x300bb.jpg",
+    "trackId": "1478594955"
+  },
+  {
+    "id": "applemusic-1478594963",
+    "name": "Shigaisennanka Buttobase",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Vampire (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a5/78/f8/a578f883-9280-8348-adc6-6b9bd3b9e655/mzaf_16402684129746596318.plus.aac.p.m4a",
+    "duration": 253987,
+    "trackUrl": "https://music.apple.com/us/album/shigaisennanka-buttobase/1478594946?i=1478594963",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/300x300bb.jpg",
+    "trackId": "1478594963"
+  },
+  {
+    "id": "applemusic-1478594965",
+    "name": "Fukigen Lucy",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Vampire (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cb/6c/b3/cb6cb33e-859b-fea6-145f-2e492062ccd5/mzaf_6778152177298708822.plus.aac.p.m4a",
+    "duration": 213947,
+    "trackUrl": "https://music.apple.com/us/album/fukigen-lucy/1478594946?i=1478594965",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/300x300bb.jpg",
+    "trackId": "1478594965"
+  },
+  {
+    "id": "applemusic-1450362764",
+    "name": "Nekoni Naritai",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Sukito Iwasetai (Type B) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/09/00/9f/09009f05-e932-4114-e515-bbae5e3b8abf/mzaf_18107017102206037314.plus.aac.p.m4a",
+    "duration": 257907,
+    "trackUrl": "https://music.apple.com/us/album/nekoni-naritai/1450362465?i=1450362764",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b0/57/b3/b057b3ab-8f60-c249-42bc-90bb3f3776f3/00602577441417.rgb.jpg/300x300bb.jpg",
+    "trackId": "1450362764"
+  },
+  {
+    "id": "applemusic-1450366353",
+    "name": "Dance Wo Omoidasumade",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Sukito Iwasetai (WIZ*ONE Edition) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/d4/16/93d416f1-ac26-b5cc-8723-83144a60c4e3/mzaf_17989532561024860402.plus.aac.p.m4a",
+    "duration": 273640,
+    "trackUrl": "https://music.apple.com/us/album/dance-wo-omoidasumade/1450366348?i=1450366353",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/66/12/7a661288-8b94-b578-b73b-ffb74245d400/00602577441424.rgb.jpg/300x300bb.jpg",
+    "trackId": "1450366353"
+  },
+  {
+    "id": "applemusic-1454825930",
+    "name": "Rise (feat. IZ*ONE)",
+    "artists": [
+      "ジョナス・ブルー"
+    ],
+    "album": "Rise (feat. IZ*ONE) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/07/22/6d072282-01da-9a83-77f0-3f8805bd5c1a/mzaf_6229695601833462211.plus.aac.p.m4a",
+    "duration": 192732,
+    "trackUrl": "https://music.apple.com/jp/album/rise-feat-iz-one/1454825925?i=1454825930",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/30/05/1e/30051e6c-5fdb-7f27-a969-35eb1539245d/00602577585135.rgb.jpg/300x300bb.jpg",
+    "trackId": "1454825930"
+  }
+]

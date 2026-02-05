@@ -193,6 +193,13 @@ export default function GuessInput({
               onBlur={handleInputBlur}
               placeholder={placeholder}
               disabled={disabled}
+              role="combobox"
+              aria-label="Song title guess"
+              aria-autocomplete="list"
+              aria-controls="song-suggestions"
+              aria-expanded={showDropdown}
+              aria-haspopup="listbox"
+              autoComplete="off"
               className={`
                 w-full px-3 sm:px-4 py-2 sm:py-3
                 backdrop-blur-md bg-white/10 border border-white/20 rounded-xl sm:rounded-2xl
@@ -217,14 +224,16 @@ export default function GuessInput({
             <button
               type="submit"
               disabled={disabled || !guess.trim()}
+              aria-label="Submit your guess"
               className={`
                 flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
-                hover:shadow-2xl hover:shadow-purple-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
+                hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105
+                focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-slate-900
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
                 flex items-center justify-center space-x-0.5 sm:space-x-1 lg:space-x-2
               `}
             >
-              <span className="text-xs sm:text-sm">🎯</span>
+              <span className="text-xs sm:text-sm" aria-hidden="true">🎯</span>
               <span className="whitespace-nowrap">Guess</span>
             </button>
 
@@ -232,15 +241,17 @@ export default function GuessInput({
               type="button"
               onClick={onSkip}
               disabled={disabled || (currentTry + 1 >= maxTries)}
+              aria-label={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               title={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               className={`
                 flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
-                hover:shadow-2xl hover:shadow-gray-500/25 focus:outline-none transition-all duration-300 transform hover:scale-105
+                hover:shadow-2xl hover:shadow-gray-500/25 transition-all duration-300 transform hover:scale-105
+                focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-slate-900
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
                 flex items-center justify-center space-x-0.5 sm:space-x-1 lg:space-x-2
               `}
             >
-              <span className="text-xs sm:text-sm">⏭️</span>
+              <span className="text-xs sm:text-sm" aria-hidden="true">⏭️</span>
               <span className="whitespace-nowrap">Skip</span>
             </button>
           </div>
@@ -260,10 +271,11 @@ export default function GuessInput({
           {/* Floating UI dropdown */}
           <div
             ref={refs.setFloating}
+            id="song-suggestions"
             style={{...floatingStyles, zIndex: 51}}
             className="rounded-2xl sm:rounded-3xl shadow-2xl backdrop-blur-xl bg-white/5 border border-white/20 overflow-hidden"
             role="listbox"
-            aria-expanded={showDropdown}
+            aria-label="Song suggestions"
             data-placement={placement}
           >
             {/* Inner scroll area */}
@@ -282,6 +294,8 @@ export default function GuessInput({
                 filteredSongs.map((song, index) => (
                   <div
                     key={song.id}
+                    role="option"
+                    aria-selected={index === selectedIndex}
                     onMouseDown={(e) => e.preventDefault()}
                     onClick={() => handleSongSelect(song)}
                     className={`

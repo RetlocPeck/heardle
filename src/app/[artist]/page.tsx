@@ -1,27 +1,32 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { use, useState, useEffect } from 'react';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
 import DynamicHeardle from '@/components/game/DynamicHeardle';
 import ModeSelector from '@/components/game/ModeSelector';
 import StatisticsButton from '@/components/stats/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
-import ArtistHeader, { DailyChallengeStatus } from '@/components/artist/ArtistHeader';
+import { DailyChallengeStatus } from '@/components/artist/ArtistHeader';
 import NextDailyCountdown from '@/components/game/NextDailyCountdown';
 import AnimatedBackground from '@/components/ui/AnimatedBackground';
 import NotificationBanner from '@/components/ui/NotificationBanner';
+import RelatedArtists from '@/components/artist/RelatedArtists';
+import FAQSection from '@/components/seo/FAQSection';
+import Breadcrumbs from '@/components/ui/Breadcrumbs';
+import { generateFAQItems } from '@/lib/utils/faqUtils';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
 import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
 import { GameMode } from '@/lib/game';
 import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
 
+type ArtistPageProps = {
+  params: Promise<{ artist: string }>;
+};
 
-
-export default function ArtistPage() {
-  const params = useParams();
+export default function ArtistPage({ params }: ArtistPageProps) {
+  const { artist: artistId } = use(params);
   const [selectedMode, setSelectedMode] = useState<GameMode>('daily');
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -35,14 +40,13 @@ export default function ArtistPage() {
   });
 
   useEffect(() => {
-    const artistId = params.artist as string;
     const foundArtist = getArtistById(artistId);
     
     if (foundArtist) {
       setArtist(foundArtist);
     }
     setIsLoading(false);
-  }, [params.artist]);
+  }, [artistId]);
 
   if (isLoading) {
     return <PageLoadingSpinner />;
@@ -72,29 +76,44 @@ export default function ArtistPage() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
       <AnimatedBackground blobCount={3} subtle />
 
-      {/* Header */}
+      {/* Header with integrated content */}
        <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-         <div className="w-full px-3 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-                       <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
-              {/* Back Button - Smaller on mobile */}
-              <div className="flex items-center flex-shrink-0">
-                <a href="/" className="flex items-center space-x-1 sm:space-x-2 text-white/80 hover:text-white transition-colors font-medium">
-                  <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                  </svg>
-                  <span className="text-xs sm:text-sm lg:text-base hidden sm:inline">Back to Artists</span>
-                  <span className="sm:hidden text-xs">Back</span>
-                </a>
-              </div>
-              
-              {/* Centered Header Stack - Absolutely positioned */}
-              <ArtistHeader artist={artist} />
-              
-              {/* Statistics Button - Smaller on mobile */}
-              <div className="flex items-center justify-end flex-shrink-0">
-                <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
-              </div>
-            </div>
+         <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
+           <div className="py-3 sm:py-4">
+             {/* Top row: Breadcrumbs, Title, and Stats */}
+             <div className="flex justify-between items-center mb-2">
+               {/* Left: Breadcrumbs */}
+               <div className="flex-shrink-0">
+                 <Breadcrumbs 
+                   items={[
+                     { label: 'Home', href: '/' },
+                     { label: artist.displayName }
+                   ]}
+                 />
+               </div>
+               
+               {/* Center: Artist Title */}
+               <div className="absolute left-1/2 transform -translate-x-1/2">
+                 <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white whitespace-nowrap">
+                   {artist.displayName} Heardle
+                 </h1>
+               </div>
+               
+               {/* Right: Stats Button */}
+               <div className="flex-shrink-0">
+                 <StatisticsButton artistId={artist.id} currentMode={selectedMode} />
+               </div>
+             </div>
+             
+             {/* Description row */}
+             <div className="text-center">
+               <p className="text-white/70 text-xs sm:text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
+                 {artist.fandom ? `Calling all ${artist.fandom}! ` : ''}
+                 Test your knowledge of {artist.displayName}'s discography. 
+                 Listen to song clips and guess the title. New daily challenge every day!
+               </p>
+             </div>
+           </div>
          </div>
        </div>
 
@@ -160,6 +179,12 @@ export default function ArtistPage() {
           />
          </div>
       </div>
+
+      {/* Related Artists Section - Internal Linking for SEO */}
+      <RelatedArtists currentArtistId={artist.id} maxArtists={4} />
+
+      {/* FAQ Section - UI only (schema rendered server-side in layout) */}
+      <FAQSection faqItems={generateFAQItems(artist.displayName, artist.fandom)} />
     </div>
   );
 }

@@ -79,7 +79,7 @@ export function useAudioControl(options: UseAudioControlOptions = {}): UseAudioC
     };
     const handleLoadStart = () => setIsLoading(true);
     const handleCanPlay = () => setIsLoading(false);
-    const handleError = (_e: Event) => {
+    const handleError = () => {
       const error = new Error('Audio playback error');
       onError?.(error);
     };

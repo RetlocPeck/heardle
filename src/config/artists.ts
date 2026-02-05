@@ -19,6 +19,8 @@ export interface ArtistConfig {
   appleMusicArtistId?: string;
   theme: ArtistTheme;
   featured?: boolean;
+  fandom?: string; // Fandom name for SEO (e.g., "ONCE" for TWICE, "ARMY" for BTS)
+  seoDescription?: string; // Custom SEO description (falls back to template if not provided)
 }
 
 // =============================================================================
@@ -98,14 +100,14 @@ type ArtistData = Omit<ArtistConfig, 'theme'>;
 
 const ARTISTS_DATA: ArtistData[] = [
   // Featured Artists
-  { id: 'twice', name: 'TWICE', displayName: 'TWICE', searchTerms: ['TWICE', '트와이스'], featured: true },
-  { id: 'bts', name: 'BTS', displayName: 'BTS', searchTerms: ['BTS', '방탄소년단', 'Bangtan Boys'] },
-  { id: 'blackpink', name: 'BLACKPINK', displayName: 'BLACKPINK', searchTerms: ['BLACKPINK', '블랙핑크'] },
+  { id: 'twice', name: 'TWICE', displayName: 'TWICE', searchTerms: ['TWICE', '트와이스'], featured: true, fandom: 'ONCE' },
+  { id: 'bts', name: 'BTS', displayName: 'BTS', searchTerms: ['BTS', '방탄소년단', 'Bangtan Boys'], featured: true, fandom: 'ARMY' },
+  { id: 'blackpink', name: 'BLACKPINK', displayName: 'BLACKPINK', searchTerms: ['BLACKPINK', '블랙핑크'], featured: true, fandom: 'BLINK' },
   
   // Girl Groups
-  { id: 'le-sserafim', name: 'LE SSERAFIM', displayName: 'LE SSERAFIM', searchTerms: ['LE SSERAFIM', '르세라핌'] },
+  { id: 'le-sserafim', name: 'LE SSERAFIM', displayName: 'LE SSERAFIM', searchTerms: ['LE SSERAFIM', '르세라핌'], featured: true, fandom: 'FEARNOT' },
   { id: 'itzy', name: 'ITZY', displayName: 'ITZY', searchTerms: ['ITZY', '있지'] },
-  { id: 'aespa', name: 'aespa', displayName: 'aespa', searchTerms: ['aespa', '에스파', 'AESPA'] },
+  { id: 'aespa', name: 'aespa', displayName: 'aespa', searchTerms: ['aespa', '에스파', 'AESPA'], featured: true, fandom: 'MY' },
   { id: 'newjeans', name: 'NewJeans', displayName: 'NewJeans', searchTerms: ['NewJeans', '뉴진스'] },
   { id: 'ive', name: 'IVE', displayName: 'IVE', searchTerms: ['IVE', '아이브'] },
   { id: 'i-dle', name: 'i-dle', displayName: 'i-dle', searchTerms: ['i-dle', '아이들', 'G-idle', '(G)-idle'] },
@@ -114,14 +116,15 @@ const ARTISTS_DATA: ArtistData[] = [
   { id: 'everglow', name: 'EVERGLOW', displayName: 'EVERGLOW', searchTerms: ['EVERGLOW', '에버글로우'] },
   { id: 'stayc', name: 'STAYC', displayName: 'STAYC', searchTerms: ['STAYC', '스테이씨'] },
   { id: 'kiss-of-life', name: 'KISS OF LIFE', displayName: 'KISS OF LIFE', searchTerms: ['KISS OF LIFE', '키스 오브 라이프'] },
-  { id: 'katseye', name: 'KATSEYE', displayName: 'KATSEYE', searchTerms: ['KATSEYE'] },
+  { id: 'katseye', name: 'KATSEYE', displayName: 'KATSEYE', searchTerms: ['KATSEYE'], featured: true, fandom: 'EYEKONS' },
   { id: 'triples', name: 'tripleS', displayName: 'tripleS', searchTerms: ['tripleS', 'triple S', '트리플에스'], appleMusicArtistId: '1651595986' },
   { id: 'babymonster', name: 'BABYMONSTER', displayName: 'BABYMONSTER', searchTerms: ['BABYMONSTER', '베이비몬스터'] },
   { id: 'girls-generation', name: "Girls' Generation", displayName: "Girls' Generation", searchTerms: ["Girls' Generation", '소녀시대', 'SNSD'], appleMusicArtistId: '357463500' },
   { id: 'mamamoo', name: 'MAMAMOO', displayName: 'MAMAMOO', searchTerms: ['MAMAMOO', '마마무'] },
   { id: 'gfriend', name: 'GFRIEND', displayName: 'GFRIEND', searchTerms: ['GFRIEND', '여자친구'] },
   { id: 'xg', name: 'XG', displayName: 'XG', searchTerms: ['XG', 'Xtraordinary Girls'] },
-  { id: 'ioi', name: 'I.O.I', displayName: 'I.O.I', searchTerms: ['I.O.I', '아이오아이'] },
+  { id: 'ioi', name: 'I.O.I', displayName: 'I.O.I', searchTerms: ['I.O.I', '아이오아이'], fandom: 'I.O.I' },
+  { id: 'izone', name: 'IZ*ONE', displayName: 'IZ*ONE', searchTerms: ['IZ*ONE', 'IZONE', '아이즈원'], appleMusicArtistId: '1440449616', fandom: 'WIZ*ONE' },
   { id: 'aoa', name: 'AOA', displayName: 'AOA', searchTerms: ['AOA', '에이오에이'] },
   { id: 'chung-ha', name: 'CHUNG HA', displayName: 'CHUNG HA', searchTerms: ['CHUNG HA', '청하'] },
   { id: 'fromis-9', name: 'fromis_9', displayName: 'fromis_9', searchTerms: ['fromis_9', '프로미스나인'] },

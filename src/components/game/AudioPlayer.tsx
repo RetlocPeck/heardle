@@ -548,8 +548,11 @@ export default function AudioPlayer({
       <button
         onClick={togglePlay}
         disabled={isLoading || !song.previewUrl}
+        aria-label={isLoading ? 'Loading audio' : isPlaying ? 'Pause audio preview' : 'Play audio preview'}
+        aria-pressed={isPlaying}
         className={`
           px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-1 sm:space-x-3 text-sm sm:text-base
+          focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-slate-900
           ${isLoading || !song.previewUrl
             ? 'bg-gray-500/50 cursor-not-allowed' 
             : isPlaying 
