@@ -101,20 +101,20 @@ export class AppleMusicService {
     console.log(`🌐 No cache found for ${artistId}, fetching from Apple Music API...`);
 
     try {
-      // Strategy 1: Use explicit Apple Music artist ID if configured
-      const explicitId = (artist as any).appleMusicArtistId;
-      if (explicitId) {
-        console.log(`🎵 Fetching tracks for ${artist.displayName} using explicit Apple Music ID: ${explicitId}`);
-        const tracks = await this.fetchArtistTracks(explicitId);
+      // Strategy 1: Use explicit Apple Music artist ID if configured (PRIORITY)
+      // This is more reliable than searching by name, which can return incorrect matches
+      if (artist.appleMusicArtistId) {
+        console.log(`🎵 Fetching tracks for ${artist.displayName} using explicit Apple Music ID: ${artist.appleMusicArtistId}`);
+        const tracks = await this.fetchArtistTracks(artist.appleMusicArtistId);
         
         if (tracks.length > 0) {
           this.processAndCacheTracks(tracks, artistId);
           return this.availableTracks.get(artistId) || [];
         }
-        console.warn(`⚠️ Explicit ID ${explicitId} returned no tracks, falling back to search...`);
+        console.warn(`⚠️ Explicit ID ${artist.appleMusicArtistId} returned no tracks, falling back to search...`);
       }
 
-      // Strategy 2: Search by artist name (primary strategy)
+      // Strategy 2: Search by artist name (fallback)
       console.log(`🔍 Searching for "${artist.displayName}" by name...`);
       const searchedArtist = await this.searchArtistByName(artist.displayName);
       
@@ -486,9 +486,8 @@ export class AppleMusicService {
     console.log(`🌐 No cached artwork for ${artistId}, fetching from API...`);
 
     try {
-      // Try explicit Apple Music ID first
-      const explicitId = (artist as any).appleMusicArtistId;
-      let appleMusicId = explicitId;
+      // Try explicit Apple Music ID first (priority)
+      let appleMusicId = artist.appleMusicArtistId;
 
       // If no explicit ID, search for the artist
       if (!appleMusicId) {
