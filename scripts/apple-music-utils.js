@@ -131,8 +131,8 @@ function convertTrackToSong(track) {
  */
 function isEnglishOnly(str) {
   if (!str) return false;
-  const nonEnglishPattern = /[^\x00-\x7F]/;
-  return !nonEnglishPattern.test(str);
+  const hasAsianCharacter = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff66-\uff9f\uac00-\ud7af]/;
+  return !hasAsianCharacter.test(str);
 }
 
 /**
