@@ -127,15 +127,15 @@ export default function GuessInput({
         break;
       case 'Enter':
         e.preventDefault();
-        if (selectedIndex >= 0 && selectedIndex < filteredSongs.length) {
-          const selectedSong = filteredSongs[selectedIndex];
-          setGuess(selectedSong.name);
+        const index = selectedIndex === -1 && filteredSongs.length > 0 ? 0 : selectedIndex;
+        if (index >= 0 && index < filteredSongs.length) {
+          const selectedSong = filteredSongs[index];
           setShowDropdown(false);
           onSubmit(selectedSong.name);
         } else if (guess.trim()) {
           onSubmit(guess.trim());
-          setGuess('');
         }
+        setGuess('');
         break;
       case 'Escape':
         setShowDropdown(false);
