@@ -64,33 +64,53 @@ export default function GuessInput({
     
     if (guess.trim() && availableSongs.length > 0) {
       const filtered = availableSongs.filter(song => 
-        song.name.toLowerCase().startsWith(guess.toLowerCase())
+        song.name.toLowerCase().includes(guess.toLowerCase())
       );
       
       // Deduplicate by song title - keep only one entry per unique song name
-      const uniqueSongs = filtered.reduce((acc: Song[], currentSong) => {
-        const existingSong = acc.find(song => 
-          song.name.toLowerCase() === currentSong.name.toLowerCase()
-        );
-        
-        if (!existingSong) {
-          // This is a new unique song title, add it
-          acc.push(currentSong);
-        } else {
-          // We already have this song title, keep the better version
-          // Prefer the one without parentheses in the name (usually the main version)
-          const currentHasParentheses = currentSong.name.includes('(');
-          const existingHasParentheses = existingSong.name.includes('(');
+      const uniqueSongs = filtered
+        .reduce((acc: Song[], currentSong) => {
+          const existingSong = acc.find(song => 
+            song.name.toLowerCase() === currentSong.name.toLowerCase()
+          );
           
-          if (!currentHasParentheses && existingHasParentheses) {
-            // Replace with the version without parentheses
-            const index = acc.findIndex(song => song.id === existingSong.id);
-            acc[index] = currentSong;
+          if (!existingSong) {
+            // This is a new unique song title, add it
+            acc.push(currentSong);
+          } else {
+            // We already have this song title, keep the better version
+            // Prefer the one without parentheses in the name (usually the main version)
+            const currentHasParentheses = currentSong.name.includes('(');
+            const existingHasParentheses = existingSong.name.includes('(');
+            
+            if (!currentHasParentheses && existingHasParentheses) {
+              // Replace with the version without parentheses
+              const index = acc.findIndex(song => song.id === existingSong.id);
+              acc[index] = currentSong;
+            }
           }
-        }
-        
-        return acc;
-      }, []);
+          
+          return acc;
+        }, [])
+        .toSorted((song1, song2) => {
+          // Prioritize songs that start with the guess
+          const song1StartMatches = song1.name.toLowerCase().startsWith(guess.toLowerCase());
+          const song2StartMatches = song2.name.toLowerCase().startsWith(guess.toLowerCase());
+          const startPriority = +song2StartMatches - +song1StartMatches;
+          if (startPriority !== 0) {
+            return startPriority;
+          }
+
+          // Then prioritize shorter song names i.e. songs that the guess matches more
+          const proportionPriority = song1.name.length - song2.name.length;
+          if (proportionPriority !== 0) {
+            return proportionPriority;
+          }
+
+          // Default to alphabetical order
+          return song1.name.localeCompare(song2.name, "en", { sensitivity: 'base' });
+        });
+      
       
       setFilteredSongs(uniqueSongs);
       if (uniqueSongs.length > 0) {
