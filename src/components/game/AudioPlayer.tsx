@@ -27,6 +27,7 @@ export default function AudioPlayer({
   const [currentTime, setCurrentTime] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const completeResetRef = useRef<NodeJS.Timeout | null>(null);
   const prevIsOverRef = useRef<boolean>(false);
   const hasMountedRef = useRef<boolean>(false);
 
@@ -45,8 +46,13 @@ export default function AudioPlayer({
 
     const handleEnded = () => {
       setIsPlaying(false);
-      setCurrentTime(0);
       onEnded?.();
+      // Fill to 100% then reset after a brief moment
+      if (completeResetRef.current) clearTimeout(completeResetRef.current);
+      completeResetRef.current = setTimeout(() => {
+        setCurrentTime(0);
+        completeResetRef.current = null;
+      }, 600);
     };
 
     const handleLoadStart = () => setIsLoading(true);
@@ -119,15 +125,17 @@ export default function AudioPlayer({
     
     // Set a timeout to stop the audio after the specified duration
     timeoutRef.current = setTimeout(() => {
-      console.log(`🎵 AudioPlayer: Timeout reached, stopping audio after ${duration}ms`);
       if (audio) {
-        // Force stop the audio
         audio.pause();
-        audio.currentTime = 0;
-        audio.load(); // Reload to ensure it's completely stopped
         setIsPlaying(false);
-        setCurrentTime(0);
         onEnded?.();
+        // Fill to 100% then reset after a brief moment
+        if (completeResetRef.current) clearTimeout(completeResetRef.current);
+        completeResetRef.current = setTimeout(() => {
+          if (audio) { audio.currentTime = 0; audio.load(); }
+          setCurrentTime(0);
+          completeResetRef.current = null;
+        }, 600);
       }
       timeoutRef.current = null;
     }, duration);
@@ -142,14 +150,16 @@ export default function AudioPlayer({
 
   const forceStop = () => {
     const audio = audioRef.current;
+    if (completeResetRef.current) {
+      clearTimeout(completeResetRef.current);
+      completeResetRef.current = null;
+    }
     if (audio) {
       audio.pause();
       audio.currentTime = 0;
-      audio.load(); // Reload to ensure it's completely stopped
+      audio.load();
       setIsPlaying(false);
       setCurrentTime(0);
-      
-      // Clear any existing timeout
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
         timeoutRef.current = null;
@@ -236,10 +246,13 @@ export default function AudioPlayer({
        setIsPlaying(false);
        setCurrentTime(0);
        
-       // Clear any existing timeout
        if (timeoutRef.current) {
          clearTimeout(timeoutRef.current);
          timeoutRef.current = null;
+       }
+       if (completeResetRef.current) {
+         clearTimeout(completeResetRef.current);
+         completeResetRef.current = null;
        }
      }, 100);
      
@@ -330,14 +343,17 @@ export default function AudioPlayer({
     
     // Set timeout to stop after duration
     timeoutRef.current = setTimeout(() => {
-      console.log(`🎵 AudioPlayer: Play timeout reached, stopping audio after ${duration}ms`);
       if (audio && !audio.paused) {
         audio.pause();
-        audio.currentTime = 0;
-        audio.load();
         setIsPlaying(false);
-        setCurrentTime(0);
         onEnded?.();
+        // Fill to 100% then reset after a brief moment
+        if (completeResetRef.current) clearTimeout(completeResetRef.current);
+        completeResetRef.current = setTimeout(() => {
+          if (audio) { audio.currentTime = 0; audio.load(); }
+          setCurrentTime(0);
+          completeResetRef.current = null;
+        }, 600);
       }
       timeoutRef.current = null;
     }, duration);
