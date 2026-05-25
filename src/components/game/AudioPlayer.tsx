@@ -461,7 +461,7 @@ export default function AudioPlayer({
          <div className="relative w-full max-w-sm">
            <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
              <div
-               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg"
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[250ms] linear"
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
@@ -476,7 +476,7 @@ export default function AudioPlayer({
          <div className="relative w-full max-w-sm">
            <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
              <div
-               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg"
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[250ms] linear"
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
