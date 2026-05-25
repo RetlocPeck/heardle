@@ -43,10 +43,6 @@ export default function AudioPlayer({
     const audio = audioRef.current;
     if (!audio) return;
 
-    const handleTimeUpdate = () => {
-      setCurrentTime(audio.currentTime);
-    };
-
     const handleEnded = () => {
       setIsPlaying(false);
       setCurrentTime(0);
@@ -56,18 +52,25 @@ export default function AudioPlayer({
     const handleLoadStart = () => setIsLoading(true);
     const handleCanPlay = () => setIsLoading(false);
 
-    audio.addEventListener('timeupdate', handleTimeUpdate);
     audio.addEventListener('ended', handleEnded);
     audio.addEventListener('loadstart', handleLoadStart);
     audio.addEventListener('canplay', handleCanPlay);
 
     return () => {
-      audio.removeEventListener('timeupdate', handleTimeUpdate);
       audio.removeEventListener('ended', handleEnded);
       audio.removeEventListener('loadstart', handleLoadStart);
       audio.removeEventListener('canplay', handleCanPlay);
     };
   }, [onEnded]);
+
+  // Poll currentTime at 20fps when playing for smooth progress bar
+  useEffect(() => {
+    if (!isPlaying) return;
+    const id = setInterval(() => {
+      if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
+    }, 50);
+    return () => clearInterval(id);
+  }, [isPlaying]);
 
   // Handle audio source and duration control
   useEffect(() => {
@@ -461,7 +464,7 @@ export default function AudioPlayer({
          <div className="relative w-full max-w-sm">
            <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
              <div
-               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[250ms] linear"
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[50ms] linear"
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
@@ -476,7 +479,7 @@ export default function AudioPlayer({
          <div className="relative w-full max-w-sm">
            <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
              <div
-               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[250ms] linear"
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[50ms] linear"
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
