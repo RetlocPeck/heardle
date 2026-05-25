@@ -27,7 +27,6 @@ export default function AudioPlayer({
   const [currentTime, setCurrentTime] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const completeResetRef = useRef<NodeJS.Timeout | null>(null);
   const prevIsOverRef = useRef<boolean>(false);
   const hasMountedRef = useRef<boolean>(false);
 
@@ -46,13 +45,10 @@ export default function AudioPlayer({
 
     const handleEnded = () => {
       setIsPlaying(false);
+      // Snap to the actual audio end position so the bar shows 100%
+      // and stays there until the user takes an action
+      setCurrentTime(audio.duration || 30);
       onEnded?.();
-      // Fill to 100% then reset after a brief moment
-      if (completeResetRef.current) clearTimeout(completeResetRef.current);
-      completeResetRef.current = setTimeout(() => {
-        setCurrentTime(0);
-        completeResetRef.current = null;
-      }, 600);
     };
 
     const handleLoadStart = () => setIsLoading(true);
@@ -128,14 +124,9 @@ export default function AudioPlayer({
       if (audio) {
         audio.pause();
         setIsPlaying(false);
+        // Hold the bar at 100% — it resets when the user plays/guesses/skips
+        setCurrentTime(duration / 1000);
         onEnded?.();
-        // Fill to 100% then reset after a brief moment
-        if (completeResetRef.current) clearTimeout(completeResetRef.current);
-        completeResetRef.current = setTimeout(() => {
-          if (audio) { audio.currentTime = 0; audio.load(); }
-          setCurrentTime(0);
-          completeResetRef.current = null;
-        }, 600);
       }
       timeoutRef.current = null;
     }, duration);
@@ -150,10 +141,6 @@ export default function AudioPlayer({
 
   const forceStop = () => {
     const audio = audioRef.current;
-    if (completeResetRef.current) {
-      clearTimeout(completeResetRef.current);
-      completeResetRef.current = null;
-    }
     if (audio) {
       audio.pause();
       audio.currentTime = 0;
@@ -250,10 +237,6 @@ export default function AudioPlayer({
          clearTimeout(timeoutRef.current);
          timeoutRef.current = null;
        }
-       if (completeResetRef.current) {
-         clearTimeout(completeResetRef.current);
-         completeResetRef.current = null;
-       }
      }, 100);
      
      return () => clearTimeout(timeoutId);
@@ -346,14 +329,9 @@ export default function AudioPlayer({
       if (audio && !audio.paused) {
         audio.pause();
         setIsPlaying(false);
+        // Hold the bar at 100% — it resets when the user plays/guesses/skips
+        setCurrentTime(duration / 1000);
         onEnded?.();
-        // Fill to 100% then reset after a brief moment
-        if (completeResetRef.current) clearTimeout(completeResetRef.current);
-        completeResetRef.current = setTimeout(() => {
-          if (audio) { audio.currentTime = 0; audio.load(); }
-          setCurrentTime(0);
-          completeResetRef.current = null;
-        }, 600);
       }
       timeoutRef.current = null;
     }, duration);
