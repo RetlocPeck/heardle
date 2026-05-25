@@ -19,7 +19,7 @@ import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import SupportButton from '@/components/ui/buttons/SupportButton';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
+import { useDailyRolloverDetection, useNewDailyChallengeListener } from '@/lib/hooks/useDailyRolloverDetection';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -36,7 +36,6 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
   const [error, setError] = useState<string | null>(null);
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
   const [isMobile, setIsMobile] = useState(false);
-  const [puzzleNumber, setPuzzleNumber] = useState<number>(getLocalPuzzleNumber());
 
   useEffect(() => {
     const artistId = params.artist as string;
@@ -59,68 +58,17 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     return () => mq.removeEventListener('change', update);
   }, []);
 
-  // Rollover detection: if puzzle number changes while page is open, clear & reload
-  useEffect(() => {
-    if (mode !== 'daily' || typeof window === 'undefined') return;
+  useDailyRolloverDetection({
+    artistId: params.artist as string,
+    enabled: mode === 'daily',
+  });
 
-    const checkPuzzleRollover = () => {
-      const currentPuzzleNumber = getLocalPuzzleNumber();
-      if (currentPuzzleNumber !== puzzleNumber) {
-        console.log(`🔄 Puzzle rollover detected: ${puzzleNumber} → ${currentPuzzleNumber}`);
-        
-        const artistId = params.artist as string;
-        const storage = DailyChallengeStorage.getInstance();
-        
-        // Clear old puzzle data
-        storage.clearDailyChallenge(artistId);
-        
-        // Reset game logic and load fresh daily
-        gameLogic.resetGame();
-        const newGameState = gameLogic.getGameState();
-        setGameState(newGameState);
-        setPuzzleNumber(currentPuzzleNumber);
-        
-        // Notify challenge card that new daily is available (not completed)
-        const challengeResetEvent = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
-          detail: { 
-            artistId, 
-            date: getTodayString(), 
-            completed: false,
-            isNewDaily: true // Flag to indicate this is a new daily challenge
-          }
-        });
-        window.dispatchEvent(challengeResetEvent);
-        console.log(`📡 Dispatched ${DAILY_CHALLENGE_UPDATED_EVENT} for ${artistId}`);
-        
-        // Notify parent component of reset
-        onGameStateChange?.(newGameState);
-        
-        // Load new daily puzzle
-        loadSong(artistId);
-      }
-    };
-
-    // Check every 30 seconds (lightweight check)
-    const intervalId = window.setInterval(checkPuzzleRollover, 30_000);
-    
-    // Check when tab becomes visible (user returns from another tab)
-    const handleVisibilityChange = () => {
-      if (!document.hidden) {
-        checkPuzzleRollover();
-      }
-    };
-    
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-
-    // One immediate check on mount (covers returning users)
-    checkPuzzleRollover();
-
-    return () => {
-      window.clearInterval(intervalId);
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
-    };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mode, params.artist, puzzleNumber, gameLogic, onGameStateChange]);
+  useNewDailyChallengeListener(params.artist as string, () => {
+    if (mode !== 'daily') return;
+    gameLogic.resetGame();
+    setGameState(gameLogic.getGameState());
+    loadSong(params.artist as string);
+  });
 
   const loadSong = useCallback(async (artistId: string) => {
     setIsLoading(true);
@@ -204,7 +152,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     // Save daily challenge state if in daily mode
     if (mode === 'daily' && song) {
       const storage = DailyChallengeStorage.getInstance();
-      storage.saveDailyChallenge(artistId, song.id, newGameState, puzzleNumber);
+      storage.saveDailyChallenge(artistId, song.id, newGameState, getLocalPuzzleNumber());
     }
     
     // Record statistics when game ends
@@ -221,7 +169,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     
     // Notify parent component of game state change
     onGameStateChange?.(newGameState);
-  }, [mode, params.artist, puzzleNumber, onGameStateChange]);
+  }, [mode, params.artist, onGameStateChange]);
 
   const loadAvailableSongs = useCallback(async (artistId: string) => {
     try {

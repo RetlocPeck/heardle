@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from 'react';
 
 function nextLocalMidnight(from: Date) {
   const d = new Date(from);
@@ -13,10 +13,7 @@ function nextLocalMidnight(from: Date) {
 
 function pad(n: number) { return String(n).padStart(2, "0"); }
 
-export default function NextDailyCountdown({
-  onRollOver,
-  className = "",
-}: { onRollOver?: () => void; className?: string }) {
+export default function NextDailyCountdown({ className = '' }: { className?: string }) {
   const [mounted, setMounted] = useState(false);
   const [now, setNow] = useState<Date>(() => new Date());
   const target = useMemo(() => nextLocalMidnight(now), [now]);
@@ -32,18 +29,6 @@ export default function NextDailyCountdown({
   const h = Math.floor(totalSec / 3600);
   const m = Math.floor((totalSec % 3600) / 60);
   const s = totalSec % 60;
-
-  useEffect(() => {
-    if (mounted && totalSec === 0 && onRollOver) {
-      onRollOver();
-      // Add a subtle animation effect when rolling over
-      const element = document.querySelector('[data-countdown]');
-      if (element) {
-        element.classList.add('animate-pulse');
-        setTimeout(() => element.classList.remove('animate-pulse'), 1000);
-      }
-    }
-  }, [mounted, totalSec, onRollOver]);
 
   // Reserve height to prevent layout shift
   return (
