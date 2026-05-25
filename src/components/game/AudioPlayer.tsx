@@ -345,29 +345,48 @@ export default function AudioPlayer({
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio || !song.previewUrl) return;
-    
-    // Handle game over (lost) - full preview playback
-    if (disabled && !isGameWon) {
-      if (isPlaying) {
-        pauseAudio(audio);
-      } else {
-        startFullPreview(audio);
-      }
-      return;
-    }
 
-    // Handle pause
     if (isPlaying) {
       pauseAudio(audio);
       return;
     }
 
-    // Handle play based on game state
-    if (isGameWon) {
-      console.log('🎵 AudioPlayer: Playing full preview (game won)');
-      startFullPreview(audio);
+    const isOver = isGameWon || disabled;
+
+    if (isOver) {
+      // Full preview: resume from current position if mid-clip, else restart
+      const atEnd = audio.duration > 0 && audio.currentTime >= audio.duration - 0.1;
+      if (audio.currentTime > 0 && !atEnd) {
+        audio.muted = false;
+        audio.play().catch(handlePlayError);
+        setIsPlaying(true);
+        onPlay?.();
+      } else {
+        startFullPreview(audio);
+      }
     } else {
-      startLimitedPreview(audio);
+      // Limited preview: resume from current position if mid-clip, else restart
+      const maxSec = duration / 1000;
+      const isMidClip = audio.currentTime > 0 && audio.currentTime < maxSec - 0.05;
+      if (isMidClip) {
+        const remainingMs = (maxSec - audio.currentTime) * 1000;
+        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+        timeoutRef.current = setTimeout(() => {
+          if (audio && !audio.paused) {
+            audio.pause();
+            setIsPlaying(false);
+            setCurrentTime(maxSec);
+            onEnded?.();
+          }
+          timeoutRef.current = null;
+        }, remainingMs);
+        audio.muted = false;
+        audio.play().catch(handlePlayError);
+        setIsPlaying(true);
+        onPlay?.();
+      } else {
+        startLimitedPreview(audio);
+      }
     }
   };
 
