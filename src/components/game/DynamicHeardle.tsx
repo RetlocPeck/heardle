@@ -223,9 +223,9 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     }
   };
 
-  const handleAudioEnded = () => {
+  const handleAudioEnded = useCallback(() => {
     // Audio preview ended, could add logic here if needed
-  };
+  }, []);
 
   if (!artist) {
     return (

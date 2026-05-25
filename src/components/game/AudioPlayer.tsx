@@ -27,8 +27,16 @@ export default function AudioPlayer({
   const [currentTime, setCurrentTime] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const clipEndedRef = useRef<boolean>(false);
+  const onEndedRef = useRef(onEnded);
   const prevIsOverRef = useRef<boolean>(false);
   const hasMountedRef = useRef<boolean>(false);
+
+  // Keep onEndedRef current without it being a dep of other effects
+  useEffect(() => {
+    onEndedRef.current = onEnded;
+  }, [onEnded]);
 
   // Clear any existing timeout when component unmounts or duration changes
   useEffect(() => {
@@ -71,7 +79,11 @@ export default function AudioPlayer({
     const id = setInterval(() => {
       if (audioRef.current) setCurrentTime(audioRef.current.currentTime);
     }, 50);
-    return () => clearInterval(id);
+    intervalRef.current = id;
+    return () => {
+      clearInterval(id);
+      intervalRef.current = null;
+    };
   }, [isPlaying]);
 
   // Handle audio source and duration control
@@ -122,11 +134,17 @@ export default function AudioPlayer({
     // Set a timeout to stop the audio after the specified duration
     timeoutRef.current = setTimeout(() => {
       if (audio) {
+        // Stop the polling interval first so it can't overwrite our 100% value
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+          intervalRef.current = null;
+        }
         audio.pause();
         setIsPlaying(false);
+        clipEndedRef.current = true;
         // Hold the bar at 100% — it resets when the user plays/guesses/skips
         setCurrentTime(duration / 1000);
-        onEnded?.();
+        onEndedRef.current?.();
       }
       timeoutRef.current = null;
     }, duration);
@@ -137,14 +155,20 @@ export default function AudioPlayer({
         timeoutRef.current = null;
       }
     };
-  }, [song.previewUrl, duration, isGameWon, disabled, onEnded]);
+  // onEnded intentionally excluded — kept in onEndedRef to avoid re-running on every parent render
+  }, [song.previewUrl, duration, isGameWon, disabled]);
 
   const forceStop = () => {
     const audio = audioRef.current;
     if (audio) {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
       audio.pause();
       audio.currentTime = 0;
       audio.load();
+      clipEndedRef.current = false;
       setIsPlaying(false);
       setCurrentTime(0);
       if (timeoutRef.current) {
@@ -224,22 +248,25 @@ export default function AudioPlayer({
     const audio = audioRef.current;
     if (!audio) return;
     
-         // Add a small delay to prevent rapid state changes
-     const timeoutId = setTimeout(() => {
-       // Reset audio state when song changes
-       audio.pause();
-       audio.currentTime = 0;
-       audio.load();
-       setIsPlaying(false);
-       setCurrentTime(0);
-       
-       if (timeoutRef.current) {
-         clearTimeout(timeoutRef.current);
-         timeoutRef.current = null;
-       }
-     }, 100);
+    const timeoutId = setTimeout(() => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+      }
+      audio.pause();
+      audio.currentTime = 0;
+      audio.load();
+      clipEndedRef.current = false;
+      setIsPlaying(false);
+      setCurrentTime(0);
+      
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+        timeoutRef.current = null;
+      }
+    }, 100);
      
-     return () => clearTimeout(timeoutId);
+    return () => clearTimeout(timeoutId);
   }, [song.id]); // Only reset when song ID changes
 
   // Pause and reset when page is hidden/backgrounded or loses focus
@@ -316,6 +343,7 @@ export default function AudioPlayer({
    * Start limited preview playback (during active game)
    */
   const startLimitedPreview = (audio: HTMLAudioElement) => {
+    clipEndedRef.current = false;
     audio.currentTime = 0;
     setCurrentTime(0);
     
@@ -327,11 +355,17 @@ export default function AudioPlayer({
     // Set timeout to stop after duration
     timeoutRef.current = setTimeout(() => {
       if (audio && !audio.paused) {
+        // Stop the polling interval first so it can't overwrite our 100% value
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+          intervalRef.current = null;
+        }
         audio.pause();
         setIsPlaying(false);
+        clipEndedRef.current = true;
         // Hold the bar at 100% — it resets when the user plays/guesses/skips
         setCurrentTime(duration / 1000);
-        onEnded?.();
+        onEndedRef.current?.();
       }
       timeoutRef.current = null;
     }, duration);
@@ -365,18 +399,24 @@ export default function AudioPlayer({
         startFullPreview(audio);
       }
     } else {
-      // Limited preview: resume from current position if mid-clip, else restart
+      // Limited preview: resume from current position if genuinely mid-clip, else restart fresh.
+      // Use clipEndedRef (not currentTime alone) so timer imprecision can't cause a false mid-clip.
       const maxSec = duration / 1000;
-      const isMidClip = audio.currentTime > 0 && audio.currentTime < maxSec - 0.05;
+      const isMidClip = !clipEndedRef.current && audio.currentTime > 0 && audio.currentTime < maxSec;
       if (isMidClip) {
         const remainingMs = (maxSec - audio.currentTime) * 1000;
         if (timeoutRef.current) clearTimeout(timeoutRef.current);
         timeoutRef.current = setTimeout(() => {
           if (audio && !audio.paused) {
+            if (intervalRef.current) {
+              clearInterval(intervalRef.current);
+              intervalRef.current = null;
+            }
             audio.pause();
             setIsPlaying(false);
+            clipEndedRef.current = true;
             setCurrentTime(maxSec);
-            onEnded?.();
+            onEndedRef.current?.();
           }
           timeoutRef.current = null;
         }, remainingMs);
