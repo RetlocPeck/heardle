@@ -3,17 +3,8 @@ import type { FilteredTrack, GenericTrack } from '@/lib/services/trackFilters';
 // Re-export for backward compatibility
 export type { FilteredTrack };
 
-/**
- * Get track name from either API format
- */
 function getTrackName(track: GenericTrack): string {
-  if ('trackName' in track) {
-    return track.trackName || '';
-  }
-  if ('attributes' in track) {
-    return track.attributes.name || '';
-  }
-  return '';
+  return track.attributes.name || '';
 }
 
 /**

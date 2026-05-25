@@ -122,47 +122,6 @@ export interface AppleMusicAlbum {
 }
 
 // ============================================
-// iTunes API response types (DEPRECATED - Kept for filter chain compatibility)
-// These types are no longer actively used but maintained for GenericTrack support
-// ============================================
-export interface ITunesTrack {
-  wrapperType: string;
-  kind: string;
-  artistId: number;
-  collectionId: number;
-  trackId: number;
-  artistName: string;
-  collectionName: string;
-  trackName: string;
-  collectionCensoredName: string;
-  trackCensoredName: string;
-  artistViewUrl: string;
-  collectionViewUrl: string;
-  trackViewUrl: string;
-  previewUrl: string;
-  artworkUrl60: string;
-  artworkUrl100: string;
-  collectionPrice: number;
-  trackPrice: number;
-  collectionExplicitness: string;
-  trackExplicitness: string;
-  discCount: number;
-  discNumber: number;
-  trackCount: number;
-  trackNumber: number;
-  trackTimeMillis: number;
-  country: string;
-  currency: string;
-  primaryGenreName: string;
-  releaseDate: string;
-}
-
-export interface ITunesResponse {
-  resultCount: number;
-  results: ITunesTrack[];
-}
-
-// ============================================
 // Apple Music Conversion Functions
 // ============================================
 
@@ -237,26 +196,3 @@ export function isSong(obj: any): obj is Song {
   );
 }
 
-export function isITunesTrack(obj: any): obj is ITunesTrack {
-  return (
-    obj &&
-    typeof obj.trackId === 'number' &&
-    typeof obj.trackName === 'string' &&
-    typeof obj.artistName === 'string'
-  );
-}
-
-// Convert iTunes track to our Song format (DEPRECATED)
-export function convertITunesTrackToSong(track: ITunesTrack): Song {
-  return {
-    id: `itunes-${track.trackId}`,
-    name: track.trackName || 'Unknown Track',
-    artists: [track.artistName || 'Unknown Artist'],
-    album: track.collectionName || 'Unknown Album',
-    previewUrl: track.previewUrl || '',
-    duration: track.trackTimeMillis || 0,
-    trackUrl: track.trackViewUrl || '', // Updated from itunesUrl
-    artworkUrl: track.artworkUrl100?.replace('100x100', '300x300') || '',
-    trackId: track.trackId
-  };
-}
