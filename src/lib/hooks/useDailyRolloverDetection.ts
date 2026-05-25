@@ -5,7 +5,7 @@
 
 import { useEffect, useRef } from 'react';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
-import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import { DAILY_CHALLENGE_UPDATED_EVENT, ROLLOVER_CHECK_INTERVAL_MS } from '@/lib/constants';
 
 interface RolloverDetectionOptions {
@@ -39,9 +39,8 @@ export function useDailyRolloverDetection(options: RolloverDetectionOptions = {}
 
         // If we have a specific artist, clear their challenge
         if (artistId) {
-          const storage = ClientDailyChallengeStorage.getInstance();
+          const storage = DailyChallengeStorage.getInstance();
           storage.clearDailyChallenge(artistId);
-          console.log(`🗑️ Cleared daily challenge for ${artistId} due to rollover`);
         }
 
         // Dispatch global event to notify all components

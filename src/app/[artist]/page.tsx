@@ -16,7 +16,7 @@ import FAQSection from '@/components/seo/FAQSection';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { generateFAQItems } from '@/lib/utils/faqUtils';
 import { useClientDate } from '@/lib/hooks/useClientDate';
-import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
 import { GameMode } from '@/lib/game';
 import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
@@ -141,7 +141,7 @@ export default function ArtistPage({ params }: ArtistPageProps) {
                   console.log('🔄 Daily rollover detected from countdown!');
                   
                   // Clear the daily challenge storage for this artist
-                  const storage = ClientDailyChallengeStorage.getInstance();
+                  const storage = DailyChallengeStorage.getInstance();
                   storage.clearDailyChallenge(artist.id);
                   
                   // Force re-render of challenge status component

@@ -14,7 +14,7 @@ import { ArtistLoadingSpinner } from '@/components/ui/LoadingSpinner';
 import ErrorBoundary from '@/components/ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
-import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import SupportButton from '@/components/ui/buttons/SupportButton';
@@ -69,7 +69,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
         console.log(`🔄 Puzzle rollover detected: ${puzzleNumber} → ${currentPuzzleNumber}`);
         
         const artistId = params.artist as string;
-        const storage = ClientDailyChallengeStorage.getInstance();
+        const storage = DailyChallengeStorage.getInstance();
         
         // Clear old puzzle data
         storage.clearDailyChallenge(artistId);
@@ -129,7 +129,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     try {
       // For daily mode, check if we have a saved game state
       if (mode === 'daily') {
-        const storage = ClientDailyChallengeStorage.getInstance();
+        const storage = DailyChallengeStorage.getInstance();
         const savedChallenge = storage.loadDailyChallenge(artistId);
         
         if (savedChallenge) {
@@ -203,7 +203,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     
     // Save daily challenge state if in daily mode
     if (mode === 'daily' && song) {
-      const storage = ClientDailyChallengeStorage.getInstance();
+      const storage = DailyChallengeStorage.getInstance();
       storage.saveDailyChallenge(artistId, song.id, newGameState, puzzleNumber);
     }
     

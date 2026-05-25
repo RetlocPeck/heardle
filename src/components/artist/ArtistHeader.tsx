@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
 
 // Component to show daily challenge completion status
@@ -12,7 +12,7 @@ export function DailyChallengeStatus({ artistId }: { artistId: string }) {
   
   useEffect(() => {
     const updateChallengeData = () => {
-      const storage = ClientDailyChallengeStorage.getInstance();
+      const storage = DailyChallengeStorage.getInstance();
       const isCompleted = storage.isDailyChallengeCompleted(artistId);
       const challenge = storage.loadDailyChallenge(artistId);
       const hasWon = challenge?.gameState.hasWon || false;
