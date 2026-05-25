@@ -14,10 +14,13 @@ export default function HomePage() {
 
   // Memoize artists list since it's static and expensive to sort on every render
   const allArtists = useMemo(() => getArtistsSorted(), []);
-  const filteredArtists = allArtists.filter(artist =>
-    artist.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
-    artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
-    artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
+  const filteredArtists = useMemo(
+    () => allArtists.filter(artist =>
+      artist.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+      artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+      artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
+    ),
+    [allArtists, searchTerm]
   );
 
   // Preload artwork JSON for featured artists to improve perceived performance
@@ -106,7 +109,7 @@ export default function HomePage() {
             lg:justify-center                           
           "
         >
-          {filteredArtists.map((artist, index) => {
+          {filteredArtists.map((artist) => {
             // Calculate stagger delay based on artist's position in full sorted list, not filtered list
             // This ensures consistent delays regardless of search state
             const artistIndex = allArtists.findIndex(a => a.id === artist.id);
@@ -116,16 +119,15 @@ export default function HomePage() {
               <div
                 key={artist.id}
                 className="group relative"
-                style={{ animationDelay: `${index * 200}ms` }}
               >
                 {/* Glassmorphism Card */}
-                <div className={`group relative backdrop-blur-xl rounded-3xl overflow-hidden hover:bg-white/20 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 ${
+                <div className={`group relative rounded-3xl overflow-hidden hover:bg-white/20 transition-[transform,box-shadow] duration-300 transform hover:scale-105 hover:-translate-y-2 ${
                   artist.featured 
                     ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20' 
                     : 'bg-white/10 border border-white/20'
                 }`}>
                   {/* Gradient Border Effect */}
-                  <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-500 rounded-3xl`}></div>
+                  <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-3xl`}></div>
                   
                   {/* Top-left stack (inside the card) */}
                   <div className="absolute left-2 sm:left-3 top-2 sm:top-3 flex items-center gap-1 sm:gap-2 z-30">
@@ -171,7 +173,7 @@ export default function HomePage() {
                     <ArtistImage
                       artistId={artist.id}
                       alt={artist.displayName}
-                      className="w-full h-full object-cover object-[center_30%] group-hover:scale-110 transition-transform duration-700"
+                      className="w-full h-full object-cover object-[center_30%] group-hover:scale-110 transition-transform duration-300"
                       width={400}
                       height={400}
                       priority={artist.featured}

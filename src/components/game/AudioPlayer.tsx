@@ -27,8 +27,6 @@ export default function AudioPlayer({
   const [currentTime, setCurrentTime] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-  const animationFrameRef = useRef<number | null>(null);
-  const lastUpdateTimeRef = useRef<number>(0);
   const prevIsOverRef = useRef<boolean>(false);
   const hasMountedRef = useRef<boolean>(false);
 
@@ -37,9 +35,6 @@ export default function AudioPlayer({
     return () => {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
-      }
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
       }
     };
   }, [duration]);
@@ -73,43 +68,6 @@ export default function AudioPlayer({
       audio.removeEventListener('canplay', handleCanPlay);
     };
   }, [onEnded]);
-
-  // No-op: we rely on explicit user clicks to start playback
-
-  // Smooth progress animation using requestAnimationFrame
-  useEffect(() => {
-    if (!isPlaying || !song.previewUrl) {
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
-        animationFrameRef.current = null;
-      }
-      return;
-    }
-
-    const animateProgress = (timestamp: number) => {
-      if (!animationFrameRef.current) return;
-      
-      const audio = audioRef.current;
-      if (!audio) return;
-
-      // Update every 16ms (60fps) for smooth animation
-      if (timestamp - lastUpdateTimeRef.current >= 16) {
-        setCurrentTime(audio.currentTime);
-        lastUpdateTimeRef.current = timestamp;
-      }
-
-      animationFrameRef.current = requestAnimationFrame(animateProgress);
-    };
-
-    animationFrameRef.current = requestAnimationFrame(animateProgress);
-
-    return () => {
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
-        animationFrameRef.current = null;
-      }
-    };
-  }, [isPlaying, song.previewUrl]);
 
   // Handle audio source and duration control
   useEffect(() => {
@@ -280,21 +238,9 @@ export default function AudioPlayer({
          clearTimeout(timeoutRef.current);
          timeoutRef.current = null;
        }
-       
-       // Clear animation frame
-       if (animationFrameRef.current) {
-         cancelAnimationFrame(animationFrameRef.current);
-         animationFrameRef.current = null;
-       }
-     }, 100); // 100ms delay to prevent rapid state changes
+     }, 100);
      
-     return () => {
-       clearTimeout(timeoutId);
-       if (animationFrameRef.current) {
-         cancelAnimationFrame(animationFrameRef.current);
-         animationFrameRef.current = null;
-       }
-     };
+     return () => clearTimeout(timeoutId);
   }, [song.id]); // Only reset when song ID changes
 
   // Pause and reset when page is hidden/backgrounded or loses focus
@@ -309,10 +255,6 @@ export default function AudioPlayer({
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
         timeoutRef.current = null;
-      }
-      if (animationFrameRef.current) {
-        cancelAnimationFrame(animationFrameRef.current);
-        animationFrameRef.current = null;
       }
     };
 
@@ -518,8 +460,8 @@ export default function AudioPlayer({
                     {(isGameWon || disabled) && (
          <div className="relative w-full max-w-sm">
            <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
-             <div 
-               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-75 ease-out shadow-lg"
+             <div
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg"
                style={{ width: `${smoothProgress}%` }}
              />
            </div>
@@ -533,8 +475,8 @@ export default function AudioPlayer({
               {!isGameWon && !disabled && (
          <div className="relative w-full max-w-sm">
            <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
-             <div 
-               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full transition-all duration-75 ease-out shadow-lg"
+             <div
+               className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg"
                style={{ width: `${smoothProgress}%` }}
              />
            </div>

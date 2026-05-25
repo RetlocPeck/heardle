@@ -281,7 +281,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
             {/* Audio card */}
             <GlassCard>
               <AudioPlayer
-                key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
+                key={currentSong?.id}
                 song={currentSong}
                 duration={gameLogic.getCurrentAudioDuration()}
                 onEnded={handleAudioEnded}
