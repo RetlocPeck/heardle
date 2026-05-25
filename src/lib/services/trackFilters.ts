@@ -1,16 +1,15 @@
 /**
  * Track filtering functions for music tracks
  * Uses a filter chain pattern with factory functions for cleaner code
- * Works with both iTunes and Apple Music API tracks
  */
 
-import type { ITunesTrack, AppleMusicTrack } from '@/types/song';
+import type { AppleMusicTrack } from '@/types/song';
 
 // =============================================================================
 // TYPES
 // =============================================================================
 
-export type GenericTrack = ITunesTrack | AppleMusicTrack;
+export type GenericTrack = AppleMusicTrack;
 
 export interface FilteredTrack {
   track: GenericTrack;
@@ -34,30 +33,20 @@ type ReasonFn = string | ((track: GenericTrack) => string);
 // TRACK ACCESSORS - Normalize data access for both APIs
 // =============================================================================
 
-export function getGenericTrackId(track: GenericTrack): string | number {
-  if ('trackId' in track) return track.trackId;
-  if ('id' in track) return track.id;
-  return '';
+export function getGenericTrackId(track: GenericTrack): string {
+  return track.id;
 }
 
 export function getTrackName(track: GenericTrack): string {
-  if ('trackName' in track) return track.trackName || '';
-  if ('attributes' in track) return track.attributes.name || '';
-  return '';
+  return track.attributes.name || '';
 }
 
 export function getAlbumName(track: GenericTrack): string {
-  if ('collectionName' in track) return track.collectionName || '';
-  if ('attributes' in track) return track.attributes.albumName || '';
-  return '';
+  return track.attributes.albumName || '';
 }
 
 export function getPreviewUrl(track: GenericTrack): string {
-  if ('previewUrl' in track) return track.previewUrl || '';
-  if ('attributes' in track && track.attributes.previews) {
-    return track.attributes.previews[0]?.url || '';
-  }
-  return '';
+  return track.attributes.previews?.[0]?.url || '';
 }
 
 // =============================================================================

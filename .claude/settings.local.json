@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -v \"\\\\.ico$\\\\|\\\\.css$\")",
+      "Bash(xargs wc -l)"
+    ]
+  }
+}

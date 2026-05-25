@@ -1,0 +1,599 @@
+# Refactor Plan — twice-heardle
+
+**Branch:** `refactor/codebase-cleanup` (already created off `master`)
+**Target executor:** Claude Sonnet
+**Approach:** Phase-by-phase, one PR per phase. Verify each phase before moving on.
+
+---
+
+## How to use this document
+
+Each phase has:
+- **Goal** — what you're trying to achieve
+- **Files affected** — exact paths
+- **Changes** — concrete actions with file:line references
+- **Verify** — how to confirm the phase worked
+- **Commit** — suggested commit message
+
+Rules:
+1. Do not skip the verification step. Each phase builds on the last.
+2. After every phase, run `npm run build` and `npm run lint`. Both must pass.
+3. Do not "improve while you're there" outside of the listed scope. Each PR should review easily.
+4. When in doubt about a deletion, grep the codebase first to confirm zero usages. The plan lists confirmed-dead items, but new code may have been added since the plan was written.
+5. Never bypass git hooks, never force-push.
+
+---
+
+## Phase 0 — Preflight
+
+The working tree has 44 modified files from a previous session. Inspect with `git status` and `git diff --stat`. If they're meaningful changes, commit them first. If they're line-ending noise, run `git checkout -- .` to discard them before starting Phase 1.
+
+Confirm the dev server runs (`npm run dev`) and the home page loads. This is your baseline for visual comparison after each phase.
+
+---
+
+## Phase 1 — Delete dead code
+
+**Goal:** Remove ~1100 lines of unreferenced code with zero behavior change.
+
+**Pre-flight grep (run each before deleting to confirm zero non-self imports):**
+
+```bash
+# Files to delete entirely — each should return only the file's own definition
+grep -rn "useAudioControl" src/ --include="*.ts" --include="*.tsx"
+grep -rn "from '@/components/ui/ProgressBar'" src/ --include="*.ts" --include="*.tsx"
+grep -rn "from '@/components/ui/Button'" src/ --include="*.ts" --include="*.tsx"
+grep -rn "useArtistConfig" src/ --include="*.ts" --include="*.tsx"
+grep -rn "useModal" src/ --include="*.ts" --include="*.tsx"
+grep -rn "from '@/lib/utils/gameUtils'" src/ --include="*.ts" --include="*.tsx"
+grep -rn "from '@/lib/utils/debugUtils'" src/ --include="*.ts" --include="*.tsx"
+```
+
+If any of these return imports outside the file itself, **stop and re-investigate** — the plan may be stale.
+
+### Files to delete entirely
+
+| Path | Lines | Confirmed dead because |
+|---|---|---|
+| `src/lib/hooks/useAudioControl.ts` | 173 | Only referenced by itself |
+| `src/components/ui/ProgressBar.tsx` | 76 | Only referenced by itself |
+| `src/components/ui/Button.tsx` | 112 | Only referenced by itself |
+| `src/lib/hooks/useArtistConfig.ts` | 57 | Only referenced by itself |
+| `src/lib/hooks/useModal.ts` | 17 | Only referenced by itself |
+| `src/lib/utils/gameUtils.ts` | 182 | Not imported anywhere; `share.ts` has the only used share logic |
+| `src/lib/utils/debugUtils.ts` | 163 | References a non-existent `itunesService` window global |
+
+### Partial deletions within files
+
+**`src/lib/hooks/useMediaQuery.ts`** — keep `useMediaQuery` and the default export. Delete:
+- `useMobile` (lines 54-56)
+- `useTablet` (lines 62-64)
+- `useSmallMobile` (lines 70-72)
+- `useBreakpoint` (lines 77-86)
+
+**`src/lib/utils/stringUtils.ts`** — keep `normalizeString`, `normalizedStringMatch`, `hashCode`. Delete:
+- `partialStringMatch` (lines 47-53)
+- `formatTime` (lines 58-62)
+- `toTitleCase` (lines 67-73)
+- `truncateString` (lines 78-81)
+- `isValidUrl` (lines 99-106)
+- `createSlug` (lines 111-117)
+
+**`src/lib/utils/dateUtils.ts`** — keep `getTodayString`, `getDateString`, `parseDateString`, `isTodayInLocalTimezone`, `getLocalPuzzleNumber`, `isValidClientDate`, `getSafeDateString`. Delete:
+- `isToday` (lines 39-41) — duplicates `isTodayInLocalTimezone`
+- `isPastDate` (lines 46-48)
+- `isFutureDate` (lines 53-55)
+- `daysDifference` (lines 60-65)
+- `formatDateForDisplay` (lines 70-78)
+- `getWeekStart` (lines 83-89)
+- `isSameWeek` (lines 94-96)
+- `getNextDayString` (lines 101-105)
+- `getPreviousDayString` (lines 110-114)
+- `getCurrentLocalTime` (lines 127-132)
+- `getTimeUntilMidnight` (lines 137-143)
+
+**`src/types/song.ts`** — delete the iTunes section:
+- `ITunesTrack` interface (lines 128-158)
+- `ITunesResponse` interface (lines 160-163)
+- `isITunesTrack` function (lines 240-247)
+- `convertITunesTrackToSong` function (lines 249-262)
+
+**`src/lib/services/trackFilters.ts`** — `GenericTrack` now equals `AppleMusicTrack`:
+- Line 13: change `export type GenericTrack = ITunesTrack | AppleMusicTrack;` to `export type GenericTrack = AppleMusicTrack;`
+- Remove the iTunes-specific branches in the accessor functions:
+  - `getGenericTrackId` (lines 37-41) — drop the `'trackId' in track` branch
+  - `getTrackName` (lines 43-47) — drop the `'trackName' in track` branch
+  - `getAlbumName` (lines 49-53) — drop the `'collectionName' in track` branch
+  - `getPreviewUrl` (lines 55-61) — drop the `'previewUrl' in track` branch
+- Remove the now-unused iTunes import on line 7
+
+### Verify
+
+```bash
+npm run build
+npm run lint
+npm run dev  # spot-check home page, artist page, daily game, practice game
+```
+
+Expected: build passes, no new lint errors, app behaves identically.
+
+### Commit
+
+```
+chore: delete unreferenced code
+
+Removes ~1100 lines of dead code accumulated from prior refactors:
+- Unused UI components (Button, ProgressBar)
+- Unused hooks (useAudioControl, useArtistConfig, useModal, breakpoint helpers)
+- Unused utilities (gameUtils, debugUtils, half of stringUtils and dateUtils)
+- Deprecated iTunes types and conversion code
+```
+
+---
+
+## Phase 2 — Consolidate storage services
+
+**Goal:** Three storage services adopt the existing `BaseStorageService<T>` instead of duplicating its logic. Delete the redundant `ClientDailyChallengeStorage` wrapper.
+
+### 2a. Delete the proxy wrapper
+
+`src/lib/services/clientDailyChallengeStorage.ts` is a pass-through that adds no value — the underlying `DailyChallengeStorage` already guards `typeof window`.
+
+1. Delete the file.
+2. Update imports in:
+   - `src/components/game/DynamicHeardle.tsx` — replace `ClientDailyChallengeStorage` with `DailyChallengeStorage` (3 usages)
+   - `src/app/[artist]/page.tsx` — same (1 usage)
+   - `src/lib/hooks/useDailyRolloverDetection.ts` — same (1 usage)
+
+### 2b. Refactor `dailyChallengeStorage.ts` onto `BaseStorageService`
+
+The base class is in `src/lib/services/baseStorageService.ts` and already exposes `getItem`, `setItem`, `removeItem`, `getKeysByPrefix`, `dispatchEvent`, plus the `isBrowser` guard.
+
+Rewrite `DailyChallengeStorage` to:
+- Extend `BaseStorageService<never>` (we use per-key storage, not a single blob, so `T` is unused — define `STORAGE_KEY` as the prefix and `getDefault` as `null as never`)
+- Replace direct `localStorage.*` calls (lines 66, 90, 137, 149, 152) with the inherited helpers
+- Replace `console.log/warn/error` (11 occurrences) with `Logger.*` from `@/lib/utils/logger`
+- Use `this.dispatchEvent(DAILY_CHALLENGE_UPDATED_EVENT, {...})` instead of the manual `new CustomEvent` + `window.dispatchEvent` (lines 70-74)
+- Drop the private `getTodayDate` and `isToday` helpers (lines 31-40) — they're one-line wrappers around `getTodayString` / `isTodayInLocalTimezone` from dateUtils
+
+Keep the public API identical: `saveDailyChallenge`, `loadDailyChallenge`, `isDailyChallengeCompleted`, `hasDailyChallenge`, `clearDailyChallenge`, `clearAllDailyChallenges`, `getCompletionStats`.
+
+### 2c. Refactor `statisticsStorage.ts` onto `BaseStorageService`
+
+This one uses a single JSON blob (`GlobalStats`), so `T = GlobalStats`:
+- Extend `BaseStorageService<GlobalStats>`
+- Set `STORAGE_KEY = STORAGE_KEYS.STATISTICS` (from `@/lib/constants`)
+- Implement `getDefault()` returning `getDefaultStats()` output
+- Override `parseStored()` to call `mergeWithDefaults` so backward compatibility is preserved
+- Replace `getStoredStats()` body (lines 35-52) with `this.getStored()`
+- Replace `saveStats()` body (lines 96-106) with `this.save(stats)` then `this.dispatchEvent('statistics-updated', stats)`
+- Replace `clearAllStats()` body (lines 191-200) with `this.clear()` then `this.dispatchEvent('statistics-updated', this.getDefault())`
+- Route the 3 `console.error` calls through `Logger.error`
+
+### 2d. Refactor `practiceModeStorage.ts` onto `BaseStorageService`
+
+Uses a single blob (`Record<string, PracticeSongHistory>`), so `T = Record<string, PracticeSongHistory>`:
+- Extend `BaseStorageService<Record<string, PracticeSongHistory>>`
+- `getDefault()` returns `{}`
+- Replace `getStoredHistory()` (lines 21-36) with `this.getStored()`
+- Replace `saveHistory()` (lines 38-46) with `this.save(history)`
+- Replace `clearAllHistory()` (lines 106-114) with `this.clear()`
+- Route the 3 `console.error` calls through `Logger.error`
+
+### Verify
+
+- Play a daily game on `/twice`, refresh — saved state should restore
+- Win a daily game — statistics modal should reflect the new win
+- Play 3 practice games — recent songs exclusion should work (no immediate repeat)
+- `npm run build` passes
+
+### Commit
+
+```
+refactor: adopt BaseStorageService across storage services
+
+Removes ~150 lines of duplicated localStorage boilerplate across
+dailyChallengeStorage, statisticsStorage, and practiceModeStorage.
+Deletes the no-op ClientDailyChallengeStorage proxy; callers now
+import DailyChallengeStorage directly. All raw console.* in storage
+code routed through Logger.
+```
+
+---
+
+## Phase 3 — Consolidate rollover detection
+
+**Goal:** One source of truth for "the daily puzzle just rolled over."
+
+There are currently three: a hook (`useDailyRolloverDetection.ts`), an inline implementation in `DynamicHeardle.tsx`, and a callback in `NextDailyCountdown`. Keep the hook, delete the rest.
+
+### 3a. `src/components/game/DynamicHeardle.tsx`
+
+Delete lines 62-123 (the entire `useEffect` block for rollover detection plus the `puzzleNumber` state on line 39).
+
+Replace with:
+1. Import `useDailyRolloverDetection` and `useNewDailyChallengeListener` from `@/lib/hooks/useDailyRolloverDetection`
+2. Inside the component body:
+   ```tsx
+   useDailyRolloverDetection({
+     artistId: params.artist as string,
+     enabled: mode === 'daily',
+   });
+   useNewDailyChallengeListener(params.artist as string, () => {
+     if (mode !== 'daily') return;
+     gameLogic.resetGame();
+     setGameState(gameLogic.getGameState());
+     loadSong(params.artist as string);
+   });
+   ```
+3. In `recordGameResult`, replace the `puzzleNumber` argument to `saveDailyChallenge` with `getLocalPuzzleNumber()` (the function is already imported).
+
+### 3b. `src/app/[artist]/page.tsx`
+
+The `onRollOver` callback on `NextDailyCountdown` (lines 140-161) now duplicates the hook's work. Remove the callback entirely; the hook handles clearing storage and dispatching events.
+
+If `NextDailyCountdown` requires the prop, make it optional in its props interface. Otherwise remove the prop.
+
+### 3c. Audit `NextDailyCountdown.tsx`
+
+Open the file and confirm whether its rollover detection now overlaps with the hook. If it does (likely), remove the duplicate logic — the countdown should only display time until midnight, not trigger app-wide state changes.
+
+### Verify
+
+- Open the daily game on `/twice` before midnight
+- Manually advance system time past midnight (or wait, or temporarily mock `getLocalPuzzleNumber`)
+- The page should detect rollover within 30 seconds (the hook's poll interval)
+- After rollover, the game should reset to a fresh puzzle without manual refresh
+
+### Commit
+
+```
+refactor: consolidate daily-rollover detection into one hook
+
+Removes the inline rollover effect in DynamicHeardle (62 lines) and
+the onRollOver callback in NextDailyCountdown's parent. The existing
+useDailyRolloverDetection hook is now the single source of truth.
+```
+
+---
+
+## Phase 4 — Performance fixes (USER-VISIBLE)
+
+**Goal:** Eliminate the hover lag on artist cards and the mobile audio player stutter.
+
+This phase is the one users will actually notice. Test on a real mobile device or Chrome DevTools mobile emulation with 4× CPU throttling before and after — capture before/after screenshots if possible.
+
+### 4a. Home page artist cards (`src/app/page.tsx`)
+
+The cards stack `backdrop-blur-xl` on top of animated `filter blur-xl` blobs, then animate 5+ properties via `transition-all duration-500`. Each is fine alone; together they overwhelm mobile GPUs.
+
+Changes:
+
+1. **Line 122** — replace `transition-all duration-500` with `transition-[transform,box-shadow] duration-300`. Animating only composited properties skips paint/layout work.
+
+2. **Line 122** — remove `backdrop-blur-xl`. The cards have `bg-white/10` which is already enough visual separation from the animated background. The blur effect is barely visible behind the blobs anyway, and this is the single biggest GPU win.
+
+3. **Line 128** — the gradient overlay div: replace `transition-opacity duration-500` (it's already `opacity-0 group-hover:opacity-20`, so this is fine — *only* change the duration to `duration-300`).
+
+4. **Line 174** — `ArtistImage` className: replace `group-hover:scale-110 transition-transform duration-700` with `group-hover:scale-110 transition-transform duration-300`.
+
+5. **Line 119** — delete `style={{ animationDelay: ${index * 200}ms }}`. There is no entrance animation consuming it. The `artistIndex * 50` stagger on line 113 is separately passed to `ArtistImage` via `fetchDelay` and is fine.
+
+6. **Line 17** — wrap the `filteredArtists` calculation in `useMemo`:
+   ```tsx
+   const filteredArtists = useMemo(
+     () => allArtists.filter(artist =>
+       artist.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+       artist.displayName.toLowerCase().startsWith(searchTerm.toLowerCase()) ||
+       artist.searchTerms.some(term => term.toLowerCase().startsWith(searchTerm.toLowerCase()))
+     ),
+     [allArtists, searchTerm]
+   );
+   ```
+
+### 4b. Animated background (`src/components/ui/AnimatedBackground.tsx`)
+
+Three constantly-animating blurred blobs run behind every page. Make them cheaper and respect user preferences.
+
+Changes:
+
+1. Add a `prefers-reduced-motion` check. If the user opts out of motion, return `null` from the component entirely.
+   ```tsx
+   const prefersReducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
+   if (prefersReducedMotion) return null;
+   ```
+   Import `useMediaQuery` from `@/lib/hooks/useMediaQuery`.
+
+2. Reduce blob size from `w-80 h-80` (lines 33, 39, 46) to `w-64 h-64`. Smaller blurred buffers are cheaper to composite.
+
+3. Add `will-change: transform` to the blob divs only (Tailwind: `will-change-transform`). This hints the compositor to upload the blob to a layer once instead of re-rasterizing.
+
+### 4c. Audio player (`src/components/game/AudioPlayer.tsx`)
+
+Three concrete problems. Fix all three.
+
+**Problem 1: Double-update of `currentTime`.** Lines 51-53 (`timeupdate` listener) and lines 89-104 (RAF loop) both call `setCurrentTime`. Pick one.
+
+Delete the entire RAF-based effect (lines 80-112) including the `lastUpdateTimeRef` (line 31) and `animationFrameRef` (line 30) refs. Keep the `timeupdate` listener — it fires roughly 4 times per second, which is plenty for a 1-15s preview bar. Remove all other references to `animationFrameRef` in the cleanup code (lines 41-43, 283-288, 293-296, 312-315).
+
+**Problem 2: 75ms transition fighting with per-frame state updates.**
+
+Lines 522 and 537 — the progress bar fill divs. Remove `transition-all duration-75 ease-out`. With state updating multiple times per second, the transition restarts before completing and produces a stuttering effect rather than smooth motion. Without the transition, the bar updates discretely with each `timeupdate` event, which appears smoother because the browser doesn't fight with itself.
+
+Keep the `shadow-lg` and gradient classes; only remove the `transition-*` utilities.
+
+**Problem 3: Full component remount on every guess.**
+
+`src/components/game/DynamicHeardle.tsx:336`:
+```tsx
+key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
+```
+
+Change to:
+```tsx
+key={currentSong?.id}
+```
+
+The component already has a `useEffect` keyed on `[song.previewUrl, duration, isGameWon, disabled, onEnded]` (line 180) that handles duration changes. The full remount is redundant and re-runs all 7 useEffects every wrong guess.
+
+### 4d. Tap-state on mobile
+
+Buttons across the app use `hover:scale-105` / `hover:scale-110`. On touch devices, this fires on tap and produces a brief scaling effect that feels janky on weak GPUs.
+
+Two options — pick one and apply consistently:
+
+**Option A (recommended):** Gate hover effects behind a hover-capable media query. Add this to `src/app/globals.css`:
+```css
+@media (hover: none) {
+  .hover\:scale-105:hover,
+  .hover\:scale-110:hover {
+    transform: none;
+  }
+}
+```
+
+**Option B:** Find-and-replace `hover:scale-105` with `[@media(hover:hover)]:hover:scale-105` (and same for 110). More verbose but more explicit.
+
+### 4e. GlassCard blur on the audio card
+
+`src/components/game/DynamicHeardle.tsx:334-343` wraps `AudioPlayer` in a `GlassCard` which applies `backdrop-blur-xl`. On mobile, this is the most expensive single blur on the page because it sits over a constantly-updating progress bar.
+
+Option: add a `blur?: boolean` prop to `GlassCard` (default `true` for backward compat), and pass `blur={false}` to the audio card on mobile breakpoints. Use a media query to apply only on small screens — desktop GPUs handle it fine.
+
+Or simpler: drop `backdrop-blur-xl` from `GlassCard` entirely (line 42 of `GlassCard.tsx`). The `bg-white/5 border-white/20` gives plenty of glass effect without the GPU cost. Audit visually on desktop after the change.
+
+### Verify
+
+1. Open Chrome DevTools → Performance tab → enable 4× CPU throttle and 6× Slowdown
+2. Record while hovering across the home page artist grid. Before: scattered red frames, FPS drops to ~20-30. After: should hold ~60fps.
+3. On a real mobile device, play a daily game and make several guesses. Audio progress bar should advance smoothly. Tap interactions should feel immediate.
+4. Reduced-motion: enable "Reduce motion" in OS accessibility settings, reload — blobs should not render.
+
+### Commit
+
+```
+perf: fix hover lag on cards and audio stutter on mobile
+
+- Drop backdrop-blur-xl from artist cards (largest mobile GPU win)
+- Narrow card hover transitions from transition-all to transform+shadow only
+- Memoize filteredArtists on home page
+- Make AnimatedBackground respect prefers-reduced-motion; shrink blobs
+- AudioPlayer: remove dual-update mechanism (RAF + timeupdate);
+  keep timeupdate listener only
+- AudioPlayer: drop 75ms transition on progress bar (was fighting
+  per-frame updates and producing stutter)
+- DynamicHeardle: stop remounting AudioPlayer on every duration change
+- Disable hover scale effects on touch devices
+```
+
+---
+
+## Phase 5 — AudioPlayer refactor (higher risk)
+
+**Goal:** Reduce `AudioPlayer.tsx` from 590 lines / 7 useEffects to ~300 lines / 3 useEffects.
+
+Only attempt this **after Phase 4 has shipped and been verified on real devices.** Audio is fragile across iOS Safari / Chrome Android / desktop — regressions are easy.
+
+### 5a. Recreate `useAudioControl` hook
+
+Recreate `src/lib/hooks/useAudioControl.ts` (deleted in Phase 1) with a tighter scope. The previous version was unused; this one will replace the inline logic in AudioPlayer.
+
+Scope:
+- Owns the `<audio>` element ref
+- Manages `isPlaying`, `isLoading`, `currentTime` state
+- Provides `play()`, `pause()`, `stop()`, `setSource(url)` actions
+- Handles `timeupdate`, `ended`, `loadstart`, `canplay`, `error` listeners
+- Handles `visibilitychange`, `pagehide`, `blur` to stop audio when backgrounded
+
+What it does **not** own:
+- The duration timeout (game-specific — stays in AudioPlayer)
+- The autoplay-on-game-end logic (game-specific — stays in AudioPlayer)
+
+### 5b. Rewrite `AudioPlayer.tsx`
+
+Use the hook. The remaining component should have three useEffects:
+
+1. **Source setup** — when `song.previewUrl` changes, call `setSource(url)` from the hook.
+2. **Duration limit** — when `duration` changes (and game is active), set a `setTimeout` to call `stop()` after `duration` ms. Clear on unmount or duration change.
+3. **Auto-play on win/loss** — when `isGameWon || disabled` transitions from `false` to `true` *during the session* (not on first mount of a saved finished game), call `play()` with a brief muted preroll for autoplay-policy compatibility.
+
+Use a `useRef` for "has this component already mounted with a finished game" instead of the current `hasMountedRef` + `prevIsOverRef` dance.
+
+### 5c. Collapse the JSX
+
+The current component has:
+- Three separate header blocks for "you won / game over / playing" (lines 482-516)
+- Two near-identical progress bar blocks (lines 518-531 vs 533-546)
+
+Collapse the progress bars into one with a computed `totalSeconds` (`isGameWon || disabled ? 30 : duration / 1000`).
+
+Collapse the header into one block with a computed `headerContent` variable.
+
+### 5d. Remove the duplicate `formatTime`
+
+`AudioPlayer.tsx:435-439` redeclares `formatTime`. There's already `formatTime` in `stringUtils.ts` — but Phase 1 deleted it. Add a small inline helper in the file, or move the canonical version back to `stringUtils.ts` if you'd rather. Either way, don't have two copies.
+
+### Verify
+
+Test on at least three devices: desktop Chrome, iOS Safari, Android Chrome. Walk through:
+1. Daily mode, first guess → audio plays for 1s and stops
+2. Skip → next guess duration extends correctly
+3. Win → autoplay starts the full preview
+4. Lose all 6 → full preview is available behind the play button
+5. Refresh on a completed game → audio is prepared but does *not* auto-play
+6. Background the tab during playback → audio stops
+7. Switch songs (practice mode "new song") → audio resets, no overlap
+
+### Commit
+
+```
+refactor: simplify AudioPlayer using useAudioControl hook
+
+Extracts generic audio lifecycle (source, play/pause, timeupdate,
+visibility-pause) into useAudioControl. AudioPlayer now contains
+only game-specific logic: duration timeouts and post-game autoplay.
+Reduces from 590 lines / 7 useEffects to ~280 / 3.
+```
+
+---
+
+## Phase 6 — Logging hygiene
+
+**Goal:** Route all logging through the existing `Logger` utility so production users don't see debug noise.
+
+Current state: 120 raw `console.*` calls across 22 files. The biggest offenders:
+- `src/lib/services/appleMusicService.ts` — 41 calls
+- `src/lib/services/dailyChallengeStorage.ts` — 11 (Phase 2 may have already addressed these)
+- `src/lib/game.ts` — 10
+- `src/components/game/AudioPlayer.tsx` — 7 (Phase 5 may have already addressed these)
+- `src/components/game/DynamicHeardle.tsx` — 6
+- `src/components/game/GuessInput.tsx` — 5
+
+### Rules
+
+- `console.log` with debug context (🎵 / 🔍 emoji prefixes, gameplay events) → **delete entirely**. These were debugging breadcrumbs; users currently see them on every guess.
+- `console.log` with operational context ("Loaded X songs", "Cached artwork") → `Logger.debug` or `Logger.info`. Strip emojis from the message — Logger adds its own.
+- `console.warn` → `Logger.warn`
+- `console.error` → `Logger.error`
+- Server-side route handlers can keep `console.error` *if* they're already wrapped in the standardized `handleApiError` from `apiErrorHandler.ts` (which is the right place for it). Don't double-log.
+
+### Procedure
+
+Go file by file, largest first:
+1. `appleMusicService.ts` — most logs here are gameplay/debug noise that shouldn't ship to production. Route through Logger and let production strip them via the `NODE_ENV === 'production'` gate in `logger.ts`.
+2. `game.ts` — the 🎵 GameLogic logs are diagnostic, not user-facing. Replace with `Logger.debug`.
+3. `DynamicHeardle.tsx`, `GuessInput.tsx`, `AudioPlayer.tsx` — same pattern.
+
+### Verify
+
+Build for production (`npm run build`) and run (`npm start`). Open the browser console and play a game. You should see warnings and errors only, no debug spam.
+
+### Commit
+
+```
+chore: route all logging through Logger utility
+
+Replaces 120 raw console.* calls across 22 files with the existing
+Logger helpers (Logger.debug/info/warn/error). Debug-level logs are
+now silenced in production via the NODE_ENV gate. Removes emoji
+prefixes that were duplicated by Logger's own formatter.
+```
+
+---
+
+## Phase 7 — Small wins
+
+**Goal:** Pick up the leftover cleanups identified during the audit.
+
+### 7a. Cache the Apple Music token check
+
+`src/lib/services/appleMusicService.ts:48-60` — `getAuthHeaders()` re-reads `process.env.APPLE_MUSIC_DEV_TOKEN` on every API call and logs an error each time it's missing. Read once at module load:
+
+```ts
+const APPLE_MUSIC_TOKEN = process.env.APPLE_MUSIC_DEV_TOKEN;
+if (!APPLE_MUSIC_TOKEN && typeof window === 'undefined') {
+  Logger.error('APPLE_MUSIC_DEV_TOKEN not configured');
+}
+```
+
+Then `getAuthHeaders` becomes a one-liner that throws if `APPLE_MUSIC_TOKEN` is undefined.
+
+### 7b. Collapse `GameResultCard.tsx` mobile/desktop variants
+
+Lines 28-45 declare 11 ternary class variables for `mobile` vs `desktop`. The mobile variant is just `text-X sm:text-Y lg:text-Z` patterns — Tailwind already does responsive sizing. The `variant` prop adds no value over responsive utilities.
+
+Rewrite the component to use one set of responsive classes throughout. Remove the `variant` prop. Update callers in `DynamicHeardle.tsx` (lines 375, 424) to drop the prop.
+
+### 7c. Extract `getFocusableElements` in `StatsModal.tsx`
+
+Lines 21-23 and 42-44 both query the same selector string. Extract a helper:
+
+```ts
+const FOCUSABLE_SELECTOR = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+function getFocusableElements(container: HTMLElement | null): HTMLElement[] {
+  if (!container) return [];
+  return Array.from(container.querySelectorAll(FOCUSABLE_SELECTOR)) as HTMLElement[];
+}
+```
+
+Use in both effects.
+
+### 7d. Audit `docs/` folder
+
+The `docs/` directory contains 18 markdown files including `CLEANUP_GUIDE.md`, `PERFORMANCE_BUGS.md`, `NOTIFICATION_BANNER_BUGS.md`, `MIGRATION_SUCCESS.md`, `INTRO_OUTRO_SKIT_FIX.md`. These appear to be progress notes from past sessions rather than living documentation.
+
+For each file:
+- If the issue it describes is fixed and the doc is just a postmortem, delete it.
+- If it documents current behavior (e.g. `FILTER_ARCHITECTURE.md`, `ARTIST_CONFIGURATION.md`, `SEO.md`), keep it.
+- If it's a guide that's now stale, either update or delete.
+
+Use judgment. Ask the user if unsure on any specific file.
+
+### Commit
+
+```
+chore: small cleanups
+
+- Cache APPLE_MUSIC_DEV_TOKEN at module load
+- Collapse GameResultCard mobile/desktop variants into responsive utilities
+- Extract getFocusableElements helper in StatsModal
+- Prune stale postmortem docs
+```
+
+---
+
+## Final verification
+
+After all phases:
+
+1. `npm run build` — passes with no warnings
+2. `npm run lint` — passes
+3. Manual QA:
+   - Home page loads, search works, hover animations are smooth
+   - Click into an artist — daily game loads
+   - Make a guess — audio progresses smoothly, board updates
+   - Skip → audio extends → win → autoplay full preview
+   - Stats button → modal opens, focus trap works, escape closes
+   - Practice mode → new song works, doesn't repeat
+   - Refresh during an in-progress daily — state restores
+4. Mobile QA on a real device:
+   - Touch interactions feel immediate
+   - Audio progress bar is smooth
+   - Scrolling the artist grid is 60fps
+5. Lighthouse audit (Chrome DevTools) on home page and `/twice`:
+   - Performance score should improve noticeably
+   - "Avoid an excessive DOM size", "Reduce JavaScript execution time" warnings should be lower
+
+## Total impact
+
+| Phase | Net lines | Risk | User-visible |
+|---|---|---|---|
+| 1 | -1100 | very low | no |
+| 2 | -150 | low | no |
+| 3 | -80 | low | no (but more correct) |
+| 4 | ~0 | low-medium | **yes — perf win** |
+| 5 | -300 | medium-high | minor (audio more robust) |
+| 6 | ~0 | low | no (cleaner production console) |
+| 7 | -50 | low | no |
+| **Total** | **~-1700 lines, no functionality lost** | | |
