@@ -7,10 +7,6 @@ interface FAQSectionProps {
   faqItems: FAQItem[];
 }
 
-/**
- * FAQ Section UI Component with accordion interaction
- * Note: JSON-LD schema is rendered server-side in the layout for proper SEO indexing
- */
 export default function FAQSection({ faqItems }: FAQSectionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -21,7 +17,7 @@ export default function FAQSection({ faqItems }: FAQSectionProps) {
   return (
     <section className="relative z-10 mt-8 sm:mt-12 px-4 pb-8">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 text-center">
+        <h2 className="text-xl sm:text-2xl font-bold theme-text mb-4 sm:mb-6 text-center">
           Frequently Asked Questions
         </h2>
         
@@ -29,20 +25,19 @@ export default function FAQSection({ faqItems }: FAQSectionProps) {
           {faqItems.map((item, index) => (
             <div
               key={index}
-              className="backdrop-blur-md bg-white/5 border border-white/10 rounded-xl overflow-hidden"
+              className="backdrop-blur-md theme-glass-surface rounded-xl overflow-hidden"
             >
-              {/* Question button */}
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full px-4 sm:px-6 py-4 text-left flex items-center justify-between hover:bg-white/5 transition-colors"
+                className="w-full px-4 sm:px-6 py-4 text-left flex items-center justify-between hover:bg-[var(--icon-btn-hover-bg)] transition-colors"
                 aria-expanded={openIndex === index}
                 aria-controls={`faq-answer-${index}`}
               >
-                <span className="text-sm sm:text-base font-medium text-white pr-4">
+                <span className="text-sm sm:text-base font-medium theme-text pr-4">
                   {item.question}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-white/60 flex-shrink-0 transition-transform duration-200 ${
+                  className={`w-5 h-5 theme-text-muted flex-shrink-0 transition-transform duration-200 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                   fill="none"
@@ -53,14 +48,13 @@ export default function FAQSection({ faqItems }: FAQSectionProps) {
                 </svg>
               </button>
               
-              {/* Answer panel */}
               <div
                 id={`faq-answer-${index}`}
                 className={`overflow-hidden transition-all duration-300 ease-in-out ${
                   openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                 }`}
               >
-                <div className="px-4 sm:px-6 pb-4 text-sm sm:text-base text-white/70 leading-relaxed">
+                <div className="px-4 sm:px-6 pb-4 text-sm sm:text-base theme-text-secondary leading-relaxed">
                   {item.answer}
                 </div>
               </div>

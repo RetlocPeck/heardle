@@ -15,9 +15,13 @@ interface PageShellProps {
  */
 export function PageShell({ children, blobCount = 3, subtle = false }: PageShellProps) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+    <div className="min-h-screen theme-page relative overflow-hidden">
+      <div
+        className="absolute inset-0 theme-page-gradient pointer-events-none"
+        aria-hidden="true"
+      />
       <AnimatedBackground blobCount={blobCount} subtle={subtle} />
-      {children}
+      <div className="relative z-[1]">{children}</div>
     </div>
   );
 }
@@ -31,7 +35,7 @@ interface PageHeaderProps {
  */
 export function PageHeader({ children }: PageHeaderProps) {
   return (
-    <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
+    <div className="relative z-20 theme-page-header">
       <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         {children}
       </div>

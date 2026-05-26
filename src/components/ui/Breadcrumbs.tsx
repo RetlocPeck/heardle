@@ -10,10 +10,6 @@ interface BreadcrumbsProps {
   className?: string;
 }
 
-/**
- * Visible breadcrumb navigation component
- * Improves UX by showing navigation hierarchy and complements the BreadcrumbList schema
- */
 export default function Breadcrumbs({ items, className = '' }: BreadcrumbsProps) {
   return (
     <nav 
@@ -28,7 +24,7 @@ export default function Breadcrumbs({ items, className = '' }: BreadcrumbsProps)
             <li key={index} className="flex items-center">
               {index > 0 && (
                 <svg 
-                  className="w-4 h-4 text-white/40 mx-1 sm:mx-2 flex-shrink-0" 
+                  className="w-4 h-4 theme-text-muted mx-1 sm:mx-2 flex-shrink-0" 
                   fill="none" 
                   stroke="currentColor" 
                   viewBox="0 0 24 24"
@@ -41,14 +37,14 @@ export default function Breadcrumbs({ items, className = '' }: BreadcrumbsProps)
               {item.href && !isLast ? (
                 <Link
                   href={item.href}
-                  className="text-white/60 hover:text-white transition-colors whitespace-nowrap"
+                  className="theme-link transition-colors whitespace-nowrap"
                 >
                   {item.label}
                 </Link>
               ) : (
                 <span 
                   className={`whitespace-nowrap ${
-                    isLast ? 'text-white font-medium' : 'text-white/60'
+                    isLast ? 'theme-text font-medium' : 'theme-text-secondary'
                   }`}
                   aria-current={isLast ? 'page' : undefined}
                 >

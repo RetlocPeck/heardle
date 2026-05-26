@@ -39,7 +39,7 @@ export default function GlassCard({
   fullHeight = false,
   flexCol = false,
 }: GlassCardProps) {
-  const baseClasses = 'relative z-10 overflow-visible bg-white/5 border border-white/20';
+  const baseClasses = 'relative z-10 overflow-visible backdrop-blur-xl theme-glass-surface shadow-[var(--glass-shadow)]';
   const paddingClass = paddingClasses[padding];
   const roundedClass = roundedClasses[rounded];
   const heightClass = fullHeight ? 'h-full' : '';

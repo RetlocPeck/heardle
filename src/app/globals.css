@@ -1,8 +1,170 @@
 @import "tailwindcss";
 
+/* Fallback: mirrors dark theme. Ensures variables are always defined
+   even if data-theme attribute is absent. */
 :root {
-  --background: #0f0f23;
-  --foreground: #ffffff;
+  color-scheme: dark;
+  --background: #09090b;
+  --foreground: #fafafa;
+  --foreground-secondary: #a1a1aa;
+  --foreground-muted: #71717a;
+  --page-bg: #09090b;
+  --page-gradient-from: rgb(24 24 27 / 0.8);
+  --page-gradient-via: #09090b;
+  --page-gradient-to: #000000;
+  --surface-glass: rgb(255 255 255 / 0.04);
+  --border-glass: rgb(255 255 255 / 0.08);
+  --header-bg: rgb(255 255 255 / 0.03);
+  --header-border: rgb(255 255 255 / 0.06);
+  --header-inset: rgb(255 255 255 / 0.04);
+  --glass-shadow: 0 8px 32px rgb(0 0 0 / 0.24);
+  --input-bg: rgb(255 255 255 / 0.04);
+  --input-border: rgb(255 255 255 / 0.08);
+  --input-placeholder: #71717a;
+  --icon-btn-bg: rgb(255 255 255 / 0.06);
+  --icon-btn-border: rgb(255 255 255 / 0.08);
+  --icon-btn-hover-bg: rgb(255 255 255 / 0.1);
+  --icon-btn-hover-border: rgb(255 255 255 / 0.14);
+  --btn-primary-bg: #ffffff;
+  --btn-primary-fg: #09090b;
+  --btn-primary-hover-bg: #f4f4f5;
+  --btn-secondary-bg: rgb(255 255 255 / 0.08);
+  --btn-secondary-border: rgb(255 255 255 / 0.12);
+  --btn-secondary-fg: #fafafa;
+  --btn-secondary-hover-bg: rgb(255 255 255 / 0.12);
+  --btn-secondary-hover-border: rgb(255 255 255 / 0.2);
+  --row-current-bg: rgb(255 255 255 / 0.08);
+  --row-current-border: rgb(255 255 255 / 0.3);
+  --row-current-badge-bg: #ffffff;
+  --row-current-badge-fg: #09090b;
+  --row-idle-bg: rgb(255 255 255 / 0.05);
+  --row-idle-border: rgb(255 255 255 / 0.2);
+  --progress-track: rgb(255 255 255 / 0.1);
+  --progress-fill: rgb(255 255 255 / 0.8);
+  --focus-ring: rgb(255 255 255 / 0.45);
+  --selection-bg: rgb(255 255 255 / 0.18);
+  --scrollbar-track: rgb(255 255 255 / 0.1);
+  --scrollbar-thumb: rgb(255 255 255 / 0.22);
+  --scrollbar-thumb-hover: rgb(255 255 255 / 0.35);
+  --blob-1: #a1a1aa;
+  --blob-2: #64748b;
+  --blob-3: #525252;
+  --blob-blend: soft-light;
+  --modal-backdrop: rgb(0 0 0 / 0.5);
+  --dropdown-bg: #18181b;
+  --dropdown-border: rgb(255 255 255 / 0.12);
+  --dropdown-item-hover: #27272a;
+  --dropdown-item-selected: #3f3f46;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #09090b;
+  --foreground: #fafafa;
+  --foreground-secondary: #a1a1aa;
+  --foreground-muted: #71717a;
+  --page-bg: #09090b;
+  --page-gradient-from: rgb(24 24 27 / 0.8);
+  --page-gradient-via: #09090b;
+  --page-gradient-to: #000000;
+  --surface-glass: rgb(255 255 255 / 0.04);
+  --border-glass: rgb(255 255 255 / 0.08);
+  --header-bg: rgb(255 255 255 / 0.03);
+  --header-border: rgb(255 255 255 / 0.06);
+  --header-inset: rgb(255 255 255 / 0.04);
+  --glass-shadow: 0 8px 32px rgb(0 0 0 / 0.24);
+  --input-bg: rgb(255 255 255 / 0.04);
+  --input-border: rgb(255 255 255 / 0.08);
+  --input-placeholder: #71717a;
+  --icon-btn-bg: rgb(255 255 255 / 0.06);
+  --icon-btn-border: rgb(255 255 255 / 0.08);
+  --icon-btn-hover-bg: rgb(255 255 255 / 0.1);
+  --icon-btn-hover-border: rgb(255 255 255 / 0.14);
+  --btn-primary-bg: #ffffff;
+  --btn-primary-fg: #09090b;
+  --btn-primary-hover-bg: #f4f4f5;
+  --btn-secondary-bg: rgb(255 255 255 / 0.08);
+  --btn-secondary-border: rgb(255 255 255 / 0.12);
+  --btn-secondary-fg: #fafafa;
+  --btn-secondary-hover-bg: rgb(255 255 255 / 0.12);
+  --btn-secondary-hover-border: rgb(255 255 255 / 0.2);
+  --row-current-bg: rgb(255 255 255 / 0.08);
+  --row-current-border: rgb(255 255 255 / 0.3);
+  --row-current-badge-bg: #ffffff;
+  --row-current-badge-fg: #09090b;
+  --row-idle-bg: rgb(255 255 255 / 0.05);
+  --row-idle-border: rgb(255 255 255 / 0.2);
+  --progress-track: rgb(255 255 255 / 0.1);
+  --progress-fill: rgb(255 255 255 / 0.8);
+  --focus-ring: rgb(255 255 255 / 0.45);
+  --selection-bg: rgb(255 255 255 / 0.18);
+  --scrollbar-track: rgb(255 255 255 / 0.1);
+  --scrollbar-thumb: rgb(255 255 255 / 0.22);
+  --scrollbar-thumb-hover: rgb(255 255 255 / 0.35);
+  --blob-1: #a1a1aa;
+  --blob-2: #64748b;
+  --blob-3: #525252;
+  --blob-blend: soft-light;
+  --modal-backdrop: rgb(0 0 0 / 0.5);
+  --dropdown-bg: #18181b;
+  --dropdown-border: rgb(255 255 255 / 0.12);
+  --dropdown-item-hover: #27272a;
+  --dropdown-item-selected: #3f3f46;
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+  --background: #fafaf9;
+  --foreground: #18181b;
+  --foreground-secondary: #52525b;
+  --foreground-muted: #71717a;
+  --page-bg: #fafaf9;
+  --page-gradient-from: rgb(245 245 244 / 0.98);
+  --page-gradient-via: #fafaf9;
+  --page-gradient-to: #ececea;
+  --surface-glass: rgb(255 255 255 / 0.78);
+  --border-glass: rgb(0 0 0 / 0.07);
+  --header-bg: rgb(255 255 255 / 0.82);
+  --header-border: rgb(0 0 0 / 0.05);
+  --header-inset: rgb(255 255 255 / 0.9);
+  --glass-shadow: 0 8px 32px rgb(0 0 0 / 0.06), 0 1px 0 rgb(255 255 255 / 0.8) inset;
+  --input-bg: rgb(255 255 255 / 0.96);
+  --input-border: rgb(0 0 0 / 0.09);
+  --input-placeholder: #a1a1aa;
+  --icon-btn-bg: rgb(255 255 255 / 0.72);
+  --icon-btn-border: rgb(0 0 0 / 0.07);
+  --icon-btn-hover-bg: rgb(255 255 255 / 0.95);
+  --icon-btn-hover-border: rgb(0 0 0 / 0.11);
+  --btn-primary-bg: #18181b;
+  --btn-primary-fg: #fafafa;
+  --btn-primary-hover-bg: #27272a;
+  --btn-secondary-bg: rgb(255 255 255 / 0.72);
+  --btn-secondary-border: rgb(0 0 0 / 0.08);
+  --btn-secondary-fg: #18181b;
+  --btn-secondary-hover-bg: rgb(255 255 255 / 0.95);
+  --btn-secondary-hover-border: rgb(0 0 0 / 0.12);
+  --row-current-bg: rgb(255 255 255 / 0.88);
+  --row-current-border: rgb(0 0 0 / 0.14);
+  --row-current-badge-bg: #18181b;
+  --row-current-badge-fg: #fafafa;
+  --row-idle-bg: rgb(255 255 255 / 0.55);
+  --row-idle-border: rgb(0 0 0 / 0.07);
+  --progress-track: rgb(0 0 0 / 0.07);
+  --progress-fill: #18181b;
+  --focus-ring: rgb(24 24 27 / 0.28);
+  --selection-bg: rgb(24 24 27 / 0.1);
+  --scrollbar-track: rgb(0 0 0 / 0.04);
+  --scrollbar-thumb: rgb(0 0 0 / 0.16);
+  --scrollbar-thumb-hover: rgb(0 0 0 / 0.24);
+  --blob-1: #e7e5e4;
+  --blob-2: #d6d3d1;
+  --blob-3: #f5f5f4;
+  --blob-blend: multiply;
+  --modal-backdrop: rgb(24 24 27 / 0.35);
+  --dropdown-bg: #ffffff;
+  --dropdown-border: rgb(0 0 0 / 0.1);
+  --dropdown-item-hover: #f4f4f5;
+  --dropdown-item-selected: #e4e4e7;
 }
 
 @theme inline {
@@ -12,33 +174,136 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f0f23;
-    --foreground: #ffffff;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* Theme utility classes */
+.theme-page {
+  background-color: var(--page-bg);
+}
+
+.theme-page-gradient {
+  background: linear-gradient(
+    to bottom,
+    var(--page-gradient-from),
+    var(--page-gradient-via),
+    var(--page-gradient-to)
+  );
+}
+
+.theme-page-header {
+  backdrop-filter: blur(24px);
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--header-border);
+  box-shadow: inset 0 1px 0 0 var(--header-inset);
+}
+
+.theme-text {
+  color: var(--foreground);
+}
+
+.theme-text-secondary {
+  color: var(--foreground-secondary);
+}
+
+.theme-text-muted {
+  color: var(--foreground-muted);
+}
+
+.theme-glass-surface {
+  background: var(--surface-glass);
+  border: 1px solid var(--border-glass);
+}
+
+.theme-glass-border {
+  border-color: var(--border-glass);
+}
+
+.theme-input {
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  color: var(--foreground);
+}
+
+.theme-input::placeholder {
+  color: var(--input-placeholder);
+}
+
+.theme-input:focus {
+  background: var(--input-bg);
+  border-color: var(--input-border);
+  outline: none;
+  box-shadow: 0 0 0 2px var(--focus-ring);
+}
+
+.theme-icon-btn {
+  background: var(--icon-btn-bg);
+  border: 1px solid var(--icon-btn-border);
+}
+
+.theme-icon-btn:hover {
+  background: var(--icon-btn-hover-bg);
+  border-color: var(--icon-btn-hover-border);
+}
+
+.theme-btn-primary {
+  background: var(--btn-primary-bg);
+  color: var(--btn-primary-fg);
+}
+
+.theme-btn-primary:hover {
+  background: var(--btn-primary-hover-bg);
+}
+
+.theme-btn-secondary {
+  background: var(--btn-secondary-bg);
+  border: 1px solid var(--btn-secondary-border);
+  color: var(--btn-secondary-fg);
+}
+
+.theme-btn-secondary:hover {
+  background: var(--btn-secondary-hover-bg);
+  border-color: var(--btn-secondary-hover-border);
+}
+
+.theme-link {
+  color: var(--foreground-secondary);
+}
+
+.theme-link:hover {
+  color: var(--foreground);
+}
+
+.theme-dropdown {
+  background: var(--dropdown-bg);
+  border: 1px solid var(--dropdown-border);
+  box-shadow: var(--glass-shadow);
+}
+
+.theme-dropdown-item:hover {
+  background: var(--dropdown-item-hover);
+}
+
+.theme-dropdown-item-selected {
+  background: var(--dropdown-item-selected);
+}
+
 /* Fluid root font size for tiny screens */
 @media (max-width: 380px) {
   html {
-    font-size: 14px; /* Reduce root font size to scale down all rem-based sizes */
+    font-size: 14px;
   }
 }
 
 @media (max-width: 320px) {
   html {
-    font-size: 12px; /* Even smaller for very tiny screens */
+    font-size: 12px;
   }
 }
 
-/* Modern CSS Animations */
 @keyframes blob {
   0% {
     transform: translate(0px, 0px) scale(1);
@@ -65,10 +330,10 @@ body {
 
 @keyframes glow {
   0%, 100% {
-    box-shadow: 0 0 5px rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.08);
   }
   50% {
-    box-shadow: 0 0 20px rgba(168, 85, 247, 0.8);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.14);
   }
 }
 
@@ -114,43 +379,38 @@ body {
   animation: featured-glow 3s ease-in-out infinite alternate;
 }
 
-/* Custom scrollbar for webkit browsers */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--scrollbar-track);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(168, 85, 247, 0.6);
+  background: var(--scrollbar-thumb);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(168, 85, 247, 0.8);
+  background: var(--scrollbar-thumb-hover);
 }
 
-/* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
 }
 
-/* Selection styling */
 ::selection {
-  background-color: rgba(168, 85, 247, 0.3);
-  color: white;
+  background-color: var(--selection-bg);
+  color: var(--foreground);
 }
 
-/* Focus styles for accessibility */
 *:focus-visible {
-  outline: 2px solid rgba(168, 85, 247, 0.8);
+  outline: 2px solid var(--focus-ring);
   outline-offset: 2px;
 }
 
-/* Disable hover-scale effects on touch-only devices to prevent janky tap feedback */
 @media (hover: none) {
   .hover\:scale-105:hover,
   .hover\:scale-110:hover {
@@ -158,21 +418,95 @@ html {
   }
 }
 
-/* Keep dropdown scrollbar thin and inside the panel */
 .dropdown-scroll {
-  scrollbar-width: thin;                       /* Firefox */
-  scrollbar-color: rgba(255,255,255,.35) transparent;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
 }
 
-.dropdown-scroll::-webkit-scrollbar {          /* WebKit/Chromium */
+.dropdown-scroll::-webkit-scrollbar {
   width: 8px;
 }
+
 .dropdown-scroll::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .dropdown-scroll::-webkit-scrollbar-thumb {
-  background-color: rgba(255,255,255,.35);
+  background-color: var(--scrollbar-thumb);
   border-radius: 9999px;
-  border: 2px solid transparent;               /* inset look */
+  border: 2px solid transparent;
   background-clip: padding-box;
+}
+
+.theme-row-current {
+  border: 1px solid var(--row-current-border);
+  background: var(--row-current-bg);
+}
+
+.theme-row-idle {
+  border: 1px solid var(--row-idle-border);
+  background: var(--row-idle-bg);
+}
+
+.theme-row-badge-current {
+  background: var(--row-current-badge-bg);
+  color: var(--row-current-badge-fg);
+}
+
+.theme-segment-inactive:hover {
+  background: var(--icon-btn-hover-bg);
+  color: var(--foreground-secondary);
+}
+
+.theme-progress-track {
+  background: var(--progress-track);
+}
+
+.theme-progress-fill {
+  background: var(--progress-fill);
+}
+
+.theme-blob {
+  mix-blend-mode: var(--blob-blend);
+}
+
+.theme-tab-track {
+  background: var(--surface-glass);
+  border: 1px solid var(--border-glass);
+  box-shadow: var(--glass-shadow);
+}
+
+.theme-tab-inactive {
+  background: var(--icon-btn-bg);
+  color: var(--foreground-secondary);
+}
+
+.theme-tab-inactive:hover {
+  background: var(--icon-btn-hover-bg);
+  color: var(--foreground);
+}
+
+.theme-modal-backdrop {
+  background: var(--modal-backdrop);
+}
+
+/* Featured artist names — readable on both dark cards and light backgrounds */
+.featured-artist-name {
+  color: #fde68a;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+html[data-theme="light"] .featured-artist-name {
+  color: #92400e;
+  text-shadow: none;
+}
+
+.theme-accent-text {
+  color: var(--foreground);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+html[data-theme="dark"] .theme-accent-text {
+  color: #e4e4e7;
 }

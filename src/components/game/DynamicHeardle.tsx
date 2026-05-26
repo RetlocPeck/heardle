@@ -247,8 +247,8 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
   if (!currentSong) {
     return (
       <div className="text-center p-8">
-        <div className="backdrop-blur-xl bg-white/5 border border-white/20 rounded-3xl p-8">
-          <div className="text-white/80 text-lg">No song available</div>
+        <div className="backdrop-blur-xl theme-glass-surface rounded-3xl p-8">
+          <div className="theme-text-secondary text-lg">No song available</div>
         </div>
       </div>
     );

@@ -159,13 +159,13 @@ export default function ArtistImage({
   return (
     <div ref={containerRef} className={`relative ${className || ''}`}>
       {(isLoading || !imageUrl) && !hasError && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-purple-600/20 to-pink-600/20 backdrop-blur-sm">
+        <div className="absolute inset-0 flex items-center justify-center bg-zinc-900/60 backdrop-blur-sm">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-white/50"></div>
         </div>
       )}
       
       {hasError && (
-        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-purple-600/30 to-pink-600/30">
+        <div className="absolute inset-0 flex items-center justify-center bg-zinc-900/70">
           <div className="text-center px-4">
             <div className="text-4xl mb-2">🎵</div>
             <div className="text-white/70 text-sm">{alt}</div>

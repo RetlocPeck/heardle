@@ -36,10 +36,10 @@ const FeaturedBadge = () => (
 export default function ArtistCard({ artist, fetchDelay }: ArtistCardProps) {
   return (
     <div className="group relative">
-      <div className={`group relative rounded-3xl overflow-hidden hover:bg-white/20 transition-[transform,box-shadow] duration-300 transform hover:scale-105 hover:-translate-y-2 ${
+      <div className={`group relative rounded-3xl overflow-hidden backdrop-blur-xl transition-[transform,box-shadow] duration-300 transform hover:scale-105 hover:-translate-y-2 ${
         artist.featured
           ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20'
-          : 'bg-white/10 border border-white/20'
+          : 'theme-glass-surface hover:border-[var(--icon-btn-hover-border)] hover:shadow-[0_16px_48px_rgba(0,0,0,0.15)]'
       }`}>
         {/* Gradient border glow on hover */}
         <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-3xl`} />
@@ -75,10 +75,10 @@ export default function ArtistCard({ artist, fetchDelay }: ArtistCardProps) {
 
         {/* Artist Info */}
         <div className="p-3 sm:p-4 lg:p-8">
-          <h3 className={`text-base sm:text-lg lg:text-2xl xl:text-3xl font-bold mb-2 sm:mb-3 transition-all duration-300 leading-tight ${
+          <h3 className={`text-base sm:text-lg lg:text-2xl xl:text-3xl font-bold mb-2 sm:mb-3 transition-colors duration-300 leading-tight ${
             artist.featured
-              ? 'text-amber-100 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-amber-300 group-hover:to-yellow-400 group-hover:bg-clip-text'
-              : 'text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-purple-400 group-hover:bg-clip-text'
+              ? 'featured-artist-name'
+              : 'theme-text group-hover:text-[var(--foreground)]'
           }`}>
             {artist.displayName}
           </h3>
@@ -88,7 +88,7 @@ export default function ArtistCard({ artist, fetchDelay }: ArtistCardProps) {
             className={`group/btn relative w-full block text-center px-3 sm:px-4 lg:px-6 py-2 sm:py-3 lg:py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-bold rounded-xl sm:rounded-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden ${
               artist.featured
                 ? 'hover:shadow-2xl hover:shadow-amber-400/30 border border-amber-300/30'
-                : 'hover:shadow-2xl hover:shadow-purple-500/25'
+                : 'hover:shadow-2xl hover:shadow-black/30'
             }`}
           >
             <span className="relative z-10 flex items-center justify-center space-x-1 sm:space-x-2">
@@ -99,10 +99,10 @@ export default function ArtistCard({ artist, fetchDelay }: ArtistCardProps) {
           </Link>
 
           <div className="text-center mt-2 sm:mt-3 lg:mt-4 hidden sm:block">
-            <p className="text-white/60 text-xs sm:text-sm mb-1">Choose your mode on the next page</p>
+            <p className="theme-text-muted text-xs sm:text-sm mb-1">Choose your mode on the next page</p>
             <div className="flex justify-center space-x-1 sm:space-x-2 text-xs">
-              <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-white/10 rounded-full text-white/70 text-xs">Daily Challenge</span>
-              <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-white/10 rounded-full text-white/70 text-xs">Practice Mode</span>
+              <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 theme-glass-surface rounded-full theme-text-secondary text-xs">Daily Challenge</span>
+              <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 theme-glass-surface rounded-full theme-text-secondary text-xs">Practice Mode</span>
             </div>
           </div>
         </div>

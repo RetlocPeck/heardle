@@ -112,23 +112,23 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
         aria-labelledby="stats-title"
       >
         {/* Backdrop */}
-        <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" />
+        <div className="absolute inset-0 theme-modal-backdrop backdrop-blur-sm" />
         
         {/* Modal */}
         <div
           ref={modalRef}
-          className="relative w-full max-w-[720px] bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden"
+          className="relative w-full max-w-[720px] theme-glass-surface backdrop-blur-xl rounded-2xl sm:rounded-3xl shadow-[var(--glass-shadow)] overflow-hidden"
           style={{ maxHeight: '95vh' }}
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="flex items-center justify-between p-3 sm:p-6 border-b border-white/20">
+          <div className="flex items-center justify-between p-3 sm:p-6 border-b theme-glass-border">
             <div className="flex items-center space-x-2 sm:space-x-3">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-pink-500 to-purple-600 rounded-xl sm:rounded-2xl flex items-center justify-center">
+              <div className="w-8 h-8 sm:w-10 sm:h-10 theme-icon-btn rounded-xl sm:rounded-2xl flex items-center justify-center">
                 <span className="text-lg sm:text-2xl">📊</span>
               </div>
               <div>
-                <h2 id="stats-title" className="text-lg sm:text-2xl font-bold text-white">
+                <h2 id="stats-title" className="text-lg sm:text-2xl font-bold theme-text">
                   {title}
                 </h2>
               </div>
@@ -136,10 +136,10 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
             
             <button
               onClick={onClose}
-              className="w-8 h-8 sm:w-10 sm:h-10 bg-white/10 hover:bg-white/20 rounded-xl sm:rounded-2xl flex items-center justify-center transition-all duration-200 hover:scale-110"
+              className="w-8 h-8 sm:w-10 sm:h-10 theme-icon-btn rounded-xl sm:rounded-2xl flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Close statistics modal"
             >
-              <span className="text-white text-lg sm:text-xl">×</span>
+              <span className="theme-text text-lg sm:text-xl">×</span>
             </button>
           </div>
 

@@ -231,18 +231,18 @@ export default function AudioPlayer({
     <div className="flex flex-col items-center space-y-4 max-[400px]:space-y-3 p-4 max-[400px]:p-3">
       {/* Header */}
       <div className="text-center">
-        <h3 className="text-lg sm:text-xl font-bold text-white mb-1 sm:mb-2">
+        <h3 className="text-lg sm:text-xl font-bold theme-text mb-1 sm:mb-2">
           {isGameWon ? (
             <div className="space-y-1">
               <div className="text-lg sm:text-xl whitespace-nowrap">🎉 You got it! 🎉</div>
-              <div className="text-base sm:text-lg bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+              <div className="text-lg sm:text-xl theme-accent-text">
                 {song.name}
               </div>
             </div>
           ) : disabled ? (
             <div className="space-y-1">
               <div className="text-xl sm:text-2xl">😔 Game Over</div>
-              <div className="text-lg sm:text-xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
+              <div className="text-lg sm:text-xl theme-accent-text">
                 {song.name}
               </div>
             </div>
@@ -253,7 +253,7 @@ export default function AudioPlayer({
             </div>
           )}
         </h3>
-        <p className="text-white/70 text-sm sm:text-base">
+        <p className="theme-text-secondary text-sm sm:text-base">
           {isOver ? (
             <span className="flex items-center justify-center space-x-1 sm:space-x-2">
               <span>💿</span>
@@ -270,13 +270,13 @@ export default function AudioPlayer({
 
       {/* Progress bar — single block; totalSeconds drives both limited and full preview */}
       <div className="relative w-full max-w-sm">
-        <div className="bg-white/20 rounded-full h-3 backdrop-blur-sm overflow-hidden">
+        <div className="theme-progress-track rounded-full h-3 backdrop-blur-sm overflow-hidden">
           <div
-            className="bg-gradient-to-r from-pink-400 to-purple-500 h-3 rounded-full shadow-lg transition-[width] duration-[50ms] linear"
+            className="theme-progress-fill h-3 rounded-full transition-[width] duration-[50ms] linear"
             style={{ width: `${displayProgress}%` }}
           />
         </div>
-        <div className="flex justify-between text-xs sm:text-sm text-white/60 mt-2 font-medium tabular-nums">
+        <div className="flex justify-between text-xs sm:text-sm theme-text-muted mt-2 font-medium tabular-nums">
           <span>{formatTime(currentTime)}</span>
           <span>{formatTime(totalSeconds)}</span>
         </div>
@@ -289,19 +289,19 @@ export default function AudioPlayer({
         aria-label={isLoading ? 'Loading audio' : isPlaying ? 'Pause audio preview' : 'Play audio preview'}
         aria-pressed={isPlaying}
         className={`
-          px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-bold text-white transition-all duration-300 transform hover:scale-105 flex items-center space-x-1 sm:space-x-3 text-sm sm:text-base
-          focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-slate-900
+          px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-bold transition-all duration-300 transform hover:scale-105 flex items-center space-x-1 sm:space-x-3 text-sm sm:text-base
+          focus:outline-none focus:ring-2 focus:ring-[var(--focus-ring)] focus:ring-offset-2 focus:ring-offset-[var(--page-bg)]
           ${isLoading || !song.previewUrl
-            ? 'bg-gray-500/50 cursor-not-allowed'
+            ? 'bg-gray-500/50 text-white cursor-not-allowed'
             : isPlaying
-              ? 'bg-gradient-to-r from-red-500 to-red-600 hover:shadow-2xl hover:shadow-red-500/25'
-              : 'bg-gradient-to-r from-pink-500 to-purple-600 hover:shadow-2xl hover:shadow-purple-500/25'
+              ? 'bg-red-500/90 text-white hover:bg-red-500 hover:shadow-lg hover:shadow-red-500/20'
+              : 'theme-btn-primary hover:shadow-lg hover:shadow-black/20'
           }
         `}
       >
         {isLoading ? (
           <>
-            <div className="w-3 sm:w-4 h-3 sm:h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+            <div className="w-3 sm:w-4 h-3 sm:h-4 border-2 border-[var(--foreground-muted)] border-t-transparent rounded-full animate-spin" />
             <span>Loading...</span>
           </>
         ) : isPlaying ? (
@@ -311,7 +311,7 @@ export default function AudioPlayer({
           </>
         ) : (
           <>
-            <div className="w-0 h-0 border-l-[6px] sm:border-l-[8px] border-l-white border-y-[4px] sm:border-y-[6px] border-y-transparent ml-1" />
+            <div className="w-0 h-0 border-l-[6px] sm:border-l-[8px] border-l-[var(--btn-primary-fg)] border-y-[4px] sm:border-y-[6px] border-y-transparent ml-1" />
             <span>Play</span>
           </>
         )}

@@ -105,7 +105,7 @@ export default function RelatedArtists({ currentArtistId, maxArtists = 4 }: Rela
   return (
     <section className="relative z-10 mt-8 sm:mt-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6 text-center">
+        <h2 className="text-xl sm:text-2xl font-bold theme-text mb-4 sm:mb-6 text-center">
           Try Other Artists
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
@@ -116,7 +116,7 @@ export default function RelatedArtists({ currentArtistId, maxArtists = 4 }: Rela
               className={`group relative backdrop-blur-xl rounded-2xl overflow-hidden transition-all duration-500 hover:scale-105 hover:-translate-y-2 ${
                 artist.featured
                   ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20'
-                  : 'bg-white/10 border border-white/20 hover:bg-white/20'
+                  : 'theme-glass-surface hover:bg-[var(--icon-btn-hover-bg)]'
               }`}
             >
               {/* Featured badge */}
@@ -146,7 +146,7 @@ export default function RelatedArtists({ currentArtistId, maxArtists = 4 }: Rela
               {/* Artist name */}
               <div className="p-2 sm:p-3">
                 <div className={`text-sm sm:text-base font-semibold text-center ${
-                  artist.featured ? 'text-amber-100' : 'text-white'
+                  artist.featured ? 'featured-artist-name' : 'theme-text'
                 }`}>
                   {artist.displayName}
                 </div>
@@ -159,7 +159,7 @@ export default function RelatedArtists({ currentArtistId, maxArtists = 4 }: Rela
         <div className="text-center mt-6 sm:mt-8">
           <Link
             href="/"
-            className="inline-flex items-center text-white/60 hover:text-white text-sm transition-colors"
+            className="inline-flex items-center theme-link text-sm transition-colors"
           >
             <span>View all artists</span>
             <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

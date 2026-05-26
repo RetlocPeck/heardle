@@ -209,11 +209,10 @@ export default function GuessInput({
               autoComplete="off"
               className={`
                 w-full px-3 sm:px-4 py-2 sm:py-3
-                backdrop-blur-md bg-white/10 border border-white/20 rounded-xl sm:rounded-2xl
-                text-white text-sm sm:text-base font-medium placeholder-white/60
-                focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent focus:bg-white/20
+                backdrop-blur-xl rounded-xl sm:rounded-2xl theme-input
+                text-sm sm:text-base font-medium
                 transition-all duration-300
-                ${disabled ? 'bg-gray-500/20 cursor-not-allowed opacity-50' : 'hover:bg-white/15'}
+                ${disabled ? 'opacity-50 cursor-not-allowed' : ''}
               `}
             />
 
@@ -233,9 +232,9 @@ export default function GuessInput({
               disabled={disabled || !guess.trim()}
               aria-label="Submit your guess"
               className={`
-                flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
-                hover:shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105
-                focus:outline-none focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-slate-900
+                flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 theme-btn-primary font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
+                hover:shadow-lg hover:shadow-black/20 transition-all duration-300 transform hover:scale-105
+                focus:outline-none focus:ring-2 focus:ring-[var(--focus-ring)] focus:ring-offset-2 focus:ring-offset-[var(--page-bg)]
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
                 flex items-center justify-center space-x-0.5 sm:space-x-1 lg:space-x-2
               `}
@@ -251,9 +250,9 @@ export default function GuessInput({
               aria-label={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               title={currentTry + 1 >= maxTries ? "This is your last try - you must guess!" : "Skip to hear more of the song"}
               className={`
-                flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
-                hover:shadow-2xl hover:shadow-gray-500/25 transition-all duration-300 transform hover:scale-105
-                focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-slate-900
+                flex-1 px-2.5 sm:px-4 lg:px-6 py-2 sm:py-2.5 lg:py-3 theme-btn-secondary font-bold rounded-lg sm:rounded-xl lg:rounded-2xl text-xs sm:text-sm lg:text-base
+                transition-all duration-300 transform hover:scale-105
+                focus:outline-none focus:ring-2 focus:ring-[var(--focus-ring)] focus:ring-offset-2 focus:ring-offset-[var(--page-bg)]
                 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none
                 flex items-center justify-center space-x-0.5 sm:space-x-1 lg:space-x-2
               `}
@@ -279,8 +278,8 @@ export default function GuessInput({
           <div
             ref={refs.setFloating}
             id="song-suggestions"
-            style={{...floatingStyles, zIndex: 51}}
-            className="rounded-2xl sm:rounded-3xl shadow-2xl backdrop-blur-xl bg-white/5 border border-white/20 overflow-hidden"
+            style={{...floatingStyles, zIndex: 1100}}
+            className="rounded-2xl sm:rounded-3xl theme-dropdown overflow-hidden"
             role="listbox"
             aria-label="Song suggestions"
             data-placement={placement}
@@ -309,19 +308,19 @@ export default function GuessInput({
                       px-3 sm:px-4 py-2.5 sm:py-3 cursor-pointer 
                       transition-all duration-200 ease-out
                       ${index === selectedIndex 
-                        ? 'bg-gradient-to-r from-pink-500/30 to-purple-500/30 backdrop-blur-sm' 
-                        : 'hover:bg-white/10'
+                        ? 'theme-dropdown-item-selected' 
+                        : 'theme-dropdown-item'
                       }
-                      border-b border-white/5 last:border-b-0
+                      border-b border-[var(--dropdown-border)] last:border-b-0
                     `}
                   >
-                    <div className="font-medium text-white text-xs sm:text-sm truncate">
+                    <div className="font-medium theme-text text-xs sm:text-sm truncate">
                       {song.name}
                     </div>
                   </div>
                 ))
               ) : (
-                <div className="px-3 sm:px-4 py-3 text-white/60 text-center text-xs sm:text-sm">
+                <div className="px-3 sm:px-4 py-3 theme-text-muted text-center text-xs sm:text-sm">
                   No songs found starting with "{guess}"
                 </div>
               )}

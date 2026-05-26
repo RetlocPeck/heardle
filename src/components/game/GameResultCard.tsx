@@ -27,7 +27,7 @@ export default function GameResultCard({
         <div className="space-y-2 sm:space-y-3">
           <div className="text-2xl sm:text-4xl">🎉</div>
           <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-green-300">Correct!</h3>
-          <div className="text-white/80 text-sm sm:text-base lg:text-lg">
+          <div className="theme-text-secondary text-sm sm:text-base lg:text-lg">
             You got it in{' '}
             <span className="text-green-300 font-bold">
               {gameState.currentTry + 1}
@@ -39,22 +39,22 @@ export default function GameResultCard({
         <div className="space-y-2 sm:space-y-3">
           <div className="text-2xl sm:text-4xl">😔</div>
           <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-orange-300">Game Over</h3>
-          <div className="text-white/80 text-sm sm:text-base lg:text-lg">Better luck next time!</div>
+          <div className="theme-text-secondary text-sm sm:text-base lg:text-lg">Better luck next time!</div>
         </div>
       )}
 
       {/* Song Details Card */}
       <div className="pt-1 sm:pt-2 lg:pt-4">
-        <div className="backdrop-blur-xl bg-white/10 rounded-xl sm:rounded-2xl border border-white/20 p-2 sm:p-3 lg:p-4">
+        <div className="backdrop-blur-xl theme-glass-surface rounded-xl sm:rounded-2xl p-2 sm:p-3 lg:p-4">
           <div className="text-center space-y-2 sm:space-y-3">
-            <div className="text-white/70 text-xs sm:text-sm lg:text-base">
-              <span className="text-white/50">The song was:</span>
+            <div className="theme-text-secondary text-xs sm:text-sm lg:text-base">
+              <span className="theme-text-muted">The song was:</span>
             </div>
-            <div className="text-white font-bold text-sm sm:text-base lg:text-lg">
+            <div className="theme-text font-bold text-sm sm:text-base lg:text-lg">
               {currentSong?.name}
             </div>
-            <div className="text-white/70 text-xs sm:text-sm">
-              <span className="text-white/50">Album:</span> {currentSong?.album}
+            <div className="theme-text-secondary text-xs sm:text-sm">
+              <span className="theme-text-muted">Album:</span> {currentSong?.album}
             </div>
 
             <div className="pt-1 sm:pt-2">

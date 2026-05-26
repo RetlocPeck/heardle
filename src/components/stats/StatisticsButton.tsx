@@ -20,9 +20,9 @@ export default function StatisticsButton({ artistId, className = '', currentMode
       <button
         onClick={handleOpen}
         className={`
-          w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 bg-white/10 hover:bg-white/20
+          w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 theme-icon-btn
           rounded-lg sm:rounded-xl lg:rounded-2xl flex items-center justify-center
-          transition-all duration-200 hover:scale-105 sm:hover:scale-110 hover:shadow-lg
+          transition-all duration-200 hover:scale-105 sm:hover:scale-110
           ${className}
         `}
         title={artistId ? 'View Artist Statistics' : 'View Global Statistics'}

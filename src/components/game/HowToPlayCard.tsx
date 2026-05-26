@@ -16,26 +16,26 @@ export default function HowToPlayCard({
 }: HowToPlayCardProps) {
   return (
     <>
-      <h3 className="text-lg font-bold text-white mb-3 text-center">🎯 How to Play</h3>
-      <ul className="space-y-2 text-white/80 text-sm mx-auto max-w-md">
+      <h3 className="text-lg font-bold theme-text mb-3 text-center">🎯 How to Play</h3>
+      <ul className="space-y-2 theme-text-secondary text-sm mx-auto max-w-md">
         <li className="flex items-start space-x-2">
-          <span className="text-pink-400 mt-0.5">🎵</span>
+          <span className="text-zinc-500 mt-0.5">🎵</span>
           <span>Listen to the song preview (starts with 1 second)</span>
         </li>
         <li className="flex items-start space-x-2">
-          <span className="text-purple-400 mt-0.5">💭</span>
+          <span className="text-zinc-500 mt-0.5">💭</span>
           <span>Guess the {artistDisplayName} song title or click Skip</span>
         </li>
         <li className="flex items-start space-x-2">
-          <span className="text-indigo-400 mt-0.5">⏰</span>
+          <span className="text-zinc-500 mt-0.5">⏰</span>
           <span>Each wrong guess or skip gives you more time</span>
         </li>
         <li className="flex items-start space-x-2">
-          <span className="text-rose-400 mt-0.5">🎯</span>
+          <span className="text-zinc-500 mt-0.5">🎯</span>
           <span>You have {MAX_TRIES} tries to get it right</span>
         </li>
         <li className="flex items-start space-x-2">
-          <span className="text-cyan-400 mt-0.5">⏭️</span>
+          <span className="text-zinc-500 mt-0.5">⏭️</span>
           <span>Use Skip to hear more before guessing</span>
         </li>
       </ul>

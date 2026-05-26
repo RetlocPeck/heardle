@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import { getAllArtists } from '@/config/artists';
 import { PageShell, PageHeader, ResponsiveContainer } from '@/components/ui/PageShell';
+import ThemeOptionsButton from '@/components/ui/ThemeOptionsButton';
 
 export default function AllArtistsPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -51,7 +52,7 @@ export default function AllArtistsPage() {
         <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
           <Link
             href="/"
-            className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium"
+            className="flex items-center space-x-2 theme-link transition-colors font-medium"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -59,21 +60,23 @@ export default function AllArtistsPage() {
             <span className="text-sm sm:text-base">Back to Home</span>
           </Link>
 
-          <h1 className="text-lg sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+          <h1 className="text-lg sm:text-2xl lg:text-3xl font-bold theme-text tracking-tight">
             All Artists
           </h1>
 
-          <div className="w-24 sm:w-32" />
+          <div className="w-24 sm:w-32 flex justify-end">
+            <ThemeOptionsButton />
+          </div>
         </div>
       </PageHeader>
 
       <ResponsiveContainer className="py-8">
         {/* Hero Section */}
         <div className="text-center mb-8">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold theme-text mb-3">
             All K-Pop Artists
           </h2>
-          <p className="text-white/70 text-sm sm:text-base max-w-2xl mx-auto">
+          <p className="theme-text-secondary text-sm sm:text-base max-w-2xl mx-auto">
             Browse our complete collection of {allArtists.length} K-pop artists. 
             Find your favorites and test your music knowledge!
           </p>
@@ -87,10 +90,10 @@ export default function AllArtistsPage() {
               placeholder="Search artists..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-5 py-3 pl-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl text-white placeholder-white/60 focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-300 focus:bg-white/20"
+              className="w-full px-5 py-3 pl-12 backdrop-blur-xl rounded-xl theme-input transition-all duration-300"
             />
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="h-5 w-5 theme-text-muted" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
@@ -98,7 +101,7 @@ export default function AllArtistsPage() {
         </div>
 
         {/* Results count */}
-        <div className="text-center text-white/60 text-sm mb-6">
+        <div className="text-center theme-text-muted text-sm mb-6">
           {filteredArtists.length} artist{filteredArtists.length !== 1 ? 's' : ''} found
         </div>
 
@@ -106,7 +109,7 @@ export default function AllArtistsPage() {
         <div className="max-w-5xl mx-auto space-y-8">
           {sortedKeys.map(letter => (
             <div key={letter}>
-              <h3 className="text-2xl font-bold text-pink-400 mb-4 border-b border-white/10 pb-2">
+              <h3 className="text-2xl font-bold theme-text-secondary mb-4 border-b theme-glass-border pb-2">
                 {letter}
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
@@ -114,17 +117,17 @@ export default function AllArtistsPage() {
                   <Link
                     key={artist.id}
                     href={`/${artist.id}`}
-                    className={`group relative backdrop-blur-md rounded-xl p-3 sm:p-4 transition-all duration-300 hover:scale-105 ${
+                    className={`group relative backdrop-blur-xl rounded-xl p-3 sm:p-4 transition-all duration-300 hover:scale-105 ${
                       artist.featured
                         ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border border-amber-400/40 hover:border-amber-400/60'
-                        : 'bg-white/10 border border-white/20 hover:bg-white/20'
+                        : 'theme-glass-surface hover:bg-[var(--icon-btn-hover-bg)] hover:border-[var(--icon-btn-hover-border)]'
                     }`}
                   >
                     {artist.featured && (
                       <span className="absolute -top-1 -right-1 text-yellow-400 text-xs">★</span>
                     )}
                     <div className={`text-sm font-medium text-center truncate ${
-                      artist.featured ? 'text-amber-100' : 'text-white'
+                      artist.featured ? 'featured-artist-name text-sm' : 'theme-text'
                     }`}>
                       {artist.displayName}
                     </div>
@@ -139,7 +142,7 @@ export default function AllArtistsPage() {
         {filteredArtists.length === 0 && (
           <div className="text-center py-12">
             <div className="text-4xl mb-4">🔍</div>
-            <p className="text-white/70">No artists found matching &ldquo;{searchTerm}&rdquo;</p>
+            <p className="theme-text-secondary">No artists found matching &ldquo;{searchTerm}&rdquo;</p>
           </div>
         )}
       </ResponsiveContainer>
