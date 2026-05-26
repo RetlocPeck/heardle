@@ -316,7 +316,6 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                   mode={mode}
                   artist={artist}
                   onNewGame={handleNewGame}
-                  variant="mobile"
                 />
               </GlassCard>
             )}
@@ -365,7 +364,6 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                   currentSong={currentSong}
                   mode={mode}
                   artist={artist}
-                  variant="desktop"
                 />
               </GlassCard>
             ) : (

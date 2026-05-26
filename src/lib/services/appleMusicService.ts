@@ -15,6 +15,12 @@ import { deduplicateSongVersions } from '@/lib/utils/songDeduplication';
 import { applyFilterChain, getDefaultFilterChain, getGenericTrackId } from './trackFilters';
 import { Logger } from '@/lib/utils/logger';
 
+// Read once at module load — avoids re-reading process.env on every API call
+const APPLE_MUSIC_TOKEN = process.env.APPLE_MUSIC_DEV_TOKEN;
+if (!APPLE_MUSIC_TOKEN && typeof window === 'undefined') {
+  Logger.error('APPLE_MUSIC_DEV_TOKEN not configured');
+}
+
 export interface ArtistArtwork {
   standardUrl: string; // 600x600 or similar
   highResUrl: string; // 1200x1200 or higher
@@ -47,15 +53,11 @@ export class AppleMusicService {
    * Get authorization headers for Apple Music API
    */
   private getAuthHeaders(): HeadersInit {
-    const token = process.env.APPLE_MUSIC_DEV_TOKEN;
-    
-    if (!token) {
-      Logger.error('APPLE_MUSIC_DEV_TOKEN not configured');
+    if (!APPLE_MUSIC_TOKEN) {
       throw new Error('Apple Music developer token not configured');
     }
-
     return {
-      'Authorization': `Bearer ${token}`,
+      'Authorization': `Bearer ${APPLE_MUSIC_TOKEN}`,
       'Content-Type': 'application/json',
     };
   }

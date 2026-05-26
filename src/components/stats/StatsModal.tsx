@@ -3,6 +3,13 @@
 import React, { useEffect, useRef, useCallback } from 'react';
 import Portal from '@/components/ui/Portal';
 
+const FOCUSABLE_SELECTOR = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+
+function getFocusableElements(container: HTMLElement | null): HTMLElement[] {
+  if (!container) return [];
+  return Array.from(container.querySelectorAll(FOCUSABLE_SELECTOR)) as HTMLElement[];
+}
+
 interface StatsModalProps {
   open: boolean;
   onClose: () => void;
@@ -16,15 +23,8 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
 
   // Focus management
   const focusFirstTabbable = useCallback(() => {
-    if (!modalRef.current) return;
-    
-    const focusableElements = modalRef.current.querySelectorAll(
-      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-    );
-    
-    if (focusableElements.length > 0) {
-      (focusableElements[0] as HTMLElement).focus();
-    }
+    const elements = getFocusableElements(modalRef.current);
+    if (elements.length > 0) elements[0].focus();
   }, []);
 
 
@@ -37,16 +37,11 @@ export default function StatsModal({ open, onClose, children, title }: StatsModa
     
     // Handle tab key for focus trap
     if (event.key === 'Tab') {
-      if (!modalRef.current) return;
-      
-      const focusableElements = modalRef.current.querySelectorAll(
-        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-      );
-      
+      const focusableElements = getFocusableElements(modalRef.current);
       if (focusableElements.length === 0) return;
       
-      const firstElement = focusableElements[0] as HTMLElement;
-      const lastElement = focusableElements[focusableElements.length - 1] as HTMLElement;
+      const firstElement = focusableElements[0];
+      const lastElement = focusableElements[focusableElements.length - 1];
       
       if (event.shiftKey) {
         // Shift + Tab: going backwards
