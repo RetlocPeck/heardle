@@ -39,13 +39,130 @@
     "trackId": "1482098001"
   },
   {
+    "id": "applemusic-1452705147",
+    "name": "Alligator",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/a9/40/29a9404f-c56c-1e1d-9be1-119d215cc1c7/mzaf_1517219656284812408.plus.aac.p.m4a",
+    "duration": 192516,
+    "trackUrl": "https://music.apple.com/us/album/alligator/1452704834?i=1452705147",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705147"
+  },
+  {
+    "id": "applemusic-1452705151",
+    "name": "Ghost",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/34/12/91341208-430d-0078-03de-ed15b8384a16/mzaf_9732337921536072631.plus.aac.p.m4a",
+    "duration": 208660,
+    "trackUrl": "https://music.apple.com/us/album/ghost/1452704834?i=1452705151",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705151"
+  },
+  {
+    "id": "applemusic-1457115528",
+    "name": "Play It Cool",
+    "artists": [
+      "Steve Aoki & MONSTA X"
+    ],
+    "album": "Play It Cool - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/e5/19/7ee51980-197a-9319-28cd-de45b1c18591/mzaf_10409007607301821613.plus.aac.p.m4a",
+    "duration": 169812,
+    "trackUrl": "https://music.apple.com/us/album/play-it-cool/1457115526?i=1457115528",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/70/c2/5f/70c25fae-aa72-6d7f-1238-cdeb6bcfd7a9/0617465002212.jpg/300x300bb.jpg",
+    "trackId": "1457115528"
+  },
+  {
+    "id": "applemusic-1452705165",
+    "name": "No Reason",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/85/b1/9385b12e-9c5c-943b-007a-0c2f575f95dd/mzaf_15124590084523283308.plus.aac.p.m4a",
+    "duration": 204941,
+    "trackUrl": "https://music.apple.com/us/album/no-reason/1452704834?i=1452705165",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705165"
+  },
+  {
+    "id": "applemusic-1452705167",
+    "name": "Give Me Dat",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/11/61/671161bb-8b4a-8231-bb68-0d3a4c678ed0/mzaf_6692051044670535856.plus.aac.p.m4a",
+    "duration": 205430,
+    "trackUrl": "https://music.apple.com/us/album/give-me-dat/1452704834?i=1452705167",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705167"
+  },
+  {
+    "id": "applemusic-1452705321",
+    "name": "Turbulence",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/2d/7e/962d7eda-a629-28a4-d44e-b8af85bc50a5/mzaf_7662301672673134855.plus.aac.p.m4a",
+    "duration": 201655,
+    "trackUrl": "https://music.apple.com/us/album/turbulence/1452704834?i=1452705321",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705321"
+  },
+  {
+    "id": "applemusic-1452705362",
+    "name": "Rodeo",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/d2/7d/7bd27d5d-f168-6b8a-327c-ae015aea1286/mzaf_8730170283568697502.plus.aac.p.m4a",
+    "duration": 223965,
+    "trackUrl": "https://music.apple.com/us/album/rodeo/1452704834?i=1452705362",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705362"
+  },
+  {
+    "id": "applemusic-1452705370",
+    "name": "Stealer",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/74/31/aa/7431aaa1-6c11-e693-7a05-8d614a225d01/mzaf_1681457473628941147.plus.aac.p.m4a",
+    "duration": 208535,
+    "trackUrl": "https://music.apple.com/us/album/stealer/1452704834?i=1452705370",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705370"
+  },
+  {
+    "id": "applemusic-1452705401",
+    "name": "Party Time",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.2 We Are Here.",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/e9/a9/1ee9a966-dfe3-6eea-167b-44b00283f903/mzaf_9368970606577174236.plus.aac.p.m4a",
+    "duration": 190544,
+    "trackUrl": "https://music.apple.com/us/album/party-time/1452704834?i=1452705401",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
+    "trackId": "1452705401"
+  },
+  {
     "id": "applemusic-1597715100",
     "name": "You Problem",
     "artists": [
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/da/5d/f4da5d97-8314-1e06-ac76-e47584ab819f/mzaf_17921637446034571628.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/61/e4/9e61e47c-350f-6e50-4839-c58af343fa11/mzaf_13447448579721797035.plus.aac.p.m4a",
     "duration": 199209,
     "trackUrl": "https://music.apple.com/us/album/you-problem/1597715098?i=1597715100",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -58,7 +175,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/e2/5d/eae25d88-ed00-abb9-4f19-905fd56ea33b/mzaf_15160220820378311785.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/95/ae/ca95ae63-5304-3c13-339e-c9ca024c31c1/mzaf_8996378994897543461.plus.aac.p.m4a",
     "duration": 129145,
     "trackUrl": "https://music.apple.com/us/album/tied-to-your-body/1597715098?i=1597715101",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -71,7 +188,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/e7/73/1ae773bc-c880-531a-fa88-4c58d22f57a1/mzaf_8772945241629851607.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/6d/68/1d6d683e-8091-f92e-eb8f-57811b041984/mzaf_15016714758344512014.plus.aac.p.m4a",
     "duration": 220546,
     "trackUrl": "https://music.apple.com/us/album/whispers-in-the-dark/1597715098?i=1597715102",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -84,7 +201,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/a6/a6/17a6a6af-ae37-7719-33a8-c3ab2425112a/mzaf_4363022585123429856.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/73/de/6273de65-b8df-7401-a80e-67591d30fe90/mzaf_3875040339274882068.plus.aac.p.m4a",
     "duration": 188182,
     "trackUrl": "https://music.apple.com/us/album/blame-me/1597715098?i=1597715103",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -97,7 +214,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/17/db/6f17db60-f7d7-fdfb-d455-8af78709acb3/mzaf_15933749907657102294.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/64/ec/6b64ec6b-5770-7d39-c384-7c295e2880ca/mzaf_305011886504238951.plus.aac.p.m4a",
     "duration": 180358,
     "trackUrl": "https://music.apple.com/us/album/secrets/1597715098?i=1597715105",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -110,7 +227,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/9f/1a/d09f1a6c-7280-23fd-3077-779d62169a87/mzaf_1194168365550330534.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/27/f8/c7/27f8c748-83f6-ec3d-6b15-50abb62932d9/mzaf_11476084911568245348.plus.aac.p.m4a",
     "duration": 153262,
     "trackUrl": "https://music.apple.com/us/album/about-last-night/1597715098?i=1597715256",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -123,7 +240,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/3b/71/7a3b71f2-76fd-e862-2add-8bc04c4c96b5/mzaf_5264325136698327488.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/29/55/bb295563-6d1d-69c9-255d-f0225c4a35b9/mzaf_17310696202304494466.plus.aac.p.m4a",
     "duration": 139035,
     "trackUrl": "https://music.apple.com/us/album/better/1597715098?i=1597715257",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -136,7 +253,7 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/13/09/f21309a2-05a7-5db6-5cf4-63633de8cc3d/mzaf_10194651717047991885.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/17/1f/d7171f15-d4a6-bc38-d1f1-2e0094fe529e/mzaf_9282879827592149743.plus.aac.p.m4a",
     "duration": 130395,
     "trackUrl": "https://music.apple.com/us/album/blow-your-mind/1597715098?i=1597715258",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
@@ -149,11 +266,115 @@
       "MONSTA X"
     ],
     "album": "The Dreaming",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5f/c1/dc/5fc1dc00-3674-0c48-5109-cffa9b7584a0/mzaf_976896522014895864.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/97/ab/3d97abe6-bcae-61a1-0597-0f1222ea1cee/mzaf_8684699215914988783.plus.aac.p.m4a",
     "duration": 237756,
     "trackUrl": "https://music.apple.com/us/album/the-dreaming/1597715098?i=1597715259",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3c/03/28/3c0328be-54ce-03f4-8d9c-2e9e229baaff/4050538753103.jpg/300x300bb.jpg",
     "trackId": "1597715259"
+  },
+  {
+    "id": "applemusic-1537682958",
+    "name": "Love Killa",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/a3/fc/31a3fcce-36b3-b6e5-e220-0f4c0ff49c30/mzaf_17601736641795562828.plus.aac.p.m4a",
+    "duration": 182533,
+    "trackUrl": "https://music.apple.com/us/album/love-killa/1537682956?i=1537682958",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537682958"
+  },
+  {
+    "id": "applemusic-1537682965",
+    "name": "Thriller",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d3/9c/ac/d39cacbf-9fbc-3a22-7f52-0de5205b639e/mzaf_2791279519407477918.plus.aac.p.m4a",
+    "duration": 219800,
+    "trackUrl": "https://music.apple.com/us/album/thriller/1537682956?i=1537682965",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537682965"
+  },
+  {
+    "id": "applemusic-1537682969",
+    "name": "Guess Who",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/ad/0c/dbad0cb7-c126-a2a6-2b24-06845be3ac75/mzaf_6009320637613287703.plus.aac.p.m4a",
+    "duration": 205307,
+    "trackUrl": "https://music.apple.com/us/album/guess-who/1537682956?i=1537682969",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537682969"
+  },
+  {
+    "id": "applemusic-1537683157",
+    "name": "Nobody Else",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/06/d7/e206d724-1b75-34a5-4f4a-b9dfcba11390/mzaf_7679757176022348941.plus.aac.p.m4a",
+    "duration": 182213,
+    "trackUrl": "https://music.apple.com/us/album/nobody-else/1537682956?i=1537683157",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537683157"
+  },
+  {
+    "id": "applemusic-1537683163",
+    "name": "BEASTMODE",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/88/7c/3a887cee-cd0f-4a17-48b9-ef3b4c38dca0/mzaf_1686473112043505884.plus.aac.p.m4a",
+    "duration": 195400,
+    "trackUrl": "https://music.apple.com/us/album/beastmode/1537682956?i=1537683163",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537683163"
+  },
+  {
+    "id": "applemusic-1537683168",
+    "name": "Night View",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/fd/d5/c6fdd5e1-47c0-0e1e-fb64-7e701fb69899/mzaf_17755903574030071432.plus.aac.p.m4a",
+    "duration": 189307,
+    "trackUrl": "https://music.apple.com/us/album/night-view/1537682956?i=1537683168",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537683168"
+  },
+  {
+    "id": "applemusic-1537683306",
+    "name": "Last Carnival",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/39/a4/50/39a450cc-78b7-d8c7-6a83-ef9b772e553b/mzaf_5665764194047080765.plus.aac.p.m4a",
+    "duration": 174640,
+    "trackUrl": "https://music.apple.com/us/album/last-carnival/1537682956?i=1537683306",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537683306"
+  },
+  {
+    "id": "applemusic-1537683310",
+    "name": "Sorry I'm Not Sorry",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Fatal Love",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3c/6b/61/3c6b61fa-f4e8-480b-7534-8779065d04f2/mzaf_16108728941440321959.plus.aac.p.m4a",
+    "duration": 207640,
+    "trackUrl": "https://music.apple.com/us/album/sorry-im-not-sorry/1537682956?i=1537683310",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
+    "trackId": "1537683310"
   },
   {
     "id": "applemusic-1490183400",
@@ -362,188 +583,6 @@
     "trackUrl": "https://music.apple.com/us/album/see-you-again/1484313886?i=1484314336",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a2/03/21/a20321e0-1849-ff92-689f-4fd81388b64f/194491503765.jpg/300x300bb.jpg",
     "trackId": "1484314336"
-  },
-  {
-    "id": "applemusic-1037729531",
-    "name": "RUSH",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "RUSH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/66/4a/ec/664aec95-eece-6bbd-b6be-7f47e249e6f7/mzaf_8119889421830620063.plus.aac.p.m4a",
-    "duration": 222526,
-    "trackUrl": "https://music.apple.com/us/album/rush/1037729530?i=1037729531",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
-    "trackId": "1037729531"
-  },
-  {
-    "id": "applemusic-1037729532",
-    "name": "HERO",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "RUSH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/a3/cc/94a3cc36-728d-b43c-e275-7dddbe668a19/mzaf_16968081740483328109.plus.aac.p.m4a",
-    "duration": 231952,
-    "trackUrl": "https://music.apple.com/us/album/hero/1037729530?i=1037729532",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
-    "trackId": "1037729532"
-  },
-  {
-    "id": "applemusic-1037729533",
-    "name": "Perfect Girl",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "RUSH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/a8/fe/2ea8feee-b0f3-bc03-4d96-d04731a1c67d/mzaf_1859991333153674703.plus.aac.p.m4a",
-    "duration": 219666,
-    "trackUrl": "https://music.apple.com/us/album/perfect-girl/1037729530?i=1037729533",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
-    "trackId": "1037729533"
-  },
-  {
-    "id": "applemusic-1037729534",
-    "name": "Amen",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "RUSH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/ba/f8/5abaf85b-0a9f-0337-cc30-08e4e06518df/mzaf_5654272701789338666.plus.aac.p.m4a",
-    "duration": 236938,
-    "trackUrl": "https://music.apple.com/us/album/amen/1037729530?i=1037729534",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
-    "trackId": "1037729534"
-  },
-  {
-    "id": "applemusic-1037729535",
-    "name": "Gone Bad",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "RUSH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/70/fc/fc70fce7-c92a-6721-44be-d5cdbb6f9341/mzaf_5234892990993659882.plus.aac.p.m4a",
-    "duration": 222375,
-    "trackUrl": "https://music.apple.com/us/album/gone-bad/1037729530?i=1037729535",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
-    "trackId": "1037729535"
-  },
-  {
-    "id": "applemusic-1037729536",
-    "name": "Broken Heart",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "RUSH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/6e/f3/f26ef366-c4eb-bee8-21c2-dbf0c19595fc/mzaf_17649728689413028801.plus.aac.p.m4a",
-    "duration": 227396,
-    "trackUrl": "https://music.apple.com/us/album/broken-heart/1037729530?i=1037729536",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
-    "trackId": "1037729536"
-  },
-  {
-    "id": "applemusic-1537682958",
-    "name": "Love Killa",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/a3/fc/31a3fcce-36b3-b6e5-e220-0f4c0ff49c30/mzaf_17601736641795562828.plus.aac.p.m4a",
-    "duration": 182533,
-    "trackUrl": "https://music.apple.com/us/album/love-killa/1537682956?i=1537682958",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537682958"
-  },
-  {
-    "id": "applemusic-1537682965",
-    "name": "Thriller",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d3/9c/ac/d39cacbf-9fbc-3a22-7f52-0de5205b639e/mzaf_2791279519407477918.plus.aac.p.m4a",
-    "duration": 219800,
-    "trackUrl": "https://music.apple.com/us/album/thriller/1537682956?i=1537682965",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537682965"
-  },
-  {
-    "id": "applemusic-1537682969",
-    "name": "Guess Who",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/db/ad/0c/dbad0cb7-c126-a2a6-2b24-06845be3ac75/mzaf_6009320637613287703.plus.aac.p.m4a",
-    "duration": 205307,
-    "trackUrl": "https://music.apple.com/us/album/guess-who/1537682956?i=1537682969",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537682969"
-  },
-  {
-    "id": "applemusic-1537683157",
-    "name": "Nobody Else",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e2/06/d7/e206d724-1b75-34a5-4f4a-b9dfcba11390/mzaf_7679757176022348941.plus.aac.p.m4a",
-    "duration": 182213,
-    "trackUrl": "https://music.apple.com/us/album/nobody-else/1537682956?i=1537683157",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537683157"
-  },
-  {
-    "id": "applemusic-1537683163",
-    "name": "BEASTMODE",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/88/7c/3a887cee-cd0f-4a17-48b9-ef3b4c38dca0/mzaf_1686473112043505884.plus.aac.p.m4a",
-    "duration": 195400,
-    "trackUrl": "https://music.apple.com/us/album/beastmode/1537682956?i=1537683163",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537683163"
-  },
-  {
-    "id": "applemusic-1537683168",
-    "name": "Night View",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c6/fd/d5/c6fdd5e1-47c0-0e1e-fb64-7e701fb69899/mzaf_17755903574030071432.plus.aac.p.m4a",
-    "duration": 189307,
-    "trackUrl": "https://music.apple.com/us/album/night-view/1537682956?i=1537683168",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537683168"
-  },
-  {
-    "id": "applemusic-1537683306",
-    "name": "Last Carnival",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/39/a4/50/39a450cc-78b7-d8c7-6a83-ef9b772e553b/mzaf_5665764194047080765.plus.aac.p.m4a",
-    "duration": 174640,
-    "trackUrl": "https://music.apple.com/us/album/last-carnival/1537682956?i=1537683306",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537683306"
-  },
-  {
-    "id": "applemusic-1537683310",
-    "name": "Sorry I'm Not Sorry",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Fatal Love",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3c/6b/61/3c6b61fa-f4e8-480b-7534-8779065d04f2/mzaf_16108728941440321959.plus.aac.p.m4a",
-    "duration": 207640,
-    "trackUrl": "https://music.apple.com/us/album/sorry-im-not-sorry/1537682956?i=1537683310",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/c4/e3/cfc4e388-9e41-90ff-4a3a-994d46037f68/8804775151347.jpg/300x300bb.jpg",
-    "trackId": "1537683310"
   },
   {
     "id": "applemusic-1308906874",
@@ -845,71 +884,6 @@
     "trackId": "1161598522"
   },
   {
-    "id": "applemusic-1710210263",
-    "name": "Love",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Shape of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/eb/aa/22/ebaa2233-e43b-5bcb-1484-8dc259e50c38/mzaf_4381543793783965075.plus.aac.p.m4a",
-    "duration": 215613,
-    "trackUrl": "https://music.apple.com/us/album/love/1710210257?i=1710210263",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
-    "trackId": "1710210263"
-  },
-  {
-    "id": "applemusic-1710210406",
-    "name": "Burning Up (feat. R3HAB)",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Shape of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0c/02/78/0c02780d-391c-7c25-39fe-b4836959bd62/mzaf_10587575652712470433.plus.aac.p.m4a",
-    "duration": 200427,
-    "trackUrl": "https://music.apple.com/us/album/burning-up-feat-r3hab/1710210257?i=1710210406",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
-    "trackId": "1710210406"
-  },
-  {
-    "id": "applemusic-1710210416",
-    "name": "Breathe",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Shape of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b4/20/42/b4204231-af7d-bee1-e040-94f9d2c2d423/mzaf_9359117062631971021.plus.aac.p.m4a",
-    "duration": 142173,
-    "trackUrl": "https://music.apple.com/us/album/breathe/1710210257?i=1710210416",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
-    "trackId": "1710210416"
-  },
-  {
-    "id": "applemusic-1710210418",
-    "name": "Wildfire",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Shape of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/19/21/52/1921520b-c21e-ecbc-2eeb-4e3b5d999f7d/mzaf_1634232590922176332.plus.aac.p.m4a",
-    "duration": 218880,
-    "trackUrl": "https://music.apple.com/us/album/wildfire/1710210257?i=1710210418",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
-    "trackId": "1710210418"
-  },
-  {
-    "id": "applemusic-1710210745",
-    "name": "And",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Shape of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d3/e0/c2/d3e0c253-cb28-71f2-bbdb-3ef2c2ee04d2/mzaf_10383188338062811397.plus.aac.p.m4a",
-    "duration": 176693,
-    "trackUrl": "https://music.apple.com/us/album/and/1710210257?i=1710210745",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
-    "trackId": "1710210745"
-  },
-  {
     "id": "applemusic-1363908510",
     "name": "Jealousy",
     "artists": [
@@ -1079,381 +1053,69 @@
     "trackId": "1490507107"
   },
   {
-    "id": "applemusic-1452705147",
-    "name": "Alligator",
+    "id": "applemusic-1710210263",
+    "name": "Love",
     "artists": [
       "MONSTA X"
     ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/29/a9/40/29a9404f-c56c-1e1d-9be1-119d215cc1c7/mzaf_1517219656284812408.plus.aac.p.m4a",
-    "duration": 192516,
-    "trackUrl": "https://music.apple.com/us/album/alligator/1452704834?i=1452705147",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705147"
+    "album": "Shape of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/eb/aa/22/ebaa2233-e43b-5bcb-1484-8dc259e50c38/mzaf_4381543793783965075.plus.aac.p.m4a",
+    "duration": 215613,
+    "trackUrl": "https://music.apple.com/us/album/love/1710210257?i=1710210263",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
+    "trackId": "1710210263"
   },
   {
-    "id": "applemusic-1452705151",
-    "name": "Ghost",
+    "id": "applemusic-1710210406",
+    "name": "Burning Up (feat. R3HAB)",
     "artists": [
       "MONSTA X"
     ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/34/12/91341208-430d-0078-03de-ed15b8384a16/mzaf_9732337921536072631.plus.aac.p.m4a",
-    "duration": 208660,
-    "trackUrl": "https://music.apple.com/us/album/ghost/1452704834?i=1452705151",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705151"
+    "album": "Shape of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0c/02/78/0c02780d-391c-7c25-39fe-b4836959bd62/mzaf_10587575652712470433.plus.aac.p.m4a",
+    "duration": 200427,
+    "trackUrl": "https://music.apple.com/us/album/burning-up-feat-r3hab/1710210257?i=1710210406",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
+    "trackId": "1710210406"
   },
   {
-    "id": "applemusic-1457115528",
-    "name": "Play It Cool",
-    "artists": [
-      "Steve Aoki & MONSTA X"
-    ],
-    "album": "Play It Cool - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/e5/19/7ee51980-197a-9319-28cd-de45b1c18591/mzaf_10409007607301821613.plus.aac.p.m4a",
-    "duration": 169812,
-    "trackUrl": "https://music.apple.com/us/album/play-it-cool/1457115526?i=1457115528",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/70/c2/5f/70c25fae-aa72-6d7f-1238-cdeb6bcfd7a9/0617465002212.jpg/300x300bb.jpg",
-    "trackId": "1457115528"
-  },
-  {
-    "id": "applemusic-1452705165",
-    "name": "No Reason",
+    "id": "applemusic-1710210416",
+    "name": "Breathe",
     "artists": [
       "MONSTA X"
     ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/85/b1/9385b12e-9c5c-943b-007a-0c2f575f95dd/mzaf_15124590084523283308.plus.aac.p.m4a",
-    "duration": 204941,
-    "trackUrl": "https://music.apple.com/us/album/no-reason/1452704834?i=1452705165",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705165"
+    "album": "Shape of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b4/20/42/b4204231-af7d-bee1-e040-94f9d2c2d423/mzaf_9359117062631971021.plus.aac.p.m4a",
+    "duration": 142173,
+    "trackUrl": "https://music.apple.com/us/album/breathe/1710210257?i=1710210416",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
+    "trackId": "1710210416"
   },
   {
-    "id": "applemusic-1452705167",
-    "name": "Give Me Dat",
+    "id": "applemusic-1710210418",
+    "name": "Wildfire",
     "artists": [
       "MONSTA X"
     ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/11/61/671161bb-8b4a-8231-bb68-0d3a4c678ed0/mzaf_6692051044670535856.plus.aac.p.m4a",
-    "duration": 205430,
-    "trackUrl": "https://music.apple.com/us/album/give-me-dat/1452704834?i=1452705167",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705167"
+    "album": "Shape of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/19/21/52/1921520b-c21e-ecbc-2eeb-4e3b5d999f7d/mzaf_1634232590922176332.plus.aac.p.m4a",
+    "duration": 218880,
+    "trackUrl": "https://music.apple.com/us/album/wildfire/1710210257?i=1710210418",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
+    "trackId": "1710210418"
   },
   {
-    "id": "applemusic-1452705321",
-    "name": "Turbulence",
+    "id": "applemusic-1710210745",
+    "name": "And",
     "artists": [
       "MONSTA X"
     ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/2d/7e/962d7eda-a629-28a4-d44e-b8af85bc50a5/mzaf_7662301672673134855.plus.aac.p.m4a",
-    "duration": 201655,
-    "trackUrl": "https://music.apple.com/us/album/turbulence/1452704834?i=1452705321",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705321"
-  },
-  {
-    "id": "applemusic-1452705362",
-    "name": "Rodeo",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/d2/7d/7bd27d5d-f168-6b8a-327c-ae015aea1286/mzaf_8730170283568697502.plus.aac.p.m4a",
-    "duration": 223965,
-    "trackUrl": "https://music.apple.com/us/album/rodeo/1452704834?i=1452705362",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705362"
-  },
-  {
-    "id": "applemusic-1452705370",
-    "name": "Stealer",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/74/31/aa/7431aaa1-6c11-e693-7a05-8d614a225d01/mzaf_1681457473628941147.plus.aac.p.m4a",
-    "duration": 208535,
-    "trackUrl": "https://music.apple.com/us/album/stealer/1452704834?i=1452705370",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705370"
-  },
-  {
-    "id": "applemusic-1452705401",
-    "name": "Party Time",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.2 We Are Here.",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/e9/a9/1ee9a966-dfe3-6eea-167b-44b00283f903/mzaf_9368970606577174236.plus.aac.p.m4a",
-    "duration": 190544,
-    "trackUrl": "https://music.apple.com/us/album/party-time/1452704834?i=1452705401",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fd/bb/aa/fdbbaa5d-ef86-be4d-ea9d-aac1dddc8800/193483491837.jpg/300x300bb.jpg",
-    "trackId": "1452705401"
-  },
-  {
-    "id": "applemusic-1660238073",
-    "name": "Beautiful Liar",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "REASON - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/df/59/8edf59d7-3b33-d8eb-2710-e38c1ba22695/mzaf_574881721241165181.plus.aac.p.m4a",
-    "duration": 183120,
-    "trackUrl": "https://music.apple.com/us/album/beautiful-liar/1660237905?i=1660238073",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
-    "trackId": "1660238073"
-  },
-  {
-    "id": "applemusic-1660238242",
-    "name": "Daydream",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "REASON - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/62/43/b86243df-e548-455b-8bd1-a9f06418fb0c/mzaf_3127612200508850916.plus.aac.p.m4a",
-    "duration": 146227,
-    "trackUrl": "https://music.apple.com/us/album/daydream/1660237905?i=1660238242",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
-    "trackId": "1660238242"
-  },
-  {
-    "id": "applemusic-1660238245",
-    "name": "Crescendo",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "REASON - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/b5/9f/5cb59f12-5209-112a-1f97-8187f1129e34/mzaf_7399981637217823153.plus.aac.p.m4a",
-    "duration": 185360,
-    "trackUrl": "https://music.apple.com/us/album/crescendo/1660237905?i=1660238245",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
-    "trackId": "1660238245"
-  },
-  {
-    "id": "applemusic-1660238250",
-    "name": "LONE RANGER",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "REASON - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/c8/cc/cac8cc5e-e7be-32d0-1168-5d622816e6c1/mzaf_5482242810680996015.plus.aac.p.m4a",
-    "duration": 203680,
-    "trackUrl": "https://music.apple.com/us/album/lone-ranger/1660237905?i=1660238250",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
-    "trackId": "1660238250"
-  },
-  {
-    "id": "applemusic-1660238254",
-    "name": "Deny",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "REASON - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/a5/77/6fa57700-7d2f-b372-65b8-c8b37c12f9e1/mzaf_16601261245568562365.plus.aac.p.m4a",
-    "duration": 173307,
-    "trackUrl": "https://music.apple.com/us/album/deny/1660237905?i=1660238254",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
-    "trackId": "1660238254"
-  },
-  {
-    "id": "applemusic-1660238580",
-    "name": "IT'S ALRIGHT",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "REASON - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/bd/20/d9bd203a-8f87-514a-039d-d6cba86f1949/mzaf_15235837560237195621.plus.aac.p.m4a",
-    "duration": 175760,
-    "trackUrl": "https://music.apple.com/us/album/its-alright/1660237905?i=1660238580",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
-    "trackId": "1660238580"
-  },
-  {
-    "id": "applemusic-1439242802",
-    "name": "Underwater",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.1 Are You There?",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/83/24/c08324bc-c22b-2461-3e94-2b9bb123fddd/mzaf_16270298012244402461.plus.aac.p.m4a",
-    "duration": 226041,
-    "trackUrl": "https://music.apple.com/us/album/underwater/1439242797?i=1439242802",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
-    "trackId": "1439242802"
-  },
-  {
-    "id": "applemusic-1439242809",
-    "name": "Shoot Out",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.1 Are You There?",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fb/b8/a2/fbb8a2c8-055c-99a3-d03e-fe810e6a763d/mzaf_13626235206585145056.plus.aac.p.m4a",
-    "duration": 207173,
-    "trackUrl": "https://music.apple.com/us/album/shoot-out/1439242797?i=1439242809",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
-    "trackId": "1439242809"
-  },
-  {
-    "id": "applemusic-1439243052",
-    "name": "Heart Attack",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.1 Are You There?",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/14/42/271442c8-426b-ecda-8731-5327b51f3d8d/mzaf_4788273863273717618.plus.aac.p.m4a",
-    "duration": 199588,
-    "trackUrl": "https://music.apple.com/us/album/heart-attack/1439242797?i=1439243052",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
-    "trackId": "1439243052"
-  },
-  {
-    "id": "applemusic-1439243064",
-    "name": "Oh My",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.1 Are You There?",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/24/5f/53245fff-3042-5bc4-8166-73b8aac8335a/mzaf_5013088296455927900.plus.aac.p.m4a",
-    "duration": 223650,
-    "trackUrl": "https://music.apple.com/us/album/oh-my/1439242797?i=1439243064",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
-    "trackId": "1439243064"
-  },
-  {
-    "id": "applemusic-1439243068",
-    "name": "Myself",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.1 Are You There?",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/78/d5/61/78d561d7-ee2a-06a5-b6d4-0c6e5f882b34/mzaf_13713726722753199921.plus.aac.p.m4a",
-    "duration": 252307,
-    "trackUrl": "https://music.apple.com/us/album/myself/1439242797?i=1439243068",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
-    "trackId": "1439243068"
-  },
-  {
-    "id": "applemusic-1439243075",
-    "name": "By My Side",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Take.1 Are You There?",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a0/38/87/a03887fa-a5f6-1048-72c3-de775763ad7c/mzaf_5955923375140733629.plus.aac.p.m4a",
-    "duration": 223666,
-    "trackUrl": "https://music.apple.com/us/album/by-my-side/1439242797?i=1439243075",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
-    "trackId": "1439243075"
-  },
-  {
-    "id": "applemusic-1710173863",
-    "name": "Rush Hour",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/2d/e4/a72de414-57a2-06d7-802e-80e1aff4d35c/mzaf_5849086575122906401.plus.aac.p.m4a",
-    "duration": 202840,
-    "trackUrl": "https://music.apple.com/us/album/rush-hour/1710173861?i=1710173863",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710173863"
-  },
-  {
-    "id": "applemusic-1710174413",
-    "name": "Autobahn",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/74/3e/c2/743ec23a-5ca5-d2c3-6e73-4f03201085ee/mzaf_8448542377715696778.plus.aac.p.m4a",
-    "duration": 197960,
-    "trackUrl": "https://music.apple.com/us/album/autobahn/1710173861?i=1710174413",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710174413"
-  },
-  {
-    "id": "applemusic-1710174417",
-    "name": "Ride with U",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d2/0f/87/d20f87ef-c916-e651-a1c2-85a3451cd8dc/mzaf_16601553645440077116.plus.aac.p.m4a",
-    "duration": 204773,
-    "trackUrl": "https://music.apple.com/us/album/ride-with-u/1710173861?i=1710174417",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710174417"
-  },
-  {
-    "id": "applemusic-1710174433",
-    "name": "Got Me In Chains",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8a/fe/53/8afe5396-a3a4-586c-b4c9-f5b3a108a920/mzaf_16133437776272761599.plus.aac.p.m4a",
-    "duration": 187693,
-    "trackUrl": "https://music.apple.com/us/album/got-me-in-chains/1710173861?i=1710174433",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710174433"
-  },
-  {
-    "id": "applemusic-1710174619",
-    "name": "Just Love",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6a/26/e3/6a26e381-95d5-93b6-bda1-a0f9f6d46032/mzaf_200384760605578588.plus.aac.p.m4a",
-    "duration": 192213,
-    "trackUrl": "https://music.apple.com/us/album/just-love/1710173861?i=1710174619",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710174619"
-  },
-  {
-    "id": "applemusic-1710174622",
-    "name": "Mercy",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e9/4b/35/e94b3542-62e2-29ba-4287-74a9e4824251/mzaf_1596605688711669597.plus.aac.p.m4a",
-    "duration": 190587,
-    "trackUrl": "https://music.apple.com/us/album/mercy/1710173861?i=1710174622",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710174622"
-  },
-  {
-    "id": "applemusic-1710174630",
-    "name": "I Got Love",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "No Limit",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8c/5f/89/8c5f89b9-aeb2-528e-e4c7-c67526ed12c6/mzaf_13607221366694478416.plus.aac.p.m4a",
-    "duration": 203293,
-    "trackUrl": "https://music.apple.com/us/album/i-got-love/1710173861?i=1710174630",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
-    "trackId": "1710174630"
-  },
-  {
-    "id": "applemusic-1413542775",
-    "name": "Livin' It Up",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Livin' It Up - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4f/7f/4b/4f7f4b0a-bd92-0346-8439-c673d2678dcb/mzaf_6811121956118079548.plus.aac.p.m4a",
-    "duration": 225520,
-    "trackUrl": "https://music.apple.com/us/album/livin-it-up/1413542665?i=1413542775",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d1/0b/30/d10b30f7-2b2b-5b3a-e0ff-5ec72c5a2c93/00602567873082.rgb.jpg/300x300bb.jpg",
-    "trackId": "1413542775"
+    "album": "Shape of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d3/e0/c2/d3e0c253-cb28-71f2-bbdb-3ef2c2ee04d2/mzaf_10383188338062811397.plus.aac.p.m4a",
+    "duration": 176693,
+    "trackUrl": "https://music.apple.com/us/album/and/1710210257?i=1710210745",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8f/a2/57/8fa257ac-764c-04a6-6414-0eddc4f394db/4050538765977.jpg/300x300bb.jpg",
+    "trackId": "1710210745"
   },
   {
     "id": "applemusic-1511016827",
@@ -1547,6 +1209,253 @@
     "trackId": "1511017013"
   },
   {
+    "id": "applemusic-1710173863",
+    "name": "Rush Hour",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/2d/e4/a72de414-57a2-06d7-802e-80e1aff4d35c/mzaf_5849086575122906401.plus.aac.p.m4a",
+    "duration": 202840,
+    "trackUrl": "https://music.apple.com/us/album/rush-hour/1710173861?i=1710173863",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710173863"
+  },
+  {
+    "id": "applemusic-1710174413",
+    "name": "Autobahn",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/74/3e/c2/743ec23a-5ca5-d2c3-6e73-4f03201085ee/mzaf_8448542377715696778.plus.aac.p.m4a",
+    "duration": 197960,
+    "trackUrl": "https://music.apple.com/us/album/autobahn/1710173861?i=1710174413",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710174413"
+  },
+  {
+    "id": "applemusic-1710174417",
+    "name": "Ride with U",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d2/0f/87/d20f87ef-c916-e651-a1c2-85a3451cd8dc/mzaf_16601553645440077116.plus.aac.p.m4a",
+    "duration": 204773,
+    "trackUrl": "https://music.apple.com/us/album/ride-with-u/1710173861?i=1710174417",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710174417"
+  },
+  {
+    "id": "applemusic-1710174433",
+    "name": "Got Me In Chains",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8a/fe/53/8afe5396-a3a4-586c-b4c9-f5b3a108a920/mzaf_16133437776272761599.plus.aac.p.m4a",
+    "duration": 187693,
+    "trackUrl": "https://music.apple.com/us/album/got-me-in-chains/1710173861?i=1710174433",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710174433"
+  },
+  {
+    "id": "applemusic-1710174619",
+    "name": "Just Love",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6a/26/e3/6a26e381-95d5-93b6-bda1-a0f9f6d46032/mzaf_200384760605578588.plus.aac.p.m4a",
+    "duration": 192213,
+    "trackUrl": "https://music.apple.com/us/album/just-love/1710173861?i=1710174619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710174619"
+  },
+  {
+    "id": "applemusic-1710174622",
+    "name": "Mercy",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e9/4b/35/e94b3542-62e2-29ba-4287-74a9e4824251/mzaf_1596605688711669597.plus.aac.p.m4a",
+    "duration": 190587,
+    "trackUrl": "https://music.apple.com/us/album/mercy/1710173861?i=1710174622",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710174622"
+  },
+  {
+    "id": "applemusic-1710174630",
+    "name": "I Got Love",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "No Limit",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/8c/5f/89/8c5f89b9-aeb2-528e-e4c7-c67526ed12c6/mzaf_13607221366694478416.plus.aac.p.m4a",
+    "duration": 203293,
+    "trackUrl": "https://music.apple.com/us/album/i-got-love/1710173861?i=1710174630",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bb/5b/b8/bb5bb8ee-2429-caee-4aa2-7ff584df5939/8804775250149.jpg/300x300bb.jpg",
+    "trackId": "1710174630"
+  },
+  {
+    "id": "applemusic-1037729531",
+    "name": "RUSH",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "RUSH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/66/4a/ec/664aec95-eece-6bbd-b6be-7f47e249e6f7/mzaf_8119889421830620063.plus.aac.p.m4a",
+    "duration": 222526,
+    "trackUrl": "https://music.apple.com/us/album/rush/1037729530?i=1037729531",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
+    "trackId": "1037729531"
+  },
+  {
+    "id": "applemusic-1037729532",
+    "name": "HERO",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "RUSH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/a3/cc/94a3cc36-728d-b43c-e275-7dddbe668a19/mzaf_16968081740483328109.plus.aac.p.m4a",
+    "duration": 231952,
+    "trackUrl": "https://music.apple.com/us/album/hero/1037729530?i=1037729532",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
+    "trackId": "1037729532"
+  },
+  {
+    "id": "applemusic-1037729533",
+    "name": "Perfect Girl",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "RUSH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2e/a8/fe/2ea8feee-b0f3-bc03-4d96-d04731a1c67d/mzaf_1859991333153674703.plus.aac.p.m4a",
+    "duration": 219666,
+    "trackUrl": "https://music.apple.com/us/album/perfect-girl/1037729530?i=1037729533",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
+    "trackId": "1037729533"
+  },
+  {
+    "id": "applemusic-1037729534",
+    "name": "Amen",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "RUSH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/ba/f8/5abaf85b-0a9f-0337-cc30-08e4e06518df/mzaf_5654272701789338666.plus.aac.p.m4a",
+    "duration": 236938,
+    "trackUrl": "https://music.apple.com/us/album/amen/1037729530?i=1037729534",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
+    "trackId": "1037729534"
+  },
+  {
+    "id": "applemusic-1037729535",
+    "name": "Gone Bad",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "RUSH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/70/fc/fc70fce7-c92a-6721-44be-d5cdbb6f9341/mzaf_5234892990993659882.plus.aac.p.m4a",
+    "duration": 222375,
+    "trackUrl": "https://music.apple.com/us/album/gone-bad/1037729530?i=1037729535",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
+    "trackId": "1037729535"
+  },
+  {
+    "id": "applemusic-1037729536",
+    "name": "Broken Heart",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "RUSH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/6e/f3/f26ef366-c4eb-bee8-21c2-dbf0c19595fc/mzaf_17649728689413028801.plus.aac.p.m4a",
+    "duration": 227396,
+    "trackUrl": "https://music.apple.com/us/album/broken-heart/1037729530?i=1037729536",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/38/70/e0/3870e038-e02d-b620-6a51-21c9ba48e72e/mzm.fulxyvrs.jpg/300x300bb.jpg",
+    "trackId": "1037729536"
+  },
+  {
+    "id": "applemusic-1439242802",
+    "name": "Underwater",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.1 Are You There?",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/83/24/c08324bc-c22b-2461-3e94-2b9bb123fddd/mzaf_16270298012244402461.plus.aac.p.m4a",
+    "duration": 226041,
+    "trackUrl": "https://music.apple.com/us/album/underwater/1439242797?i=1439242802",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
+    "trackId": "1439242802"
+  },
+  {
+    "id": "applemusic-1439242809",
+    "name": "Shoot Out",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.1 Are You There?",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fb/b8/a2/fbb8a2c8-055c-99a3-d03e-fe810e6a763d/mzaf_13626235206585145056.plus.aac.p.m4a",
+    "duration": 207173,
+    "trackUrl": "https://music.apple.com/us/album/shoot-out/1439242797?i=1439242809",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
+    "trackId": "1439242809"
+  },
+  {
+    "id": "applemusic-1439243052",
+    "name": "Heart Attack",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.1 Are You There?",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/27/14/42/271442c8-426b-ecda-8731-5327b51f3d8d/mzaf_4788273863273717618.plus.aac.p.m4a",
+    "duration": 199588,
+    "trackUrl": "https://music.apple.com/us/album/heart-attack/1439242797?i=1439243052",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
+    "trackId": "1439243052"
+  },
+  {
+    "id": "applemusic-1439243064",
+    "name": "Oh My",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.1 Are You There?",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/24/5f/53245fff-3042-5bc4-8166-73b8aac8335a/mzaf_5013088296455927900.plus.aac.p.m4a",
+    "duration": 223650,
+    "trackUrl": "https://music.apple.com/us/album/oh-my/1439242797?i=1439243064",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
+    "trackId": "1439243064"
+  },
+  {
+    "id": "applemusic-1439243068",
+    "name": "Myself",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.1 Are You There?",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/78/d5/61/78d561d7-ee2a-06a5-b6d4-0c6e5f882b34/mzaf_13713726722753199921.plus.aac.p.m4a",
+    "duration": 252307,
+    "trackUrl": "https://music.apple.com/us/album/myself/1439242797?i=1439243068",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
+    "trackId": "1439243068"
+  },
+  {
+    "id": "applemusic-1439243075",
+    "name": "By My Side",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Take.1 Are You There?",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a0/38/87/a03887fa-a5f6-1048-72c3-de775763ad7c/mzaf_5955923375140733629.plus.aac.p.m4a",
+    "duration": 223666,
+    "trackUrl": "https://music.apple.com/us/album/by-my-side/1439242797?i=1439243075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/ac/ea/0dacea28-0448-d9fa-8d1d-d632df564a4c/193483074177.jpg/300x300bb.jpg",
+    "trackId": "1439243075"
+  },
+  {
     "id": "applemusic-1115035938",
     "name": "Ex Girl (feat. Whee In)",
     "artists": [
@@ -1625,6 +1534,19 @@
     "trackId": "1115035944"
   },
   {
+    "id": "applemusic-1413542775",
+    "name": "Livin' It Up",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Livin' It Up - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4f/7f/4b/4f7f4b0a-bd92-0346-8439-c673d2678dcb/mzaf_6811121956118079548.plus.aac.p.m4a",
+    "duration": 225520,
+    "trackUrl": "https://music.apple.com/us/album/livin-it-up/1413542665?i=1413542775",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/d1/0b/30/d10b30f7-2b2b-5b3a-e0ff-5ec72c5a2c93/00602567873082.rgb.jpg/300x300bb.jpg",
+    "trackId": "1413542775"
+  },
+  {
     "id": "applemusic-1705659947",
     "name": "KISS OR DEATH",
     "artists": [
@@ -1636,6 +1558,84 @@
     "trackUrl": "https://music.apple.com/us/album/kiss-or-death/1705659946?i=1705659947",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d9/85/30/d9853061-9e69-4269-375e-39f7f50e6b94/888272122770.jpg/300x300bb.jpg",
     "trackId": "1705659947"
+  },
+  {
+    "id": "applemusic-1660238073",
+    "name": "Beautiful Liar",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "REASON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/df/59/8edf59d7-3b33-d8eb-2710-e38c1ba22695/mzaf_574881721241165181.plus.aac.p.m4a",
+    "duration": 183120,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-liar/1660237905?i=1660238073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
+    "trackId": "1660238073"
+  },
+  {
+    "id": "applemusic-1660238242",
+    "name": "Daydream",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "REASON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/62/43/b86243df-e548-455b-8bd1-a9f06418fb0c/mzaf_3127612200508850916.plus.aac.p.m4a",
+    "duration": 146227,
+    "trackUrl": "https://music.apple.com/us/album/daydream/1660237905?i=1660238242",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
+    "trackId": "1660238242"
+  },
+  {
+    "id": "applemusic-1660238245",
+    "name": "Crescendo",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "REASON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/b5/9f/5cb59f12-5209-112a-1f97-8187f1129e34/mzaf_7399981637217823153.plus.aac.p.m4a",
+    "duration": 185360,
+    "trackUrl": "https://music.apple.com/us/album/crescendo/1660237905?i=1660238245",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
+    "trackId": "1660238245"
+  },
+  {
+    "id": "applemusic-1660238250",
+    "name": "LONE RANGER",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "REASON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/c8/cc/cac8cc5e-e7be-32d0-1168-5d622816e6c1/mzaf_5482242810680996015.plus.aac.p.m4a",
+    "duration": 203680,
+    "trackUrl": "https://music.apple.com/us/album/lone-ranger/1660237905?i=1660238250",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
+    "trackId": "1660238250"
+  },
+  {
+    "id": "applemusic-1660238254",
+    "name": "Deny",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "REASON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6f/a5/77/6fa57700-7d2f-b372-65b8-c8b37c12f9e1/mzaf_16601261245568562365.plus.aac.p.m4a",
+    "duration": 173307,
+    "trackUrl": "https://music.apple.com/us/album/deny/1660237905?i=1660238254",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
+    "trackId": "1660238254"
+  },
+  {
+    "id": "applemusic-1660238580",
+    "name": "IT'S ALRIGHT",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "REASON - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/bd/20/d9bd203a-8f87-514a-039d-d6cba86f1949/mzaf_15235837560237195621.plus.aac.p.m4a",
+    "duration": 175760,
+    "trackUrl": "https://music.apple.com/us/album/its-alright/1660237905?i=1660238580",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/02/8a/7b/028a7be6-d535-f780-885a-3997e5bb0450/197187562398.jpg/300x300bb.jpg",
+    "trackId": "1660238580"
   },
   {
     "id": "applemusic-1264526655",
@@ -1662,32 +1662,6 @@
     "trackUrl": "https://music.apple.com/us/album/spotlight/1445161626?i=1445161841",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/a3/5b/d9/a35bd9e5-3f67-2d4b-8f64-bd0773e49843/00602567316015.rgb.jpg/300x300bb.jpg",
     "trackId": "1445161841"
-  },
-  {
-    "id": "applemusic-1473608043",
-    "name": "Breathe For You",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Breathe For You - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/1d/d4/9e1dd472-fa03-8510-bd78-e873d154438d/mzaf_13512208693498216194.plus.aac.p.m4a",
-    "duration": 213707,
-    "trackUrl": "https://music.apple.com/us/album/breathe-for-you/1473608040?i=1473608043",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/54/1f/64541fb3-ba85-62c5-2878-e2ca31a5d94c/886447867495.jpg/300x300bb.jpg",
-    "trackId": "1473608043"
-  },
-  {
-    "id": "applemusic-1470912373",
-    "name": "X-Phenomenon",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "X-Phenomenon - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/82/0a/ca/820aca70-0d18-68ac-4196-621de3cc2866/mzaf_11735138186552502406.plus.aac.p.m4a",
-    "duration": 177040,
-    "trackUrl": "https://music.apple.com/us/album/x-phenomenon/1470912161?i=1470912373",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e1/eb/37/e1eb374a-b83b-66d2-5b77-38276f3829d8/19UMGIM53229.rgb.jpg/300x300bb.jpg",
-    "trackId": "1470912373"
   },
   {
     "id": "applemusic-994781844",
@@ -1781,17 +1755,160 @@
     "trackId": "994781850"
   },
   {
-    "id": "applemusic-1846953644",
+    "id": "applemusic-1473608043",
+    "name": "Breathe For You",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Breathe For You - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/1d/d4/9e1dd472-fa03-8510-bd78-e873d154438d/mzaf_13512208693498216194.plus.aac.p.m4a",
+    "duration": 213707,
+    "trackUrl": "https://music.apple.com/us/album/breathe-for-you/1473608040?i=1473608043",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/54/1f/64541fb3-ba85-62c5-2878-e2ca31a5d94c/886447867495.jpg/300x300bb.jpg",
+    "trackId": "1473608043"
+  },
+  {
+    "id": "applemusic-1880216061",
+    "name": "heal",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0c/88/09/0c880975-4881-a168-0175-01a9d0e33e17/mzaf_7975164136577785767.plus.aac.p.m4a",
+    "duration": 239325,
+    "trackUrl": "https://music.apple.com/us/album/heal/1880216060?i=1880216061",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216061"
+  },
+  {
+    "id": "applemusic-1880216062",
+    "name": "growing pains",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/11/0a/8f/110a8f39-c691-39fb-91e8-fb321b592824/mzaf_15225522650543591177.plus.aac.p.m4a",
+    "duration": 186737,
+    "trackUrl": "https://music.apple.com/us/album/growing-pains/1880216060?i=1880216062",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216062"
+  },
+  {
+    "id": "applemusic-1880216063",
     "name": "baby blue",
     "artists": [
       "MONSTA X"
     ],
-    "album": "baby blue - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/89/34/55/89345562-3a02-5062-4c7d-3578d391999d/mzaf_2935501728333787502.plus.aac.p.m4a",
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/96/f1/0c96f1d1-da0b-32f1-c7de-b57c13caa7d6/mzaf_17866169921943943679.plus.aac.p.m4a",
     "duration": 196977,
-    "trackUrl": "https://music.apple.com/us/album/baby-blue/1846953643?i=1846953644",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/35/27/e1/3527e1e4-6d27-9353-e2fb-b39a88704959/663918601815.jpg/300x300bb.jpg",
-    "trackId": "1846953644"
+    "trackUrl": "https://music.apple.com/us/album/baby-blue/1880216060?i=1880216063",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216063"
+  },
+  {
+    "id": "applemusic-1880216064",
+    "name": "this!",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/19/eb/7c19eb5b-3d27-78ac-ac95-b9e9d5a1d398/mzaf_5848839319855729086.plus.aac.p.m4a",
+    "duration": 159625,
+    "trackUrl": "https://music.apple.com/us/album/this/1880216060?i=1880216064",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216064"
+  },
+  {
+    "id": "applemusic-1880216065",
+    "name": "before you met me",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/c5/00/5dc500c4-9691-c1e2-e81d-c776a9a3cdb5/mzaf_13798137834007740684.plus.aac.p.m4a",
+    "duration": 206014,
+    "trackUrl": "https://music.apple.com/us/album/before-you-met-me/1880216060?i=1880216065",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216065"
+  },
+  {
+    "id": "applemusic-1880216069",
+    "name": "glass half empty",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/b7/72/5bb77280-7b1c-ce73-14ee-26a75869c99f/mzaf_14756538930634385993.plus.aac.p.m4a",
+    "duration": 162078,
+    "trackUrl": "https://music.apple.com/us/album/glass-half-empty/1880216060?i=1880216069",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216069"
+  },
+  {
+    "id": "applemusic-1880216070",
+    "name": "main attraction",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/5a/7e/6d5a7e9f-832a-b1e0-1761-e3c7c1ae2288/mzaf_12942989450568236203.plus.aac.p.m4a",
+    "duration": 188881,
+    "trackUrl": "https://music.apple.com/us/album/main-attraction/1880216060?i=1880216070",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216070"
+  },
+  {
+    "id": "applemusic-1880216073",
+    "name": "enemies with benefits",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/0a/01/7e0a0184-474c-970d-c38e-6423ab0e8780/mzaf_7917768757041747016.plus.aac.p.m4a",
+    "duration": 168800,
+    "trackUrl": "https://music.apple.com/us/album/enemies-with-benefits/1880216060?i=1880216073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216073"
+  },
+  {
+    "id": "applemusic-1880216075",
+    "name": "on our way",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/58/bb/cc/58bbcc1c-f1e0-f73b-1cca-764cc5ec8fd1/mzaf_17180900569767193878.plus.aac.p.m4a",
+    "duration": 180300,
+    "trackUrl": "https://music.apple.com/us/album/on-our-way/1880216060?i=1880216075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216075"
+  },
+  {
+    "id": "applemusic-1880216076",
+    "name": "sorry to myself",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Unfold",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/df/13/2e/df132e24-a548-bbf2-171b-cb86754760a9/mzaf_3602136091354221125.plus.aac.p.m4a",
+    "duration": 131059,
+    "trackUrl": "https://music.apple.com/us/album/sorry-to-myself/1880216060?i=1880216076",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/79/b4/54/79b454ed-dfbd-0d2d-f893-5d0ae54df360/333.jpg/300x300bb.jpg",
+    "trackId": "1880216076"
+  },
+  {
+    "id": "applemusic-1470912373",
+    "name": "X-Phenomenon",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "X-Phenomenon - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/82/0a/ca/820aca70-0d18-68ac-4196-621de3cc2866/mzaf_11735138186552502406.plus.aac.p.m4a",
+    "duration": 177040,
+    "trackUrl": "https://music.apple.com/us/album/x-phenomenon/1470912161?i=1470912373",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e1/eb/37/e1eb374a-b83b-66d2-5b77-38276f3829d8/19UMGIM53229.rgb.jpg/300x300bb.jpg",
+    "trackId": "1470912373"
   },
   {
     "id": "applemusic-1831445722",
@@ -1800,7 +1917,7 @@
       "MONSTA X"
     ],
     "album": "THE X - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/53/20/42/53204207-f8b1-10b7-08a7-f2e7e3b140e9/mzaf_4034368327787926748.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/d7/0a/eed70a70-4915-6d4e-b978-44fe0a4ea1ec/mzaf_16684127905998197568.plus.aac.p.m4a",
     "duration": 160000,
     "trackUrl": "https://music.apple.com/us/album/do-what-i-want/1831445714?i=1831445722",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/0f/7d/b90f7d7b-bb29-cb18-4374-eb6c651bb4c1/199538239911.jpg/300x300bb.jpg",
@@ -1813,7 +1930,7 @@
       "MONSTA X"
     ],
     "album": "THE X - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/c2/d9/99c2d983-7268-e660-0edb-e4e8ea10a6c5/mzaf_11561852292909963820.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/25/9a/56259a1f-e2ce-1207-5f50-2902987424b9/mzaf_14676147997756129757.plus.aac.p.m4a",
     "duration": 180000,
     "trackUrl": "https://music.apple.com/us/album/n-the-front/1831445714?i=1831445725",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/0f/7d/b90f7d7b-bb29-cb18-4374-eb6c651bb4c1/199538239911.jpg/300x300bb.jpg",
@@ -1826,7 +1943,7 @@
       "MONSTA X"
     ],
     "album": "THE X - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/80/4b/6a/804b6ada-b354-f01b-c29e-a1643290f4ca/mzaf_6899855707757393362.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/47/64/49/476449fc-c7d3-aecc-2bf8-81f0c15fa481/mzaf_8094486537723703745.plus.aac.p.m4a",
     "duration": 190000,
     "trackUrl": "https://music.apple.com/us/album/savior/1831445714?i=1831445731",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/0f/7d/b90f7d7b-bb29-cb18-4374-eb6c651bb4c1/199538239911.jpg/300x300bb.jpg",
@@ -1839,7 +1956,7 @@
       "MONSTA X"
     ],
     "album": "THE X - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/01/1e/6d011ef7-1a0d-4fe5-87bd-f85bcf14792d/mzaf_12105615950951911717.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/aa/7c/36aa7c4b-c4b7-7162-b0a9-329ed5bb8360/mzaf_14231828568274759990.plus.aac.p.m4a",
     "duration": 182000,
     "trackUrl": "https://music.apple.com/us/album/tuscan-leather/1831445714?i=1831446334",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/0f/7d/b90f7d7b-bb29-cb18-4374-eb6c651bb4c1/199538239911.jpg/300x300bb.jpg",
@@ -1852,7 +1969,7 @@
       "MONSTA X"
     ],
     "album": "THE X - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/c2/af/4bc2afff-a65a-3c5d-8d5d-fd78dbbfabe3/mzaf_13594439711311909029.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/06/a5/a706a590-a7f1-4db4-daaa-b43ed023959e/mzaf_15432178260793463458.plus.aac.p.m4a",
     "duration": 185000,
     "trackUrl": "https://music.apple.com/us/album/catch-me-now/1831445714?i=1831446336",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/0f/7d/b90f7d7b-bb29-cb18-4374-eb6c651bb4c1/199538239911.jpg/300x300bb.jpg",
@@ -1865,7 +1982,7 @@
       "MONSTA X"
     ],
     "album": "THE X - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/4c/cf/4c4ccfc6-e542-9413-6a71-3203ac1ac9c7/mzaf_18296777574889739723.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2c/c3/ad/2cc3ad96-2142-31c5-5b8e-dda15226904c/mzaf_16907851996995555337.plus.aac.p.m4a",
     "duration": 162000,
     "trackUrl": "https://music.apple.com/us/album/fire-ice/1831445714?i=1831446339",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b9/0f/7d/b90f7d7b-bb29-cb18-4374-eb6c651bb4c1/199538239911.jpg/300x300bb.jpg",
@@ -1911,13 +2028,26 @@
     "trackId": "1249971616"
   },
   {
+    "id": "applemusic-1434484356",
+    "name": "Black Swan",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Livin' It Up - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/92/db/1e92db22-15de-1d13-70bf-251ac0c2c1bc/mzaf_14464668008222852132.plus.aac.p.m4a",
+    "duration": 206520,
+    "trackUrl": "https://music.apple.com/us/album/black-swan/1434484341?i=1434484356",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/2a/78/c3/2a78c3c8-337d-1d51-3a95-bf48ed5e78fc/00602567873099.rgb.jpg/300x300bb.jpg",
+    "trackId": "1434484356"
+  },
+  {
     "id": "applemusic-1631538822",
     "name": "Late Night Feels",
     "artists": [
       "Sam Feldt & MONSTA X"
     ],
     "album": "Late Night Feels - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/8b/fa/888bfa74-7a9a-357a-186d-1e60812e7daf/mzaf_610963957798807198.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d1/9a/3e/d19a3e6f-2af9-b257-d986-06bb225e60ef/mzaf_7652727687801243549.plus.aac.p.m4a",
     "duration": 173158,
     "trackUrl": "https://music.apple.com/us/album/late-night-feels/1631538748?i=1631538822",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ff/3c/c4/ff3cc473-d689-ead2-c622-f2dc777546f3/196925238014.jpg/300x300bb.jpg",
@@ -1974,19 +2104,6 @@
     "trackUrl": "https://music.apple.com/us/album/wanted/1550863670?i=1550863682",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/a2/86/10a2864f-aeed-ffb0-c04e-f4f129b9fb90/20UM1IM09761.rgb.jpg/300x300bb.jpg",
     "trackId": "1550863682"
-  },
-  {
-    "id": "applemusic-1434484356",
-    "name": "Black Swan",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Livin' It Up - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/92/db/1e92db22-15de-1d13-70bf-251ac0c2c1bc/mzaf_14464668008222852132.plus.aac.p.m4a",
-    "duration": 206520,
-    "trackUrl": "https://music.apple.com/us/album/black-swan/1434484341?i=1434484356",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/2a/78/c3/2a78c3c8-337d-1d51-3a95-bf48ed5e78fc/00602567873099.rgb.jpg/300x300bb.jpg",
-    "trackId": "1434484356"
   },
   {
     "id": "applemusic-1473902687",
@@ -2210,19 +2327,6 @@
     "trackId": "1445673372"
   },
   {
-    "id": "applemusic-1813057271",
-    "name": "LOVE FOREVER (Rerecorded)",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "NOW PROJECT vol.1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/e3/c9/7ae3c9ca-e559-8954-28e3-210973f68574/mzaf_11978410468907707887.plus.aac.p.m4a",
-    "duration": 206933,
-    "trackUrl": "https://music.apple.com/us/album/love-forever-rerecorded/1813056988?i=1813057271",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/d8/83b2d844-2c9a-4298-069e-bc4e339ba7c3/199350569005.jpg/300x300bb.jpg",
-    "trackId": "1813057271"
-  },
-  {
     "id": "applemusic-1063917911",
     "name": "Softly",
     "artists": [
@@ -2234,6 +2338,19 @@
     "trackUrl": "https://music.apple.com/us/album/softly/1063917580?i=1063917911",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/73/14/f5/7314f5a4-df5b-7631-882d-dad005361495/COVER-_DS.jpg/300x300bb.jpg",
     "trackId": "1063917911"
+  },
+  {
+    "id": "applemusic-1813057271",
+    "name": "LOVE FOREVER (Rerecorded)",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "NOW PROJECT vol.1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7a/e3/c9/7ae3c9ca-e559-8954-28e3-210973f68574/mzaf_11978410468907707887.plus.aac.p.m4a",
+    "duration": 206933,
+    "trackUrl": "https://music.apple.com/us/album/love-forever-rerecorded/1813056988?i=1813057271",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/b2/d8/83b2d844-2c9a-4298-069e-bc4e339ba7c3/199350569005.jpg/300x300bb.jpg",
+    "trackId": "1813057271"
   },
   {
     "id": "applemusic-1856083513",
@@ -2249,19 +2366,6 @@
     "trackId": "1856083513"
   },
   {
-    "id": "applemusic-992315367",
-    "name": "Attracted Woman (feat. KIHYUN & JooHeon)",
-    "artists": [
-      "MONSTA X"
-    ],
-    "album": "Orange Marmalade (Original Television Soundtrack), Pt. 2 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/46/2b/d5462bec-9268-4fea-d3a8-6e56c4f760ce/mzaf_288530925010591472.plus.aac.p.m4a",
-    "duration": 238640,
-    "trackUrl": "https://music.apple.com/us/album/attracted-woman-feat-kihyun-jooheon/992315361?i=992315367",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/ca/2e/86/ca2e8646-a2eb-9cb7-ba0d-7dc4ce89bf5b/cover-_OST_Part.2.jpg/300x300bb.jpg",
-    "trackId": "992315367"
-  },
-  {
     "id": "applemusic-1579816765",
     "name": "Here We Are (with TTG)",
     "artists": [
@@ -2273,5 +2377,18 @@
     "trackUrl": "https://music.apple.com/us/album/here-we-are-with-ttg/1579816764?i=1579816765",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c0/69/58/c06958fa-a4d4-4591-488a-b8f6ea939a47/3000x3000.png/300x300bb.jpg",
     "trackId": "1579816765"
+  },
+  {
+    "id": "applemusic-992315367",
+    "name": "Attracted Woman (feat. KIHYUN & JooHeon)",
+    "artists": [
+      "MONSTA X"
+    ],
+    "album": "Orange Marmalade (Original Television Soundtrack), Pt. 2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/46/2b/d5462bec-9268-4fea-d3a8-6e56c4f760ce/mzaf_288530925010591472.plus.aac.p.m4a",
+    "duration": 238640,
+    "trackUrl": "https://music.apple.com/us/album/attracted-woman-feat-kihyun-jooheon/992315361?i=992315367",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music7/v4/ca/2e/86/ca2e8646-a2eb-9cb7-ba0d-7dc4ce89bf5b/cover-_OST_Part.2.jpg/300x300bb.jpg",
+    "trackId": "992315367"
   }
 ]

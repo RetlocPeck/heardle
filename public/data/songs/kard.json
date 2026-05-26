@@ -104,58 +104,6 @@
     "trackId": "1261284906"
   },
   {
-    "id": "applemusic-1315951650",
-    "name": "Into You",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 2nd Mini Album 'You & Me' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/f6/93/e5f6932a-393b-825a-909e-375b82cdbef6/mzaf_18039322876413568838.plus.aac.p.m4a",
-    "duration": 212985,
-    "trackUrl": "https://music.apple.com/us/album/into-you/1315951648?i=1315951650",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
-    "trackId": "1315951650"
-  },
-  {
-    "id": "applemusic-1315951652",
-    "name": "Push & Pull",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 2nd Mini Album 'You & Me' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/42/9a/b4429a25-9ac7-83cd-8cb2-96cecbcfb42a/mzaf_13515092748307956489.plus.aac.p.m4a",
-    "duration": 197927,
-    "trackUrl": "https://music.apple.com/us/album/push-pull/1315951648?i=1315951652",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
-    "trackId": "1315951652"
-  },
-  {
-    "id": "applemusic-1315951653",
-    "name": "Jinikka",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 2nd Mini Album 'You & Me' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/83/1f/b0/831fb0bd-eb49-b44c-4b87-a98cb8caed9b/mzaf_15903988771582465156.plus.aac.p.m4a",
-    "duration": 222528,
-    "trackUrl": "https://music.apple.com/us/album/jinikka/1315951648?i=1315951653",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
-    "trackId": "1315951653"
-  },
-  {
-    "id": "applemusic-1315951654",
-    "name": "You In Me",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 2nd Mini Album 'You & Me' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/d2/9b/f2d29be0-afce-5c68-7570-6558903aa33b/mzaf_13360012512042482662.plus.aac.p.m4a",
-    "duration": 203981,
-    "trackUrl": "https://music.apple.com/us/album/you-in-me/1315951648?i=1315951654",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
-    "trackId": "1315951654"
-  },
-  {
     "id": "applemusic-1498018610",
     "name": "Go Baby",
     "artists": [
@@ -206,6 +154,58 @@
     "trackUrl": "https://music.apple.com/us/album/inferno/1498018609?i=1498018613",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/23/42/ac/2342acc0-d770-9137-524b-f23e57d0516c/KARD_4th_MIni_Album_RED_MOON.jpg/300x300bb.jpg",
     "trackId": "1498018613"
+  },
+  {
+    "id": "applemusic-1315951650",
+    "name": "Into You",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 2nd Mini Album 'You & Me' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/f6/93/e5f6932a-393b-825a-909e-375b82cdbef6/mzaf_18039322876413568838.plus.aac.p.m4a",
+    "duration": 212985,
+    "trackUrl": "https://music.apple.com/us/album/into-you/1315951648?i=1315951650",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
+    "trackId": "1315951650"
+  },
+  {
+    "id": "applemusic-1315951652",
+    "name": "Push & Pull",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 2nd Mini Album 'You & Me' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/42/9a/b4429a25-9ac7-83cd-8cb2-96cecbcfb42a/mzaf_13515092748307956489.plus.aac.p.m4a",
+    "duration": 197927,
+    "trackUrl": "https://music.apple.com/us/album/push-pull/1315951648?i=1315951652",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
+    "trackId": "1315951652"
+  },
+  {
+    "id": "applemusic-1315951653",
+    "name": "Jinikka",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 2nd Mini Album 'You & Me' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/83/1f/b0/831fb0bd-eb49-b44c-4b87-a98cb8caed9b/mzaf_15903988771582465156.plus.aac.p.m4a",
+    "duration": 222528,
+    "trackUrl": "https://music.apple.com/us/album/jinikka/1315951648?i=1315951653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
+    "trackId": "1315951653"
+  },
+  {
+    "id": "applemusic-1315951654",
+    "name": "You In Me",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 2nd Mini Album 'You & Me' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f2/d2/9b/f2d29be0-afce-5c68-7570-6558903aa33b/mzaf_13360012512042482662.plus.aac.p.m4a",
+    "duration": 203981,
+    "trackUrl": "https://music.apple.com/us/album/you-in-me/1315951648?i=1315951654",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/b5/b8/0eb5b805-0a73-87d0-556a-2984f8960dac/cover-KARD.jpg/300x300bb.jpg",
+    "trackId": "1315951654"
   },
   {
     "id": "applemusic-1688377739",
@@ -312,45 +312,6 @@
     "trackId": "1528669385"
   },
   {
-    "id": "applemusic-1417145459",
-    "name": "Moonlight",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/ab/0b/c2ab0bc1-c36d-e069-f4d2-b0b214fff903/mzaf_5497715210265152858.plus.aac.p.m4a",
-    "duration": 199716,
-    "trackUrl": "https://music.apple.com/us/album/moonlight/1417145456?i=1417145459",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145459"
-  },
-  {
-    "id": "applemusic-1417145460",
-    "name": "Ride on the Wind",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/9d/6f/479d6f31-4c5a-40b1-f94e-12a5dbd8a8f9/mzaf_11842967120163105914.plus.aac.p.m4a",
-    "duration": 176632,
-    "trackUrl": "https://music.apple.com/us/album/ride-on-the-wind/1417145456?i=1417145460",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145460"
-  },
-  {
-    "id": "applemusic-1417145461",
-    "name": "Knockin' on My Heaven's Door",
-    "artists": [
-      "KARD"
-    ],
-    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/6b/31/d56b313b-4370-26bd-ae71-d29e652b1f1f/mzaf_6940228646269955283.plus.aac.p.m4a",
-    "duration": 230153,
-    "trackUrl": "https://music.apple.com/us/album/knockin-on-my-heavens-door/1417145456?i=1417145461",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
-    "trackId": "1417145461"
-  },
-  {
     "id": "applemusic-1630019013",
     "name": "Break Down",
     "artists": [
@@ -403,13 +364,52 @@
     "trackId": "1630019316"
   },
   {
+    "id": "applemusic-1417145459",
+    "name": "Moonlight",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/ab/0b/c2ab0bc1-c36d-e069-f4d2-b0b214fff903/mzaf_5497715210265152858.plus.aac.p.m4a",
+    "duration": 199716,
+    "trackUrl": "https://music.apple.com/us/album/moonlight/1417145456?i=1417145459",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
+    "trackId": "1417145459"
+  },
+  {
+    "id": "applemusic-1417145460",
+    "name": "Ride on the Wind",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/9d/6f/479d6f31-4c5a-40b1-f94e-12a5dbd8a8f9/mzaf_11842967120163105914.plus.aac.p.m4a",
+    "duration": 176632,
+    "trackUrl": "https://music.apple.com/us/album/ride-on-the-wind/1417145456?i=1417145460",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
+    "trackId": "1417145460"
+  },
+  {
+    "id": "applemusic-1417145461",
+    "name": "Knockin' on My Heaven's Door",
+    "artists": [
+      "KARD"
+    ],
+    "album": "KARD 3rd Mini Album 'Ride on the Wind' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/6b/31/d56b313b-4370-26bd-ae71-d29e652b1f1f/mzaf_6940228646269955283.plus.aac.p.m4a",
+    "duration": 230153,
+    "trackUrl": "https://music.apple.com/us/album/knockin-on-my-heavens-door/1417145456?i=1417145461",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/32/b5/a4/32b5a43f-2b26-c7ed-5b39-9edddb161a05/cover-_KARD.jpg/300x300bb.jpg",
+    "trackId": "1417145461"
+  },
+  {
     "id": "applemusic-1820834881",
     "name": "BETCHA",
     "artists": [
       "KARD"
     ],
     "album": "KARD 8th Mini Album 'DRIFT'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e3/55/3c/e3553c87-f471-618a-8367-3d06d108d904/mzaf_1699675901401170180.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f5/b2/59/f5b2599e-826c-abc9-4a3d-9c5d475bc3a3/mzaf_5235217911165554775.plus.aac.p.m4a",
     "duration": 172013,
     "trackUrl": "https://music.apple.com/us/album/betcha/1820834880?i=1820834881",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/48/f8/9248f8e2-19b4-00a3-81c1-d648ba26f7ac/cover_KM0023003_1.jpg/300x300bb.jpg",
@@ -422,7 +422,7 @@
       "KARD"
     ],
     "album": "KARD 8th Mini Album 'DRIFT'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/1a/15/ff1a1591-3fcf-6895-2241-865a6e175358/mzaf_10887536044733393619.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/2b/be/4c2bbed6-c158-47ab-c808-4a5b18d0f483/mzaf_18076723224214773538.plus.aac.p.m4a",
     "duration": 186027,
     "trackUrl": "https://music.apple.com/us/album/touch/1820834880?i=1820834882",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/48/f8/9248f8e2-19b4-00a3-81c1-d648ba26f7ac/cover_KM0023003_1.jpg/300x300bb.jpg",
@@ -435,7 +435,7 @@
       "KARD"
     ],
     "album": "KARD 8th Mini Album 'DRIFT'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/94/93/459493be-758f-9d26-326b-98bfe10038f1/mzaf_10097158812555584387.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/ff/db/8dffdb35-9267-09c7-0861-792101fcd86f/mzaf_9273653044529339616.plus.aac.p.m4a",
     "duration": 146013,
     "trackUrl": "https://music.apple.com/us/album/before-we-go/1820834880?i=1820834884",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/48/f8/9248f8e2-19b4-00a3-81c1-d648ba26f7ac/cover_KM0023003_1.jpg/300x300bb.jpg",
@@ -448,7 +448,7 @@
       "KARD"
     ],
     "album": "KARD 8th Mini Album 'DRIFT'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/a9/c8/f3a9c87a-80fe-2b27-5be3-fedb07585ab4/mzaf_3849456681610037099.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/99/3d/35993ddb-6fba-b6c3-9a70-bb8410718a34/mzaf_1194165182891058631.plus.aac.p.m4a",
     "duration": 146787,
     "trackUrl": "https://music.apple.com/us/album/top-down/1820834880?i=1820834885",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/48/f8/9248f8e2-19b4-00a3-81c1-d648ba26f7ac/cover_KM0023003_1.jpg/300x300bb.jpg",
@@ -461,7 +461,7 @@
       "KARD"
     ],
     "album": "KARD 8th Mini Album 'DRIFT'",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/12/4b/e0124b2e-bac7-ee29-1431-6bf3f6d69b31/mzaf_9941534079661704948.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/19/86/0519865c-4bce-cdbd-9c7e-172cdd1ae575/mzaf_4683574611246735277.plus.aac.p.m4a",
     "duration": 151000,
     "trackUrl": "https://music.apple.com/us/album/pivot/1820834880?i=1820834886",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/48/f8/9248f8e2-19b4-00a3-81c1-d648ba26f7ac/cover_KM0023003_1.jpg/300x300bb.jpg",
@@ -531,6 +531,19 @@
     "trackUrl": "https://music.apple.com/us/album/spin/1760710450?i=1760710455",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/0c/b6/2c0cb663-af45-5bcf-8712-7d823f0bd1df/cover_KM0020216_1.jpg/300x300bb.jpg",
     "trackId": "1760710455"
+  },
+  {
+    "id": "applemusic-1657104949",
+    "name": "Here We Now (feat. J.seph & Jeon So Min)",
+    "artists": [
+      "KARD"
+    ],
+    "album": "Lovebird: First Year Season 2 (Original Television Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/29/d2/a5/29d2a5ee-fd07-2b66-31f3-8094cc215b33/mzaf_1848902961990685050.plus.aac.p.m4a",
+    "duration": 213653,
+    "trackUrl": "https://music.apple.com/us/album/here-we-now-feat-j-seph-jeon-so-min/1657104946?i=1657104949",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/25/e2/77/25e277ff-e49b-df2a-f766-304737517957/8809534467738_Cover.jpg/300x300bb.jpg",
+    "trackId": "1657104949"
   },
   {
     "id": "applemusic-1657104953",

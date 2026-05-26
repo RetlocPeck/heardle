@@ -12,7 +12,6 @@ interface GameResultCardProps {
   currentSong: Song | null;
   mode: GameMode;
   artist: ArtistConfig;
-  onNewGame?: () => void;
 }
 
 export default function GameResultCard({
@@ -20,7 +19,6 @@ export default function GameResultCard({
   currentSong,
   mode,
   artist,
-  onNewGame,
 }: GameResultCardProps) {
   return (
     <div className="text-center space-y-2 sm:space-y-4">
@@ -84,18 +82,6 @@ export default function GameResultCard({
           )}
           className="mt-2 sm:mt-4 rounded-lg sm:rounded-xl bg-green-500 text-white px-3 sm:px-4 py-2 sm:py-3 font-medium text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25"
         />
-      )}
-
-      {/* New Song Button (practice mode only — shown when onNewGame provided) */}
-      {mode === 'practice' && onNewGame && (
-        <div className="text-center">
-          <button
-            onClick={onNewGame}
-            className={`mt-2 px-4 py-2 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-xl font-bold text-xs sm:text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
-          >
-            🎵 New Song
-          </button>
-        </div>
       )}
     </div>
   );

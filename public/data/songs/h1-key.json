@@ -52,6 +52,45 @@
     "trackId": "1703772385"
   },
   {
+    "id": "applemusic-1752156170",
+    "name": "Let It Burn",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "H1-KEY 3rd Mini Album [LOVE or HATE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/46/b4/5946b487-081a-7075-b2a1-96b73958ac6b/mzaf_10342440402844425738.plus.aac.p.m4a",
+    "duration": 181693,
+    "trackUrl": "https://music.apple.com/us/album/let-it-burn/1752155897?i=1752156170",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/08/ed/7a08ed11-6118-49d7-467c-1fce58a9f45d/196872214789.jpg/300x300bb.jpg",
+    "trackId": "1752156170"
+  },
+  {
+    "id": "applemusic-1752156172",
+    "name": "Iconic",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "H1-KEY 3rd Mini Album [LOVE or HATE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/85/26/5f852668-a63b-034c-a649-4d4b777dbf33/mzaf_11597227761880951011.plus.aac.p.m4a",
+    "duration": 183840,
+    "trackUrl": "https://music.apple.com/us/album/iconic/1752155897?i=1752156172",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/08/ed/7a08ed11-6118-49d7-467c-1fce58a9f45d/196872214789.jpg/300x300bb.jpg",
+    "trackId": "1752156172"
+  },
+  {
+    "id": "applemusic-1752156173",
+    "name": "Rainfalls",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "H1-KEY 3rd Mini Album [LOVE or HATE] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/0a/d0/360ad015-0f65-f52b-d2b3-353d7042e0c6/mzaf_17476102247782302146.plus.aac.p.m4a",
+    "duration": 183613,
+    "trackUrl": "https://music.apple.com/us/album/rainfalls/1752155897?i=1752156173",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/08/ed/7a08ed11-6118-49d7-467c-1fce58a9f45d/196872214789.jpg/300x300bb.jpg",
+    "trackId": "1752156173"
+  },
+  {
     "id": "applemusic-1661207541",
     "name": "Ring the Alarm",
     "artists": [
@@ -143,45 +182,6 @@
     "trackId": "1632435019"
   },
   {
-    "id": "applemusic-1752156170",
-    "name": "Let It Burn",
-    "artists": [
-      "H1-KEY"
-    ],
-    "album": "H1-KEY 3rd Mini Album [LOVE or HATE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/46/b4/5946b487-081a-7075-b2a1-96b73958ac6b/mzaf_10342440402844425738.plus.aac.p.m4a",
-    "duration": 181693,
-    "trackUrl": "https://music.apple.com/us/album/let-it-burn/1752155897?i=1752156170",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/08/ed/7a08ed11-6118-49d7-467c-1fce58a9f45d/196872214789.jpg/300x300bb.jpg",
-    "trackId": "1752156170"
-  },
-  {
-    "id": "applemusic-1752156172",
-    "name": "Iconic",
-    "artists": [
-      "H1-KEY"
-    ],
-    "album": "H1-KEY 3rd Mini Album [LOVE or HATE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/85/26/5f852668-a63b-034c-a649-4d4b777dbf33/mzaf_11597227761880951011.plus.aac.p.m4a",
-    "duration": 183840,
-    "trackUrl": "https://music.apple.com/us/album/iconic/1752155897?i=1752156172",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/08/ed/7a08ed11-6118-49d7-467c-1fce58a9f45d/196872214789.jpg/300x300bb.jpg",
-    "trackId": "1752156172"
-  },
-  {
-    "id": "applemusic-1752156173",
-    "name": "Rainfalls",
-    "artists": [
-      "H1-KEY"
-    ],
-    "album": "H1-KEY 3rd Mini Album [LOVE or HATE] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/36/0a/d0/360ad015-0f65-f52b-d2b3-353d7042e0c6/mzaf_17476102247782302146.plus.aac.p.m4a",
-    "duration": 183613,
-    "trackUrl": "https://music.apple.com/us/album/rainfalls/1752155897?i=1752156173",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7a/08/ed/7a08ed11-6118-49d7-467c-1fce58a9f45d/196872214789.jpg/300x300bb.jpg",
-    "trackId": "1752156173"
-  },
-  {
     "id": "applemusic-1821353783",
     "name": "Good for U",
     "artists": [
@@ -234,17 +234,69 @@
     "trackId": "1821353794"
   },
   {
-    "id": "applemusic-1865339988",
+    "id": "applemusic-1882194755",
+    "name": "Be full of Romantic",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "LOVECHAPTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/c3/8c/a3c38c51-0c6f-f465-4ea3-26da182c689e/mzaf_352232193243305800.plus.aac.p.m4a",
+    "duration": 222000,
+    "trackUrl": "https://music.apple.com/us/album/be-full-of-romantic/1882194752?i=1882194755",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/66/81/f46681ab-3f2c-9af0-8496-0409631933cf/888272177657_Cover.jpg/300x300bb.jpg",
+    "trackId": "1882194755"
+  },
+  {
+    "id": "applemusic-1882194756",
+    "name": "To. My First Love",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "LOVECHAPTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/5b/d5/1b5bd571-a601-2b46-55f8-7a53806aa01d/mzaf_14132695956981998803.plus.aac.p.m4a",
+    "duration": 210000,
+    "trackUrl": "https://music.apple.com/us/album/to-my-first-love/1882194752?i=1882194756",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/66/81/f46681ab-3f2c-9af0-8496-0409631933cf/888272177657_Cover.jpg/300x300bb.jpg",
+    "trackId": "1882194756"
+  },
+  {
+    "id": "applemusic-1882195011",
+    "name": "Stuck with You",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "LOVECHAPTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/70/f5/3870f59e-5a15-b325-bf4e-b6a90aea9c30/mzaf_13917924218991435589.plus.aac.p.m4a",
+    "duration": 168000,
+    "trackUrl": "https://music.apple.com/us/album/stuck-with-you/1882194752?i=1882195011",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/66/81/f46681ab-3f2c-9af0-8496-0409631933cf/888272177657_Cover.jpg/300x300bb.jpg",
+    "trackId": "1882195011"
+  },
+  {
+    "id": "applemusic-1882195013",
+    "name": "My Wish",
+    "artists": [
+      "H1-KEY"
+    ],
+    "album": "LOVECHAPTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/61/20/f2612068-2bfb-0d0d-33e4-8ebf081ab68c/mzaf_8155452302702208587.plus.aac.p.m4a",
+    "duration": 145000,
+    "trackUrl": "https://music.apple.com/us/album/my-wish/1882194752?i=1882195013",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/66/81/f46681ab-3f2c-9af0-8496-0409631933cf/888272177657_Cover.jpg/300x300bb.jpg",
+    "trackId": "1882195013"
+  },
+  {
+    "id": "applemusic-1882195016",
     "name": "Not Like a Movie",
     "artists": [
       "H1-KEY"
     ],
-    "album": "Not Like a Movie - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/0f/ff/690fff3b-5539-8ae0-a0fa-e4c4d628289d/mzaf_5354386728622754964.plus.aac.p.m4a",
+    "album": "LOVECHAPTER",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/50/31/d05031f5-3ecb-0691-2764-4c546ec7455a/mzaf_16558119582404818926.plus.aac.p.m4a",
     "duration": 212000,
-    "trackUrl": "https://music.apple.com/us/album/not-like-a-movie/1865339986?i=1865339988",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/cd/4a/3ecd4ae3-cc3f-7d9c-c581-37b2e51f7208/888272174397_Cover.jpg/300x300bb.jpg",
-    "trackId": "1865339988"
+    "trackUrl": "https://music.apple.com/us/album/not-like-a-movie/1882194752?i=1882195016",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f4/66/81/f46681ab-3f2c-9af0-8496-0409631933cf/888272177657_Cover.jpg/300x300bb.jpg",
+    "trackId": "1882195016"
   },
   {
     "id": "applemusic-1600832112",

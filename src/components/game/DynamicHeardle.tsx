@@ -262,7 +262,6 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       currentSong={currentSong}
       mode={mode}
       artist={artist}
-      onNewGame={handleNewGame}
     />
   ) : (
     <HowToPlayCard
@@ -290,6 +289,19 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
                 isGameWon={gameState.hasWon}
               />
             </GlassCard>
+
+            {mode === 'practice' && gameState.isGameOver && (
+              <div className="flex justify-center">
+                <button
+                  type="button"
+                  onClick={handleNewGame}
+                  className={`inline-flex items-center justify-center gap-1.5 rounded-xl px-4 py-2 shadow-md bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-medium text-xs sm:text-sm transition-transform duration-150 ease-out hover:scale-105 focus:outline-none focus-visible:ring focus-visible:ring-white/40 cursor-pointer`}
+                >
+                  <span aria-hidden="true">🎵</span>
+                  <span>New Song</span>
+                </button>
+              </div>
+            )}
 
             {/* Guess card (only while active) */}
             {!gameState.isGameOver && (

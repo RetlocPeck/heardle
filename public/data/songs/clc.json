@@ -91,6 +91,19 @@
     "trackId": "1451047668"
   },
   {
+    "id": "applemusic-1528937197",
+    "name": "HELICOPTER",
+    "artists": [
+      "CLC"
+    ],
+    "album": "HELICOPTER - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/71/b7/c871b7f4-6129-4386-70f5-fbad090bfa3e/mzaf_9717085455746212530.plus.aac.p.m4a",
+    "duration": 225720,
+    "trackUrl": "https://music.apple.com/us/album/helicopter/1528937196?i=1528937197",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/1d/ba/281dbace-e3f8-eb71-3c1d-4acf562c2863/20UMGIM72665.rgb.jpg/300x300bb.jpg",
+    "trackId": "1528937197"
+  },
+  {
     "id": "applemusic-1465973555",
     "name": "Liar",
     "artists": [
@@ -169,84 +182,6 @@
     "trackId": "1465973560"
   },
   {
-    "id": "applemusic-1528937197",
-    "name": "HELICOPTER",
-    "artists": [
-      "CLC"
-    ],
-    "album": "HELICOPTER - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/71/b7/c871b7f4-6129-4386-70f5-fbad090bfa3e/mzaf_9717085455746212530.plus.aac.p.m4a",
-    "duration": 225720,
-    "trackUrl": "https://music.apple.com/us/album/helicopter/1528937196?i=1528937197",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/1d/ba/281dbace-e3f8-eb71-3c1d-4acf562c2863/20UMGIM72665.rgb.jpg/300x300bb.jpg",
-    "trackId": "1528937197"
-  },
-  {
-    "id": "applemusic-1351744236",
-    "name": "Black Dress",
-    "artists": [
-      "CLC"
-    ],
-    "album": "Black Dress - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/f4/da/9bf4da31-c6fa-6c76-1233-2623528da3d4/mzaf_14757454679223901813.plus.aac.p.m4a",
-    "duration": 193609,
-    "trackUrl": "https://music.apple.com/us/album/black-dress/1351743986?i=1351744236",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
-    "trackId": "1351744236"
-  },
-  {
-    "id": "applemusic-1351744237",
-    "name": "Like That",
-    "artists": [
-      "CLC"
-    ],
-    "album": "Black Dress - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/c5/50/87c55076-3fb9-22cd-3353-2d5ec9128934/mzaf_11909979746070918149.plus.aac.p.m4a",
-    "duration": 179065,
-    "trackUrl": "https://music.apple.com/us/album/like-that/1351743986?i=1351744237",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
-    "trackId": "1351744237"
-  },
-  {
-    "id": "applemusic-1351744238",
-    "name": "Distance",
-    "artists": [
-      "CLC"
-    ],
-    "album": "Black Dress - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/04/f4/6d04f462-6dc2-df6c-f204-f9f20f577f1c/mzaf_8909537253275460261.plus.aac.p.m4a",
-    "duration": 187290,
-    "trackUrl": "https://music.apple.com/us/album/distance/1351743986?i=1351744238",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
-    "trackId": "1351744238"
-  },
-  {
-    "id": "applemusic-1351744239",
-    "name": "To the Sky",
-    "artists": [
-      "CLC"
-    ],
-    "album": "Black Dress - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/4d/d8/484dd802-b6f5-d777-2ba7-fb08584dc91d/mzaf_898227500452178682.plus.aac.p.m4a",
-    "duration": 185236,
-    "trackUrl": "https://music.apple.com/us/album/to-the-sky/1351743986?i=1351744239",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
-    "trackId": "1351744239"
-  },
-  {
-    "id": "applemusic-1351744240",
-    "name": "7th",
-    "artists": [
-      "CLC"
-    ],
-    "album": "Black Dress - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/70/c5/05/70c5051f-5575-9706-f348-a9d0a59ea510/mzaf_7346094351703383687.plus.aac.p.m4a",
-    "duration": 251085,
-    "trackUrl": "https://music.apple.com/us/album/7th/1351743986?i=1351744240",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
-    "trackId": "1351744240"
-  },
-  {
     "id": "applemusic-1464934816",
     "name": "Where Are You?",
     "artists": [
@@ -323,6 +258,71 @@
     "trackUrl": "https://music.apple.com/us/album/hold-your-hand/1464934815?i=1464934821",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b8/e7/20/b8e7202e-6dc7-e5b6-765b-b721f37b7feb/CLC_6th_mini_FREE_SM.jpg/300x300bb.jpg",
     "trackId": "1464934821"
+  },
+  {
+    "id": "applemusic-1351744236",
+    "name": "Black Dress",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9b/f4/da/9bf4da31-c6fa-6c76-1233-2623528da3d4/mzaf_14757454679223901813.plus.aac.p.m4a",
+    "duration": 193609,
+    "trackUrl": "https://music.apple.com/us/album/black-dress/1351743986?i=1351744236",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744236"
+  },
+  {
+    "id": "applemusic-1351744237",
+    "name": "Like That",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/c5/50/87c55076-3fb9-22cd-3353-2d5ec9128934/mzaf_11909979746070918149.plus.aac.p.m4a",
+    "duration": 179065,
+    "trackUrl": "https://music.apple.com/us/album/like-that/1351743986?i=1351744237",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744237"
+  },
+  {
+    "id": "applemusic-1351744238",
+    "name": "Distance",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6d/04/f4/6d04f462-6dc2-df6c-f204-f9f20f577f1c/mzaf_8909537253275460261.plus.aac.p.m4a",
+    "duration": 187290,
+    "trackUrl": "https://music.apple.com/us/album/distance/1351743986?i=1351744238",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744238"
+  },
+  {
+    "id": "applemusic-1351744239",
+    "name": "To the Sky",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/4d/d8/484dd802-b6f5-d777-2ba7-fb08584dc91d/mzaf_898227500452178682.plus.aac.p.m4a",
+    "duration": 185236,
+    "trackUrl": "https://music.apple.com/us/album/to-the-sky/1351743986?i=1351744239",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744239"
+  },
+  {
+    "id": "applemusic-1351744240",
+    "name": "7th",
+    "artists": [
+      "CLC"
+    ],
+    "album": "Black Dress - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/70/c5/05/70c5051f-5575-9706-f348-a9d0a59ea510/mzaf_7346094351703383687.plus.aac.p.m4a",
+    "duration": 251085,
+    "trackUrl": "https://music.apple.com/us/album/7th/1351743986?i=1351744240",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/11/7f/ad/117fad74-0345-7bdc-4228-47493d75985c/cover-CLC.jpg/300x300bb.jpg",
+    "trackId": "1351744240"
   },
   {
     "id": "applemusic-1465969148",
@@ -520,19 +520,6 @@
     "trackId": "1466265606"
   },
   {
-    "id": "applemusic-1136678759",
-    "name": "Chocolate spice",
-    "artists": [
-      "CLC"
-    ],
-    "album": "チャミスマ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/58/94/085894e4-f890-6563-4ab0-c3efa957da13/mzaf_5002041335025397905.plus.aac.p.m4a",
-    "duration": 208152,
-    "trackUrl": "https://music.apple.com/us/album/chocolate-spice/1136678750?i=1136678759",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/04/c6/ca04c6a3-fe61-22c2-07d1-cc634a156ad3/TypeA.jpg/300x300bb.jpg",
-    "trackId": "1136678759"
-  },
-  {
     "id": "applemusic-1466265567",
     "name": "Cafe Mocha Please",
     "artists": [
@@ -609,6 +596,19 @@
     "trackUrl": "https://music.apple.com/us/album/i-should-be-so-lucky/1577879756?i=1577879761",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ec/a0/e9/eca0e9fc-91f7-cde0-0a13-69824a3648c3/8804775099687.jpg/300x300bb.jpg",
     "trackId": "1577879761"
+  },
+  {
+    "id": "applemusic-1136678759",
+    "name": "Chocolate spice",
+    "artists": [
+      "CLC"
+    ],
+    "album": "チャミスマ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/08/58/94/085894e4-f890-6563-4ab0-c3efa957da13/mzaf_5002041335025397905.plus.aac.p.m4a",
+    "duration": 208152,
+    "trackUrl": "https://music.apple.com/us/album/chocolate-spice/1136678750?i=1136678759",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ca/04/c6/ca04c6a3-fe61-22c2-07d1-cc634a156ad3/TypeA.jpg/300x300bb.jpg",
+    "trackId": "1136678759"
   },
   {
     "id": "applemusic-1577878619",

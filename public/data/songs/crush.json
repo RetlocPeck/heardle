@@ -26,32 +26,6 @@
     "trackId": "1485570218"
   },
   {
-    "id": "applemusic-1477713320",
-    "name": "NAPPA",
-    "artists": [
-      "Crush"
-    ],
-    "album": "NAPPA - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b7/96/ec/b796ec69-3f0f-4d1b-ca9b-908292021c9c/mzaf_6981142512546204699.plus.aac.p.m4a",
-    "duration": 194040,
-    "trackUrl": "https://music.apple.com/us/album/nappa/1477713319?i=1477713320",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8c/1d/80/8c1d8000-1214-1434-bc27-cb3c2f94b00b/191953045061.jpg/300x300bb.jpg",
-    "trackId": "1477713320"
-  },
-  {
-    "id": "applemusic-1477713321",
-    "name": "Lookin 4 (feat. Devin Morrison & Joyce Wrice)",
-    "artists": [
-      "Crush"
-    ],
-    "album": "NAPPA - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0c/20/9f/0c209fe0-ebe6-7549-fa24-184761b35bd4/mzaf_10081776778864646294.plus.aac.p.m4a",
-    "duration": 283627,
-    "trackUrl": "https://music.apple.com/us/album/lookin-4-feat-devin-morrison-joyce-wrice/1477713319?i=1477713321",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8c/1d/80/8c1d8000-1214-1434-bc27-cb3c2f94b00b/191953045061.jpg/300x300bb.jpg",
-    "trackId": "1477713321"
-  },
-  {
     "id": "applemusic-1629848233",
     "name": "Your Dog Loves You (feat. Crush)",
     "artists": [
@@ -128,6 +102,97 @@
     "trackUrl": "https://music.apple.com/us/album/bittersweet/1629599003?i=1629599007",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5d/79/ae/5d79aed6-d361-3a5c-2006-5cb43122855a/8809603542045_Cover.jpg/300x300bb.jpg",
     "trackId": "1629599007"
+  },
+  {
+    "id": "applemusic-1477713320",
+    "name": "NAPPA",
+    "artists": [
+      "Crush"
+    ],
+    "album": "NAPPA - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b7/96/ec/b796ec69-3f0f-4d1b-ca9b-908292021c9c/mzaf_6981142512546204699.plus.aac.p.m4a",
+    "duration": 194040,
+    "trackUrl": "https://music.apple.com/us/album/nappa/1477713319?i=1477713320",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8c/1d/80/8c1d8000-1214-1434-bc27-cb3c2f94b00b/191953045061.jpg/300x300bb.jpg",
+    "trackId": "1477713320"
+  },
+  {
+    "id": "applemusic-1477713321",
+    "name": "Lookin 4 (feat. Devin Morrison & Joyce Wrice)",
+    "artists": [
+      "Crush"
+    ],
+    "album": "NAPPA - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0c/20/9f/0c209fe0-ebe6-7549-fa24-184761b35bd4/mzaf_10081776778864646294.plus.aac.p.m4a",
+    "duration": 283627,
+    "trackUrl": "https://music.apple.com/us/album/lookin-4-feat-devin-morrison-joyce-wrice/1477713319?i=1477713321",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8c/1d/80/8c1d8000-1214-1434-bc27-cb3c2f94b00b/191953045061.jpg/300x300bb.jpg",
+    "trackId": "1477713321"
+  },
+  {
+    "id": "applemusic-1613316880",
+    "name": "wanderlust",
+    "artists": [
+      "Crush"
+    ],
+    "album": "wonderlust - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6c/64/0e/6c640ed4-f3d2-c68a-2739-449e8b091c88/mzaf_10702246540262988190.plus.aac.p.m4a",
+    "duration": 128887,
+    "trackUrl": "https://music.apple.com/us/album/wanderlust/1613316878?i=1613316880",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
+    "trackId": "1613316880"
+  },
+  {
+    "id": "applemusic-1613316881",
+    "name": "2411",
+    "artists": [
+      "Crush"
+    ],
+    "album": "wonderlust - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/31/80/2b/31802bca-f2a0-3861-31fc-7d3ab10c0de4/mzaf_633328065020766138.plus.aac.p.m4a",
+    "duration": 143859,
+    "trackUrl": "https://music.apple.com/us/album/2411/1613316878?i=1613316881",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
+    "trackId": "1613316881"
+  },
+  {
+    "id": "applemusic-1613316883",
+    "name": "Nostalgia",
+    "artists": [
+      "Crush"
+    ],
+    "album": "wonderlust - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1f/12/28/1f122870-cdf3-5abc-ed80-7c7896b0b1c4/mzaf_9653673935748228031.plus.aac.p.m4a",
+    "duration": 137574,
+    "trackUrl": "https://music.apple.com/us/album/nostalgia/1613316878?i=1613316883",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
+    "trackId": "1613316883"
+  },
+  {
+    "id": "applemusic-1613316884",
+    "name": "Fall",
+    "artists": [
+      "Crush"
+    ],
+    "album": "wonderlust - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/08/0b/e6/080be666-3c52-0a39-2aa4-5ee113b09e1b/mzaf_6955782721679103225.plus.aac.p.m4a",
+    "duration": 231572,
+    "trackUrl": "https://music.apple.com/us/album/fall/1613316878?i=1613316884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
+    "trackId": "1613316884"
+  },
+  {
+    "id": "applemusic-1613316886",
+    "name": "Like My Father",
+    "artists": [
+      "Crush"
+    ],
+    "album": "wonderlust - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3f/13/f0/3f13f0fa-b215-7f90-f767-a2476d54deb0/mzaf_6018886077600279341.plus.aac.p.m4a",
+    "duration": 178335,
+    "trackUrl": "https://music.apple.com/us/album/like-my-father/1613316878?i=1613316886",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
+    "trackId": "1613316886"
   },
   {
     "id": "applemusic-1488587816",
@@ -273,71 +338,6 @@
     "trackId": "1488588068"
   },
   {
-    "id": "applemusic-1613316880",
-    "name": "wanderlust",
-    "artists": [
-      "Crush"
-    ],
-    "album": "wonderlust - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6c/64/0e/6c640ed4-f3d2-c68a-2739-449e8b091c88/mzaf_10702246540262988190.plus.aac.p.m4a",
-    "duration": 128887,
-    "trackUrl": "https://music.apple.com/us/album/wanderlust/1613316878?i=1613316880",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
-    "trackId": "1613316880"
-  },
-  {
-    "id": "applemusic-1613316881",
-    "name": "2411",
-    "artists": [
-      "Crush"
-    ],
-    "album": "wonderlust - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/31/80/2b/31802bca-f2a0-3861-31fc-7d3ab10c0de4/mzaf_633328065020766138.plus.aac.p.m4a",
-    "duration": 143859,
-    "trackUrl": "https://music.apple.com/us/album/2411/1613316878?i=1613316881",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
-    "trackId": "1613316881"
-  },
-  {
-    "id": "applemusic-1613316883",
-    "name": "Nostalgia",
-    "artists": [
-      "Crush"
-    ],
-    "album": "wonderlust - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1f/12/28/1f122870-cdf3-5abc-ed80-7c7896b0b1c4/mzaf_9653673935748228031.plus.aac.p.m4a",
-    "duration": 137574,
-    "trackUrl": "https://music.apple.com/us/album/nostalgia/1613316878?i=1613316883",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
-    "trackId": "1613316883"
-  },
-  {
-    "id": "applemusic-1613316884",
-    "name": "Fall",
-    "artists": [
-      "Crush"
-    ],
-    "album": "wonderlust - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/08/0b/e6/080be666-3c52-0a39-2aa4-5ee113b09e1b/mzaf_6955782721679103225.plus.aac.p.m4a",
-    "duration": 231572,
-    "trackUrl": "https://music.apple.com/us/album/fall/1613316878?i=1613316884",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
-    "trackId": "1613316884"
-  },
-  {
-    "id": "applemusic-1613316886",
-    "name": "Like My Father",
-    "artists": [
-      "Crush"
-    ],
-    "album": "wonderlust - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/3f/13/f0/3f13f0fa-b215-7f90-f767-a2476d54deb0/mzaf_6018886077600279341.plus.aac.p.m4a",
-    "duration": 178335,
-    "trackUrl": "https://music.apple.com/us/album/like-my-father/1613316878?i=1613316886",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/dc/1c/2bdc1cf3-a45d-bc28-3957-51b7013d7f1b/8809603542557_Cover.jpg/300x300bb.jpg",
-    "trackId": "1613316886"
-  },
-  {
     "id": "applemusic-1726103757",
     "name": "Yes or No (feat. HUH YUNJIN & Crush)",
     "artists": [
@@ -349,6 +349,32 @@
     "trackUrl": "https://music.apple.com/us/album/yes-or-no-feat-huh-yunjin-crush/1726103756?i=1726103757",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/17/5d/2e/175d2e28-2874-baf9-6996-a4f20dfb0ac1/cover_KM0019379_1.jpg/300x300bb.jpg",
     "trackId": "1726103757"
+  },
+  {
+    "id": "applemusic-1522644882",
+    "name": "OHIO",
+    "artists": [
+      "Crush"
+    ],
+    "album": "OHIO - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7f/60/6f/7f606f99-0589-695a-708c-5ec45dd3f1e0/mzaf_1085328614459437577.plus.aac.p.m4a",
+    "duration": 194520,
+    "trackUrl": "https://music.apple.com/us/album/ohio/1522644881?i=1522644882",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/c2/70/97c2701d-7648-c75a-1528-3fb216a1f5ff/191953085227.jpg/300x300bb.jpg",
+    "trackId": "1522644882"
+  },
+  {
+    "id": "applemusic-1522644883",
+    "name": "Let Me (feat. Devin Morrison)",
+    "artists": [
+      "Crush"
+    ],
+    "album": "OHIO - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/04/0c/60/040c607c-5eba-0894-aa5b-2ce11e2f3565/mzaf_1873593391813146652.plus.aac.p.m4a",
+    "duration": 194813,
+    "trackUrl": "https://music.apple.com/us/album/let-me-feat-devin-morrison/1522644881?i=1522644883",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/c2/70/97c2701d-7648-c75a-1528-3fb216a1f5ff/191953085227.jpg/300x300bb.jpg",
+    "trackId": "1522644883"
   },
   {
     "id": "applemusic-1613135097",
@@ -458,7 +484,7 @@
     "id": "applemusic-1583316702",
     "name": "For You (feat. Crush)",
     "artists": [
-      "LeeHi"
+      "LEEHI"
     ],
     "album": "For You (feat. Crush) - Single",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/79/0b/18790b66-3e57-e7b5-360e-3b9e9b1df1b5/mzaf_17339345101693935661.plus.aac.p.m4a",
@@ -533,45 +559,6 @@
     "trackId": "1535422900"
   },
   {
-    "id": "applemusic-1522644882",
-    "name": "OHIO",
-    "artists": [
-      "Crush"
-    ],
-    "album": "OHIO - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7f/60/6f/7f606f99-0589-695a-708c-5ec45dd3f1e0/mzaf_1085328614459437577.plus.aac.p.m4a",
-    "duration": 194520,
-    "trackUrl": "https://music.apple.com/us/album/ohio/1522644881?i=1522644882",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/c2/70/97c2701d-7648-c75a-1528-3fb216a1f5ff/191953085227.jpg/300x300bb.jpg",
-    "trackId": "1522644882"
-  },
-  {
-    "id": "applemusic-1522644883",
-    "name": "Let Me (feat. Devin Morrison)",
-    "artists": [
-      "Crush"
-    ],
-    "album": "OHIO - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/04/0c/60/040c607c-5eba-0894-aa5b-2ce11e2f3565/mzaf_1873593391813146652.plus.aac.p.m4a",
-    "duration": 194813,
-    "trackUrl": "https://music.apple.com/us/album/let-me-feat-devin-morrison/1522644881?i=1522644883",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/97/c2/70/97c2701d-7648-c75a-1528-3fb216a1f5ff/191953085227.jpg/300x300bb.jpg",
-    "trackId": "1522644883"
-  },
-  {
-    "id": "applemusic-1670297767",
-    "name": "Still (feat. Crush)",
-    "artists": [
-      "Loco"
-    ],
-    "album": "Still (feat. Crush) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/dc/27/4c/dc274c09-36b7-080f-1ec4-3285670f4281/mzaf_17046523428920830490.plus.aac.p.m4a",
-    "duration": 276613,
-    "trackUrl": "https://music.apple.com/us/album/still-feat-crush/1670297764?i=1670297767",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/71/5c/d6/715cd65f-1893-6da6-4696-f459052d6fff/888272112672_Cover.jpg/300x300bb.jpg",
-    "trackId": "1670297767"
-  },
-  {
     "id": "applemusic-1615532197",
     "name": "In the Air",
     "artists": [
@@ -637,6 +624,19 @@
     "trackId": "1615532224"
   },
   {
+    "id": "applemusic-1670297767",
+    "name": "Still (feat. Crush)",
+    "artists": [
+      "Loco"
+    ],
+    "album": "Still (feat. Crush) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/dc/27/4c/dc274c09-36b7-080f-1ec4-3285670f4281/mzaf_17046523428920830490.plus.aac.p.m4a",
+    "duration": 276613,
+    "trackUrl": "https://music.apple.com/us/album/still-feat-crush/1670297764?i=1670297767",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/71/5c/d6/715cd65f-1893-6da6-4696-f459052d6fff/888272112672_Cover.jpg/300x300bb.jpg",
+    "trackId": "1670297767"
+  },
+  {
     "id": "applemusic-1606665483",
     "name": "You and I",
     "artists": [
@@ -663,19 +663,6 @@
     "trackId": "1606665818"
   },
   {
-    "id": "applemusic-1488294796",
-    "name": "what2do (feat. Crush & Jeff Bernat)",
-    "artists": [
-      "DEAN"
-    ],
-    "album": "what2do (feat. Crush & Jeff Bernat) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/04/9d/c6/049dc682-1b6c-6e58-c08a-551d84c250ca/mzaf_5997857186141095958.plus.aac.p.m4a",
-    "duration": 224099,
-    "trackUrl": "https://music.apple.com/us/album/what2do-feat-crush-jeff-bernat/1488294630?i=1488294796",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2c/22/e3/2c22e37d-4592-776c-9c43-b47807fd699f/19UM1IM04062.rgb.jpg/300x300bb.jpg",
-    "trackId": "1488294796"
-  },
-  {
     "id": "applemusic-1613664089",
     "name": "Summer Love",
     "artists": [
@@ -700,6 +687,19 @@
     "trackUrl": "https://music.apple.com/us/album/outside-feat-beenzino/1613664088?i=1613664092",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a6/ba/1a/a6ba1a3d-9315-f10a-780c-34e66012b348/8809603542564_Cover.jpg/300x300bb.jpg",
     "trackId": "1613664092"
+  },
+  {
+    "id": "applemusic-1488294796",
+    "name": "what2do (feat. Crush & Jeff Bernat)",
+    "artists": [
+      "DEAN"
+    ],
+    "album": "what2do (feat. Crush & Jeff Bernat) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/04/9d/c6/049dc682-1b6c-6e58-c08a-551d84c250ca/mzaf_5997857186141095958.plus.aac.p.m4a",
+    "duration": 224099,
+    "trackUrl": "https://music.apple.com/us/album/what2do-feat-crush-jeff-bernat/1488294630?i=1488294796",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2c/22/e3/2c22e37d-4592-776c-9c43-b47807fd699f/19UM1IM04062.rgb.jpg/300x300bb.jpg",
+    "trackId": "1488294796"
   },
   {
     "id": "applemusic-1625844171",
@@ -856,136 +856,6 @@
     "trackUrl": "https://music.apple.com/us/album/digital-lover/1499078067?i=1499078068",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7f/0c/23/7f0c2353-f519-bdf5-4a2d-a619ca445393/191953067209.jpg/300x300bb.jpg",
     "trackId": "1499078068"
-  },
-  {
-    "id": "applemusic-1706811215",
-    "name": "Right Now (feat. Crush)",
-    "artists": [
-      "Coogie"
-    ],
-    "album": "Right Now (feat. Crush) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/85/5e/0a855e90-1bb9-f0ce-c193-f60f36e535b8/mzaf_1896423266052024700.plus.aac.p.m4a",
-    "duration": 182347,
-    "trackUrl": "https://music.apple.com/us/album/right-now-feat-crush/1706811213?i=1706811215",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/44/02/f5/4402f5ce-310a-757e-f579-c33840b84038/cover_KM0018167_1.jpg/300x300bb.jpg",
-    "trackId": "1706811215"
-  },
-  {
-    "id": "applemusic-1569280565",
-    "name": "Beautiful",
-    "artists": [
-      "Crush"
-    ],
-    "album": "Guardian, Pt. 4 (Original Television Soundtrack) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/e2/d1/41e2d146-6b36-94b7-9fab-527adc117622/mzaf_15100695928980147311.plus.aac.p.m4a",
-    "duration": 227584,
-    "trackUrl": "https://music.apple.com/us/album/beautiful/1569280564?i=1569280565",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/92/c4/5592c4a2-fe72-2302-0edb-0133f4548abb/8809534461279_Cover.jpg/300x300bb.jpg",
-    "trackId": "1569280565"
-  },
-  {
-    "id": "applemusic-1833862487",
-    "name": "UP ALL NITE (feat. SUMIN)",
-    "artists": [
-      "Crush"
-    ],
-    "album": "FANG - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/8d/f7/8b8df7d5-47bb-10cb-19cc-ef0bc193f42a/mzaf_10446039195855711092.plus.aac.p.m4a",
-    "duration": 186000,
-    "trackUrl": "https://music.apple.com/us/album/up-all-nite-feat-sumin/1833862486?i=1833862487",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
-    "trackId": "1833862487"
-  },
-  {
-    "id": "applemusic-1833862488",
-    "name": "2-5-1",
-    "artists": [
-      "Crush"
-    ],
-    "album": "FANG - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/71/05/79/710579df-b036-e006-99c0-61fccf783ce7/mzaf_14941207491966001526.plus.aac.p.m4a",
-    "duration": 154042,
-    "trackUrl": "https://music.apple.com/us/album/2-5-1/1833862486?i=1833862488",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
-    "trackId": "1833862488"
-  },
-  {
-    "id": "applemusic-1833862489",
-    "name": "FREQUENCY (feat. Loco)",
-    "artists": [
-      "Crush"
-    ],
-    "album": "FANG - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/6d/d1/566dd1c3-6d17-6bb8-9a42-10ca83f2eb8a/mzaf_12230930780594788720.plus.aac.p.m4a",
-    "duration": 212007,
-    "trackUrl": "https://music.apple.com/us/album/frequency-feat-loco/1833862486?i=1833862489",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
-    "trackId": "1833862489"
-  },
-  {
-    "id": "applemusic-1833862490",
-    "name": "MALIBU",
-    "artists": [
-      "Crush"
-    ],
-    "album": "FANG - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/ee/56/a9ee5681-db07-44f7-0569-110b9dad8ce6/mzaf_9059252775986574872.plus.aac.p.m4a",
-    "duration": 226578,
-    "trackUrl": "https://music.apple.com/us/album/malibu/1833862486?i=1833862490",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
-    "trackId": "1833862490"
-  },
-  {
-    "id": "applemusic-1833862491",
-    "name": "MAMMAMIA (feat. Tabber)",
-    "artists": [
-      "Crush"
-    ],
-    "album": "FANG - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/0b/f0/700bf0a3-c030-a59f-c03b-78a3ecdce0c4/mzaf_10391277369662382672.plus.aac.p.m4a",
-    "duration": 164235,
-    "trackUrl": "https://music.apple.com/us/album/mammamia-feat-tabber/1833862486?i=1833862491",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
-    "trackId": "1833862491"
-  },
-  {
-    "id": "applemusic-1833862642",
-    "name": "OVERLAP",
-    "artists": [
-      "Crush"
-    ],
-    "album": "FANG - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/e8/2f/59e82f29-d5ec-8d2d-acab-f3df56ec9f93/mzaf_17862192520732942692.plus.aac.p.m4a",
-    "duration": 142000,
-    "trackUrl": "https://music.apple.com/us/album/overlap/1833862486?i=1833862642",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
-    "trackId": "1833862642"
-  },
-  {
-    "id": "applemusic-1576491925",
-    "name": "SKIP",
-    "artists": [
-      "Crush & Han Sang Won"
-    ],
-    "album": "SKIP - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/19/be/f8/19bef885-35b0-0069-7dad-e8a6bb1b0d2a/mzaf_10285121504916962965.plus.aac.p.m4a",
-    "duration": 218360,
-    "trackUrl": "https://music.apple.com/us/album/skip/1576491924?i=1576491925",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c7/e0/8f/c7e08f5c-58ee-bd80-1a1f-b8a01a06a057/skip.jpg/300x300bb.jpg",
-    "trackId": "1576491925"
-  },
-  {
-    "id": "applemusic-1716306524",
-    "name": "Stevie Wonderlust (From \"Finding Heroes: Geek Tour Special\") [feat. Band Wonderlust]",
-    "artists": [
-      "Crush"
-    ],
-    "album": "Stevie Wonderlust (From \"Finding Heroes: Geek Tour Special\") [feat. Band Wonderlust] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/7c/01/ff7c0134-449e-3272-e01e-2b9c5c78e3e4/mzaf_14408807048666158117.plus.aac.p.m4a",
-    "duration": 153920,
-    "trackUrl": "https://music.apple.com/us/album/stevie-wonderlust-from-finding-heroes-geek-tour-special/1716306519?i=1716306524",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e4/70/e2/e470e2c6-f470-5b2e-db73-581328e61779/8809603543035_Cover.jpg/300x300bb.jpg",
-    "trackId": "1716306524"
   },
   {
     "id": "applemusic-1715640927",
@@ -1222,6 +1092,136 @@
     "trackId": "1715641128"
   },
   {
+    "id": "applemusic-1706811215",
+    "name": "Right Now (feat. Crush)",
+    "artists": [
+      "Coogie"
+    ],
+    "album": "Right Now (feat. Crush) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/85/5e/0a855e90-1bb9-f0ce-c193-f60f36e535b8/mzaf_1896423266052024700.plus.aac.p.m4a",
+    "duration": 182347,
+    "trackUrl": "https://music.apple.com/us/album/right-now-feat-crush/1706811213?i=1706811215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/44/02/f5/4402f5ce-310a-757e-f579-c33840b84038/cover_KM0018167_1.jpg/300x300bb.jpg",
+    "trackId": "1706811215"
+  },
+  {
+    "id": "applemusic-1569280565",
+    "name": "Beautiful",
+    "artists": [
+      "Crush"
+    ],
+    "album": "Guardian, Pt. 4 (Original Television Soundtrack) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/e2/d1/41e2d146-6b36-94b7-9fab-527adc117622/mzaf_15100695928980147311.plus.aac.p.m4a",
+    "duration": 227584,
+    "trackUrl": "https://music.apple.com/us/album/beautiful/1569280564?i=1569280565",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/55/92/c4/5592c4a2-fe72-2302-0edb-0133f4548abb/8809534461279_Cover.jpg/300x300bb.jpg",
+    "trackId": "1569280565"
+  },
+  {
+    "id": "applemusic-1576491925",
+    "name": "SKIP",
+    "artists": [
+      "Crush & Han Sang Won"
+    ],
+    "album": "SKIP - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/19/be/f8/19bef885-35b0-0069-7dad-e8a6bb1b0d2a/mzaf_10285121504916962965.plus.aac.p.m4a",
+    "duration": 218360,
+    "trackUrl": "https://music.apple.com/us/album/skip/1576491924?i=1576491925",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c7/e0/8f/c7e08f5c-58ee-bd80-1a1f-b8a01a06a057/skip.jpg/300x300bb.jpg",
+    "trackId": "1576491925"
+  },
+  {
+    "id": "applemusic-1716306524",
+    "name": "Stevie Wonderlust (From \"Finding Heroes: Geek Tour Special\") [feat. Band Wonderlust]",
+    "artists": [
+      "Crush"
+    ],
+    "album": "Stevie Wonderlust (From \"Finding Heroes: Geek Tour Special\") [feat. Band Wonderlust] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ff/7c/01/ff7c0134-449e-3272-e01e-2b9c5c78e3e4/mzaf_14408807048666158117.plus.aac.p.m4a",
+    "duration": 153920,
+    "trackUrl": "https://music.apple.com/us/album/stevie-wonderlust-from-finding-heroes-geek-tour-special/1716306519?i=1716306524",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e4/70/e2/e470e2c6-f470-5b2e-db73-581328e61779/8809603543035_Cover.jpg/300x300bb.jpg",
+    "trackId": "1716306524"
+  },
+  {
+    "id": "applemusic-1833862487",
+    "name": "UP ALL NITE (feat. SUMIN)",
+    "artists": [
+      "Crush"
+    ],
+    "album": "FANG - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/16/e7/cd/16e7cdd7-db3c-4a39-17a0-7cc50b9f2f6f/mzaf_2640519404083067928.plus.aac.p.m4a",
+    "duration": 186000,
+    "trackUrl": "https://music.apple.com/us/album/up-all-nite-feat-sumin/1833862486?i=1833862487",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
+    "trackId": "1833862487"
+  },
+  {
+    "id": "applemusic-1833862488",
+    "name": "2-5-1",
+    "artists": [
+      "Crush"
+    ],
+    "album": "FANG - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/5c/b6/075cb678-67e0-0c13-11b9-d0dd8327fbd1/mzaf_3881055426698494273.plus.aac.p.m4a",
+    "duration": 154042,
+    "trackUrl": "https://music.apple.com/us/album/2-5-1/1833862486?i=1833862488",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
+    "trackId": "1833862488"
+  },
+  {
+    "id": "applemusic-1833862489",
+    "name": "FREQUENCY (feat. Loco)",
+    "artists": [
+      "Crush"
+    ],
+    "album": "FANG - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/29/80/c2298046-d133-dbe6-ef19-83e2b50a5526/mzaf_6445111832597482143.plus.aac.p.m4a",
+    "duration": 212007,
+    "trackUrl": "https://music.apple.com/us/album/frequency-feat-loco/1833862486?i=1833862489",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
+    "trackId": "1833862489"
+  },
+  {
+    "id": "applemusic-1833862490",
+    "name": "MALIBU",
+    "artists": [
+      "Crush"
+    ],
+    "album": "FANG - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/b1/25/c6b1258d-9a5c-ca00-559e-ad8e598efaf0/mzaf_8237062698821099864.plus.aac.p.m4a",
+    "duration": 226578,
+    "trackUrl": "https://music.apple.com/us/album/malibu/1833862486?i=1833862490",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
+    "trackId": "1833862490"
+  },
+  {
+    "id": "applemusic-1833862491",
+    "name": "MAMMAMIA (feat. Tabber)",
+    "artists": [
+      "Crush"
+    ],
+    "album": "FANG - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/c1/bd/ffc1bdcd-cb5f-1bb7-1e3d-5877f6b04b69/mzaf_10283039310776952069.plus.aac.p.m4a",
+    "duration": 164235,
+    "trackUrl": "https://music.apple.com/us/album/mammamia-feat-tabber/1833862486?i=1833862491",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
+    "trackId": "1833862491"
+  },
+  {
+    "id": "applemusic-1833862642",
+    "name": "OVERLAP",
+    "artists": [
+      "Crush"
+    ],
+    "album": "FANG - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f4/40/5c/f4405cd3-2f40-1312-9918-529bbddea5d0/mzaf_2879103537441611744.plus.aac.p.m4a",
+    "duration": 142000,
+    "trackUrl": "https://music.apple.com/us/album/overlap/1833862486?i=1833862642",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5a/01/ec/5a01ec40-4bd5-f283-5a80-54328952bf8c/191953467498.jpg/300x300bb.jpg",
+    "trackId": "1833862642"
+  },
+  {
     "id": "applemusic-1312756159",
     "name": "Clock Out (feat. Jay Park & Crush)",
     "artists": [
@@ -1306,7 +1306,7 @@
       "Crush"
     ],
     "album": "Last Festival (with Band Wonderlust) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/87/3b/56873b50-c726-318c-2d7d-76a85f95dcc7/mzaf_1830633823392628765.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/b6/96/ffb696e9-3ce7-8c24-1af7-5cfc10ac848a/mzaf_7077299016129398278.plus.aac.p.m4a",
     "duration": 251312,
     "trackUrl": "https://music.apple.com/us/album/last-festival-with-band-wonderlust/1833191680?i=1833191681",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/b5/2c/09b52cec-91a2-d1b5-bc6c-12447b029a0b/8809534467400_Cover.jpg/300x300bb.jpg",
@@ -1324,19 +1324,6 @@
     "trackUrl": "https://music.apple.com/us/album/sweaty-feat-crush/1445149238?i=1445149471",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/50/7b/70/507b70d1-8e4e-c115-304f-ae0c782a1b82/00602567229674.rgb.jpg/300x300bb.jpg",
     "trackId": "1445149471"
-  },
-  {
-    "id": "applemusic-1868933350",
-    "name": "Yin and Yang",
-    "artists": [
-      "ZICO & Crush"
-    ],
-    "album": "Yin and Yang - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/2b/d6/cd2bd6ef-cf29-07dc-27b6-8fe4617f62da/mzaf_4077045517236007708.plus.aac.p.m4a",
-    "duration": 127000,
-    "trackUrl": "https://music.apple.com/us/album/yin-and-yang/1868933349?i=1868933350",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/e9/7a/68e97a8e-2eca-f99d-657d-08ec11019e94/198704944116_Cover.jpg/300x300bb.jpg",
-    "trackId": "1868933350"
   },
   {
     "id": "applemusic-1657368309",
@@ -1376,6 +1363,19 @@
     "trackUrl": "https://music.apple.com/us/album/domino-feat-crush/1459101982?i=1459102107",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/c2/5a/8c/c25a8c60-a976-f46b-1563-b0c669eb1c59/cover-_1THE9_DS.jpg/300x300bb.jpg",
     "trackId": "1459102107"
+  },
+  {
+    "id": "applemusic-1868933350",
+    "name": "Yin and Yang",
+    "artists": [
+      "ZICO & Crush"
+    ],
+    "album": "Yin and Yang - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/2b/d6/cd2bd6ef-cf29-07dc-27b6-8fe4617f62da/mzaf_4077045517236007708.plus.aac.p.m4a",
+    "duration": 127000,
+    "trackUrl": "https://music.apple.com/us/album/yin-and-yang/1868933349?i=1868933350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/e9/7a/68e97a8e-2eca-f99d-657d-08ec11019e94/198704944116_Cover.jpg/300x300bb.jpg",
+    "trackId": "1868933350"
   },
   {
     "id": "applemusic-1810684021",
@@ -1469,6 +1469,19 @@
     "trackId": "1740884211"
   },
   {
+    "id": "applemusic-1501804772",
+    "name": "No Words",
+    "artists": [
+      "Crush"
+    ],
+    "album": "ITAEWON CLASS (Original Television Soundtrack), Pt. 11 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e2/2b/09/e22b0902-40cf-4de6-c9f0-175006a99de4/mzaf_819650108148246309.plus.aac.p.m4a",
+    "duration": 271387,
+    "trackUrl": "https://music.apple.com/us/album/no-words/1501804770?i=1501804772",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/3f/b0/e3/3fb0e36c-a85e-b4e9-9f9a-461e0f8233e3/8809717443894.jpg/300x300bb.jpg",
+    "trackId": "1501804772"
+  },
+  {
     "id": "applemusic-1751842041",
     "name": "Trip (Come travel with me, Mom? X Crush) (Original Soundtrack)",
     "artists": [
@@ -1480,32 +1493,6 @@
     "trackUrl": "https://music.apple.com/us/album/trip-come-travel-with-me-mom-x-crush-original-soundtrack/1751842006?i=1751842041",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/39/b2/c3/39b2c312-407f-65e0-7a6d-bc74d2df083c/8800263593811.jpg/300x300bb.jpg",
     "trackId": "1751842041"
-  },
-  {
-    "id": "applemusic-1735789290",
-    "name": "Achuuuu (feat. Crush, Finest Kids & Slingshot RSA)",
-    "artists": [
-      "Soweto's Finest"
-    ],
-    "album": "Achuuuu (feat. Crush, Finest Kids & Slingshot RSA) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9f/a0/39/9fa03941-3538-14d0-e88f-b7dcc8b9f2e8/mzaf_6580985259992884654.plus.aac.p.m4a",
-    "duration": 379573,
-    "trackUrl": "https://music.apple.com/us/album/achuuuu-feat-crush-finest-kids-slingshot-rsa/1735789284?i=1735789290",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d2/aa/f4/d2aaf41e-0138-25a1-2cc2-1eeff2f814f1/6009553439149_Cover.jpg/300x300bb.jpg",
-    "trackId": "1735789290"
-  },
-  {
-    "id": "applemusic-1731865538",
-    "name": "Hlala Nami (feat. Praiz, Nobantu Vilakazi, Crush & Soweto's Finest)",
-    "artists": [
-      "Tom London"
-    ],
-    "album": "Hlala Nami (feat. Praiz, Nobantu Vilakazi, Crush & Soweto's Finest) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/fc/70/29/fc7029bf-f131-5bcf-e18c-0da256b69d5b/mzaf_11389897992598587661.plus.aac.p.m4a",
-    "duration": 320133,
-    "trackUrl": "https://music.apple.com/us/album/hlala-nami-feat-praiz-nobantu-vilakazi-crush-sowetos/1731865531?i=1731865538",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/d9/e0/7c/d9e07cde-3b76-e0aa-d3a4-5d93e647800a/6009553438128_Cover.jpg/300x300bb.jpg",
-    "trackId": "1731865538"
   },
   {
     "id": "applemusic-1817925441",

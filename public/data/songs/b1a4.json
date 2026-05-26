@@ -429,71 +429,6 @@
     "trackId": "1787369877"
   },
   {
-    "id": "applemusic-1738876765",
-    "name": "O.K",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/3f/e4/a53fe40a-979a-ed42-91c4-0f550575ad40/mzaf_14920197325528000889.plus.aac.p.m4a",
-    "duration": 213213,
-    "trackUrl": "https://music.apple.com/us/album/o-k/1738876764?i=1738876765",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876765"
-  },
-  {
-    "id": "applemusic-1738876766",
-    "name": "Remember",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/e9/c4/f8e9c4ed-a723-832e-3e56-416a681a3355/mzaf_6031349926097248508.plus.aac.p.m4a",
-    "duration": 195707,
-    "trackUrl": "https://music.apple.com/us/album/remember/1738876764?i=1738876766",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876766"
-  },
-  {
-    "id": "applemusic-1738876767",
-    "name": "Only Learned Bad Things",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/46/f3/7146f333-f0ce-1d62-3dbb-4b43127c79e3/mzaf_13195081697385622605.plus.aac.p.m4a",
-    "duration": 222533,
-    "trackUrl": "https://music.apple.com/us/album/only-learned-bad-things/1738876764?i=1738876767",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876767"
-  },
-  {
-    "id": "applemusic-1738876768",
-    "name": "Bling Girl",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/8a/96/fb8a96bc-c5af-941a-bf66-7f26293d4c69/mzaf_3184412346377559305.plus.aac.p.m4a",
-    "duration": 215787,
-    "trackUrl": "https://music.apple.com/us/album/bling-girl/1738876764?i=1738876768",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876768"
-  },
-  {
-    "id": "applemusic-1738876769",
-    "name": "Only One",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Let's Fly - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/fb/66/0bfb66d2-bf2b-14b2-2a85-3519242deae9/mzaf_11871393664109982596.plus.aac.p.m4a",
-    "duration": 215867,
-    "trackUrl": "https://music.apple.com/us/album/only-one/1738876764?i=1738876769",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
-    "trackId": "1738876769"
-  },
-  {
     "id": "applemusic-1738877581",
     "name": "Lonely",
     "artists": [
@@ -637,6 +572,71 @@
     "trackId": "1738877591"
   },
   {
+    "id": "applemusic-1738876765",
+    "name": "O.K",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/3f/e4/a53fe40a-979a-ed42-91c4-0f550575ad40/mzaf_14920197325528000889.plus.aac.p.m4a",
+    "duration": 213213,
+    "trackUrl": "https://music.apple.com/us/album/o-k/1738876764?i=1738876765",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876765"
+  },
+  {
+    "id": "applemusic-1738876766",
+    "name": "Remember",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f8/e9/c4/f8e9c4ed-a723-832e-3e56-416a681a3355/mzaf_6031349926097248508.plus.aac.p.m4a",
+    "duration": 195707,
+    "trackUrl": "https://music.apple.com/us/album/remember/1738876764?i=1738876766",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876766"
+  },
+  {
+    "id": "applemusic-1738876767",
+    "name": "Only Learned Bad Things",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/46/f3/7146f333-f0ce-1d62-3dbb-4b43127c79e3/mzaf_13195081697385622605.plus.aac.p.m4a",
+    "duration": 222533,
+    "trackUrl": "https://music.apple.com/us/album/only-learned-bad-things/1738876764?i=1738876767",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876767"
+  },
+  {
+    "id": "applemusic-1738876768",
+    "name": "Bling Girl",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/8a/96/fb8a96bc-c5af-941a-bf66-7f26293d4c69/mzaf_3184412346377559305.plus.aac.p.m4a",
+    "duration": 215787,
+    "trackUrl": "https://music.apple.com/us/album/bling-girl/1738876764?i=1738876768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876768"
+  },
+  {
+    "id": "applemusic-1738876769",
+    "name": "Only One",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Let's Fly - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/fb/66/0bfb66d2-bf2b-14b2-2a85-3519242deae9/mzaf_11871393664109982596.plus.aac.p.m4a",
+    "duration": 215867,
+    "trackUrl": "https://music.apple.com/us/album/only-one/1738876764?i=1738876769",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/cb/52/29cb52e3-5b72-f314-bb95-36151d250877/cover_KM0004088_1.jpg/300x300bb.jpg",
+    "trackId": "1738876769"
+  },
+  {
     "id": "applemusic-1738877838",
     "name": "SOLO DAY",
     "artists": [
@@ -702,17 +702,17 @@
     "trackId": "1738877842"
   },
   {
-    "id": "applemusic-898203800",
-    "name": "You(Feat.SUNMI)",
+    "id": "applemusic-1738877843",
+    "name": "You (feat. Sunmi)",
     "artists": [
       "B1A4"
     ],
     "album": "SOLO DAY - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/19/76/6519761a-82e4-8c3c-041a-95e6af6b0299/mzaf_3876138460778711457.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3b/75/e9/3b75e9aa-6d92-5040-4506-647b5b93b55f/mzaf_9259495916885028837.plus.aac.p.m4a",
     "duration": 201348,
-    "trackUrl": "https://music.apple.com/jp/album/you-feat-sunmi/898203793?i=898203800",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/62/87/1d/62871d7b-5f5a-bd10-a692-7d937948c607/PCSP_01751_itunes.png/300x300bb.jpg",
-    "trackId": "898203800"
+    "trackUrl": "https://music.apple.com/us/album/you-feat-sunmi/1738877837?i=1738877843",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/bb/c938bb72-9fdb-2805-348d-2f5057c57e91/cover_KM0004095_1.jpg/300x300bb.jpg",
+    "trackId": "1738877843"
   },
   {
     "id": "applemusic-1738877310",
@@ -858,6 +858,149 @@
     "trackId": "1787369318"
   },
   {
+    "id": "applemusic-1738880494",
+    "name": "Baby good night",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/cb/e7/18cbe7da-ff49-5acf-aa3d-1a0c4d8336ac/mzaf_7049509166161937761.plus.aac.p.m4a",
+    "duration": 200248,
+    "trackUrl": "https://music.apple.com/us/album/baby-good-night/1738880493?i=1738880494",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880494"
+  },
+  {
+    "id": "applemusic-1738880496",
+    "name": "Because of you",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/29/d1/bf29d13c-8a65-feca-ff99-9e84aa68cc4e/mzaf_11514735592805616577.plus.aac.p.m4a",
+    "duration": 231105,
+    "trackUrl": "https://music.apple.com/us/album/because-of-you/1738880493?i=1738880496",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880496"
+  },
+  {
+    "id": "applemusic-1738880497",
+    "name": "Baby i'm sorry",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/82/c2/b282c23d-6edc-7f98-cce2-8e6f477f6b1c/mzaf_2723872514550882540.plus.aac.p.m4a",
+    "duration": 211680,
+    "trackUrl": "https://music.apple.com/us/album/baby-im-sorry/1738880493?i=1738880497",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880497"
+  },
+  {
+    "id": "applemusic-1738880499",
+    "name": "THIS TIME IS OVER",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/01/51/3e/01513e9d-f94b-b87a-c87c-83f8d80106f3/mzaf_7371123727611949510.plus.aac.p.m4a",
+    "duration": 199842,
+    "trackUrl": "https://music.apple.com/us/album/this-time-is-over/1738880493?i=1738880499",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880499"
+  },
+  {
+    "id": "applemusic-1738880500",
+    "name": "SO FINE",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/61/88/96618860-3fcf-54de-3666-e531ea26e0fe/mzaf_5711375998973332644.plus.aac.p.m4a",
+    "duration": 190700,
+    "trackUrl": "https://music.apple.com/us/album/so-fine/1738880493?i=1738880500",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880500"
+  },
+  {
+    "id": "applemusic-1738880501",
+    "name": "SUPER SONIC",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/20/13/4c20137d-3aac-dac2-7b3a-4b77cffd7773/mzaf_13120196802553041205.plus.aac.p.m4a",
+    "duration": 187024,
+    "trackUrl": "https://music.apple.com/us/album/super-sonic/1738880493?i=1738880501",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880501"
+  },
+  {
+    "id": "applemusic-1738880502",
+    "name": "Just the two of us (BARO SOLO) [feat.Min]",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/35/05/b53505c2-826f-127b-3ca8-75ef865f1aea/mzaf_11364466026925431532.plus.aac.p.m4a",
+    "duration": 218792,
+    "trackUrl": "https://music.apple.com/us/album/just-the-two-of-us-baro-solo-feat-min/1738880493?i=1738880502",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880502"
+  },
+  {
+    "id": "applemusic-1738880503",
+    "name": "Smile",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/02/ac/f902ac2a-2ecc-0591-2352-9f53fb8d2475/mzaf_14329152410918633310.plus.aac.p.m4a",
+    "duration": 239734,
+    "trackUrl": "https://music.apple.com/us/album/smile/1738880493?i=1738880503",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880503"
+  },
+  {
+    "id": "applemusic-1738880504",
+    "name": "Feeling",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/66/24/c1/6624c10b-1b50-86df-8183-b0f18a751e78/mzaf_5627903473478440902.plus.aac.p.m4a",
+    "duration": 210854,
+    "trackUrl": "https://music.apple.com/us/album/feeling/1738880493?i=1738880504",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880504"
+  },
+  {
+    "id": "applemusic-1738877071",
+    "name": "Unrequited love",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (1)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/db/07/c3db07e8-f042-fd9e-80dd-8acab6763efb/mzaf_3374871710620172228.plus.aac.p.m4a",
+    "duration": 229031,
+    "trackUrl": "https://music.apple.com/us/album/unrequited-love/1738877063?i=1738877071",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/e9/ee/e7e9ee71-9dd4-6c09-9acf-06844629788b/cover_KM0004090_1.jpg/300x300bb.jpg",
+    "trackId": "1738877071"
+  },
+  {
+    "id": "applemusic-1738880506",
+    "name": "YOU ARE MY GIRL",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "IGNITION (SPECIAL EDITION)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/43/9d/83439d4c-6de0-63f9-ffd1-7ff5941566f9/mzaf_929615754231948352.plus.aac.p.m4a",
+    "duration": 222411,
+    "trackUrl": "https://music.apple.com/us/album/you-are-my-girl/1738880493?i=1738880506",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
+    "trackId": "1738880506"
+  },
+  {
     "id": "applemusic-1738876745",
     "name": "Beautiful Target",
     "artists": [
@@ -921,149 +1064,6 @@
     "trackUrl": "https://music.apple.com/us/album/fooool/1738876744?i=1738876749",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/35/29/7e352945-a9e1-70d3-e375-adadc96b164a/cover_KM0004089_1.jpg/300x300bb.jpg",
     "trackId": "1738876749"
-  },
-  {
-    "id": "applemusic-1738880494",
-    "name": "Baby good night",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/92/b5/23/92b523f1-a491-b5a2-432b-efd8749e7661/mzaf_4159604581174737625.plus.aac.p.m4a",
-    "duration": 200248,
-    "trackUrl": "https://music.apple.com/us/album/baby-good-night/1738880493?i=1738880494",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880494"
-  },
-  {
-    "id": "applemusic-1738880496",
-    "name": "Because of you",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/4b/c8/224bc8bd-33e2-0390-ebf8-e7030a4b129c/mzaf_16042711938186099338.plus.aac.p.m4a",
-    "duration": 231105,
-    "trackUrl": "https://music.apple.com/us/album/because-of-you/1738880493?i=1738880496",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880496"
-  },
-  {
-    "id": "applemusic-1738880497",
-    "name": "Baby i'm sorry",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/f9/3f/6ff93f92-a76b-f8f5-a31e-0cb508b6d07f/mzaf_4343218635215191906.plus.aac.p.m4a",
-    "duration": 211680,
-    "trackUrl": "https://music.apple.com/us/album/baby-im-sorry/1738880493?i=1738880497",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880497"
-  },
-  {
-    "id": "applemusic-1738880499",
-    "name": "THIS TIME IS OVER",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/8d/a6/ea8da675-2d0d-814a-dc78-e9912c6f778f/mzaf_13303202006146286422.plus.aac.p.m4a",
-    "duration": 199842,
-    "trackUrl": "https://music.apple.com/us/album/this-time-is-over/1738880493?i=1738880499",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880499"
-  },
-  {
-    "id": "applemusic-1738880500",
-    "name": "SO FINE",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/69/da/e369da22-e535-559f-be28-b239561d2db1/mzaf_3822839025632480737.plus.aac.p.m4a",
-    "duration": 190700,
-    "trackUrl": "https://music.apple.com/us/album/so-fine/1738880493?i=1738880500",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880500"
-  },
-  {
-    "id": "applemusic-1738880501",
-    "name": "SUPER SONIC",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/2f/ec/ab2fec1d-b1b9-ca23-1de6-7b56321dd0bd/mzaf_5227512487015624748.plus.aac.p.m4a",
-    "duration": 187024,
-    "trackUrl": "https://music.apple.com/us/album/super-sonic/1738880493?i=1738880501",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880501"
-  },
-  {
-    "id": "applemusic-1738880502",
-    "name": "Just the two of us (BARO SOLO) [feat.Min]",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/91/d0/f491d04c-3e9b-6c34-61ea-6b4cd7117157/mzaf_7082520840578509568.plus.aac.p.m4a",
-    "duration": 218792,
-    "trackUrl": "https://music.apple.com/us/album/just-the-two-of-us-baro-solo-feat-min/1738880493?i=1738880502",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880502"
-  },
-  {
-    "id": "applemusic-1738880503",
-    "name": "Smile",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/f9/33/7af9336b-04f6-338b-7643-489d75778d27/mzaf_15801616062401592503.plus.aac.p.m4a",
-    "duration": 239734,
-    "trackUrl": "https://music.apple.com/us/album/smile/1738880493?i=1738880503",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880503"
-  },
-  {
-    "id": "applemusic-1738880504",
-    "name": "Feeling",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/71/33/e071331b-60ca-697e-d5ef-cdbc727811f2/mzaf_11108644305870130805.plus.aac.p.m4a",
-    "duration": 210854,
-    "trackUrl": "https://music.apple.com/us/album/feeling/1738880493?i=1738880504",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880504"
-  },
-  {
-    "id": "applemusic-1738877071",
-    "name": "Unrequited love",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (1)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/db/07/c3db07e8-f042-fd9e-80dd-8acab6763efb/mzaf_3374871710620172228.plus.aac.p.m4a",
-    "duration": 229031,
-    "trackUrl": "https://music.apple.com/us/album/unrequited-love/1738877063?i=1738877071",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/e9/ee/e7e9ee71-9dd4-6c09-9acf-06844629788b/cover_KM0004090_1.jpg/300x300bb.jpg",
-    "trackId": "1738877071"
-  },
-  {
-    "id": "applemusic-1738880506",
-    "name": "YOU ARE MY GIRL",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "IGNITION (SPECIAL EDITION)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/57/f9/af57f96c-9ace-b98d-2e7d-56f4b5255820/mzaf_6305021025218254643.plus.aac.p.m4a",
-    "duration": 222411,
-    "trackUrl": "https://music.apple.com/us/album/you-are-my-girl/1738880493?i=1738880506",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/58/9a/76589a99-323b-b2b4-811c-ea4721b59714/cover_KM0004091_1.jpg/300x300bb.jpg",
-    "trackId": "1738880506"
   },
   {
     "id": "applemusic-1760494575",
@@ -1326,69 +1326,69 @@
     "trackId": "1398105315"
   },
   {
-    "id": "applemusic-569114606",
-    "name": "Beautiful Lie",
+    "id": "applemusic-1893878512",
+    "name": "Rock Paper Scissors",
     "artists": [
       "B1A4"
     ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b0/33/32/b033327a-122a-20cb-2724-3cafbf789291/mzaf_7562034258000119476.plus.aac.p.m4a",
-    "duration": 214200,
-    "trackUrl": "https://music.apple.com/us/album/beautiful-lie/569114603?i=569114606",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114606"
+    "album": "SET - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/31/9b/12319b37-21de-fed8-3636-6b4b64aa681e/mzaf_15590327668429301419.plus.aac.p.m4a",
+    "duration": 177000,
+    "trackUrl": "https://music.apple.com/us/album/rock-paper-scissors/1893878511?i=1893878512",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/dc/e9/06dce9c2-49da-badb-29c3-1201ed5a5aa6/191953536576.jpg/300x300bb.jpg",
+    "trackId": "1893878512"
   },
   {
-    "id": "applemusic-569114608",
-    "name": "Empty Mind",
+    "id": "applemusic-1893878573",
+    "name": "CPR",
     "artists": [
       "B1A4"
     ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/8e/93/138e9306-d991-99cb-53bb-e1850feea862/mzaf_18265829435777673568.plus.aac.p.m4a",
-    "duration": 223560,
-    "trackUrl": "https://music.apple.com/us/album/empty-mind/569114603?i=569114608",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114608"
+    "album": "SET - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/d7/7d/b1d77d77-ef21-ce3e-ba93-8164295ebac0/mzaf_15633986660131792963.plus.aac.p.m4a",
+    "duration": 203000,
+    "trackUrl": "https://music.apple.com/us/album/cpr/1893878511?i=1893878573",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/dc/e9/06dce9c2-49da-badb-29c3-1201ed5a5aa6/191953536576.jpg/300x300bb.jpg",
+    "trackId": "1893878573"
   },
   {
-    "id": "applemusic-569114770",
-    "name": "Tipping Point",
+    "id": "applemusic-1893878575",
+    "name": "Colors on me",
     "artists": [
       "B1A4"
     ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/b5/64/c3b564f9-0086-4d2f-d411-c2bda90cc7da/mzaf_2638904713079951827.plus.aac.p.m4a",
-    "duration": 220707,
-    "trackUrl": "https://music.apple.com/us/album/tipping-point/569114603?i=569114770",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114770"
+    "album": "SET - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/04/b4/b004b413-2fe4-cb49-73e6-7961f824173b/mzaf_10111033400089935452.plus.aac.p.m4a",
+    "duration": 168000,
+    "trackUrl": "https://music.apple.com/us/album/colors-on-me/1893878511?i=1893878575",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/dc/e9/06dce9c2-49da-badb-29c3-1201ed5a5aa6/191953536576.jpg/300x300bb.jpg",
+    "trackId": "1893878575"
   },
   {
-    "id": "applemusic-569114771",
-    "name": "Wake Me Up",
+    "id": "applemusic-1893878576",
+    "name": "5959",
     "artists": [
       "B1A4"
     ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/ec/08/71ec089b-d1d9-9078-b25b-c2eac15b4db2/mzaf_7051905020324542847.plus.aac.p.m4a",
-    "duration": 212333,
-    "trackUrl": "https://music.apple.com/us/album/wake-me-up/569114603?i=569114771",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114771"
+    "album": "SET - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d5/8b/38/d58b385f-bd3d-9c24-6364-52960c469c70/mzaf_515146238339419625.plus.aac.p.m4a",
+    "duration": 199000,
+    "trackUrl": "https://music.apple.com/us/album/5959/1893878511?i=1893878576",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/dc/e9/06dce9c2-49da-badb-29c3-1201ed5a5aa6/191953536576.jpg/300x300bb.jpg",
+    "trackId": "1893878576"
   },
   {
-    "id": "applemusic-569114774",
-    "name": "One Love",
+    "id": "applemusic-1893878577",
+    "name": "The star",
     "artists": [
       "B1A4"
     ],
-    "album": "1 (Standard Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/f1/f0/6bf1f0a6-a7b1-cd17-bd1e-1831d257cb3f/mzaf_1774372994533229679.plus.aac.p.m4a",
-    "duration": 213080,
-    "trackUrl": "https://music.apple.com/us/album/one-love/569114603?i=569114774",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
-    "trackId": "569114774"
+    "album": "SET - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/85/eb/c085ebac-529f-7de9-62a4-473f42757a76/mzaf_9661554684077206033.plus.aac.p.m4a",
+    "duration": 219000,
+    "trackUrl": "https://music.apple.com/us/album/the-star/1893878511?i=1893878577",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/06/dc/e9/06dce9c2-49da-badb-29c3-1201ed5a5aa6/191953536576.jpg/300x300bb.jpg",
+    "trackId": "1893878577"
   },
   {
     "id": "applemusic-1445043086",
@@ -1612,6 +1612,123 @@
     "trackId": "1347104164"
   },
   {
+    "id": "applemusic-569114606",
+    "name": "Beautiful Lie",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b0/33/32/b033327a-122a-20cb-2724-3cafbf789291/mzaf_7562034258000119476.plus.aac.p.m4a",
+    "duration": 214200,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-lie/569114603?i=569114606",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114606"
+  },
+  {
+    "id": "applemusic-569114607",
+    "name": "Oyasumi Good Night -Japanese Ver.-",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/51/34/b3/5134b361-992e-4fb1-1513-5f3d5a4a58de/mzaf_7458995260708601505.plus.aac.p.m4a",
+    "duration": 202347,
+    "trackUrl": "https://music.apple.com/us/album/oyasumi-good-night-japanese-ver/569114603?i=569114607",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114607"
+  },
+  {
+    "id": "applemusic-569114608",
+    "name": "Empty Mind",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/8e/93/138e9306-d991-99cb-53bb-e1850feea862/mzaf_18265829435777673568.plus.aac.p.m4a",
+    "duration": 223560,
+    "trackUrl": "https://music.apple.com/us/album/empty-mind/569114603?i=569114608",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114608"
+  },
+  {
+    "id": "applemusic-569114769",
+    "name": "Waruikoto Bakari Manande -Japanese Ver.-",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/5d/9f/29/5d9f29a7-838e-bd36-155b-095d3a2a94a8/mzaf_14896178509923771487.plus.aac.p.m4a",
+    "duration": 224093,
+    "trackUrl": "https://music.apple.com/us/album/waruikoto-bakari-manande-japanese-ver/569114603?i=569114769",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114769"
+  },
+  {
+    "id": "applemusic-569114770",
+    "name": "Tipping Point",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/b5/64/c3b564f9-0086-4d2f-d411-c2bda90cc7da/mzaf_2638904713079951827.plus.aac.p.m4a",
+    "duration": 220707,
+    "trackUrl": "https://music.apple.com/us/album/tipping-point/569114603?i=569114770",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114770"
+  },
+  {
+    "id": "applemusic-569114771",
+    "name": "Wake Me Up",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/ec/08/71ec089b-d1d9-9078-b25b-c2eac15b4db2/mzaf_7051905020324542847.plus.aac.p.m4a",
+    "duration": 212333,
+    "trackUrl": "https://music.apple.com/us/album/wake-me-up/569114603?i=569114771",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114771"
+  },
+  {
+    "id": "applemusic-569114773",
+    "name": "Beautiful Target-Japanese Ver.-",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f5/be/63/f5be637a-d848-ce4b-0672-6f9f7fdfc112/mzaf_15322600443713546382.plus.aac.p.m4a",
+    "duration": 199200,
+    "trackUrl": "https://music.apple.com/us/album/beautiful-target-japanese-ver/569114603?i=569114773",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114773"
+  },
+  {
+    "id": "applemusic-569114774",
+    "name": "One Love",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/f1/f0/6bf1f0a6-a7b1-cd17-bd1e-1831d257cb3f/mzaf_1774372994533229679.plus.aac.p.m4a",
+    "duration": 213080,
+    "trackUrl": "https://music.apple.com/us/album/one-love/569114603?i=569114774",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114774"
+  },
+  {
+    "id": "applemusic-569114775",
+    "name": "O.K-Japanese Ver.-",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "1 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/fc/e7/43fce7dc-f37b-986d-fab0-40e686eeca1e/mzaf_8701957336153890472.plus.aac.p.m4a",
+    "duration": 213760,
+    "trackUrl": "https://music.apple.com/us/album/o-k-japanese-ver/569114603?i=569114775",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/84/ef/ff/84efff35-ab22-28a6-d0d9-ba876d13e8ea/PCCA_03701_itunes.png/300x300bb.jpg",
+    "trackId": "569114775"
+  },
+  {
     "id": "applemusic-1347079433",
     "name": "Ready to Go",
     "artists": [
@@ -1703,6 +1820,32 @@
     "trackId": "1647290277"
   },
   {
+    "id": "applemusic-830255287",
+    "name": "Hoshikage no Uta - Japanese Ver. -",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "2 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/bd/8e/1ebd8e53-c471-6dde-8e6c-67d2f7a188a9/mzaf_10239535854587810821.plus.aac.p.m4a",
+    "duration": 220973,
+    "trackUrl": "https://music.apple.com/us/album/hoshikage-no-uta-japanese-ver/830255242?i=830255287",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/47/be/ed/47beed49-61a7-6c10-aee6-1d65b911e080/PCCA_04007_itunes.png/300x300bb.jpg",
+    "trackId": "830255287"
+  },
+  {
+    "id": "applemusic-830255290",
+    "name": "Aruite Miru - Japanese Ver. -",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "2 (Standard Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b5/b4/0b/b5b40b70-be77-143a-aa87-f238fb1b29df/mzaf_5044781280182876162.plus.aac.p.m4a",
+    "duration": 220853,
+    "trackUrl": "https://music.apple.com/us/album/aruite-miru-japanese-ver/830255242?i=830255290",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/47/be/ed/47beed49-61a7-6c10-aee6-1d65b911e080/PCCA_04007_itunes.png/300x300bb.jpg",
+    "trackId": "830255290"
+  },
+  {
     "id": "applemusic-642322762",
     "name": "Sunshine",
     "artists": [
@@ -1774,50 +1917,24 @@
       "B1A4"
     ],
     "album": "The Package (Original Television Soundtrack), Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/73/94/31739449-00de-1f3e-dd25-6f12783ec717/mzaf_15191046469094351930.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/22/7b/af227b87-ece6-1f17-d1c1-76469e90626b/mzaf_15408695165085980817.plus.aac.p.m4a",
     "duration": 187186,
     "trackUrl": "https://music.apple.com/us/album/you-are-my-baby/1404219124?i=1404219126",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/11/ad/c8/11adc8e6-0c6a-b5ec-0e9a-4bfb3720296a/p1_B1A4_YouAreMyBaby_Cover.jpg/300x300bb.jpg",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/47/69/d3476930-e339-2b09-e41e-87ec799a39d1/191953011806.jpg/300x300bb.jpg",
     "trackId": "1404219126"
   },
   {
-    "id": "applemusic-1647285439",
-    "name": "Mc:CNU/Guest:JINYOUNG Talk1",
+    "id": "applemusic-955393724",
+    "name": "Muruhanjan - Japanese Ver. -",
     "artists": [
       "B1A4"
     ],
-    "album": "Miracle Radio-2.5kHz-vol.1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/05/7b/6a/057b6a89-05b7-cafd-3566-6ccc8d0b8065/mzaf_15488513580423387425.plus.aac.p.m4a",
-    "duration": 108160,
-    "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk1/1647285438?i=1647285439",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
-    "trackId": "1647285439"
-  },
-  {
-    "id": "applemusic-1647285443",
-    "name": "Mc:CNU/Guest:JINYOUNG Talk2",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Miracle Radio-2.5kHz-vol.1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/da/8b/74/da8b744d-6bbb-b5f1-aa96-edc50df3e1b6/mzaf_17865617544104484877.plus.aac.p.m4a",
-    "duration": 125067,
-    "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk2/1647285438?i=1647285443",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
-    "trackId": "1647285443"
-  },
-  {
-    "id": "applemusic-1647285448",
-    "name": "Mc:CNU/Guest:JINYOUNG Talk3",
-    "artists": [
-      "B1A4"
-    ],
-    "album": "Miracle Radio-2.5kHz-vol.1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d4/2e/7f/d42e7fba-cc78-d13e-dce9-f09e0b1f951d/mzaf_3288117053082692842.plus.aac.p.m4a",
-    "duration": 47413,
-    "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk3/1647285438?i=1647285448",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
-    "trackId": "1647285448"
+    "album": "Shiroi Kiseki (Standard Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/24/80/b0/2480b0e1-883c-c9f8-c41f-419d825cb8f9/mzaf_17254458048890688075.plus.aac.p.m4a",
+    "duration": 209520,
+    "trackUrl": "https://music.apple.com/us/album/muruhanjan-japanese-ver/955393711?i=955393724",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/7e/b5/31/7eb5312b-80d1-a01b-1a3a-1b7cbbc11014/PCCA_04168_itunes.png/300x300bb.jpg",
+    "trackId": "955393724"
   },
   {
     "id": "applemusic-1647289933",
@@ -1857,6 +1974,45 @@
     "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-sandeul-talk3/1647289932?i=1647289971",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/86/56/fc/8656fc96-7915-97be-5a3b-0fd6d79b81d4/PCCA_04190.jpg/300x300bb.jpg",
     "trackId": "1647289971"
+  },
+  {
+    "id": "applemusic-1647285439",
+    "name": "Mc:CNU/Guest:JINYOUNG Talk1",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Miracle Radio-2.5kHz-vol.1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/05/7b/6a/057b6a89-05b7-cafd-3566-6ccc8d0b8065/mzaf_15488513580423387425.plus.aac.p.m4a",
+    "duration": 108160,
+    "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk1/1647285438?i=1647285439",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
+    "trackId": "1647285439"
+  },
+  {
+    "id": "applemusic-1647285443",
+    "name": "Mc:CNU/Guest:JINYOUNG Talk2",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Miracle Radio-2.5kHz-vol.1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/da/8b/74/da8b744d-6bbb-b5f1-aa96-edc50df3e1b6/mzaf_17865617544104484877.plus.aac.p.m4a",
+    "duration": 125067,
+    "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk2/1647285438?i=1647285443",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
+    "trackId": "1647285443"
+  },
+  {
+    "id": "applemusic-1647285448",
+    "name": "Mc:CNU/Guest:JINYOUNG Talk3",
+    "artists": [
+      "B1A4"
+    ],
+    "album": "Miracle Radio-2.5kHz-vol.1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d4/2e/7f/d42e7fba-cc78-d13e-dce9-f09e0b1f951d/mzaf_3288117053082692842.plus.aac.p.m4a",
+    "duration": 47413,
+    "trackUrl": "https://music.apple.com/us/album/mc-cnu-guest-jinyoung-talk3/1647285438?i=1647285448",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/00/f4/bd/00f4bde4-2319-dc36-24c7-306d3f41790d/PCCA_04189.jpg/300x300bb.jpg",
+    "trackId": "1647285448"
   },
   {
     "id": "applemusic-1647290275",

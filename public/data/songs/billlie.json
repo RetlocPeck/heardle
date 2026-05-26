@@ -52,84 +52,6 @@
     "trackId": "1788004247"
   },
   {
-    "id": "applemusic-1787519880",
-    "name": "enchanted night ~ white night",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception: chapter three - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/bf/67/67bf67b9-0f2e-9a07-7612-a3fc32f638e8/mzaf_3583700504114600797.plus.aac.p.m4a",
-    "duration": 179019,
-    "trackUrl": "https://music.apple.com/us/album/enchanted-night-white-night/1787519876?i=1787519880",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
-    "trackId": "1787519880"
-  },
-  {
-    "id": "applemusic-1787519883",
-    "name": "lionheart (the real me)",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception: chapter three - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/41/6c/cd416cce-7833-1740-4279-b67bea9ca86e/mzaf_8165315139570785473.plus.aac.p.m4a",
-    "duration": 207571,
-    "trackUrl": "https://music.apple.com/us/album/lionheart-the-real-me/1787519876?i=1787519883",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
-    "trackId": "1787519883"
-  },
-  {
-    "id": "applemusic-1787519884",
-    "name": "EUNOIA",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception: chapter three - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/65/81/ea6581e0-fb64-8d31-dae7-92449c86c984/mzaf_17517036329119364128.plus.aac.p.m4a",
-    "duration": 203108,
-    "trackUrl": "https://music.apple.com/us/album/eunoia/1787519876?i=1787519884",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
-    "trackId": "1787519884"
-  },
-  {
-    "id": "applemusic-1787519885",
-    "name": "various and precious (moment of inertia)",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception: chapter three - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/b7/35/65b73516-cd2e-e9e2-0588-66d30523ad22/mzaf_1104216022924256402.plus.aac.p.m4a",
-    "duration": 196274,
-    "trackUrl": "https://music.apple.com/us/album/various-and-precious-moment-of-inertia/1787519876?i=1787519885",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
-    "trackId": "1787519885"
-  },
-  {
-    "id": "applemusic-1787519887",
-    "name": "extra-ordinary",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception: chapter three - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/70/fe/2470fe50-16a4-c0ba-394e-0327e728c0b8/mzaf_11453123038301377522.plus.aac.p.m4a",
-    "duration": 186323,
-    "trackUrl": "https://music.apple.com/us/album/extra-ordinary/1787519876?i=1787519887",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
-    "trackId": "1787519887"
-  },
-  {
-    "id": "applemusic-1787519888",
-    "name": "nevertheless",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "the Billage of perception: chapter three - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/f9/3d/65f93d04-6deb-02e3-44d8-fbb950f3ba6e/mzaf_335232134065773552.plus.aac.p.m4a",
-    "duration": 205934,
-    "trackUrl": "https://music.apple.com/us/album/nevertheless/1787519876?i=1787519888",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
-    "trackId": "1787519888"
-  },
-  {
     "id": "applemusic-1787820496",
     "name": "RING X RING",
     "artists": [
@@ -208,6 +130,84 @@
     "trackId": "1787820651"
   },
   {
+    "id": "applemusic-1787519880",
+    "name": "enchanted night ~ white night",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception: chapter three - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/6e/a0/4a6ea030-77ba-404c-8690-c2b7ccc03ada/mzaf_15988283445152772131.plus.aac.p.m4a",
+    "duration": 179019,
+    "trackUrl": "https://music.apple.com/us/album/enchanted-night-white-night/1787519876?i=1787519880",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
+    "trackId": "1787519880"
+  },
+  {
+    "id": "applemusic-1787519883",
+    "name": "lionheart (the real me)",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception: chapter three - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/7f/33/cf7f3314-7666-fdbd-b462-922606308a84/mzaf_13660800563874323595.plus.aac.p.m4a",
+    "duration": 207571,
+    "trackUrl": "https://music.apple.com/us/album/lionheart-the-real-me/1787519876?i=1787519883",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
+    "trackId": "1787519883"
+  },
+  {
+    "id": "applemusic-1787519884",
+    "name": "EUNOIA",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception: chapter three - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/dc/bf/7fdcbfbd-3fa6-35e1-234b-ab7ef436e29a/mzaf_13376643677323775536.plus.aac.p.m4a",
+    "duration": 203108,
+    "trackUrl": "https://music.apple.com/us/album/eunoia/1787519876?i=1787519884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
+    "trackId": "1787519884"
+  },
+  {
+    "id": "applemusic-1787519885",
+    "name": "various and precious (moment of inertia)",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception: chapter three - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/d9/58/1bd958c8-55f2-9bb1-d217-17d1f1eedac5/mzaf_9001806168217599066.plus.aac.p.m4a",
+    "duration": 196274,
+    "trackUrl": "https://music.apple.com/us/album/various-and-precious-moment-of-inertia/1787519876?i=1787519885",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
+    "trackId": "1787519885"
+  },
+  {
+    "id": "applemusic-1787519887",
+    "name": "extra-ordinary",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception: chapter three - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/05/d6/4805d6e2-ce5e-f427-0771-0a21d8759f78/mzaf_3938476406290844291.plus.aac.p.m4a",
+    "duration": 186323,
+    "trackUrl": "https://music.apple.com/us/album/extra-ordinary/1787519876?i=1787519887",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
+    "trackId": "1787519887"
+  },
+  {
+    "id": "applemusic-1787519888",
+    "name": "nevertheless",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the Billage of perception: chapter three - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/c7/4e/41c74e8d-9b7c-b31c-11e5-32cf57f3a9d4/mzaf_8617413394380318777.plus.aac.p.m4a",
+    "duration": 205934,
+    "trackUrl": "https://music.apple.com/us/album/nevertheless/1787519876?i=1787519888",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ee/93/1e/ee931e0b-bced-61e2-eed4-80bb7a59040c/8804775284625.jpg/300x300bb.jpg",
+    "trackId": "1787519888"
+  },
+  {
     "id": "applemusic-1787530001",
     "name": "my B = the Birth of emotion",
     "artists": [
@@ -271,6 +271,110 @@
     "trackUrl": "https://music.apple.com/us/album/snowy-night/1787527177?i=1787527178",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ff/27/2d/ff272d7c-cbe6-4b10-a650-88a0e1edc297/8804775224010.jpg/300x300bb.jpg",
     "trackId": "1787527178"
+  },
+  {
+    "id": "applemusic-6764497063",
+    "name": "$ECRET no more",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/e6/41/83e641dd-66a9-283d-e6e4-8d2ba4469a91/mzaf_3434002462976480845.plus.aac.p.m4a",
+    "duration": 210082,
+    "trackUrl": "https://music.apple.com/us/album/%24ecret-no-more/1895807762?i=6764497063",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497063"
+  },
+  {
+    "id": "applemusic-6764497064",
+    "name": "ZAP",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/5e/ce/615ecec8-d4f3-a8a8-149c-2ab931fadf9f/mzaf_12810490231131057224.plus.aac.p.m4a",
+    "duration": 148356,
+    "trackUrl": "https://music.apple.com/us/album/zap/1895807762?i=6764497064",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497064"
+  },
+  {
+    "id": "applemusic-6764497065",
+    "name": "WORK",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/8a/6c/5f8a6c35-89c9-3711-ffb1-78a4c08e28c1/mzaf_2002092834432501179.plus.aac.p.m4a",
+    "duration": 176849,
+    "trackUrl": "https://music.apple.com/us/album/work/1895807762?i=6764497065",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497065"
+  },
+  {
+    "id": "applemusic-6764497066",
+    "name": "TBD",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f7/53/f1/f753f196-7999-923c-84ce-f03dda436840/mzaf_8747772697876945188.plus.aac.p.m4a",
+    "duration": 151866,
+    "trackUrl": "https://music.apple.com/us/album/tbd/1895807762?i=6764497066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497066"
+  },
+  {
+    "id": "applemusic-6764497067",
+    "name": "B'yond me",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/20/6b/8d/206b8dcc-c7ed-571c-8e41-b8ebf33dfdfd/mzaf_16374907142663283123.plus.aac.p.m4a",
+    "duration": 198325,
+    "trackUrl": "https://music.apple.com/us/album/byond-me/1895807762?i=6764497067",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497067"
+  },
+  {
+    "id": "applemusic-6764497068",
+    "name": "SOUPASTA",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/27/f9/3227f954-b615-677d-e15c-08b7fce8a144/mzaf_3277428048653086357.plus.aac.p.m4a",
+    "duration": 152571,
+    "trackUrl": "https://music.apple.com/us/album/soupasta/1895807762?i=6764497068",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497068"
+  },
+  {
+    "id": "applemusic-6764497069",
+    "name": "OFF-AIR",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/07/a2/1b07a299-38c0-b95f-c735-98cd08b93db1/mzaf_2142638589080249179.plus.aac.p.m4a",
+    "duration": 163929,
+    "trackUrl": "https://music.apple.com/us/album/off-air/1895807762?i=6764497069",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497069"
+  },
+  {
+    "id": "applemusic-6764497073",
+    "name": "DOMINO ~ butterfly effect",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "the collective soul and unconscious: chapter two",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/4b/85/fd4b8596-7262-7b38-bbd3-ddb7953cffc3/mzaf_1708101537316859115.plus.aac.p.m4a",
+    "duration": 176567,
+    "trackUrl": "https://music.apple.com/us/album/domino-butterfly-effect/1895807762?i=6764497073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/fb/9b/aafb9b23-f793-3d5b-cb3b-21bd0f05a7c0/191953540108.jpg/300x300bb.jpg",
+    "trackId": "6764497073"
   },
   {
     "id": "applemusic-1773736255",
@@ -362,19 +466,6 @@
     "trackUrl": "https://music.apple.com/us/album/byob-bring-your-own-best-friend/1787521814?i=1787521817",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/79/0d/e4790ddd-dfbf-4833-e5b3-595f84265fcb/8804775283963.jpg/300x300bb.jpg",
     "trackId": "1787521817"
-  },
-  {
-    "id": "applemusic-1871359632",
-    "name": "cloud palace",
-    "artists": [
-      "Billlie"
-    ],
-    "album": "cloud palace ~ false awakening - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/40/d7/d440d76b-df59-1527-e9f2-88d69e0c60a1/mzaf_8860272534769692454.plus.aac.p.m4a",
-    "duration": 201772,
-    "trackUrl": "https://music.apple.com/us/album/cloud-palace/1871359631?i=1871359632",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/3a/ff/d33affd8-8107-90fe-7c9d-435c6a950a4b/191953511689.jpg/300x300bb.jpg",
-    "trackId": "1871359632"
   },
   {
     "id": "applemusic-1787408769",
@@ -518,6 +609,84 @@
     "trackUrl": "https://music.apple.com/us/album/welcome-to-the-strange-world-ggmgy/1787528741?i=1787528750",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6d/06/33/6d0633cd-0ac6-a365-cfc3-e50ceedde5d2/8804775247583.jpg/300x300bb.jpg",
     "trackId": "1787528750"
+  },
+  {
+    "id": "applemusic-1871359632",
+    "name": "cloud palace",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "cloud palace ~ false awakening - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/40/d7/d440d76b-df59-1527-e9f2-88d69e0c60a1/mzaf_8860272534769692454.plus.aac.p.m4a",
+    "duration": 201772,
+    "trackUrl": "https://music.apple.com/us/album/cloud-palace/1871359631?i=1871359632",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d3/3a/ff/d33affd8-8107-90fe-7c9d-435c6a950a4b/191953511689.jpg/300x300bb.jpg",
+    "trackId": "1871359632"
+  },
+  {
+    "id": "applemusic-1726858401",
+    "name": "Domino ~ Butterfly Effect - Japanese Ver. -",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "Knock-on Effect - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/9c/99/6b9c9916-10ac-e440-2890-7ce5b33b1b29/mzaf_7302795473865095316.plus.aac.p.m4a",
+    "duration": 179867,
+    "trackUrl": "https://music.apple.com/us/album/domino-butterfly-effect-japanese-ver/1726858400?i=1726858401",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
+    "trackId": "1726858401"
+  },
+  {
+    "id": "applemusic-1726858402",
+    "name": "Dang! (Hocus Pocus) - Japanese Ver. -",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "Knock-on Effect - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/c3/36/26c3365e-0040-fb26-1cc7-8b5d1551a4bc/mzaf_11937109445439671301.plus.aac.p.m4a",
+    "duration": 185800,
+    "trackUrl": "https://music.apple.com/us/album/dang-hocus-pocus-japanese-ver/1726858400?i=1726858402",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
+    "trackId": "1726858402"
+  },
+  {
+    "id": "applemusic-1726858410",
+    "name": "BYOB (Bring Your Own Best Friend) - Japanese Ver. -",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "Knock-on Effect - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/ae/6d/42ae6dfb-357d-5cc0-c3b3-210c1248ff79/mzaf_5138570870124654974.plus.aac.p.m4a",
+    "duration": 159400,
+    "trackUrl": "https://music.apple.com/us/album/byob-bring-your-own-best-friend-japanese-ver/1726858400?i=1726858410",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
+    "trackId": "1726858410"
+  },
+  {
+    "id": "applemusic-1726858411",
+    "name": "RING ma Bell (What a Wonderful World) - Japanese Ver. -",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "Knock-on Effect - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/b6/4d/a9b64d6b-deba-5e48-e222-8b288057514d/mzaf_4160527618625151441.plus.aac.p.m4a",
+    "duration": 206133,
+    "trackUrl": "https://music.apple.com/us/album/ring-ma-bell-what-a-wonderful-world-japanese-ver/1726858400?i=1726858411",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
+    "trackId": "1726858411"
+  },
+  {
+    "id": "applemusic-1726858414",
+    "name": "GingaMingaYo (The Strange World) - Japanese Ver. -",
+    "artists": [
+      "Billlie"
+    ],
+    "album": "Knock-on Effect - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/c2/ff/f6c2ff33-ac95-7edc-7681-96dba1576232/mzaf_10661024286809736043.plus.aac.p.m4a",
+    "duration": 218333,
+    "trackUrl": "https://music.apple.com/us/album/gingamingayo-the-strange-world-japanese-ver/1726858400?i=1726858414",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/7f/4f/0a7f4f0f-43c4-7923-d448-d238cdbafd33/VEATP-42425.jpg/300x300bb.jpg",
+    "trackId": "1726858414"
   },
   {
     "id": "applemusic-1787522443",

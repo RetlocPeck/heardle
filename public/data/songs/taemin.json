@@ -1,109 +1,5 @@
 [
   {
-    "id": "applemusic-1296637199",
-    "name": "MOVE",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/d1/40/c3d14042-b764-f782-da54-903e1342a9e7/mzaf_9559794878117185504.plus.aac.p.m4a",
-    "duration": 211949,
-    "trackUrl": "https://music.apple.com/us/album/move/1296637194?i=1296637199",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637199"
-  },
-  {
-    "id": "applemusic-1296637200",
-    "name": "Love",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4b/f6/6c/4bf66c71-d1fd-b30e-1107-bc37c0f91360/mzaf_15862465114888926341.plus.aac.p.m4a",
-    "duration": 229564,
-    "trackUrl": "https://music.apple.com/us/album/love/1296637194?i=1296637200",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637200"
-  },
-  {
-    "id": "applemusic-1296637201",
-    "name": "Crazy 4 U",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/5d/12/1b5d1211-e5de-dbba-6acd-da00b0c0d1dc/mzaf_17119583143572563864.plus.aac.p.m4a",
-    "duration": 215527,
-    "trackUrl": "https://music.apple.com/us/album/crazy-4-u/1296637194?i=1296637201",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637201"
-  },
-  {
-    "id": "applemusic-1296637202",
-    "name": "Heart Stop (feat. SEULGI)",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/3a/9b/b23a9b64-7074-44e8-4ec7-e0d456314700/mzaf_7660481705806228602.plus.aac.p.m4a",
-    "duration": 175233,
-    "trackUrl": "https://music.apple.com/us/album/heart-stop-feat-seulgi/1296637194?i=1296637202",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637202"
-  },
-  {
-    "id": "applemusic-1296637203",
-    "name": "Rise",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/b9/68/7bb9686f-aded-8621-5e41-29247a9f2e79/mzaf_14307056935914383928.plus.aac.p.m4a",
-    "duration": 211582,
-    "trackUrl": "https://music.apple.com/us/album/rise/1296637194?i=1296637203",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637203"
-  },
-  {
-    "id": "applemusic-1296637204",
-    "name": "Thirsty",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/5e/98/e85e98e8-ba7d-a341-76b5-fe78c967be9b/mzaf_7475308951196843526.plus.aac.p.m4a",
-    "duration": 206993,
-    "trackUrl": "https://music.apple.com/us/album/thirsty/1296637194?i=1296637204",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637204"
-  },
-  {
-    "id": "applemusic-1296637205",
-    "name": "Stone Heart",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4d/61/40/4d614020-4466-fd83-e165-d769d1d5c936/mzaf_9995066351570774731.plus.aac.p.m4a",
-    "duration": 206254,
-    "trackUrl": "https://music.apple.com/us/album/stone-heart/1296637194?i=1296637205",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637205"
-  },
-  {
-    "id": "applemusic-1296637206",
-    "name": "Back To You",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE - The 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/db/04/d8db04fe-642b-4e9d-31e6-1f5d34351b35/mzaf_1182407230009741451.plus.aac.p.m4a",
-    "duration": 217649,
-    "trackUrl": "https://music.apple.com/us/album/back-to-you/1296637194?i=1296637206",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
-    "trackId": "1296637206"
-  },
-  {
     "id": "applemusic-1085060699",
     "name": "Drip Drop",
     "artists": [
@@ -219,6 +115,279 @@
     "trackUrl": "https://music.apple.com/us/album/hypnosis/1085060188?i=1085060708",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/ce/c1/00cec18a-9b05-b2e5-fcfc-4c8f4f7f8dc4/TAEMIN_iTunes_COVER_B.jpg/300x300bb.jpg",
     "trackId": "1085060708"
+  },
+  {
+    "id": "applemusic-1296637199",
+    "name": "MOVE",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c3/d1/40/c3d14042-b764-f782-da54-903e1342a9e7/mzaf_9559794878117185504.plus.aac.p.m4a",
+    "duration": 211949,
+    "trackUrl": "https://music.apple.com/us/album/move/1296637194?i=1296637199",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637199"
+  },
+  {
+    "id": "applemusic-1296637200",
+    "name": "Love",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4b/f6/6c/4bf66c71-d1fd-b30e-1107-bc37c0f91360/mzaf_15862465114888926341.plus.aac.p.m4a",
+    "duration": 229564,
+    "trackUrl": "https://music.apple.com/us/album/love/1296637194?i=1296637200",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637200"
+  },
+  {
+    "id": "applemusic-1296637201",
+    "name": "Crazy 4 U",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/5d/12/1b5d1211-e5de-dbba-6acd-da00b0c0d1dc/mzaf_17119583143572563864.plus.aac.p.m4a",
+    "duration": 215527,
+    "trackUrl": "https://music.apple.com/us/album/crazy-4-u/1296637194?i=1296637201",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637201"
+  },
+  {
+    "id": "applemusic-1296637202",
+    "name": "Heart Stop (feat. SEULGI)",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/3a/9b/b23a9b64-7074-44e8-4ec7-e0d456314700/mzaf_7660481705806228602.plus.aac.p.m4a",
+    "duration": 175233,
+    "trackUrl": "https://music.apple.com/us/album/heart-stop-feat-seulgi/1296637194?i=1296637202",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637202"
+  },
+  {
+    "id": "applemusic-1296637203",
+    "name": "Rise",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/b9/68/7bb9686f-aded-8621-5e41-29247a9f2e79/mzaf_14307056935914383928.plus.aac.p.m4a",
+    "duration": 211582,
+    "trackUrl": "https://music.apple.com/us/album/rise/1296637194?i=1296637203",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637203"
+  },
+  {
+    "id": "applemusic-1296637204",
+    "name": "Thirsty",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/5e/98/e85e98e8-ba7d-a341-76b5-fe78c967be9b/mzaf_7475308951196843526.plus.aac.p.m4a",
+    "duration": 206993,
+    "trackUrl": "https://music.apple.com/us/album/thirsty/1296637194?i=1296637204",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637204"
+  },
+  {
+    "id": "applemusic-1296637205",
+    "name": "Stone Heart",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4d/61/40/4d614020-4466-fd83-e165-d769d1d5c936/mzaf_9995066351570774731.plus.aac.p.m4a",
+    "duration": 206254,
+    "trackUrl": "https://music.apple.com/us/album/stone-heart/1296637194?i=1296637205",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637205"
+  },
+  {
+    "id": "applemusic-1296637206",
+    "name": "Back To You",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d8/db/04/d8db04fe-642b-4e9d-31e6-1f5d34351b35/mzaf_1182407230009741451.plus.aac.p.m4a",
+    "duration": 217649,
+    "trackUrl": "https://music.apple.com/us/album/back-to-you/1296637194?i=1296637206",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/69/e4/0b/69e40bc2-95b8-696c-69c7-edd9445380a7/4000px.jpg/300x300bb.jpg",
+    "trackId": "1296637206"
+  },
+  {
+    "id": "applemusic-1538577809",
+    "name": "IDEA",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/08/38/8708385b-7fa1-cb56-4f8e-a63189747c46/mzaf_14004875413528911049.plus.aac.p.m4a",
+    "duration": 193547,
+    "trackUrl": "https://music.apple.com/us/album/idea/1538577808?i=1538577809",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577809"
+  },
+  {
+    "id": "applemusic-1538577810",
+    "name": "Heaven",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/27/ca/4d/27ca4ddc-5989-338d-ca26-d3efd057baac/mzaf_2905961144761035229.plus.aac.p.m4a",
+    "duration": 182080,
+    "trackUrl": "https://music.apple.com/us/album/heaven/1538577808?i=1538577810",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577810"
+  },
+  {
+    "id": "applemusic-1538577811",
+    "name": "Impressionable",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f1/c4/52/f1c4523c-21e7-28d5-4a7a-20d98a02bb1f/mzaf_15739228896840060408.plus.aac.p.m4a",
+    "duration": 181613,
+    "trackUrl": "https://music.apple.com/us/album/impressionable/1538577808?i=1538577811",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577811"
+  },
+  {
+    "id": "applemusic-1538577812",
+    "name": "Be Your Enemy (feat. WENDY)",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/64/81/77/64817792-d9f2-382e-aa71-1ef57705cda6/mzaf_13765869134384958866.plus.aac.p.m4a",
+    "duration": 215387,
+    "trackUrl": "https://music.apple.com/us/album/be-your-enemy-feat-wendy/1538577808?i=1538577812",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577812"
+  },
+  {
+    "id": "applemusic-1538577813",
+    "name": "Think Of You",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/19/1f/b6191f7e-0f1e-6b25-19bb-c7e112762cf6/mzaf_205418843114918826.plus.aac.p.m4a",
+    "duration": 198267,
+    "trackUrl": "https://music.apple.com/us/album/think-of-you/1538577808?i=1538577813",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577813"
+  },
+  {
+    "id": "applemusic-1538577814",
+    "name": "Exclusive",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/13/54/7313543f-0615-5a30-65ba-89625ad15ad0/mzaf_15149931982049479971.plus.aac.p.m4a",
+    "duration": 203973,
+    "trackUrl": "https://music.apple.com/us/album/exclusive/1538577808?i=1538577814",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577814"
+  },
+  {
+    "id": "applemusic-1538577815",
+    "name": "Pansy",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/54/f8/33/54f833a5-d41a-9aaf-554d-911eb136a3a6/mzaf_10483792921992784142.plus.aac.p.m4a",
+    "duration": 229747,
+    "trackUrl": "https://music.apple.com/us/album/pansy/1538577808?i=1538577815",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577815"
+  },
+  {
+    "id": "applemusic-1538577997",
+    "name": "Identity",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/d5/3b/d5d53bdc-b717-8455-ea69-86a6e45c8210/mzaf_5591842953668732079.plus.aac.p.m4a",
+    "duration": 181467,
+    "trackUrl": "https://music.apple.com/us/album/identity/1538577808?i=1538577997",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
+    "trackId": "1538577997"
+  },
+  {
+    "id": "applemusic-1567180787",
+    "name": "Advice",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Advice - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cd/34/6e/cd346ecf-d369-db76-d88b-2b9379ae41a4/mzaf_9552069871707641488.plus.aac.p.m4a",
+    "duration": 191640,
+    "trackUrl": "https://music.apple.com/us/album/advice/1567180786?i=1567180787",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
+    "trackId": "1567180787"
+  },
+  {
+    "id": "applemusic-1567180788",
+    "name": "Light",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Advice - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/97/5e/fc975e92-d6fe-1235-4637-e508c9575191/mzaf_10485919581548827056.plus.aac.p.m4a",
+    "duration": 199787,
+    "trackUrl": "https://music.apple.com/us/album/light/1567180786?i=1567180788",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
+    "trackId": "1567180788"
+  },
+  {
+    "id": "applemusic-1567180790",
+    "name": "If I could tell you (feat. TAEYEON)",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Advice - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/a0/c7/a2a0c75f-90df-d1df-c75f-0d035bb86cc2/mzaf_4226729031620040782.plus.aac.p.m4a",
+    "duration": 197587,
+    "trackUrl": "https://music.apple.com/us/album/if-i-could-tell-you-feat-taeyeon/1567180786?i=1567180790",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
+    "trackId": "1567180790"
+  },
+  {
+    "id": "applemusic-1567180792",
+    "name": "Strings",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Advice - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e7/eb/7f/e7eb7f9e-7f4a-77d1-019b-094ceaf9ab80/mzaf_11199534197623769209.plus.aac.p.m4a",
+    "duration": 220773,
+    "trackUrl": "https://music.apple.com/us/album/strings/1567180786?i=1567180792",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
+    "trackId": "1567180792"
+  },
+  {
+    "id": "applemusic-1567180793",
+    "name": "SAD KIDS",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Advice - The 3rd Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f1/23/94/f12394c1-6252-f315-9ba6-4800ab800f6b/mzaf_4322240266423589109.plus.aac.p.m4a",
+    "duration": 201533,
+    "trackUrl": "https://music.apple.com/us/album/sad-kids/1567180786?i=1567180793",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
+    "trackId": "1567180793"
   },
   {
     "id": "applemusic-1530317820",
@@ -403,175 +572,6 @@
     "trackId": "1713694581"
   },
   {
-    "id": "applemusic-1538577809",
-    "name": "IDEA",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/08/38/8708385b-7fa1-cb56-4f8e-a63189747c46/mzaf_14004875413528911049.plus.aac.p.m4a",
-    "duration": 193547,
-    "trackUrl": "https://music.apple.com/us/album/idea/1538577808?i=1538577809",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577809"
-  },
-  {
-    "id": "applemusic-1538577810",
-    "name": "Heaven",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/27/ca/4d/27ca4ddc-5989-338d-ca26-d3efd057baac/mzaf_2905961144761035229.plus.aac.p.m4a",
-    "duration": 182080,
-    "trackUrl": "https://music.apple.com/us/album/heaven/1538577808?i=1538577810",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577810"
-  },
-  {
-    "id": "applemusic-1538577811",
-    "name": "Impressionable",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f1/c4/52/f1c4523c-21e7-28d5-4a7a-20d98a02bb1f/mzaf_15739228896840060408.plus.aac.p.m4a",
-    "duration": 181613,
-    "trackUrl": "https://music.apple.com/us/album/impressionable/1538577808?i=1538577811",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577811"
-  },
-  {
-    "id": "applemusic-1538577812",
-    "name": "Be Your Enemy (feat. WENDY)",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/64/81/77/64817792-d9f2-382e-aa71-1ef57705cda6/mzaf_13765869134384958866.plus.aac.p.m4a",
-    "duration": 215387,
-    "trackUrl": "https://music.apple.com/us/album/be-your-enemy-feat-wendy/1538577808?i=1538577812",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577812"
-  },
-  {
-    "id": "applemusic-1538577813",
-    "name": "Think Of You",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b6/19/1f/b6191f7e-0f1e-6b25-19bb-c7e112762cf6/mzaf_205418843114918826.plus.aac.p.m4a",
-    "duration": 198267,
-    "trackUrl": "https://music.apple.com/us/album/think-of-you/1538577808?i=1538577813",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577813"
-  },
-  {
-    "id": "applemusic-1538577814",
-    "name": "Exclusive",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/13/54/7313543f-0615-5a30-65ba-89625ad15ad0/mzaf_15149931982049479971.plus.aac.p.m4a",
-    "duration": 203973,
-    "trackUrl": "https://music.apple.com/us/album/exclusive/1538577808?i=1538577814",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577814"
-  },
-  {
-    "id": "applemusic-1538577815",
-    "name": "Pansy",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/54/f8/33/54f833a5-d41a-9aaf-554d-911eb136a3a6/mzaf_10483792921992784142.plus.aac.p.m4a",
-    "duration": 229747,
-    "trackUrl": "https://music.apple.com/us/album/pansy/1538577808?i=1538577815",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577815"
-  },
-  {
-    "id": "applemusic-1538577997",
-    "name": "Identity",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Never Gonna Dance Again : Act 2 - The 3rd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d5/d5/3b/d5d53bdc-b717-8455-ea69-86a6e45c8210/mzaf_5591842953668732079.plus.aac.p.m4a",
-    "duration": 181467,
-    "trackUrl": "https://music.apple.com/us/album/identity/1538577808?i=1538577997",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d2/a3/29/d2a32986-3758-6f99-e464-328988350781/cover.jpg/300x300bb.jpg",
-    "trackId": "1538577997"
-  },
-  {
-    "id": "applemusic-1567180787",
-    "name": "Advice",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Advice - The 3rd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cd/34/6e/cd346ecf-d369-db76-d88b-2b9379ae41a4/mzaf_9552069871707641488.plus.aac.p.m4a",
-    "duration": 191640,
-    "trackUrl": "https://music.apple.com/us/album/advice/1567180786?i=1567180787",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1567180787"
-  },
-  {
-    "id": "applemusic-1567180788",
-    "name": "Light",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Advice - The 3rd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/97/5e/fc975e92-d6fe-1235-4637-e508c9575191/mzaf_10485919581548827056.plus.aac.p.m4a",
-    "duration": 199787,
-    "trackUrl": "https://music.apple.com/us/album/light/1567180786?i=1567180788",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1567180788"
-  },
-  {
-    "id": "applemusic-1567180790",
-    "name": "If I could tell you (feat. TAEYEON)",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Advice - The 3rd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/a0/c7/a2a0c75f-90df-d1df-c75f-0d035bb86cc2/mzaf_4226729031620040782.plus.aac.p.m4a",
-    "duration": 197587,
-    "trackUrl": "https://music.apple.com/us/album/if-i-could-tell-you-feat-taeyeon/1567180786?i=1567180790",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1567180790"
-  },
-  {
-    "id": "applemusic-1567180792",
-    "name": "Strings",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Advice - The 3rd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e7/eb/7f/e7eb7f9e-7f4a-77d1-019b-094ceaf9ab80/mzaf_11199534197623769209.plus.aac.p.m4a",
-    "duration": 220773,
-    "trackUrl": "https://music.apple.com/us/album/strings/1567180786?i=1567180792",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1567180792"
-  },
-  {
-    "id": "applemusic-1567180793",
-    "name": "SAD KIDS",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Advice - The 3rd Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f1/23/94/f12394c1-6252-f315-9ba6-4800ab800f6b/mzaf_4322240266423589109.plus.aac.p.m4a",
-    "duration": 201533,
-    "trackUrl": "https://music.apple.com/us/album/sad-kids/1567180786?i=1567180793",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/91/dc/2f/91dc2f43-ad94-41a0-77ae-488d7f53527e/Cover_TAEMIN_Advice_-_The_3rd_Mini_Album.jpg/300x300bb.jpg",
-    "trackId": "1567180793"
-  },
-  {
     "id": "applemusic-910085725",
     "name": "Ace",
     "artists": [
@@ -728,6 +728,201 @@
     "trackId": "1451783549"
   },
   {
+    "id": "applemusic-1786293724",
+    "name": "G.O.A.T",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/af/37/dbaf379b-1e10-6e91-256e-ee03c0405a50/mzaf_1342081942170093239.plus.aac.p.m4a",
+    "duration": 178533,
+    "trackUrl": "https://music.apple.com/us/album/g-o-a-t/1786293723?i=1786293724",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293724"
+  },
+  {
+    "id": "applemusic-1786293727",
+    "name": "Sexy In The Air",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/fc/48/defc4878-5184-13bf-35d7-54edb48b39a7/mzaf_9493796504514713035.plus.aac.p.m4a",
+    "duration": 194800,
+    "trackUrl": "https://music.apple.com/us/album/sexy-in-the-air/1786293723?i=1786293727",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293727"
+  },
+  {
+    "id": "applemusic-1786293728",
+    "name": "Horizon",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/8c/3a/ab8c3ab5-e00c-d4db-0efc-f6569f9e956b/mzaf_15101607916251364770.plus.aac.p.m4a",
+    "duration": 176787,
+    "trackUrl": "https://music.apple.com/us/album/horizon/1786293723?i=1786293728",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293728"
+  },
+  {
+    "id": "applemusic-1786293731",
+    "name": "The Unknown Sea",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/9c/a6/e59ca687-2b21-13cb-8eaa-b525c47444d5/mzaf_8199953907243703137.plus.aac.p.m4a",
+    "duration": 196640,
+    "trackUrl": "https://music.apple.com/us/album/the-unknown-sea/1786293723?i=1786293731",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293731"
+  },
+  {
+    "id": "applemusic-1786293732",
+    "name": "Crush",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/56/85/2b56851b-bc71-a89a-296d-33110763f668/mzaf_13746594954972032975.plus.aac.p.m4a",
+    "duration": 165213,
+    "trackUrl": "https://music.apple.com/us/album/crush/1786293723?i=1786293732",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293732"
+  },
+  {
+    "id": "applemusic-1786293735",
+    "name": "Deja Vu",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/10/6b/7b106bc2-ac60-a4a1-4762-e0b93b3a4cf8/mzaf_9155364123710936247.plus.aac.p.m4a",
+    "duration": 193360,
+    "trackUrl": "https://music.apple.com/us/album/deja-vu/1786293723?i=1786293735",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293735"
+  },
+  {
+    "id": "applemusic-1786293737",
+    "name": "Say Less",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "ETERNAL",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/ef/b4/fbefb457-de8e-d3c5-bd0f-01be564fa7e2/mzaf_4143445414061207768.plus.aac.p.m4a",
+    "duration": 155693,
+    "trackUrl": "https://music.apple.com/us/album/say-less/1786293723?i=1786293737",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
+    "trackId": "1786293737"
+  },
+  {
+    "id": "applemusic-1472504130",
+    "name": "Famous",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Famous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d8/bf/96/d8bf96f5-72c1-cf79-982c-ad502e601587/mzaf_13659530718088952155.plus.aac.p.m4a",
+    "duration": 180187,
+    "trackUrl": "https://music.apple.com/us/album/famous/1472504129?i=1472504130",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
+    "trackId": "1472504130"
+  },
+  {
+    "id": "applemusic-1472504132",
+    "name": "Slave",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Famous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0f/dc/f9/0fdcf999-0639-9e19-484a-45674126c6c2/mzaf_4273364998257195216.plus.aac.p.m4a",
+    "duration": 208627,
+    "trackUrl": "https://music.apple.com/us/album/slave/1472504129?i=1472504132",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
+    "trackId": "1472504132"
+  },
+  {
+    "id": "applemusic-1472504133",
+    "name": "Tease",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Famous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/f4/8a/16f48aca-35f0-8dc6-b783-64c20e97ba45/mzaf_9716080746756200741.plus.aac.p.m4a",
+    "duration": 209360,
+    "trackUrl": "https://music.apple.com/us/album/tease/1472504129?i=1472504133",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
+    "trackId": "1472504133"
+  },
+  {
+    "id": "applemusic-1472504140",
+    "name": "It's You",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Famous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/08/d6/45/08d645a6-d07e-5ac3-ef48-8e02284be885/mzaf_5377935294266299156.plus.aac.p.m4a",
+    "duration": 243373,
+    "trackUrl": "https://music.apple.com/us/album/its-you/1472504129?i=1472504140",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
+    "trackId": "1472504140"
+  },
+  {
+    "id": "applemusic-1472504142",
+    "name": "Colours",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Famous - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/c4/c6/26c4c683-2ffe-92bc-b78b-36bacac1ff7b/mzaf_9484168037660763111.plus.aac.p.m4a",
+    "duration": 199853,
+    "trackUrl": "https://music.apple.com/us/album/colours/1472504129?i=1472504142",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
+    "trackId": "1472504142"
+  },
+  {
+    "id": "applemusic-6770655487",
+    "name": "PERMISSION",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "PERMISSION - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7f/be/61/7fbe61b4-b095-f7ad-1613-ffe11534ef68/mzaf_12363897897282033705.plus.aac.p.m4a",
+    "duration": 178400,
+    "trackUrl": "https://music.apple.com/us/album/permission/6770655485?i=6770655487",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/74/88/44748810-a3df-2c8f-ac64-e90f1c8b482a/a32dee27-216f-4a33-a230-936c89a34fd2.jpg/300x300bb.jpg",
+    "trackId": "6770655487"
+  },
+  {
+    "id": "applemusic-1322925952",
+    "name": "Day and Night",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE-ing - The 2nd Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/d2/a0/69d2a05a-850e-9c86-80b7-69d0569f4e92/mzaf_2831187334146667463.plus.aac.p.m4a",
+    "duration": 193572,
+    "trackUrl": "https://music.apple.com/us/album/day-and-night/1322925600?i=1322925952",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4c/6e/2f/4c6e2f92-677a-bb0d-bc83-91c4728688d1/TAEMIN_02_RE_COVER_global.jpg/300x300bb.jpg",
+    "trackId": "1322925952"
+  },
+  {
+    "id": "applemusic-1322925953",
+    "name": "Snow Flower",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "MOVE-ing - The 2nd Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c2/25/89/c2258974-992a-5d76-78f2-9e77cf33f7fd/mzaf_1574909894880147850.plus.aac.p.m4a",
+    "duration": 274593,
+    "trackUrl": "https://music.apple.com/us/album/snow-flower/1322925600?i=1322925953",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4c/6e/2f/4c6e2f92-677a-bb0d-bc83-91c4728688d1/TAEMIN_02_RE_COVER_global.jpg/300x300bb.jpg",
+    "trackId": "1322925953"
+  },
+  {
     "id": "applemusic-1440028645",
     "name": "Eclipse",
     "artists": [
@@ -845,225 +1040,17 @@
     "trackId": "1440028781"
   },
   {
-    "id": "applemusic-1472504130",
-    "name": "Famous",
+    "id": "applemusic-1886843602",
+    "name": "Long Way Home",
     "artists": [
       "TAEMIN"
     ],
-    "album": "Famous - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d8/bf/96/d8bf96f5-72c1-cf79-982c-ad502e601587/mzaf_13659530718088952155.plus.aac.p.m4a",
-    "duration": 180187,
-    "trackUrl": "https://music.apple.com/us/album/famous/1472504129?i=1472504130",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
-    "trackId": "1472504130"
-  },
-  {
-    "id": "applemusic-1472504132",
-    "name": "Slave",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Famous - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0f/dc/f9/0fdcf999-0639-9e19-484a-45674126c6c2/mzaf_4273364998257195216.plus.aac.p.m4a",
-    "duration": 208627,
-    "trackUrl": "https://music.apple.com/us/album/slave/1472504129?i=1472504132",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
-    "trackId": "1472504132"
-  },
-  {
-    "id": "applemusic-1472504133",
-    "name": "Tease",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Famous - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/16/f4/8a/16f48aca-35f0-8dc6-b783-64c20e97ba45/mzaf_9716080746756200741.plus.aac.p.m4a",
-    "duration": 209360,
-    "trackUrl": "https://music.apple.com/us/album/tease/1472504129?i=1472504133",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
-    "trackId": "1472504133"
-  },
-  {
-    "id": "applemusic-1472504140",
-    "name": "It's You",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Famous - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/08/d6/45/08d645a6-d07e-5ac3-ef48-8e02284be885/mzaf_5377935294266299156.plus.aac.p.m4a",
-    "duration": 243373,
-    "trackUrl": "https://music.apple.com/us/album/its-you/1472504129?i=1472504140",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
-    "trackId": "1472504140"
-  },
-  {
-    "id": "applemusic-1472504142",
-    "name": "Colours",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Famous - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/c4/c6/26c4c683-2ffe-92bc-b78b-36bacac1ff7b/mzaf_9484168037660763111.plus.aac.p.m4a",
-    "duration": 199853,
-    "trackUrl": "https://music.apple.com/us/album/colours/1472504129?i=1472504142",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/75/7b/90/757b90a1-301b-7fa0-94a5-92a249d47a46/19UMGIM62863.rgb.jpg/300x300bb.jpg",
-    "trackId": "1472504142"
-  },
-  {
-    "id": "applemusic-1786293724",
-    "name": "G.O.A.T",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/af/37/dbaf379b-1e10-6e91-256e-ee03c0405a50/mzaf_1342081942170093239.plus.aac.p.m4a",
-    "duration": 178533,
-    "trackUrl": "https://music.apple.com/us/album/g-o-a-t/1786293723?i=1786293724",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293724"
-  },
-  {
-    "id": "applemusic-1786293727",
-    "name": "Sexy In The Air",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/de/fc/48/defc4878-5184-13bf-35d7-54edb48b39a7/mzaf_9493796504514713035.plus.aac.p.m4a",
-    "duration": 194800,
-    "trackUrl": "https://music.apple.com/us/album/sexy-in-the-air/1786293723?i=1786293727",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293727"
-  },
-  {
-    "id": "applemusic-1786293728",
-    "name": "Horizon",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/8c/3a/ab8c3ab5-e00c-d4db-0efc-f6569f9e956b/mzaf_15101607916251364770.plus.aac.p.m4a",
-    "duration": 176787,
-    "trackUrl": "https://music.apple.com/us/album/horizon/1786293723?i=1786293728",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293728"
-  },
-  {
-    "id": "applemusic-1786293731",
-    "name": "The Unknown Sea",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e5/9c/a6/e59ca687-2b21-13cb-8eaa-b525c47444d5/mzaf_8199953907243703137.plus.aac.p.m4a",
-    "duration": 196640,
-    "trackUrl": "https://music.apple.com/us/album/the-unknown-sea/1786293723?i=1786293731",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293731"
-  },
-  {
-    "id": "applemusic-1786293732",
-    "name": "Crush",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/56/85/2b56851b-bc71-a89a-296d-33110763f668/mzaf_13746594954972032975.plus.aac.p.m4a",
-    "duration": 165213,
-    "trackUrl": "https://music.apple.com/us/album/crush/1786293723?i=1786293732",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293732"
-  },
-  {
-    "id": "applemusic-1786293735",
-    "name": "Deja Vu",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/10/6b/7b106bc2-ac60-a4a1-4762-e0b93b3a4cf8/mzaf_9155364123710936247.plus.aac.p.m4a",
-    "duration": 193360,
-    "trackUrl": "https://music.apple.com/us/album/deja-vu/1786293723?i=1786293735",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293735"
-  },
-  {
-    "id": "applemusic-1786293737",
-    "name": "Say Less",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "ETERNAL",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/ef/b4/fbefb457-de8e-d3c5-bd0f-01be564fa7e2/mzaf_4143445414061207768.plus.aac.p.m4a",
-    "duration": 155693,
-    "trackUrl": "https://music.apple.com/us/album/say-less/1786293723?i=1786293737",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b5/5a/97/b55a974b-f733-1302-344c-35d4d5cb39b3/8804775333675_cover.jpg/300x300bb.jpg",
-    "trackId": "1786293737"
-  },
-  {
-    "id": "applemusic-1322925952",
-    "name": "Day and Night",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE-ing - The 2nd Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/d2/a0/69d2a05a-850e-9c86-80b7-69d0569f4e92/mzaf_2831187334146667463.plus.aac.p.m4a",
-    "duration": 193572,
-    "trackUrl": "https://music.apple.com/us/album/day-and-night/1322925600?i=1322925952",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4c/6e/2f/4c6e2f92-677a-bb0d-bc83-91c4728688d1/TAEMIN_02_RE_COVER_global.jpg/300x300bb.jpg",
-    "trackId": "1322925952"
-  },
-  {
-    "id": "applemusic-1322925953",
-    "name": "Snow Flower",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "MOVE-ing - The 2nd Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c2/25/89/c2258974-992a-5d76-78f2-9e77cf33f7fd/mzaf_1574909894880147850.plus.aac.p.m4a",
-    "duration": 274593,
-    "trackUrl": "https://music.apple.com/us/album/snow-flower/1322925600?i=1322925953",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4c/6e/2f/4c6e2f92-677a-bb0d-bc83-91c4728688d1/TAEMIN_02_RE_COVER_global.jpg/300x300bb.jpg",
-    "trackId": "1322925953"
-  },
-  {
-    "id": "applemusic-1440657571",
-    "name": "Tiger",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Sayonara Hitori - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/ae/ff/c0aeff72-9ede-c1b8-6f8d-87d0abae752d/mzaf_2728548300995979.plus.aac.p.m4a",
-    "duration": 236880,
-    "trackUrl": "https://music.apple.com/us/album/tiger/1440657121?i=1440657571",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/ec/1b/aaec1bfd-37e4-99b7-4523-a294ca102918/00600406782991.rgb.jpg/300x300bb.jpg",
-    "trackId": "1440657571"
-  },
-  {
-    "id": "applemusic-1440657579",
-    "name": "Final Dragon",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Sayonara Hitori - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8b/f1/67/8bf16731-31a7-f7f9-2f70-5a199d212e00/mzaf_5057198905261380549.plus.aac.p.m4a",
-    "duration": 279707,
-    "trackUrl": "https://music.apple.com/us/album/final-dragon/1440657121?i=1440657579",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/ec/1b/aaec1bfd-37e4-99b7-4523-a294ca102918/00600406782991.rgb.jpg/300x300bb.jpg",
-    "trackId": "1440657579"
-  },
-  {
-    "id": "applemusic-1440657704",
-    "name": "Sekaide Ichiban Aishitahito",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "Sayonara Hitori - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/71/ac/1e71ac74-cd43-e700-4508-123b22c0478e/mzaf_5682286576464779750.plus.aac.p.m4a",
-    "duration": 253973,
-    "trackUrl": "https://music.apple.com/us/album/sekaide-ichiban-aishitahito/1440657121?i=1440657704",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/ec/1b/aaec1bfd-37e4-99b7-4523-a294ca102918/00600406782991.rgb.jpg/300x300bb.jpg",
-    "trackId": "1440657704"
+    "album": "Long Way Home - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/54/6a/57546ac0-c023-305f-4c03-0d2c45d2e257/mzaf_11341461271366120809.plus.aac.p.m4a",
+    "duration": 185040,
+    "trackUrl": "https://music.apple.com/us/album/long-way-home/1886843601?i=1886843602",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/db/9d/5b/db9d5bbf-c7c0-9e29-9803-9f720fcd303d/823375074236_Cover.jpg/300x300bb.jpg",
+    "trackId": "1886843602"
   },
   {
     "id": "applemusic-1440881525",
@@ -1144,6 +1131,45 @@
     "trackId": "1838675546"
   },
   {
+    "id": "applemusic-1440657571",
+    "name": "Tiger",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Sayonara Hitori - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c0/ae/ff/c0aeff72-9ede-c1b8-6f8d-87d0abae752d/mzaf_2728548300995979.plus.aac.p.m4a",
+    "duration": 236880,
+    "trackUrl": "https://music.apple.com/us/album/tiger/1440657121?i=1440657571",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/ec/1b/aaec1bfd-37e4-99b7-4523-a294ca102918/00600406782991.rgb.jpg/300x300bb.jpg",
+    "trackId": "1440657571"
+  },
+  {
+    "id": "applemusic-1440657579",
+    "name": "Final Dragon",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Sayonara Hitori - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8b/f1/67/8bf16731-31a7-f7f9-2f70-5a199d212e00/mzaf_5057198905261380549.plus.aac.p.m4a",
+    "duration": 279707,
+    "trackUrl": "https://music.apple.com/us/album/final-dragon/1440657121?i=1440657579",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/ec/1b/aaec1bfd-37e4-99b7-4523-a294ca102918/00600406782991.rgb.jpg/300x300bb.jpg",
+    "trackId": "1440657579"
+  },
+  {
+    "id": "applemusic-1440657704",
+    "name": "Sekaide Ichiban Aishitahito",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "Sayonara Hitori - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/71/ac/1e71ac74-cd43-e700-4508-123b22c0478e/mzaf_5682286576464779750.plus.aac.p.m4a",
+    "duration": 253973,
+    "trackUrl": "https://music.apple.com/us/album/sekaide-ichiban-aishitahito/1440657121?i=1440657704",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/aa/ec/1b/aaec1bfd-37e4-99b7-4523-a294ca102918/00600406782991.rgb.jpg/300x300bb.jpg",
+    "trackId": "1440657704"
+  },
+  {
     "id": "applemusic-1642961706",
     "name": "My Day",
     "artists": [
@@ -1170,32 +1196,6 @@
     "trackId": "1000552996"
   },
   {
-    "id": "applemusic-1773703731",
-    "name": "Bones",
-    "artists": [
-      "TAEMIN"
-    ],
-    "album": "STAGE FIGHTER(STF) Original, Vol. 2.5 [Original Television Soundtrack] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/0a/ba/1a0aba83-de92-00c2-431a-1d262594724d/mzaf_17209300260702433619.plus.aac.p.m4a",
-    "duration": 226027,
-    "trackUrl": "https://music.apple.com/us/album/bones/1773703633?i=1773703731",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/b9/f1/2eb9f17c-f7e9-cdbd-22b6-901d104abc0f/888272141634_Cover.jpg/300x300bb.jpg",
-    "trackId": "1773703731"
-  },
-  {
-    "id": "applemusic-1773703732",
-    "name": "Swan",
-    "artists": [
-      "MIYEON"
-    ],
-    "album": "STAGE FIGHTER(STF) Original, Vol. 2.5 [Original Television Soundtrack] - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/d4/3a/1bd43ae8-e350-33b4-a0fc-29c85bc47688/mzaf_15274585171619675519.plus.aac.p.m4a",
-    "duration": 224707,
-    "trackUrl": "https://music.apple.com/us/album/swan/1773703633?i=1773703732",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/b9/f1/2eb9f17c-f7e9-cdbd-22b6-901d104abc0f/888272141634_Cover.jpg/300x300bb.jpg",
-    "trackId": "1773703732"
-  },
-  {
     "id": "applemusic-1718019599",
     "name": "Draw",
     "artists": [
@@ -1220,6 +1220,32 @@
     "trackUrl": "https://music.apple.com/us/album/steps-from-prime-minister-i/854925204?i=854925207",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/6e/38/4f/6e384f51-9793-676a-6291-71b27b8543bb/asset.jpg/300x300bb.jpg",
     "trackId": "854925207"
+  },
+  {
+    "id": "applemusic-1773703731",
+    "name": "Bones",
+    "artists": [
+      "TAEMIN"
+    ],
+    "album": "STAGE FIGHTER(STF) Original, Vol. 2.5 [Original Television Soundtrack] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/0a/ba/1a0aba83-de92-00c2-431a-1d262594724d/mzaf_17209300260702433619.plus.aac.p.m4a",
+    "duration": 226027,
+    "trackUrl": "https://music.apple.com/us/album/bones/1773703633?i=1773703731",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/b9/f1/2eb9f17c-f7e9-cdbd-22b6-901d104abc0f/888272141634_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773703731"
+  },
+  {
+    "id": "applemusic-1773703732",
+    "name": "Swan",
+    "artists": [
+      "MIYEON"
+    ],
+    "album": "STAGE FIGHTER(STF) Original, Vol. 2.5 [Original Television Soundtrack] - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/d4/3a/1bd43ae8-e350-33b4-a0fc-29c85bc47688/mzaf_15274585171619675519.plus.aac.p.m4a",
+    "duration": 224707,
+    "trackUrl": "https://music.apple.com/us/album/swan/1773703633?i=1773703732",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/b9/f1/2eb9f17c-f7e9-cdbd-22b6-901d104abc0f/888272141634_Cover.jpg/300x300bb.jpg",
+    "trackId": "1773703732"
   },
   {
     "id": "applemusic-1301949257",

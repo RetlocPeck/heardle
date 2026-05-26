@@ -234,32 +234,6 @@
     "trackId": "596638780"
   },
   {
-    "id": "applemusic-724166146",
-    "name": "Day by Day (feat.D.O)",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "MYNAME 3rd Single Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/cf/97/49cf977f-0374-22d5-5d7b-7ac0f2a05f89/mzaf_9020359143962568878.plus.aac.p.m4a",
-    "duration": 239000,
-    "trackUrl": "https://music.apple.com/us/album/day-by-day-feat-d-o/724166100?i=724166146",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ce/a3/5c/cea35cc1-5527-2dde-5532-174828579d3c/KM0002341-_MYNAME_-1011.jpg/300x300bb.jpg",
-    "trackId": "724166146"
-  },
-  {
-    "id": "applemusic-724166150",
-    "name": "U -Turn",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "MYNAME 3rd Single Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e3/14/cb/e314cb2f-917e-3702-4a13-236818d5bfc2/mzaf_7159946834496812743.plus.aac.p.m4a",
-    "duration": 199000,
-    "trackUrl": "https://music.apple.com/us/album/u-turn/724166100?i=724166150",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ce/a3/5c/cea35cc1-5527-2dde-5532-174828579d3c/KM0002341-_MYNAME_-1011.jpg/300x300bb.jpg",
-    "trackId": "724166150"
-  },
-  {
     "id": "applemusic-1411807340",
     "name": "I For U",
     "artists": [
@@ -401,6 +375,32 @@
     "trackUrl": "https://music.apple.com/us/album/tokyo-wind/1411807080?i=1411808042",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/cb/d1/75/cbd175c3-378d-f027-fe47-6ddf1bd025ca/00602567880943.rgb.jpg/300x300bb.jpg",
     "trackId": "1411808042"
+  },
+  {
+    "id": "applemusic-724166146",
+    "name": "Day by Day (feat.D.O)",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "MYNAME 3rd Single Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/49/cf/97/49cf977f-0374-22d5-5d7b-7ac0f2a05f89/mzaf_9020359143962568878.plus.aac.p.m4a",
+    "duration": 239000,
+    "trackUrl": "https://music.apple.com/us/album/day-by-day-feat-d-o/724166100?i=724166146",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ce/a3/5c/cea35cc1-5527-2dde-5532-174828579d3c/KM0002341-_MYNAME_-1011.jpg/300x300bb.jpg",
+    "trackId": "724166146"
+  },
+  {
+    "id": "applemusic-724166150",
+    "name": "U -Turn",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "MYNAME 3rd Single Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e3/14/cb/e314cb2f-917e-3702-4a13-236818d5bfc2/mzaf_7159946834496812743.plus.aac.p.m4a",
+    "duration": 199000,
+    "trackUrl": "https://music.apple.com/us/album/u-turn/724166100?i=724166150",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/ce/a3/5c/cea35cc1-5527-2dde-5532-174828579d3c/KM0002341-_MYNAME_-1011.jpg/300x300bb.jpg",
+    "trackId": "724166150"
   },
   {
     "id": "applemusic-1442228153",
@@ -702,19 +702,6 @@
     "trackId": "735114564"
   },
   {
-    "id": "applemusic-1807297102",
-    "name": "We Are The One (with MYNAME)",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "We Are The One (with MYNAME) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/64/e0/ba64e051-6271-e7dc-1166-e27fa8767634/mzaf_4643031254894340349.plus.aac.p.m4a",
-    "duration": 258267,
-    "trackUrl": "https://music.apple.com/us/album/we-are-the-one-with-myname/1807297100?i=1807297102",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/41/90/ea4190f6-dc31-3297-84d4-881154ddaba2/4580789706585.png/300x300bb.jpg",
-    "trackId": "1807297102"
-  },
-  {
     "id": "applemusic-735125736",
     "name": "Zoom Zoom",
     "artists": [
@@ -726,6 +713,97 @@
     "trackUrl": "https://music.apple.com/us/album/zoom-zoom/735125219?i=735125736",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/49/a0/f7/49a0f752-0cdd-2d17-8cc1-dee9ba00fffb/YRCS-90034_Type-B.jpg/300x300bb.jpg",
     "trackId": "735125736"
+  },
+  {
+    "id": "applemusic-1889768380",
+    "name": "TIME'S UP",
+    "artists": [
+      "MYNAME & A.G.O"
+    ],
+    "album": "RE:BLUE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/b4/b1/a3b4b1ca-b33b-f213-c2c7-a5f332b811cd/mzaf_16366803631192982306.plus.aac.p.m4a",
+    "duration": 183333,
+    "trackUrl": "https://music.apple.com/us/album/times-up/1889768378?i=1889768380",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/80/6b/f3806b49-3dd7-781b-461c-978d04638790/820200817983.jpg/300x300bb.jpg",
+    "trackId": "1889768380"
+  },
+  {
+    "id": "applemusic-1889768384",
+    "name": "COOL",
+    "artists": [
+      "MYNAME & A.G.O"
+    ],
+    "album": "RE:BLUE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/d1/fe/5ed1feaf-81b2-28a9-86dd-9f3cc6be30f3/mzaf_5834309488750338404.plus.aac.p.m4a",
+    "duration": 159767,
+    "trackUrl": "https://music.apple.com/us/album/cool/1889768378?i=1889768384",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/80/6b/f3806b49-3dd7-781b-461c-978d04638790/820200817983.jpg/300x300bb.jpg",
+    "trackId": "1889768384"
+  },
+  {
+    "id": "applemusic-1889768868",
+    "name": "BYE BYE",
+    "artists": [
+      "MYNAME & GAL D"
+    ],
+    "album": "RE:BLUE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/eb/78/a7eb7858-1b0c-7e45-2767-4779f6102bae/mzaf_16608384203641632311.plus.aac.p.m4a",
+    "duration": 134167,
+    "trackUrl": "https://music.apple.com/us/album/bye-bye/1889768378?i=1889768868",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/80/6b/f3806b49-3dd7-781b-461c-978d04638790/820200817983.jpg/300x300bb.jpg",
+    "trackId": "1889768868"
+  },
+  {
+    "id": "applemusic-1889768870",
+    "name": "DREAM PARADE",
+    "artists": [
+      "MYNAME & A.G.O"
+    ],
+    "album": "RE:BLUE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/f0/77/e8f0777d-2271-aaf4-d974-1fd1398976cd/mzaf_8870195152803855246.plus.aac.p.m4a",
+    "duration": 201033,
+    "trackUrl": "https://music.apple.com/us/album/dream-parade/1889768378?i=1889768870",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/80/6b/f3806b49-3dd7-781b-461c-978d04638790/820200817983.jpg/300x300bb.jpg",
+    "trackId": "1889768870"
+  },
+  {
+    "id": "applemusic-1889768872",
+    "name": "HALF TONIGHT",
+    "artists": [
+      "MYNAME & Yinc."
+    ],
+    "album": "RE:BLUE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1c/72/7c/1c727cd6-4937-0e3b-18dc-85fbf3f2c596/mzaf_2470911235049512647.plus.aac.p.m4a",
+    "duration": 168733,
+    "trackUrl": "https://music.apple.com/us/album/half-tonight/1889768378?i=1889768872",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/80/6b/f3806b49-3dd7-781b-461c-978d04638790/820200817983.jpg/300x300bb.jpg",
+    "trackId": "1889768872"
+  },
+  {
+    "id": "applemusic-1889768874",
+    "name": "STAY GOLD",
+    "artists": [
+      "MYNAME & Taka Perry"
+    ],
+    "album": "RE:BLUE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/dc/06/63/dc0663c7-cdd2-e612-443e-3580fc7ab6c0/mzaf_11506290831427891547.plus.aac.p.m4a",
+    "duration": 189033,
+    "trackUrl": "https://music.apple.com/us/album/stay-gold/1889768378?i=1889768874",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/80/6b/f3806b49-3dd7-781b-461c-978d04638790/820200817983.jpg/300x300bb.jpg",
+    "trackId": "1889768874"
+  },
+  {
+    "id": "applemusic-1807297102",
+    "name": "We Are The One (with MYNAME)",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "We Are The One (with MYNAME) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/64/e0/ba64e051-6271-e7dc-1166-e27fa8767634/mzaf_4643031254894340349.plus.aac.p.m4a",
+    "duration": 258267,
+    "trackUrl": "https://music.apple.com/us/album/we-are-the-one-with-myname/1807297100?i=1807297102",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ea/41/90/ea4190f6-dc31-3297-84d4-881154ddaba2/4580789706585.png/300x300bb.jpg",
+    "trackId": "1807297102"
   },
   {
     "id": "applemusic-1821389958",
@@ -1079,71 +1157,6 @@
     "trackId": "1051742500"
   },
   {
-    "id": "applemusic-615204575",
-    "name": "(If You Wanna) Be My Baby",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "WE ARE MYNAME",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/fb/1d/7efb1d36-c877-0241-fc43-022fa032e090/mzaf_11191175465908196907.plus.aac.p.m4a",
-    "duration": 170634,
-    "trackUrl": "https://music.apple.com/jp/album/if-you-wanna-be-my-baby/615204388?i=615204575",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
-    "trackId": "615204575"
-  },
-  {
-    "id": "applemusic-615204578",
-    "name": "Anonymous",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "WE ARE MYNAME",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/f9/59/22f95908-b5be-b8d5-36df-944d0fd39852/mzaf_10914773405607688235.plus.aac.p.m4a",
-    "duration": 225820,
-    "trackUrl": "https://music.apple.com/jp/album/anonymous/615204388?i=615204578",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
-    "trackId": "615204578"
-  },
-  {
-    "id": "applemusic-615204579",
-    "name": "Rum Bum Bum",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "WE ARE MYNAME",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/e8/7f/93e87f4e-e72b-c839-1a0e-6e7e387d5eac/mzaf_899475630315427403.plus.aac.p.m4a",
-    "duration": 234412,
-    "trackUrl": "https://music.apple.com/jp/album/rum-bum-bum/615204388?i=615204579",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
-    "trackId": "615204579"
-  },
-  {
-    "id": "applemusic-615204581",
-    "name": "Read Between the Lines",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "WE ARE MYNAME",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/19/5b/13/195b1366-bef7-b372-4ebb-770f2875753d/mzaf_18032575338250330289.plus.aac.p.m4a",
-    "duration": 239610,
-    "trackUrl": "https://music.apple.com/jp/album/read-between-the-lines/615204388?i=615204581",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
-    "trackId": "615204581"
-  },
-  {
-    "id": "applemusic-615204585",
-    "name": "You're Waiting For Me",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "WE ARE MYNAME",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/54/2f/f9542ffa-ef2c-35c6-561a-353460582350/mzaf_15234680450999607226.plus.aac.p.m4a",
-    "duration": 198477,
-    "trackUrl": "https://music.apple.com/jp/album/youre-waiting-for-me/615204388?i=615204585",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
-    "trackId": "615204585"
-  },
-  {
     "id": "applemusic-839336547",
     "name": "Klick",
     "artists": [
@@ -1248,6 +1261,71 @@
     "trackId": "839336559"
   },
   {
+    "id": "applemusic-615204575",
+    "name": "(If You Wanna) Be My Baby",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "WE ARE MYNAME",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7e/fb/1d/7efb1d36-c877-0241-fc43-022fa032e090/mzaf_11191175465908196907.plus.aac.p.m4a",
+    "duration": 170634,
+    "trackUrl": "https://music.apple.com/jp/album/if-you-wanna-be-my-baby/615204388?i=615204575",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
+    "trackId": "615204575"
+  },
+  {
+    "id": "applemusic-615204578",
+    "name": "Anonymous",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "WE ARE MYNAME",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/22/f9/59/22f95908-b5be-b8d5-36df-944d0fd39852/mzaf_10914773405607688235.plus.aac.p.m4a",
+    "duration": 225820,
+    "trackUrl": "https://music.apple.com/jp/album/anonymous/615204388?i=615204578",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
+    "trackId": "615204578"
+  },
+  {
+    "id": "applemusic-615204579",
+    "name": "Rum Bum Bum",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "WE ARE MYNAME",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/e8/7f/93e87f4e-e72b-c839-1a0e-6e7e387d5eac/mzaf_899475630315427403.plus.aac.p.m4a",
+    "duration": 234412,
+    "trackUrl": "https://music.apple.com/jp/album/rum-bum-bum/615204388?i=615204579",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
+    "trackId": "615204579"
+  },
+  {
+    "id": "applemusic-615204581",
+    "name": "Read Between the Lines",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "WE ARE MYNAME",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/19/5b/13/195b1366-bef7-b372-4ebb-770f2875753d/mzaf_18032575338250330289.plus.aac.p.m4a",
+    "duration": 239610,
+    "trackUrl": "https://music.apple.com/jp/album/read-between-the-lines/615204388?i=615204581",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
+    "trackId": "615204581"
+  },
+  {
+    "id": "applemusic-615204585",
+    "name": "You're Waiting For Me",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "WE ARE MYNAME",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/54/2f/f9542ffa-ef2c-35c6-561a-353460582350/mzaf_15234680450999607226.plus.aac.p.m4a",
+    "duration": 198477,
+    "trackUrl": "https://music.apple.com/jp/album/youre-waiting-for-me/615204388?i=615204585",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/d5/fb/c5/d5fbc5c9-9a4c-eebe-6c24-f6ca0103b84d/YRCS-95000.jpg/300x300bb.jpg",
+    "trackId": "615204585"
+  },
+  {
     "id": "applemusic-963083798",
     "name": "To the Place",
     "artists": [
@@ -1285,6 +1363,19 @@
     "trackUrl": "https://music.apple.com/jp/album/speechless/963083571?i=963083801",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/b7/4a/06/b74a06ea-8e99-52fe-d310-8554471eb8ca/myname_jk_t.jpg/300x300bb.jpg",
     "trackId": "963083801"
+  },
+  {
+    "id": "applemusic-963083804",
+    "name": "My Love (WESTLIFE cover)",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "I.M.G. ~without you~",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/46/64/08/466408ee-cf8d-d1fe-b937-768c560190f5/mzaf_16346010642796677065.plus.aac.p.m4a",
+    "duration": 238342,
+    "trackUrl": "https://music.apple.com/jp/album/my-love-westlife-cover/963083571?i=963083804",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/b7/4a/06/b74a06ea-8e99-52fe-d310-8554471eb8ca/myname_jk_t.jpg/300x300bb.jpg",
+    "trackId": "963083804"
   },
   {
     "id": "applemusic-963083807",
@@ -1352,19 +1443,6 @@
     "trackId": "963083811"
   },
   {
-    "id": "applemusic-542352807",
-    "name": "I Want To",
-    "artists": [
-      "MYNAME"
-    ],
-    "album": "Message (Type-A) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/ea/5a/13ea5a35-e7b8-e492-ff37-e855b3a71dc0/mzaf_696079645399413001.plus.aac.p.m4a",
-    "duration": 197360,
-    "trackUrl": "https://music.apple.com/jp/album/i-want-to/542352709?i=542352807",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b6/86/35/b6863592-7757-8c5a-2792-cce5e59f9781/YRCS-90015s.jpg/300x300bb.jpg",
-    "trackId": "542352807"
-  },
-  {
     "id": "applemusic-576283043",
     "name": "Adrenaline",
     "artists": [
@@ -1376,6 +1454,19 @@
     "trackUrl": "https://music.apple.com/jp/album/adrenaline/576283040?i=576283043",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b0/06/f1/b006f187-e97b-a871-47be-22d45483caff/YRCS-90022_typeA.jpg/300x300bb.jpg",
     "trackId": "576283043"
+  },
+  {
+    "id": "applemusic-542352807",
+    "name": "I Want To",
+    "artists": [
+      "MYNAME"
+    ],
+    "album": "Message (Type-A) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/ea/5a/13ea5a35-e7b8-e492-ff37-e855b3a71dc0/mzaf_696079645399413001.plus.aac.p.m4a",
+    "duration": 197360,
+    "trackUrl": "https://music.apple.com/jp/album/i-want-to/542352709?i=542352807",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b6/86/35/b6863592-7757-8c5a-2792-cce5e59f9781/YRCS-90015s.jpg/300x300bb.jpg",
+    "trackId": "542352807"
   },
   {
     "id": "applemusic-542354779",

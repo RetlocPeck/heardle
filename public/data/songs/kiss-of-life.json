@@ -143,84 +143,6 @@
     "trackId": "1773345360"
   },
   {
-    "id": "applemusic-1694699907",
-    "name": "Shhh",
-    "artists": [
-      "KISS OF LIFE"
-    ],
-    "album": "KISS OF LIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/d8/46/88d8463e-d392-9cc1-8a3e-a8c23c00306f/mzaf_3277561497758761979.plus.aac.p.m4a",
-    "duration": 182240,
-    "trackUrl": "https://music.apple.com/us/album/shhh/1694699906?i=1694699907",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
-    "trackId": "1694699907"
-  },
-  {
-    "id": "applemusic-1694699908",
-    "name": "Bye My Neverland",
-    "artists": [
-      "KISS OF LIFE"
-    ],
-    "album": "KISS OF LIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/99/b8/2699b825-5a7c-0a14-4000-108f8eca4aa1/mzaf_9695035310678679302.plus.aac.p.m4a",
-    "duration": 203040,
-    "trackUrl": "https://music.apple.com/us/album/bye-my-neverland/1694699906?i=1694699908",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
-    "trackId": "1694699908"
-  },
-  {
-    "id": "applemusic-1694699909",
-    "name": "Sugarcoat (NATTY Solo)",
-    "artists": [
-      "KISS OF LIFE"
-    ],
-    "album": "KISS OF LIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/b3/1d/ecb31d76-6109-70c0-b1d0-14dbf320cb4e/mzaf_1151135139340254832.plus.aac.p.m4a",
-    "duration": 179867,
-    "trackUrl": "https://music.apple.com/us/album/sugarcoat-natty-solo/1694699906?i=1694699909",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
-    "trackId": "1694699909"
-  },
-  {
-    "id": "applemusic-1694699910",
-    "name": "Countdown (BELLE Solo)",
-    "artists": [
-      "KISS OF LIFE"
-    ],
-    "album": "KISS OF LIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/d9/0f/70d90fa9-fca3-40fb-902b-b4797dea9840/mzaf_16556204679069767090.plus.aac.p.m4a",
-    "duration": 171013,
-    "trackUrl": "https://music.apple.com/us/album/countdown-belle-solo/1694699906?i=1694699910",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
-    "trackId": "1694699910"
-  },
-  {
-    "id": "applemusic-1694699911",
-    "name": "Kitty Cat (JULIE Solo)",
-    "artists": [
-      "KISS OF LIFE"
-    ],
-    "album": "KISS OF LIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/7c/e6/ee7ce605-c909-8f68-87e0-4701d86f6f98/mzaf_5424767557722719336.plus.aac.p.m4a",
-    "duration": 170053,
-    "trackUrl": "https://music.apple.com/us/album/kitty-cat-julie-solo/1694699906?i=1694699911",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
-    "trackId": "1694699911"
-  },
-  {
-    "id": "applemusic-1694699912",
-    "name": "Play Love Games (HANEUL Solo)",
-    "artists": [
-      "KISS OF LIFE"
-    ],
-    "album": "KISS OF LIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/96/f1/1096f124-5668-fc6c-42c5-9279704d2126/mzaf_12731773400845653902.plus.aac.p.m4a",
-    "duration": 180307,
-    "trackUrl": "https://music.apple.com/us/album/play-love-games-haneul-solo/1694699906?i=1694699912",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
-    "trackId": "1694699912"
-  },
-  {
     "id": "applemusic-1714373033",
     "name": "Bad News",
     "artists": [
@@ -390,17 +312,121 @@
     "trackId": "1816140548"
   },
   {
+    "id": "applemusic-1694699907",
+    "name": "Shhh",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "KISS OF LIFE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/d8/46/88d8463e-d392-9cc1-8a3e-a8c23c00306f/mzaf_3277561497758761979.plus.aac.p.m4a",
+    "duration": 182240,
+    "trackUrl": "https://music.apple.com/us/album/shhh/1694699906?i=1694699907",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
+    "trackId": "1694699907"
+  },
+  {
+    "id": "applemusic-1694699908",
+    "name": "Bye My Neverland",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "KISS OF LIFE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/26/99/b8/2699b825-5a7c-0a14-4000-108f8eca4aa1/mzaf_9695035310678679302.plus.aac.p.m4a",
+    "duration": 203040,
+    "trackUrl": "https://music.apple.com/us/album/bye-my-neverland/1694699906?i=1694699908",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
+    "trackId": "1694699908"
+  },
+  {
+    "id": "applemusic-1694699909",
+    "name": "Sugarcoat (NATTY Solo)",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "KISS OF LIFE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/b3/1d/ecb31d76-6109-70c0-b1d0-14dbf320cb4e/mzaf_1151135139340254832.plus.aac.p.m4a",
+    "duration": 179867,
+    "trackUrl": "https://music.apple.com/us/album/sugarcoat-natty-solo/1694699906?i=1694699909",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
+    "trackId": "1694699909"
+  },
+  {
+    "id": "applemusic-1694699910",
+    "name": "Countdown (BELLE Solo)",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "KISS OF LIFE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/d9/0f/70d90fa9-fca3-40fb-902b-b4797dea9840/mzaf_16556204679069767090.plus.aac.p.m4a",
+    "duration": 171013,
+    "trackUrl": "https://music.apple.com/us/album/countdown-belle-solo/1694699906?i=1694699910",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
+    "trackId": "1694699910"
+  },
+  {
+    "id": "applemusic-1694699911",
+    "name": "Kitty Cat (JULIE Solo)",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "KISS OF LIFE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/7c/e6/ee7ce605-c909-8f68-87e0-4701d86f6f98/mzaf_5424767557722719336.plus.aac.p.m4a",
+    "duration": 170053,
+    "trackUrl": "https://music.apple.com/us/album/kitty-cat-julie-solo/1694699906?i=1694699911",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
+    "trackId": "1694699911"
+  },
+  {
+    "id": "applemusic-1694699912",
+    "name": "Play Love Games (HANEUL Solo)",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "KISS OF LIFE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/96/f1/1096f124-5668-fc6c-42c5-9279704d2126/mzaf_12731773400845653902.plus.aac.p.m4a",
+    "duration": 180307,
+    "trackUrl": "https://music.apple.com/us/album/play-love-games-haneul-solo/1694699906?i=1694699912",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/300x300bb.jpg",
+    "trackId": "1694699912"
+  },
+  {
     "id": "applemusic-1833385020",
     "name": "SUPERPOWER",
     "artists": [
       "VALORANT Music, KISS OF LIFE & Mark Tuan"
     ],
     "album": "SUPERPOWER - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/d7/f5/cdd7f57f-6416-2aed-d417-cc00d60251c3/mzaf_15048001504885233646.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/a5/c8/6da5c8c7-221e-7730-cb56-f49f30d6e393/mzaf_8802735820329058204.plus.aac.p.m4a",
     "duration": 182988,
     "trackUrl": "https://music.apple.com/us/album/superpower/1833385019?i=1833385020",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/06/eb/1b/06eb1b6b-e720-efe3-a1a1-a172f8a73827/00198704675423_Cover.jpg/300x300bb.jpg",
     "trackId": "1833385020"
+  },
+  {
+    "id": "applemusic-1886385270",
+    "name": "Who is she",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "Who is she - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/d1/64/f1d16463-367a-fd32-19fe-406f576dad42/mzaf_1857152610559426017.plus.aac.p.m4a",
+    "duration": 159000,
+    "trackUrl": "https://music.apple.com/us/album/who-is-she/1886385269?i=1886385270",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/2d/73/3e2d7335-f35e-5292-fa78-40a61c7a8a85/cover_KM0024244_1.jpg/300x300bb.jpg",
+    "trackId": "1886385270"
+  },
+  {
+    "id": "applemusic-1886385278",
+    "name": "Don't mind me",
+    "artists": [
+      "KISS OF LIFE"
+    ],
+    "album": "Who is she - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/45/93/bf4593ac-3afc-672e-ac60-60ffefa21af4/mzaf_11794293121148751841.plus.aac.p.m4a",
+    "duration": 180000,
+    "trackUrl": "https://music.apple.com/us/album/dont-mind-me/1886385269?i=1886385278",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/2d/73/3e2d7335-f35e-5292-fa78-40a61c7a8a85/cover_KM0024244_1.jpg/300x300bb.jpg",
+    "trackId": "1886385278"
   },
   {
     "id": "applemusic-1747735882",
@@ -422,7 +448,7 @@
       "KISS OF LIFE"
     ],
     "album": "TOKYO MISSION START - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f9/67/8e/f9678e70-9e83-e296-9c9a-c40c8195e0fb/mzaf_9284000632853603681.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/92/e1/8992e1f8-560b-a800-6755-531468425a21/mzaf_437872329910437300.plus.aac.p.m4a",
     "duration": 148867,
     "trackUrl": "https://music.apple.com/us/album/lucky/1847812497?i=1847812498",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5c/a6/28/5ca628fd-8087-6efd-5522-97a03e0daa1a/COCP-42602.jpg/300x300bb.jpg",

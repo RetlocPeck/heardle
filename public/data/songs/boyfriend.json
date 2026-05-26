@@ -1,1 +1,938 @@
-[]
+[
+  {
+    "id": "applemusic-1719338230",
+    "name": "Marie Antoinette (feat. Big Freedia)",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Marie Antoinette (feat. Big Freedia) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/21/09/a4/2109a493-da38-98a4-7cfb-54118675ddd1/mzaf_5073083425395057358.plus.aac.p.m4a",
+    "duration": 164252,
+    "trackUrl": "https://music.apple.com/us/album/marie-antoinette-feat-big-freedia/1719338229?i=1719338230",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/94/83/28/948328e7-0c90-7eed-55b2-db847ba7a464/859718085140_ARTWORKMarieAntoinettefeatBigFreedia.jpg/300x300bb.jpg",
+    "trackId": "1719338230"
+  },
+  {
+    "id": "applemusic-1631021399",
+    "name": "Toast",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Toast - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/76/66/96/766696ff-c47a-650f-2c76-83228e793852/mzaf_5006032580582036839.plus.aac.p.m4a",
+    "duration": 162765,
+    "trackUrl": "https://music.apple.com/us/album/toast/1631021398?i=1631021399",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/89/4b/38/894b3843-5061-4dad-be2b-d8b61730e3bd/5054526084452_bf.jpg/300x300bb.jpg",
+    "trackId": "1631021399"
+  },
+  {
+    "id": "applemusic-1776154626",
+    "name": "Like My Hand Did",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Like My Hand Did - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/27/45/9b27459c-232d-09da-392c-3f3c2d02c5bc/mzaf_8960724265671155476.plus.aac.p.m4a",
+    "duration": 207273,
+    "trackUrl": "https://music.apple.com/us/album/like-my-hand-did/1776154625?i=1776154626",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/e1/1a/1ee11a8f-18b2-028b-6bd8-8f66bbaf7c51/859713682290_LikeMyHandDidremixart.jpg/300x300bb.jpg",
+    "trackId": "1776154626"
+  },
+  {
+    "id": "applemusic-1627619401",
+    "name": "Deceptacon",
+    "artists": [
+      "Boyfriend & Big Freedia"
+    ],
+    "album": "Deceptacon - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/29/88/0c/29880c0d-5f3b-0a8d-eb5a-222def1c1804/mzaf_2125014975998583606.plus.aac.p.m4a",
+    "duration": 203359,
+    "trackUrl": "https://music.apple.com/us/album/deceptacon/1627619400?i=1627619401",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/06/e0/6f/06e06f2b-f180-21e1-89ae-dadba09f6f6e/193436293556_MG.jpg/300x300bb.jpg",
+    "trackId": "1627619401"
+  },
+  {
+    "id": "applemusic-1220058240",
+    "name": "Sleepin On",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Next - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/94/42/969442ad-4ac4-5de0-aa07-997c0ba08c3a/mzaf_3238055566903808845.plus.aac.p.m4a",
+    "duration": 129933,
+    "trackUrl": "https://music.apple.com/us/album/sleepin-on/1220058232?i=1220058240",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/98/2e/a4982e58-90ab-453a-21ce-5a05a8134168/5054526506824_1.jpg/300x300bb.jpg",
+    "trackId": "1220058240"
+  },
+  {
+    "id": "applemusic-1220058241",
+    "name": "Next",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Next - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ce/b4/38/ceb4383f-4973-6d6f-bb9f-20bcba563010/mzaf_4560519420875406355.plus.aac.p.m4a",
+    "duration": 196520,
+    "trackUrl": "https://music.apple.com/us/album/next/1220058232?i=1220058241",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/98/2e/a4982e58-90ab-453a-21ce-5a05a8134168/5054526506824_1.jpg/300x300bb.jpg",
+    "trackId": "1220058241"
+  },
+  {
+    "id": "applemusic-1220058244",
+    "name": "Beauty Is Pain",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Next - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c0/c6/5e/c0c65ef4-cac3-637e-6670-f5322011947a/mzaf_10665932501346224675.plus.aac.p.m4a",
+    "duration": 170093,
+    "trackUrl": "https://music.apple.com/us/album/beauty-is-pain/1220058232?i=1220058244",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/98/2e/a4982e58-90ab-453a-21ce-5a05a8134168/5054526506824_1.jpg/300x300bb.jpg",
+    "trackId": "1220058244"
+  },
+  {
+    "id": "applemusic-1220058245",
+    "name": "Fun Shit (feat. Cindy Wilson)",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Next - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/81/f6/1d/81f61d80-8eec-2724-89e9-adebe45545c7/mzaf_5853711630452830175.plus.aac.p.m4a",
+    "duration": 170907,
+    "trackUrl": "https://music.apple.com/us/album/fun-shit-feat-cindy-wilson/1220058232?i=1220058245",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a4/98/2e/a4982e58-90ab-453a-21ce-5a05a8134168/5054526506824_1.jpg/300x300bb.jpg",
+    "trackId": "1220058245"
+  },
+  {
+    "id": "applemusic-1631625533",
+    "name": "Dance With the Devil (feat. P***y Riot)",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Dance With the Devil (feat. P***y Riot) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bb/6e/3f/bb6e3fce-9012-5938-3a5f-4fee8e53151e/mzaf_5058438354605467329.plus.aac.p.m4a",
+    "duration": 209133,
+    "trackUrl": "https://music.apple.com/us/album/dance-with-the-devil-feat-p-y-riot/1631625532?i=1631625533",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/cb/3a/9e/cb3a9e0e-373a-397b-6bd4-cc2b832e53f0/193436295758_bfnadiaretouchedvnewglasses.jpg/300x300bb.jpg",
+    "trackId": "1631625533"
+  },
+  {
+    "id": "applemusic-1637707191",
+    "name": "Soulmate",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/2b/16/92/2b1692d7-7a29-73ae-28ee-48601a1c8c65/mzaf_9421076108297418495.plus.aac.p.m4a",
+    "duration": 198960,
+    "trackUrl": "https://music.apple.com/us/album/soulmate/1637707190?i=1637707191",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707191"
+  },
+  {
+    "id": "applemusic-1637707195",
+    "name": "Re: Future",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ea/ae/dd/eaaedd4c-6576-e2cb-e5f8-2cc80d042b34/mzaf_5693042022074592113.plus.aac.p.m4a",
+    "duration": 183533,
+    "trackUrl": "https://music.apple.com/us/album/re-future/1637707190?i=1637707195",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707195"
+  },
+  {
+    "id": "applemusic-1637707196",
+    "name": "Sugar & Spice",
+    "artists": [
+      "Boyfriend & Pyra"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ff/ef/c3/ffefc3d9-fc18-72a1-c594-1d845bfcfe05/mzaf_11964843419215092117.plus.aac.p.m4a",
+    "duration": 215013,
+    "trackUrl": "https://music.apple.com/us/album/sugar-spice/1637707190?i=1637707196",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707196"
+  },
+  {
+    "id": "applemusic-1637707197",
+    "name": "Just a Girl",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d0/82/a7/d082a737-ef14-c307-8779-b2707d6895b8/mzaf_5319671617756794757.plus.aac.p.m4a",
+    "duration": 231667,
+    "trackUrl": "https://music.apple.com/us/album/just-a-girl/1637707190?i=1637707197",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707197"
+  },
+  {
+    "id": "applemusic-1637707198",
+    "name": "Confident",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c5/38/ca/c538ca42-7635-02dc-251b-6b1edba12afc/mzaf_7796962615121768917.plus.aac.p.m4a",
+    "duration": 66867,
+    "trackUrl": "https://music.apple.com/us/album/confident/1637707190?i=1637707198",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707198"
+  },
+  {
+    "id": "applemusic-1637707199",
+    "name": "Dead Yet",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ed/0e/f1/ed0ef118-b600-899a-7aeb-5f20dba63ace/mzaf_11248272751847977453.plus.aac.p.m4a",
+    "duration": 176000,
+    "trackUrl": "https://music.apple.com/us/album/dead-yet/1637707190?i=1637707199",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707199"
+  },
+  {
+    "id": "applemusic-1637707200",
+    "name": "Uh Oh",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f9/84/ce/f984ce48-7ac5-88ae-3791-26a969f4b6f0/mzaf_15969637848931565328.plus.aac.p.m4a",
+    "duration": 87720,
+    "trackUrl": "https://music.apple.com/us/album/uh-oh/1637707190?i=1637707200",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707200"
+  },
+  {
+    "id": "applemusic-1637707202",
+    "name": "Consent",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ec/42/d4/ec42d40c-85cc-0aa0-e816-931ab07c85d9/mzaf_2859940088876248581.plus.aac.p.m4a",
+    "duration": 140533,
+    "trackUrl": "https://music.apple.com/us/album/consent/1637707190?i=1637707202",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707202"
+  },
+  {
+    "id": "applemusic-1637707203",
+    "name": "Pegasus",
+    "artists": [
+      "Boyfriend & Bailey Flores"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/ad/6d/98/ad6d9872-0d48-90a4-a8fe-94cf612067d4/mzaf_12196637092156710533.plus.aac.p.m4a",
+    "duration": 186760,
+    "trackUrl": "https://music.apple.com/us/album/pegasus/1637707190?i=1637707203",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707203"
+  },
+  {
+    "id": "applemusic-1637707204",
+    "name": "Lie In It",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f8/87/c7/f887c7ce-e2d8-1711-a1e0-b24ca2fd384d/mzaf_4001195546057551986.plus.aac.p.m4a",
+    "duration": 159293,
+    "trackUrl": "https://music.apple.com/us/album/lie-in-it/1637707190?i=1637707204",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707204"
+  },
+  {
+    "id": "applemusic-1637707205",
+    "name": "Blind Eye",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/0f/bf/2d/0fbf2d88-359b-e27f-8fda-8d4ff5aa13ab/mzaf_12525153068038406379.plus.aac.p.m4a",
+    "duration": 190453,
+    "trackUrl": "https://music.apple.com/us/album/blind-eye/1637707190?i=1637707205",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707205"
+  },
+  {
+    "id": "applemusic-1637707206",
+    "name": "Mango",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/8e/a6/68/8ea66887-77e1-e6dc-08f8-90a0a7a9c755/mzaf_7077201033816321993.plus.aac.p.m4a",
+    "duration": 235027,
+    "trackUrl": "https://music.apple.com/us/album/mango/1637707190?i=1637707206",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707206"
+  },
+  {
+    "id": "applemusic-1637707207",
+    "name": "There's a Place",
+    "artists": [
+      "Boyfriend & Death Valley Girls"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/bf/ef/c0/bfefc03c-ce57-6a19-f1a3-2e3df0650ca5/mzaf_18184706088916009992.plus.aac.p.m4a",
+    "duration": 187280,
+    "trackUrl": "https://music.apple.com/us/album/theres-a-place/1637707190?i=1637707207",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707207"
+  },
+  {
+    "id": "applemusic-1637707209",
+    "name": "Teacher",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Sugar & Spice",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/83/fd/b5/83fdb5eb-9dad-4a6e-2c33-1bab40b00739/mzaf_14046800980516823524.plus.aac.p.m4a",
+    "duration": 221653,
+    "trackUrl": "https://music.apple.com/us/album/teacher/1637707190?i=1637707209",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/7e/c1/5b/7ec15b3c-5149-8684-01e5-745ed8737862/193436299565_plgVwOfRMKpFHiZNKu.jpg/300x300bb.jpg",
+    "trackId": "1637707209"
+  },
+  {
+    "id": "applemusic-1631021425",
+    "name": "Pinky Out",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Pinky Out - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e9/70/60/e97060a1-79fc-0dd5-e145-09e6740af52d/mzaf_4469158723027205066.plus.aac.p.m4a",
+    "duration": 176194,
+    "trackUrl": "https://music.apple.com/us/album/pinky-out/1631021424?i=1631021425",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fb/2d/87/fb2d8711-66e2-cf5b-1f6b-09edd400ff68/5054526115590_ARTPINKYOUTCREDITFAYEORLOVE.jpg/300x300bb.jpg",
+    "trackId": "1631021425"
+  },
+  {
+    "id": "applemusic-1630810171",
+    "name": "Bring It To Mama (feat. Galactic)",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Bring It To Mama (feat. Galactic) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/aa/44/89/aa448962-398a-ba3e-eb55-b5da0e780f45/mzaf_8836485276829011203.plus.aac.p.m4a",
+    "duration": 189288,
+    "trackUrl": "https://music.apple.com/us/album/bring-it-to-mama-feat-galactic/1630810170?i=1630810171",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/96/f2/61/96f2611b-4c7d-c88b-32a4-1f0ac7a10e11/5054526362970_cNmlResRFGXFmpBYvp.jpg/300x300bb.jpg",
+    "trackId": "1630810171"
+  },
+  {
+    "id": "applemusic-1630241815",
+    "name": "Attention",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/99/41/15/994115ba-1e37-bc53-4809-263cc6fde9d8/mzaf_11153619535607035117.plus.aac.p.m4a",
+    "duration": 176419,
+    "trackUrl": "https://music.apple.com/us/album/attention/1630241814?i=1630241815",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fb/28/a0/fb28a07e-5156-762a-7b12-d293e6171cf8/859713490215_koxkCrfQOmMOfNbhqwundefined.jpg/300x300bb.jpg",
+    "trackId": "1630241815"
+  },
+  {
+    "id": "applemusic-1630241816",
+    "name": "Say You Will",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/f2/cc/10/f2cc10f2-176d-e88b-0387-26ad2991fa1b/mzaf_8157901810065964811.plus.aac.p.m4a",
+    "duration": 197143,
+    "trackUrl": "https://music.apple.com/us/album/say-you-will/1630241814?i=1630241816",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fb/28/a0/fb28a07e-5156-762a-7b12-d293e6171cf8/859713490215_koxkCrfQOmMOfNbhqwundefined.jpg/300x300bb.jpg",
+    "trackId": "1630241816"
+  },
+  {
+    "id": "applemusic-1630241817",
+    "name": "Lean",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/ed/43/f0/ed43f0bc-2cb1-0c1b-14f0-ebec478acd81/mzaf_9461649580673182578.plus.aac.p.m4a",
+    "duration": 200000,
+    "trackUrl": "https://music.apple.com/us/album/lean/1630241814?i=1630241817",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fb/28/a0/fb28a07e-5156-762a-7b12-d293e6171cf8/859713490215_koxkCrfQOmMOfNbhqwundefined.jpg/300x300bb.jpg",
+    "trackId": "1630241817"
+  },
+  {
+    "id": "applemusic-1630241819",
+    "name": "Triangle",
+    "artists": [
+      "Boyfriend & Miny"
+    ],
+    "album": "Love Your Boyfriend EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/19/b4/ad/19b4ad11-65af-4880-4d45-97eb9970642f/mzaf_2472600402682948632.plus.aac.p.m4a",
+    "duration": 212308,
+    "trackUrl": "https://music.apple.com/us/album/triangle/1630241814?i=1630241819",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/fb/28/a0/fb28a07e-5156-762a-7b12-d293e6171cf8/859713490215_koxkCrfQOmMOfNbhqwundefined.jpg/300x300bb.jpg",
+    "trackId": "1630241819"
+  },
+  {
+    "id": "applemusic-1795548910",
+    "name": "FIGHT (feat. Jake Shears)",
+    "artists": [
+      "Boyfriend & Jake Shears"
+    ],
+    "album": "FIGHT (ft. Jake Shears) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/bf/d1/e8bfd1b4-dd87-f6cb-9d6d-eb6d6917811c/mzaf_5298042215246378961.plus.aac.p.m4a",
+    "duration": 157706,
+    "trackUrl": "https://music.apple.com/us/album/fight-feat-jake-shears/1795548908?i=1795548910",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3e/02/81/3e028198-3a3f-93eb-7626-627d2332c7fb/199066811313.jpg/300x300bb.jpg",
+    "trackId": "1795548910"
+  },
+  {
+    "id": "applemusic-1807847742",
+    "name": "PROLOGUE (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/9c/9b/bf9c9b5e-90f3-b80f-02cd-39a948396b5b/mzaf_10379885198664708270.plus.aac.p.m4a",
+    "duration": 60006,
+    "trackUrl": "https://music.apple.com/us/album/prologue-feat-billy-porter/1807847733?i=1807847742",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807847742"
+  },
+  {
+    "id": "applemusic-1807847749",
+    "name": "CREATION (feat. Big Freedia)",
+    "artists": [
+      "Boyfriend & Big Freedia"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/0a/13/090a138b-40c7-8e41-918c-92505bb7322f/mzaf_9420004112224802687.plus.aac.p.m4a",
+    "duration": 156515,
+    "trackUrl": "https://music.apple.com/us/album/creation-feat-big-freedia/1807847733?i=1807847749",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807847749"
+  },
+  {
+    "id": "applemusic-1807848131",
+    "name": "ENTER EVE (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ce/54/5f/ce545ff1-2a56-89a6-e0e0-87038e46103c/mzaf_15104437028123365521.plus.aac.p.m4a",
+    "duration": 23301,
+    "trackUrl": "https://music.apple.com/us/album/enter-eve-feat-billy-porter/1807847733?i=1807848131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848131"
+  },
+  {
+    "id": "applemusic-1807848262",
+    "name": "EVE",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/7f/29/187f2975-2661-8284-e153-90df3b8db480/mzaf_14642931973903092947.plus.aac.p.m4a",
+    "duration": 219051,
+    "trackUrl": "https://music.apple.com/us/album/eve/1807847733?i=1807848262",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848262"
+  },
+  {
+    "id": "applemusic-1807848265",
+    "name": "ENTER ADAM (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5b/2d/07/5b2d0724-2c2a-d2f1-c80a-926073e7d078/mzaf_14348269331269118357.plus.aac.p.m4a",
+    "duration": 22758,
+    "trackUrl": "https://music.apple.com/us/album/enter-adam-feat-billy-porter/1807847733?i=1807848265",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848265"
+  },
+  {
+    "id": "applemusic-1807848444",
+    "name": "ADAM (feat. Jake Shears)",
+    "artists": [
+      "Boyfriend & Jake Shears"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/50/bd/e2/50bde251-efff-2356-8b4b-2f190462d572/mzaf_1189365796508412684.plus.aac.p.m4a",
+    "duration": 187612,
+    "trackUrl": "https://music.apple.com/us/album/adam-feat-jake-shears/1807847733?i=1807848444",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848444"
+  },
+  {
+    "id": "applemusic-1807848448",
+    "name": "PARTY (feat. Jake Shears)",
+    "artists": [
+      "Boyfriend & Jake Shears"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/51/31/ac5131cf-16a6-d228-5d61-9efc7040c3e9/mzaf_4231870771135553278.plus.aac.p.m4a",
+    "duration": 145600,
+    "trackUrl": "https://music.apple.com/us/album/party-feat-jake-shears/1807847733?i=1807848448",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848448"
+  },
+  {
+    "id": "applemusic-1807848450",
+    "name": "PROTASIS (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/14/ba/1a14ba67-58ea-3013-02e9-34495d5d5e20/mzaf_9483699726401614078.plus.aac.p.m4a",
+    "duration": 19200,
+    "trackUrl": "https://music.apple.com/us/album/protasis-feat-billy-porter/1807847733?i=1807848450",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848450"
+  },
+  {
+    "id": "applemusic-1807848452",
+    "name": "RULES (feat. Big Freedia)",
+    "artists": [
+      "Boyfriend & Big Freedia"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/f1/7a/34f17ad2-4140-3d83-85df-4797a30087a5/mzaf_13061942487482972207.plus.aac.p.m4a",
+    "duration": 155969,
+    "trackUrl": "https://music.apple.com/us/album/rules-feat-big-freedia/1807847733?i=1807848452",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848452"
+  },
+  {
+    "id": "applemusic-1807848453",
+    "name": "ENTER SERPENT (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/ff/08/68ff08f5-72b5-7bdb-42f9-d5dbaa0b7568/mzaf_9655226411934120455.plus.aac.p.m4a",
+    "duration": 37839,
+    "trackUrl": "https://music.apple.com/us/album/enter-serpent-feat-billy-porter/1807847733?i=1807848453",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848453"
+  },
+  {
+    "id": "applemusic-1807848861",
+    "name": "SERPENT (feat. Peaches)",
+    "artists": [
+      "Boyfriend & Peaches"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/71/a6/2d/71a62d6b-e9c7-3af2-7a9c-892da4efb3d4/mzaf_13431926925147299582.plus.aac.p.m4a",
+    "duration": 134407,
+    "trackUrl": "https://music.apple.com/us/album/serpent-feat-peaches/1807847733?i=1807848861",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848861"
+  },
+  {
+    "id": "applemusic-1807848868",
+    "name": "EPITASIS (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/d2/74/fbd27468-d1a9-477e-0561-0fb5a8160410/mzaf_12143289106738056539.plus.aac.p.m4a",
+    "duration": 35077,
+    "trackUrl": "https://music.apple.com/us/album/epitasis-feat-billy-porter/1807847733?i=1807848868",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848868"
+  },
+  {
+    "id": "applemusic-1807848885",
+    "name": "CURIOUS",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/f7/57/4df75758-6dc0-88ce-d772-94e72fd16ac3/mzaf_5082304248951110202.plus.aac.p.m4a",
+    "duration": 201091,
+    "trackUrl": "https://music.apple.com/us/album/curious/1807847733?i=1807848885",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848885"
+  },
+  {
+    "id": "applemusic-1807848886",
+    "name": "CATASTASIS (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7c/e8/ac/7ce8ac2e-3405-a0ec-fd90-e556e6ef722e/mzaf_957364335984512562.plus.aac.p.m4a",
+    "duration": 20796,
+    "trackUrl": "https://music.apple.com/us/album/catastasis-feat-billy-porter/1807847733?i=1807848886",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848886"
+  },
+  {
+    "id": "applemusic-1807848889",
+    "name": "WANT",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/f9/1a/0bf91a4b-0ceb-0939-5a35-f016a8897b19/mzaf_2058981340370445142.plus.aac.p.m4a",
+    "duration": 185600,
+    "trackUrl": "https://music.apple.com/us/album/want/1807847733?i=1807848889",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807848889"
+  },
+  {
+    "id": "applemusic-1807849164",
+    "name": "DEBATE (feat. Peaches)",
+    "artists": [
+      "Boyfriend & Peaches"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/11/da/0d11daba-caf4-8e07-8861-03c7db8acd78/mzaf_13563900305780569968.plus.aac.p.m4a",
+    "duration": 122027,
+    "trackUrl": "https://music.apple.com/us/album/debate-feat-peaches/1807847733?i=1807849164",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807849164"
+  },
+  {
+    "id": "applemusic-1807849169",
+    "name": "CATASTROPHE (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7e/f6/1b/7ef61be8-8f27-2633-d284-77172cf88d37/mzaf_12085313343687100195.plus.aac.p.m4a",
+    "duration": 18000,
+    "trackUrl": "https://music.apple.com/us/album/catastrophe-feat-billy-porter/1807847733?i=1807849169",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807849169"
+  },
+  {
+    "id": "applemusic-1807849179",
+    "name": "BITE",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/c8/cd/8dc8cde5-eab9-f829-852b-bb3af4d2164d/mzaf_7977742993835474396.plus.aac.p.m4a",
+    "duration": 152905,
+    "trackUrl": "https://music.apple.com/us/album/bite/1807847733?i=1807849179",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807849179"
+  },
+  {
+    "id": "applemusic-1807849183",
+    "name": "CURSE (feat. Big Freedia)",
+    "artists": [
+      "Boyfriend & Big Freedia"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/8c/74/648c742c-61ce-33bd-69dc-0d5b3bb32afa/mzaf_16852146440513566892.plus.aac.p.m4a",
+    "duration": 118955,
+    "trackUrl": "https://music.apple.com/us/album/curse-feat-big-freedia/1807847733?i=1807849183",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807849183"
+  },
+  {
+    "id": "applemusic-1807849696",
+    "name": "EPILOGUE (feat. Billy Porter)",
+    "artists": [
+      "Boyfriend & Billy Porter"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/73/70/cf737019-c618-e815-fe21-4341e22280dc/mzaf_1864958104784347990.plus.aac.p.m4a",
+    "duration": 75429,
+    "trackUrl": "https://music.apple.com/us/album/epilogue-feat-billy-porter/1807847733?i=1807849696",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807849696"
+  },
+  {
+    "id": "applemusic-1807849891",
+    "name": "PARADISE LOST",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "IN THE GARDEN",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/44/89/8c44897c-e2cd-88e5-f680-ef3e5e127f17/mzaf_7276350863469263128.plus.aac.p.m4a",
+    "duration": 270302,
+    "trackUrl": "https://music.apple.com/us/album/paradise-lost/1807847733?i=1807849891",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/1e/02/661e02d5-5460-1093-b700-d8fb5b9eaf73/199350281198.jpg/300x300bb.jpg",
+    "trackId": "1807849891"
+  },
+  {
+    "id": "applemusic-1631021311",
+    "name": "Jealousy",
+    "artists": [
+      "Boyfriend & Preservation Hall Jazz Band"
+    ],
+    "album": "Jealousy - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/8a/1a/4a/8a1a4aa5-091f-fc4f-6b3b-33a52e543d64/mzaf_8375728597017720342.plus.aac.p.m4a",
+    "duration": 216672,
+    "trackUrl": "https://music.apple.com/us/album/jealousy/1631021310?i=1631021311",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/ae/ac/9e/aeac9eb7-2614-ff46-564a-476fdcf08a3e/5054526594579_jealousyart.jpg/300x300bb.jpg",
+    "trackId": "1631021311"
+  },
+  {
+    "id": "applemusic-1631021762",
+    "name": "Wash That",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Wash That - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/63/46/8c/63468c4b-c85e-300b-9067-d91bd8a39124/mzaf_14007079502874084611.plus.aac.p.m4a",
+    "duration": 198400,
+    "trackUrl": "https://music.apple.com/us/album/wash-that/1631021759?i=1631021762",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/79/dd/ab/79ddab6c-0477-6756-5dd6-7faf92d76d10/5054526160446_bf.jpg/300x300bb.jpg",
+    "trackId": "1631021762"
+  },
+  {
+    "id": "applemusic-1633518096",
+    "name": "Company Ink",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/69/22/16/69221685-3c5b-3963-4892-75aff7360ef3/mzaf_14472384599214901442.plus.aac.p.m4a",
+    "duration": 176104,
+    "trackUrl": "https://music.apple.com/us/album/company-ink/1633518095?i=1633518096",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/db/9e/99/db9e9963-6ab9-131c-027e-65f74b502d55/859713736009_boyfriendpng.png/300x300bb.jpg",
+    "trackId": "1633518096"
+  },
+  {
+    "id": "applemusic-1633518097",
+    "name": "Man Cheatin",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/71/f2/2f/71f22ff3-6ec1-3f67-6056-48abc86cbf5a/mzaf_6573045652215165043.plus.aac.p.m4a",
+    "duration": 187500,
+    "trackUrl": "https://music.apple.com/us/album/man-cheatin/1633518095?i=1633518097",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/db/9e/99/db9e9963-6ab9-131c-027e-65f74b502d55/859713736009_boyfriendpng.png/300x300bb.jpg",
+    "trackId": "1633518097"
+  },
+  {
+    "id": "applemusic-1633518098",
+    "name": "Hey Girl",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/4a/ea/37/4aea371b-6ca9-7757-ed30-78d44d876a9d/mzaf_9035475193370311949.plus.aac.p.m4a",
+    "duration": 155621,
+    "trackUrl": "https://music.apple.com/us/album/hey-girl/1633518095?i=1633518098",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/db/9e/99/db9e9963-6ab9-131c-027e-65f74b502d55/859713736009_boyfriendpng.png/300x300bb.jpg",
+    "trackId": "1633518098"
+  },
+  {
+    "id": "applemusic-1633518099",
+    "name": "Love Means",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Love Your Boyfriend, Pt. 2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/50/37/7b/50377bdd-ad5f-8245-51c1-b7c17c1ba425/mzaf_5408161426260712995.plus.aac.p.m4a",
+    "duration": 173478,
+    "trackUrl": "https://music.apple.com/us/album/love-means/1633518095?i=1633518099",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/db/9e/99/db9e9963-6ab9-131c-027e-65f74b502d55/859713736009_boyfriendpng.png/300x300bb.jpg",
+    "trackId": "1633518099"
+  },
+  {
+    "id": "applemusic-1712882481",
+    "name": "Ethical Slut",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Ethical Slut - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e0/8b/e3/e08be36c-8bd4-413c-c134-0ae8d21cd5ed/mzaf_9925210709475240752.plus.aac.p.m4a",
+    "duration": 169123,
+    "trackUrl": "https://music.apple.com/us/album/ethical-slut/1712882480?i=1712882481",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c2/98/20/c29820e7-348c-8a5c-bb25-a8c4105c7f6e/193436361057_boyfriendethicalslut.jpg/300x300bb.jpg",
+    "trackId": "1712882481"
+  },
+  {
+    "id": "applemusic-1631882048",
+    "name": "Dblspk",
+    "artists": [
+      "Boyfriend & Serpentine Man"
+    ],
+    "album": "Dblspk - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/70/cb/68/70cb6835-80a4-9115-b7d5-5fd048b78a3c/mzaf_9516464572944214395.plus.aac.p.m4a",
+    "duration": 176271,
+    "trackUrl": "https://music.apple.com/us/album/dblspk/1631882047?i=1631882048",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a6/0a/fb/a60afbf3-4ccc-ed25-97d6-55cb5508ef5b/5054526482951_WGmrmEaSjKItDUtYEC.jpg/300x300bb.jpg",
+    "trackId": "1631882048"
+  },
+  {
+    "id": "applemusic-1701831618",
+    "name": "Rugrat",
+    "artists": [
+      "Boyfriend & Dai Burger"
+    ],
+    "album": "Rugrat - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6c/70/91/6c70914e-6cff-da95-af07-09163619ddbb/mzaf_16632872630943510896.plus.aac.p.m4a",
+    "duration": 175089,
+    "trackUrl": "https://music.apple.com/us/album/rugrat/1701831617?i=1701831618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/21/85/44/21854450-7260-2dad-3c6d-315501983516/193436348447_Rugratart.jpg/300x300bb.jpg",
+    "trackId": "1701831618"
+  },
+  {
+    "id": "applemusic-1620219231",
+    "name": "Superman",
+    "artists": [
+      "Boyfriend & The Song Confessional"
+    ],
+    "album": "Superman - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/28/78/61/28786179-36bb-a814-5687-b0dafcf5a879/mzaf_9181237517978094330.plus.aac.p.m4a",
+    "duration": 179857,
+    "trackUrl": "https://music.apple.com/us/album/superman/1620219227?i=1620219231",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/94/d0/08/94d0084a-b9f9-3176-b3af-cd57c526afd4/0.jpg/300x300bb.jpg",
+    "trackId": "1620219231"
+  },
+  {
+    "id": "applemusic-1717463071",
+    "name": "Kudzu (feat. Jarina De Marco)",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "& Everything Nice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/be/5a/6a/be5a6a9b-4b7a-62d1-ccbd-976752bcd51e/mzaf_2753579632917684183.plus.aac.p.m4a",
+    "duration": 124506,
+    "trackUrl": "https://music.apple.com/us/album/kudzu-feat-jarina-de-marco/1717463021?i=1717463071",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c3/74/25/c374254c-b5f1-7472-534b-e101f574ada4/193436364188_EVERYTHINGNICEEPCOVERART.jpg/300x300bb.jpg",
+    "trackId": "1717463071"
+  },
+  {
+    "id": "applemusic-1717463072",
+    "name": "Jericho Walls",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "& Everything Nice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/18/0c/97/180c9791-7883-17b8-1786-7844f982f7a6/mzaf_6959654306464684191.plus.aac.p.m4a",
+    "duration": 124363,
+    "trackUrl": "https://music.apple.com/us/album/jericho-walls/1717463021?i=1717463072",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c3/74/25/c374254c-b5f1-7472-534b-e101f574ada4/193436364188_EVERYTHINGNICEEPCOVERART.jpg/300x300bb.jpg",
+    "trackId": "1717463072"
+  },
+  {
+    "id": "applemusic-1717463073",
+    "name": "MidCity (feat. Denisia and 504icygrl)",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "& Everything Nice - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ca/70/16/ca7016e1-f653-00c1-a13e-4139ca6dc19f/mzaf_16263961670355060933.plus.aac.p.m4a",
+    "duration": 149322,
+    "trackUrl": "https://music.apple.com/us/album/midcity-feat-denisia-and-504icygrl/1717463021?i=1717463073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c3/74/25/c374254c-b5f1-7472-534b-e101f574ada4/193436364188_EVERYTHINGNICEEPCOVERART.jpg/300x300bb.jpg",
+    "trackId": "1717463073"
+  },
+  {
+    "id": "applemusic-1683642373",
+    "name": "BIG",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "BIG - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/90/b2/bb/90b2bb66-bb24-c8c9-ac76-c7f773d6368f/mzaf_16277933654516310990.plus.aac.p.m4a",
+    "duration": 157000,
+    "trackUrl": "https://music.apple.com/us/album/big/1683642371?i=1683642373",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/f8/33/fef83363-9c48-5b17-78f3-922d62246519/196922452062_Cover.jpg/300x300bb.jpg",
+    "trackId": "1683642373"
+  },
+  {
+    "id": "applemusic-1700655968",
+    "name": "Dicktatorshit",
+    "artists": [
+      "Pyra & Boyfriend"
+    ],
+    "album": "Dicktatorshit - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/9e/15/6c9e1564-2c0d-7760-2e88-07013f28741e/mzaf_12100052700360368642.plus.aac.p.m4a",
+    "duration": 158560,
+    "trackUrl": "https://music.apple.com/us/album/dicktatorshit/1700655967?i=1700655968",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d7/b1/ae/d7b1ae60-8790-129f-27d3-100aed4c0b1f/8720996331583.png/300x300bb.jpg",
+    "trackId": "1700655968"
+  },
+  {
+    "id": "applemusic-1850806400",
+    "name": "Garden Of Eden",
+    "artists": [
+      "Boyfriend"
+    ],
+    "album": "Garden Of Eden - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/d0/e5/94d0e59c-8351-0712-a9a3-80668d9a6540/mzaf_17075289386693316122.plus.aac.p.m4a",
+    "duration": 145672,
+    "trackUrl": "https://music.apple.com/us/album/garden-of-eden/1850806397?i=1850806400",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5d/63/8d/5d638dad-1142-6050-00b2-28884cd85c28/199806303795.jpg/300x300bb.jpg",
+    "trackId": "1850806400"
+  },
+  {
+    "id": "applemusic-1832463039",
+    "name": "AWAY",
+    "artists": [
+      "Cplusbiton & Boyfriend"
+    ],
+    "album": "Little Story - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/ff/a9/70ffa93e-eb63-ede2-6c15-188d6fb1b75f/mzaf_15525822912148248789.plus.aac.p.m4a",
+    "duration": 153574,
+    "trackUrl": "https://music.apple.com/us/album/away/1832462888?i=1832463039",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/69/9a/43699ab3-95fb-438b-9f00-02e876de1baf/7300345651404.jpg/300x300bb.jpg",
+    "trackId": "1832463039"
+  },
+  {
+    "id": "applemusic-1832463041",
+    "name": "SEKEM",
+    "artists": [
+      "Cplusbiton & Boyfriend"
+    ],
+    "album": "Little Story - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ea/ae/3c/eaae3c0c-79f8-f422-b052-50d98d4949de/mzaf_17472889383817089270.plus.aac.p.m4a",
+    "duration": 159533,
+    "trackUrl": "https://music.apple.com/us/album/sekem/1832462888?i=1832463041",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/69/9a/43699ab3-95fb-438b-9f00-02e876de1baf/7300345651404.jpg/300x300bb.jpg",
+    "trackId": "1832463041"
+  },
+  {
+    "id": "applemusic-1832463042",
+    "name": "LITTLE STORY",
+    "artists": [
+      "Cplusbiton & Boyfriend"
+    ],
+    "album": "Little Story - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/d4/db/dbd4dba5-33c9-22e8-7ef1-7e9fa5ba873a/mzaf_2162847718980779459.plus.aac.p.m4a",
+    "duration": 205140,
+    "trackUrl": "https://music.apple.com/us/album/little-story/1832462888?i=1832463042",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/69/9a/43699ab3-95fb-438b-9f00-02e876de1baf/7300345651404.jpg/300x300bb.jpg",
+    "trackId": "1832463042"
+  },
+  {
+    "id": "applemusic-1832463043",
+    "name": "PCPG",
+    "artists": [
+      "Cplusbiton & Boyfriend"
+    ],
+    "album": "Little Story - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/f5/2b/def52b32-7d0d-4941-0d05-03261fe3ae30/mzaf_2056899697716024633.plus.aac.p.m4a",
+    "duration": 170762,
+    "trackUrl": "https://music.apple.com/us/album/pcpg/1832462888?i=1832463043",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/69/9a/43699ab3-95fb-438b-9f00-02e876de1baf/7300345651404.jpg/300x300bb.jpg",
+    "trackId": "1832463043"
+  },
+  {
+    "id": "applemusic-1832463044",
+    "name": "LONG TIME",
+    "artists": [
+      "Cplusbiton & Boyfriend"
+    ],
+    "album": "Little Story - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/27/75/8b277510-036c-7093-25cc-7d928b0dc949/mzaf_13169134573373397384.plus.aac.p.m4a",
+    "duration": 154880,
+    "trackUrl": "https://music.apple.com/us/album/long-time/1832462888?i=1832463044",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/43/69/9a/43699ab3-95fb-438b-9f00-02e876de1baf/7300345651404.jpg/300x300bb.jpg",
+    "trackId": "1832463044"
+  }
+]

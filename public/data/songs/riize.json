@@ -240,7 +240,7 @@
       "RIIZE"
     ],
     "album": "RIIZING - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/0b/ed/560bedd2-964f-97eb-2cb8-09ee8b5a7377/mzaf_17635560160504320510.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/e2/df/6ee2df52-12e2-3113-6f76-5d3dbbc965b1/mzaf_17791351154079630644.plus.aac.p.m4a",
     "duration": 182440,
     "trackUrl": "https://music.apple.com/us/album/impossible/1742276104?i=1742276106",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
@@ -253,7 +253,7 @@
       "RIIZE"
     ],
     "album": "RIIZING - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9e/3d/d6/9e3dd691-080e-9c7c-f7d0-dc13d55de201/mzaf_17288471710263656909.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/84/fc/c5/84fcc585-946e-95d3-6656-74f8cf8e59c4/mzaf_11444406272374238525.plus.aac.p.m4a",
     "duration": 160205,
     "trackUrl": "https://music.apple.com/us/album/9-days/1742276104?i=1742276107",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
@@ -266,7 +266,7 @@
       "RIIZE"
     ],
     "album": "RIIZING - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/75/6c/3e756cc9-2a7d-6328-2f62-584641f1bfd6/mzaf_10212463548686626410.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/5f/8a/e65f8aba-dda1-cad9-344b-bf47d96ad091/mzaf_7783020147070821777.plus.aac.p.m4a",
     "duration": 194090,
     "trackUrl": "https://music.apple.com/us/album/honestly/1742276104?i=1742276110",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
@@ -279,24 +279,11 @@
       "RIIZE"
     ],
     "album": "RIIZING - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/69/75/d96975b8-b6e0-4166-7cf8-b2d2c2649f9f/mzaf_3129493124263605708.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/ed/d7/4eedd773-05e8-fd98-d45c-63352ded211a/mzaf_6824630255206589694.plus.aac.p.m4a",
     "duration": 212063,
     "trackUrl": "https://music.apple.com/us/album/one-kiss/1742276104?i=1742276112",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/81/9b/37/819b37c6-5b72-2549-a431-916e608ffa76/888735947469.jpg/300x300bb.jpg",
     "trackId": "1742276112"
-  },
-  {
-    "id": "applemusic-1787328075",
-    "name": "Hug",
-    "artists": [
-      "RIIZE"
-    ],
-    "album": "Hug - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/89/30/e18930f3-7b0c-179f-31c7-69f1f7fb011f/mzaf_14491560888555635203.plus.aac.p.m4a",
-    "duration": 234040,
-    "trackUrl": "https://music.apple.com/us/album/hug/1787328074?i=1787328075",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/27/ac/4127ac96-1c35-c861-32eb-b75349eae330/888735951169.png/300x300bb.jpg",
-    "trackId": "1787328075"
   },
   {
     "id": "applemusic-1749589154",
@@ -312,6 +299,19 @@
     "trackId": "1749589154"
   },
   {
+    "id": "applemusic-1787328075",
+    "name": "Hug",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Hug - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/89/30/e18930f3-7b0c-179f-31c7-69f1f7fb011f/mzaf_14491560888555635203.plus.aac.p.m4a",
+    "duration": 234040,
+    "trackUrl": "https://music.apple.com/us/album/hug/1787328074?i=1787328075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/27/ac/4127ac96-1c35-c861-32eb-b75349eae330/888735951169.png/300x300bb.jpg",
+    "trackId": "1787328075"
+  },
+  {
     "id": "applemusic-1764373567",
     "name": "Combo",
     "artists": [
@@ -323,6 +323,32 @@
     "trackUrl": "https://music.apple.com/us/album/combo/1764373563?i=1764373567",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/ba/56/8cba5689-8f1b-d00e-480d-4b2a5f78d9cf/888735948763.jpg/300x300bb.jpg",
     "trackId": "1764373567"
+  },
+  {
+    "id": "applemusic-1715849091",
+    "name": "HAPPY! HAPPY! HAPPY! (Opening Song from SEALOOK)",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "SEALOOK (Original Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c5/f4/34/c5f43422-872c-4826-096f-fc42bc060efb/mzaf_9729594978666588970.plus.aac.p.m4a",
+    "duration": 167640,
+    "trackUrl": "https://music.apple.com/us/album/happy-happy-happy-opening-song-from-sealook/1715848923?i=1715849091",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/4f/6a/084f6a54-cbec-e9b3-b149-363d7fba150c/197190365962.jpg/300x300bb.jpg",
+    "trackId": "1715849091"
+  },
+  {
+    "id": "applemusic-1715849098",
+    "name": "Look at me SEALOOK (Ending Song from SEALOOK)",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "SEALOOK (Original Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b8/83/01/b8830116-8427-216e-1ed3-a1c484851d29/mzaf_16167236770014825310.plus.aac.p.m4a",
+    "duration": 193520,
+    "trackUrl": "https://music.apple.com/us/album/look-at-me-sealook-ending-song-from-sealook/1715848923?i=1715849098",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/4f/6a/084f6a54-cbec-e9b3-b149-363d7fba150c/197190365962.jpg/300x300bb.jpg",
+    "trackId": "1715849098"
   },
   {
     "id": "applemusic-1758650710",
@@ -364,29 +390,55 @@
     "trackId": "1758650713"
   },
   {
-    "id": "applemusic-1715849091",
-    "name": "HAPPY! HAPPY! HAPPY! (Opening Song from SEALOOK)",
+    "id": "applemusic-1872337895",
+    "name": "All of You",
     "artists": [
       "RIIZE"
     ],
-    "album": "SEALOOK (Original Soundtrack), Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c5/f4/34/c5f43422-872c-4826-096f-fc42bc060efb/mzaf_9729594978666588970.plus.aac.p.m4a",
-    "duration": 167640,
-    "trackUrl": "https://music.apple.com/us/album/happy-happy-happy-opening-song-from-sealook/1715848923?i=1715849091",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/4f/6a/084f6a54-cbec-e9b3-b149-363d7fba150c/197190365962.jpg/300x300bb.jpg",
-    "trackId": "1715849091"
+    "album": "All of You - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/49/d9/c849d94a-27eb-24ba-3e00-372323924f53/mzaf_5549254348323141424.plus.aac.p.m4a",
+    "duration": 158796,
+    "trackUrl": "https://music.apple.com/us/album/all-of-you/1872337877?i=1872337895",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/29/a8/f329a846-ebcf-cc0a-bf61-933afbc2a268/26UMGIM00737.rgb.jpg/300x300bb.jpg",
+    "trackId": "1872337895"
   },
   {
-    "id": "applemusic-1715849098",
-    "name": "Look at me SEALOOK (Ending Song from SEALOOK)",
+    "id": "applemusic-1875176693",
+    "name": "Flashlight",
     "artists": [
       "RIIZE"
     ],
-    "album": "SEALOOK (Original Soundtrack), Pt. 1 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/b8/83/01/b8830116-8427-216e-1ed3-a1c484851d29/mzaf_16167236770014825310.plus.aac.p.m4a",
-    "duration": 193520,
-    "trackUrl": "https://music.apple.com/us/album/look-at-me-sealook-ending-song-from-sealook/1715848923?i=1715849098",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/08/4f/6a/084f6a54-cbec-e9b3-b149-363d7fba150c/197190365962.jpg/300x300bb.jpg",
-    "trackId": "1715849098"
+    "album": "All of You - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/0b/c2/260bc217-564a-0efd-790a-60ba06d6b1d7/mzaf_12018558382947043952.plus.aac.p.m4a",
+    "duration": 226834,
+    "trackUrl": "https://music.apple.com/us/album/flashlight/1875176358?i=1875176693",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/f9/a8/42f9a83a-8077-e63e-51ca-e8a1426f44b8/26UMGIM15916.rgb.jpg/300x300bb.jpg",
+    "trackId": "1875176693"
+  },
+  {
+    "id": "applemusic-1891964945",
+    "name": "KILL SHOT",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "KILL SHOT - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/f2/4e/79f24e9e-4193-129e-cfb5-e1504e6c9df6/mzaf_12279671926098780766.plus.aac.p.m4a",
+    "duration": 192000,
+    "trackUrl": "https://music.apple.com/us/album/kill-shot/1891964942?i=1891964945",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/22/86/2f22865f-84f9-a2a5-1f47-f635964285fc/26UMGIM35620.rgb.jpg/300x300bb.jpg",
+    "trackId": "1891964945"
+  },
+  {
+    "id": "applemusic-1893559913",
+    "name": "Behind The Shine",
+    "artists": [
+      "RIIZE"
+    ],
+    "album": "Perfect Crown (Original Soundtrack) Pt. 4 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/d0/55/6dd0557c-c386-4031-abb6-f4d602fb9e7f/mzaf_5220502339440145633.plus.aac.p.m4a",
+    "duration": 195000,
+    "trackUrl": "https://music.apple.com/us/album/behind-the-shine/1893559912?i=1893559913",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/26/05/72260543-722a-2992-9af8-694b0de15d3b/cover_KM0024497_1.jpg/300x300bb.jpg",
+    "trackId": "1893559913"
   }
 ]
