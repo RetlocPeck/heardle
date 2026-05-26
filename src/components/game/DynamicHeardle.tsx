@@ -254,12 +254,30 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     );
   }
 
+  // Single source of truth for the side card content — rendered in both
+  // the mobile slot (left column, lg:hidden) and the desktop slot (third column).
+  const sideCardContent = gameState.isGameOver ? (
+    <GameResultCard
+      gameState={gameState}
+      currentSong={currentSong}
+      mode={mode}
+      artist={artist}
+      onNewGame={handleNewGame}
+    />
+  ) : (
+    <HowToPlayCard
+      artistDisplayName={artist.displayName}
+      availableSongs={availableSongs}
+      currentSong={currentSong}
+    />
+  );
+
   return (
     <ErrorBoundary>
       <div className="w-full pt-0 px-2 pb-2 sm:px-4 sm:pb-4 lg:px-6 lg:pb-6 xl:px-8 xl:pb-8 2xl:px-12 2xl:pb-12 max-w-[1400px] mx-auto">
         {/* Main Game Layout - Two columns on mobile, three on larger screens */}
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 lg:gap-6 items-stretch">
-          {/* Left Column - uniform gap-controlled stack */}
+          {/* Left Column */}
           <div className="col-span-1 flex flex-col h-full gap-2 sm:gap-3 lg:gap-4">
             {/* Audio card */}
             <GlassCard>
@@ -286,45 +304,17 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
               </GlassCard>
             )}
 
-            {/* Final card (always last) */}
-            {!gameState.isGameOver ? (
-              <GlassCard padding="sm" className="lg:hidden">
-                <HowToPlayCard
-                  artistDisplayName={artist.displayName}
-                  availableSongs={availableSongs}
-                  currentSong={currentSong}
-                />
-              </GlassCard>
-            ) : (
-              <GlassCard className="lg:hidden">
-                <GameResultCard
-                  gameState={gameState}
-                  currentSong={currentSong}
-                  mode={mode}
-                  artist={artist}
-                  onNewGame={handleNewGame}
-                />
-              </GlassCard>
-            )}
-
-            {/* Practice mode new song button on desktop */}
-            {mode === 'practice' && gameState.isGameOver && (
-              <div className="text-center hidden lg:block">
-                <button
-                  onClick={handleNewGame}
-                  className={`px-6 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
-                >
-                  🎵 New Song
-                </button>
-              </div>
-            )}
+            {/* Side card — mobile slot (hidden on lg+) */}
+            <GlassCard padding={gameState.isGameOver ? 'md' : 'sm'} className="lg:hidden">
+              {sideCardContent}
+            </GlassCard>
 
             <div className="text-center hidden lg:block">
               <SupportButton />
             </div>
           </div>
 
-          {/* Right Column - Game Board */}
+          {/* Center Column - Game Board */}
           <div className="col-span-1 flex flex-col min-h-0 lg:min-h-[600px]">
             <GlassCard fullHeight flexCol>
               <div className="flex-1">
@@ -339,26 +329,11 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
             </GlassCard>
           </div>
 
-          {/* Third Column - Game Instructions OR Game Results (lg+ only) */}
+          {/* Third Column — desktop slot (hidden on mobile) */}
           <div className="hidden lg:block">
-            {gameState.isGameOver ? (
-              <GlassCard padding="lg" rounded="lg" fullHeight>
-                <GameResultCard
-                  gameState={gameState}
-                  currentSong={currentSong}
-                  mode={mode}
-                  artist={artist}
-                />
-              </GlassCard>
-            ) : (
-              <GlassCard padding="lg" rounded="lg" fullHeight>
-                <HowToPlayCard
-                  artistDisplayName={artist.displayName}
-                  availableSongs={availableSongs}
-                  currentSong={currentSong}
-                />
-              </GlassCard>
-            )}
+            <GlassCard padding="lg" rounded="lg" fullHeight>
+              {sideCardContent}
+            </GlassCard>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import { getAllArtists } from '@/config/artists';
-import AnimatedBackground from '@/components/ui/AnimatedBackground';
+import { PageShell, PageHeader, ResponsiveContainer } from '@/components/ui/PageShell';
 
 export default function AllArtistsPage() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -46,34 +46,28 @@ export default function AllArtistsPage() {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      <AnimatedBackground blobCount={3} subtle />
+    <PageShell blobCount={3} subtle>
+      <PageHeader>
+        <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
+          <Link
+            href="/"
+            className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+            <span className="text-sm sm:text-base">Back to Home</span>
+          </Link>
 
-      {/* Header */}
-      <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-          <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
-            <Link 
-              href="/" 
-              className="flex items-center space-x-2 text-white/80 hover:text-white transition-colors font-medium"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-              </svg>
-              <span className="text-sm sm:text-base">Back to Home</span>
-            </Link>
-            
-            <h1 className="text-lg sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
-              All Artists
-            </h1>
-            
-            <div className="w-24 sm:w-32" /> {/* Spacer for centering */}
-          </div>
+          <h1 className="text-lg sm:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
+            All Artists
+          </h1>
+
+          <div className="w-24 sm:w-32" />
         </div>
-      </div>
+      </PageHeader>
 
-      {/* Main Content */}
-      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8">
+      <ResponsiveContainer className="py-8">
         {/* Hero Section */}
         <div className="text-center mb-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">
@@ -148,7 +142,7 @@ export default function AllArtistsPage() {
             <p className="text-white/70">No artists found matching &ldquo;{searchTerm}&rdquo;</p>
           </div>
         )}
-      </div>
-    </div>
+      </ResponsiveContainer>
+    </PageShell>
   );
 }

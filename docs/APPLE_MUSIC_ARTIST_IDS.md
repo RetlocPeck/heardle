@@ -26,13 +26,16 @@ When fetching songs, the system uses this priority:
 3. Open their artist page
 4. Copy the ID from the URL: `https://music.apple.com/us/artist/artist-name/[ID]`
 
-Example URL: `https://music.apple.com/us/artist/twice/952699`  
-→ Artist ID: `952699`
+Example URL: `https://music.apple.com/us/artist/twice/1203816887`  
+→ Artist ID: `1203816887`
+
+> ⚠️ **Note:** The ID shown in the Apple Music web URL is sometimes a short legacy ID that differs from the actual Apple Music catalog API ID. Always verify the numeric ID works with the API before saving it here. The ID used in `src/config/artists.ts` must be the catalog API ID (typically 9-10 digits).
 
 ## Artists with Explicit IDs
 
 | Artist | Display Name | Apple Music ID | Status |
 |--------|--------------|----------------|--------|
+| `twice` | TWICE | `1203816887` | ✅ Configured |
 | `triples` | tripleS | `1651595986` | ✅ Configured |
 | `girls-generation` | Girls' Generation | `357463500` | ✅ Configured |
 | `jeon-somi` | SOMI | `1218803768` | ✅ Configured |
@@ -141,10 +144,8 @@ To add IDs for multiple artists at once, you can create a script:
 ```typescript
 // scripts/add-apple-music-ids.js
 const artistIds = {
-  'twice': '952699',
-  'bts': '883131348',
-  'blackpink': '1253230241',
-  // ... more artists
+  'twice': '1203816887',
+  // Add other artists here only after verifying their IDs against the live API
 };
 
 // Script to update artists.ts with these IDs

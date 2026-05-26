@@ -101,7 +101,7 @@ type ArtistData = Omit<ArtistConfig, 'theme'>;
 
 const ARTISTS_DATA: ArtistData[] = [
   // Featured Artists
-  { id: 'twice', name: 'TWICE', displayName: 'TWICE', searchTerms: ['TWICE', '트와이스'], featured: true, fandom: 'ONCE' },
+  { id: 'twice', name: 'TWICE', displayName: 'TWICE', searchTerms: ['TWICE', '트와이스'], featured: true, fandom: 'ONCE', appleMusicArtistId: '1203816887' },
   { id: 'bts', name: 'BTS', displayName: 'BTS', searchTerms: ['BTS', '방탄소년단', 'Bangtan Boys'], featured: true, fandom: 'ARMY' },
   { id: 'blackpink', name: 'BLACKPINK', displayName: 'BLACKPINK', searchTerms: ['BLACKPINK', '블랙핑크'], featured: true, fandom: 'BLINK' },
   

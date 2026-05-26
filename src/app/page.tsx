@@ -1,18 +1,16 @@
 'use client';
 
-import Link from 'next/link';
 import { useState, useEffect, useMemo } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import StatisticsButton from '@/components/stats/StatisticsButton';
 import SupportButton from '@/components/ui/buttons/SupportButton';
-import ArtistImage from '@/components/artist/ArtistImage';
-import AnimatedBackground from '@/components/ui/AnimatedBackground';
 import NotificationBanner from '@/components/ui/NotificationBanner';
+import ArtistCard from '@/components/artist/ArtistCard';
+import { PageShell, PageHeader, ResponsiveContainer } from '@/components/ui/PageShell';
 
 export default function HomePage() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  // Memoize artists list since it's static and expensive to sort on every render
   const allArtists = useMemo(() => getArtistsSorted(), []);
   const filteredArtists = useMemo(
     () => allArtists.filter(artist =>
@@ -24,59 +22,47 @@ export default function HomePage() {
   );
 
   // Preload artwork JSON for featured artists to improve perceived performance
-  // Run only once on mount since artists list is static
   useEffect(() => {
-    const allArtists = getArtistsSorted();
-    const featuredArtists = allArtists.filter(a => a.featured);
-    featuredArtists.forEach(artist => {
-      // Prefetch the artwork JSON (browser will cache it)
-      fetch(`/data/artwork/${artist.id}.json`).catch(() => {
-        // Silently fail if artwork doesn't exist
-      });
+    const featured = getArtistsSorted().filter(a => a.featured);
+    featured.forEach(artist => {
+      fetch(`/data/artwork/${artist.id}.json`).catch(() => {});
     });
-  }, []); // Empty array: only run once on mount
+  }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      <AnimatedBackground blobCount={3} />
-
-      {/* Header */}
-      <div className="relative z-10 backdrop-blur-md bg-white/10 border-b border-white/20">
-        <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-          <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
-            <div className="flex items-center">
-              <h1 className="text-lg sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent leading-tight">
-                K-Pop Heardle
-              </h1>
-              <span className="ml-1 sm:ml-3 text-lg sm:text-2xl lg:text-3xl animate-pulse">🎵</span>
-            </div>
-            <div className="flex items-center space-x-2 sm:space-x-3 lg:space-x-4">
-              <SupportButton variant="home" />
-              <StatisticsButton />
-            </div>
+    <PageShell blobCount={3}>
+      <PageHeader>
+        <div className="flex justify-between items-center py-4 sm:py-6 lg:py-8">
+          <div className="flex items-center">
+            <h1 className="text-lg sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent leading-tight">
+              K-Pop Heardle
+            </h1>
+            <span className="ml-1 sm:ml-3 text-lg sm:text-2xl lg:text-3xl animate-pulse">🎵</span>
+          </div>
+          <div className="flex items-center space-x-2 sm:space-x-3 lg:space-x-4">
+            <SupportButton variant="home" />
+            <StatisticsButton />
           </div>
         </div>
-      </div>
+      </PageHeader>
 
-      {/* Notification Banner */}
       <NotificationBanner
         id="new-artists-2026-02"
         message="🎵 New Update! We've added over 100 K-pop artists to the collection. Explore and test your knowledge!"
         icon="✨"
       />
 
-      {/* Main Content */}
-      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16 py-8 sm:py-12 lg:py-16">
+      <ResponsiveContainer className="py-8 sm:py-12 lg:py-16">
         {/* Hero Section */}
         <div className="text-center mb-6 sm:mb-8 lg:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-white mb-2 sm:mb-3 lg:mb-4 leading-tight">
-            Welcome to 
+            Welcome to{' '}
             <span className="block bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
               K-Pop Heardle
             </span>
           </h2>
           <p className="text-sm sm:text-base lg:text-lg text-white/80 max-w-xs sm:max-w-2xl lg:max-w-3xl mx-auto leading-relaxed px-2">
-            Challenge yourself with music guessing games featuring your favorite K-pop artists. 
+            Challenge yourself with music guessing games featuring your favorite K-pop artists.
             Listen to short previews and test your knowledge of their discographies!
           </p>
         </div>
@@ -103,137 +89,26 @@ export default function HomePage() {
         <div
           className="
             grid gap-3 sm:gap-4 lg:gap-6 mx-auto px-2 sm:px-4
-            grid-cols-2 md:grid-cols-3                 
-            lg:[--card-w:420px]                        
+            grid-cols-2 md:grid-cols-3
+            lg:[--card-w:420px]
             lg:[grid-template-columns:repeat(auto-fill,minmax(var(--card-w),var(--card-w)))]
-            lg:justify-center                           
+            lg:justify-center
           "
         >
           {filteredArtists.map((artist) => {
-            // Calculate stagger delay based on artist's position in full sorted list, not filtered list
-            // This ensures consistent delays regardless of search state
             const artistIndex = allArtists.findIndex(a => a.id === artist.id);
             const staggerDelay = artist.featured ? 0 : artistIndex * 50;
-            
             return (
-              <div
+              <ArtistCard
                 key={artist.id}
-                className="group relative"
-              >
-                {/* Glassmorphism Card */}
-                <div className={`group relative rounded-3xl overflow-hidden hover:bg-white/20 transition-[transform,box-shadow] duration-300 transform hover:scale-105 hover:-translate-y-2 ${
-                  artist.featured 
-                    ? 'bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20' 
-                    : 'bg-white/10 border border-white/20'
-                }`}>
-                  {/* Gradient Border Effect */}
-                  <div className={`absolute inset-0 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-3xl`}></div>
-                  
-                  {/* Top-left stack (inside the card) */}
-                  <div className="absolute left-2 sm:left-3 top-2 sm:top-3 flex items-center gap-1 sm:gap-2 z-30">
-                    {artist.featured && (
-                      <div
-                        className="
-                          group/feat inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-yellow-400 text-black
-                          pl-1.5 pr-1.5 sm:pl-2 sm:pr-2 overflow-hidden whitespace-nowrap
-                          transition-[max-width] duration-300 ease-out
-                          max-w-[24px] sm:max-w-[28px] lg:max-w-[32px]                 /* collapsed: icon(16) + padding */
-                          group-hover:max-w-[100px] sm:group-hover:max-w-[120px] lg:group-hover:max-w-[132px]    /* expanded: enough for 'Featured' */
-                          gap-0 group-hover:gap-1      /* tighten star–text spacing */
-                        "
-                      >
-                        {/* Star icon */}
-                        <svg className="w-3 h-3 sm:w-4 sm:h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-                        </svg>
-
-                        {/* Label: hidden until hover so no letters leak */}
-                        <span
-                          className="
-                            text-xs sm:text-sm font-semibold
-                            opacity-0 text-transparent
-                            transition-opacity duration-150
-                            group-hover:opacity-100 group-hover:text-current
-                          "
-                          aria-hidden="true"
-                        >
-                          Featured
-                        </span>
-                      </div>
-                    )}
-                    
-                                       {/* Year Pill - Hidden (no metadata) */}
-                     <div className="inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-neutral-800/90 text-white px-2 sm:px-3 text-xs sm:text-sm font-semibold invisible">
-                       2024
-                     </div>
-                  </div>
-                  
-                  {/* Artist Image */}
-                  <div className="relative h-32 sm:h-48 lg:h-64 overflow-hidden">
-                    <ArtistImage
-                      artistId={artist.id}
-                      alt={artist.displayName}
-                      className="w-full h-full object-cover object-[center_30%] group-hover:scale-110 transition-transform duration-300"
-                      width={400}
-                      height={400}
-                      priority={artist.featured}
-                      fetchDelay={staggerDelay}
-                    />
-                  {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  
-                  {/* Stats Badge - Hidden (no metadata) */}
-                  <div className="absolute top-2 sm:top-3 lg:top-4 right-2 sm:right-3 lg:right-4 invisible">
-                    <div className={`backdrop-blur-md ${artist.theme.bgColor} ${artist.theme.textColor} px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-semibold border border-white/30`}>
-                      K-pop
-                    </div>
-                  </div>
-                </div>
-
-                {/* Artist Info */}
-                <div className="p-3 sm:p-4 lg:p-8">
-                  <h3 className={`text-base sm:text-lg lg:text-2xl xl:text-3xl font-bold mb-2 sm:mb-3 transition-all duration-300 leading-tight ${
-                    artist.featured
-                      ? 'text-amber-100 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-amber-300 group-hover:to-yellow-400 group-hover:bg-clip-text'
-                      : 'text-white group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-pink-400 group-hover:to-purple-400 group-hover:bg-clip-text'
-                  }`}>
-                    {artist.displayName}
-                  </h3>
-                  
-
-
-                  {/* Play Button */}
-                  <Link
-                    href={`/${artist.id}`}
-                    className={`group/btn relative w-full block text-center px-3 sm:px-4 lg:px-6 py-2 sm:py-3 lg:py-4 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-bold rounded-xl sm:rounded-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden ${
-                      artist.featured
-                        ? 'hover:shadow-2xl hover:shadow-amber-400/30 border border-amber-300/30'
-                        : 'hover:shadow-2xl hover:shadow-purple-500/25'
-                    }`}
-                  >
-                    <span className="relative z-10 flex items-center justify-center space-x-1 sm:space-x-2">
-                      <span className="text-sm sm:text-lg lg:text-xl">🎯</span>
-                      <span className="text-xs sm:text-sm lg:text-base">Play Heardle</span>
-                    </span>
-                    <div className="absolute inset-0 bg-white/20 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
-                  </Link>
-                  
-                  <div className="text-center mt-2 sm:mt-3 lg:mt-4 hidden sm:block">
-                    <p className="text-white/60 text-xs sm:text-sm mb-1">Choose your mode on the next page</p>
-                    <div className="flex justify-center space-x-1 sm:space-x-2 text-xs">
-                      <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-white/10 rounded-full text-white/70 text-xs">Daily Challenge</span>
-                      <span className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-white/10 rounded-full text-white/70 text-xs">Practice Mode</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+                artist={artist}
+                variant="home"
+                fetchDelay={staggerDelay}
+              />
+            );
+          })}
         </div>
-
-
-      </div>
-    </div>
+      </ResponsiveContainer>
+    </PageShell>
   );
 }
