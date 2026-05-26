@@ -2,9 +2,11 @@ import {
   Song,
   AppleMusicTrack,
   AppleMusicAlbum,
+  AppleMusicAlbumWithStorefront,
   AppleMusicArtist,
   AppleMusicResponse,
   AppleMusicArtistResponse,
+  SongFilterTrackAdapter,
   convertAppleMusicTrackToSong,
   formatAppleMusicArtworkUrl,
 } from '@/types/song';
@@ -14,6 +16,7 @@ import { hashCode } from '@/lib/utils/stringUtils';
 import { deduplicateSongVersions } from '@/lib/utils/songDeduplication';
 import { applyFilterChain, getDefaultFilterChain, getGenericTrackId } from './trackFilters';
 import { Logger } from '@/lib/utils/logger';
+import appleMusicConstants from '@/config/apple-music-constants.json';
 
 // Read once at module load — avoids re-reading process.env on every API call
 const APPLE_MUSIC_TOKEN = process.env.APPLE_MUSIC_DEV_TOKEN;
@@ -32,10 +35,9 @@ export class AppleMusicService {
   private static instance: AppleMusicService;
   private availableTracks: Map<string, Song[]> = new Map();
   private artistArtwork: Map<string, ArtistArtwork> = new Map();
-  private baseUrl = 'https://api.music.apple.com/v1';
-  private primaryStorefront = 'us'; // Primary storefront for searches
-  // Query multiple storefronts to get international releases (Japanese, Korean, etc.)
-  private storefronts = ['us', 'jp', 'kr'];
+  private baseUrl = appleMusicConstants.baseUrl;
+  private primaryStorefront = appleMusicConstants.primaryStorefront;
+  private storefronts = appleMusicConstants.storefronts;
   private configService: ConfigService;
 
   static getInstance(): AppleMusicService {
@@ -134,7 +136,7 @@ export class AppleMusicService {
     try {
       // Step 1: Get all albums from ALL storefronts (US, Japan, Korea)
       // This ensures we get Japanese releases, Korean releases, etc.
-      const allAlbums: AppleMusicAlbum[] = [];
+      const allAlbums: AppleMusicAlbumWithStorefront[] = [];
       const seenAlbumIds = new Set<string>();
 
       for (const storefront of this.storefronts) {
@@ -144,7 +146,8 @@ export class AppleMusicService {
         for (const album of albums) {
           if (!seenAlbumIds.has(album.id)) {
             seenAlbumIds.add(album.id);
-            allAlbums.push({ ...album, _storefront: storefront } as AppleMusicAlbum & { _storefront: string });
+            const tagged: AppleMusicAlbumWithStorefront = { ...album, _storefront: storefront };
+            allAlbums.push(tagged);
           }
         }
       }
@@ -160,7 +163,7 @@ export class AppleMusicService {
       const seenTrackIds = new Set<string>();
 
       for (const album of allAlbums) {
-        const storefront = (album as any)._storefront || this.primaryStorefront;
+        const storefront = album._storefront || this.primaryStorefront;
         const albumTracks = await this.fetchAlbumTracksFromStorefront(
           album.id, 
           album.attributes?.name || 'Unknown Album',
@@ -335,22 +338,22 @@ export class AppleMusicService {
    * Used for static cached songs that may have been built with older filter logic
    */
   private applyRuntimeFiltersToSongs(songs: Song[]): Song[] {
-    // Create a minimal track adapter for the filter chain
-    const trackAdapters = songs.map(song => ({
+    // Build minimal track adapters satisfying the GenericTrack shape expected by the filter chain.
+    const trackAdapters: SongFilterTrackAdapter[] = songs.map(song => ({
       id: song.trackId,
       attributes: {
         name: song.name,
         albumName: song.album,
-        previews: [{ url: song.previewUrl }]
-      }
-    } as any));
+        previews: [{ url: song.previewUrl }],
+      },
+    }));
 
-    // Apply filter chain
     const filters = getDefaultFilterChain();
-    const { valid: validTracks } = applyFilterChain(trackAdapters, filters);
+    // GenericTrack is AppleMusicTrack; SongFilterTrackAdapter is structurally compatible for
+    // the subset of fields the filter chain reads (name, albumName, previews[0].url, id).
+    const { valid: validTracks } = applyFilterChain(trackAdapters as unknown as AppleMusicTrack[], filters);
 
-    // Map back to original Song objects
-    const validTrackIds = new Set(validTracks.map((t: any) => t.id.toString()));
+    const validTrackIds = new Set(validTracks.map(t => t.id.toString()));
     return songs.filter(song => validTrackIds.has(song.trackId.toString()));
   }
 
@@ -539,9 +542,10 @@ export class AppleMusicService {
   }
 }
 
-// Make the service available globally for debugging in development
+// Expose the service on the window object for debugging in development only.
 if (typeof window !== 'undefined' && process.env.NODE_ENV === 'development') {
-  (window as any).appleMusicService = AppleMusicService.getInstance();
+  (window as Window & { appleMusicService?: AppleMusicService }).appleMusicService =
+    AppleMusicService.getInstance();
 }
 
 export default AppleMusicService;

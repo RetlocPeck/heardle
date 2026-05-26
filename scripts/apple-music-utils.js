@@ -3,9 +3,14 @@
  * Used by both prefetch-songs.js and refetch-artist.js
  */
 
-const BASE_URL = 'https://api.music.apple.com/v1';
-const STOREFRONTS = ['us', 'jp', 'kr'];
-const DELAY_BETWEEN_REQUESTS = 50; // ms between API requests
+// Shared constants — single source of truth with the TypeScript runtime service.
+const filterRules = require('../src/config/catalog-filter-rules.json');
+const amConstants = require('../src/config/apple-music-constants.json');
+
+const BASE_URL = amConstants.baseUrl;
+const STOREFRONTS = amConstants.storefronts;
+// Scripts do additional per-album requests so keep their own delay (50ms vs service's 30ms).
+const DELAY_BETWEEN_REQUESTS = 50;
 
 function getAuthHeaders() {
   const token = process.env.APPLE_MUSIC_DEV_TOKEN;
@@ -129,10 +134,10 @@ function convertTrackToSong(track) {
  * Check if a string contains only English/ASCII characters
  * Returns false for Korean, Japanese, Chinese, etc.
  */
+const _nonEnglishPattern = new RegExp(filterRules.nonEnglishPatternSource);
 function isEnglishOnly(str) {
   if (!str) return false;
-  const nonEnglishPattern = /[^\x00-\x7F]/;
-  return !nonEnglishPattern.test(str);
+  return !_nonEnglishPattern.test(str);
 }
 
 /**
@@ -246,29 +251,24 @@ function filterTracks(tracks) {
     /\(inst\)/i,
   ];
   
-  // Pattern to match intro/outro/skit tracks
+  // Pattern to match intro/outro/skit tracks — word lists from shared JSON.
   // Matches:
   // - Word boundary matches: "The Intro Song" -> matches "Intro"
   // - In parentheses: "(Intro)" or "(Outro)"
-  // - At start with colon: "Intro: Symphony"
-  // - At start with dash: "Intro - Symphony" or "Intro- Symphony"
-  // - At start with period: "Intro. Something"
-  // - At start standalone followed by space: "Intro The Beginning"
-  const introOutroWords = ['outro', 'intro', 'introduction', 'skit', 'interlude'];
+  // - At start with colon/period/dash: "Intro: Symphony"
+  // - At start followed by space and capital: "Intro The Beginning"
+  const introOutroWords = filterRules.introOutroWords;
   const introOutroPattern = new RegExp(
-    `\\b(${introOutroWords.join('|')})s?\\b|` +           // Word boundary match
-    `\\((${introOutroWords.join('|')})\\)|` +              // In parentheses
-    `^(${introOutroWords.join('|')})\\s*[:.\-–—]|` +      // Start with colon, period, or dash
-    `^(${introOutroWords.join('|')})\\s+[A-Z]`,           // Start followed by space and capital letter
+    `\\b(${introOutroWords.join('|')})s?\\b|` +
+    `\\((${introOutroWords.join('|')})\\)|` +
+    `^(${introOutroWords.join('|')})\\s*[:.\-–—]|` +
+    `^(${introOutroWords.join('|')})\\s+[A-Z]`,
     'i'
   );
-  
+
   // Pattern to match version indicators (Japanese Ver., Korean Version, English Ver., etc.)
-  // Matches versions in parentheses, brackets, or between dashes
-  const versionWords = [
-    'version', 'ver\\.?', 'versión', 'japanese', 'kor', 'korean', 'english',
-    'eng', 'jap', 'spanish', 'español', 'chinese', 'mandarin', 'cantonese'
-  ];
+  // Uses the shared dashVersionWords list (superset of the old local list).
+  const versionWords = filterRules.dashVersionWords;
   const versionPatterns = [
     // In parentheses: "(Japanese Ver.)" or "(Korean Version)"
     new RegExp(`\\([^)]*(?:${versionWords.join('|')})[^)]*\\)`, 'i'),
@@ -276,8 +276,6 @@ function filterTracks(tracks) {
     new RegExp(`\\[[^\\]]*(?:${versionWords.join('|')})[^\\]]*\\]`, 'i'),
     // Between dashes: "- Japanese Ver. -" or "- Korean -"
     new RegExp(`[‑\\-–—]\\s*(?:${versionWords.join('|')})\\s*[‑\\-–—]`, 'i'),
-    // With "ver." anywhere
-    /ver\./i,
   ];
   
   let noPreviewCount = 0;

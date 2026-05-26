@@ -1,11 +1,8 @@
 import type { FilteredTrack, GenericTrack } from '@/lib/services/trackFilters';
+import { getTrackName } from '@/lib/services/trackFilters';
 
 // Re-export for backward compatibility
 export type { FilteredTrack };
-
-function getTrackName(track: GenericTrack): string {
-  return track.attributes.name || '';
-}
 
 /**
  * Normalize song name for grouping (remove parentheses, normalize punctuation and spacing)

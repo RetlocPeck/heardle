@@ -1,0 +1,28 @@
+{
+  "_comment": "Single source of truth for catalog filtering word lists. Consumed by both the TypeScript runtime (trackFilters.ts) and the Node.js scripts (apple-music-utils.js). Strings in dashVersionWords and unwantedPatternWords are regex source fragments — backslashes must be double-escaped.",
+
+  "introOutroWords": ["outro", "intro", "introduction", "skit", "interlude"],
+
+  "dashVersionWords": [
+    "version", "ver\\.", "versión", "japanese", "kor", "korean", "english",
+    "eng", "spanish", "español", "instrumental", "inst\\.", "remix", "mix",
+    "edit", "acoustic", "acapella", "live", "demo", "radio", "extended",
+    "short", "long", "rem"
+  ],
+
+  "unwantedPatternWords": [
+    "remix", "version", "ver\\.", "versión", "edit", "mixed", "mix",
+    "instrumental", "inst\\.", "japanese", "korean", "english", "kor",
+    "eng", "jap", "spanish", "español", "acoustic", "acapella", "live",
+    "demo", "radio", "extended", "short", "long", "original", "clean",
+    "explicit", "clean version", "radio edit", "club mix", "dance mix", "rem"
+  ],
+
+  "versionPhrases": [
+    "acoustic version", "live version", "demo version", "radio edit",
+    "club mix", "dance mix", "extended mix", "short version", "long version",
+    "original mix", "clean version", "explicit version", "instrumental version"
+  ],
+
+  "nonEnglishPatternSource": "[^\\x00-\\x7F]"
+}

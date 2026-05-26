@@ -4,6 +4,7 @@
  */
 
 import type { AppleMusicTrack } from '@/types/song';
+import filterRules from '@/config/catalog-filter-rules.json';
 
 // =============================================================================
 // TYPES
@@ -105,7 +106,7 @@ function createAlbumPatternFilter(pattern: RegExp, reason: string): TrackFilter 
  */
 export function isEnglishOnly(str: string): boolean {
   if (!str) return false;
-  const nonEnglishPattern = /[^\x00-\x7F]/;
+  const nonEnglishPattern = new RegExp(filterRules.nonEnglishPatternSource);
   return !nonEnglishPattern.test(str);
 }
 
@@ -159,13 +160,7 @@ export const createRemixAlbumFilter = (): TrackFilter =>
 /** Removes tracks with language/version words between dashes */
 export function createDashVersionFilter(): TrackFilter {
   const dashChars = '[‑\\-–—‒―]';
-  const versionWords = [
-    'version', 'ver\\.', 'versión', 'japanese', 'kor', 'korean', 'english',
-    'eng', 'spanish', 'español', 'instrumental', 'inst\\.', 'remix', 'mix',
-    'edit', 'acoustic', 'acapella', 'live', 'demo', 'radio', 'extended',
-    'short', 'long', 'rem',
-  ];
-  const pattern = new RegExp(`${dashChars}\\s*(${versionWords.join('|')})\\s*${dashChars}`, 'i');
+  const pattern = new RegExp(`${dashChars}\\s*(${filterRules.dashVersionWords.join('|')})\\s*${dashChars}`, 'i');
 
   return createFilter(
     (track) => pattern.test(getTrackName(track)),
@@ -178,13 +173,7 @@ export function createDashVersionFilter(): TrackFilter {
 
 /** Removes tracks with unwanted patterns in parentheses/brackets/hyphens */
 export function createUnwantedPatternFilter(): TrackFilter {
-  const patterns = [
-    'remix', 'version', 'ver\\.', 'versión', 'edit', 'mixed', 'mix',
-    'instrumental', 'inst\\.', 'japanese', 'korean', 'english', 'kor',
-    'eng', 'jap', 'spanish', 'español', 'acoustic', 'acapella', 'live',
-    'demo', 'radio', 'extended', 'short', 'long', 'original', 'clean',
-    'explicit', 'clean version', 'radio edit', 'club mix', 'dance mix', 'rem',
-  ];
+  const patterns = filterRules.unwantedPatternWords;
 
   return (tracks, filtered) => {
     const valid: GenericTrack[] = [];
@@ -221,11 +210,7 @@ export function createUnwantedPatternFilter(): TrackFilter {
 
 /** Removes tracks with full version phrases */
 export function createVersionPhraseFilter(): TrackFilter {
-  const phrases = [
-    'acoustic version', 'live version', 'demo version', 'radio edit',
-    'club mix', 'dance mix', 'extended mix', 'short version', 'long version',
-    'original mix', 'clean version', 'explicit version', 'instrumental version',
-  ];
+  const phrases = filterRules.versionPhrases;
 
   return (tracks, filtered) => {
     const valid: GenericTrack[] = [];
@@ -272,7 +257,7 @@ export function createSpecificMarkerFilter(): TrackFilter {
 
 /** Removes intro/outro/skit tracks */
 export function createIntroOutroFilter(): TrackFilter {
-  const words = ['outro', 'intro', 'introduction', 'skit', 'interlude'];
+  const words = filterRules.introOutroWords;
   
   // Patterns to match:
   // 1. Word boundary matches: "The Intro Song" -> matches "Intro"
