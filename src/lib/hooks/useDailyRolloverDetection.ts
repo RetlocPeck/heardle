@@ -3,7 +3,7 @@
  * This runs independently and notifies all components when a new daily becomes available
  */
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useCallback } from 'react';
 import { Logger } from '@/lib/utils/logger';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
 import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
@@ -23,7 +23,7 @@ export function useDailyRolloverDetection(options: RolloverDetectionOptions = {}
   } = options;
 
   const lastPuzzleNumberRef = useRef<number>(getLocalPuzzleNumber());
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     if (!enabled || typeof window === 'undefined') return;
@@ -107,32 +107,39 @@ export function useDailyRolloverDetection(options: RolloverDetectionOptions = {}
 }
 
 /**
- * Hook specifically for challenge card components to listen for new dailies
+ * Hook specifically for challenge card components to listen for new dailies.
+ *
+ * The `onNewDaily` callback is stored in a ref so that passing an inline arrow
+ * function from the parent does not cause the event listeners to tear down and
+ * reattach on every render.
  */
 export function useNewDailyChallengeListener(artistId: string, onNewDaily?: () => void) {
+  const onNewDailyRef = useRef(onNewDaily);
+  useEffect(() => { onNewDailyRef.current = onNewDaily; }, [onNewDaily]);
+
+  const stableArtistId = artistId;
+  const handleNewDaily = useCallback((event: CustomEvent) => {
+    const detail = event.detail;
+
+    if (event.type === DAILY_CHALLENGE_UPDATED_EVENT) {
+      // Only respond to rollover events, not regular completion events.
+      // Completion events dispatched by the page on game-over do NOT have
+      // isNewDaily:true — responding to those causes an infinite reload loop.
+      if (detail?.isNewDaily && detail?.artistId === stableArtistId) {
+        onNewDailyRef.current?.();
+      }
+      return;
+    }
+
+    // 'daily-rollover-detected' — always a genuine rollover
+    if (detail?.artistId === stableArtistId || (!detail?.artistId && detail?.currentPuzzleNumber)) {
+      onNewDailyRef.current?.();
+    }
+  }, [stableArtistId]);
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
 
-    const handleNewDaily = (event: CustomEvent) => {
-      const detail = event.detail;
-
-      if (event.type === DAILY_CHALLENGE_UPDATED_EVENT) {
-        // Only respond to rollover events, not regular completion events.
-        // Completion events dispatched by the page on game-over do NOT have
-        // isNewDaily:true — responding to those causes an infinite reload loop.
-        if (detail?.isNewDaily && detail?.artistId === artistId) {
-          onNewDaily?.();
-        }
-        return;
-      }
-
-      // 'daily-rollover-detected' — always a genuine rollover
-      if (detail?.artistId === artistId || (!detail?.artistId && detail?.currentPuzzleNumber)) {
-        onNewDaily?.();
-      }
-    };
-
-    // Listen for both specific challenge updates and global rollover events
     window.addEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleNewDaily as EventListener);
     window.addEventListener('daily-rollover-detected', handleNewDaily as EventListener);
 
@@ -140,5 +147,5 @@ export function useNewDailyChallengeListener(artistId: string, onNewDaily?: () =
       window.removeEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleNewDaily as EventListener);
       window.removeEventListener('daily-rollover-detected', handleNewDaily as EventListener);
     };
-  }, [artistId, onNewDaily]);
+  }, [handleNewDaily]);
 }

@@ -34,7 +34,8 @@ export function useAudioControl(onEnded?: () => void): AudioControlReturn {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const unmuteTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const onEndedRef = useRef(onEnded);
 
   // Keep onEndedRef current without it being a dep of other effects.
@@ -79,6 +80,10 @@ export function useAudioControl(onEnded?: () => void): AudioControlReturn {
       audio.removeEventListener('pause', handlePause);
       audio.removeEventListener('loadstart', handleLoadStart);
       audio.removeEventListener('canplay', handleCanPlay);
+      if (unmuteTimeoutRef.current !== null) {
+        clearTimeout(unmuteTimeoutRef.current);
+        unmuteTimeoutRef.current = null;
+      }
     };
   }, [stopPolling]);
 
@@ -157,6 +162,10 @@ export function useAudioControl(onEnded?: () => void): AudioControlReturn {
     const audio = audioRef.current;
     if (!audio) return;
     stopPolling();
+    if (unmuteTimeoutRef.current !== null) {
+      clearTimeout(unmuteTimeoutRef.current);
+      unmuteTimeoutRef.current = null;
+    }
     audio.pause();
     audio.currentTime = 0;
     setIsPlaying(false);
@@ -167,7 +176,8 @@ export function useAudioControl(onEnded?: () => void): AudioControlReturn {
     audio.load();
     // Brief unmute delay so the browser can finish the synchronous load setup
     // before audio output is re-enabled, preventing a flash of audio on some browsers.
-    setTimeout(() => {
+    unmuteTimeoutRef.current = setTimeout(() => {
+      unmuteTimeoutRef.current = null;
       if (audioRef.current) audioRef.current.muted = false;
     }, 100);
   }, [stopPolling]);

@@ -563,9 +563,291 @@ chore: small cleanups
 
 ---
 
+## Post-audit remediation plan
+
+The Phase 7 audit found a few remaining refactor gaps. Handle these as separate PRs, in order. The first two phases below address behavior and maintainability risks; the later phases are cleanup and consolidation.
+
+---
+
+## Phase 8 — Fix ownership and effect correctness
+
+**Goal:** Remove duplicate runtime ownership and stale effect patterns that can cause browser-specific or mode-switch bugs.
+
+### 8a. Make daily rollover detection single-owner
+
+Current issue: `useDailyRolloverDetection` is mounted in both:
+- `src/app/[artist]/page.tsx`
+- `src/components/game/DynamicHeardle.tsx`
+
+This creates two polling intervals and two focus/visibility listener sets for the same artist/mode. It also duplicates global event dispatching, which is risky after the Firefox recursion bug.
+
+Change:
+1. Keep rollover polling in one place only. Preferred: keep it in `DynamicHeardle`, because that component owns game reset/reload behavior.
+2. Remove the `useDailyRolloverDetection` import and call from `src/app/[artist]/page.tsx`.
+3. Keep `DailyChallengeStatus` updated through the existing `DAILY_CHALLENGE_UPDATED_EVENT` dispatch from storage/page actions.
+4. Memoize the callback passed to `useNewDailyChallengeListener`, or change the hook to store `onNewDaily` in a ref so event listeners do not tear down and reattach on every render.
+
+### 8b. Fix `GameLogic` mode lifecycle
+
+Current issue: `DynamicHeardle` creates `new GameLogic(mode)` once with `useState`, then `mode` can change while the same instance remains alive. This can leave `gameState.mode` stale after switching between daily and practice.
+
+Change one of these ways:
+- Preferred: create a new `GameLogic` instance when `mode` or `artistId` changes, and load a fresh/saved state through a reducer-like flow.
+- Simpler: key `DynamicHeardle` by mode from `src/app/[artist]/page.tsx` so the component remounts intentionally on mode changes.
+
+Avoid suppressing `react-hooks/exhaustive-deps` in the load effect. If dependencies are hard to express, split the effect into smaller effects or move mutable game logic behind stable callbacks.
+
+### 8c. Replace direct `matchMedia` usage in `DynamicHeardle`
+
+Current issue: `DynamicHeardle` uses `MediaQueryList.addEventListener` directly. Older Safari/iOS WebView environments need the legacy `addListener` fallback.
+
+Change:
+- Reuse the existing `useMediaQuery('(max-width: 1023.98px)')` hook instead of maintaining a local media-query effect.
+
+### 8d. Clean up timeout effects
+
+Files:
+- `src/components/game/GuessInput.tsx`
+- `src/components/game/AudioPlayer.tsx`
+- `src/lib/hooks/useAudioControl.ts`
+- `src/components/ui/buttons/ShareButton.tsx`
+
+Change:
+- Store blur/reset/autoplay/unmute timers in refs when they can outlive the current render.
+- Clear timers on unmount and before creating a replacement timer.
+- For `ShareButton`, distinguish copy success from copy failure; do not show "copied" UI after a clipboard error.
+
+### Verify
+
+- Switch daily -> practice -> daily on an artist page. The game mode and game state should be correct after each switch.
+- Complete a daily game in Firefox and Chrome. No recursion/runtime error.
+- Simulate midnight rollover or temporarily shorten the rollover interval. Exactly one reload/reset should occur.
+- Test on iOS Safari or Safari responsive mode. No `matchMedia.addEventListener` runtime error.
+- `npm run build`
+- `npm run lint`
+
+### Commit
+
+```
+fix: tighten game lifecycle and rollover ownership
+
+- Make daily rollover polling single-owner
+- Fix GameLogic lifecycle when switching modes
+- Reuse useMediaQuery for Safari-compatible breakpoint detection
+- Track and clean up UI/audio timers
+```
+
+---
+
+## Phase 9 — Consolidate catalog filtering and Apple Music duplication
+
+**Goal:** Make runtime and script-side catalog filtering use one source of truth so generated data cannot drift from app behavior.
+
+### 9a. Extract shared filter constants
+
+Current issue: filter and version-detection logic is duplicated between:
+- `src/lib/services/trackFilters.ts`
+- `scripts/apple-music-utils.js`
+
+Repeated patterns include intro/outro/skit words, version words, dash handling, excluded pattern lists, and English-only checks.
+
+Change:
+1. Create a shared data module that can be consumed by both runtime code and scripts. Keep it simple:
+   - `src/lib/catalog/filterRules.ts` for typed constants and regex builders, or
+   - `config/catalog-filter-rules.json` if script compatibility is easier.
+2. Update `trackFilters.ts` to build filters from those shared rules.
+3. Update `scripts/apple-music-utils.js` to use the same rules rather than maintaining its own regex list.
+
+If importing TS from Node scripts is too much for this phase, use a JSON/common JS rules file first. Do not introduce build tooling just for this cleanup.
+
+### 9b. Consolidate track accessors and dedupe helpers
+
+Current issue:
+- `getTrackName` exists in both `trackFilters.ts` and `songDeduplication.ts`.
+- Runtime dedupe logic and script dedupe logic both normalize names and rank versions separately.
+
+Change:
+1. Move accessors and normalization helpers to one module, e.g. `src/lib/catalog/trackAccessors.ts` and `src/lib/catalog/songVersioning.ts`.
+2. Have `trackFilters.ts`, `songDeduplication.ts`, and scripts consume those helpers.
+3. Keep public behavior unchanged: generated song counts may change only if current duplicated logic was already inconsistent. If counts change, document why in the PR.
+
+### 9c. Type the Apple Music filtering path
+
+Current issue: `appleMusicService.ts` uses several `any` casts around album storefront metadata and runtime filter adapters.
+
+Change:
+- Define an explicit `AppleMusicAlbumWithStorefront` type instead of `album as any`.
+- Define an explicit `SongFilterTrackAdapter` type for adapting cached `Song` objects into filterable tracks.
+- Replace `(t: any)` and `as any` in the filtering path.
+- Keep `(window as any).appleMusicService` only if the dev debug global is still useful; otherwise delete it.
+
+### 9d. Decide script/runtime API sharing boundary
+
+Apple Music fetch flow is duplicated between runtime service and scripts. Do not over-engineer this unless it removes real drift.
+
+Recommended split:
+- Shared: auth header construction, storefront constants, request delay constants, filter/dedupe logic.
+- Separate: CLI progress logging, file writes, script argument parsing, Next.js API route response handling.
+
+### Verify
+
+- Regenerate one known artist with `scripts/refetch-artist.js`.
+- Compare filtered song output before/after for a sample artist.
+- Daily/practice song APIs still return valid songs.
+- Autocomplete still excludes unwanted versions.
+- `npm run build`
+- `npm run lint`
+
+### Commit
+
+```
+refactor: centralize catalog filtering rules
+
+- Share intro/outro/version filter rules between runtime and scripts
+- Consolidate track accessors and song-version normalization
+- Remove any casts from Apple Music filtering path
+```
+
+---
+
+## Phase 10 — Simplify page and component structure
+
+**Goal:** Reduce UI duplication without changing the visual design.
+
+### 10a. Render result/instruction cards once in `DynamicHeardle`
+
+Current issue: `DynamicHeardle` renders separate mobile and desktop branches for `HowToPlayCard` / `GameResultCard` and hides them with responsive classes.
+
+Change:
+- Keep a single source of truth for each card's props.
+- If separate placement is still required for the grid, extract a small `GameSideCard` component or compute `const sideCard = ...` once and render it in the appropriate responsive container.
+- Avoid maintaining two divergent sets of card props.
+
+### 10b. Extract common page shell primitives
+
+Repeated visual shell appears across:
+- `src/app/page.tsx`
+- `src/app/[artist]/page.tsx`
+- `src/app/artists/page.tsx`
+- `src/app/featured/page.tsx`
+
+Change:
+- Add a lightweight `PageShell` or `AppBackgroundLayout` for the root gradient + animated background + common z-index layout.
+- Add a `ResponsiveContainer` for the repeated horizontal padding stack.
+- Add a `PageHeader` only if it actually reduces duplication without hiding page-specific content.
+
+Keep this scoped. Do not rewrite page layout wholesale.
+
+### 10c. Extract artist-card rendering
+
+Current issue: artist cards and featured-card styling are repeated across the home, all-artists, featured, and related-artists views.
+
+Change:
+- Extract an `ArtistCard` component with size/context variants only if the call sites share enough structure.
+- Move the featured badge/card treatment into the component.
+- Preserve existing routes and SEO structure.
+
+### 10d. Split `DailyChallengeStatus`
+
+Current issue: `src/components/artist/ArtistHeader.tsx` mixes `DailyChallengeStatus` with an apparently unused default `ArtistHeader` export.
+
+Change:
+- Move `DailyChallengeStatus` to `src/components/artist/DailyChallengeStatus.tsx`.
+- Delete `ArtistHeader` if unused, or reintroduce it intentionally where it belongs.
+- Replace `event: any` with a typed custom event detail.
+
+### Verify
+
+- Home, `/artists`, `/featured`, and an artist page look unchanged.
+- Daily status pill updates after win/loss and after reload.
+- Mobile and desktop game layouts still show exactly one result/instruction card in the intended location.
+- `npm run build`
+- `npm run lint`
+
+### Commit
+
+```
+refactor: reduce duplicated page and artist UI
+
+- Extract shared page shell/container primitives
+- Consolidate artist-card rendering
+- Render game result/instruction props from one source
+- Split DailyChallengeStatus from unused ArtistHeader code
+```
+
+---
+
+## Phase 11 — Storage, events, and async I/O hardening
+
+**Goal:** Tighten abstractions that were made cleaner but still have drift.
+
+### 11a. Decide the `DailyChallengeStorage` abstraction
+
+Current issue: `DailyChallengeStorage` extends `BaseStorageService<never>` but bypasses the base `getStored/save/clear` model with per-key JSON. The behavior is fine, but the abstraction is misleading.
+
+Change one of these ways:
+- Add first-class keyed-record helpers to `BaseStorageService`, or
+- Create a separate `KeyedStorageService` base, or
+- Remove inheritance from `DailyChallengeStorage` and compose small localStorage helpers directly.
+
+Avoid the `never` default hack in the final shape.
+
+### 11b. Type custom events
+
+Current issue: custom event dispatch/listen logic is spread across page, storage, stats, and rollover code with casts like `as EventListener`.
+
+Change:
+- Add typed helpers such as:
+  - `emitDailyChallengeUpdated(detail)`
+  - `onDailyChallengeUpdated(handler)`
+  - `emitStatisticsUpdated(detail)`
+  - `onStatisticsUpdated(handler)`
+- Centralize all custom event names in `src/lib/constants.ts`.
+- Use typed detail interfaces for daily challenge and statistics update events.
+
+### 11c. Revisit `CachedDataService` sync file I/O
+
+Current issue: `cachedDataService.ts` uses synchronous file reads. This is acceptable for a small app, but it blocks the Node event loop in request paths.
+
+Change:
+- If keeping sync I/O: memoize loaded JSON in memory so each file is read once per server process.
+- If changing to async I/O: update `AppleMusicService` call sites to await cached reads and keep API route behavior unchanged.
+
+Preferred low-risk path: add in-memory memoization first; convert to async later only if profiling shows it matters.
+
+### 11d. Clean remaining type escapes and singleton helper drift
+
+Change:
+- Replace `any` in type guards with `unknown`.
+- Remove unused `createSingleton` from `baseStorageService.ts` if the repo intentionally prefers explicit singleton classes.
+- Replace `NodeJS.Timeout` in client hooks with `ReturnType<typeof setTimeout>` / `ReturnType<typeof setInterval>`.
+- Add a narrow type for the nonstandard `freeze` event or remove it if not worth the cast.
+
+### Verify
+
+- Daily save/load/clear still works after refresh.
+- Stats modal updates after daily and practice games.
+- Practice recent-song exclusion still works.
+- API routes still serve cached songs/artwork.
+- `npm run build`
+- `npm run lint`
+
+### Commit
+
+```
+refactor: harden storage and custom event abstractions
+
+- Replace DailyChallengeStorage never-based inheritance
+- Add typed custom event helpers
+- Memoize cached data reads
+- Remove remaining low-value type escapes
+```
+
+---
+
 ## Final verification
 
-After all phases:
+After all phases, including post-audit remediation:
 
 1. `npm run build` — passes with no warnings
 2. `npm run lint` — passes

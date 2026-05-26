@@ -16,7 +16,6 @@ import FAQSection from '@/components/seo/FAQSection';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { generateFAQItems } from '@/lib/utils/faqUtils';
 import { useClientDate } from '@/lib/hooks/useClientDate';
-import { useDailyRolloverDetection } from '@/lib/hooks/useDailyRolloverDetection';
 import { GameMode } from '@/lib/game';
 import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
 
@@ -30,12 +29,6 @@ export default function ArtistPage({ params }: ArtistPageProps) {
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const { getTodayString } = useClientDate();
-  
-  // Global rollover detection - works independently of game component
-  useDailyRolloverDetection({
-    artistId: artist?.id,
-    enabled: !!artist && selectedMode === 'daily'
-  });
 
   useEffect(() => {
     const foundArtist = getArtistById(artistId);
@@ -139,7 +132,8 @@ export default function ArtistPage({ params }: ArtistPageProps) {
           )}
           
           {/* Remove any extra top margin/padding from the child; parent controls spacing */}
-          <DynamicHeardle 
+          <DynamicHeardle
+            key={selectedMode}
             mode={selectedMode} 
             onGameStateChange={(gameState) => {
               // Force update of the DailyChallengeStatus component

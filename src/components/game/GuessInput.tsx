@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { useFloating, flip, offset, size, autoUpdate } from '@floating-ui/react';
 import { Song } from '@/types/song';
@@ -29,6 +29,16 @@ export default function GuessInput({
   const [filteredSongs, setFilteredSongs] = useState<Song[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
+  const blurTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Clear the blur timeout on unmount so it never fires against an unmounted component.
+  useEffect(() => {
+    return () => {
+      if (blurTimeoutRef.current !== null) {
+        clearTimeout(blurTimeoutRef.current);
+      }
+    };
+  }, []);
 
   // Floating UI setup for dropdown positioning
   const {refs, floatingStyles, placement} = useFloating({
@@ -165,10 +175,15 @@ export default function GuessInput({
     }
   };
 
-  const handleInputBlur = () => {
-    // Delay hiding dropdown to allow for clicks
-    setTimeout(() => setShowDropdown(false), 150);
-  };
+  const handleInputBlur = useCallback(() => {
+    if (blurTimeoutRef.current !== null) {
+      clearTimeout(blurTimeoutRef.current);
+    }
+    blurTimeoutRef.current = setTimeout(() => {
+      blurTimeoutRef.current = null;
+      setShowDropdown(false);
+    }, 150);
+  }, []);
 
   return (
     <div className="w-full relative">

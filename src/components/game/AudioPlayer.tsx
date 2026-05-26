@@ -34,7 +34,7 @@ export default function AudioPlayer({
     useAudioControl(onEnded);
 
   // Game-specific refs
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const clipEndedRef = useRef(false);
   const onEndedRef = useRef(onEnded);
   const prevIsOverRef = useRef(false);
