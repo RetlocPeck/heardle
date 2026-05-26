@@ -130,9 +130,17 @@ export function createNonEnglishFilter(): TrackFilter {
   );
 }
 
-/** Removes tracks with square brackets in title */
+/** Removes tracks with square brackets in title, but allows [feat. ...] collaboration tags */
 export const createBracketFilter = (): TrackFilter =>
-  createPatternFilter(/\[.*\]/, 'Contains square brackets [...]');
+  createFilter(
+    (track) => {
+      const name = getTrackName(track);
+      // Allow [feat. ...] / [ft. ...] — these are valid collabs, not version tags
+      const withoutFeat = name.replace(/\[(?:feat|ft)\.?[^\]]*\]/gi, '');
+      return /\[.*\]/.test(withoutFeat);
+    },
+    'Contains square brackets [...]'
+  );
 
 /** Removes tracks with "ver." in title */
 export const createVersionFilter = (): TrackFilter =>
