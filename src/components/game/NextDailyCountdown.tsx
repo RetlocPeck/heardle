@@ -36,11 +36,11 @@ export default function NextDailyCountdown({ className = '' }: { className?: str
       <div
         data-countdown
         aria-live="polite"
-        className="rounded-xl border border-white/10 bg-white/5 px-3 py-1 shadow-sm backdrop-blur-sm
-                   text-sm text-white/90 group hover:shadow-md transition-shadow duration-200"
+        className="rounded-xl theme-glass-surface px-3 py-1 shadow-sm backdrop-blur-sm
+                   text-sm theme-text-secondary group hover:shadow-md transition-shadow duration-200"
       >
         <span className="mr-2 opacity-80">Next daily in</span>
-        <span className="font-semibold tabular-nums tracking-wider text-white"
+        <span className="font-semibold tabular-nums tracking-wider theme-text"
               suppressHydrationWarning>
           {mounted ? `${pad(h)}:${pad(m)}:${pad(s)}` : "––:––:––"}
         </span>

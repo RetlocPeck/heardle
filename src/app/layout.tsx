@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ThemeProvider } from "@/components/ui/ThemeProvider";
+import { DEFAULT_THEME, THEME_STORAGE_KEY } from "@/lib/theme";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -85,8 +87,13 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" data-theme={DEFAULT_THEME} suppressHydrationWarning>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var stored=localStorage.getItem('${THEME_STORAGE_KEY}');var theme;if(stored==='light'||stored==='dark'||stored==='system'){theme=stored;}else{theme=window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';}var effective=theme==='system'?(window.matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):theme;var r=document.documentElement;r.setAttribute('data-theme',effective);r.style.colorScheme=effective;}catch(e){document.documentElement.setAttribute('data-theme','dark');}})();`,
+          }}
+        />
         {/* Preconnect to Apple Music CDN for faster image loads */}
         <link rel="preconnect" href="https://is1-ssl.mzstatic.com" />
         <link rel="preconnect" href="https://is2-ssl.mzstatic.com" />
@@ -115,7 +122,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         <main id="main-content">
-          {children}
+          <ThemeProvider>{children}</ThemeProvider>
         </main>
         <Analytics />
         <SpeedInsights />
