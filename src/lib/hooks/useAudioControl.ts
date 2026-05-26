@@ -120,14 +120,15 @@ export function useAudioControl(onEnded?: () => void): AudioControlReturn {
     document.addEventListener('visibilitychange', onVisibility);
     window.addEventListener('pagehide', onPageHide);
     window.addEventListener('blur', onBlur);
-    // 'freeze' is a Chrome Page Lifecycle API event; not in standard TS types.
-    (document as any).addEventListener('freeze', onFreeze);
+    // 'freeze' is a Chrome Page Lifecycle API event; not in standard TS lib types.
+    // Cast to EventTarget (which accepts any string event name) to avoid `as any`.
+    (document as EventTarget).addEventListener('freeze', onFreeze);
 
     return () => {
       document.removeEventListener('visibilitychange', onVisibility);
       window.removeEventListener('pagehide', onPageHide);
       window.removeEventListener('blur', onBlur);
-      (document as any).removeEventListener('freeze', onFreeze);
+      (document as EventTarget).removeEventListener('freeze', onFreeze);
     };
   }, [stopPolling]);
 

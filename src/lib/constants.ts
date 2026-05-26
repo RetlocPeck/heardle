@@ -34,6 +34,8 @@ export const FULL_PREVIEW_DURATION_SECONDS = 30;
 
 // Custom events
 export const DAILY_CHALLENGE_UPDATED_EVENT = 'daily-challenge-updated';
+export const DAILY_ROLLOVER_DETECTED_EVENT = 'daily-rollover-detected';
+export const STATISTICS_UPDATED_EVENT = 'statistics-updated';
 
 // Intervals
 export const ROLLOVER_CHECK_INTERVAL_MS = 30000;

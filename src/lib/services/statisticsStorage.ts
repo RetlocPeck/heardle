@@ -1,5 +1,6 @@
 import { BaseStorageService } from './baseStorageService';
 import { STORAGE_KEYS } from '@/lib/constants';
+import { emitStatisticsUpdated } from '@/lib/utils/customEvents';
 import { Logger } from '@/lib/utils/logger';
 
 export interface GameStats {
@@ -85,7 +86,7 @@ export class StatisticsStorage extends BaseStorageService<GlobalStats> {
 
   private saveStats(stats: GlobalStats): void {
     this.save(stats);
-    this.dispatchEvent('statistics-updated', stats);
+    emitStatisticsUpdated(stats);
   }
 
   private updateGameStats(gameStats: GameStats, isWin: boolean, tries: number): GameStats {
@@ -150,7 +151,7 @@ export class StatisticsStorage extends BaseStorageService<GlobalStats> {
 
   clearAllStats(): void {
     this.clear();
-    this.dispatchEvent('statistics-updated', this.getDefault());
+    emitStatisticsUpdated(this.getDefault());
     Logger.debug('Cleared all statistics');
   }
 

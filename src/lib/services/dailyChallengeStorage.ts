@@ -1,7 +1,6 @@
 import { GameState } from '@/lib/game';
 import { getTodayString, isTodayInLocalTimezone, getLocalPuzzleNumber } from '@/lib/utils/dateUtils';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
-import { BaseStorageService } from './baseStorageService';
+import { emitDailyChallengeUpdated } from '@/lib/utils/customEvents';
 import { Logger } from '@/lib/utils/logger';
 
 export interface DailyChallengeData {
@@ -10,18 +9,47 @@ export interface DailyChallengeData {
   songId: string;
   gameState: GameState;
   completed: boolean;
-  puzzleNumber: number; // Local timezone-based puzzle number for consistent tracking
+  puzzleNumber: number;
   savedAt: string; // ISO timestamp
 }
 
-export class DailyChallengeStorage extends BaseStorageService<never> {
+const KEY_PREFIX = 'kpop-heardle-daily-challenges';
+
+/**
+ * Standalone localStorage helpers used only by this class.
+ * DailyChallengeStorage manages per-artist-date keys directly,
+ * so it does not fit the single-key model of BaseStorageService.
+ */
+function isBrowser(): boolean { return typeof window !== 'undefined'; }
+
+function lsGet(key: string): string | null {
+  if (!isBrowser()) return null;
+  try { return localStorage.getItem(key); } catch { return null; }
+}
+
+function lsSet(key: string, value: string): void {
+  if (!isBrowser()) return;
+  try { localStorage.setItem(key, value); } catch (e) {
+    Logger.error(`Error writing ${key}:`, e);
+  }
+}
+
+function lsRemove(key: string): void {
+  if (!isBrowser()) return;
+  try { localStorage.removeItem(key); } catch (e) {
+    Logger.error(`Error removing ${key}:`, e);
+  }
+}
+
+function lsKeysByPrefix(prefix: string): string[] {
+  if (!isBrowser()) return [];
+  try { return Object.keys(localStorage).filter(k => k.startsWith(prefix)); } catch { return []; }
+}
+
+export class DailyChallengeStorage {
   private static instance: DailyChallengeStorage;
 
-  // Used as a prefix for per-artist-date keys; getStored/save/clear are not called
-  protected readonly STORAGE_KEY = 'kpop-heardle-daily-challenges';
-  protected getDefault(): never { return null as never; }
-
-  private constructor() { super(); }
+  private constructor() {}
 
   static getInstance(): DailyChallengeStorage {
     if (!DailyChallengeStorage.instance) {
@@ -31,7 +59,7 @@ export class DailyChallengeStorage extends BaseStorageService<never> {
   }
 
   private getStorageKey(artistId: string, date: string): string {
-    return `${this.STORAGE_KEY}-${artistId}-${date}`;
+    return `${KEY_PREFIX}-${artistId}-${date}`;
   }
 
   saveDailyChallenge(artistId: string, songId: string, gameState: GameState, puzzleNumber: number = getLocalPuzzleNumber()): void {
@@ -43,24 +71,23 @@ export class DailyChallengeStorage extends BaseStorageService<never> {
       gameState,
       completed: gameState.isGameOver,
       puzzleNumber,
-      savedAt: new Date().toISOString()
+      savedAt: new Date().toISOString(),
     };
 
-    this.setItem(this.getStorageKey(artistId, today), JSON.stringify(data));
-    this.dispatchEvent(DAILY_CHALLENGE_UPDATED_EVENT, { artistId, date: today, completed: data.completed });
+    lsSet(this.getStorageKey(artistId, today), JSON.stringify(data));
+    emitDailyChallengeUpdated({ artistId, date: today, completed: data.completed });
     Logger.debug(`Saved daily challenge for ${artistId} on ${today}`);
   }
 
   loadDailyChallenge(artistId: string): DailyChallengeData | null {
     try {
       const today = getTodayString();
-      const stored = this.getItem(this.getStorageKey(artistId, today));
-
+      const stored = lsGet(this.getStorageKey(artistId, today));
       if (!stored) return null;
 
       const data: DailyChallengeData = JSON.parse(stored);
-
       const currentPuzzleNumber = getLocalPuzzleNumber();
+
       if (!isTodayInLocalTimezone(data.date) || (data.puzzleNumber && data.puzzleNumber !== currentPuzzleNumber)) {
         Logger.debug(`Clearing outdated daily challenge for ${artistId} (date: ${data.date}, puzzle: ${data.puzzleNumber} vs current: ${currentPuzzleNumber})`);
         this.clearDailyChallenge(artistId);
@@ -85,25 +112,24 @@ export class DailyChallengeStorage extends BaseStorageService<never> {
 
   clearDailyChallenge(artistId: string): void {
     const today = getTodayString();
-    this.removeItem(this.getStorageKey(artistId, today));
+    lsRemove(this.getStorageKey(artistId, today));
     Logger.debug(`Cleared daily challenge for ${artistId} on ${today}`);
   }
 
   clearAllDailyChallenges(): void {
-    const keys = this.getKeysByPrefix(this.STORAGE_KEY);
-    keys.forEach(key => this.removeItem(key));
+    const keys = lsKeysByPrefix(KEY_PREFIX);
+    keys.forEach(lsRemove);
     Logger.debug(`Cleared ${keys.length} daily challenges`);
   }
 
   getCompletionStats(artistId: string): { completed: number; total: number } {
-    const keys = this.getKeysByPrefix(`${this.STORAGE_KEY}-${artistId}-`);
-
+    const keys = lsKeysByPrefix(`${KEY_PREFIX}-${artistId}-`);
     let completed = 0;
     let total = 0;
 
     keys.forEach(key => {
       try {
-        const stored = this.getItem(key);
+        const stored = lsGet(key);
         if (!stored) return;
         const data: DailyChallengeData = JSON.parse(stored);
         if (data.artistId === artistId) {

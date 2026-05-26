@@ -17,7 +17,7 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import { generateFAQItems } from '@/lib/utils/faqUtils';
 import { useClientDate } from '@/lib/hooks/useClientDate';
 import { GameMode } from '@/lib/game';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
+import { emitDailyChallengeUpdated } from '@/lib/utils/customEvents';
 
 type ArtistPageProps = {
   params: Promise<{ artist: string }>;
@@ -125,10 +125,11 @@ export default function ArtistPage({ params }: ArtistPageProps) {
             mode={selectedMode}
             onGameStateChange={(gameState) => {
               if (gameState.isGameOver) {
-                const event = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
-                  detail: { artistId: artist.id, date: getTodayString(), completed: gameState.isGameOver }
+                emitDailyChallengeUpdated({
+                  artistId: artist.id,
+                  date: getTodayString(),
+                  completed: gameState.isGameOver,
                 });
-                window.dispatchEvent(event);
               }
             }}
           />

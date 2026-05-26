@@ -2,14 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
-
-interface DailyChallengeUpdatedDetail {
-  artistId?: string;
-  date?: string;
-  completed?: boolean;
-  isNewDaily?: boolean;
-}
+import { onDailyChallengeUpdated } from '@/lib/utils/customEvents';
 
 export function DailyChallengeStatus({ artistId }: { artistId: string }) {
   const [challengeData, setChallengeData] = useState<{ isCompleted: boolean; hasWon: boolean } | null>(null);
@@ -19,26 +12,23 @@ export function DailyChallengeStatus({ artistId }: { artistId: string }) {
       const storage = DailyChallengeStorage.getInstance();
       const isCompleted = storage.isDailyChallengeCompleted(artistId);
       const challenge = storage.loadDailyChallenge(artistId);
-      const hasWon = challenge?.gameState.hasWon || false;
-      setChallengeData({ isCompleted, hasWon });
+      setChallengeData({ isCompleted, hasWon: challenge?.gameState.hasWon ?? false });
     };
 
     updateChallengeData();
 
-    const handleStorageChange = (event: Event) => {
-      const detail = (event as CustomEvent<DailyChallengeUpdatedDetail>).detail;
+    const offDailyUpdated = onDailyChallengeUpdated((detail) => {
       if (detail?.isNewDaily && detail?.artistId === artistId) {
         setChallengeData({ isCompleted: false, hasWon: false });
         return;
       }
       updateChallengeData();
-    };
+    });
 
-    window.addEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleStorageChange);
     window.addEventListener('storage', updateChallengeData);
 
     return () => {
-      window.removeEventListener(DAILY_CHALLENGE_UPDATED_EVENT, handleStorageChange);
+      offDailyUpdated();
       window.removeEventListener('storage', updateChallengeData);
     };
   }, [artistId]);
