@@ -1,18 +1,5 @@
 [
   {
-    "id": "applemusic-1705659234",
-    "name": "D-D-DANCE",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "D-D-DANCE - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/82/f7/ae/82f7ae10-6e4d-d578-0e34-cd8155fa1ae9/mzaf_10292154721228895344.plus.aac.p.m4a",
-    "duration": 205067,
-    "trackUrl": "https://music.apple.com/us/album/d-d-dance/1705659233?i=1705659234",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/ca/3c/f5ca3cd6-a876-3c09-574a-8ad5eb821dbe/888272122732.jpg/300x300bb.jpg",
-    "trackId": "1705659234"
-  },
-  {
     "id": "applemusic-1569293223",
     "name": "Hey. Bae. Like it.",
     "artists": [
@@ -89,6 +76,19 @@
     "trackUrl": "https://music.apple.com/us/album/up/1569293222?i=1569293560",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bc/f1/6e/bcf16eb1-7fd3-58b6-7f31-4c464efc3c04/8809658311085_Cover.jpg/300x300bb.jpg",
     "trackId": "1569293560"
+  },
+  {
+    "id": "applemusic-1705659234",
+    "name": "D-D-DANCE",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "D-D-DANCE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/82/f7/ae/82f7ae10-6e4d-d578-0e34-cd8155fa1ae9/mzaf_10292154721228895344.plus.aac.p.m4a",
+    "duration": 205067,
+    "trackUrl": "https://music.apple.com/us/album/d-d-dance/1705659233?i=1705659234",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f5/ca/3c/f5ca3cd6-a876-3c09-574a-8ad5eb821dbe/888272122732.jpg/300x300bb.jpg",
+    "trackId": "1705659234"
   },
   {
     "id": "applemusic-1569281733",
@@ -455,108 +455,17 @@
     "trackId": "1553043299"
   },
   {
-    "id": "applemusic-1533391523",
-    "name": "Beware",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/6d/23/af6d2326-7da6-74e3-e71b-709a0f521104/mzaf_1438583736559033467.plus.aac.p.m4a",
-    "duration": 250829,
-    "trackUrl": "https://music.apple.com/us/album/beware/1533391521?i=1533391523",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391523"
-  },
-  {
-    "id": "applemusic-1533391524",
-    "name": "Vampire",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7f/dd/8c/7fdd8c92-382b-dd1b-b7d3-da3ee023f4b2/mzaf_6006491860000981059.plus.aac.p.m4a",
-    "duration": 228658,
-    "trackUrl": "https://music.apple.com/us/album/vampire/1533391521?i=1533391524",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391524"
-  },
-  {
-    "id": "applemusic-1533391525",
+    "id": "applemusic-1450365851",
     "name": "Sukito Iwasetai",
     "artists": [
       "IZ*ONE"
     ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/eb/b7/93ebb7b0-317c-3fbe-b166-5f1bce8a3377/mzaf_6452083638203807438.plus.aac.p.m4a",
-    "duration": 241201,
-    "trackUrl": "https://music.apple.com/us/album/sukito-iwasetai/1533391521?i=1533391525",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391525"
-  },
-  {
-    "id": "applemusic-1533391526",
-    "name": "Waiting",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/64/74/20/64742066-1227-2da9-187c-fe7d74b9609a/mzaf_1302661463944130125.plus.aac.p.m4a",
-    "duration": 252203,
-    "trackUrl": "https://music.apple.com/us/album/waiting/1533391521?i=1533391526",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391526"
-  },
-  {
-    "id": "applemusic-1533391527",
-    "name": "Buenos Aires",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cf/b3/07/cfb307bc-3535-9034-cdda-f1ddde76ad3f/mzaf_12115823577745279893.plus.aac.p.m4a",
-    "duration": 263407,
-    "trackUrl": "https://music.apple.com/us/album/buenos-aires/1533391521?i=1533391527",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391527"
-  },
-  {
-    "id": "applemusic-1533391529",
-    "name": "Yummy Summer",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/21/05/99/2105999d-6922-f94f-e773-65ce8cb52198/mzaf_4725718605149500852.plus.aac.p.m4a",
-    "duration": 206377,
-    "trackUrl": "https://music.apple.com/us/album/yummy-summer/1533391521?i=1533391529",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391529"
-  },
-  {
-    "id": "applemusic-1533391746",
-    "name": "Dousurebaii?",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/8a/6b/8f8a6b02-fa79-ff85-1492-d10127bf04aa/mzaf_14262593281362036807.plus.aac.p.m4a",
-    "duration": 174319,
-    "trackUrl": "https://music.apple.com/us/album/dousurebaii/1533391521?i=1533391746",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391746"
-  },
-  {
-    "id": "applemusic-1533391747",
-    "name": "Shy boy",
-    "artists": [
-      "IZ*ONE"
-    ],
-    "album": "Twelve (Special Edition)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/a8/ed/d0a8ed1f-8d34-687c-f7e3-07a57325a342/mzaf_4906316223639230579.plus.aac.p.m4a",
-    "duration": 263067,
-    "trackUrl": "https://music.apple.com/us/album/shy-boy/1533391521?i=1533391747",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
-    "trackId": "1533391747"
+    "album": "Sukito Iwasetai (Type A) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/1c/b4/1c1cb422-301f-7c21-5de0-dc62200accd1/mzaf_1807376157964892802.plus.aac.p.m4a",
+    "duration": 239333,
+    "trackUrl": "https://music.apple.com/us/album/sukito-iwasetai/1450365850?i=1450365851",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/99/c2/7c99c265-fc34-82fe-7ca2-76c1afdb1ecb/00602577441394.rgb.jpg/300x300bb.jpg",
+    "trackId": "1450365851"
   },
   {
     "id": "applemusic-1450365852",
@@ -583,6 +492,19 @@
     "trackUrl": "https://music.apple.com/us/album/gokigen-sayonara/1450365850?i=1450365855",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7c/99/c2/7c99c265-fc34-82fe-7ca2-76c1afdb1ecb/00602577441394.rgb.jpg/300x300bb.jpg",
     "trackId": "1450365855"
+  },
+  {
+    "id": "applemusic-1466727934",
+    "name": "Buenos Aires",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Buenos Aires (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/84/dc/c1/84dcc1c8-4418-b172-cbfa-1c2c002a215a/mzaf_9828840034854693809.plus.aac.p.m4a",
+    "duration": 260747,
+    "trackUrl": "https://music.apple.com/us/album/buenos-aires/1466727926?i=1466727934",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/41/d0/c8/41d0c837-e3eb-3616-3e71-9fe346e675eb/19UMGIM45068.rgb.jpg/300x300bb.jpg",
+    "trackId": "1466727934"
   },
   {
     "id": "applemusic-1466727940",
@@ -637,6 +559,19 @@
     "trackId": "1466727949"
   },
   {
+    "id": "applemusic-1478594949",
+    "name": "Vampire",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Vampire (Special Edition) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9a/b8/0f/9ab80f98-d8af-4f91-594a-9b224540fcac/mzaf_16348391163449049673.plus.aac.p.m4a",
+    "duration": 228107,
+    "trackUrl": "https://music.apple.com/us/album/vampire/1478594946?i=1478594949",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/300x300bb.jpg",
+    "trackId": "1478594949"
+  },
+  {
     "id": "applemusic-1478594954",
     "name": "Kimi Igai",
     "artists": [
@@ -687,6 +622,71 @@
     "trackUrl": "https://music.apple.com/us/album/fukigen-lucy/1478594946?i=1478594965",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/52/51/9a/52519a50-431f-956b-527f-5ede56214580/19UMGIM77944.rgb.jpg/300x300bb.jpg",
     "trackId": "1478594965"
+  },
+  {
+    "id": "applemusic-1533391523",
+    "name": "Beware",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/6d/23/af6d2326-7da6-74e3-e71b-709a0f521104/mzaf_1438583736559033467.plus.aac.p.m4a",
+    "duration": 250829,
+    "trackUrl": "https://music.apple.com/us/album/beware/1533391521?i=1533391523",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391523"
+  },
+  {
+    "id": "applemusic-1533391526",
+    "name": "Waiting",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/64/74/20/64742066-1227-2da9-187c-fe7d74b9609a/mzaf_1302661463944130125.plus.aac.p.m4a",
+    "duration": 252203,
+    "trackUrl": "https://music.apple.com/us/album/waiting/1533391521?i=1533391526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391526"
+  },
+  {
+    "id": "applemusic-1533391529",
+    "name": "Yummy Summer",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/21/05/99/2105999d-6922-f94f-e773-65ce8cb52198/mzaf_4725718605149500852.plus.aac.p.m4a",
+    "duration": 206377,
+    "trackUrl": "https://music.apple.com/us/album/yummy-summer/1533391521?i=1533391529",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391529"
+  },
+  {
+    "id": "applemusic-1533391746",
+    "name": "Dousurebaii?",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8f/8a/6b/8f8a6b02-fa79-ff85-1492-d10127bf04aa/mzaf_14262593281362036807.plus.aac.p.m4a",
+    "duration": 174319,
+    "trackUrl": "https://music.apple.com/us/album/dousurebaii/1533391521?i=1533391746",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391746"
+  },
+  {
+    "id": "applemusic-1533391747",
+    "name": "Shy boy",
+    "artists": [
+      "IZ*ONE"
+    ],
+    "album": "Twelve (Special Edition)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d0/a8/ed/d0a8ed1f-8d34-687c-f7e3-07a57325a342/mzaf_4906316223639230579.plus.aac.p.m4a",
+    "duration": 263067,
+    "trackUrl": "https://music.apple.com/us/album/shy-boy/1533391521?i=1533391747",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/d7/ce/05d7cea8-2dfa-2bd4-fdc2-c476bb691921/20UMGIM78457.rgb.jpg/300x300bb.jpg",
+    "trackId": "1533391747"
   },
   {
     "id": "applemusic-1450362764",

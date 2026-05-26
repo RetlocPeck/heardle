@@ -13,6 +13,19 @@
     "trackId": "1445152073"
   },
   {
+    "id": "applemusic-1444277369",
+    "name": "I'm Not Sorry (feat. Eric Bellinger)",
+    "artists": [
+      "DEAN"
+    ],
+    "album": "I'm Not Sorry (feat. Eric Bellinger) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ef/b4/45/efb44510-e334-6e72-5bd2-3df28eb403d1/mzaf_7887415578110958683.plus.aac.p.m4a",
+    "duration": 209096,
+    "trackUrl": "https://music.apple.com/us/album/im-not-sorry-feat-eric-bellinger/1444277362?i=1444277369",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/cb/c8/4dcbc891-5a20-f0fe-fae3-3b0f28b2fce2/00602547447500.rgb.jpg/300x300bb.jpg",
+    "trackId": "1444277369"
+  },
+  {
     "id": "applemusic-1422639670",
     "name": "Pour Up (feat. ZICO)",
     "artists": [
@@ -89,19 +102,6 @@
     "trackUrl": "https://music.apple.com/us/album/21/1422639416?i=1422639706",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8e/a2/d0/8ea2d001-0b52-a451-4a7c-de35d3502155/00602547860828.rgb.jpg/300x300bb.jpg",
     "trackId": "1422639706"
-  },
-  {
-    "id": "applemusic-1444277369",
-    "name": "I'm Not Sorry (feat. Eric Bellinger)",
-    "artists": [
-      "DEAN"
-    ],
-    "album": "I'm Not Sorry (feat. Eric Bellinger) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ef/b4/45/efb44510-e334-6e72-5bd2-3df28eb403d1/mzaf_7887415578110958683.plus.aac.p.m4a",
-    "duration": 209096,
-    "trackUrl": "https://music.apple.com/us/album/im-not-sorry-feat-eric-bellinger/1444277362?i=1444277369",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/cb/c8/4dcbc891-5a20-f0fe-fae3-3b0f28b2fce2/00602547447500.rgb.jpg/300x300bb.jpg",
-    "trackId": "1444277369"
   },
   {
     "id": "applemusic-1440945584",
@@ -206,6 +206,19 @@
     "trackUrl": "https://music.apple.com/us/album/come-over-feat-yerin-baek/1445301832?i=1445301835",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c3/de/3f/c3de3f57-cdd2-fac1-08bd-b4d9cd17afd0/00602557460735.rgb.jpg/300x300bb.jpg",
     "trackId": "1445301835"
+  },
+  {
+    "id": "applemusic-6766316768",
+    "name": "Aftertaste (Inspired by the Original Motion Picture K-POPS!)",
+    "artists": [
+      "DEAN & Anderson .Paak"
+    ],
+    "album": "Aftertaste (Inspired by the Original Motion Picture K-POPS!) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/27/57/9e2757e6-1565-333e-1967-74dee6ddb0da/mzaf_6964656247654644627.plus.aac.p.m4a",
+    "duration": 183907,
+    "trackUrl": "https://music.apple.com/us/album/aftertaste-inspired-by-the-original-motion-picture-k-pops/6766316765?i=6766316768",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/f9/e7/53f9e76c-7b16-fa9f-4b98-99f81e9fe5ca/26UMGIM41932.rgb.jpg/300x300bb.jpg",
+    "trackId": "6766316768"
   },
   {
     "id": "applemusic-1782130212",
@@ -331,7 +344,7 @@
       "DEAN"
     ],
     "album": "Nocturne 07 (for aerse) [feat. Miso] - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/03/15/b403154e-ea46-7a3b-104e-cbd649349874/mzaf_12952291945562859392.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7d/a8/dc/7da8dc3f-5189-697e-95bc-28dfc42fa5d8/mzaf_5825343147137418338.plus.aac.p.m4a",
     "duration": 152473,
     "trackUrl": "https://music.apple.com/us/album/nocturne-07-for-aerse-feat-miso/1847790863?i=1847790873",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/90/f3/50/90f3507a-2a83-e7d9-ab78-d0682ad953f4/25UM1IM69601.rgb.jpg/300x300bb.jpg",
@@ -341,7 +354,7 @@
     "id": "applemusic-1626817419",
     "name": "Bad Vibes Lonely (feat. DEAN)",
     "artists": [
-      "Dok2"
+      "DOK2"
     ],
     "album": "Bad Vibes Lonely (feat. DEAN) - Single",
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/c7/e8/95/c7e89560-82ae-50de-1bee-a928c6a07584/mzaf_14948560912011623369.plus.aac.p.m4a",
@@ -349,5 +362,18 @@
     "trackUrl": "https://music.apple.com/us/album/bad-vibes-lonely-feat-dean/1626817235?i=1626817419",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/94/9e/a0/949ea0e8-0d79-fe6a-d8f3-af39d1cde674/8809484113525_Cover.jpg/300x300bb.jpg",
     "trackId": "1626817419"
+  },
+  {
+    "id": "applemusic-1876100969",
+    "name": "STAY on FIRE (feat. DEAN)",
+    "artists": [
+      "Sik-K"
+    ],
+    "album": "STAY on FIRE (feat. DEAN) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/e1/e9/5ae1e948-557b-c6f7-b555-d27f4862bc25/mzaf_6945368032306700708.plus.aac.p.m4a",
+    "duration": 183000,
+    "trackUrl": "https://music.apple.com/us/album/stay-on-fire-feat-dean/1876100968?i=1876100969",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/48/1d/be481df8-15f0-3fbc-ee42-868e938464b8/191953516448.jpg/300x300bb.jpg",
+    "trackId": "1876100969"
   }
 ]

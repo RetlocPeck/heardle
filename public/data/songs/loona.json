@@ -1,96 +1,5 @@
 [
   {
-    "id": "applemusic-1842251631",
-    "name": "12:00",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/21/36/99/2136997a-c9cb-5c43-b95d-30cb35e11e9d/mzaf_5083452147566156210.plus.aac.p.m4a",
-    "duration": 73720,
-    "trackUrl": "https://music.apple.com/us/album/12-00/1842251630?i=1842251631",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251631"
-  },
-  {
-    "id": "applemusic-1842251632",
-    "name": "Why Not?",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/9a/f3/fc9af386-f162-b1bb-6886-84bbc47d91a8/mzaf_12913800508763619904.plus.aac.p.m4a",
-    "duration": 205520,
-    "trackUrl": "https://music.apple.com/us/album/why-not/1842251630?i=1842251632",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251632"
-  },
-  {
-    "id": "applemusic-1842251634",
-    "name": "Voice",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/3d/b5/b53db5ad-72b2-cc15-20fd-20e4b8cf8a41/mzaf_13739549876838246153.plus.aac.p.m4a",
-    "duration": 198187,
-    "trackUrl": "https://music.apple.com/us/album/voice/1842251630?i=1842251634",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251634"
-  },
-  {
-    "id": "applemusic-1842251637",
-    "name": "Fall Again",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d8/ca/55/d8ca5519-c134-d32d-388a-beede0035c2f/mzaf_11792341809215078302.plus.aac.p.m4a",
-    "duration": 215973,
-    "trackUrl": "https://music.apple.com/us/album/fall-again/1842251630?i=1842251637",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251637"
-  },
-  {
-    "id": "applemusic-1842251640",
-    "name": "Universe",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fc/4b/f6/fc4bf6f5-82f5-6786-a8c7-d2059b7f595e/mzaf_4093569719250695237.plus.aac.p.m4a",
-    "duration": 214360,
-    "trackUrl": "https://music.apple.com/us/album/universe/1842251630?i=1842251640",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251640"
-  },
-  {
-    "id": "applemusic-1842251792",
-    "name": "Hide & Seek",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/36/4e/8f/364e8f15-ed26-645b-d69c-f3e5b7921396/mzaf_3281550628749727007.plus.aac.p.m4a",
-    "duration": 182373,
-    "trackUrl": "https://music.apple.com/us/album/hide-seek/1842251630?i=1842251792",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251792"
-  },
-  {
-    "id": "applemusic-1842251793",
-    "name": "OOPS!",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "[12:00]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/04/57/b2045767-2d7f-2634-b173-82394fe0dd31/mzaf_15129586375106104289.plus.aac.p.m4a",
-    "duration": 162053,
-    "trackUrl": "https://music.apple.com/us/album/oops/1842251630?i=1842251793",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
-    "trackId": "1842251793"
-  },
-  {
     "id": "applemusic-1431643740",
     "name": "+ +",
     "artists": [
@@ -154,6 +63,97 @@
     "trackUrl": "https://music.apple.com/us/album/stylish/1431643685?i=1431643745",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/68/1a/ba/681aba4d-4209-fc1a-e545-d4ec9da1cc69/8809550052109.jpg/300x300bb.jpg",
     "trackId": "1431643745"
+  },
+  {
+    "id": "applemusic-1842251631",
+    "name": "12:00",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/91/73/9a91732b-e1c0-16d5-fb83-c9982c80ff05/mzaf_4672348026608845216.plus.aac.p.m4a",
+    "duration": 73720,
+    "trackUrl": "https://music.apple.com/us/album/12-00/1842251630?i=1842251631",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251631"
+  },
+  {
+    "id": "applemusic-1842251632",
+    "name": "Why Not?",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/61/85/53618546-8ece-f0da-a29f-7e8854ebd133/mzaf_262626380502589856.plus.aac.p.m4a",
+    "duration": 205520,
+    "trackUrl": "https://music.apple.com/us/album/why-not/1842251630?i=1842251632",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251632"
+  },
+  {
+    "id": "applemusic-1842251634",
+    "name": "Voice",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/da/9b/30/da9b3022-b615-024e-d75d-574804aeda2f/mzaf_4511042981019042986.plus.aac.p.m4a",
+    "duration": 198187,
+    "trackUrl": "https://music.apple.com/us/album/voice/1842251630?i=1842251634",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251634"
+  },
+  {
+    "id": "applemusic-1842251637",
+    "name": "Fall Again",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/f5/0c/05f50c47-cbfc-2075-8cc0-dbe1fcbe7b7c/mzaf_12250152068617001620.plus.aac.p.m4a",
+    "duration": 215973,
+    "trackUrl": "https://music.apple.com/us/album/fall-again/1842251630?i=1842251637",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251637"
+  },
+  {
+    "id": "applemusic-1842251640",
+    "name": "Universe",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9f/76/ef/9f76efd9-f6d3-1718-3ccf-4e9a2eee9641/mzaf_4116379233677320809.plus.aac.p.m4a",
+    "duration": 214360,
+    "trackUrl": "https://music.apple.com/us/album/universe/1842251630?i=1842251640",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251640"
+  },
+  {
+    "id": "applemusic-1842251792",
+    "name": "Hide & Seek",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/f0/15/1bf01513-1d54-cf12-98a6-dd6816176256/mzaf_9169856008226480657.plus.aac.p.m4a",
+    "duration": 182373,
+    "trackUrl": "https://music.apple.com/us/album/hide-seek/1842251630?i=1842251792",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251792"
+  },
+  {
+    "id": "applemusic-1842251793",
+    "name": "OOPS!",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "[12:00]",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/09/ec/2809ec03-4e63-3c97-2e7d-61c4b5c4cd04/mzaf_14893612428066899665.plus.aac.p.m4a",
+    "duration": 162053,
+    "trackUrl": "https://music.apple.com/us/album/oops/1842251630?i=1842251793",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/05/33/69/05336998-6eb9-cbc9-de99-2f56a7f69dbe/8804775151736.jpg/300x300bb.jpg",
+    "trackId": "1842251793"
   },
   {
     "id": "applemusic-1584167412",
@@ -234,32 +234,6 @@
     "trackId": "1584167417"
   },
   {
-    "id": "applemusic-1604141592",
-    "name": "One & Only",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Go Won - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/84/a1/b7/84a1b71c-d3a2-c74d-035e-b4323c8a87a3/mzaf_9832316186066932142.plus.aac.p.m4a",
-    "duration": 175828,
-    "trackUrl": "https://music.apple.com/us/album/one-only/1604141591?i=1604141592",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ad/b6/55/adb655ea-25ea-671b-a71c-3d15cbde4636/8809550039780.jpg/300x300bb.jpg",
-    "trackId": "1604141592"
-  },
-  {
-    "id": "applemusic-1604141595",
-    "name": "See Saw (feat. Kim Lip)",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Go Won - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2e/5b/ae/2e5bae9f-3762-05c6-35e3-474fe5136e01/mzaf_1758515338847167113.plus.aac.p.m4a",
-    "duration": 201221,
-    "trackUrl": "https://music.apple.com/us/album/see-saw-feat-kim-lip/1604141591?i=1604141595",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ad/b6/55/adb655ea-25ea-671b-a71c-3d15cbde4636/8809550039780.jpg/300x300bb.jpg",
-    "trackId": "1604141595"
-  },
-  {
     "id": "applemusic-1604140711",
     "name": "Egoist",
     "artists": [
@@ -286,13 +260,39 @@
     "trackId": "1604140712"
   },
   {
+    "id": "applemusic-1604141592",
+    "name": "One & Only",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Go Won - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/84/a1/b7/84a1b71c-d3a2-c74d-035e-b4323c8a87a3/mzaf_9832316186066932142.plus.aac.p.m4a",
+    "duration": 175828,
+    "trackUrl": "https://music.apple.com/us/album/one-only/1604141591?i=1604141592",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ad/b6/55/adb655ea-25ea-671b-a71c-3d15cbde4636/8809550039780.jpg/300x300bb.jpg",
+    "trackId": "1604141592"
+  },
+  {
+    "id": "applemusic-1604141595",
+    "name": "See Saw (feat. Kim Lip)",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Go Won - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/2e/5b/ae/2e5bae9f-3762-05c6-35e3-474fe5136e01/mzaf_1758515338847167113.plus.aac.p.m4a",
+    "duration": 201221,
+    "trackUrl": "https://music.apple.com/us/album/see-saw-feat-kim-lip/1604141591?i=1604141595",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ad/b6/55/adb655ea-25ea-671b-a71c-3d15cbde4636/8809550039780.jpg/300x300bb.jpg",
+    "trackId": "1604141595"
+  },
+  {
     "id": "applemusic-1840619555",
     "name": "&",
     "artists": [
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/eb/6f/7feb6fc1-ff77-bb03-2998-79805a747789/mzaf_8259826859701647717.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/2f/6f/132f6f4d-8be5-a2f9-bd6c-69c39da0f668/mzaf_18311231402183186980.plus.aac.p.m4a",
     "duration": 79973,
     "trackUrl": "https://music.apple.com/us/album/1840619544?i=1840619555",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -305,7 +305,7 @@
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/02/a8/f102a82c-062f-c7c9-52a6-cd020b72f9be/mzaf_9826547220416851694.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/f4/04/9ff40490-79e1-651d-73ac-f3765bc1110e/mzaf_6869434475930875039.plus.aac.p.m4a",
     "duration": 201120,
     "trackUrl": "https://music.apple.com/us/album/ptt-paint-the-town/1840619544?i=1840619857",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -318,7 +318,7 @@
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/a2/28/74a228e7-7bba-4f12-d1f6-69bc7e2d4c9f/mzaf_2262141013256274513.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/1b/51/b91b51bb-ba92-7127-6976-f6db61aca349/mzaf_8552364972190191680.plus.aac.p.m4a",
     "duration": 178573,
     "trackUrl": "https://music.apple.com/us/album/wow/1840619544?i=1840619859",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -331,7 +331,7 @@
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/c6/3f/64c63f54-10f7-36c6-f117-1dd325571b40/mzaf_3300085134070110982.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/62/a0/7b62a03f-c0c6-39c6-135e-7faed7d33deb/mzaf_4515255578185584230.plus.aac.p.m4a",
     "duration": 196627,
     "trackUrl": "https://music.apple.com/us/album/be-honest/1840619544?i=1840619860",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -344,7 +344,7 @@
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/8c/e0/c48ce0be-6a3e-3322-8c8e-78fb81089609/mzaf_17911292052763838275.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/9f/d2/b99fd20e-2d5f-7a5d-2f4b-88ee1b1c5c38/mzaf_17258115018565505984.plus.aac.p.m4a",
     "duration": 157760,
     "trackUrl": "https://music.apple.com/us/album/dance-on-my-own/1840619544?i=1840619863",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -357,7 +357,7 @@
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/e9/33/fbe93397-98db-6107-7551-2846469dd2b8/mzaf_316109687806847388.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ec/f5/97/ecf597bf-37b6-ab97-aa2d-612660469ed4/mzaf_7308539627792591038.plus.aac.p.m4a",
     "duration": 218333,
     "trackUrl": "https://music.apple.com/us/album/a-different-night/1840619544?i=1840619864",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -370,7 +370,7 @@
       "LOONA"
     ],
     "album": "[&]",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c1/9a/ab/c19aab75-cb55-681c-511d-d9255bc58323/mzaf_16722304922691337524.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/38/9d/ac389d6d-c254-edde-a26b-94dbafbd7391/mzaf_17820131239637789301.plus.aac.p.m4a",
     "duration": 184533,
     "trackUrl": "https://music.apple.com/us/album/u-r/1840619544?i=1840619865",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/db/09/3e/db093eaa-2159-f77e-50cb-ed8528c660a5/8804775165719.jpg/300x300bb.jpg",
@@ -598,32 +598,6 @@
     "trackId": "1606677555"
   },
   {
-    "id": "applemusic-1583783945",
-    "name": "Hula Hoop",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Hula Hoop / Starseed - Kakusei - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/d9/40/abd940bb-eb04-703f-ab4d-e43bbae78644/mzaf_16367009828837310726.plus.aac.p.m4a",
-    "duration": 199987,
-    "trackUrl": "https://music.apple.com/us/album/hula-hoop/1583783944?i=1583783945",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/a6/8d/6aa68d17-b55a-61a6-b607-7ab41ab1e53e/21UMGIM78654.rgb.jpg/300x300bb.jpg",
-    "trackId": "1583783945"
-  },
-  {
-    "id": "applemusic-1583784486",
-    "name": "Starseed - Kakusei",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "Hula Hoop / Starseed - Kakusei - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/dc/c0/abdcc0fa-891d-465c-849e-5b3b43671b3a/mzaf_3258632002889990337.plus.aac.p.m4a",
-    "duration": 181827,
-    "trackUrl": "https://music.apple.com/us/album/starseed-kakusei/1583783944?i=1583784486",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/a6/8d/6aa68d17-b55a-61a6-b607-7ab41ab1e53e/21UMGIM78654.rgb.jpg/300x300bb.jpg",
-    "trackId": "1583784486"
-  },
-  {
     "id": "applemusic-1584158798",
     "name": "X X",
     "artists": [
@@ -702,6 +676,71 @@
     "trackId": "1584158804"
   },
   {
+    "id": "applemusic-1583783945",
+    "name": "Hula Hoop",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Hula Hoop / Starseed - Kakusei - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/d9/40/abd940bb-eb04-703f-ab4d-e43bbae78644/mzaf_16367009828837310726.plus.aac.p.m4a",
+    "duration": 199987,
+    "trackUrl": "https://music.apple.com/us/album/hula-hoop/1583783944?i=1583783945",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/a6/8d/6aa68d17-b55a-61a6-b607-7ab41ab1e53e/21UMGIM78654.rgb.jpg/300x300bb.jpg",
+    "trackId": "1583783945"
+  },
+  {
+    "id": "applemusic-1583784486",
+    "name": "Starseed - Kakusei",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "Hula Hoop / Starseed - Kakusei - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ab/dc/c0/abdcc0fa-891d-465c-849e-5b3b43671b3a/mzaf_3258632002889990337.plus.aac.p.m4a",
+    "duration": 181827,
+    "trackUrl": "https://music.apple.com/us/album/starseed-kakusei/1583783944?i=1583784486",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6a/a6/8d/6aa68d17-b55a-61a6-b607-7ab41ab1e53e/21UMGIM78654.rgb.jpg/300x300bb.jpg",
+    "trackId": "1583784486"
+  },
+  {
+    "id": "applemusic-1606678382",
+    "name": "The Carol",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "HaSeul - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/04/2a/3d042aa9-13a6-3b93-b543-060e85c154e6/mzaf_15563732242231417796.plus.aac.p.m4a",
+    "duration": 206433,
+    "trackUrl": "https://music.apple.com/us/album/the-carol/1606678381?i=1606678382",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/37/5c/05/375c05b7-2899-e81d-b6fc-292c22dc89ca/8804775132957.jpg/300x300bb.jpg",
+    "trackId": "1606678382"
+  },
+  {
+    "id": "applemusic-1606676933",
+    "name": "ViViD",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "HeeJin - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/b2/a6/1bb2a63b-419e-cdb0-c8ed-dc4e903699e3/mzaf_17950427224008506507.plus.aac.p.m4a",
+    "duration": 201537,
+    "trackUrl": "https://music.apple.com/us/album/vivid/1606676932?i=1606676933",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ad/1f/2d/ad1f2d5f-65b8-e292-ec35-a9cc165952a0/8804775132933.jpg/300x300bb.jpg",
+    "trackId": "1606676933"
+  },
+  {
+    "id": "applemusic-1324870895",
+    "name": "The Carol 2.0 (ViVi, Choerry, Yves)",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "The Carol 2.0 (ViVi, Choerry, Yves)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/ad/41/a2ad41b9-8a3c-cfff-5c42-fb789c551d7d/mzaf_9296759489210255880.plus.aac.p.m4a",
+    "duration": 206439,
+    "trackUrl": "https://music.apple.com/us/album/the-carol-2-0-vivi-choerry-yves/1324870367?i=1324870895",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/99/35/2599351b-d45f-1e93-f075-190732432f75/8809550038424.jpg/300x300bb.jpg",
+    "trackId": "1324870895"
+  },
+  {
     "id": "applemusic-1618921414",
     "name": "NAVILLERA",
     "artists": [
@@ -726,45 +765,6 @@
     "trackUrl": "https://music.apple.com/us/album/shake-it/1618921410?i=1618921415",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/72/ba/c4/72bac42a-9e63-ddc5-4438-3d8a2d92bb44/888272097733_Cover.jpg/300x300bb.jpg",
     "trackId": "1618921415"
-  },
-  {
-    "id": "applemusic-1606678382",
-    "name": "The Carol",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "HaSeul - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3d/04/2a/3d042aa9-13a6-3b93-b543-060e85c154e6/mzaf_15563732242231417796.plus.aac.p.m4a",
-    "duration": 206433,
-    "trackUrl": "https://music.apple.com/us/album/the-carol/1606678381?i=1606678382",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/37/5c/05/375c05b7-2899-e81d-b6fc-292c22dc89ca/8804775132957.jpg/300x300bb.jpg",
-    "trackId": "1606678382"
-  },
-  {
-    "id": "applemusic-1606676933",
-    "name": "ViViD",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "HeeJin - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/f7/9f/a3f79f98-3ee1-d4d0-6843-6b87e2d35683/mzaf_3473476051364941702.plus.aac.p.m4a",
-    "duration": 201537,
-    "trackUrl": "https://music.apple.com/us/album/vivid/1606676932?i=1606676933",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ad/1f/2d/ad1f2d5f-65b8-e292-ec35-a9cc165952a0/8804775132933.jpg/300x300bb.jpg",
-    "trackId": "1606676933"
-  },
-  {
-    "id": "applemusic-1324870895",
-    "name": "The Carol 2.0 (ViVi, Choerry, Yves)",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "The Carol 2.0 (ViVi, Choerry, Yves)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a2/ad/41/a2ad41b9-8a3c-cfff-5c42-fb789c551d7d/mzaf_9296759489210255880.plus.aac.p.m4a",
-    "duration": 206439,
-    "trackUrl": "https://music.apple.com/us/album/the-carol-2-0-vivi-choerry-yves/1324870367?i=1324870895",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/99/35/2599351b-d45f-1e93-f075-190732432f75/8809550038424.jpg/300x300bb.jpg",
-    "trackId": "1324870895"
   },
   {
     "id": "applemusic-1622360038",

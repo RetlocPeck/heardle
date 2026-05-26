@@ -273,71 +273,6 @@
     "trackId": "1773694664"
   },
   {
-    "id": "applemusic-1699294567",
-    "name": "Better Things",
-    "artists": [
-      "aespa"
-    ],
-    "album": "Better Things - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/24/6f/d5246f5d-b4a0-7d75-a5bf-9b3057820420/mzaf_4144289947886237554.plus.aac.p.m4a",
-    "duration": 203216,
-    "trackUrl": "https://music.apple.com/us/album/better-things/1699294565?i=1699294567",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/89/9e/3e/899e3e37-a86d-1a08-d1d1-dddfe8fd94c4/888735944338.jpg/300x300bb.jpg",
-    "trackId": "1699294567"
-  },
-  {
-    "id": "applemusic-1772223475",
-    "name": "UP (KARINA Solo)",
-    "artists": [
-      "aespa"
-    ],
-    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/ff/3c/4aff3c25-2265-c0f1-7c44-c33b5cdc07e9/mzaf_5994566525694125328.plus.aac.p.m4a",
-    "duration": 166640,
-    "trackUrl": "https://music.apple.com/us/album/up-karina-solo/1772223474?i=1772223475",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
-    "trackId": "1772223475"
-  },
-  {
-    "id": "applemusic-1772223477",
-    "name": "Dopamine (GISELLE Solo)",
-    "artists": [
-      "aespa"
-    ],
-    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/a1/2a/a0a12a67-6464-f8a1-0de0-d6e9cd056fd2/mzaf_13913389792377171253.plus.aac.p.m4a",
-    "duration": 194093,
-    "trackUrl": "https://music.apple.com/us/album/dopamine-giselle-solo/1772223474?i=1772223477",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
-    "trackId": "1772223477"
-  },
-  {
-    "id": "applemusic-1772223479",
-    "name": "Bored! (NINGNING Solo)",
-    "artists": [
-      "aespa"
-    ],
-    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/96/37/a59637c6-9ec8-c61d-de30-ae0dbd54e3de/mzaf_16267176679660527004.plus.aac.p.m4a",
-    "duration": 171160,
-    "trackUrl": "https://music.apple.com/us/album/bored-ningning-solo/1772223474?i=1772223479",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
-    "trackId": "1772223479"
-  },
-  {
-    "id": "applemusic-1772223480",
-    "name": "Spark (WINTER Solo)",
-    "artists": [
-      "aespa"
-    ],
-    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/33/90/723390d8-adb2-e89d-17df-1de80d32eb0c/mzaf_2190898718518965271.plus.aac.p.m4a",
-    "duration": 201200,
-    "trackUrl": "https://music.apple.com/us/album/spark-winter-solo/1772223474?i=1772223480",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
-    "trackId": "1772223480"
-  },
-  {
     "id": "applemusic-1772214981",
     "name": "Whiplash",
     "artists": [
@@ -416,6 +351,32 @@
     "trackId": "1772214993"
   },
   {
+    "id": "applemusic-1699294567",
+    "name": "Better Things",
+    "artists": [
+      "aespa"
+    ],
+    "album": "Better Things - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d5/24/6f/d5246f5d-b4a0-7d75-a5bf-9b3057820420/mzaf_4144289947886237554.plus.aac.p.m4a",
+    "duration": 203216,
+    "trackUrl": "https://music.apple.com/us/album/better-things/1699294565?i=1699294567",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/89/9e/3e/899e3e37-a86d-1a08-d1d1-dddfe8fd94c4/888735944338.jpg/300x300bb.jpg",
+    "trackId": "1699294567"
+  },
+  {
+    "id": "applemusic-6762765807",
+    "name": "WDA (Whole Different Animal) [feat. G-DRAGON]",
+    "artists": [
+      "aespa"
+    ],
+    "album": "WDA (Whole Different Animal) [feat. G-DRAGON] - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e6/c5/15/e6c5157f-5ab9-a46d-924c-a6599e08995c/mzaf_17162058635571533389.plus.aac.p.m4a",
+    "duration": 174000,
+    "trackUrl": "https://music.apple.com/us/album/wda-whole-different-animal-feat-g-dragon/1895001305?i=6762765807",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/b8/2f/e2b82f49-e51b-725f-2797-ea2a3de44b55/888735955426_Cover.jpg/300x300bb.jpg",
+    "trackId": "6762765807"
+  },
+  {
     "id": "applemusic-1715939931",
     "name": "Drama",
     "artists": [
@@ -492,6 +453,58 @@
     "trackUrl": "https://music.apple.com/us/album/you/1715939930?i=1715940143",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f7/f0/5c/f7f05ce4-e5a4-900d-e087-1dd9668b2b34/888735945939.jpg/300x300bb.jpg",
     "trackId": "1715940143"
+  },
+  {
+    "id": "applemusic-1772223475",
+    "name": "UP (KARINA Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4a/ff/3c/4aff3c25-2265-c0f1-7c44-c33b5cdc07e9/mzaf_5994566525694125328.plus.aac.p.m4a",
+    "duration": 166640,
+    "trackUrl": "https://music.apple.com/us/album/up-karina-solo/1772223474?i=1772223475",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223475"
+  },
+  {
+    "id": "applemusic-1772223477",
+    "name": "Dopamine (GISELLE Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/a1/2a/a0a12a67-6464-f8a1-0de0-d6e9cd056fd2/mzaf_13913389792377171253.plus.aac.p.m4a",
+    "duration": 194093,
+    "trackUrl": "https://music.apple.com/us/album/dopamine-giselle-solo/1772223474?i=1772223477",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223477"
+  },
+  {
+    "id": "applemusic-1772223479",
+    "name": "Bored! (NINGNING Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/96/37/a59637c6-9ec8-c61d-de30-ae0dbd54e3de/mzaf_16267176679660527004.plus.aac.p.m4a",
+    "duration": 171160,
+    "trackUrl": "https://music.apple.com/us/album/bored-ningning-solo/1772223474?i=1772223479",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223479"
+  },
+  {
+    "id": "applemusic-1772223480",
+    "name": "Spark (WINTER Solo)",
+    "artists": [
+      "aespa"
+    ],
+    "album": "SYNK : PARALLEL LINE - Special Digital Single - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/33/90/723390d8-adb2-e89d-17df-1de80d32eb0c/mzaf_2190898718518965271.plus.aac.p.m4a",
+    "duration": 201200,
+    "trackUrl": "https://music.apple.com/us/album/spark-winter-solo/1772223474?i=1772223480",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fd/85/0e/fd850e67-f6e2-c4e9-6ea5-501ca5afccbd/aespa_DS_Synk-PARALLEL_LINE_DC.jpg/300x300bb.jpg",
+    "trackId": "1772223480"
   },
   {
     "id": "applemusic-1626752985",
@@ -604,7 +617,7 @@
       "aespa"
     ],
     "album": "Rich Man - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/e7/bb/8ce7bbaf-92bd-e967-c55e-876fb253d22b/mzaf_10613068871673251371.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/0f/ec/1c0fec3d-39b0-5d7d-c686-6a91d2a78282/mzaf_1117598292968268886.plus.aac.p.m4a",
     "duration": 197578,
     "trackUrl": "https://music.apple.com/us/album/rich-man/1833163982?i=1833163983",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
@@ -617,7 +630,7 @@
       "aespa"
     ],
     "album": "Rich Man - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/67/33/c86733a6-dd2b-947d-86b5-5a363d66f257/mzaf_3516472113504727656.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/91/7a/05917a0d-55ed-ed21-fb3a-75117f32eb44/mzaf_15485633537111102748.plus.aac.p.m4a",
     "duration": 177874,
     "trackUrl": "https://music.apple.com/us/album/drift/1833163982?i=1833163989",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
@@ -630,7 +643,7 @@
       "aespa"
     ],
     "album": "Rich Man - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/82/db/b382db3c-5263-07cc-a49b-1276074142d2/mzaf_11058712688289394690.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/5c/0e/cf5c0eeb-3c2e-31a0-bc64-712214a08001/mzaf_9648022100789212277.plus.aac.p.m4a",
     "duration": 150260,
     "trackUrl": "https://music.apple.com/us/album/bubble/1833163982?i=1833163990",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
@@ -643,7 +656,7 @@
       "aespa"
     ],
     "album": "Rich Man - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/6a/ad/5a6aad32-7f42-ffd4-7c71-4486beec05a4/mzaf_16735599043241764273.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/58/f7/cf58f714-2e6c-fcf4-e639-2c385fc6a256/mzaf_9215553454662878475.plus.aac.p.m4a",
     "duration": 213333,
     "trackUrl": "https://music.apple.com/us/album/count-on-me/1833163982?i=1833163993",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
@@ -656,7 +669,7 @@
       "aespa"
     ],
     "album": "Rich Man - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/67/36/da6736f9-0def-c9fd-5e9c-8a680777cb8a/mzaf_14059950751440831763.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/3f/31/d93f3171-75e0-f9fe-081c-24c62c5a0045/mzaf_10955940662558382727.plus.aac.p.m4a",
     "duration": 195408,
     "trackUrl": "https://music.apple.com/us/album/angel-48/1833163982?i=1833164154",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
@@ -669,7 +682,7 @@
       "aespa"
     ],
     "album": "Rich Man - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/31/29/c33129e1-41b5-eac5-a3a4-53fb87f3f0b5/mzaf_11386815274945679848.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/6a/2c/3a6a2c60-5e77-b087-6679-7e540061cd40/mzaf_5774173673804290264.plus.aac.p.m4a",
     "duration": 214535,
     "trackUrl": "https://music.apple.com/us/album/to-the-girls/1833163982?i=1833164157",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c5/ff/d7/c5ffd7a9-ed3c-6d02-81d7-7cc7e2dee419/888735953019_Cover.jpg/300x300bb.jpg",
@@ -682,11 +695,24 @@
       "aespa"
     ],
     "album": "Dirty Work (Apple Music Edition) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/99/5b/34995b17-ef75-35c6-fd7a-f268a05b3af1/mzaf_14449820366923483879.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/ac/16/70ac16f5-8a21-b9d0-c4b0-eaec6762399e/mzaf_14085790159359559605.plus.aac.p.m4a",
     "duration": 180250,
     "trackUrl": "https://music.apple.com/us/album/dirty-work/1818922030?i=1818922031",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/09/0d/b3/090db3d2-50a0-b1ed-014a-4ac6ccdaa519/888735952029_Cover.jpg/300x300bb.jpg",
     "trackId": "1818922031"
+  },
+  {
+    "id": "applemusic-1879665813",
+    "name": "ATTITUDE",
+    "artists": [
+      "aespa"
+    ],
+    "album": "ATTITUDE - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/9a/67/249a67cd-bd37-cdcf-eba1-640a9b3a78c4/mzaf_158199980837607117.plus.aac.p.m4a",
+    "duration": 185000,
+    "trackUrl": "https://music.apple.com/us/album/attitude/1879665810?i=1879665813",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ef/da/b8/efdab8ef-e06f-c677-40e8-735cf4722d30/5026854727356.jpg/300x300bb.jpg",
+    "trackId": "1879665813"
   },
   {
     "id": "applemusic-1850395173",
@@ -695,7 +721,7 @@
       "aespa"
     ],
     "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/27/b0/1727b0ef-7563-69ee-0147-53bbedb1e97f/mzaf_8387039968216663834.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/63/b0/2563b007-4337-f21a-d968-7c2379050841/mzaf_5023543445904849284.plus.aac.p.m4a",
     "duration": 211401,
     "trackUrl": "https://music.apple.com/us/album/blue-winter-solo/1850395172?i=1850395173",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
@@ -708,7 +734,7 @@
       "aespa"
     ],
     "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/19/5c/62195ca5-cf43-864a-a278-5666ced20a88/mzaf_13336644535137147091.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/15/23/f11523b6-f48f-12a4-2d32-0052fad58413/mzaf_8093576987253562167.plus.aac.p.m4a",
     "duration": 248260,
     "trackUrl": "https://music.apple.com/us/album/ketchup-and-lemonade-ningning-solo/1850395172?i=1850395174",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
@@ -721,7 +747,7 @@
       "aespa"
     ],
     "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/f2/a2/faf2a29d-72c0-d760-28a2-cfdfe73ff763/mzaf_4735513348420698854.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/1f/4e/3b1f4e20-4ef5-938a-4b14-e6ffad30f670/mzaf_13014453333147438577.plus.aac.p.m4a",
     "duration": 204603,
     "trackUrl": "https://music.apple.com/us/album/tornado-giselle-solo/1850395172?i=1850395176",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
@@ -734,7 +760,7 @@
       "aespa"
     ],
     "album": "SYNK : aeXIS LINE - 2025 Special Digital Single - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/9a/88/ef9a883f-9987-0bfa-c223-1f426a69a6f5/mzaf_9082093550352331452.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/a3/3f/52a33f8c-0745-724e-fa7b-db84922adb94/mzaf_11054830482859393909.plus.aac.p.m4a",
     "duration": 175018,
     "trackUrl": "https://music.apple.com/us/album/good-stuff-karina-solo/1850395172?i=1850395177",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/1b/3c/9c1b3c3b-5d3d-e7e9-f42f-65ecd1c8fcf5/888735953873.png/300x300bb.jpg",
@@ -832,6 +858,19 @@
     "trackId": "1809914558"
   },
   {
+    "id": "applemusic-1878278841",
+    "name": "Keychain (Inspired by the Original Motion Picture K-POPS!)",
+    "artists": [
+      "aespa & Anderson .Paak"
+    ],
+    "album": "Keychain (Inspired by the Original Motion Picture K-POPS!) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/c2/b7/fcc2b7e7-27e2-3fe3-3b2a-37fe03e75434/mzaf_14002322187432002385.plus.aac.p.m4a",
+    "duration": 170787,
+    "trackUrl": "https://music.apple.com/us/album/keychain-inspired-by-the-original-motion-picture-k-pops/1878278834?i=1878278841",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e8/f1/29/e8f1297b-abfc-cd26-f992-91ffc548cc62/26UMGIM17428.rgb.jpg/300x300bb.jpg",
+    "trackId": "1878278841"
+  },
+  {
     "id": "applemusic-1823808607",
     "name": "Dark Arts",
     "artists": [
@@ -869,5 +908,18 @@
     "trackUrl": "https://music.apple.com/us/album/by-your-side/1703219660?i=1703219662",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d6/aa/1b/d6aa1b90-17e5-0ba0-7a86-3a2058f060a2/888272121766.jpg/300x300bb.jpg",
     "trackId": "1703219662"
+  },
+  {
+    "id": "applemusic-1893742426",
+    "name": "MY LEMONADE",
+    "artists": [
+      "aespa"
+    ],
+    "album": "LEMONADE - The 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/70/c1/6b/70c16bcb-a3df-cf7d-9c99-21f8b46b0b5b/mzaf_603637177481656852.plus.aac.p.m4a",
+    "duration": 46500,
+    "trackUrl": "https://music.apple.com/us/album/my-lemonade/1893742002?i=1893742426",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/95/98/a0/9598a090-7948-5bf1-a6ac-7fde80d26874/888735955211_Cover.jpg/300x300bb.jpg",
+    "trackId": "1893742426"
   }
 ]

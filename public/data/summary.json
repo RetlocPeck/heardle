@@ -1,9 +1,9 @@
 {
-  "total": 119,
-  "success": 119,
+  "total": 122,
+  "success": 122,
   "failed": 0,
-  "totalSongs": 9381,
-  "timestamp": "2026-02-05T00:37:11.820Z",
+  "totalSongs": 9925,
+  "timestamp": "2026-05-26T03:01:59.071Z",
   "artists": {
     "twice": {
       "displayName": "TWICE",
@@ -14,31 +14,31 @@
     "bts": {
       "displayName": "BTS",
       "appleMusicId": "883131348",
-      "songCount": 156,
+      "songCount": 166,
       "hasArtwork": true
     },
     "blackpink": {
       "displayName": "BLACKPINK",
       "appleMusicId": "1141774019",
-      "songCount": 36,
+      "songCount": 49,
       "hasArtwork": true
     },
     "le-sserafim": {
       "displayName": "LE SSERAFIM",
       "appleMusicId": "1616740364",
-      "songCount": 43,
+      "songCount": 54,
       "hasArtwork": true
     },
     "itzy": {
       "displayName": "ITZY",
       "appleMusicId": "1451964345",
-      "songCount": 100,
+      "songCount": 108,
       "hasArtwork": true
     },
     "aespa": {
       "displayName": "aespa",
       "appleMusicId": "1540251304",
-      "songCount": 67,
+      "songCount": 71,
       "hasArtwork": true
     },
     "newjeans": {
@@ -50,19 +50,19 @@
     "ive": {
       "displayName": "IVE",
       "appleMusicId": "1594159996",
-      "songCount": 51,
+      "songCount": 65,
       "hasArtwork": true
     },
     "i-dle": {
       "displayName": "i-dle",
       "appleMusicId": "1378887586",
-      "songCount": 86,
+      "songCount": 88,
       "hasArtwork": true
     },
     "red-velvet": {
       "displayName": "Red Velvet",
       "appleMusicId": "906961899",
-      "songCount": 126,
+      "songCount": 127,
       "hasArtwork": true
     },
     "dreamcatcher": {
@@ -74,25 +74,25 @@
     "everglow": {
       "displayName": "EVERGLOW",
       "appleMusicId": "1456576473",
-      "songCount": 31,
+      "songCount": 35,
       "hasArtwork": true
     },
     "stayc": {
       "displayName": "STAYC",
       "appleMusicId": "1538881438",
-      "songCount": 46,
+      "songCount": 49,
       "hasArtwork": true
     },
     "kiss-of-life": {
       "displayName": "KISS OF LIFE",
       "appleMusicId": "1694672936",
-      "songCount": 35,
+      "songCount": 37,
       "hasArtwork": true
     },
     "katseye": {
       "displayName": "KATSEYE",
       "appleMusicId": "1754284416",
-      "songCount": 14,
+      "songCount": 15,
       "hasArtwork": true
     },
     "triples": {
@@ -104,13 +104,13 @@
     "babymonster": {
       "displayName": "BABYMONSTER",
       "appleMusicId": "1715981813",
-      "songCount": 20,
+      "songCount": 24,
       "hasArtwork": true
     },
     "girls-generation": {
       "displayName": "Girls",
       "appleMusicId": "1014291",
-      "songCount": 36,
+      "songCount": 38,
       "hasArtwork": true
     },
     "mamamoo": {
@@ -128,13 +128,19 @@
     "xg": {
       "displayName": "XG",
       "appleMusicId": "1609409493",
-      "songCount": 40,
+      "songCount": 41,
       "hasArtwork": true
     },
     "ioi": {
       "displayName": "I.O.I",
       "appleMusicId": "1110816583",
-      "songCount": 14,
+      "songCount": 20,
+      "hasArtwork": true
+    },
+    "izone": {
+      "displayName": "IZ*ONE",
+      "appleMusicId": "1440449616",
+      "songCount": 56,
       "hasArtwork": true
     },
     "aoa": {
@@ -146,19 +152,19 @@
     "chung-ha": {
       "displayName": "CHUNG HA",
       "appleMusicId": "1148527055",
-      "songCount": 86,
+      "songCount": 87,
       "hasArtwork": true
     },
     "fromis-9": {
       "displayName": "fromis_9",
       "appleMusicId": "1319150216",
-      "songCount": 62,
+      "songCount": 80,
       "hasArtwork": true
     },
     "wjsn": {
       "displayName": "WJSN",
       "appleMusicId": "1087651007",
-      "songCount": 77,
+      "songCount": 79,
       "hasArtwork": true
     },
     "loona": {
@@ -176,19 +182,19 @@
     "nmixx": {
       "displayName": "NMIXX",
       "appleMusicId": "1600411676",
-      "songCount": 48,
+      "songCount": 57,
       "hasArtwork": true
     },
     "kep1er": {
       "displayName": "Kep1er",
       "appleMusicId": "1594156263",
-      "songCount": 59,
+      "songCount": 65,
       "hasArtwork": true
     },
     "illit": {
       "displayName": "ILLIT",
       "appleMusicId": "1734551937",
-      "songCount": 23,
+      "songCount": 29,
       "hasArtwork": true
     },
     "tri-be": {
@@ -200,13 +206,13 @@
     "h1-key": {
       "displayName": "H1-KEY",
       "appleMusicId": "1600832111",
-      "songCount": 24,
+      "songCount": 28,
       "hasArtwork": true
     },
     "billlie": {
       "displayName": "Billlie",
       "appleMusicId": "1594150790",
-      "songCount": 44,
+      "songCount": 57,
       "hasArtwork": true
     },
     "viviz": {
@@ -218,7 +224,7 @@
     "kara": {
       "displayName": "KARA",
       "appleMusicId": "385160775",
-      "songCount": 125,
+      "songCount": 126,
       "hasArtwork": true
     },
     "clc": {
@@ -230,25 +236,25 @@
     "momoland": {
       "displayName": "MOMOLAND",
       "appleMusicId": "1174745559",
-      "songCount": 36,
+      "songCount": 37,
       "hasArtwork": true
     },
     "exid": {
       "displayName": "EXID",
       "appleMusicId": "503473013",
-      "songCount": 56,
+      "songCount": 62,
       "hasArtwork": true
     },
     "oh-my-girl": {
       "displayName": "OH MY GIRL",
       "appleMusicId": "987326929",
-      "songCount": 106,
+      "songCount": 116,
       "hasArtwork": true
     },
     "apink": {
       "displayName": "Apink",
       "appleMusicId": "482854746",
-      "songCount": 111,
+      "songCount": 112,
       "hasArtwork": true
     },
     "sistar": {
@@ -260,7 +266,7 @@
     "2ne1": {
       "displayName": "2NE1",
       "appleMusicId": "329155759",
-      "songCount": 37,
+      "songCount": 60,
       "hasArtwork": true
     },
     "wonder-girls": {
@@ -272,7 +278,7 @@
     "miss-a": {
       "displayName": "miss A",
       "appleMusicId": "312076995",
-      "songCount": 40,
+      "songCount": 38,
       "hasArtwork": true
     },
     "fx": {
@@ -284,13 +290,13 @@
     "t-ara": {
       "displayName": "T-ara",
       "appleMusicId": "471900661",
-      "songCount": 76,
+      "songCount": 74,
       "hasArtwork": true
     },
     "secret": {
       "displayName": "Secret",
       "appleMusicId": "829418014",
-      "songCount": 42,
+      "songCount": 43,
       "hasArtwork": true
     },
     "4minute": {
@@ -302,13 +308,13 @@
     "stray-kids": {
       "displayName": "Stray Kids",
       "appleMusicId": "1304823362",
-      "songCount": 219,
+      "songCount": 221,
       "hasArtwork": true
     },
     "seventeen": {
       "displayName": "SEVENTEEN",
       "appleMusicId": "999644772",
-      "songCount": 170,
+      "songCount": 172,
       "hasArtwork": true
     },
     "enhypen": {
@@ -320,13 +326,13 @@
     "tomorrow-x-together": {
       "displayName": "TXT",
       "appleMusicId": "1454642552",
-      "songCount": 96,
+      "songCount": 101,
       "hasArtwork": true
     },
     "ateez": {
       "displayName": "ATEEZ",
       "appleMusicId": "1439301205",
-      "songCount": 140,
+      "songCount": 144,
       "hasArtwork": true
     },
     "nct-127": {
@@ -350,19 +356,19 @@
     "exo": {
       "displayName": "EXO",
       "appleMusicId": "657630070",
-      "songCount": 135,
+      "songCount": 137,
       "hasArtwork": true
     },
     "bigbang": {
       "displayName": "BIGBANG",
       "appleMusicId": "318754656",
-      "songCount": 104,
+      "songCount": 129,
       "hasArtwork": true
     },
     "super-junior": {
       "displayName": "Super Junior",
       "appleMusicId": "284066214",
-      "songCount": 229,
+      "songCount": 230,
       "hasArtwork": true
     },
     "shinee": {
@@ -380,13 +386,13 @@
     "monsta-x": {
       "displayName": "MONSTA X",
       "appleMusicId": "992315362",
-      "songCount": 175,
+      "songCount": 184,
       "hasArtwork": true
     },
     "nct": {
       "displayName": "NCT",
       "appleMusicId": "1533299115",
-      "songCount": 189,
+      "songCount": 190,
       "hasArtwork": true
     },
     "wayv": {
@@ -398,13 +404,13 @@
     "riize": {
       "displayName": "RIIZE",
       "appleMusicId": "1702435257",
-      "songCount": 30,
+      "songCount": 34,
       "hasArtwork": true
     },
     "treasure": {
       "displayName": "TREASURE",
       "appleMusicId": "1526319335",
-      "songCount": 43,
+      "songCount": 54,
       "hasArtwork": true
     },
     "the-boyz": {
@@ -416,13 +422,13 @@
     "ikon": {
       "displayName": "iKON",
       "appleMusicId": "1044506362",
-      "songCount": 76,
+      "songCount": 98,
       "hasArtwork": true
     },
     "winner": {
       "displayName": "WINNER",
       "appleMusicId": "908222845",
-      "songCount": 62,
+      "songCount": 115,
       "hasArtwork": true
     },
     "day6": {
@@ -440,7 +446,7 @@
     "sf9": {
       "displayName": "SF9",
       "appleMusicId": "1161961912",
-      "songCount": 110,
+      "songCount": 117,
       "hasArtwork": true
     },
     "oneus": {
@@ -458,31 +464,31 @@
     "verivery": {
       "displayName": "VERIVERY",
       "appleMusicId": "1436821750",
-      "songCount": 55,
+      "songCount": 56,
       "hasArtwork": true
     },
     "cravity": {
       "displayName": "CRAVITY",
       "appleMusicId": "1507226584",
-      "songCount": 90,
+      "songCount": 99,
       "hasArtwork": true
     },
     "p1harmony": {
       "displayName": "P1Harmony",
       "appleMusicId": "1536862708",
-      "songCount": 61,
+      "songCount": 68,
       "hasArtwork": true
     },
     "kard": {
       "displayName": "KARD",
       "appleMusicId": "1215832588",
-      "songCount": 47,
+      "songCount": 48,
       "hasArtwork": true
     },
     "astro": {
       "displayName": "ASTRO",
       "appleMusicId": "1086927524",
-      "songCount": 93,
+      "songCount": 92,
       "hasArtwork": true
     },
     "victon": {
@@ -494,13 +500,13 @@
     "ab6ix": {
       "displayName": "AB6IX",
       "appleMusicId": "1463405847",
-      "songCount": 107,
+      "songCount": 118,
       "hasArtwork": true
     },
     "cix": {
       "displayName": "CIX",
       "appleMusicId": "1473471758",
-      "songCount": 59,
+      "songCount": 60,
       "hasArtwork": true
     },
     "to1": {
@@ -511,8 +517,8 @@
     },
     "tempest": {
       "displayName": "TEMPEST",
-      "appleMusicId": "1611097082",
-      "songCount": 44,
+      "appleMusicId": "1436630884",
+      "songCount": 21,
       "hasArtwork": true
     },
     "omega-x": {
@@ -524,25 +530,25 @@
     "xikers": {
       "displayName": "xikers",
       "appleMusicId": "1678885244",
-      "songCount": 39,
+      "songCount": 44,
       "hasArtwork": true
     },
     "zerobaseone": {
       "displayName": "ZEROBASEONE",
       "appleMusicId": "1693315406",
-      "songCount": 49,
+      "songCount": 54,
       "hasArtwork": true
     },
     "boynextdoor": {
       "displayName": "BOYNEXTDOOR",
       "appleMusicId": "1687612559",
-      "songCount": 35,
+      "songCount": 37,
       "hasArtwork": true
     },
     "tws": {
       "displayName": "TWS",
       "appleMusicId": "1721226191",
-      "songCount": 30,
+      "songCount": 37,
       "hasArtwork": true
     },
     "btob": {
@@ -560,7 +566,7 @@
     "infinite": {
       "displayName": "INFINITE",
       "appleMusicId": "407674485",
-      "songCount": 107,
+      "songCount": 108,
       "hasArtwork": true
     },
     "vixx": {
@@ -578,7 +584,7 @@
     "b1a4": {
       "displayName": "B1A4",
       "appleMusicId": "433573050",
-      "songCount": 150,
+      "songCount": 162,
       "hasArtwork": true
     },
     "teen-top": {
@@ -590,43 +596,43 @@
     "myname": {
       "displayName": "MYNAME",
       "appleMusicId": "530052009",
-      "songCount": 107,
+      "songCount": 114,
       "hasArtwork": true
     },
     "nu-est": {
       "displayName": "NU",
       "appleMusicId": "214324493",
-      "songCount": 52,
+      "songCount": 51,
       "hasArtwork": true
     },
     "boyfriend": {
       "displayName": "Boyfriend",
-      "appleMusicId": "1729240738",
-      "songCount": 0,
+      "appleMusicId": "950371970",
+      "songCount": 72,
       "hasArtwork": true
     },
     "ukiss": {
       "displayName": "U-KISS",
       "appleMusicId": "410587085",
-      "songCount": 169,
+      "songCount": 175,
       "hasArtwork": true
     },
     "iu": {
       "displayName": "IU",
       "appleMusicId": "409076743",
-      "songCount": 135,
+      "songCount": 137,
       "hasArtwork": true
     },
     "taeyeon": {
       "displayName": "Taeyeon",
       "appleMusicId": "435966642",
-      "songCount": 121,
+      "songCount": 123,
       "hasArtwork": true
     },
     "sunmi": {
       "displayName": "Sunmi",
       "appleMusicId": "693899983",
-      "songCount": 52,
+      "songCount": 53,
       "hasArtwork": true
     },
     "hyuna": {
@@ -638,19 +644,19 @@
     "jessi": {
       "displayName": "Jessi",
       "appleMusicId": "911707693",
-      "songCount": 46,
+      "songCount": 49,
       "hasArtwork": true
     },
     "jeon-somi": {
       "displayName": "SOMI",
-      "appleMusicId": "218606475",
-      "songCount": 59,
+      "appleMusicId": "1218803768",
+      "songCount": 23,
       "hasArtwork": true
     },
     "yuqi": {
       "displayName": "Yuqi",
       "appleMusicId": "1566541268",
-      "songCount": 20,
+      "songCount": 21,
       "hasArtwork": true
     },
     "kwon-eunbi": {
@@ -662,7 +668,7 @@
     "baekhyun": {
       "displayName": "Baekhyun",
       "appleMusicId": "987357639",
-      "songCount": 55,
+      "songCount": 54,
       "hasArtwork": true
     },
     "kai": {
@@ -674,43 +680,55 @@
     "taemin": {
       "displayName": "Taemin",
       "appleMusicId": "971826499",
-      "songCount": 95,
+      "songCount": 97,
       "hasArtwork": true
     },
     "g-dragon": {
       "displayName": "G-Dragon",
       "appleMusicId": "320373708",
-      "songCount": 52,
+      "songCount": 53,
       "hasArtwork": true
     },
     "taeyang": {
       "displayName": "Taeyang",
       "appleMusicId": "1683284485",
-      "songCount": 46,
+      "songCount": 55,
       "hasArtwork": true
     },
     "jay-park": {
       "displayName": "Jay Park",
       "appleMusicId": "384641776",
-      "songCount": 196,
+      "songCount": 203,
       "hasArtwork": true
     },
     "dean": {
       "displayName": "DEAN",
       "appleMusicId": "2770824",
-      "songCount": 27,
+      "songCount": 29,
       "hasArtwork": true
     },
     "crush": {
       "displayName": "Crush",
       "appleMusicId": "958641367",
-      "songCount": 117,
+      "songCount": 116,
       "hasArtwork": true
     },
     "zico": {
       "displayName": "Zico",
       "appleMusicId": "656726368",
       "songCount": 52,
+      "hasArtwork": true
+    },
+    "yena": {
+      "displayName": "YENA",
+      "appleMusicId": "1605086668",
+      "songCount": 33,
+      "hasArtwork": true
+    },
+    "hearts2hearts": {
+      "displayName": "Hearts2Hearts",
+      "appleMusicId": "1793698498",
+      "songCount": 9,
       "hasArtwork": true
     },
     "kpop-demon-hunters": {

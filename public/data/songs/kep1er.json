@@ -1,5 +1,70 @@
 [
   {
+    "id": "applemusic-1679270092",
+    "name": "Giddy",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "LOVESTRUCK! - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/31/87/b1/3187b137-3673-34c0-6586-fd617613568f/mzaf_8576541246427683948.plus.aac.p.m4a",
+    "duration": 184240,
+    "trackUrl": "https://music.apple.com/us/album/giddy/1679270091?i=1679270092",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
+    "trackId": "1679270092"
+  },
+  {
+    "id": "applemusic-1679270096",
+    "name": "LVLY",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "LOVESTRUCK! - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/fd/dd/54/fddd5496-30d2-526f-433f-337d37df7a3d/mzaf_8723073670118963723.plus.aac.p.m4a",
+    "duration": 199813,
+    "trackUrl": "https://music.apple.com/us/album/lvly/1679270091?i=1679270096",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
+    "trackId": "1679270096"
+  },
+  {
+    "id": "applemusic-1679270100",
+    "name": "Back to the City",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "LOVESTRUCK! - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/85/8f/7b/858f7ba1-444f-773a-1ebe-f455a55d49d8/mzaf_12784660313716231130.plus.aac.p.m4a",
+    "duration": 200000,
+    "trackUrl": "https://music.apple.com/us/album/back-to-the-city/1679270091?i=1679270100",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
+    "trackId": "1679270100"
+  },
+  {
+    "id": "applemusic-1679270104",
+    "name": "Why",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "LOVESTRUCK! - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/89/a1/24/89a1243b-bc96-aa05-5ae6-4e18358d07b6/mzaf_10111084011527372393.plus.aac.p.m4a",
+    "duration": 181080,
+    "trackUrl": "https://music.apple.com/us/album/why/1679270091?i=1679270104",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
+    "trackId": "1679270104"
+  },
+  {
+    "id": "applemusic-1679270115",
+    "name": "Happy Ending",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "LOVESTRUCK! - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/12/81/76/128176d9-07d2-4b3b-6f64-a3b4d4b62496/mzaf_16693329741434563070.plus.aac.p.m4a",
+    "duration": 178173,
+    "trackUrl": "https://music.apple.com/us/album/happy-ending/1679270091?i=1679270115",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
+    "trackId": "1679270115"
+  },
+  {
     "id": "applemusic-1600423427",
     "name": "See the Light",
     "artists": [
@@ -102,123 +167,6 @@
     "trackUrl": "https://music.apple.com/us/album/rewind/1628511839?i=1628512171",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/8e/3f/ed/8e3fedcc-2f5f-824b-8a2c-6642c57e7ff1/888272100723_Cover.jpg/300x300bb.jpg",
     "trackId": "1628512171"
-  },
-  {
-    "id": "applemusic-1679270092",
-    "name": "Giddy",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "LOVESTRUCK! - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/31/87/b1/3187b137-3673-34c0-6586-fd617613568f/mzaf_8576541246427683948.plus.aac.p.m4a",
-    "duration": 184240,
-    "trackUrl": "https://music.apple.com/us/album/giddy/1679270091?i=1679270092",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
-    "trackId": "1679270092"
-  },
-  {
-    "id": "applemusic-1679270096",
-    "name": "LVLY",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "LOVESTRUCK! - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/fd/dd/54/fddd5496-30d2-526f-433f-337d37df7a3d/mzaf_8723073670118963723.plus.aac.p.m4a",
-    "duration": 199813,
-    "trackUrl": "https://music.apple.com/us/album/lvly/1679270091?i=1679270096",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
-    "trackId": "1679270096"
-  },
-  {
-    "id": "applemusic-1679270100",
-    "name": "Back to the City",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "LOVESTRUCK! - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/85/8f/7b/858f7ba1-444f-773a-1ebe-f455a55d49d8/mzaf_12784660313716231130.plus.aac.p.m4a",
-    "duration": 200000,
-    "trackUrl": "https://music.apple.com/us/album/back-to-the-city/1679270091?i=1679270100",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
-    "trackId": "1679270100"
-  },
-  {
-    "id": "applemusic-1679270104",
-    "name": "Why",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "LOVESTRUCK! - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/89/a1/24/89a1243b-bc96-aa05-5ae6-4e18358d07b6/mzaf_10111084011527372393.plus.aac.p.m4a",
-    "duration": 181080,
-    "trackUrl": "https://music.apple.com/us/album/why/1679270091?i=1679270104",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
-    "trackId": "1679270104"
-  },
-  {
-    "id": "applemusic-1679270115",
-    "name": "Happy Ending",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "LOVESTRUCK! - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/12/81/76/128176d9-07d2-4b3b-6f64-a3b4d4b62496/mzaf_16693329741434563070.plus.aac.p.m4a",
-    "duration": 178173,
-    "trackUrl": "https://music.apple.com/us/album/happy-ending/1679270091?i=1679270115",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/65/b2/ff/65b2ff78-b9cc-c6ff-fee3-e2fcc1653a9a/888272114973_Cover.jpg/300x300bb.jpg",
-    "trackId": "1679270115"
-  },
-  {
-    "id": "applemusic-1648412216",
-    "name": "We Fresh",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4a/25/3b/4a253bfc-4b64-f79b-26da-7fbb460bf05c/mzaf_11104712301531499998.plus.aac.p.m4a",
-    "duration": 195880,
-    "trackUrl": "https://music.apple.com/us/album/we-fresh/1648412215?i=1648412216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412216"
-  },
-  {
-    "id": "applemusic-1648412217",
-    "name": "Lion Tamer",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/dc/76/1a/dc761a7c-cb18-c1a0-0ee0-bdf5acb5afa9/mzaf_6903778384594045327.plus.aac.p.m4a",
-    "duration": 182173,
-    "trackUrl": "https://music.apple.com/us/album/lion-tamer/1648412215?i=1648412217",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412217"
-  },
-  {
-    "id": "applemusic-1648412220",
-    "name": "Downtown",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/24/22/89/242289a8-8dcf-fc62-4d41-b49a95b183e4/mzaf_10603764768740898304.plus.aac.p.m4a",
-    "duration": 157653,
-    "trackUrl": "https://music.apple.com/us/album/downtown/1648412215?i=1648412220",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412220"
-  },
-  {
-    "id": "applemusic-1648412222",
-    "name": "Dreams",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "TROUBLESHOOTER - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/7f/ae/9a/7fae9a4e-8d46-8361-2248-c097b5e9b9f6/mzaf_13363407107341943771.plus.aac.p.m4a",
-    "duration": 202467,
-    "trackUrl": "https://music.apple.com/us/album/dreams/1648412215?i=1648412222",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
-    "trackId": "1648412222"
   },
   {
     "id": "applemusic-1777025520",
@@ -390,6 +338,58 @@
     "trackId": "1748091766"
   },
   {
+    "id": "applemusic-1648412216",
+    "name": "We Fresh",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/4a/25/3b/4a253bfc-4b64-f79b-26da-7fbb460bf05c/mzaf_11104712301531499998.plus.aac.p.m4a",
+    "duration": 195880,
+    "trackUrl": "https://music.apple.com/us/album/we-fresh/1648412215?i=1648412216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412216"
+  },
+  {
+    "id": "applemusic-1648412217",
+    "name": "Lion Tamer",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/dc/76/1a/dc761a7c-cb18-c1a0-0ee0-bdf5acb5afa9/mzaf_6903778384594045327.plus.aac.p.m4a",
+    "duration": 182173,
+    "trackUrl": "https://music.apple.com/us/album/lion-tamer/1648412215?i=1648412217",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412217"
+  },
+  {
+    "id": "applemusic-1648412220",
+    "name": "Downtown",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/24/22/89/242289a8-8dcf-fc62-4d41-b49a95b183e4/mzaf_10603764768740898304.plus.aac.p.m4a",
+    "duration": 157653,
+    "trackUrl": "https://music.apple.com/us/album/downtown/1648412215?i=1648412220",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412220"
+  },
+  {
+    "id": "applemusic-1648412222",
+    "name": "Dreams",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "TROUBLESHOOTER - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/7f/ae/9a/7fae9a4e-8d46-8361-2248-c097b5e9b9f6/mzaf_13363407107341943771.plus.aac.p.m4a",
+    "duration": 202467,
+    "trackUrl": "https://music.apple.com/us/album/dreams/1648412215?i=1648412222",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/71/cf/6e/71cf6e71-b33e-eb2e-1834-4bd4c821b613/888272106992_Cover.jpg/300x300bb.jpg",
+    "trackId": "1648412222"
+  },
+  {
     "id": "applemusic-1706470350",
     "name": "Galileo",
     "artists": [
@@ -468,84 +468,6 @@
     "trackId": "1622360038"
   },
   {
-    "id": "applemusic-1619951912",
-    "name": "UNNATURAL",
-    "artists": [
-      "VIVIZ"
-    ],
-    "album": "<Queendom>, Pt. 2-2 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c4/8e/c0/c48ec06d-fd85-9cc8-0d79-c0cabfd6b05d/mzaf_12850831183504113278.plus.aac.p.m4a",
-    "duration": 244320,
-    "trackUrl": "https://music.apple.com/us/album/unnatural/1619951910?i=1619951912",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/4e/4b/e24e4ba2-6d90-5e94-f0cf-eecf7ceccea6/888272098020_Cover.jpg/300x300bb.jpg",
-    "trackId": "1619951912"
-  },
-  {
-    "id": "applemusic-1619952374",
-    "name": "So What",
-    "artists": [
-      "HYOLYN"
-    ],
-    "album": "<Queendom>, Pt. 2-2 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f4/04/84/f40484b1-407c-5ba4-6a72-110df12c62c1/mzaf_6720987997206083189.plus.aac.p.m4a",
-    "duration": 243347,
-    "trackUrl": "https://music.apple.com/us/album/so-what/1619951910?i=1619952374",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/4e/4b/e24e4ba2-6d90-5e94-f0cf-eecf7ceccea6/888272098020_Cover.jpg/300x300bb.jpg",
-    "trackId": "1619952374"
-  },
-  {
-    "id": "applemusic-1669654965",
-    "name": "I do! Do you?",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "<FLY-BY> - Special Edition - - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7a/00/09/7a0009dd-68d5-3fb5-20a8-cee501ff803b/mzaf_1632548088788821223.plus.aac.p.m4a",
-    "duration": 214827,
-    "trackUrl": "https://music.apple.com/us/album/i-do-do-you/1669654964?i=1669654965",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
-    "trackId": "1669654965"
-  },
-  {
-    "id": "applemusic-1669655146",
-    "name": "tOgether fOrever",
-    "artists": [
-      "Kep1er"
-    ],
-    "album": "<FLY-BY> - Special Edition - - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e9/92/d8/e992d8d9-33c4-9d1e-87cf-8daaf789b0ad/mzaf_15582653803161876469.plus.aac.p.m4a",
-    "duration": 211533,
-    "trackUrl": "https://music.apple.com/us/album/together-forever/1669654964?i=1669655146",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
-    "trackId": "1669655146"
-  },
-  {
-    "id": "applemusic-1617975112",
-    "name": "As You Wish",
-    "artists": [
-      "WJSN"
-    ],
-    "album": "<Queendom2>, Pt. 1-2 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/06/25/c7/0625c71b-6c69-83f3-b20c-962e702ab2b6/mzaf_14968900416323374680.plus.aac.p.m4a",
-    "duration": 251480,
-    "trackUrl": "https://music.apple.com/us/album/as-you-wish/1617974885?i=1617975112",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/3c/ad/673cadfe-e01e-bc5a-22f6-1358e742b617/888272097214_Cover.jpg/300x300bb.jpg",
-    "trackId": "1617975112"
-  },
-  {
-    "id": "applemusic-1617975117",
-    "name": "PTT (Paint the Town)",
-    "artists": [
-      "LOONA"
-    ],
-    "album": "<Queendom2>, Pt. 1-2 - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/07/0d/12/070d12f6-1b16-7daf-c397-4b85bf0342bb/mzaf_9129777926578569658.plus.aac.p.m4a",
-    "duration": 254280,
-    "trackUrl": "https://music.apple.com/us/album/ptt-paint-the-town/1617974885?i=1617975117",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/3c/ad/673cadfe-e01e-bc5a-22f6-1358e742b617/888272097214_Cover.jpg/300x300bb.jpg",
-    "trackId": "1617975117"
-  },
-  {
     "id": "applemusic-1832943666",
     "name": "Taste Better",
     "artists": [
@@ -585,6 +507,123 @@
     "trackId": "1832943830"
   },
   {
+    "id": "applemusic-1888358878",
+    "name": "I am Kep1",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "CRACK CODE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a1/ee/a4/a1eea45c-cf03-5845-2f04-a66d0bace07f/mzaf_5983578519820205577.plus.aac.p.m4a",
+    "duration": 150000,
+    "trackUrl": "https://music.apple.com/us/album/i-am-kep1/1888358875?i=1888358878",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/08/07/c8080781-a892-a7cb-edfa-d5e4f9dfc871/888272178760_Cover.jpg/300x300bb.jpg",
+    "trackId": "1888358878"
+  },
+  {
+    "id": "applemusic-1888358881",
+    "name": "KILLA (Face the other me)",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "CRACK CODE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/07/32/4f07323f-4938-7adf-c19c-a89c52f3ffda/mzaf_11953806438179484565.plus.aac.p.m4a",
+    "duration": 176000,
+    "trackUrl": "https://music.apple.com/us/album/killa-face-the-other-me/1888358875?i=1888358881",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/08/07/c8080781-a892-a7cb-edfa-d5e4f9dfc871/888272178760_Cover.jpg/300x300bb.jpg",
+    "trackId": "1888358881"
+  },
+  {
+    "id": "applemusic-1888358884",
+    "name": "MIC CHECK",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "CRACK CODE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1f/66/2b/1f662b88-2a30-3aad-808f-4ef14e2641a0/mzaf_13113310572865385748.plus.aac.p.m4a",
+    "duration": 171000,
+    "trackUrl": "https://music.apple.com/us/album/mic-check/1888358875?i=1888358884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/08/07/c8080781-a892-a7cb-edfa-d5e4f9dfc871/888272178760_Cover.jpg/300x300bb.jpg",
+    "trackId": "1888358884"
+  },
+  {
+    "id": "applemusic-1888358887",
+    "name": "Lowkey",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "CRACK CODE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/78/b0/d278b063-f2b1-6c61-d459-4537f3d7400b/mzaf_12587616675219068493.plus.aac.p.m4a",
+    "duration": 169000,
+    "trackUrl": "https://music.apple.com/us/album/lowkey/1888358875?i=1888358887",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/08/07/c8080781-a892-a7cb-edfa-d5e4f9dfc871/888272178760_Cover.jpg/300x300bb.jpg",
+    "trackId": "1888358887"
+  },
+  {
+    "id": "applemusic-1888358890",
+    "name": "Addicted 2 Ya",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "CRACK CODE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/fe/55/6ffe55c5-44c5-c163-b542-3832214e1bd6/mzaf_16880492913791434280.plus.aac.p.m4a",
+    "duration": 169000,
+    "trackUrl": "https://music.apple.com/us/album/addicted-2-ya/1888358875?i=1888358890",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c8/08/07/c8080781-a892-a7cb-edfa-d5e4f9dfc871/888272178760_Cover.jpg/300x300bb.jpg",
+    "trackId": "1888358890"
+  },
+  {
+    "id": "applemusic-1617975112",
+    "name": "As You Wish",
+    "artists": [
+      "WJSN"
+    ],
+    "album": "<Queendom2>, Pt. 1-2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/06/25/c7/0625c71b-6c69-83f3-b20c-962e702ab2b6/mzaf_14968900416323374680.plus.aac.p.m4a",
+    "duration": 251480,
+    "trackUrl": "https://music.apple.com/us/album/as-you-wish/1617974885?i=1617975112",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/3c/ad/673cadfe-e01e-bc5a-22f6-1358e742b617/888272097214_Cover.jpg/300x300bb.jpg",
+    "trackId": "1617975112"
+  },
+  {
+    "id": "applemusic-1617975117",
+    "name": "PTT (Paint the Town)",
+    "artists": [
+      "LOONA"
+    ],
+    "album": "<Queendom2>, Pt. 1-2 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/07/0d/12/070d12f6-1b16-7daf-c397-4b85bf0342bb/mzaf_9129777926578569658.plus.aac.p.m4a",
+    "duration": 254280,
+    "trackUrl": "https://music.apple.com/us/album/ptt-paint-the-town/1617974885?i=1617975117",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/67/3c/ad/673cadfe-e01e-bc5a-22f6-1358e742b617/888272097214_Cover.jpg/300x300bb.jpg",
+    "trackId": "1617975117"
+  },
+  {
+    "id": "applemusic-1619951912",
+    "name": "UNNATURAL",
+    "artists": [
+      "VIVIZ"
+    ],
+    "album": "<Queendom>, Pt. 2-2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c4/8e/c0/c48ec06d-fd85-9cc8-0d79-c0cabfd6b05d/mzaf_12850831183504113278.plus.aac.p.m4a",
+    "duration": 244320,
+    "trackUrl": "https://music.apple.com/us/album/unnatural/1619951910?i=1619951912",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/4e/4b/e24e4ba2-6d90-5e94-f0cf-eecf7ceccea6/888272098020_Cover.jpg/300x300bb.jpg",
+    "trackId": "1619951912"
+  },
+  {
+    "id": "applemusic-1619952374",
+    "name": "So What",
+    "artists": [
+      "HYOLYN"
+    ],
+    "album": "<Queendom>, Pt. 2-2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f4/04/84/f40484b1-407c-5ba4-6a72-110df12c62c1/mzaf_6720987997206083189.plus.aac.p.m4a",
+    "duration": 243347,
+    "trackUrl": "https://music.apple.com/us/album/so-what/1619951910?i=1619952374",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e2/4e/4b/e24e4ba2-6d90-5e94-f0cf-eecf7ceccea6/888272098020_Cover.jpg/300x300bb.jpg",
+    "trackId": "1619952374"
+  },
+  {
     "id": "applemusic-1636412214",
     "name": "Wing Wing",
     "artists": [
@@ -609,6 +648,32 @@
     "trackUrl": "https://music.apple.com/us/album/daisy/1636412211?i=1636412222",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/07/59/fb/0759fbfb-fc5e-f64d-68ef-2961ae983091/4547366578768.jpg/300x300bb.jpg",
     "trackId": "1636412222"
+  },
+  {
+    "id": "applemusic-1669654965",
+    "name": "I do! Do you?",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "<FLY-BY> - Special Edition - - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/7a/00/09/7a0009dd-68d5-3fb5-20a8-cee501ff803b/mzaf_1632548088788821223.plus.aac.p.m4a",
+    "duration": 214827,
+    "trackUrl": "https://music.apple.com/us/album/i-do-do-you/1669654964?i=1669654965",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
+    "trackId": "1669654965"
+  },
+  {
+    "id": "applemusic-1669655146",
+    "name": "tOgether fOrever",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "<FLY-BY> - Special Edition - - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/e9/92/d8/e992d8d9-33c4-9d1e-87cf-8daaf789b0ad/mzaf_15582653803161876469.plus.aac.p.m4a",
+    "duration": 211533,
+    "trackUrl": "https://music.apple.com/us/album/together-forever/1669654964?i=1669655146",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ef/d3/b1/efd3b147-4217-19e3-3d10-96f8809e39ba/4547366608847.jpg/300x300bb.jpg",
+    "trackId": "1669655146"
   },
   {
     "id": "applemusic-1740911558",
@@ -754,13 +819,26 @@
     "trackId": "1822755358"
   },
   {
+    "id": "applemusic-1877805222",
+    "name": "I Stay",
+    "artists": [
+      "Kep1er"
+    ],
+    "album": "I Stay (From \"Ne Zha 2\") - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/37/97/45379765-f7a5-b489-40a2-a392cc3a4efb/mzaf_699664000883110292.plus.aac.p.m4a",
+    "duration": 179626,
+    "trackUrl": "https://music.apple.com/us/album/i-stay/1877805221?i=1877805222",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/dd/5a/a7/dd5aa7d4-454f-ed1a-9443-c82d69df6ad8/823375007012_Cover.jpg/300x300bb.jpg",
+    "trackId": "1877805222"
+  },
+  {
     "id": "applemusic-1833416374",
     "name": "Don't Be Dumb",
     "artists": [
       "Kep1er"
     ],
     "album": "BUBBLE GUM - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/1d/e6/4d1de6f8-248c-2662-0758-55f58e030a0a/mzaf_7297213812735270734.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/5e/97/5e5e9764-b9dd-84c1-9221-569c596b38a0/mzaf_2496780688357416397.plus.aac.p.m4a",
     "duration": 162000,
     "trackUrl": "https://music.apple.com/jp/album/dont-be-dumb/1833416249?i=1833416374",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/5c/bb/4d5cbbd9-bdfa-26a9-5fcd-03941fe4e424/4547366773675.jpg/300x300bb.jpg",

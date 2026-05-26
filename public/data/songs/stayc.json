@@ -221,32 +221,6 @@
     "trackId": "1634360918"
   },
   {
-    "id": "applemusic-1701915216",
-    "name": "Bubble",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "TEENFRESH - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/40/d8/c740d8be-7997-562c-3759-7d3d2cdb120e/mzaf_8245578181193888387.plus.aac.p.m4a",
-    "duration": 179276,
-    "trackUrl": "https://music.apple.com/us/album/bubble/1701915214?i=1701915216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/fa/fa/c6fafa66-b751-661b-3819-4bf77608b690/cover_KM0017996_1.jpg/300x300bb.jpg",
-    "trackId": "1701915216"
-  },
-  {
-    "id": "applemusic-1670622073",
-    "name": "Teddy Bear",
-    "artists": [
-      "STAYC"
-    ],
-    "album": "Teddy Bear - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/91/be/5d91be0e-b61d-2de7-0937-b4fd4a7e9f0f/mzaf_10146917558968304796.plus.aac.p.m4a",
-    "duration": 189773,
-    "trackUrl": "https://music.apple.com/us/album/teddy-bear/1670622072?i=1670622073",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/e2/34/d3e23468-4920-f7b9-e955-322eb98af917/cover_KM0016800_1.jpg/300x300bb.jpg",
-    "trackId": "1670622073"
-  },
-  {
     "id": "applemusic-1752835378",
     "name": "Twenty",
     "artists": [
@@ -416,6 +390,19 @@
     "trackId": "1752835489"
   },
   {
+    "id": "applemusic-1670622073",
+    "name": "Teddy Bear",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "Teddy Bear - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/91/be/5d91be0e-b61d-2de7-0937-b4fd4a7e9f0f/mzaf_10146917558968304796.plus.aac.p.m4a",
+    "duration": 189773,
+    "trackUrl": "https://music.apple.com/us/album/teddy-bear/1670622072?i=1670622073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/e2/34/d3e23468-4920-f7b9-e955-322eb98af917/cover_KM0016800_1.jpg/300x300bb.jpg",
+    "trackId": "1670622073"
+  },
+  {
     "id": "applemusic-1716677201",
     "name": "LIT",
     "artists": [
@@ -466,6 +453,19 @@
     "trackUrl": "https://music.apple.com/us/album/pipe-down/1800597776?i=1800597780",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/17/30/df/1730dfb5-4d53-04d7-0bc9-6802a980903d/cover_KM0021351_1.jpg/300x300bb.jpg",
     "trackId": "1800597780"
+  },
+  {
+    "id": "applemusic-1701915216",
+    "name": "Bubble",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "TEENFRESH - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c7/40/d8/c740d8be-7997-562c-3759-7d3d2cdb120e/mzaf_8245578181193888387.plus.aac.p.m4a",
+    "duration": 179276,
+    "trackUrl": "https://music.apple.com/us/album/bubble/1701915214?i=1701915216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/fa/fa/c6fafa66-b751-661b-3819-4bf77608b690/cover_KM0017996_1.jpg/300x300bb.jpg",
+    "trackId": "1701915216"
   },
   {
     "id": "applemusic-1654124215",
@@ -559,30 +559,69 @@
     "trackId": "1776838153"
   },
   {
-    "id": "applemusic-1816897492",
+    "id": "applemusic-1874849627",
+    "name": "MWUAH",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "STAY ALIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/47/e4/f547e41f-2eca-99ba-92aa-1f3c4a73b285/mzaf_4189591585962333500.plus.aac.p.m4a",
+    "duration": 180000,
+    "trackUrl": "https://music.apple.com/us/album/mwuah/1874849626?i=1874849627",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/1b/73/cf1b7373-d8e8-ce2f-5c27-3d129a4f7688/25UM2IM03139.rgb.jpg/300x300bb.jpg",
+    "trackId": "1874849627"
+  },
+  {
+    "id": "applemusic-1874849831",
+    "name": "Satellite",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "STAY ALIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/57/95/ba/5795baa7-468a-9ecd-88ca-0828c48f6802/mzaf_6949841671432117389.plus.aac.p.m4a",
+    "duration": 160000,
+    "trackUrl": "https://music.apple.com/us/album/satellite/1874849626?i=1874849831",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/1b/73/cf1b7373-d8e8-ce2f-5c27-3d129a4f7688/25UM2IM03139.rgb.jpg/300x300bb.jpg",
+    "trackId": "1874849831"
+  },
+  {
+    "id": "applemusic-1874849836",
     "name": "Lover, Killer",
     "artists": [
       "STAYC"
     ],
-    "album": "Lover, Killer / BEBE (Japanese Ver.) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/6c/e6/726ce6f9-4276-5a57-7d00-f90227e03b32/mzaf_9045446135835963141.plus.aac.p.m4a",
+    "album": "STAY ALIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/af/65/72af65b4-8fa8-1e15-169c-12abb25f359a/mzaf_4704276452378028135.plus.aac.p.m4a",
     "duration": 168787,
-    "trackUrl": "https://music.apple.com/us/album/lover-killer/1816897491?i=1816897492",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e1/60/13/e160131e-eba6-afdc-2707-3a6ea2dfa2dc/25UMGIM70933.rgb.jpg/300x300bb.jpg",
-    "trackId": "1816897492"
+    "trackUrl": "https://music.apple.com/us/album/lover-killer/1874849626?i=1874849836",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/1b/73/cf1b7373-d8e8-ce2f-5c27-3d129a4f7688/25UM2IM03139.rgb.jpg/300x300bb.jpg",
+    "trackId": "1874849836"
   },
   {
-    "id": "applemusic-1762782983",
+    "id": "applemusic-1874849841",
+    "name": "Say My Name",
+    "artists": [
+      "STAYC"
+    ],
+    "album": "STAY ALIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8f/f4/cd/8ff4cda2-d308-e0d4-60e7-2930fb54838f/mzaf_17154585992847395504.plus.aac.p.m4a",
+    "duration": 193000,
+    "trackUrl": "https://music.apple.com/us/album/say-my-name/1874849626?i=1874849841",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/1b/73/cf1b7373-d8e8-ce2f-5c27-3d129a4f7688/25UM2IM03139.rgb.jpg/300x300bb.jpg",
+    "trackId": "1874849841"
+  },
+  {
+    "id": "applemusic-1874849843",
     "name": "MEOW",
     "artists": [
       "STAYC"
     ],
-    "album": "MEOW / Cheeky Icy Thang (Japanese Version) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/93/ad/c993ad1e-edd9-57c9-72fe-0f4f5bd9c892/mzaf_16040340197671918047.plus.aac.p.m4a",
+    "album": "STAY ALIVE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/f7/0a/9af70ad8-333f-9b3d-e5ea-e1b63a46070a/mzaf_9892881768446741671.plus.aac.p.m4a",
     "duration": 133938,
-    "trackUrl": "https://music.apple.com/us/album/meow/1762782575?i=1762782983",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/4f/e4/c94fe4d3-af03-1571-d888-0e8dc55f160b/24UMGIM81115.rgb.jpg/300x300bb.jpg",
-    "trackId": "1762782983"
+    "trackUrl": "https://music.apple.com/us/album/meow/1874849626?i=1874849843",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/cf/1b/73/cf1b7373-d8e8-ce2f-5c27-3d129a4f7688/25UM2IM03139.rgb.jpg/300x300bb.jpg",
+    "trackId": "1874849843"
   },
   {
     "id": "applemusic-1623984734",

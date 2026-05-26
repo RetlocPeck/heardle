@@ -1,135 +1,5 @@
 [
   {
-    "id": "applemusic-1865052395",
-    "name": "Say My Name",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.2 : Zero To One - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/d4/8e/30d48ef9-9479-7552-4a66-9f2d9fd508e1/mzaf_7912750028732813221.plus.aac.p.m4a",
-    "duration": 222024,
-    "trackUrl": "https://music.apple.com/us/album/say-my-name/1865052387?i=1865052395",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
-    "trackId": "1865052395"
-  },
-  {
-    "id": "applemusic-1865052398",
-    "name": "Desire",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.2 : Zero To One - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/b5/2d/75b52d9a-e3bd-788d-6817-03e797f7a83a/mzaf_4598206045070092377.plus.aac.p.m4a",
-    "duration": 234509,
-    "trackUrl": "https://music.apple.com/us/album/desire/1865052387?i=1865052398",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
-    "trackId": "1865052398"
-  },
-  {
-    "id": "applemusic-1865052521",
-    "name": "Light",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.2 : Zero To One - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/a5/61/c4a5618a-e7c5-edab-7875-e141e172ff21/mzaf_17163471265254122552.plus.aac.p.m4a",
-    "duration": 218823,
-    "trackUrl": "https://music.apple.com/us/album/light/1865052387?i=1865052521",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
-    "trackId": "1865052521"
-  },
-  {
-    "id": "applemusic-1865052526",
-    "name": "Promise",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.2 : Zero To One - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/9e/6e/0e9e6e02-c0ba-7056-e221-b045200a34a7/mzaf_15088090705929898521.plus.aac.p.m4a",
-    "duration": 195782,
-    "trackUrl": "https://music.apple.com/us/album/promise/1865052387?i=1865052526",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
-    "trackId": "1865052526"
-  },
-  {
-    "id": "applemusic-1864882716",
-    "name": "UTOPIA",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.3 : One To All - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/d7/64/b5d7645e-4083-d3f9-a9f0-da78617fab4d/mzaf_6868143882214747754.plus.aac.p.m4a",
-    "duration": 239067,
-    "trackUrl": "https://music.apple.com/us/album/utopia/1864882715?i=1864882716",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
-    "trackId": "1864882716"
-  },
-  {
-    "id": "applemusic-1864882717",
-    "name": "ILLUSION",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.3 : One To All - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/23/b8/ed23b858-9416-12e7-7a49-f6c2fcb141a8/mzaf_1883482043929526561.plus.aac.p.m4a",
-    "duration": 210067,
-    "trackUrl": "https://music.apple.com/us/album/illusion/1864882715?i=1864882717",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
-    "trackId": "1864882717"
-  },
-  {
-    "id": "applemusic-1864882718",
-    "name": "Crescent",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.3 : One To All - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/6d/1d/a76d1d71-973d-fa97-fa9d-6f6dd89013c1/mzaf_9453637772753497605.plus.aac.p.m4a",
-    "duration": 46800,
-    "trackUrl": "https://music.apple.com/us/album/crescent/1864882715?i=1864882718",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
-    "trackId": "1864882718"
-  },
-  {
-    "id": "applemusic-1864882720",
-    "name": "WAVE",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.3 : One To All - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/49/57/d349579a-7797-0060-7611-215716c43007/mzaf_15018153439058722406.plus.aac.p.m4a",
-    "duration": 203933,
-    "trackUrl": "https://music.apple.com/us/album/wave/1864882715?i=1864882720",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
-    "trackId": "1864882720"
-  },
-  {
-    "id": "applemusic-1864882723",
-    "name": "AURORA",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.3 : One To All - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/e1/30/92e13062-df3d-de11-3b1d-0b6c51318b37/mzaf_3917411253839769584.plus.aac.p.m4a",
-    "duration": 204360,
-    "trackUrl": "https://music.apple.com/us/album/aurora/1864882715?i=1864882723",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
-    "trackId": "1864882723"
-  },
-  {
-    "id": "applemusic-1864882724",
-    "name": "Dancing Like Butterfly Wings",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP.3 : One To All - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/75/da/0475da04-7675-85dc-a659-f1d95b4bfbd0/mzaf_16137619472742034492.plus.aac.p.m4a",
-    "duration": 182132,
-    "trackUrl": "https://music.apple.com/us/album/dancing-like-butterfly-wings/1864882715?i=1864882724",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
-    "trackId": "1864882724"
-  },
-  {
     "id": "applemusic-1864877241",
     "name": "End of the Beginning",
     "artists": [
@@ -180,6 +50,19 @@
     "trackUrl": "https://music.apple.com/us/album/mist/1864877240?i=1864877470",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bc/72/3a/bc723a05-4baa-98d7-743b-f84fad5f840b/8809658317438_Cover.jpg/300x300bb.jpg",
     "trackId": "1864877470"
+  },
+  {
+    "id": "applemusic-1865052671",
+    "name": "Precious",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EPILOGUE : Action To Answer - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/51/9d/22519dda-1c5f-a8f0-1947-761e6228713f/mzaf_6886671549949180542.plus.aac.p.m4a",
+    "duration": 205560,
+    "trackUrl": "https://music.apple.com/us/album/precious/1865052552?i=1865052671",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/37/71/ac3771b3-ab7b-6888-fee1-e533da7c5d51/8809704410816_Cover.jpg/300x300bb.jpg",
+    "trackId": "1865052671"
   },
   {
     "id": "applemusic-1864877479",
@@ -338,95 +221,121 @@
     "trackId": "1691699937"
   },
   {
-    "id": "applemusic-1523752061",
-    "name": "Dear Diary: 2016.07.29",
+    "id": "applemusic-1865052395",
+    "name": "Say My Name",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/8f/da/308fdaef-7d94-3d25-7d40-615c758afe61/mzaf_13771411379952360443.plus.aac.p.m4a",
-    "duration": 153333,
-    "trackUrl": "https://music.apple.com/us/album/dear-diary-2016-07-29/1523752057?i=1523752061",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752061"
+    "album": "TREASURE EP.2 : Zero To One - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/d4/8e/30d48ef9-9479-7552-4a66-9f2d9fd508e1/mzaf_7912750028732813221.plus.aac.p.m4a",
+    "duration": 222024,
+    "trackUrl": "https://music.apple.com/us/album/say-my-name/1865052387?i=1865052395",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
+    "trackId": "1865052395"
   },
   {
-    "id": "applemusic-1523752062",
-    "name": "FEVER",
+    "id": "applemusic-1865052398",
+    "name": "Desire",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/cc/1d/4ccc1d47-5114-0b54-f06b-f1be12ccf739/mzaf_2330632162909645824.plus.aac.p.m4a",
-    "duration": 204040,
-    "trackUrl": "https://music.apple.com/us/album/fever/1523752057?i=1523752062",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752062"
+    "album": "TREASURE EP.2 : Zero To One - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/b5/2d/75b52d9a-e3bd-788d-6817-03e797f7a83a/mzaf_4598206045070092377.plus.aac.p.m4a",
+    "duration": 234509,
+    "trackUrl": "https://music.apple.com/us/album/desire/1865052387?i=1865052398",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
+    "trackId": "1865052398"
   },
   {
-    "id": "applemusic-1523752063",
-    "name": "THANXX",
+    "id": "applemusic-1865052521",
+    "name": "Light",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/74/ca/8a74ca1f-2999-f676-4d0b-9afa3ab55ba9/mzaf_6423018260677217558.plus.aac.p.m4a",
-    "duration": 181147,
-    "trackUrl": "https://music.apple.com/us/album/thanxx/1523752057?i=1523752063",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752063"
+    "album": "TREASURE EP.2 : Zero To One - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/a5/61/c4a5618a-e7c5-edab-7875-e141e172ff21/mzaf_17163471265254122552.plus.aac.p.m4a",
+    "duration": 218823,
+    "trackUrl": "https://music.apple.com/us/album/light/1865052387?i=1865052521",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
+    "trackId": "1865052521"
   },
   {
-    "id": "applemusic-1523752064",
-    "name": "TO THE BEAT",
+    "id": "applemusic-1865052526",
+    "name": "Promise",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/2a/c9/562ac949-af3f-75dd-1815-bc5af02d503d/mzaf_11526166310381637087.plus.aac.p.m4a",
-    "duration": 181880,
-    "trackUrl": "https://music.apple.com/us/album/to-the-beat/1523752057?i=1523752064",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752064"
+    "album": "TREASURE EP.2 : Zero To One - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/9e/6e/0e9e6e02-c0ba-7056-e221-b045200a34a7/mzaf_15088090705929898521.plus.aac.p.m4a",
+    "duration": 195782,
+    "trackUrl": "https://music.apple.com/us/album/promise/1865052387?i=1865052526",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/39/e5/7439e507-be0f-4d25-89fe-b34262fa2daa/8809603549082_Cover.jpg/300x300bb.jpg",
+    "trackId": "1865052526"
   },
   {
-    "id": "applemusic-1523752065",
-    "name": "INCEPTION",
+    "id": "applemusic-1867153028",
+    "name": "Ghost",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/80/b1/4a80b1b6-b45f-ffeb-e23e-df7ebb21d32d/mzaf_12580402968013290840.plus.aac.p.m4a",
-    "duration": 210813,
-    "trackUrl": "https://music.apple.com/us/album/inception/1523752057?i=1523752065",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752065"
+    "album": "GOLDEN HOUR : Part.4 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/a9/88/5ca9886f-8b84-43cd-9e2e-c3fe2d729b51/mzaf_17675327531761523377.plus.aac.p.m4a",
+    "duration": 167534,
+    "trackUrl": "https://music.apple.com/us/album/ghost/1867153027?i=1867153028",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/5b/5a/6d5b5aa0-fc09-04a1-293f-0da97ae3c66e/196873997797.jpg/300x300bb.jpg",
+    "trackId": "1867153028"
   },
   {
-    "id": "applemusic-1523752066",
-    "name": "Good Lil Boy",
+    "id": "applemusic-1867153030",
+    "name": "Adrenaline",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/a0/4d/bea04db6-1bc1-a8f3-bf7f-dbe7150a4876/mzaf_8483409282762612067.plus.aac.p.m4a",
-    "duration": 205853,
-    "trackUrl": "https://music.apple.com/us/album/good-lil-boy/1523752057?i=1523752066",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752066"
+    "album": "GOLDEN HOUR : Part.4 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8f/66/93/8f669394-5dac-f495-c193-5b872e063179/mzaf_10525671093729447175.plus.aac.p.m4a",
+    "duration": 219920,
+    "trackUrl": "https://music.apple.com/us/album/adrenaline/1867153027?i=1867153030",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/5b/5a/6d5b5aa0-fc09-04a1-293f-0da97ae3c66e/196873997797.jpg/300x300bb.jpg",
+    "trackId": "1867153030"
   },
   {
-    "id": "applemusic-1523752067",
-    "name": "One Day at a Time",
+    "id": "applemusic-1867153031",
+    "name": "NASA",
     "artists": [
       "ATEEZ"
     ],
-    "album": "ZERO: FEVER, Pt. 1",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/c8/f6/9bc8f628-0ded-d710-b361-8ab590b4b198/mzaf_13477695484039739848.plus.aac.p.m4a",
-    "duration": 203613,
-    "trackUrl": "https://music.apple.com/us/album/one-day-at-a-time/1523752057?i=1523752067",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
-    "trackId": "1523752067"
+    "album": "GOLDEN HOUR : Part.4 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a3/e4/7d/a3e47d2a-2d48-7ab6-2c37-55ccad66d079/mzaf_3171460562180745733.plus.aac.p.m4a",
+    "duration": 190868,
+    "trackUrl": "https://music.apple.com/us/album/nasa/1867153027?i=1867153031",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/5b/5a/6d5b5aa0-fc09-04a1-293f-0da97ae3c66e/196873997797.jpg/300x300bb.jpg",
+    "trackId": "1867153031"
+  },
+  {
+    "id": "applemusic-1867153033",
+    "name": "On The Road",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "GOLDEN HOUR : Part.4 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/98/51/dd/9851dd6a-f669-97fc-acbd-4911bb6d3fd0/mzaf_10117091532203843117.plus.aac.p.m4a",
+    "duration": 203201,
+    "trackUrl": "https://music.apple.com/us/album/on-the-road/1867153027?i=1867153033",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/5b/5a/6d5b5aa0-fc09-04a1-293f-0da97ae3c66e/196873997797.jpg/300x300bb.jpg",
+    "trackId": "1867153033"
+  },
+  {
+    "id": "applemusic-1867153035",
+    "name": "Choose",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "GOLDEN HOUR : Part.4 - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/6c/ac/736cacbe-3656-d6e0-875e-0e37d986c1ac/mzaf_9651542769380836634.plus.aac.p.m4a",
+    "duration": 186015,
+    "trackUrl": "https://music.apple.com/us/album/choose/1867153027?i=1867153035",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6d/5b/5a/6d5b5aa0-fc09-04a1-293f-0da97ae3c66e/196873997797.jpg/300x300bb.jpg",
+    "trackId": "1867153035"
   },
   {
     "id": "applemusic-1716875251",
@@ -624,17 +533,95 @@
     "trackId": "1865052568"
   },
   {
-    "id": "applemusic-1865052671",
-    "name": "Precious",
+    "id": "applemusic-1523752061",
+    "name": "Dear Diary: 2016.07.29",
     "artists": [
       "ATEEZ"
     ],
-    "album": "TREASURE EPILOGUE : Action To Answer - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/51/9d/22519dda-1c5f-a8f0-1947-761e6228713f/mzaf_6886671549949180542.plus.aac.p.m4a",
-    "duration": 205560,
-    "trackUrl": "https://music.apple.com/us/album/precious/1865052552?i=1865052671",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ac/37/71/ac3771b3-ab7b-6888-fee1-e533da7c5d51/8809704410816_Cover.jpg/300x300bb.jpg",
-    "trackId": "1865052671"
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/30/8f/da/308fdaef-7d94-3d25-7d40-615c758afe61/mzaf_13771411379952360443.plus.aac.p.m4a",
+    "duration": 153333,
+    "trackUrl": "https://music.apple.com/us/album/dear-diary-2016-07-29/1523752057?i=1523752061",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752061"
+  },
+  {
+    "id": "applemusic-1523752062",
+    "name": "FEVER",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/cc/1d/4ccc1d47-5114-0b54-f06b-f1be12ccf739/mzaf_2330632162909645824.plus.aac.p.m4a",
+    "duration": 204040,
+    "trackUrl": "https://music.apple.com/us/album/fever/1523752057?i=1523752062",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752062"
+  },
+  {
+    "id": "applemusic-1523752063",
+    "name": "THANXX",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8a/74/ca/8a74ca1f-2999-f676-4d0b-9afa3ab55ba9/mzaf_6423018260677217558.plus.aac.p.m4a",
+    "duration": 181147,
+    "trackUrl": "https://music.apple.com/us/album/thanxx/1523752057?i=1523752063",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752063"
+  },
+  {
+    "id": "applemusic-1523752064",
+    "name": "TO THE BEAT",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/56/2a/c9/562ac949-af3f-75dd-1815-bc5af02d503d/mzaf_11526166310381637087.plus.aac.p.m4a",
+    "duration": 181880,
+    "trackUrl": "https://music.apple.com/us/album/to-the-beat/1523752057?i=1523752064",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752064"
+  },
+  {
+    "id": "applemusic-1523752065",
+    "name": "INCEPTION",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/80/b1/4a80b1b6-b45f-ffeb-e23e-df7ebb21d32d/mzaf_12580402968013290840.plus.aac.p.m4a",
+    "duration": 210813,
+    "trackUrl": "https://music.apple.com/us/album/inception/1523752057?i=1523752065",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752065"
+  },
+  {
+    "id": "applemusic-1523752066",
+    "name": "Good Lil Boy",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/a0/4d/bea04db6-1bc1-a8f3-bf7f-dbe7150a4876/mzaf_8483409282762612067.plus.aac.p.m4a",
+    "duration": 205853,
+    "trackUrl": "https://music.apple.com/us/album/good-lil-boy/1523752057?i=1523752066",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752066"
+  },
+  {
+    "id": "applemusic-1523752067",
+    "name": "One Day at a Time",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO: FEVER, Pt. 1",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/c8/f6/9bc8f628-0ded-d710-b361-8ab590b4b198/mzaf_13477695484039739848.plus.aac.p.m4a",
+    "duration": 203613,
+    "trackUrl": "https://music.apple.com/us/album/one-day-at-a-time/1523752057?i=1523752067",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/97/89/e1/9789e1c7-bbcd-535b-8201-9f6fe92cbec5/886448645658.jpg/300x300bb.jpg",
+    "trackId": "1523752067"
   },
   {
     "id": "applemusic-1555239736",
@@ -700,6 +687,84 @@
     "trackUrl": "https://music.apple.com/us/album/celebrate/1555239727?i=1555239755",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/27/95/88/279588e0-528c-c0fb-ab32-fe01e67869ad/886449110469.jpg/300x300bb.jpg",
     "trackId": "1555239755"
+  },
+  {
+    "id": "applemusic-1864882716",
+    "name": "UTOPIA",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EP.3 : One To All - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b5/d7/64/b5d7645e-4083-d3f9-a9f0-da78617fab4d/mzaf_6868143882214747754.plus.aac.p.m4a",
+    "duration": 239067,
+    "trackUrl": "https://music.apple.com/us/album/utopia/1864882715?i=1864882716",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
+    "trackId": "1864882716"
+  },
+  {
+    "id": "applemusic-1864882717",
+    "name": "ILLUSION",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EP.3 : One To All - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/23/b8/ed23b858-9416-12e7-7a49-f6c2fcb141a8/mzaf_1883482043929526561.plus.aac.p.m4a",
+    "duration": 210067,
+    "trackUrl": "https://music.apple.com/us/album/illusion/1864882715?i=1864882717",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
+    "trackId": "1864882717"
+  },
+  {
+    "id": "applemusic-1864882718",
+    "name": "Crescent",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EP.3 : One To All - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/6d/1d/a76d1d71-973d-fa97-fa9d-6f6dd89013c1/mzaf_9453637772753497605.plus.aac.p.m4a",
+    "duration": 46800,
+    "trackUrl": "https://music.apple.com/us/album/crescent/1864882715?i=1864882718",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
+    "trackId": "1864882718"
+  },
+  {
+    "id": "applemusic-1864882720",
+    "name": "WAVE",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EP.3 : One To All - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/49/57/d349579a-7797-0060-7611-215716c43007/mzaf_15018153439058722406.plus.aac.p.m4a",
+    "duration": 203933,
+    "trackUrl": "https://music.apple.com/us/album/wave/1864882715?i=1864882720",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
+    "trackId": "1864882720"
+  },
+  {
+    "id": "applemusic-1864882723",
+    "name": "AURORA",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EP.3 : One To All - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/e1/30/92e13062-df3d-de11-3b1d-0b6c51318b37/mzaf_3917411253839769584.plus.aac.p.m4a",
+    "duration": 204360,
+    "trackUrl": "https://music.apple.com/us/album/aurora/1864882715?i=1864882723",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
+    "trackId": "1864882723"
+  },
+  {
+    "id": "applemusic-1864882724",
+    "name": "Dancing Like Butterfly Wings",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "TREASURE EP.3 : One To All - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/75/da/0475da04-7675-85dc-a659-f1d95b4bfbd0/mzaf_16137619472742034492.plus.aac.p.m4a",
+    "duration": 182132,
+    "trackUrl": "https://music.apple.com/us/album/dancing-like-butterfly-wings/1864882715?i=1864882724",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/eb/d2/9febd229-ef40-51fd-e6d4-f243fa2bdc50/8809658312556_Cover.jpg/300x300bb.jpg",
+    "trackId": "1864882724"
   },
   {
     "id": "applemusic-1634355035",
@@ -869,45 +934,6 @@
     "trackUrl": "https://music.apple.com/us/album/enough/1778026618?i=1778027000",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fc/4a/85/fc4a8553-457b-6710-18e1-21a27865fb72/196872390780.jpg/300x300bb.jpg",
     "trackId": "1778027000"
-  },
-  {
-    "id": "applemusic-1597704713",
-    "name": "Turbulence",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "ZERO : FEVER EPILOGUE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/77/3b/3e773b16-24d2-fee4-dbb0-926bdfbad5b3/mzaf_11458819240841827380.plus.aac.p.m4a",
-    "duration": 199586,
-    "trackUrl": "https://music.apple.com/us/album/turbulence/1597704709?i=1597704713",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/90/3f/14903f1f-ed28-1be8-18c7-5abf159b6970/886449774609.jpg/300x300bb.jpg",
-    "trackId": "1597704713"
-  },
-  {
-    "id": "applemusic-1597704714",
-    "name": "Be With You",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "ZERO : FEVER EPILOGUE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/e7/a2/6be7a222-10a5-b50a-6373-90960e10be4e/mzaf_1591715552881700485.plus.aac.p.m4a",
-    "duration": 221568,
-    "trackUrl": "https://music.apple.com/us/album/be-with-you/1597704709?i=1597704714",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/90/3f/14903f1f-ed28-1be8-18c7-5abf159b6970/886449774609.jpg/300x300bb.jpg",
-    "trackId": "1597704714"
-  },
-  {
-    "id": "applemusic-1597704718",
-    "name": "The Letter",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "ZERO : FEVER EPILOGUE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/39/57/6d39570b-74c8-edd4-bac1-8389e734d588/mzaf_218876191961925071.plus.aac.p.m4a",
-    "duration": 229982,
-    "trackUrl": "https://music.apple.com/us/album/the-letter/1597704709?i=1597704718",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/90/3f/14903f1f-ed28-1be8-18c7-5abf159b6970/886449774609.jpg/300x300bb.jpg",
-    "trackId": "1597704718"
   },
   {
     "id": "applemusic-1864856537",
@@ -1326,6 +1352,45 @@
     "trackId": "1787234294"
   },
   {
+    "id": "applemusic-1597704713",
+    "name": "Turbulence",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO : FEVER EPILOGUE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3e/77/3b/3e773b16-24d2-fee4-dbb0-926bdfbad5b3/mzaf_11458819240841827380.plus.aac.p.m4a",
+    "duration": 199586,
+    "trackUrl": "https://music.apple.com/us/album/turbulence/1597704709?i=1597704713",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/90/3f/14903f1f-ed28-1be8-18c7-5abf159b6970/886449774609.jpg/300x300bb.jpg",
+    "trackId": "1597704713"
+  },
+  {
+    "id": "applemusic-1597704714",
+    "name": "Be With You",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO : FEVER EPILOGUE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/e7/a2/6be7a222-10a5-b50a-6373-90960e10be4e/mzaf_1591715552881700485.plus.aac.p.m4a",
+    "duration": 221568,
+    "trackUrl": "https://music.apple.com/us/album/be-with-you/1597704709?i=1597704714",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/90/3f/14903f1f-ed28-1be8-18c7-5abf159b6970/886449774609.jpg/300x300bb.jpg",
+    "trackId": "1597704714"
+  },
+  {
+    "id": "applemusic-1597704718",
+    "name": "The Letter",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "ZERO : FEVER EPILOGUE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/39/57/6d39570b-74c8-edd4-bac1-8389e734d588/mzaf_218876191961925071.plus.aac.p.m4a",
+    "duration": 229982,
+    "trackUrl": "https://music.apple.com/us/album/the-letter/1597704709?i=1597704718",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/14/90/3f/14903f1f-ed28-1be8-18c7-5abf159b6970/886449774609.jpg/300x300bb.jpg",
+    "trackId": "1597704718"
+  },
+  {
     "id": "applemusic-1705659106",
     "name": "Don't Stop",
     "artists": [
@@ -1508,58 +1573,6 @@
     "trackId": "1658942651"
   },
   {
-    "id": "applemusic-1850908476",
-    "name": "Choose",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "Choose - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/ac/80/d9ac80eb-a297-c416-13af-ba158b742011/mzaf_13719487300176404698.plus.aac.p.m4a",
-    "duration": 186015,
-    "trackUrl": "https://music.apple.com/us/album/choose/1850908458?i=1850908476",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/aa/52/aa/aa52aa73-8003-6b92-db11-bf200df38e6b/196873781846.jpg/300x300bb.jpg",
-    "trackId": "1850908476"
-  },
-  {
-    "id": "applemusic-1574275183",
-    "name": "Dreamers",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "Dreamers - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/e3/e3/eee3e3be-71cb-c2b5-894c-49e07f983750/mzaf_17210290067532058540.plus.aac.p.m4a",
-    "duration": 213013,
-    "trackUrl": "https://music.apple.com/us/album/dreamers/1574275182?i=1574275183",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/1c/2e/f81c2e10-8f55-f37e-e1cf-30d9847d7a4d/COCA-17907.jpg/300x300bb.jpg",
-    "trackId": "1574275183"
-  },
-  {
-    "id": "applemusic-1574275184",
-    "name": "Blue Summer",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "Dreamers - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a5/24/45/a524458c-41bd-ed40-6f8d-776112ffb35a/mzaf_5992101647682611978.plus.aac.p.m4a",
-    "duration": 211560,
-    "trackUrl": "https://music.apple.com/us/album/blue-summer/1574275182?i=1574275184",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/1c/2e/f81c2e10-8f55-f37e-e1cf-30d9847d7a4d/COCA-17907.jpg/300x300bb.jpg",
-    "trackId": "1574275184"
-  },
-  {
-    "id": "applemusic-1485352716",
-    "name": "HALA HALA (Traditional Treatment Mix)",
-    "artists": [
-      "ATEEZ"
-    ],
-    "album": "TREASURE EP. EXTRA : Shift the Map",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0e/95/5c/0e955c4a-96d1-fdcc-4f74-f5e583c5b4f3/mzaf_6016972485874641909.plus.aac.p.m4a",
-    "duration": 202080,
-    "trackUrl": "https://music.apple.com/us/album/hala-hala-traditional-treatment-mix/1485352559?i=1485352716",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/07/ce/da/07cedad9-598f-80f4-c12c-16fa72443914/COCP-17698.jpg/300x300bb.jpg",
-    "trackId": "1485352716"
-  },
-  {
     "id": "applemusic-1761284656",
     "name": "WORK Pt.4 - ATEEZ X G-Eazy",
     "artists": [
@@ -1586,17 +1599,30 @@
     "trackId": "1765291496"
   },
   {
-    "id": "applemusic-1498020113",
-    "name": "Declaration",
+    "id": "applemusic-1574275183",
+    "name": "Dreamers",
     "artists": [
       "ATEEZ"
     ],
-    "album": "Treasure EP. Map to Answer",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/35/de/2a35de36-c858-45f7-1497-f00e4aa9a3db/mzaf_17181351366145976491.plus.aac.p.m4a",
-    "duration": 81373,
-    "trackUrl": "https://music.apple.com/us/album/declaration/1498020112?i=1498020113",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/de/fd/fb/defdfb06-5624-610a-4476-700910fc4816/COCP-41063.jpg/300x300bb.jpg",
-    "trackId": "1498020113"
+    "album": "Dreamers - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ee/e3/e3/eee3e3be-71cb-c2b5-894c-49e07f983750/mzaf_17210290067532058540.plus.aac.p.m4a",
+    "duration": 213013,
+    "trackUrl": "https://music.apple.com/us/album/dreamers/1574275182?i=1574275183",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/1c/2e/f81c2e10-8f55-f37e-e1cf-30d9847d7a4d/COCA-17907.jpg/300x300bb.jpg",
+    "trackId": "1574275183"
+  },
+  {
+    "id": "applemusic-1574275184",
+    "name": "Blue Summer",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "Dreamers - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a5/24/45/a524458c-41bd-ed40-6f8d-776112ffb35a/mzaf_5992101647682611978.plus.aac.p.m4a",
+    "duration": 211560,
+    "trackUrl": "https://music.apple.com/us/album/blue-summer/1574275182?i=1574275184",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/1c/2e/f81c2e10-8f55-f37e-e1cf-30d9847d7a4d/COCA-17907.jpg/300x300bb.jpg",
+    "trackId": "1574275184"
   },
   {
     "id": "applemusic-1620856397",
@@ -1651,6 +1677,19 @@
     "trackId": "1581529682"
   },
   {
+    "id": "applemusic-1498020113",
+    "name": "Declaration",
+    "artists": [
+      "ATEEZ"
+    ],
+    "album": "Treasure EP. Map to Answer",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2a/35/de/2a35de36-c858-45f7-1497-f00e4aa9a3db/mzaf_17181351366145976491.plus.aac.p.m4a",
+    "duration": 81373,
+    "trackUrl": "https://music.apple.com/us/album/declaration/1498020112?i=1498020113",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/de/fd/fb/defdfb06-5624-610a-4476-700910fc4816/COCP-41063.jpg/300x300bb.jpg",
+    "trackId": "1498020113"
+  },
+  {
     "id": "applemusic-1656355457",
     "name": "Paradigm",
     "artists": [
@@ -1662,19 +1701,6 @@
     "trackUrl": "https://music.apple.com/us/album/paradigm/1656355239?i=1656355457",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/7f/d8/48/7fd84839-faff-de20-f554-4a7c3d4736ba/888272109023_Cover.jpg/300x300bb.jpg",
     "trackId": "1656355457"
-  },
-  {
-    "id": "applemusic-1825397974",
-    "name": "Almost",
-    "artists": [
-      "Bradley Simpson & ATEEZ"
-    ],
-    "album": "Almost - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/f8/94/54f89488-790d-54e8-f3a6-bc09ab6a3003/mzaf_7242478086941621754.plus.aac.p.m4a",
-    "duration": 196363,
-    "trackUrl": "https://music.apple.com/us/album/almost/1825397964?i=1825397974",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/da/d5/88/dad588bf-dd48-e37c-af59-ef385cc20325/196873387987.jpg/300x300bb.jpg",
-    "trackId": "1825397974"
   },
   {
     "id": "applemusic-1576494496",
@@ -1818,5 +1844,31 @@
     "trackUrl": "https://music.apple.com/kr/album/work-pt-2-ateez-x-don-diablo/1750204067?i=1750204068",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/70/21/1d70216e-a71e-6c9c-2510-c3d00ccd7939/888272135114_Cover.jpg/300x300bb.jpg",
     "trackId": "1750204068"
+  },
+  {
+    "id": "applemusic-1865327143",
+    "name": "Me Crazy",
+    "artists": [
+      "에이티즈 & 씰룩"
+    ],
+    "album": "씰룩(SEALOOK)2 (Original Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/22/60/0a2260aa-45b1-3c52-a4c9-4f6c3652d2b8/mzaf_16956881480955546595.plus.aac.p.m4a",
+    "duration": 148089,
+    "trackUrl": "https://music.apple.com/kr/album/me-crazy/1865327142?i=1865327143",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/8b/87/598b873d-08ca-c62d-4a64-c587c34f7f3f/cover_KM0024031_1.jpg/300x300bb.jpg",
+    "trackId": "1865327143"
+  },
+  {
+    "id": "applemusic-1865327145",
+    "name": "Your Journey",
+    "artists": [
+      "에이티즈 & 씰룩"
+    ],
+    "album": "씰룩(SEALOOK)2 (Original Soundtrack) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/a0/44/ada044cc-f4a5-ca3f-b825-1b837e4f93bb/mzaf_4113712592264800770.plus.aac.p.m4a",
+    "duration": 155986,
+    "trackUrl": "https://music.apple.com/kr/album/your-journey/1865327142?i=1865327145",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/8b/87/598b873d-08ca-c62d-4a64-c587c34f7f3f/cover_KM0024031_1.jpg/300x300bb.jpg",
+    "trackId": "1865327145"
   }
 ]

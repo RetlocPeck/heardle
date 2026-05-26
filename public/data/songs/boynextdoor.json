@@ -130,6 +130,19 @@
     "trackId": "1688299362"
   },
   {
+    "id": "applemusic-6764203482",
+    "name": "ddok ddok ddok",
+    "artists": [
+      "BOYNEXTDOOR"
+    ],
+    "album": "ddok ddok ddok - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f4/c4/19/f4c41915-03d4-38c4-a151-d13f9af863af/mzaf_14353149022066390065.plus.aac.p.m4a",
+    "duration": 155055,
+    "trackUrl": "https://music.apple.com/us/album/ddok-ddok-ddok/6764203481?i=6764203482",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/5e/dd/355edd73-3fdb-9eb8-e03e-eff76fde6ea1/823375143130_Cover.jpg/300x300bb.jpg",
+    "trackId": "6764203482"
+  },
+  {
     "id": "applemusic-1703655331",
     "name": "Crying",
     "artists": [
@@ -370,7 +383,7 @@
       "BOYNEXTDOOR"
     ],
     "album": "SAY CHEESE! - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c8/4b/44/c84b4436-c34f-7d92-7bac-bf4d8897f31e/mzaf_10413823130445229797.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/9e/e1/ee9ee187-8791-a00f-8ff1-bbfb7abc7d12/mzaf_10344573586288562777.plus.aac.p.m4a",
     "duration": 172000,
     "trackUrl": "https://music.apple.com/us/album/say-cheese/1849113580?i=1849113581",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/41/09/d041094a-8e9c-ceed-3a54-2265bd0fdfaa/25UM1IM67987.rgb.jpg/300x300bb.jpg",
@@ -383,7 +396,7 @@
       "BOYNEXTDOOR"
     ],
     "album": "BOYLIFE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/2f/ab/642fabb8-20d9-45db-6bdb-4886fe9b964e/mzaf_5675168401648664024.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/1e/b6/4e1eb6ab-cd6c-e495-4f22-9a0276d6b04c/mzaf_12230512467288025037.plus.aac.p.m4a",
     "duration": 158040,
     "trackUrl": "https://music.apple.com/us/album/count-to-love/1830959888?i=1830959889",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a7/ce/a3/a7cea3df-aa33-7476-7abf-8b90bfedc1cf/25UM1IM02123.rgb.jpg/300x300bb.jpg",
@@ -435,7 +448,7 @@
       "BOYNEXTDOOR"
     ],
     "album": "EXchange4, Pt. 1 (Original Soundtrack) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/f2/47/10f247c5-2f8c-0177-34fa-a784520f80d5/mzaf_1552528189695513122.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/5c/c5/385cc53f-73e4-080c-d742-a907e62f49e4/mzaf_18175420617570610915.plus.aac.p.m4a",
     "duration": 185000,
     "trackUrl": "https://music.apple.com/us/album/ruin-my-life/1843016487?i=1843016490",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f7/e7/62/f7e76212-75a6-bd42-7013-128b5651d693/888272161809_Cover.jpg/300x300bb.jpg",
@@ -453,5 +466,18 @@
     "trackUrl": "https://music.apple.com/us/album/lucky-charm/1754078720?i=1754078721",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1d/94/2a/1d942aa9-976f-e06c-114b-523d0789be76/5021732422170.jpg/300x300bb.jpg",
     "trackId": "1754078721"
+  },
+  {
+    "id": "applemusic-1893559926",
+    "name": "No Doubt",
+    "artists": [
+      "BOYNEXTDOOR"
+    ],
+    "album": "Perfect Crown (Original Soundtrack) Pt. 3 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/b9/0b/2fb90b99-6f46-9c49-f4c0-67b0cde55c83/mzaf_2693126870623343264.plus.aac.p.m4a",
+    "duration": 224000,
+    "trackUrl": "https://music.apple.com/us/album/no-doubt/1893559925?i=1893559926",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/e9/ed/0ae9ed14-0e70-96e5-9714-5c7e386cdb9e/cover_KM0024496_1.jpg/300x300bb.jpg",
+    "trackId": "1893559926"
   }
 ]

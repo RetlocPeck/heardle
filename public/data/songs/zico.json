@@ -195,71 +195,6 @@
     "trackId": "1487067377"
   },
   {
-    "id": "applemusic-1634866069",
-    "name": "Freak",
-    "artists": [
-      "ZICO"
-    ],
-    "album": "Grown Ass Kid - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/62/d2/07/62d20768-3c2d-ea9c-4ce1-48d98954acd0/mzaf_9864706013514597022.plus.aac.p.m4a",
-    "duration": 169973,
-    "trackUrl": "https://music.apple.com/us/album/freak/1634865705?i=1634866069",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634866069"
-  },
-  {
-    "id": "applemusic-1634866072",
-    "name": "SEOUL DRIFT",
-    "artists": [
-      "ZICO"
-    ],
-    "album": "Grown Ass Kid - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/73/94/b8/7394b8b3-a69b-c9a0-a3ca-d6d491a96104/mzaf_15320693884568476881.plus.aac.p.m4a",
-    "duration": 199627,
-    "trackUrl": "https://music.apple.com/us/album/seoul-drift/1634865705?i=1634866072",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634866072"
-  },
-  {
-    "id": "applemusic-1634866075",
-    "name": "Trash Talk (feat. CHANGMO)",
-    "artists": [
-      "ZICO"
-    ],
-    "album": "Grown Ass Kid - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2d/6d/e0/2d6de0c8-c497-45c8-9769-0517c7ca79f0/mzaf_4470040049695282314.plus.aac.p.m4a",
-    "duration": 186267,
-    "trackUrl": "https://music.apple.com/us/album/trash-talk-feat-changmo/1634865705?i=1634866075",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634866075"
-  },
-  {
-    "id": "applemusic-1634866080",
-    "name": "OMZ freestyle",
-    "artists": [
-      "ZICO"
-    ],
-    "album": "Grown Ass Kid - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/aa/63/94/aa639450-5b4e-6f59-b1da-e1eaf6a0810a/mzaf_326563774266925328.plus.aac.p.m4a",
-    "duration": 144067,
-    "trackUrl": "https://music.apple.com/us/album/omz-freestyle/1634865705?i=1634866080",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634866080"
-  },
-  {
-    "id": "applemusic-1634866082",
-    "name": "Nocturnal animals (feat. Zior Park)",
-    "artists": [
-      "ZICO"
-    ],
-    "album": "Grown Ass Kid - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8e/15/25/8e152591-182f-94df-c124-7895e1aa6f0e/mzaf_18068048841496914274.plus.aac.p.m4a",
-    "duration": 205347,
-    "trackUrl": "https://music.apple.com/us/album/nocturnal-animals-feat-zior-park/1634865705?i=1634866082",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
-    "trackId": "1634866082"
-  },
-  {
     "id": "applemusic-1629599093",
     "name": "OSAKA (From GRADATION, Vol. 4) [feat. ZICO]",
     "artists": [
@@ -455,6 +390,71 @@
     "trackId": "1487071068"
   },
   {
+    "id": "applemusic-1634866069",
+    "name": "Freak",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/62/d2/07/62d20768-3c2d-ea9c-4ce1-48d98954acd0/mzaf_9864706013514597022.plus.aac.p.m4a",
+    "duration": 169973,
+    "trackUrl": "https://music.apple.com/us/album/freak/1634865705?i=1634866069",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866069"
+  },
+  {
+    "id": "applemusic-1634866072",
+    "name": "SEOUL DRIFT",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/73/94/b8/7394b8b3-a69b-c9a0-a3ca-d6d491a96104/mzaf_15320693884568476881.plus.aac.p.m4a",
+    "duration": 199627,
+    "trackUrl": "https://music.apple.com/us/album/seoul-drift/1634865705?i=1634866072",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866072"
+  },
+  {
+    "id": "applemusic-1634866075",
+    "name": "Trash Talk (feat. CHANGMO)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2d/6d/e0/2d6de0c8-c497-45c8-9769-0517c7ca79f0/mzaf_4470040049695282314.plus.aac.p.m4a",
+    "duration": 186267,
+    "trackUrl": "https://music.apple.com/us/album/trash-talk-feat-changmo/1634865705?i=1634866075",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866075"
+  },
+  {
+    "id": "applemusic-1634866080",
+    "name": "OMZ freestyle",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/aa/63/94/aa639450-5b4e-6f59-b1da-e1eaf6a0810a/mzaf_326563774266925328.plus.aac.p.m4a",
+    "duration": 144067,
+    "trackUrl": "https://music.apple.com/us/album/omz-freestyle/1634865705?i=1634866080",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866080"
+  },
+  {
+    "id": "applemusic-1634866082",
+    "name": "Nocturnal animals (feat. Zior Park)",
+    "artists": [
+      "ZICO"
+    ],
+    "album": "Grown Ass Kid - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/8e/15/25/8e152591-182f-94df-c124-7895e1aa6f0e/mzaf_18068048841496914274.plus.aac.p.m4a",
+    "duration": 205347,
+    "trackUrl": "https://music.apple.com/us/album/nocturnal-animals-feat-zior-park/1634865705?i=1634866082",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/70/e3/b7/70e3b74c-d78d-580d-2107-2659b7f45034/196922115394_Cover.jpg/300x300bb.jpg",
+    "trackId": "1634866082"
+  },
+  {
     "id": "applemusic-1804659768",
     "name": "VENI VIDI VICI (feat. DJ Wegun)",
     "artists": [
@@ -585,19 +585,6 @@
     "trackId": "1715255664"
   },
   {
-    "id": "applemusic-1868933350",
-    "name": "Yin and Yang",
-    "artists": [
-      "ZICO & Crush"
-    ],
-    "album": "Yin and Yang - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/2b/d6/cd2bd6ef-cf29-07dc-27b6-8fe4617f62da/mzaf_4077045517236007708.plus.aac.p.m4a",
-    "duration": 127000,
-    "trackUrl": "https://music.apple.com/us/album/yin-and-yang/1868933349?i=1868933350",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/e9/7a/68e97a8e-2eca-f99d-657d-08ec11019e94/198704944116_Cover.jpg/300x300bb.jpg",
-    "trackId": "1868933350"
-  },
-  {
     "id": "applemusic-1645818855",
     "name": "Moneyflow (From \"Show Me the Money 4, Episode 3\")",
     "artists": [
@@ -609,6 +596,19 @@
     "trackUrl": "https://music.apple.com/us/album/moneyflow-from-show-me-the-money-4-episode-3/1645818853?i=1645818855",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/5c/5d/2f/5c5d2fa1-8ccd-fc54-2560-0a7d2e497fbc/8809435817403_Cover.jpg/300x300bb.jpg",
     "trackId": "1645818855"
+  },
+  {
+    "id": "applemusic-1868933350",
+    "name": "Yin and Yang",
+    "artists": [
+      "ZICO & Crush"
+    ],
+    "album": "Yin and Yang - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/2b/d6/cd2bd6ef-cf29-07dc-27b6-8fe4617f62da/mzaf_4077045517236007708.plus.aac.p.m4a",
+    "duration": 127000,
+    "trackUrl": "https://music.apple.com/us/album/yin-and-yang/1868933349?i=1868933350",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/e9/7a/68e97a8e-2eca-f99d-657d-08ec11019e94/198704944116_Cover.jpg/300x300bb.jpg",
+    "trackId": "1868933350"
   },
   {
     "id": "applemusic-1815236051",

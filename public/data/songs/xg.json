@@ -52,6 +52,32 @@
     "trackId": "1692289011"
   },
   {
+    "id": "applemusic-1624618717",
+    "name": "MASCARA",
+    "artists": [
+      "XG"
+    ],
+    "album": "MASCARA - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/42/e6/3842e6b1-2e9e-db3d-23ac-98f32721369e/mzaf_8764032397281169425.plus.aac.p.m4a",
+    "duration": 191440,
+    "trackUrl": "https://music.apple.com/us/album/mascara/1624618716?i=1624618717",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b3/83/c1/b383c1eb-a2aa-0bb1-c77f-b9fef0d19e68/ANTCD-A0000007238.jpg/300x300bb.jpg",
+    "trackId": "1624618717"
+  },
+  {
+    "id": "applemusic-1757581944",
+    "name": "SOMETHING AIN'T RIGHT",
+    "artists": [
+      "XG"
+    ],
+    "album": "SOMETHING AIN'T RIGHT - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/13/c5/5f13c5ae-73b4-b151-3f6f-fea66479af17/mzaf_14584513978478153173.plus.aac.p.m4a",
+    "duration": 190667,
+    "trackUrl": "https://music.apple.com/us/album/something-aint-right/1757581943?i=1757581944",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/75/82/ea/7582eab4-bc79-a418-3909-457d34779d91/ANTCD-A0000014081.jpg/300x300bb.jpg",
+    "trackId": "1757581944"
+  },
+  {
     "id": "applemusic-1861009520",
     "name": "GALA",
     "artists": [
@@ -169,6 +195,19 @@
     "trackId": "1861009829"
   },
   {
+    "id": "applemusic-1609402381",
+    "name": "Tippy Toes",
+    "artists": [
+      "XG"
+    ],
+    "album": "Tippy Toes - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/30/7c/83307c0a-fcb8-d1a7-9dd2-78bc949e8e20/mzaf_13633514529670391277.plus.aac.p.m4a",
+    "duration": 188213,
+    "trackUrl": "https://music.apple.com/us/album/tippy-toes/1609402380?i=1609402381",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b8/5a/f6/b85af686-80fa-6dc5-9cfd-cb2681c43f67/ANTCD-A0000005398.jpg/300x300bb.jpg",
+    "trackId": "1609402381"
+  },
+  {
     "id": "applemusic-1775445627",
     "name": "HOWL",
     "artists": [
@@ -208,19 +247,6 @@
     "trackId": "1775445630"
   },
   {
-    "id": "applemusic-1775445631",
-    "name": "SOMETHING AIN'T RIGHT",
-    "artists": [
-      "XG"
-    ],
-    "album": "AWE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/09/4f/d6/094fd624-f984-229f-a903-776a12592b02/mzaf_619756648410088497.plus.aac.p.m4a",
-    "duration": 190667,
-    "trackUrl": "https://music.apple.com/us/album/something-aint-right/1775445626?i=1775445631",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
-    "trackId": "1775445631"
-  },
-  {
     "id": "applemusic-1775445632",
     "name": "IN THE RAIN",
     "artists": [
@@ -245,19 +271,6 @@
     "trackUrl": "https://music.apple.com/us/album/is-this-love/1775445626?i=1775445637",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/69/ce/ae69ce7b-6007-c83a-f692-93ebfca55449/ANTCD-A0000014930.jpg/300x300bb.jpg",
     "trackId": "1775445637"
-  },
-  {
-    "id": "applemusic-1624618717",
-    "name": "MASCARA",
-    "artists": [
-      "XG"
-    ],
-    "album": "MASCARA - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/38/42/e6/3842e6b1-2e9e-db3d-23ac-98f32721369e/mzaf_8764032397281169425.plus.aac.p.m4a",
-    "duration": 191440,
-    "trackUrl": "https://music.apple.com/us/album/mascara/1624618716?i=1624618717",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b3/83/c1/b383c1eb-a2aa-0bb1-c77f-b9fef0d19e68/ANTCD-A0000007238.jpg/300x300bb.jpg",
-    "trackId": "1624618717"
   },
   {
     "id": "applemusic-1703356591",
@@ -338,19 +351,6 @@
     "trackId": "1703356827"
   },
   {
-    "id": "applemusic-1609402381",
-    "name": "Tippy Toes",
-    "artists": [
-      "XG"
-    ],
-    "album": "Tippy Toes - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/30/7c/83307c0a-fcb8-d1a7-9dd2-78bc949e8e20/mzaf_13633514529670391277.plus.aac.p.m4a",
-    "duration": 188213,
-    "trackUrl": "https://music.apple.com/us/album/tippy-toes/1609402380?i=1609402381",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b8/5a/f6/b85af686-80fa-6dc5-9cfd-cb2681c43f67/ANTCD-A0000005398.jpg/300x300bb.jpg",
-    "trackId": "1609402381"
-  },
-  {
     "id": "applemusic-1717738435",
     "name": "WINTER WITHOUT YOU",
     "artists": [
@@ -388,6 +388,19 @@
     "trackUrl": "https://music.apple.com/us/album/left-right-remixx-feat-ciara-jackson-wang-prod-by-jakops/1684959222?i=1684959223",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/27/b4/95/27b495de-2103-94b2-2297-c251bcde1a2c/ANTCD-A0000010191.jpg/300x300bb.jpg",
     "trackId": "1684959223"
+  },
+  {
+    "id": "applemusic-1811554710",
+    "name": "MILLION PLACES",
+    "artists": [
+      "XG"
+    ],
+    "album": "MILLION PLACES - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/a8/24/50a824eb-879c-3005-7de9-18da01b9f010/mzaf_6924875425893301200.plus.aac.p.m4a",
+    "duration": 204320,
+    "trackUrl": "https://music.apple.com/us/album/million-places/1811554707?i=1811554710",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/29/47/6329477b-eab4-be29-564f-d03eb337fe72/ANTCD-A0000016665.jpg/300x300bb.jpg",
+    "trackId": "1811554710"
   },
   {
     "id": "applemusic-1791750110",
@@ -494,19 +507,6 @@
     "trackId": "1791750117"
   },
   {
-    "id": "applemusic-1811554710",
-    "name": "MILLION PLACES",
-    "artists": [
-      "XG"
-    ],
-    "album": "MILLION PLACES - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7f/5c/f6/7f5cf6b1-b830-6dd1-2beb-6982e6a39893/mzaf_5477094223316210902.plus.aac.p.m4a",
-    "duration": 204320,
-    "trackUrl": "https://music.apple.com/us/album/million-places/1811554707?i=1811554710",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/63/29/47/6329477b-eab4-be29-564f-d03eb337fe72/ANTCD-A0000016665.jpg/300x300bb.jpg",
-    "trackId": "1811554710"
-  },
-  {
     "id": "applemusic-1804320426",
     "name": "IN THE RAIN x XDM",
     "artists": [
@@ -518,5 +518,18 @@
     "trackUrl": "https://music.apple.com/us/album/in-the-rain-x-xdm/1804320421?i=1804320426",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/76/48/d0/7648d0c1-de88-1bf4-4b47-70e2e755ce99/ANTCD-A0000016489.jpg/300x300bb.jpg",
     "trackId": "1804320426"
+  },
+  {
+    "id": "applemusic-1768001000",
+    "name": "WOKE UP REMIXX (FEAT. Jay Park, OZworld, AKLO, Paloalto, VERBAL, Awich, Tak, Dok2)",
+    "artists": [
+      "XG"
+    ],
+    "album": "WOKE UP REMIXX (PROD BY JAKOPS) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/84/85/55848597-555d-f224-4ff3-4bad4d3d4edd/mzaf_4189823588137463700.plus.aac.p.m4a",
+    "duration": 379292,
+    "trackUrl": "https://music.apple.com/us/album/woke-up-remixx-feat-jay-park-ozworld-aklo-paloalto/1768000816?i=1768001000",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a8/6b/d3/a86bd3d1-a6d5-7ec5-7f92-7fa0834f7b72/ANTCD-A0000014652.jpg/300x300bb.jpg",
+    "trackId": "1768001000"
   }
 ]

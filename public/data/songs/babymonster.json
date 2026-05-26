@@ -221,6 +221,58 @@
     "trackId": "1822714116"
   },
   {
+    "id": "applemusic-6763988597",
+    "name": "MOON",
+    "artists": [
+      "BABYMONSTER"
+    ],
+    "album": "춤 (CHOOM) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/a2/db/c8a2dbcf-f3ce-ed8f-0722-003a283afdd9/mzaf_11128679461237610459.plus.aac.p.m4a",
+    "duration": 166040,
+    "trackUrl": "https://music.apple.com/us/album/moon/1895588322?i=6763988597",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/cb/8f/01cb8f4b-e6da-9898-6c66-c77fa5bc3c48/8809519881283_cover.jpg/300x300bb.jpg",
+    "trackId": "6763988597"
+  },
+  {
+    "id": "applemusic-6763988598",
+    "name": "CHOOM",
+    "artists": [
+      "BABYMONSTER"
+    ],
+    "album": "춤 (CHOOM) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/e8/06/ace80652-c312-803f-5b16-96e0e3546a2e/mzaf_13740333053064240650.plus.aac.p.m4a",
+    "duration": 178880,
+    "trackUrl": "https://music.apple.com/us/album/choom/1895588322?i=6763988598",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/cb/8f/01cb8f4b-e6da-9898-6c66-c77fa5bc3c48/8809519881283_cover.jpg/300x300bb.jpg",
+    "trackId": "6763988598"
+  },
+  {
+    "id": "applemusic-6763988599",
+    "name": "I LIKE IT",
+    "artists": [
+      "BABYMONSTER"
+    ],
+    "album": "춤 (CHOOM) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/e8/f4/ece8f4e7-c33d-d4fe-e862-158f82affefc/mzaf_1403348374366112631.plus.aac.p.m4a",
+    "duration": 206587,
+    "trackUrl": "https://music.apple.com/us/album/i-like-it/1895588322?i=6763988599",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/cb/8f/01cb8f4b-e6da-9898-6c66-c77fa5bc3c48/8809519881283_cover.jpg/300x300bb.jpg",
+    "trackId": "6763988599"
+  },
+  {
+    "id": "applemusic-6763988600",
+    "name": "LOCKED IN",
+    "artists": [
+      "BABYMONSTER"
+    ],
+    "album": "춤 (CHOOM) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b1/c3/6b/b1c36bd9-205a-7735-3a3d-efc8775730c5/mzaf_13712888808278087163.plus.aac.p.m4a",
+    "duration": 181813,
+    "trackUrl": "https://music.apple.com/us/album/locked-in/1895588322?i=6763988600",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/01/cb/8f/01cb8f4b-e6da-9898-6c66-c77fa5bc3c48/8809519881283_cover.jpg/300x300bb.jpg",
+    "trackId": "6763988600"
+  },
+  {
     "id": "applemusic-1727482938",
     "name": "Stuck In The Middle",
     "artists": [

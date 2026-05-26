@@ -728,84 +728,6 @@
     "trackId": "1738879375"
   },
   {
-    "id": "applemusic-1763778150",
-    "name": "Classified",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "Dreamy Resonance - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/4d/86/b94d8644-dcfd-a93a-2d19-b881dbb1bdc2/mzaf_6241844534563998756.plus.aac.p.m4a",
-    "duration": 194840,
-    "trackUrl": "https://music.apple.com/us/album/classified/1763778149?i=1763778150",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
-    "trackId": "1763778150"
-  },
-  {
-    "id": "applemusic-1763778151",
-    "name": "Start Up",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "Dreamy Resonance - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/bf/37/24bf37c6-5741-1d6e-a9d7-70d541e24f3e/mzaf_7941455724306332186.plus.aac.p.m4a",
-    "duration": 199520,
-    "trackUrl": "https://music.apple.com/us/album/start-up/1763778149?i=1763778151",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
-    "trackId": "1763778151"
-  },
-  {
-    "id": "applemusic-1763778152",
-    "name": "La La La La (Mimi, SeungHee)",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "Dreamy Resonance - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/a7/b3/a7a7b38b-1b9a-ecc4-eed9-e2999b7fd1a2/mzaf_8404963931154996992.plus.aac.p.m4a",
-    "duration": 184920,
-    "trackUrl": "https://music.apple.com/us/album/la-la-la-la-mimi-seunghee/1763778149?i=1763778152",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
-    "trackId": "1763778152"
-  },
-  {
-    "id": "applemusic-1763778153",
-    "name": "Sway (YOU & I) [Yubin, Arin]",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "Dreamy Resonance - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/7e/b0/fc7eb036-bd87-3c70-0f07-e5a4c6ca1cdc/mzaf_12754839863586267773.plus.aac.p.m4a",
-    "duration": 186347,
-    "trackUrl": "https://music.apple.com/us/album/sway-you-i-yubin-arin/1763778149?i=1763778153",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
-    "trackId": "1763778153"
-  },
-  {
-    "id": "applemusic-1763778154",
-    "name": "Love Me Like You Do (HyoJung, YooA)",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "Dreamy Resonance - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/08/3e/f8083eb2-990c-82a1-60ab-1872ed62c776/mzaf_14847717110241468432.plus.aac.p.m4a",
-    "duration": 197760,
-    "trackUrl": "https://music.apple.com/us/album/love-me-like-you-do-hyojung-yooa/1763778149?i=1763778154",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
-    "trackId": "1763778154"
-  },
-  {
-    "id": "applemusic-1763778155",
-    "name": "Heavenly",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "Dreamy Resonance - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/1f/e5/0b1fe592-7ddd-57ef-1a00-24c40dc9cd9f/mzaf_7319050479672987142.plus.aac.p.m4a",
-    "duration": 223787,
-    "trackUrl": "https://music.apple.com/us/album/heavenly/1763778149?i=1763778155",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
-    "trackId": "1763778155"
-  },
-  {
     "id": "applemusic-1533071961",
     "name": "Etoile",
     "artists": [
@@ -817,19 +739,6 @@
     "trackUrl": "https://music.apple.com/us/album/etoile/1533071957?i=1533071961",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/21/7c/f8/217cf833-d11e-14cb-5a30-7a8634910ba3/4547366477153.jpg/300x300bb.jpg",
     "trackId": "1533071961"
-  },
-  {
-    "id": "applemusic-1621489290",
-    "name": "Eyes, Nose, Lips",
-    "artists": [
-      "Park Bom"
-    ],
-    "album": "Queendom < Box of Pandora >, Pt. 2 - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d3/7e/8c/d37e8c0a-5b8b-d64c-46f2-5d90a7da48c4/mzaf_1516009268254064552.plus.aac.p.m4a",
-    "duration": 237389,
-    "trackUrl": "https://music.apple.com/us/album/eyes-nose-lips/1621489284?i=1621489290",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f5/d7/ca/f5d7ca5d-2350-6849-508e-96b1e714895a/8809658319357_Cover.jpg/300x300bb.jpg",
-    "trackId": "1621489290"
   },
   {
     "id": "applemusic-1738878614",
@@ -895,6 +804,19 @@
     "trackUrl": "https://music.apple.com/us/album/round-about/1738878612?i=1738878889",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7a/1f/b8/7a1fb8c6-b936-3c0e-2b82-518cc042c0bb/cover_KM0003735_1.jpg/300x300bb.jpg",
     "trackId": "1738878889"
+  },
+  {
+    "id": "applemusic-1621489290",
+    "name": "Eyes, Nose, Lips",
+    "artists": [
+      "Park Bom"
+    ],
+    "album": "Queendom < Box of Pandora >, Pt. 2 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/d3/7e/8c/d37e8c0a-5b8b-d64c-46f2-5d90a7da48c4/mzaf_1516009268254064552.plus.aac.p.m4a",
+    "duration": 237389,
+    "trackUrl": "https://music.apple.com/us/album/eyes-nose-lips/1621489284?i=1621489290",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/f5/d7/ca/f5d7ca5d-2350-6849-508e-96b1e714895a/8809658319357_Cover.jpg/300x300bb.jpg",
+    "trackId": "1621489290"
   },
   {
     "id": "applemusic-1738880064",
@@ -1027,6 +949,84 @@
     "trackId": "1738879024"
   },
   {
+    "id": "applemusic-1763778150",
+    "name": "Classified",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "Dreamy Resonance - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/4d/86/b94d8644-dcfd-a93a-2d19-b881dbb1bdc2/mzaf_6241844534563998756.plus.aac.p.m4a",
+    "duration": 194840,
+    "trackUrl": "https://music.apple.com/us/album/classified/1763778149?i=1763778150",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
+    "trackId": "1763778150"
+  },
+  {
+    "id": "applemusic-1763778151",
+    "name": "Start Up",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "Dreamy Resonance - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/bf/37/24bf37c6-5741-1d6e-a9d7-70d541e24f3e/mzaf_7941455724306332186.plus.aac.p.m4a",
+    "duration": 199520,
+    "trackUrl": "https://music.apple.com/us/album/start-up/1763778149?i=1763778151",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
+    "trackId": "1763778151"
+  },
+  {
+    "id": "applemusic-1763778152",
+    "name": "La La La La (Mimi, SeungHee)",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "Dreamy Resonance - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/a7/b3/a7a7b38b-1b9a-ecc4-eed9-e2999b7fd1a2/mzaf_8404963931154996992.plus.aac.p.m4a",
+    "duration": 184920,
+    "trackUrl": "https://music.apple.com/us/album/la-la-la-la-mimi-seunghee/1763778149?i=1763778152",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
+    "trackId": "1763778152"
+  },
+  {
+    "id": "applemusic-1763778153",
+    "name": "Sway (YOU & I) [Yubin, Arin]",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "Dreamy Resonance - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/7e/b0/fc7eb036-bd87-3c70-0f07-e5a4c6ca1cdc/mzaf_12754839863586267773.plus.aac.p.m4a",
+    "duration": 186347,
+    "trackUrl": "https://music.apple.com/us/album/sway-you-i-yubin-arin/1763778149?i=1763778153",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
+    "trackId": "1763778153"
+  },
+  {
+    "id": "applemusic-1763778154",
+    "name": "Love Me Like You Do (HyoJung, YooA)",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "Dreamy Resonance - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/08/3e/f8083eb2-990c-82a1-60ab-1872ed62c776/mzaf_14847717110241468432.plus.aac.p.m4a",
+    "duration": 197760,
+    "trackUrl": "https://music.apple.com/us/album/love-me-like-you-do-hyojung-yooa/1763778149?i=1763778154",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
+    "trackId": "1763778154"
+  },
+  {
+    "id": "applemusic-1763778155",
+    "name": "Heavenly",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "Dreamy Resonance - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/1f/e5/0b1fe592-7ddd-57ef-1a00-24c40dc9cd9f/mzaf_7319050479672987142.plus.aac.p.m4a",
+    "duration": 223787,
+    "trackUrl": "https://music.apple.com/us/album/heavenly/1763778149?i=1763778155",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/38/df/c938dfe5-cc0d-d73d-047a-cdcd6d276f62/cover_KM0020283_1.png/300x300bb.jpg",
+    "trackId": "1763778155"
+  },
+  {
     "id": "applemusic-1738878522",
     "name": "OH MY GIRL!",
     "artists": [
@@ -1105,30 +1105,30 @@
     "trackId": "1760494575"
   },
   {
-    "id": "applemusic-1536031523",
+    "id": "applemusic-1538736359",
     "name": "Nonstop Japanese Version",
     "artists": [
       "OH MY GIRL"
     ],
-    "album": "Nonstop (Japanese Version) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/fa/9d/e3/fa9de3b6-b0b9-b907-4e58-225fc00e2fbc/mzaf_5311229992154112070.plus.aac.p.m4a",
-    "duration": 202532,
-    "trackUrl": "https://music.apple.com/us/album/nonstop-japanese-version/1536031522?i=1536031523",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/cb/72/7dcb727e-c67c-5dda-abd4-cc057b2aed73/jacket_BVXX01340B00Z_550.jpg/300x300bb.jpg",
-    "trackId": "1536031523"
+    "album": "Etoile / Nonstop Japanese version Special Edition - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/4e/62/944e6215-b03a-b400-3fd6-b506dfca8eea/mzaf_15796821483044762776.plus.aac.p.m4a",
+    "duration": 204533,
+    "trackUrl": "https://music.apple.com/us/album/nonstop-japanese-version/1538736357?i=1538736359",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ac/47/d9/ac47d98c-68cf-1d9e-8391-08fa2324dff3/4547366483871.jpg/300x300bb.jpg",
+    "trackId": "1538736359"
   },
   {
-    "id": "applemusic-1535433315",
+    "id": "applemusic-1538736360",
     "name": "Etoile Korean Version",
     "artists": [
       "OH MY GIRL"
     ],
-    "album": "Etoile Korean Version - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6c/7b/55/6c7b555c-2678-75b6-91ec-e63946bbbd61/mzaf_6631076690601380225.plus.aac.p.m4a",
-    "duration": 243055,
-    "trackUrl": "https://music.apple.com/us/album/etoile-korean-version/1535433314?i=1535433315",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/81/7e/3f/817e3f0c-6b4e-939d-52ab-138a8c0e7d05/dj.zfnubajr.jpg/300x300bb.jpg",
-    "trackId": "1535433315"
+    "album": "Etoile / Nonstop Japanese version Special Edition - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/83/51/fb83514c-6423-5d95-1a45-664a03165de7/mzaf_15190747273717079276.plus.aac.p.m4a",
+    "duration": 243547,
+    "trackUrl": "https://music.apple.com/us/album/etoile-korean-version/1538736357?i=1538736360",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ac/47/d9/ac47d98c-68cf-1d9e-8391-08fa2324dff3/4547366483871.jpg/300x300bb.jpg",
+    "trackId": "1538736360"
   },
   {
     "id": "applemusic-1538736361",
@@ -1196,32 +1196,6 @@
     "trackId": "1525650163"
   },
   {
-    "id": "applemusic-1468233161",
-    "name": "Touch My Heart",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "OH MY GIRL Japan 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/f0/41/61f04102-0b6c-9362-3730-40c6814c3eec/mzaf_9278147913318266760.plus.aac.p.m4a",
-    "duration": 209067,
-    "trackUrl": "https://music.apple.com/us/album/touch-my-heart/1468232874?i=1468233161",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4b/43/d7/4b43d778-6eb8-d395-fc15-7f6f1f1a563a/886447797686.jpg/300x300bb.jpg",
-    "trackId": "1468233161"
-  },
-  {
-    "id": "applemusic-1468233162",
-    "name": "Dakishimeruno",
-    "artists": [
-      "OH MY GIRL"
-    ],
-    "album": "OH MY GIRL Japan 2nd Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/ba/db/fcbadb4a-6e15-9a1d-a91f-0d067db2ea14/mzaf_13726107552499830907.plus.aac.p.m4a",
-    "duration": 246173,
-    "trackUrl": "https://music.apple.com/us/album/dakishimeruno/1468232874?i=1468233162",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4b/43/d7/4b43d778-6eb8-d395-fc15-7f6f1f1a563a/886447797686.jpg/300x300bb.jpg",
-    "trackId": "1468233162"
-  },
-  {
     "id": "applemusic-1491010479",
     "name": "Eternally",
     "artists": [
@@ -1274,6 +1248,32 @@
     "trackId": "1491010498"
   },
   {
+    "id": "applemusic-1468233161",
+    "name": "Touch My Heart",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL Japan 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/61/f0/41/61f04102-0b6c-9362-3730-40c6814c3eec/mzaf_9278147913318266760.plus.aac.p.m4a",
+    "duration": 209067,
+    "trackUrl": "https://music.apple.com/us/album/touch-my-heart/1468232874?i=1468233161",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4b/43/d7/4b43d778-6eb8-d395-fc15-7f6f1f1a563a/886447797686.jpg/300x300bb.jpg",
+    "trackId": "1468233161"
+  },
+  {
+    "id": "applemusic-1468233162",
+    "name": "Dakishimeruno",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL Japan 2nd Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fc/ba/db/fcbadb4a-6e15-9a1d-a91f-0d067db2ea14/mzaf_13726107552499830907.plus.aac.p.m4a",
+    "duration": 246173,
+    "trackUrl": "https://music.apple.com/us/album/dakishimeruno/1468232874?i=1468233162",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4b/43/d7/4b43d778-6eb8-d395-fc15-7f6f1f1a563a/886447797686.jpg/300x300bb.jpg",
+    "trackId": "1468233162"
+  },
+  {
     "id": "applemusic-1584969079",
     "name": "Dun Dun Dance Japanese Version",
     "artists": [
@@ -1306,7 +1306,7 @@
       "OH MY GIRL"
     ],
     "album": "Weather Diary - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cd/18/b0/cd18b065-cf7f-127b-9862-788f58e21dfa/mzaf_5293812837186126006.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/46/d1/73/46d173d3-b79e-bcb6-b297-90c3392c22ea/mzaf_7418943299010706311.plus.aac.p.m4a",
     "duration": 184027,
     "trackUrl": "https://music.apple.com/us/album/weather-diary/1827385599?i=1827385600",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/50/e1/9150e176-36c2-0d9e-76ce-b6dce1845597/cover_KM0023220_1.jpg/300x300bb.jpg",
@@ -1376,5 +1376,135 @@
     "trackUrl": "https://music.apple.com/us/album/boggle-boggle/1556825358?i=1556825360",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8a/38/99/8a3899ec-d9f8-384c-2e19-3adc33503c6f/210113.jpg/300x300bb.jpg",
     "trackId": "1556825360"
+  },
+  {
+    "id": "applemusic-1538115290",
+    "name": "Secret Garden Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN DEBUT ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/02/89/25/02892578-9ba1-b094-d16f-7b797e9645d2/mzaf_6617288968482590231.plus.aac.p.m4a",
+    "duration": 244533,
+    "trackUrl": "https://music.apple.com/jp/album/secret-garden-japanese-ver/1538115288?i=1538115290",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/33/b3/5033b375-d796-9a00-79c2-8378b6353334/jacket_BVCL00939B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115290"
+  },
+  {
+    "id": "applemusic-1538115291",
+    "name": "Coloring Book Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN DEBUT ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/3a/94/c1/3a94c185-b22a-8d15-b3af-3d8304c8d69f/mzaf_7763028259303447455.plus.aac.p.m4a",
+    "duration": 187453,
+    "trackUrl": "https://music.apple.com/jp/album/coloring-book-japanese-ver/1538115288?i=1538115291",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/33/b3/5033b375-d796-9a00-79c2-8378b6353334/jacket_BVCL00939B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115291"
+  },
+  {
+    "id": "applemusic-1538115292",
+    "name": "WINDY DAY Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN DEBUT ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e9/95/9a/e9959aa0-6771-4390-2180-49d4d605c890/mzaf_13771944213955666965.plus.aac.p.m4a",
+    "duration": 249867,
+    "trackUrl": "https://music.apple.com/jp/album/windy-day-japanese-ver/1538115288?i=1538115292",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/33/b3/5033b375-d796-9a00-79c2-8378b6353334/jacket_BVCL00939B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115292"
+  },
+  {
+    "id": "applemusic-1538115293",
+    "name": "LIAR LIAR Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN DEBUT ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/23/ee/b7/23eeb7e7-08c9-f5f0-b111-2576cefeefc9/mzaf_15245585786431060567.plus.aac.p.m4a",
+    "duration": 194787,
+    "trackUrl": "https://music.apple.com/jp/album/liar-liar-japanese-ver/1538115288?i=1538115293",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/33/b3/5033b375-d796-9a00-79c2-8378b6353334/jacket_BVCL00939B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115293"
+  },
+  {
+    "id": "applemusic-1538115294",
+    "name": "CLOSER Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN DEBUT ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/5d/3f/f6/5d3ff679-c09e-c1a3-f2dd-c1461cc8839a/mzaf_4856070145202994959.plus.aac.p.m4a",
+    "duration": 207547,
+    "trackUrl": "https://music.apple.com/jp/album/closer-japanese-ver/1538115288?i=1538115294",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/33/b3/5033b375-d796-9a00-79c2-8378b6353334/jacket_BVCL00939B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115294"
+  },
+  {
+    "id": "applemusic-1538115295",
+    "name": "CUPID Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN DEBUT ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e3/f9/b5/e3f9b500-ef14-e02e-7c4e-3bd361d02acc/mzaf_9023089246212903330.plus.aac.p.m4a",
+    "duration": 209173,
+    "trackUrl": "https://music.apple.com/jp/album/cupid-japanese-ver/1538115288?i=1538115295",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/33/b3/5033b375-d796-9a00-79c2-8378b6353334/jacket_BVCL00939B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115295"
+  },
+  {
+    "id": "applemusic-1538115509",
+    "name": "A-ing Japanese ver. feat.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN 2nd ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4b/99/b4/4b99b44b-664a-5f26-ba44-e7f1dafbcd0d/mzaf_4866499574908215838.plus.aac.p.m4a",
+    "duration": 213213,
+    "trackUrl": "https://music.apple.com/jp/album/a-ing-japanese-ver-feat/1538115507?i=1538115509",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/da/12/d8da12b8-eb03-875b-f183-356163d367b8/jacket_BVCL00971B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115509"
+  },
+  {
+    "id": "applemusic-1538115511",
+    "name": "Twilight Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN 2nd ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/22/ca/7e/22ca7e65-3c01-38a2-4a90-a907f2acf4ca/mzaf_10249523323106554079.plus.aac.p.m4a",
+    "duration": 215080,
+    "trackUrl": "https://music.apple.com/jp/album/twilight-japanese-ver/1538115507?i=1538115511",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/da/12/d8da12b8-eb03-875b-f183-356163d367b8/jacket_BVCL00971B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115511"
+  },
+  {
+    "id": "applemusic-1538115512",
+    "name": "Sixteen Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "OH MY GIRL JAPAN 2nd ALBUM",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f0/6f/94/f06f942b-b5fb-769d-e2e2-5babd15aec92/mzaf_11489066112805581230.plus.aac.p.m4a",
+    "duration": 202813,
+    "trackUrl": "https://music.apple.com/jp/album/sixteen-japanese-ver/1538115507?i=1538115512",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/da/12/d8da12b8-eb03-875b-f183-356163d367b8/jacket_BVCL00971B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538115512"
+  },
+  {
+    "id": "applemusic-1538116307",
+    "name": "BUNGEE Japanese ver.",
+    "artists": [
+      "OH MY GIRL"
+    ],
+    "album": "JAPAN 3rd ALBUM  「Eternally」",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/07/b7/9c/07b79ccf-8c6b-50a8-721f-70332296a81d/mzaf_10714840973747719624.plus.aac.p.m4a",
+    "duration": 178587,
+    "trackUrl": "https://music.apple.com/jp/album/bungee-japanese-ver/1538116306?i=1538116307",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/43/45/ce43453e-78a8-64da-be35-50ccdfd6dc98/jacket_BVCL01034B00Z_550.jpg/300x300bb.jpg",
+    "trackId": "1538116307"
   }
 ]

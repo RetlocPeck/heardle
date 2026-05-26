@@ -13,6 +13,58 @@
     "trackId": "1486274788"
   },
   {
+    "id": "applemusic-1550034890",
+    "name": "I'm Not Cool",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "I'm Not Cool - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8a/85/01/8a8501b4-fb22-cd95-48cf-5ea995829b51/mzaf_18401185554957421488.plus.aac.p.m4a",
+    "duration": 174173,
+    "trackUrl": "https://music.apple.com/us/album/im-not-cool/1550034889?i=1550034890",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
+    "trackId": "1550034890"
+  },
+  {
+    "id": "applemusic-1550034891",
+    "name": "GOOD GIRL",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "I'm Not Cool - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9a/62/b7/9a62b7e1-1f17-b86a-cf27-cc95d8f1d230/mzaf_12304197596060781034.plus.aac.p.m4a",
+    "duration": 185400,
+    "trackUrl": "https://music.apple.com/us/album/good-girl/1550034889?i=1550034891",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
+    "trackId": "1550034891"
+  },
+  {
+    "id": "applemusic-1550034892",
+    "name": "Show Window",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "I'm Not Cool - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8b/7f/ff/8b7fff91-34f7-af17-b7e9-f42f09d625eb/mzaf_1635543612954506781.plus.aac.p.m4a",
+    "duration": 190147,
+    "trackUrl": "https://music.apple.com/us/album/show-window/1550034889?i=1550034892",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
+    "trackId": "1550034892"
+  },
+  {
+    "id": "applemusic-1550034893",
+    "name": "Party, Feel, Love (feat. DAWN)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "I'm Not Cool - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/86/8b/45868b5a-1c8e-f6d5-207d-a71bfaef6893/mzaf_7967166701283583275.plus.aac.p.m4a",
+    "duration": 209560,
+    "trackUrl": "https://music.apple.com/us/album/party-feel-love-feat-dawn/1550034889?i=1550034893",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
+    "trackId": "1550034893"
+  },
+  {
     "id": "applemusic-1423421229",
     "name": "U & Me",
     "artists": [
@@ -143,58 +195,6 @@
     "trackId": "1344606218"
   },
   {
-    "id": "applemusic-1550034890",
-    "name": "I'm Not Cool",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "I'm Not Cool - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8a/85/01/8a8501b4-fb22-cd95-48cf-5ea995829b51/mzaf_18401185554957421488.plus.aac.p.m4a",
-    "duration": 174173,
-    "trackUrl": "https://music.apple.com/us/album/im-not-cool/1550034889?i=1550034890",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
-    "trackId": "1550034890"
-  },
-  {
-    "id": "applemusic-1550034891",
-    "name": "GOOD GIRL",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "I'm Not Cool - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9a/62/b7/9a62b7e1-1f17-b86a-cf27-cc95d8f1d230/mzaf_12304197596060781034.plus.aac.p.m4a",
-    "duration": 185400,
-    "trackUrl": "https://music.apple.com/us/album/good-girl/1550034889?i=1550034891",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
-    "trackId": "1550034891"
-  },
-  {
-    "id": "applemusic-1550034892",
-    "name": "Show Window",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "I'm Not Cool - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8b/7f/ff/8b7fff91-34f7-af17-b7e9-f42f09d625eb/mzaf_1635543612954506781.plus.aac.p.m4a",
-    "duration": 190147,
-    "trackUrl": "https://music.apple.com/us/album/show-window/1550034889?i=1550034892",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
-    "trackId": "1550034892"
-  },
-  {
-    "id": "applemusic-1550034893",
-    "name": "Party, Feel, Love (feat. DAWN)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "I'm Not Cool - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/45/86/8b/45868b5a-1c8e-f6d5-207d-a71bfaef6893/mzaf_7967166701283583275.plus.aac.p.m4a",
-    "duration": 209560,
-    "trackUrl": "https://music.apple.com/us/album/party-feel-love-feat-dawn/1550034889?i=1550034893",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/99/7d/2d/997d2d23-0221-cf12-f88d-eabf2064be44/1.jpg/300x300bb.jpg",
-    "trackId": "1550034893"
-  },
-  {
     "id": "applemusic-1276492819",
     "name": "Party (Follow Me) [feat. WOOSEOK]",
     "artists": [
@@ -273,58 +273,6 @@
     "trackId": "1289660741"
   },
   {
-    "id": "applemusic-1741804412",
-    "name": "Attitude",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Attitude - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/f7/a8/50f7a84d-cdd8-3e56-5d35-ed53f241d913/mzaf_12903378101663378025.plus.aac.p.m4a",
-    "duration": 114547,
-    "trackUrl": "https://music.apple.com/us/album/attitude/1741804175?i=1741804412",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
-    "trackId": "1741804412"
-  },
-  {
-    "id": "applemusic-1741804417",
-    "name": "Q&A",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Attitude - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/d3/0b/d4d30b25-4535-8e68-cfde-ec6bd67ae08d/mzaf_1885596166296711497.plus.aac.p.m4a",
-    "duration": 165640,
-    "trackUrl": "https://music.apple.com/us/album/q-a/1741804175?i=1741804417",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
-    "trackId": "1741804417"
-  },
-  {
-    "id": "applemusic-1741804515",
-    "name": "Ah! (feat. GEMINI)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Attitude - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/1c/16/971c161b-6f9e-eb7f-096a-479235f9bb62/mzaf_7733989846641649291.plus.aac.p.m4a",
-    "duration": 209893,
-    "trackUrl": "https://music.apple.com/us/album/ah-feat-gemini/1741804175?i=1741804515",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
-    "trackId": "1741804515"
-  },
-  {
-    "id": "applemusic-1741804525",
-    "name": "RSVP (feat. CHANGMO)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Attitude - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/99/9e/59999e30-ad61-0b7c-be8c-bec0ac359db5/mzaf_11705050292229458650.plus.aac.p.m4a",
-    "duration": 178507,
-    "trackUrl": "https://music.apple.com/us/album/rsvp-feat-changmo/1741804175?i=1741804525",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
-    "trackId": "1741804525"
-  },
-  {
     "id": "applemusic-1344581514",
     "name": "A Talk",
     "artists": [
@@ -390,6 +338,58 @@
     "trackId": "1320790460"
   },
   {
+    "id": "applemusic-1741804412",
+    "name": "Attitude",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Attitude - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/f7/a8/50f7a84d-cdd8-3e56-5d35-ed53f241d913/mzaf_12903378101663378025.plus.aac.p.m4a",
+    "duration": 114547,
+    "trackUrl": "https://music.apple.com/us/album/attitude/1741804175?i=1741804412",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
+    "trackId": "1741804412"
+  },
+  {
+    "id": "applemusic-1741804417",
+    "name": "Q&A",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Attitude - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/d3/0b/d4d30b25-4535-8e68-cfde-ec6bd67ae08d/mzaf_1885596166296711497.plus.aac.p.m4a",
+    "duration": 165640,
+    "trackUrl": "https://music.apple.com/us/album/q-a/1741804175?i=1741804417",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
+    "trackId": "1741804417"
+  },
+  {
+    "id": "applemusic-1741804515",
+    "name": "Ah! (feat. GEMINI)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Attitude - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/97/1c/16/971c161b-6f9e-eb7f-096a-479235f9bb62/mzaf_7733989846641649291.plus.aac.p.m4a",
+    "duration": 209893,
+    "trackUrl": "https://music.apple.com/us/album/ah-feat-gemini/1741804175?i=1741804515",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
+    "trackId": "1741804515"
+  },
+  {
+    "id": "applemusic-1741804525",
+    "name": "RSVP (feat. CHANGMO)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Attitude - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/99/9e/59999e30-ad61-0b7c-be8c-bec0ac359db5/mzaf_11705050292229458650.plus.aac.p.m4a",
+    "duration": 178507,
+    "trackUrl": "https://music.apple.com/us/album/rsvp-feat-changmo/1741804175?i=1741804525",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/af/76/82/af7682e1-9106-b90e-910d-2dee37feefa7/888272133103_Cover.jpg/300x300bb.jpg",
+    "trackId": "1741804525"
+  },
+  {
     "id": "applemusic-1343088366",
     "name": "Attention",
     "artists": [
@@ -453,6 +453,71 @@
     "trackUrl": "https://music.apple.com/us/album/just-follow-feat-dok2/1343088353?i=1343090229",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4d/4a/ef/4d4aefbf-78b0-6982-b3d0-1949be6a210f/Bubble_Pop.jpg/300x300bb.jpg",
     "trackId": "1343090229"
+  },
+  {
+    "id": "applemusic-1343706208",
+    "name": "Straight Up",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/d2/af/aed2af51-4d8a-63a3-dc15-2f20f3a1562c/mzaf_397323096254812132.plus.aac.p.m4a",
+    "duration": 173996,
+    "trackUrl": "https://music.apple.com/us/album/straight-up/1343706195?i=1343706208",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706208"
+  },
+  {
+    "id": "applemusic-1343706209",
+    "name": "Ice Cream (feat. Maboos)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/95/15/aa951563-487a-523f-232c-fdce9326ef19/mzaf_6335294249814060626.plus.aac.p.m4a",
+    "duration": 195735,
+    "trackUrl": "https://music.apple.com/us/album/ice-cream-feat-maboos/1343706195?i=1343706209",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706209"
+  },
+  {
+    "id": "applemusic-1343706210",
+    "name": "Green Apple (feat. JUNG ILHOON)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/42/bb/1f42bbb6-6a08-3d46-2221-f7ad5848e728/mzaf_11746111162145304321.plus.aac.p.m4a",
+    "duration": 195587,
+    "trackUrl": "https://music.apple.com/us/album/green-apple-feat-jung-ilhoon/1343706195?i=1343706210",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706210"
+  },
+  {
+    "id": "applemusic-1343706215",
+    "name": "Dear Boyfriend",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/10/18/81101800-2b1c-7df1-dd67-2764385e57b6/mzaf_4778990231239966406.plus.aac.p.m4a",
+    "duration": 222324,
+    "trackUrl": "https://music.apple.com/us/album/dear-boyfriend/1343706195?i=1343706215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706215"
+  },
+  {
+    "id": "applemusic-1343706216",
+    "name": "Very Hot (feat. Liwon)",
+    "artists": [
+      "HyunA"
+    ],
+    "album": "Melting - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/58/37/335837ff-8457-edf2-a87b-65bbd8928dd9/mzaf_11264908794341813300.plus.aac.p.m4a",
+    "duration": 221001,
+    "trackUrl": "https://music.apple.com/us/album/very-hot-feat-liwon/1343706195?i=1343706216",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
+    "trackId": "1343706216"
   },
   {
     "id": "applemusic-1634771003",
@@ -531,71 +596,6 @@
     "trackUrl": "https://music.apple.com/us/album/mrs-nail/1810712590?i=1810712591",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b6/38/b4/b638b4d4-3d7c-da88-9e99-64206a2f710c/888272152630_Cover.jpg/300x300bb.jpg",
     "trackId": "1810712591"
-  },
-  {
-    "id": "applemusic-1343706208",
-    "name": "Straight Up",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ae/d2/af/aed2af51-4d8a-63a3-dc15-2f20f3a1562c/mzaf_397323096254812132.plus.aac.p.m4a",
-    "duration": 173996,
-    "trackUrl": "https://music.apple.com/us/album/straight-up/1343706195?i=1343706208",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706208"
-  },
-  {
-    "id": "applemusic-1343706209",
-    "name": "Ice Cream (feat. Maboos)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/95/15/aa951563-487a-523f-232c-fdce9326ef19/mzaf_6335294249814060626.plus.aac.p.m4a",
-    "duration": 195735,
-    "trackUrl": "https://music.apple.com/us/album/ice-cream-feat-maboos/1343706195?i=1343706209",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706209"
-  },
-  {
-    "id": "applemusic-1343706210",
-    "name": "Green Apple (feat. JUNG ILHOON)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1f/42/bb/1f42bbb6-6a08-3d46-2221-f7ad5848e728/mzaf_11746111162145304321.plus.aac.p.m4a",
-    "duration": 195587,
-    "trackUrl": "https://music.apple.com/us/album/green-apple-feat-jung-ilhoon/1343706195?i=1343706210",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706210"
-  },
-  {
-    "id": "applemusic-1343706215",
-    "name": "Dear Boyfriend",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/81/10/18/81101800-2b1c-7df1-dd67-2764385e57b6/mzaf_4778990231239966406.plus.aac.p.m4a",
-    "duration": 222324,
-    "trackUrl": "https://music.apple.com/us/album/dear-boyfriend/1343706195?i=1343706215",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706215"
-  },
-  {
-    "id": "applemusic-1343706216",
-    "name": "Very Hot (feat. Liwon)",
-    "artists": [
-      "HyunA"
-    ],
-    "album": "Melting - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/58/37/335837ff-8457-edf2-a87b-65bbd8928dd9/mzaf_11264908794341813300.plus.aac.p.m4a",
-    "duration": 221001,
-    "trackUrl": "https://music.apple.com/us/album/very-hot-feat-liwon/1343706195?i=1343706216",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/fe/dd/81/fedd81af-f83d-44e9-f422-ada73e990140/Melting.jpg/300x300bb.jpg",
-    "trackId": "1343706216"
   },
   {
     "id": "applemusic-1860415622",

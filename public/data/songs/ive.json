@@ -1,5 +1,18 @@
 [
   {
+    "id": "applemusic-1677260541",
+    "name": "Kitsch",
+    "artists": [
+      "IVE"
+    ],
+    "album": "Kitsch - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/e6/58/3ce6580c-e272-473e-7520-b7c2719dc7b6/mzaf_11480319542966989999.plus.aac.p.m4a",
+    "duration": 195440,
+    "trackUrl": "https://music.apple.com/us/album/kitsch/1677260537?i=1677260541",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/64/76/fd/6476fd99-c90f-93a3-3c80-bc8dd3652920/197188357023.jpg/300x300bb.jpg",
+    "trackId": "1677260541"
+  },
+  {
     "id": "applemusic-1680047357",
     "name": "Blue Blood",
     "artists": [
@@ -24,19 +37,6 @@
     "trackUrl": "https://music.apple.com/us/album/i-am/1680047093?i=1680047366",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/23/b7/3a23b7f4-0b43-df9d-b7e4-14f992443324/197188335663.jpg/300x300bb.jpg",
     "trackId": "1680047366"
-  },
-  {
-    "id": "applemusic-1680047537",
-    "name": "Kitsch",
-    "artists": [
-      "IVE"
-    ],
-    "album": "I've IVE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5a/27/b1/5a27b159-e3fb-9d6a-f1df-658e3a5c74bf/mzaf_7211557417987749745.plus.aac.p.m4a",
-    "duration": 195440,
-    "trackUrl": "https://music.apple.com/us/album/kitsch/1680047093?i=1680047537",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/23/b7/3a23b7f4-0b43-df9d-b7e4-14f992443324/197188335663.jpg/300x300bb.jpg",
-    "trackId": "1680047537"
   },
   {
     "id": "applemusic-1680047542",
@@ -169,6 +169,19 @@
     "trackId": "1616804153"
   },
   {
+    "id": "applemusic-1872628039",
+    "name": "BANG BANG",
+    "artists": [
+      "IVE"
+    ],
+    "album": "BANG BANG - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/52/f2/e3/52f2e3c3-4193-9276-61b2-4d41dafca603/mzaf_16657816216153694111.plus.aac.p.m4a",
+    "duration": 178046,
+    "trackUrl": "https://music.apple.com/us/album/bang-bang/1872627662?i=1872628039",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/8b/c2/cd8bc294-4ff3-d952-1bc1-4fb03ed9c4bc/199806248171.jpg/300x300bb.jpg",
+    "trackId": "1872628039"
+  },
+  {
     "id": "applemusic-1597404252",
     "name": "ELEVEN",
     "artists": [
@@ -234,19 +247,6 @@
     "trackId": "1708301753"
   },
   {
-    "id": "applemusic-1709570215",
-    "name": "Off The Record",
-    "artists": [
-      "IVE"
-    ],
-    "album": "Off The Record - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/a8/73/d7a87365-b094-35e5-2117-2a9871d9e4d9/mzaf_15853751827058695433.plus.aac.p.m4a",
-    "duration": 188733,
-    "trackUrl": "https://music.apple.com/us/album/off-the-record/1709570212?i=1709570215",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6c/2e/be/6c2ebe9c-5107-e055-9e93-05a45d0a703b/197189827297.jpg/300x300bb.jpg",
-    "trackId": "1709570215"
-  },
-  {
     "id": "applemusic-1724240372",
     "name": "All Night",
     "artists": [
@@ -258,6 +258,19 @@
     "trackUrl": "https://music.apple.com/us/album/all-night/1724240361?i=1724240372",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/dd/68/3add687c-4d1f-fc9c-523b-436b6e0414df/196871737845.jpg/300x300bb.jpg",
     "trackId": "1724240372"
+  },
+  {
+    "id": "applemusic-1709570215",
+    "name": "Off The Record",
+    "artists": [
+      "IVE"
+    ],
+    "album": "Off The Record - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/a8/73/d7a87365-b094-35e5-2117-2a9871d9e4d9/mzaf_15853751827058695433.plus.aac.p.m4a",
+    "duration": 188733,
+    "trackUrl": "https://music.apple.com/us/album/off-the-record/1709570212?i=1709570215",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6c/2e/be/6c2ebe9c-5107-e055-9e93-05a45d0a703b/197189827297.jpg/300x300bb.jpg",
+    "trackId": "1709570215"
   },
   {
     "id": "applemusic-1709569470",
@@ -409,11 +422,154 @@
       "IVE"
     ],
     "album": "I WANT - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/18/e4/9b/18e49bd9-ab66-98ed-25d8-e52e250d1814/mzaf_17736812536918722994.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/3c/f7/793cf794-4e11-13de-c73e-276714089566/mzaf_12943779135997112240.plus.aac.p.m4a",
     "duration": 180627,
     "trackUrl": "https://music.apple.com/us/album/i-want/1697073400?i=1697073401",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e9/09/80/e90980f1-de81-6b00-4784-22a724cb6a27/cover_KM0017857_1.jpg/300x300bb.jpg",
     "trackId": "1697073401"
+  },
+  {
+    "id": "applemusic-1873882200",
+    "name": "BLACKHOLE",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/be/41/31be4175-cc94-399c-5094-744c85e2c217/mzaf_5693297935994016807.plus.aac.p.m4a",
+    "duration": 194171,
+    "trackUrl": "https://music.apple.com/us/album/blackhole/1873882195?i=1873882200",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882200"
+  },
+  {
+    "id": "applemusic-1873882207",
+    "name": "Hush",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/35/a0/71/35a0719e-e075-b749-5fb1-c0d797c975ce/mzaf_10326256225779220803.plus.aac.p.m4a",
+    "duration": 167000,
+    "trackUrl": "https://music.apple.com/us/album/hush/1873882195?i=1873882207",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882207"
+  },
+  {
+    "id": "applemusic-1873882209",
+    "name": "Stuck In Your Head",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c0/12/90/c012905c-a3d8-1fb3-8e8c-de636eeea130/mzaf_9486572505345008773.plus.aac.p.m4a",
+    "duration": 167000,
+    "trackUrl": "https://music.apple.com/us/album/stuck-in-your-head/1873882195?i=1873882209",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882209"
+  },
+  {
+    "id": "applemusic-1873882212",
+    "name": "Fireworks",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0e/42/f9/0e42f987-59e1-9213-774c-3be4d7b13768/mzaf_6546504279330555834.plus.aac.p.m4a",
+    "duration": 180000,
+    "trackUrl": "https://music.apple.com/us/album/fireworks/1873882195?i=1873882212",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882212"
+  },
+  {
+    "id": "applemusic-1873882214",
+    "name": "HOT COFFEE",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/3e/a3/723ea396-c953-8ea4-9765-0c6f062df6cc/mzaf_14544259750257046356.plus.aac.p.m4a",
+    "duration": 168000,
+    "trackUrl": "https://music.apple.com/us/album/hot-coffee/1873882195?i=1873882214",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882214"
+  },
+  {
+    "id": "applemusic-1873882427",
+    "name": "8 (JANGWONYOUNG Solo)",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/59/15/295915c9-599f-f2f2-4673-8cc814c2ff22/mzaf_8849643646113671614.plus.aac.p.m4a",
+    "duration": 171000,
+    "trackUrl": "https://music.apple.com/us/album/8-jangwonyoung-solo/1873882195?i=1873882427",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882427"
+  },
+  {
+    "id": "applemusic-1873882428",
+    "name": "Odd (GAEUL Solo)",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/72/dc/88/72dc8881-4ec4-6d5f-0883-f8e23d6431f5/mzaf_4419725010920307610.plus.aac.p.m4a",
+    "duration": 170000,
+    "trackUrl": "https://music.apple.com/us/album/odd-gaeul-solo/1873882195?i=1873882428",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882428"
+  },
+  {
+    "id": "applemusic-1873882442",
+    "name": "Super ICY (LEESEO Solo)",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/6c/e3/836ce32e-4c02-2705-d962-515ba1779bd3/mzaf_4605417601609773373.plus.aac.p.m4a",
+    "duration": 170000,
+    "trackUrl": "https://music.apple.com/us/album/super-icy-leeseo-solo/1873882195?i=1873882442",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882442"
+  },
+  {
+    "id": "applemusic-1873882447",
+    "name": "Unreal (LIZ Solo)",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/c8/c7/e4c8c75a-021a-83b1-b49b-fef04d7c58aa/mzaf_10610861645749592477.plus.aac.p.m4a",
+    "duration": 162000,
+    "trackUrl": "https://music.apple.com/us/album/unreal-liz-solo/1873882195?i=1873882447",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882447"
+  },
+  {
+    "id": "applemusic-1873882449",
+    "name": "In Your Heart (REI Solo)",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3c/c3/86/3cc38650-3c8f-75b4-af6f-d2e2a7872540/mzaf_2253710519555028870.plus.aac.p.m4a",
+    "duration": 123000,
+    "trackUrl": "https://music.apple.com/us/album/in-your-heart-rei-solo/1873882195?i=1873882449",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882449"
+  },
+  {
+    "id": "applemusic-1873882450",
+    "name": "Force (ANYUJIN Solo)",
+    "artists": [
+      "IVE"
+    ],
+    "album": "REVIVE+",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/01/fc/2d01fc52-8ba2-5de3-9fde-6cffeb2a7703/mzaf_11258518653787984536.plus.aac.p.m4a",
+    "duration": 204000,
+    "trackUrl": "https://music.apple.com/us/album/force-anyujin-solo/1873882195?i=1873882450",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9d/54/fd/9d54fd06-fc19-c30c-c9ec-3fcc20eab4a3/199806315972.jpg/300x300bb.jpg",
+    "trackId": "1873882450"
   },
   {
     "id": "applemusic-1789740678",
@@ -559,6 +715,32 @@
     "trackId": "1776623957"
   },
   {
+    "id": "applemusic-1685789441",
+    "name": "WAVE",
+    "artists": [
+      "IVE"
+    ],
+    "album": "WAVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4e/54/1d/4e541dd9-d1ab-16f2-c5f7-85f9402e22d4/mzaf_4474017503175861038.plus.aac.p.m4a",
+    "duration": 175893,
+    "trackUrl": "https://music.apple.com/us/album/wave/1685789440?i=1685789441",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/49/4e/4c/494e4cc9-7a4b-e188-1f29-fcd4c0d1db29/4547366622553.jpg/300x300bb.jpg",
+    "trackId": "1685789441"
+  },
+  {
+    "id": "applemusic-1685789442",
+    "name": "Classic",
+    "artists": [
+      "IVE"
+    ],
+    "album": "WAVE - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d9/e3/95/d9e39537-15f7-a825-6cc7-68e93c95b3ad/mzaf_6548790379949100737.plus.aac.p.m4a",
+    "duration": 212427,
+    "trackUrl": "https://music.apple.com/us/album/classic/1685789440?i=1685789442",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/49/4e/4c/494e4cc9-7a4b-e188-1f29-fcd4c0d1db29/4547366622553.jpg/300x300bb.jpg",
+    "trackId": "1685789442"
+  },
+  {
     "id": "applemusic-1759319780",
     "name": "CRUSH",
     "artists": [
@@ -604,11 +786,24 @@
       "IVE"
     ],
     "album": "Will - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/e5/01/2fe50194-4058-aaee-4a89-4996bfea9899/mzaf_14410387980006301362.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a0/44/71/a04471ae-dc8f-e416-1017-06d63d5dedf7/mzaf_2946606571371273240.plus.aac.p.m4a",
     "duration": 191280,
     "trackUrl": "https://music.apple.com/us/album/will/1738429597?i=1738430009",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b4/bb/4f/b4bb4f9e-8c11-79ab-2f86-f620d91228e6/4547366677737.jpg/300x300bb.jpg",
     "trackId": "1738430009"
+  },
+  {
+    "id": "applemusic-1887487303",
+    "name": "Fashion",
+    "artists": [
+      "IVE"
+    ],
+    "album": "Fashion - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/76/72/cd/7672cd57-7606-dd4f-3193-163d696700ad/mzaf_5158396973841855142.plus.aac.p.m4a",
+    "duration": 128133,
+    "trackUrl": "https://music.apple.com/us/album/fashion/1887487297?i=1887487303",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/bb/d6/ed/bbd6ed0d-c299-3da7-ca71-c3e68c1fe2e2/4547366814187.jpg/300x300bb.jpg",
+    "trackId": "1887487303"
   },
   {
     "id": "applemusic-1649467575",
@@ -624,32 +819,6 @@
     "trackId": "1649467575"
   },
   {
-    "id": "applemusic-1685789441",
-    "name": "WAVE",
-    "artists": [
-      "IVE"
-    ],
-    "album": "WAVE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/4e/54/1d/4e541dd9-d1ab-16f2-c5f7-85f9402e22d4/mzaf_4474017503175861038.plus.aac.p.m4a",
-    "duration": 175893,
-    "trackUrl": "https://music.apple.com/us/album/wave/1685789440?i=1685789441",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/49/4e/4c/494e4cc9-7a4b-e188-1f29-fcd4c0d1db29/4547366622553.jpg/300x300bb.jpg",
-    "trackId": "1685789441"
-  },
-  {
-    "id": "applemusic-1685789442",
-    "name": "Classic",
-    "artists": [
-      "IVE"
-    ],
-    "album": "WAVE - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d9/e3/95/d9e39537-15f7-a825-6cc7-68e93c95b3ad/mzaf_6548790379949100737.plus.aac.p.m4a",
-    "duration": 212427,
-    "trackUrl": "https://music.apple.com/us/album/classic/1685789440?i=1685789442",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/49/4e/4c/494e4cc9-7a4b-e188-1f29-fcd4c0d1db29/4547366622553.jpg/300x300bb.jpg",
-    "trackId": "1685789442"
-  },
-  {
     "id": "applemusic-1824398910",
     "name": "Be Alright",
     "artists": [
@@ -661,5 +830,18 @@
     "trackUrl": "https://music.apple.com/us/album/be-alright/1824398909?i=1824398910",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/65/c6/2f/65c62ff7-e413-ca25-bce4-fb7931bfbf77/4547366760170.jpg/300x300bb.jpg",
     "trackId": "1824398910"
+  },
+  {
+    "id": "applemusic-6768866475",
+    "name": "LUCID DREAM",
+    "artists": [
+      "IVE"
+    ],
+    "album": "LUCID DREAM - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/04/50/a7045053-740d-85c6-f64d-ded38eb954ce/mzaf_8512619026462609783.plus.aac.p.m4a",
+    "duration": 207200,
+    "trackUrl": "https://music.apple.com/us/album/lucid-dream/6768866474?i=6768866475",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/ae/02/e4ae02a1-cbf8-217b-fbba-315d6f9d2db5/4547366823929.jpg/300x300bb.jpg",
+    "trackId": "6768866475"
   }
 ]

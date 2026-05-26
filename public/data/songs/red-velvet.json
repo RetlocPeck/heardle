@@ -1,5 +1,96 @@
 [
   {
+    "id": "applemusic-1421648511",
+    "name": "Power Up",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/0f/05/c80f05f7-737e-71d4-cbc6-6af257041fe5/mzaf_15842390573516616277.plus.aac.p.m4a",
+    "duration": 202040,
+    "trackUrl": "https://music.apple.com/us/album/power-up/1421648323?i=1421648511",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648511"
+  },
+  {
+    "id": "applemusic-1421648512",
+    "name": "With You",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/d3/85/6bd385d7-a447-9762-ef17-c74b712995f1/mzaf_18395718675689799812.plus.aac.p.m4a",
+    "duration": 207800,
+    "trackUrl": "https://music.apple.com/us/album/with-you/1421648323?i=1421648512",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648512"
+  },
+  {
+    "id": "applemusic-1421648513",
+    "name": "Mr. E",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/c0/1b/9bc01b67-80ee-b400-e0cf-9747295297ac/mzaf_7906938412551169990.plus.aac.p.m4a",
+    "duration": 218773,
+    "trackUrl": "https://music.apple.com/us/album/mr-e/1421648323?i=1421648513",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648513"
+  },
+  {
+    "id": "applemusic-1421648514",
+    "name": "Mosquito",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/0c/00/de0c006e-7d17-b346-ac40-72e1d3769d85/mzaf_283567662349195659.plus.aac.p.m4a",
+    "duration": 191147,
+    "trackUrl": "https://music.apple.com/us/album/mosquito/1421648323?i=1421648514",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648514"
+  },
+  {
+    "id": "applemusic-1421648515",
+    "name": "Hit That Drum",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/97/ba/b297baf4-d5c9-e55a-cc96-9192b6b11ccd/mzaf_17705916309090066310.plus.aac.p.m4a",
+    "duration": 192160,
+    "trackUrl": "https://music.apple.com/us/album/hit-that-drum/1421648323?i=1421648515",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648515"
+  },
+  {
+    "id": "applemusic-1421648516",
+    "name": "Blue Lemonade",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/b9/ec/3fb9ec81-1dae-62b9-1ee0-56054f5411dc/mzaf_3024972327145955176.plus.aac.p.m4a",
+    "duration": 196093,
+    "trackUrl": "https://music.apple.com/us/album/blue-lemonade/1421648323?i=1421648516",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648516"
+  },
+  {
+    "id": "applemusic-1421648518",
+    "name": "Red Radio (Special Audio Track)",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Summer Magic - Summer Mini Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/de/44/3d/de443d03-cf5b-f894-40cc-6530915c0f2b/mzaf_6273415396496675522.plus.aac.p.m4a",
+    "duration": 0,
+    "trackUrl": "https://music.apple.com/us/album/red-radio-special-audio-track/1421648323?i=1421648518",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1421648518"
+  },
+  {
     "id": "applemusic-1314275554",
     "name": "I Just",
     "artists": [
@@ -130,97 +221,6 @@
     "trackId": "1444409448"
   },
   {
-    "id": "applemusic-1421648511",
-    "name": "Power Up",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c8/0f/05/c80f05f7-737e-71d4-cbc6-6af257041fe5/mzaf_15842390573516616277.plus.aac.p.m4a",
-    "duration": 202040,
-    "trackUrl": "https://music.apple.com/us/album/power-up/1421648323?i=1421648511",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648511"
-  },
-  {
-    "id": "applemusic-1421648512",
-    "name": "With You",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/d3/85/6bd385d7-a447-9762-ef17-c74b712995f1/mzaf_18395718675689799812.plus.aac.p.m4a",
-    "duration": 207800,
-    "trackUrl": "https://music.apple.com/us/album/with-you/1421648323?i=1421648512",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648512"
-  },
-  {
-    "id": "applemusic-1421648513",
-    "name": "Mr. E",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/c0/1b/9bc01b67-80ee-b400-e0cf-9747295297ac/mzaf_7906938412551169990.plus.aac.p.m4a",
-    "duration": 218773,
-    "trackUrl": "https://music.apple.com/us/album/mr-e/1421648323?i=1421648513",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648513"
-  },
-  {
-    "id": "applemusic-1421648514",
-    "name": "Mosquito",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/de/0c/00/de0c006e-7d17-b346-ac40-72e1d3769d85/mzaf_283567662349195659.plus.aac.p.m4a",
-    "duration": 191147,
-    "trackUrl": "https://music.apple.com/us/album/mosquito/1421648323?i=1421648514",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648514"
-  },
-  {
-    "id": "applemusic-1421648515",
-    "name": "Hit That Drum",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/97/ba/b297baf4-d5c9-e55a-cc96-9192b6b11ccd/mzaf_17705916309090066310.plus.aac.p.m4a",
-    "duration": 192160,
-    "trackUrl": "https://music.apple.com/us/album/hit-that-drum/1421648323?i=1421648515",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648515"
-  },
-  {
-    "id": "applemusic-1421648516",
-    "name": "Blue Lemonade",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3f/b9/ec/3fb9ec81-1dae-62b9-1ee0-56054f5411dc/mzaf_3024972327145955176.plus.aac.p.m4a",
-    "duration": 196093,
-    "trackUrl": "https://music.apple.com/us/album/blue-lemonade/1421648323?i=1421648516",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648516"
-  },
-  {
-    "id": "applemusic-1421648518",
-    "name": "Red Radio (Special Audio Track)",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Summer Magic - Summer Mini Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/de/44/3d/de443d03-cf5b-f894-40cc-6530915c0f2b/mzaf_6273415396496675522.plus.aac.p.m4a",
-    "duration": 0,
-    "trackUrl": "https://music.apple.com/us/album/red-radio-special-audio-track/1421648323?i=1421648518",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/e3/5a/47e35acd-e542-1f7b-73b7-a46b250c2252/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1421648518"
-  },
-  {
     "id": "applemusic-905840099",
     "name": "Happiness",
     "artists": [
@@ -312,69 +312,69 @@
     "trackId": "1614179716"
   },
   {
-    "id": "applemusic-1256504651",
-    "name": "Red Flavor",
+    "id": "applemusic-1655291572",
+    "name": "Birthday",
     "artists": [
       "Red Velvet"
     ],
-    "album": "The Red Summer - Summer Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cb/b5/22/cbb522e9-eaf6-f688-09b3-522d7990506e/mzaf_14558813085649383194.plus.aac.p.m4a",
-    "duration": 191139,
-    "trackUrl": "https://music.apple.com/us/album/red-flavor/1256503505?i=1256504651",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1256504651"
+    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/fb/6e/cf/fb6ecf6d-b6dd-df84-9a1a-5ce7c475ad75/mzaf_18374956214789434986.plus.aac.p.m4a",
+    "duration": 216440,
+    "trackUrl": "https://music.apple.com/us/album/birthday/1655291569?i=1655291572",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
+    "trackId": "1655291572"
   },
   {
-    "id": "applemusic-1256504652",
-    "name": "You Better Know",
+    "id": "applemusic-1655291586",
+    "name": "BYE BYE",
     "artists": [
       "Red Velvet"
     ],
-    "album": "The Red Summer - Summer Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/ca/d7/cacad729-0c59-5eb4-3ac8-c200a0273c79/mzaf_13339586084752846728.plus.aac.p.m4a",
-    "duration": 250498,
-    "trackUrl": "https://music.apple.com/us/album/you-better-know/1256503505?i=1256504652",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1256504652"
+    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/d2/08/b1/d208b1c8-b694-030b-48b0-6ab9141ec616/mzaf_1285961974258457479.plus.aac.p.m4a",
+    "duration": 196080,
+    "trackUrl": "https://music.apple.com/us/album/bye-bye/1655291569?i=1655291586",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
+    "trackId": "1655291586"
   },
   {
-    "id": "applemusic-1256504653",
-    "name": "Zoo",
+    "id": "applemusic-1655291587",
+    "name": "On A Ride",
     "artists": [
       "Red Velvet"
     ],
-    "album": "The Red Summer - Summer Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8a/ce/86/8ace869f-b401-fce4-9a49-80be00b8042c/mzaf_8911185098176439425.plus.aac.p.m4a",
-    "duration": 204833,
-    "trackUrl": "https://music.apple.com/us/album/zoo/1256503505?i=1256504653",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1256504653"
+    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/58/33/b6/5833b6ff-c0da-69dc-c7be-5d4046ecd06c/mzaf_4576899578844306588.plus.aac.p.m4a",
+    "duration": 199000,
+    "trackUrl": "https://music.apple.com/us/album/on-a-ride/1655291569?i=1655291587",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
+    "trackId": "1655291587"
   },
   {
-    "id": "applemusic-1256504655",
-    "name": "Mojito",
+    "id": "applemusic-1655291588",
+    "name": "ZOOM",
     "artists": [
       "Red Velvet"
     ],
-    "album": "The Red Summer - Summer Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4b/39/d0/4b39d015-eab9-43a6-6254-7e8e61531664/mzaf_10446702686583909068.plus.aac.p.m4a",
-    "duration": 184737,
-    "trackUrl": "https://music.apple.com/us/album/mojito/1256503505?i=1256504655",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1256504655"
+    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/0e/fc/60/0efc60e0-6a5b-aad1-4028-64437ed337c5/mzaf_8031407705157481664.plus.aac.p.m4a",
+    "duration": 184187,
+    "trackUrl": "https://music.apple.com/us/album/zoom/1655291569?i=1655291588",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
+    "trackId": "1655291588"
   },
   {
-    "id": "applemusic-1256504656",
-    "name": "Hear the Sea",
+    "id": "applemusic-1655291589",
+    "name": "Celebrate",
     "artists": [
       "Red Velvet"
     ],
-    "album": "The Red Summer - Summer Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ab/95/23/ab952314-d262-678b-989b-18fade604f71/mzaf_4384979893456907789.plus.aac.p.m4a",
-    "duration": 202110,
-    "trackUrl": "https://music.apple.com/us/album/hear-the-sea/1256503505?i=1256504656",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1256504656"
+    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c8/a0/8f/c8a08f5d-d401-dfe1-d2e5-b3f12db87ded/mzaf_8164505703559221060.plus.aac.p.m4a",
+    "duration": 164693,
+    "trackUrl": "https://music.apple.com/us/album/celebrate/1655291569?i=1655291589",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
+    "trackId": "1655291589"
   },
   {
     "id": "applemusic-1468948704",
@@ -507,6 +507,188 @@
     "trackId": "1491888607"
   },
   {
+    "id": "applemusic-1256504651",
+    "name": "Red Flavor",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Red Summer - Summer Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/cb/b5/22/cbb522e9-eaf6-f688-09b3-522d7990506e/mzaf_14558813085649383194.plus.aac.p.m4a",
+    "duration": 191139,
+    "trackUrl": "https://music.apple.com/us/album/red-flavor/1256503505?i=1256504651",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1256504651"
+  },
+  {
+    "id": "applemusic-1256504652",
+    "name": "You Better Know",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Red Summer - Summer Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/ca/d7/cacad729-0c59-5eb4-3ac8-c200a0273c79/mzaf_13339586084752846728.plus.aac.p.m4a",
+    "duration": 250498,
+    "trackUrl": "https://music.apple.com/us/album/you-better-know/1256503505?i=1256504652",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1256504652"
+  },
+  {
+    "id": "applemusic-1256504653",
+    "name": "Zoo",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Red Summer - Summer Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8a/ce/86/8ace869f-b401-fce4-9a49-80be00b8042c/mzaf_8911185098176439425.plus.aac.p.m4a",
+    "duration": 204833,
+    "trackUrl": "https://music.apple.com/us/album/zoo/1256503505?i=1256504653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1256504653"
+  },
+  {
+    "id": "applemusic-1256504655",
+    "name": "Mojito",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Red Summer - Summer Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4b/39/d0/4b39d015-eab9-43a6-6254-7e8e61531664/mzaf_10446702686583909068.plus.aac.p.m4a",
+    "duration": 184737,
+    "trackUrl": "https://music.apple.com/us/album/mojito/1256503505?i=1256504655",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1256504655"
+  },
+  {
+    "id": "applemusic-1256504656",
+    "name": "Hear the Sea",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Red Summer - Summer Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ab/95/23/ab952314-d262-678b-989b-18fade604f71/mzaf_4384979893456907789.plus.aac.p.m4a",
+    "duration": 202110,
+    "trackUrl": "https://music.apple.com/us/album/hear-the-sea/1256503505?i=1256504656",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/0f/10/9c0f107b-5c6a-eb24-c4f6-74661f5f19db/RV-DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1256504656"
+  },
+  {
+    "id": "applemusic-1341259542",
+    "name": "Bad Boy",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/fc/52/69fc528f-593c-9108-e1f7-a1d28e978296/mzaf_4978886415344685537.plus.aac.p.m4a",
+    "duration": 210818,
+    "trackUrl": "https://music.apple.com/us/album/bad-boy/1341259280?i=1341259542",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/36/4b/e2364b01-f3f9-c67f-7194-81854a14e540/dj.lcmtrdtw.jpg/300x300bb.jpg",
+    "trackId": "1341259542"
+  },
+  {
+    "id": "applemusic-1341259543",
+    "name": "All Right",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f1/e7/2a/f1e72a8a-ee35-e43b-0d38-355d363ef2fe/mzaf_2501242656319778608.plus.aac.p.m4a",
+    "duration": 229097,
+    "trackUrl": "https://music.apple.com/us/album/all-right/1341259280?i=1341259543",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/36/4b/e2364b01-f3f9-c67f-7194-81854a14e540/dj.lcmtrdtw.jpg/300x300bb.jpg",
+    "trackId": "1341259543"
+  },
+  {
+    "id": "applemusic-1341259544",
+    "name": "Time To Love",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/18/7c/5e187cf3-d332-943a-4ccb-9a5d3bb22007/mzaf_7327484960254615254.plus.aac.p.m4a",
+    "duration": 195249,
+    "trackUrl": "https://music.apple.com/us/album/time-to-love/1341259280?i=1341259544",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/36/4b/e2364b01-f3f9-c67f-7194-81854a14e540/dj.lcmtrdtw.jpg/300x300bb.jpg",
+    "trackId": "1341259544"
+  },
+  {
+    "id": "applemusic-1580685467",
+    "name": "Queendom",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Queendom - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/f5/d0/eef5d0ac-77e7-0df8-9230-bdc2bb72f495/mzaf_8322042319419364402.plus.aac.p.m4a",
+    "duration": 181760,
+    "trackUrl": "https://music.apple.com/us/album/queendom/1580685463?i=1580685467",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
+    "trackId": "1580685467"
+  },
+  {
+    "id": "applemusic-1580685473",
+    "name": "Pose",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Queendom - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c6/da/fe/c6dafe69-abde-c895-497e-a88ba6c0a526/mzaf_14542896187064663339.plus.aac.p.m4a",
+    "duration": 200680,
+    "trackUrl": "https://music.apple.com/us/album/pose/1580685463?i=1580685473",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
+    "trackId": "1580685473"
+  },
+  {
+    "id": "applemusic-1580685474",
+    "name": "Knock On Wood",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Queendom - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/2e/d1/1e2ed1cf-b46c-3b82-3c01-d744909a2c24/mzaf_16938966973662636994.plus.aac.p.m4a",
+    "duration": 220587,
+    "trackUrl": "https://music.apple.com/us/album/knock-on-wood/1580685463?i=1580685474",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
+    "trackId": "1580685474"
+  },
+  {
+    "id": "applemusic-1580685475",
+    "name": "Better Be",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Queendom - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/47/f7/3847f75e-b566-9867-7168-796fe1d7b3df/mzaf_17024363764215420070.plus.aac.p.m4a",
+    "duration": 180560,
+    "trackUrl": "https://music.apple.com/us/album/better-be/1580685463?i=1580685475",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
+    "trackId": "1580685475"
+  },
+  {
+    "id": "applemusic-1580685476",
+    "name": "Pushin' N Pullin'",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Queendom - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/18/3e/f9/183ef9cf-294a-a982-1e61-fb4feb67d7aa/mzaf_6788958453425022184.plus.aac.p.m4a",
+    "duration": 183360,
+    "trackUrl": "https://music.apple.com/us/album/pushin-n-pullin/1580685463?i=1580685476",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
+    "trackId": "1580685476"
+  },
+  {
+    "id": "applemusic-1580685477",
+    "name": "Hello, Sunset",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Queendom - The 6th Mini Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/a5/2f/a1a52ff6-bff3-69e3-7200-8ce62bf0e270/mzaf_11649270896849072477.plus.aac.p.m4a",
+    "duration": 210200,
+    "trackUrl": "https://music.apple.com/us/album/hello-sunset/1580685463?i=1580685477",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
+    "trackId": "1580685477"
+  },
+  {
     "id": "applemusic-1766620386",
     "name": "Chill Kill",
     "artists": [
@@ -637,186 +819,17 @@
     "trackId": "1766620557"
   },
   {
-    "id": "applemusic-1341259542",
-    "name": "Bad Boy",
+    "id": "applemusic-928353470",
+    "name": "Be Natural (feat. TAEYONG)",
     "artists": [
       "Red Velvet"
     ],
-    "album": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/fc/52/69fc528f-593c-9108-e1f7-a1d28e978296/mzaf_4978886415344685537.plus.aac.p.m4a",
-    "duration": 210818,
-    "trackUrl": "https://music.apple.com/us/album/bad-boy/1341259280?i=1341259542",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/36/4b/e2364b01-f3f9-c67f-7194-81854a14e540/dj.lcmtrdtw.jpg/300x300bb.jpg",
-    "trackId": "1341259542"
-  },
-  {
-    "id": "applemusic-1341259543",
-    "name": "All Right",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f1/e7/2a/f1e72a8a-ee35-e43b-0d38-355d363ef2fe/mzaf_2501242656319778608.plus.aac.p.m4a",
-    "duration": 229097,
-    "trackUrl": "https://music.apple.com/us/album/all-right/1341259280?i=1341259543",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/36/4b/e2364b01-f3f9-c67f-7194-81854a14e540/dj.lcmtrdtw.jpg/300x300bb.jpg",
-    "trackId": "1341259543"
-  },
-  {
-    "id": "applemusic-1341259544",
-    "name": "Time To Love",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The Perfect Red Velvet - The 2nd Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/18/7c/5e187cf3-d332-943a-4ccb-9a5d3bb22007/mzaf_7327484960254615254.plus.aac.p.m4a",
-    "duration": 195249,
-    "trackUrl": "https://music.apple.com/us/album/time-to-love/1341259280?i=1341259544",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e2/36/4b/e2364b01-f3f9-c67f-7194-81854a14e540/dj.lcmtrdtw.jpg/300x300bb.jpg",
-    "trackId": "1341259544"
-  },
-  {
-    "id": "applemusic-1655291572",
-    "name": "Birthday",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/fb/6e/cf/fb6ecf6d-b6dd-df84-9a1a-5ce7c475ad75/mzaf_18374956214789434986.plus.aac.p.m4a",
-    "duration": 216440,
-    "trackUrl": "https://music.apple.com/us/album/birthday/1655291569?i=1655291572",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
-    "trackId": "1655291572"
-  },
-  {
-    "id": "applemusic-1655291586",
-    "name": "BYE BYE",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/d2/08/b1/d208b1c8-b694-030b-48b0-6ab9141ec616/mzaf_1285961974258457479.plus.aac.p.m4a",
-    "duration": 196080,
-    "trackUrl": "https://music.apple.com/us/album/bye-bye/1655291569?i=1655291586",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
-    "trackId": "1655291586"
-  },
-  {
-    "id": "applemusic-1655291587",
-    "name": "On A Ride",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/58/33/b6/5833b6ff-c0da-69dc-c7be-5d4046ecd06c/mzaf_4576899578844306588.plus.aac.p.m4a",
-    "duration": 199000,
-    "trackUrl": "https://music.apple.com/us/album/on-a-ride/1655291569?i=1655291587",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
-    "trackId": "1655291587"
-  },
-  {
-    "id": "applemusic-1655291588",
-    "name": "ZOOM",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/0e/fc/60/0efc60e0-6a5b-aad1-4028-64437ed337c5/mzaf_8031407705157481664.plus.aac.p.m4a",
-    "duration": 184187,
-    "trackUrl": "https://music.apple.com/us/album/zoom/1655291569?i=1655291588",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
-    "trackId": "1655291588"
-  },
-  {
-    "id": "applemusic-1655291589",
-    "name": "Celebrate",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "‘The ReVe Festival 2022 - Birthday’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c8/a0/8f/c8a08f5d-d401-dfe1-d2e5-b3f12db87ded/mzaf_8164505703559221060.plus.aac.p.m4a",
-    "duration": 164693,
-    "trackUrl": "https://music.apple.com/us/album/celebrate/1655291569?i=1655291589",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/08/2d/49082d7a-b43c-96dc-fd7c-0761c2cc59e0/Untitled.jpg/300x300bb.jpg",
-    "trackId": "1655291589"
-  },
-  {
-    "id": "applemusic-1580685467",
-    "name": "Queendom",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Queendom - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ee/f5/d0/eef5d0ac-77e7-0df8-9230-bdc2bb72f495/mzaf_8322042319419364402.plus.aac.p.m4a",
-    "duration": 181760,
-    "trackUrl": "https://music.apple.com/us/album/queendom/1580685463?i=1580685467",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
-    "trackId": "1580685467"
-  },
-  {
-    "id": "applemusic-1580685473",
-    "name": "Pose",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Queendom - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c6/da/fe/c6dafe69-abde-c895-497e-a88ba6c0a526/mzaf_14542896187064663339.plus.aac.p.m4a",
-    "duration": 200680,
-    "trackUrl": "https://music.apple.com/us/album/pose/1580685463?i=1580685473",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
-    "trackId": "1580685473"
-  },
-  {
-    "id": "applemusic-1580685474",
-    "name": "Knock On Wood",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Queendom - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/2e/d1/1e2ed1cf-b46c-3b82-3c01-d744909a2c24/mzaf_16938966973662636994.plus.aac.p.m4a",
-    "duration": 220587,
-    "trackUrl": "https://music.apple.com/us/album/knock-on-wood/1580685463?i=1580685474",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
-    "trackId": "1580685474"
-  },
-  {
-    "id": "applemusic-1580685475",
-    "name": "Better Be",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Queendom - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/38/47/f7/3847f75e-b566-9867-7168-796fe1d7b3df/mzaf_17024363764215420070.plus.aac.p.m4a",
-    "duration": 180560,
-    "trackUrl": "https://music.apple.com/us/album/better-be/1580685463?i=1580685475",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
-    "trackId": "1580685475"
-  },
-  {
-    "id": "applemusic-1580685476",
-    "name": "Pushin' N Pullin'",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Queendom - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/18/3e/f9/183ef9cf-294a-a982-1e61-fb4feb67d7aa/mzaf_6788958453425022184.plus.aac.p.m4a",
-    "duration": 183360,
-    "trackUrl": "https://music.apple.com/us/album/pushin-n-pullin/1580685463?i=1580685476",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
-    "trackId": "1580685476"
-  },
-  {
-    "id": "applemusic-1580685477",
-    "name": "Hello, Sunset",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Queendom - The 6th Mini Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/a5/2f/a1a52ff6-bff3-69e3-7200-8ce62bf0e270/mzaf_11649270896849072477.plus.aac.p.m4a",
-    "duration": 210200,
-    "trackUrl": "https://music.apple.com/us/album/hello-sunset/1580685463?i=1580685477",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d8/fb/33/d8fb33ed-347f-8342-75a0-9843be97ae50/Digital_Cover_RedVelvet_Queendompg.jpg/300x300bb.jpg",
-    "trackId": "1580685477"
+    "album": "Be Natural (feat. TAEYONG) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/37/3c/24373c1f-5691-2509-f121-361c509e6026/mzaf_5428937016441894518.plus.aac.p.m4a",
+    "duration": 280451,
+    "trackUrl": "https://music.apple.com/us/album/be-natural-feat-taeyong/928353453?i=928353470",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/87/a5/76/87a576fa-7634-eb90-a090-971f5065de4f/cover.jpg/300x300bb.jpg",
+    "trackId": "928353470"
   },
   {
     "id": "applemusic-1037732951",
@@ -949,19 +962,6 @@
     "trackId": "1037732960"
   },
   {
-    "id": "applemusic-928353470",
-    "name": "Be Natural (feat. TAEYONG)",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Be Natural (feat. TAEYONG) - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/24/37/3c/24373c1f-5691-2509-f121-361c509e6026/mzaf_5428937016441894518.plus.aac.p.m4a",
-    "duration": 280451,
-    "trackUrl": "https://music.apple.com/us/album/be-natural-feat-taeyong/928353453?i=928353470",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/87/a5/76/87a576fa-7634-eb90-a090-971f5065de4f/cover.jpg/300x300bb.jpg",
-    "trackId": "928353470"
-  },
-  {
     "id": "applemusic-1199263802",
     "name": "Rookie",
     "artists": [
@@ -1038,84 +1038,6 @@
     "trackUrl": "https://music.apple.com/us/album/last-love/1199263787?i=1199263810",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1d/ff/6e/1dff6e53-cc03-0ec1-3660-063b4c7a17a8/RV_M04-DIGITAL_COVER.jpg/300x300bb.jpg",
     "trackId": "1199263810"
-  },
-  {
-    "id": "applemusic-977068453",
-    "name": "Ice Cream Cake",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/b9/3f/07b93fd5-f075-b2f9-7ab9-3ad0a1e197e4/mzaf_10586723939824131629.plus.aac.p.m4a",
-    "duration": 191440,
-    "trackUrl": "https://music.apple.com/us/album/ice-cream-cake/977068452?i=977068453",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
-    "trackId": "977068453"
-  },
-  {
-    "id": "applemusic-977068454",
-    "name": "Automatic",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/9e/83/999e8360-3abf-61f2-dce0-e0b4f0d03f34/mzaf_4088529825931467399.plus.aac.p.m4a",
-    "duration": 210160,
-    "trackUrl": "https://music.apple.com/us/album/automatic/977068452?i=977068454",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
-    "trackId": "977068454"
-  },
-  {
-    "id": "applemusic-977068455",
-    "name": "Somethin Kinda Crazy",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/e7/83/b4e78322-704b-e335-4a05-d51ecdda467d/mzaf_3595496066981121214.plus.aac.p.m4a",
-    "duration": 199867,
-    "trackUrl": "https://music.apple.com/us/album/somethin-kinda-crazy/977068452?i=977068455",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
-    "trackId": "977068455"
-  },
-  {
-    "id": "applemusic-977068456",
-    "name": "Stupid Cupid",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/12/83/b912830b-f460-e54b-f53a-ffc207985c4d/mzaf_2911212482844287749.plus.aac.p.m4a",
-    "duration": 209013,
-    "trackUrl": "https://music.apple.com/us/album/stupid-cupid/977068452?i=977068456",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
-    "trackId": "977068456"
-  },
-  {
-    "id": "applemusic-977068457",
-    "name": "Take It Slow",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/80/87/1b/80871b1d-0907-dc99-3366-63f2efa19ed0/mzaf_15196987367562514796.plus.aac.p.m4a",
-    "duration": 211760,
-    "trackUrl": "https://music.apple.com/us/album/take-it-slow/977068452?i=977068457",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
-    "trackId": "977068457"
-  },
-  {
-    "id": "applemusic-977068458",
-    "name": "Candy",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/14/a8/00/14a800f5-c51b-3a58-e5c3-bebb2247247e/mzaf_1670913627755348652.plus.aac.p.m4a",
-    "duration": 262200,
-    "trackUrl": "https://music.apple.com/us/album/candy/977068452?i=977068458",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
-    "trackId": "977068458"
   },
   {
     "id": "applemusic-1151001412",
@@ -1352,43 +1274,225 @@
     "trackId": "1446883401"
   },
   {
-    "id": "applemusic-1400640686",
+    "id": "applemusic-977068453",
+    "name": "Ice Cream Cake",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/b9/3f/07b93fd5-f075-b2f9-7ab9-3ad0a1e197e4/mzaf_10586723939824131629.plus.aac.p.m4a",
+    "duration": 191440,
+    "trackUrl": "https://music.apple.com/us/album/ice-cream-cake/977068452?i=977068453",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
+    "trackId": "977068453"
+  },
+  {
+    "id": "applemusic-977068454",
+    "name": "Automatic",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/99/9e/83/999e8360-3abf-61f2-dce0-e0b4f0d03f34/mzaf_4088529825931467399.plus.aac.p.m4a",
+    "duration": 210160,
+    "trackUrl": "https://music.apple.com/us/album/automatic/977068452?i=977068454",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
+    "trackId": "977068454"
+  },
+  {
+    "id": "applemusic-977068455",
+    "name": "Somethin Kinda Crazy",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/e7/83/b4e78322-704b-e335-4a05-d51ecdda467d/mzaf_3595496066981121214.plus.aac.p.m4a",
+    "duration": 199867,
+    "trackUrl": "https://music.apple.com/us/album/somethin-kinda-crazy/977068452?i=977068455",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
+    "trackId": "977068455"
+  },
+  {
+    "id": "applemusic-977068456",
+    "name": "Stupid Cupid",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/12/83/b912830b-f460-e54b-f53a-ffc207985c4d/mzaf_2911212482844287749.plus.aac.p.m4a",
+    "duration": 209013,
+    "trackUrl": "https://music.apple.com/us/album/stupid-cupid/977068452?i=977068456",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
+    "trackId": "977068456"
+  },
+  {
+    "id": "applemusic-977068457",
+    "name": "Take It Slow",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/80/87/1b/80871b1d-0907-dc99-3366-63f2efa19ed0/mzaf_15196987367562514796.plus.aac.p.m4a",
+    "duration": 211760,
+    "trackUrl": "https://music.apple.com/us/album/take-it-slow/977068452?i=977068457",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
+    "trackId": "977068457"
+  },
+  {
+    "id": "applemusic-977068458",
+    "name": "Candy",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "The 1st Mini Album ‘Ice Cream Cake’ - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/14/a8/00/14a800f5-c51b-3a58-e5c3-bebb2247247e/mzaf_1670913627755348652.plus.aac.p.m4a",
+    "duration": 262200,
+    "trackUrl": "https://music.apple.com/us/album/candy/977068452?i=977068458",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e4/3a/b1/e43ab1b5-101e-a442-7fa9-c158ea17a28b/12345665544444444444333333333333.jpg/300x300bb.jpg",
+    "trackId": "977068458"
+  },
+  {
+    "id": "applemusic-1613338125",
+    "name": "Marionette",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/76/d6/ac/76d6acfe-4b94-8604-632f-788ee0ec7f06/mzaf_7515785131216844197.plus.aac.p.m4a",
+    "duration": 228653,
+    "trackUrl": "https://music.apple.com/us/album/marionette/1613338124?i=1613338125",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338125"
+  },
+  {
+    "id": "applemusic-1613338127",
+    "name": "WILDSIDE",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8d/4f/81/8d4f8108-16c4-b8e2-a38d-98f01848a156/mzaf_17822276832479519166.plus.aac.p.m4a",
+    "duration": 229520,
+    "trackUrl": "https://music.apple.com/us/album/wildside/1613338124?i=1613338127",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338127"
+  },
+  {
+    "id": "applemusic-1613338129",
+    "name": "Jackpot",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/99/60/22/99602283-3455-c393-d995-7c414a16de61/mzaf_7241232232847126571.plus.aac.p.m4a",
+    "duration": 182520,
+    "trackUrl": "https://music.apple.com/us/album/jackpot/1613338124?i=1613338129",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338129"
+  },
+  {
+    "id": "applemusic-1613338130",
     "name": "#Cookie Jar",
     "artists": [
       "Red Velvet"
     ],
-    "album": "#Cookie Jar - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2f/97/af/2f97af88-1628-a310-a6a3-ee89055d5e78/mzaf_10496100468491654384.plus.aac.p.m4a",
-    "duration": 213693,
-    "trackUrl": "https://music.apple.com/us/album/cookie-jar/1400640685?i=1400640686",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5d/c6/cc/5dc6cc10-18a8-4ede-ad58-90bd8750c912/AVCK-79478.jpg/300x300bb.jpg",
-    "trackId": "1400640686"
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0f/fb/7a/0ffb7ae9-2ef8-c98a-9356-cc7330990b83/mzaf_12005068604710562967.plus.aac.p.m4a",
+    "duration": 214427,
+    "trackUrl": "https://music.apple.com/us/album/cookie-jar/1613338124?i=1613338130",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338130"
   },
   {
-    "id": "applemusic-1400640687",
+    "id": "applemusic-1613338131",
+    "name": "Snap Snap",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/59/17/15/59171545-1251-3515-0315-d82c70407141/mzaf_1383284790517060883.plus.aac.p.m4a",
+    "duration": 203773,
+    "trackUrl": "https://music.apple.com/us/album/snap-snap/1613338124?i=1613338131",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338131"
+  },
+  {
+    "id": "applemusic-1613338132",
+    "name": "Sayonara",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d7/e2/a3/d7e2a3db-a012-60fc-8b15-2efd9885816c/mzaf_2988015029619327055.plus.aac.p.m4a",
+    "duration": 195853,
+    "trackUrl": "https://music.apple.com/us/album/sayonara/1613338124?i=1613338132",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338132"
+  },
+  {
+    "id": "applemusic-1613338134",
     "name": "Aitai-tai",
     "artists": [
       "Red Velvet"
     ],
-    "album": "#Cookie Jar - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/f7/79/e5f7798e-2e9b-3dbe-533a-31e572b7a488/mzaf_18366115577998264241.plus.aac.p.m4a",
-    "duration": 194800,
-    "trackUrl": "https://music.apple.com/us/album/aitai-tai/1400640685?i=1400640687",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5d/c6/cc/5dc6cc10-18a8-4ede-ad58-90bd8750c912/AVCK-79478.jpg/300x300bb.jpg",
-    "trackId": "1400640687"
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/21/83/d8/2183d884-d240-9cb7-c604-f01b4975ee59/mzaf_14743932575917913401.plus.aac.p.m4a",
+    "duration": 194960,
+    "trackUrl": "https://music.apple.com/us/album/aitai-tai/1613338124?i=1613338134",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338134"
   },
   {
-    "id": "applemusic-1400640694",
+    "id": "applemusic-1613338135",
+    "name": "Swimming Pool",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/34/7c/af/347caf61-89c4-d4e0-0077-7e977ad313d5/mzaf_7368124032190269031.plus.aac.p.m4a",
+    "duration": 201147,
+    "trackUrl": "https://music.apple.com/us/album/swimming-pool/1613338124?i=1613338135",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338135"
+  },
+  {
+    "id": "applemusic-1613338136",
     "name": "'Cause it's you",
     "artists": [
       "Red Velvet"
     ],
-    "album": "#Cookie Jar - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f2/6f/e9/f26fe9e1-bc03-3db1-28be-54dac439cddb/mzaf_1026679970169080215.plus.aac.p.m4a",
-    "duration": 179960,
-    "trackUrl": "https://music.apple.com/us/album/cause-its-you/1400640685?i=1400640694",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5d/c6/cc/5dc6cc10-18a8-4ede-ad58-90bd8750c912/AVCK-79478.jpg/300x300bb.jpg",
-    "trackId": "1400640694"
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/41/b0/f7/41b0f7bc-ced6-c382-9653-f2273bb8d4a4/mzaf_4993696193290807332.plus.aac.p.m4a",
+    "duration": 180440,
+    "trackUrl": "https://music.apple.com/us/album/cause-its-you/1613338124?i=1613338136",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338136"
+  },
+  {
+    "id": "applemusic-1613338137",
+    "name": "Color of Love",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Bloom",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/47/ef/ad/47efad0a-f07e-9a18-37a2-020ebba41769/mzaf_4191231997908783809.plus.aac.p.m4a",
+    "duration": 187480,
+    "trackUrl": "https://music.apple.com/us/album/color-of-love/1613338124?i=1613338137",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
+    "trackId": "1613338137"
+  },
+  {
+    "id": "applemusic-1760010149",
+    "name": "Sweet Dreams",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "Cosmic",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/52/40/df5240d4-f9f4-5c31-d230-29054e54cf29/mzaf_17751584459122662052.plus.aac.p.m4a",
+    "duration": 189395,
+    "trackUrl": "https://music.apple.com/us/album/sweet-dreams/1760009901?i=1760010149",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/47/da/7747dac1-2d5e-1477-ff0a-f38d043a1028/888735948756_Cover.jpg/300x300bb.jpg",
+    "trackId": "1760010149"
   },
   {
     "id": "applemusic-1092931408",
@@ -1456,32 +1560,6 @@
     "trackId": "1092931463"
   },
   {
-    "id": "applemusic-1760010149",
-    "name": "Sweet Dreams",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Cosmic",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/52/40/df5240d4-f9f4-5c31-d230-29054e54cf29/mzaf_17751584459122662052.plus.aac.p.m4a",
-    "duration": 189395,
-    "trackUrl": "https://music.apple.com/us/album/sweet-dreams/1760009901?i=1760010149",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/47/da/7747dac1-2d5e-1477-ff0a-f38d043a1028/888735948756_Cover.jpg/300x300bb.jpg",
-    "trackId": "1760010149"
-  },
-  {
-    "id": "applemusic-1451779780",
-    "name": "Sayonara",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Sayonara - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/02/0c/8a/020c8ab0-0826-ff91-9634-70dfff381f86/mzaf_15953688600638340972.plus.aac.p.m4a",
-    "duration": 196200,
-    "trackUrl": "https://music.apple.com/us/album/sayonara/1451779779?i=1451779780",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ff/23/a3/ff23a321-58b4-4c49-fc92-e45cdad82b8c/ANTCD-31228.jpg/300x300bb.jpg",
-    "trackId": "1451779780"
-  },
-  {
     "id": "applemusic-1659173768",
     "name": "Beautiful Christmas",
     "artists": [
@@ -1495,84 +1573,6 @@
     "trackId": "1659173768"
   },
   {
-    "id": "applemusic-1613338125",
-    "name": "Marionette",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Bloom",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/76/d6/ac/76d6acfe-4b94-8604-632f-788ee0ec7f06/mzaf_7515785131216844197.plus.aac.p.m4a",
-    "duration": 228653,
-    "trackUrl": "https://music.apple.com/us/album/marionette/1613338124?i=1613338125",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
-    "trackId": "1613338125"
-  },
-  {
-    "id": "applemusic-1613338127",
-    "name": "WILDSIDE",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Bloom",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/8d/4f/81/8d4f8108-16c4-b8e2-a38d-98f01848a156/mzaf_17822276832479519166.plus.aac.p.m4a",
-    "duration": 229520,
-    "trackUrl": "https://music.apple.com/us/album/wildside/1613338124?i=1613338127",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
-    "trackId": "1613338127"
-  },
-  {
-    "id": "applemusic-1613338129",
-    "name": "Jackpot",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Bloom",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/99/60/22/99602283-3455-c393-d995-7c414a16de61/mzaf_7241232232847126571.plus.aac.p.m4a",
-    "duration": 182520,
-    "trackUrl": "https://music.apple.com/us/album/jackpot/1613338124?i=1613338129",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
-    "trackId": "1613338129"
-  },
-  {
-    "id": "applemusic-1613338131",
-    "name": "Snap Snap",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Bloom",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/59/17/15/59171545-1251-3515-0315-d82c70407141/mzaf_1383284790517060883.plus.aac.p.m4a",
-    "duration": 203773,
-    "trackUrl": "https://music.apple.com/us/album/snap-snap/1613338124?i=1613338131",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
-    "trackId": "1613338131"
-  },
-  {
-    "id": "applemusic-1613338135",
-    "name": "Swimming Pool",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Bloom",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/34/7c/af/347caf61-89c4-d4e0-0077-7e977ad313d5/mzaf_7368124032190269031.plus.aac.p.m4a",
-    "duration": 201147,
-    "trackUrl": "https://music.apple.com/us/album/swimming-pool/1613338124?i=1613338135",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
-    "trackId": "1613338135"
-  },
-  {
-    "id": "applemusic-1613338137",
-    "name": "Color of Love",
-    "artists": [
-      "Red Velvet"
-    ],
-    "album": "Bloom",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/47/ef/ad/47efad0a-f07e-9a18-37a2-020ebba41769/mzaf_4191231997908783809.plus.aac.p.m4a",
-    "duration": 187480,
-    "trackUrl": "https://music.apple.com/us/album/color-of-love/1613338124?i=1613338137",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7d/65/f5/7d65f5b4-5aa0-e3f8-b646-04df9a442821/ANTCD-A0000006619.jpg/300x300bb.jpg",
-    "trackId": "1613338137"
-  },
-  {
     "id": "applemusic-1067729609",
     "name": "Wish Tree - WINTER GARDEN",
     "artists": [
@@ -1584,6 +1584,19 @@
     "trackUrl": "https://music.apple.com/us/album/wish-tree-winter-garden/1067729602?i=1067729609",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/a2/03/39/a2033940-4817-cbe6-372e-5723b47ce095/WINTER_GARDEN_2_RV.jpg/300x300bb.jpg",
     "trackId": "1067729609"
+  },
+  {
+    "id": "applemusic-1536069073",
+    "name": "Future",
+    "artists": [
+      "Red Velvet"
+    ],
+    "album": "START-UP (Original Television Soundtrack), Pt. 1 - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/26/63/5f/26635f61-0133-7087-b7cf-73b0874c127f/mzaf_795022369821899696.plus.aac.p.m4a",
+    "duration": 215880,
+    "trackUrl": "https://music.apple.com/us/album/future/1536069072?i=1536069073",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6d/f5/e1/6df5e14e-0c37-4d60-df7e-f388b795f475/8809764921451.jpg/300x300bb.jpg",
+    "trackId": "1536069073"
   },
   {
     "id": "applemusic-1221192713",

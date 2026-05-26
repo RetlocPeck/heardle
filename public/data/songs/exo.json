@@ -1,122 +1,5 @@
 [
   {
-    "id": "applemusic-1260294769",
-    "name": "The Eve",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/41/f9/f941f9b6-04bd-e338-69cb-0b958848351a/mzaf_5612544856338677963.plus.aac.p.m4a",
-    "duration": 176026,
-    "trackUrl": "https://music.apple.com/us/album/the-eve/1260294767?i=1260294769",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294769"
-  },
-  {
-    "id": "applemusic-1260294772",
-    "name": "Ko Ko Bop",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/eb/0b/3eeb0b1c-27bf-5176-40e3-01ccab4d6436/mzaf_17581471569117519330.plus.aac.p.m4a",
-    "duration": 190423,
-    "trackUrl": "https://music.apple.com/us/album/ko-ko-bop/1260294767?i=1260294772",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294772"
-  },
-  {
-    "id": "applemusic-1260294773",
-    "name": "What U do?",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ab/52/24/ab5224b2-2f32-25b0-68ec-9afa7f179225/mzaf_13047691173620713113.plus.aac.p.m4a",
-    "duration": 221349,
-    "trackUrl": "https://music.apple.com/us/album/what-u-do/1260294767?i=1260294773",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294773"
-  },
-  {
-    "id": "applemusic-1260294774",
-    "name": "Forever",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/51/97/d95197f3-bad1-74e2-75b1-110960fe675e/mzaf_7171833275070656464.plus.aac.p.m4a",
-    "duration": 230726,
-    "trackUrl": "https://music.apple.com/us/album/forever/1260294767?i=1260294774",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294774"
-  },
-  {
-    "id": "applemusic-1260294775",
-    "name": "Diamond",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/83/0b/9f830b8e-f093-6e96-e491-99bde6ef2cbe/mzaf_5819491218733647282.plus.aac.p.m4a",
-    "duration": 211196,
-    "trackUrl": "https://music.apple.com/us/album/diamond/1260294767?i=1260294775",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294775"
-  },
-  {
-    "id": "applemusic-1260294776",
-    "name": "Touch It",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/7b/8c/727b8c43-cbb0-f84f-67e2-6da629c8eb09/mzaf_7928725472047837473.plus.aac.p.m4a",
-    "duration": 209896,
-    "trackUrl": "https://music.apple.com/us/album/touch-it/1260294767?i=1260294776",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294776"
-  },
-  {
-    "id": "applemusic-1260294777",
-    "name": "Chill",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/2f/d5/ec2fd598-404b-58ba-2d1e-3b66f483d9ab/mzaf_12757311692649576051.plus.aac.p.m4a",
-    "duration": 187756,
-    "trackUrl": "https://music.apple.com/us/album/chill/1260294767?i=1260294777",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294777"
-  },
-  {
-    "id": "applemusic-1260294778",
-    "name": "Walk On Memories",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/be/52/b9be52d2-3687-2ede-3193-31b265639e7f/mzaf_10927604088989615416.plus.aac.p.m4a",
-    "duration": 232234,
-    "trackUrl": "https://music.apple.com/us/album/walk-on-memories/1260294767?i=1260294778",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294778"
-  },
-  {
-    "id": "applemusic-1260294779",
-    "name": "Going Crazy",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE WAR - The 4th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/83/da/c6/83dac69a-8493-563d-0009-698d8cc0e591/mzaf_13334134066811869750.plus.aac.p.m4a",
-    "duration": 226062,
-    "trackUrl": "https://music.apple.com/us/album/going-crazy/1260294767?i=1260294779",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
-    "trackId": "1260294779"
-  },
-  {
     "id": "applemusic-1440782230",
     "name": "Tempo",
     "artists": [
@@ -247,121 +130,121 @@
     "trackId": "1440782427"
   },
   {
-    "id": "applemusic-1488308375",
-    "name": "Obsession",
+    "id": "applemusic-1260294769",
+    "name": "The Eve",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/27/15/c827150b-eab8-3b32-724a-169d60445f10/mzaf_11677833439736505532.plus.aac.p.m4a",
-    "duration": 203520,
-    "trackUrl": "https://music.apple.com/us/album/obsession/1488308374?i=1488308375",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308375"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f9/41/f9/f941f9b6-04bd-e338-69cb-0b958848351a/mzaf_5612544856338677963.plus.aac.p.m4a",
+    "duration": 176026,
+    "trackUrl": "https://music.apple.com/us/album/the-eve/1260294767?i=1260294769",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294769"
   },
   {
-    "id": "applemusic-1488308591",
-    "name": "Trouble",
+    "id": "applemusic-1260294772",
+    "name": "Ko Ko Bop",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/60/30/4c6030cc-0615-22ab-77b4-fc7707691e00/mzaf_15903624021542460163.plus.aac.p.m4a",
-    "duration": 197227,
-    "trackUrl": "https://music.apple.com/us/album/trouble/1488308374?i=1488308591",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308591"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3e/eb/0b/3eeb0b1c-27bf-5176-40e3-01ccab4d6436/mzaf_17581471569117519330.plus.aac.p.m4a",
+    "duration": 190423,
+    "trackUrl": "https://music.apple.com/us/album/ko-ko-bop/1260294767?i=1260294772",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294772"
   },
   {
-    "id": "applemusic-1488308595",
-    "name": "Jekyll",
+    "id": "applemusic-1260294773",
+    "name": "What U do?",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/37/34/fe373426-a066-81de-1147-1e608d8e0557/mzaf_17334328914050608939.plus.aac.p.m4a",
-    "duration": 221267,
-    "trackUrl": "https://music.apple.com/us/album/jekyll/1488308374?i=1488308595",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308595"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ab/52/24/ab5224b2-2f32-25b0-68ec-9afa7f179225/mzaf_13047691173620713113.plus.aac.p.m4a",
+    "duration": 221349,
+    "trackUrl": "https://music.apple.com/us/album/what-u-do/1260294767?i=1260294773",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294773"
   },
   {
-    "id": "applemusic-1488308605",
-    "name": "Groove",
+    "id": "applemusic-1260294774",
+    "name": "Forever",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/39/85/903985c5-212e-5fed-a63c-1d86703a9a13/mzaf_11934050852222161565.plus.aac.p.m4a",
-    "duration": 208613,
-    "trackUrl": "https://music.apple.com/us/album/groove/1488308374?i=1488308605",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308605"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/51/97/d95197f3-bad1-74e2-75b1-110960fe675e/mzaf_7171833275070656464.plus.aac.p.m4a",
+    "duration": 230726,
+    "trackUrl": "https://music.apple.com/us/album/forever/1260294767?i=1260294774",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294774"
   },
   {
-    "id": "applemusic-1488308608",
-    "name": "Ya Ya Ya",
+    "id": "applemusic-1260294775",
+    "name": "Diamond",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/fc/34/47fc34be-dd7a-6824-dc61-55987092f928/mzaf_12658306206161419119.plus.aac.p.m4a",
-    "duration": 222040,
-    "trackUrl": "https://music.apple.com/us/album/ya-ya-ya/1488308374?i=1488308608",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308608"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/83/0b/9f830b8e-f093-6e96-e491-99bde6ef2cbe/mzaf_5819491218733647282.plus.aac.p.m4a",
+    "duration": 211196,
+    "trackUrl": "https://music.apple.com/us/album/diamond/1260294767?i=1260294775",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294775"
   },
   {
-    "id": "applemusic-1488308646",
-    "name": "Baby You Are",
+    "id": "applemusic-1260294776",
+    "name": "Touch It",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9d/db/16/9ddb16cc-0f25-2a9d-2592-b857d0fdb107/mzaf_16361096228726602830.plus.aac.p.m4a",
-    "duration": 178920,
-    "trackUrl": "https://music.apple.com/us/album/baby-you-are/1488308374?i=1488308646",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308646"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/7b/8c/727b8c43-cbb0-f84f-67e2-6da629c8eb09/mzaf_7928725472047837473.plus.aac.p.m4a",
+    "duration": 209896,
+    "trackUrl": "https://music.apple.com/us/album/touch-it/1260294767?i=1260294776",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294776"
   },
   {
-    "id": "applemusic-1488308653",
-    "name": "Non Stop",
+    "id": "applemusic-1260294777",
+    "name": "Chill",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/74/33/f7/7433f760-ff6b-3bed-0202-68522280c141/mzaf_12479567866301449435.plus.aac.p.m4a",
-    "duration": 204240,
-    "trackUrl": "https://music.apple.com/us/album/non-stop/1488308374?i=1488308653",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308653"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ec/2f/d5/ec2fd598-404b-58ba-2d1e-3b66f483d9ab/mzaf_12757311692649576051.plus.aac.p.m4a",
+    "duration": 187756,
+    "trackUrl": "https://music.apple.com/us/album/chill/1260294767?i=1260294777",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294777"
   },
   {
-    "id": "applemusic-1488308655",
-    "name": "Day After Day",
+    "id": "applemusic-1260294778",
+    "name": "Walk On Memories",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/48/02/9f48029a-1c3d-ba9b-8bea-ee6416a1fb49/mzaf_8386235126953457626.plus.aac.p.m4a",
-    "duration": 222333,
-    "trackUrl": "https://music.apple.com/us/album/day-after-day/1488308374?i=1488308655",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308655"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/be/52/b9be52d2-3687-2ede-3193-31b265639e7f/mzaf_10927604088989615416.plus.aac.p.m4a",
+    "duration": 232234,
+    "trackUrl": "https://music.apple.com/us/album/walk-on-memories/1260294767?i=1260294778",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294778"
   },
   {
-    "id": "applemusic-1488308656",
-    "name": "Butterfly Effect",
+    "id": "applemusic-1260294779",
+    "name": "Going Crazy",
     "artists": [
       "EXO"
     ],
-    "album": "OBSESSION - The 6th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5d/f6/f0/5df6f0c5-5b87-8224-fbda-186c98f84cc8/mzaf_14609846202712186541.plus.aac.p.m4a",
-    "duration": 190360,
-    "trackUrl": "https://music.apple.com/us/album/butterfly-effect/1488308374?i=1488308656",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
-    "trackId": "1488308656"
+    "album": "THE WAR - The 4th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/83/da/c6/83dac69a-8493-563d-0009-698d8cc0e591/mzaf_13334134066811869750.plus.aac.p.m4a",
+    "duration": 226062,
+    "trackUrl": "https://music.apple.com/us/album/going-crazy/1260294767?i=1260294779",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e0/e6/45/e0e6457b-98c2-e86a-158f-63f234e62ed7/EXO_04_THE_WAR_DC_KOREAN_Ver.jpg/300x300bb.jpg",
+    "trackId": "1260294779"
   },
   {
     "id": "applemusic-1121473192",
@@ -479,6 +362,812 @@
     "trackUrl": "https://music.apple.com/us/album/stronger/1121473062?i=1121473200",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/8a/2d/e9/8a2de945-0ba9-d37d-fd0e-869ee72db099/EXACT_DIGITAL_COVER_IB_4000_4000.jpg/300x300bb.jpg",
     "trackId": "1121473200"
+  },
+  {
+    "id": "applemusic-1488308375",
+    "name": "Obsession",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/27/15/c827150b-eab8-3b32-724a-169d60445f10/mzaf_11677833439736505532.plus.aac.p.m4a",
+    "duration": 203520,
+    "trackUrl": "https://music.apple.com/us/album/obsession/1488308374?i=1488308375",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308375"
+  },
+  {
+    "id": "applemusic-1488308591",
+    "name": "Trouble",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/4c/60/30/4c6030cc-0615-22ab-77b4-fc7707691e00/mzaf_15903624021542460163.plus.aac.p.m4a",
+    "duration": 197227,
+    "trackUrl": "https://music.apple.com/us/album/trouble/1488308374?i=1488308591",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308591"
+  },
+  {
+    "id": "applemusic-1488308595",
+    "name": "Jekyll",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fe/37/34/fe373426-a066-81de-1147-1e608d8e0557/mzaf_17334328914050608939.plus.aac.p.m4a",
+    "duration": 221267,
+    "trackUrl": "https://music.apple.com/us/album/jekyll/1488308374?i=1488308595",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308595"
+  },
+  {
+    "id": "applemusic-1488308605",
+    "name": "Groove",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/90/39/85/903985c5-212e-5fed-a63c-1d86703a9a13/mzaf_11934050852222161565.plus.aac.p.m4a",
+    "duration": 208613,
+    "trackUrl": "https://music.apple.com/us/album/groove/1488308374?i=1488308605",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308605"
+  },
+  {
+    "id": "applemusic-1488308608",
+    "name": "Ya Ya Ya",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/fc/34/47fc34be-dd7a-6824-dc61-55987092f928/mzaf_12658306206161419119.plus.aac.p.m4a",
+    "duration": 222040,
+    "trackUrl": "https://music.apple.com/us/album/ya-ya-ya/1488308374?i=1488308608",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308608"
+  },
+  {
+    "id": "applemusic-1488308646",
+    "name": "Baby You Are",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9d/db/16/9ddb16cc-0f25-2a9d-2592-b857d0fdb107/mzaf_16361096228726602830.plus.aac.p.m4a",
+    "duration": 178920,
+    "trackUrl": "https://music.apple.com/us/album/baby-you-are/1488308374?i=1488308646",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308646"
+  },
+  {
+    "id": "applemusic-1488308653",
+    "name": "Non Stop",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/74/33/f7/7433f760-ff6b-3bed-0202-68522280c141/mzaf_12479567866301449435.plus.aac.p.m4a",
+    "duration": 204240,
+    "trackUrl": "https://music.apple.com/us/album/non-stop/1488308374?i=1488308653",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308653"
+  },
+  {
+    "id": "applemusic-1488308655",
+    "name": "Day After Day",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9f/48/02/9f48029a-1c3d-ba9b-8bea-ee6416a1fb49/mzaf_8386235126953457626.plus.aac.p.m4a",
+    "duration": 222333,
+    "trackUrl": "https://music.apple.com/us/album/day-after-day/1488308374?i=1488308655",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308655"
+  },
+  {
+    "id": "applemusic-1488308656",
+    "name": "Butterfly Effect",
+    "artists": [
+      "EXO"
+    ],
+    "album": "OBSESSION - The 6th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5d/f6/f0/5df6f0c5-5b87-8224-fbda-186c98f84cc8/mzaf_14609846202712186541.plus.aac.p.m4a",
+    "duration": 190360,
+    "trackUrl": "https://music.apple.com/us/album/butterfly-effect/1488308374?i=1488308656",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/28/59/de/2859de3b-c003-816e-4f28-71d40b04697d/cover.jpg/300x300bb.jpg",
+    "trackId": "1488308656"
+  },
+  {
+    "id": "applemusic-1446231541",
+    "name": "Love Shot",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE SHOT – The 5th Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/27/04/63/2704633d-4b20-9102-3e4e-dfe949a12db7/mzaf_15666174515800722032.plus.aac.p.m4a",
+    "duration": 200306,
+    "trackUrl": "https://music.apple.com/us/album/love-shot/1446231540?i=1446231541",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/9a/62/419a621b-bd1a-c9ba-2c77-fe3b233a33b4/EXO_DC.jpg/300x300bb.jpg",
+    "trackId": "1446231541"
+  },
+  {
+    "id": "applemusic-1446231542",
+    "name": "Trauma",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE SHOT – The 5th Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/de/8c/52de8cbe-6bda-851f-e5a2-0d58a4426350/mzaf_17546920598201838523.plus.aac.p.m4a",
+    "duration": 222010,
+    "trackUrl": "https://music.apple.com/us/album/trauma/1446231540?i=1446231542",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/9a/62/419a621b-bd1a-c9ba-2c77-fe3b233a33b4/EXO_DC.jpg/300x300bb.jpg",
+    "trackId": "1446231542"
+  },
+  {
+    "id": "applemusic-1446231543",
+    "name": "Wait",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE SHOT – The 5th Album Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/63/db/d0/63dbd0ad-e63d-2423-3aff-5d915746c3c6/mzaf_2189605619141383826.plus.aac.p.m4a",
+    "duration": 248768,
+    "trackUrl": "https://music.apple.com/us/album/wait/1446231540?i=1446231543",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/9a/62/419a621b-bd1a-c9ba-2c77-fe3b233a33b4/EXO_DC.jpg/300x300bb.jpg",
+    "trackId": "1446231543"
+  },
+  {
+    "id": "applemusic-979878876",
+    "name": "CALL ME BABY",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/97/43/8d9743bb-53cb-ed50-a60b-9b2149c4f1e3/mzaf_13524117932247674480.plus.aac.p.m4a",
+    "duration": 211013,
+    "trackUrl": "https://music.apple.com/us/album/call-me-baby/979878364?i=979878876",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878876"
+  },
+  {
+    "id": "applemusic-979878877",
+    "name": "TRANSFORMER",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/92/fb/8d92fb20-4831-6bb4-6ba5-a379d997628a/mzaf_5487249973171313216.plus.aac.p.m4a",
+    "duration": 227519,
+    "trackUrl": "https://music.apple.com/us/album/transformer/979878364?i=979878877",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878877"
+  },
+  {
+    "id": "applemusic-979878878",
+    "name": "What If..",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/43/77/e5437769-14a3-a4dc-d569-752841389378/mzaf_972940212892324079.plus.aac.p.m4a",
+    "duration": 258955,
+    "trackUrl": "https://music.apple.com/us/album/what-if/979878364?i=979878878",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878878"
+  },
+  {
+    "id": "applemusic-979878879",
+    "name": "MY ANSWER",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/91/f9/2b91f979-83d2-e165-7ad0-749666e7fa28/mzaf_6261429361706979322.plus.aac.p.m4a",
+    "duration": 213133,
+    "trackUrl": "https://music.apple.com/us/album/my-answer/979878364?i=979878879",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878879"
+  },
+  {
+    "id": "applemusic-979878880",
+    "name": "EXODUS",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/67/46/1e/67461e9d-1a90-ec59-888d-7769ef690313/mzaf_7604030347516381457.plus.aac.p.m4a",
+    "duration": 199980,
+    "trackUrl": "https://music.apple.com/us/album/exodus/979878364?i=979878880",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878880"
+  },
+  {
+    "id": "applemusic-979878881",
+    "name": "EL DORADO",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/58/ec/25/58ec25b2-3ad0-751e-6643-522597cb2ccb/mzaf_18053793203774821107.plus.aac.p.m4a",
+    "duration": 239597,
+    "trackUrl": "https://music.apple.com/us/album/el-dorado/979878364?i=979878881",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878881"
+  },
+  {
+    "id": "applemusic-979878882",
+    "name": "PLAYBOY",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/df/1b/acdf1b66-2a69-22d2-1bf2-3a233a4dbc70/mzaf_3471393833449332133.plus.aac.p.m4a",
+    "duration": 212132,
+    "trackUrl": "https://music.apple.com/us/album/playboy/979878364?i=979878882",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878882"
+  },
+  {
+    "id": "applemusic-979878883",
+    "name": "HURT",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e5/c7/04/e5c704fc-26cd-f742-f8e0-61c78eab7983/mzaf_10039252518981760048.plus.aac.p.m4a",
+    "duration": 219483,
+    "trackUrl": "https://music.apple.com/us/album/hurt/979878364?i=979878883",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878883"
+  },
+  {
+    "id": "applemusic-979878884",
+    "name": "Lady Luck",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/4b/c3/a94bc3d8-746c-4069-26ab-e49aebf33496/mzaf_6270375341763082875.plus.aac.p.m4a",
+    "duration": 213266,
+    "trackUrl": "https://music.apple.com/us/album/lady-luck/979878364?i=979878884",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878884"
+  },
+  {
+    "id": "applemusic-979878885",
+    "name": "BEAUTIFUL",
+    "artists": [
+      "EXO"
+    ],
+    "album": "The 2nd Album ‘EXODUS’",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/65/7c/72657c74-1598-b681-95dc-ac878da85d9d/mzaf_17856287740779047273.plus.aac.p.m4a",
+    "duration": 243055,
+    "trackUrl": "https://music.apple.com/us/album/beautiful/979878364?i=979878885",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
+    "trackId": "979878885"
+  },
+  {
+    "id": "applemusic-1328808427",
+    "name": "Universe",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Universe – Winter Special Album, 2017",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/e3/e8/03e3e837-621d-26f7-d848-cd118e60c058/mzaf_5444593245063755142.plus.aac.p.m4a",
+    "duration": 264366,
+    "trackUrl": "https://music.apple.com/us/album/universe/1328808145?i=1328808427",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
+    "trackId": "1328808427"
+  },
+  {
+    "id": "applemusic-1328808429",
+    "name": "Been Through",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Universe – Winter Special Album, 2017",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/70/5a/7a705aa5-a21d-19ec-028b-733275336bbe/mzaf_16853695387126317121.plus.aac.p.m4a",
+    "duration": 218090,
+    "trackUrl": "https://music.apple.com/us/album/been-through/1328808145?i=1328808429",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
+    "trackId": "1328808429"
+  },
+  {
+    "id": "applemusic-1328808430",
+    "name": "Stay",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Universe – Winter Special Album, 2017",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/c7/5b/95c75bb9-905e-0f0e-9a5e-a022785d2a15/mzaf_11586750820286938748.plus.aac.p.m4a",
+    "duration": 230958,
+    "trackUrl": "https://music.apple.com/us/album/stay/1328808145?i=1328808430",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
+    "trackId": "1328808430"
+  },
+  {
+    "id": "applemusic-1328808461",
+    "name": "Fall",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Universe – Winter Special Album, 2017",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6d/31/e9/6d31e9d9-af29-93f4-39b8-97f7a4dce735/mzaf_5099721561027738596.plus.aac.p.m4a",
+    "duration": 207246,
+    "trackUrl": "https://music.apple.com/us/album/fall/1328808145?i=1328808461",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
+    "trackId": "1328808461"
+  },
+  {
+    "id": "applemusic-1328808462",
+    "name": "Good Night",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Universe – Winter Special Album, 2017",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6a/46/21/6a46219e-c2a6-3133-061c-28b85b3097e8/mzaf_16520259355872824999.plus.aac.p.m4a",
+    "duration": 211166,
+    "trackUrl": "https://music.apple.com/us/album/good-night/1328808145?i=1328808462",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
+    "trackId": "1328808462"
+  },
+  {
+    "id": "applemusic-1328808463",
+    "name": "Lights Out",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Universe – Winter Special Album, 2017",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/85/8d/48/858d4832-7d12-a8c3-8646-761628eb2e0c/mzaf_18076681555482345160.plus.aac.p.m4a",
+    "duration": 186325,
+    "trackUrl": "https://music.apple.com/us/album/lights-out/1328808145?i=1328808463",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
+    "trackId": "1328808463"
+  },
+  {
+    "id": "applemusic-1278808870",
+    "name": "Power",
+    "artists": [
+      "EXO"
+    ],
+    "album": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/f1/a5/acf1a501-d2ec-fe7c-74af-23b076762be5/mzaf_16585270797981389485.plus.aac.p.m4a",
+    "duration": 222406,
+    "trackUrl": "https://music.apple.com/us/album/power/1278808856?i=1278808870",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/94/f3/5094f314-6513-3c5f-58c9-5fef832655fa/EXO-DIGITAL_COVER_K.jpg/300x300bb.jpg",
+    "trackId": "1278808870"
+  },
+  {
+    "id": "applemusic-1278809261",
+    "name": "Sweet Lies",
+    "artists": [
+      "EXO"
+    ],
+    "album": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f7/2a/a0/f72aa08f-ee80-0b6e-9532-6dbbd5702dd5/mzaf_1875785778136987687.plus.aac.p.m4a",
+    "duration": 216200,
+    "trackUrl": "https://music.apple.com/us/album/sweet-lies/1278808856?i=1278809261",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/94/f3/5094f314-6513-3c5f-58c9-5fef832655fa/EXO-DIGITAL_COVER_K.jpg/300x300bb.jpg",
+    "trackId": "1278809261"
+  },
+  {
+    "id": "applemusic-1278809262",
+    "name": "Boomerang",
+    "artists": [
+      "EXO"
+    ],
+    "album": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/ef/f9/bbeff98e-73f9-09e7-b760-4eb65bb53596/mzaf_6454380104418581924.plus.aac.p.m4a",
+    "duration": 180386,
+    "trackUrl": "https://music.apple.com/us/album/boomerang/1278808856?i=1278809262",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/94/f3/5094f314-6513-3c5f-58c9-5fef832655fa/EXO-DIGITAL_COVER_K.jpg/300x300bb.jpg",
+    "trackId": "1278809262"
+  },
+  {
+    "id": "applemusic-1691686192",
+    "name": "Let Me In",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Let Me In - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/2e/12/38/2e123835-51e3-b425-8698-860d80c6c1e3/mzaf_4056113011864031752.plus.aac.p.m4a",
+    "duration": 197533,
+    "trackUrl": "https://music.apple.com/us/album/let-me-in/1691686191?i=1691686192",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/16/4c/b9164c19-e0e0-9abb-d929-3fe9c46cb5ab/EXO_R07_Pre-Single_Let-Me-In_DC.png/300x300bb.jpg",
+    "trackId": "1691686192"
+  },
+  {
+    "id": "applemusic-1143528055",
+    "name": "Lotto",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOTTO - The 3rd Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/12/cb/68/12cb6893-d7d7-c902-0b9b-98f7132fad20/mzaf_5035133390813974896.plus.aac.p.m4a",
+    "duration": 189775,
+    "trackUrl": "https://music.apple.com/us/album/lotto/1143527580?i=1143528055",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/72/72/1872721d-9086-d6a3-b823-06ddd1997096/EXO_03_RE_DIGITAL_COVER-03.jpg/300x300bb.jpg",
+    "trackId": "1143528055"
+  },
+  {
+    "id": "applemusic-1057540790",
+    "name": "LIGHTSABER",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LIGHTSABER - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e4/d4/2e/e4d42e70-4b95-d744-9802-43f7d7c5183f/mzaf_8074343746459055674.plus.aac.p.m4a",
+    "duration": 184935,
+    "trackUrl": "https://music.apple.com/us/album/lightsaber/1057540277?i=1057540790",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/09/9e/b4/099eb47a-97a4-9a11-d6e7-c85a8a094b4a/mzm.ihgajcjn.jpg/300x300bb.jpg",
+    "trackId": "1057540790"
+  },
+  {
+    "id": "applemusic-874164828",
+    "name": "Overdose",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "The 2nd Mini Album 'Overdose' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/f2/2f/5af22f94-1b06-cc8e-bf4d-eb082c7a522b/mzaf_14093963003369898623.plus.aac.p.m4a",
+    "duration": 205612,
+    "trackUrl": "https://music.apple.com/us/album/overdose/874164741?i=874164828",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
+    "trackId": "874164828"
+  },
+  {
+    "id": "applemusic-874164829",
+    "name": "Moonlight",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "The 2nd Mini Album 'Overdose' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/dd/71/e9/dd71e9f1-e1c0-daba-897e-bcdeb14d2fd0/mzaf_15484379760916851393.plus.aac.p.m4a",
+    "duration": 265254,
+    "trackUrl": "https://music.apple.com/us/album/moonlight/874164741?i=874164829",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
+    "trackId": "874164829"
+  },
+  {
+    "id": "applemusic-874164830",
+    "name": "Thunder",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "The 2nd Mini Album 'Overdose' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/c7/a1/75c7a180-b708-c1f4-b540-a70c3cb59734/mzaf_17592903763492192199.plus.aac.p.m4a",
+    "duration": 191488,
+    "trackUrl": "https://music.apple.com/us/album/thunder/874164741?i=874164830",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
+    "trackId": "874164830"
+  },
+  {
+    "id": "applemusic-874164831",
+    "name": "Run",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "The 2nd Mini Album 'Overdose' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fe/61/60/fe6160d4-c2c8-31e7-88f2-9fec2ae645df/mzaf_17746875021293454697.plus.aac.p.m4a",
+    "duration": 216197,
+    "trackUrl": "https://music.apple.com/us/album/run/874164741?i=874164831",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
+    "trackId": "874164831"
+  },
+  {
+    "id": "applemusic-874164834",
+    "name": "Love, Love, Love",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "The 2nd Mini Album 'Overdose' - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e6/71/7e/e6717e05-1d9e-6932-2355-268e546e2442/mzaf_10333006618411948203.plus.aac.p.m4a",
+    "duration": 233531,
+    "trackUrl": "https://music.apple.com/us/album/love-love-love/874164741?i=874164834",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
+    "trackId": "874164834"
+  },
+  {
+    "id": "applemusic-1695833433",
+    "name": "Cream Soda",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d6/89/b7/d689b74b-0d37-c21e-2536-7da2f56ea27d/mzaf_1235834821833529854.plus.aac.p.m4a",
+    "duration": 185320,
+    "trackUrl": "https://music.apple.com/us/album/cream-soda/1695833432?i=1695833433",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833433"
+  },
+  {
+    "id": "applemusic-1695833434",
+    "name": "Regret It",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/d9/de/a7d9decd-3b8d-add9-6f3a-ed1fd92770a6/mzaf_4712741978173607878.plus.aac.p.m4a",
+    "duration": 175840,
+    "trackUrl": "https://music.apple.com/us/album/regret-it/1695833432?i=1695833434",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833434"
+  },
+  {
+    "id": "applemusic-1695833436",
+    "name": "Hear Me Out",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/77/7d/84/777d844f-1ea9-babb-c2f8-aaddd651663e/mzaf_14394602961883576419.plus.aac.p.m4a",
+    "duration": 204093,
+    "trackUrl": "https://music.apple.com/us/album/hear-me-out/1695833432?i=1695833436",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833436"
+  },
+  {
+    "id": "applemusic-1695833437",
+    "name": "Private Party",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/48/cf/d5/48cfd553-6aba-e6f6-4583-26a2953adbdd/mzaf_2357447461977173273.plus.aac.p.m4a",
+    "duration": 189813,
+    "trackUrl": "https://music.apple.com/us/album/private-party/1695833432?i=1695833437",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833437"
+  },
+  {
+    "id": "applemusic-1695833438",
+    "name": "Cinderella",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a7/7f/9f/a77f9fae-a155-b9b7-9ecc-43bdc7deb69f/mzaf_140327663603348298.plus.aac.p.m4a",
+    "duration": 154573,
+    "trackUrl": "https://music.apple.com/us/album/cinderella/1695833432?i=1695833438",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833438"
+  },
+  {
+    "id": "applemusic-1695833440",
+    "name": "No Makeup",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/79/65/ec/7965ec8e-9f51-efb6-09ec-685e296b77e3/mzaf_2961875957511343482.plus.aac.p.m4a",
+    "duration": 204853,
+    "trackUrl": "https://music.apple.com/us/album/no-makeup/1695833432?i=1695833440",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833440"
+  },
+  {
+    "id": "applemusic-1695833441",
+    "name": "Love Fool",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bf/49/a7/bf49a7f7-9a79-f6e1-d03d-74e42b5894a4/mzaf_12359098167347788667.plus.aac.p.m4a",
+    "duration": 202733,
+    "trackUrl": "https://music.apple.com/us/album/love-fool/1695833432?i=1695833441",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833441"
+  },
+  {
+    "id": "applemusic-1695833442",
+    "name": "Another Day",
+    "artists": [
+      "EXO"
+    ],
+    "album": "EXIST - The 7th Album",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0f/29/1b/0f291b11-3dff-663e-fcc0-57c5242b2bc0/mzaf_12028439925227774099.plus.aac.p.m4a",
+    "duration": 191067,
+    "trackUrl": "https://music.apple.com/us/album/another-day/1695833432?i=1695833442",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
+    "trackId": "1695833442"
+  },
+  {
+    "id": "applemusic-999674732",
+    "name": "LOVE ME RIGHT",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f8/d7/f5/f8d7f574-b877-be4b-2df3-744c10d5789c/mzaf_8873900730570519415.plus.aac.p.m4a",
+    "duration": 205129,
+    "trackUrl": "https://music.apple.com/us/album/love-me-right/999674716?i=999674732",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
+    "trackId": "999674732"
+  },
+  {
+    "id": "applemusic-999674733",
+    "name": "TENDER LOVE",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/39/22/8d/39228dda-1188-12cc-9ad7-47c6621163b3/mzaf_6686931753916304878.plus.aac.p.m4a",
+    "duration": 216437,
+    "trackUrl": "https://music.apple.com/us/album/tender-love/999674716?i=999674733",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
+    "trackId": "999674733"
+  },
+  {
+    "id": "applemusic-999675341",
+    "name": "FIRST LOVE",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/06/25/31/0625319d-b66f-6581-7f85-099056f308ed/mzaf_4200199460505645194.plus.aac.p.m4a",
+    "duration": 242337,
+    "trackUrl": "https://music.apple.com/us/album/first-love/999674716?i=999675341",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
+    "trackId": "999675341"
+  },
+  {
+    "id": "applemusic-999675345",
+    "name": "Promise EXO 2014",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/1f/3b/c81f3b17-744d-388d-79a7-2a5ba48616e9/mzaf_2631854904789173633.plus.aac.p.m4a",
+    "duration": 286672,
+    "trackUrl": "https://music.apple.com/us/album/promise-exo-2014/999674716?i=999675345",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
+    "trackId": "999675345"
+  },
+  {
+    "id": "applemusic-854917384",
+    "name": "Mama",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "Mama (The 1st Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/7c/f2/2d7cf222-2654-02a0-30ad-efc0d821a474/mzaf_11312766558975046300.plus.aac.p.m4a",
+    "duration": 270512,
+    "trackUrl": "https://music.apple.com/us/album/mama/854917291?i=854917384",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
+    "trackId": "854917384"
+  },
+  {
+    "id": "applemusic-854917385",
+    "name": "What Is Love",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "Mama (The 1st Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/03/06/71030674-def8-5e44-caaa-fc979059f7e6/mzaf_17998105627814352563.plus.aac.p.m4a",
+    "duration": 261291,
+    "trackUrl": "https://music.apple.com/us/album/what-is-love/854917291?i=854917385",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
+    "trackId": "854917385"
+  },
+  {
+    "id": "applemusic-854917386",
+    "name": "History",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "Mama (The 1st Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/06/d3/cd/06d3cd25-8ee6-e738-14e6-1a7af47b2033/mzaf_13756046491320756752.plus.aac.p.m4a",
+    "duration": 209856,
+    "trackUrl": "https://music.apple.com/us/album/history/854917291?i=854917386",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
+    "trackId": "854917386"
+  },
+  {
+    "id": "applemusic-854917387",
+    "name": "Angel",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "Mama (The 1st Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/ff/73/82ff7359-57f6-3af2-c94e-96afd3a8824e/mzaf_7693741361665973725.plus.aac.p.m4a",
+    "duration": 180233,
+    "trackUrl": "https://music.apple.com/us/album/angel/854917291?i=854917387",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
+    "trackId": "854917387"
+  },
+  {
+    "id": "applemusic-854917388",
+    "name": "Two Moons (feat. Key)",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "Mama (The 1st Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b5/7c/b9/b57cb917-01fc-1466-4c7e-63e38d80cae0/mzaf_17557293972175071529.plus.aac.p.m4a",
+    "duration": 177072,
+    "trackUrl": "https://music.apple.com/us/album/two-moons-feat-key/854917291?i=854917388",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
+    "trackId": "854917388"
+  },
+  {
+    "id": "applemusic-854917389",
+    "name": "Machine",
+    "artists": [
+      "EXO-K"
+    ],
+    "album": "Mama (The 1st Mini Album) - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/ca/ee/03caee79-7c99-b177-1625-a4aef4db0d8b/mzaf_2361218082195991165.plus.aac.p.m4a",
+    "duration": 204239,
+    "trackUrl": "https://music.apple.com/us/album/machine/854917291?i=854917389",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
+    "trackId": "854917389"
+  },
+  {
+    "id": "applemusic-1570253221",
+    "name": "Don't fight the feeling",
+    "artists": [
+      "EXO"
+    ],
+    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b0/99/92/b09992f0-87f1-2067-2433-966d475fc4fe/mzaf_13192375696218252743.plus.aac.p.m4a",
+    "duration": 176547,
+    "trackUrl": "https://music.apple.com/us/album/dont-fight-the-feeling/1570253219?i=1570253221",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1570253221"
+  },
+  {
+    "id": "applemusic-1570253448",
+    "name": "Paradise",
+    "artists": [
+      "EXO"
+    ],
+    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/c1/f0/68c1f001-ac23-11cd-9430-78232e679cef/mzaf_6511839418321519751.plus.aac.p.m4a",
+    "duration": 217320,
+    "trackUrl": "https://music.apple.com/us/album/paradise/1570253219?i=1570253448",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1570253448"
+  },
+  {
+    "id": "applemusic-1570253449",
+    "name": "No matter",
+    "artists": [
+      "EXO"
+    ],
+    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/9f/98/419f9870-67f2-2f73-28fa-257df59b3bed/mzaf_2395997061931987999.plus.aac.p.m4a",
+    "duration": 222933,
+    "trackUrl": "https://music.apple.com/us/album/no-matter/1570253219?i=1570253449",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1570253449"
+  },
+  {
+    "id": "applemusic-1570253451",
+    "name": "Runaway",
+    "artists": [
+      "EXO"
+    ],
+    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/85/ed/1f85ed00-f8da-cce2-d16e-6bfa6fed142f/mzaf_4059620973337115306.plus.aac.p.m4a",
+    "duration": 207733,
+    "trackUrl": "https://music.apple.com/us/album/runaway/1570253219?i=1570253451",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1570253451"
+  },
+  {
+    "id": "applemusic-1570253452",
+    "name": "Just as usual",
+    "artists": [
+      "EXO"
+    ],
+    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/f4/78/e1f478ef-6337-36eb-246b-85b4604cf6d9/mzaf_7366899294115866487.plus.aac.p.m4a",
+    "duration": 207333,
+    "trackUrl": "https://music.apple.com/us/album/just-as-usual/1570253219?i=1570253452",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
+    "trackId": "1570253452"
   },
   {
     "id": "applemusic-854908245",
@@ -650,747 +1339,6 @@
     "trackId": "854908262"
   },
   {
-    "id": "applemusic-1328808427",
-    "name": "Universe",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Universe – Winter Special Album, 2017",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/e3/e8/03e3e837-621d-26f7-d848-cd118e60c058/mzaf_5444593245063755142.plus.aac.p.m4a",
-    "duration": 264366,
-    "trackUrl": "https://music.apple.com/us/album/universe/1328808145?i=1328808427",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
-    "trackId": "1328808427"
-  },
-  {
-    "id": "applemusic-1328808429",
-    "name": "Been Through",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Universe – Winter Special Album, 2017",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/70/5a/7a705aa5-a21d-19ec-028b-733275336bbe/mzaf_16853695387126317121.plus.aac.p.m4a",
-    "duration": 218090,
-    "trackUrl": "https://music.apple.com/us/album/been-through/1328808145?i=1328808429",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
-    "trackId": "1328808429"
-  },
-  {
-    "id": "applemusic-1328808430",
-    "name": "Stay",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Universe – Winter Special Album, 2017",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/95/c7/5b/95c75bb9-905e-0f0e-9a5e-a022785d2a15/mzaf_11586750820286938748.plus.aac.p.m4a",
-    "duration": 230958,
-    "trackUrl": "https://music.apple.com/us/album/stay/1328808145?i=1328808430",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
-    "trackId": "1328808430"
-  },
-  {
-    "id": "applemusic-1328808461",
-    "name": "Fall",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Universe – Winter Special Album, 2017",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6d/31/e9/6d31e9d9-af29-93f4-39b8-97f7a4dce735/mzaf_5099721561027738596.plus.aac.p.m4a",
-    "duration": 207246,
-    "trackUrl": "https://music.apple.com/us/album/fall/1328808145?i=1328808461",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
-    "trackId": "1328808461"
-  },
-  {
-    "id": "applemusic-1328808462",
-    "name": "Good Night",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Universe – Winter Special Album, 2017",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6a/46/21/6a46219e-c2a6-3133-061c-28b85b3097e8/mzaf_16520259355872824999.plus.aac.p.m4a",
-    "duration": 211166,
-    "trackUrl": "https://music.apple.com/us/album/good-night/1328808145?i=1328808462",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
-    "trackId": "1328808462"
-  },
-  {
-    "id": "applemusic-1328808463",
-    "name": "Lights Out",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Universe – Winter Special Album, 2017",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/85/8d/48/858d4832-7d12-a8c3-8646-761628eb2e0c/mzaf_18076681555482345160.plus.aac.p.m4a",
-    "duration": 186325,
-    "trackUrl": "https://music.apple.com/us/album/lights-out/1328808145?i=1328808463",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6e/ba/8e/6eba8e9b-aaad-9470-9958-3cff187ab9e7/EXO_2017_WINTER_COVER.jpg/300x300bb.jpg",
-    "trackId": "1328808463"
-  },
-  {
-    "id": "applemusic-1278808870",
-    "name": "Power",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/f1/a5/acf1a501-d2ec-fe7c-74af-23b076762be5/mzaf_16585270797981389485.plus.aac.p.m4a",
-    "duration": 222406,
-    "trackUrl": "https://music.apple.com/us/album/power/1278808856?i=1278808870",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/94/f3/5094f314-6513-3c5f-58c9-5fef832655fa/EXO-DIGITAL_COVER_K.jpg/300x300bb.jpg",
-    "trackId": "1278808870"
-  },
-  {
-    "id": "applemusic-1278809261",
-    "name": "Sweet Lies",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f7/2a/a0/f72aa08f-ee80-0b6e-9532-6dbbd5702dd5/mzaf_1875785778136987687.plus.aac.p.m4a",
-    "duration": 216200,
-    "trackUrl": "https://music.apple.com/us/album/sweet-lies/1278808856?i=1278809261",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/94/f3/5094f314-6513-3c5f-58c9-5fef832655fa/EXO-DIGITAL_COVER_K.jpg/300x300bb.jpg",
-    "trackId": "1278809261"
-  },
-  {
-    "id": "applemusic-1278809262",
-    "name": "Boomerang",
-    "artists": [
-      "EXO"
-    ],
-    "album": "THE POWER OF MUSIC – The 4th Album ‘THE WAR’ Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bb/ef/f9/bbeff98e-73f9-09e7-b760-4eb65bb53596/mzaf_6454380104418581924.plus.aac.p.m4a",
-    "duration": 180386,
-    "trackUrl": "https://music.apple.com/us/album/boomerang/1278808856?i=1278809262",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/50/94/f3/5094f314-6513-3c5f-58c9-5fef832655fa/EXO-DIGITAL_COVER_K.jpg/300x300bb.jpg",
-    "trackId": "1278809262"
-  },
-  {
-    "id": "applemusic-1064933617",
-    "name": "Unfair",
-    "artists": [
-      "EXO"
-    ],
-    "album": "SING FOR YOU - Winter Special Album, 2015",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/b8/30/c2b8308d-1f5e-1426-7fea-1c094ad1ae50/mzaf_18172068010733157805.plus.aac.p.m4a",
-    "duration": 182322,
-    "trackUrl": "https://music.apple.com/us/album/unfair/1064933592?i=1064933617",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
-    "trackId": "1064933617"
-  },
-  {
-    "id": "applemusic-1064933618",
-    "name": "Sing For You",
-    "artists": [
-      "EXO"
-    ],
-    "album": "SING FOR YOU - Winter Special Album, 2015",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/3e/fd/653efd85-bb8d-a1ac-15d1-6454167b5483/mzaf_17168733470796935436.plus.aac.p.m4a",
-    "duration": 235036,
-    "trackUrl": "https://music.apple.com/us/album/sing-for-you/1064933592?i=1064933618",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
-    "trackId": "1064933618"
-  },
-  {
-    "id": "applemusic-1064933619",
-    "name": "Girl x Friend",
-    "artists": [
-      "EXO"
-    ],
-    "album": "SING FOR YOU - Winter Special Album, 2015",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4a/00/59/4a0059ee-57fd-feff-6b1e-874a40b93a63/mzaf_3426270442888997432.plus.aac.p.m4a",
-    "duration": 221672,
-    "trackUrl": "https://music.apple.com/us/album/girl-x-friend/1064933592?i=1064933619",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
-    "trackId": "1064933619"
-  },
-  {
-    "id": "applemusic-1064933620",
-    "name": "On the Snow",
-    "artists": [
-      "EXO"
-    ],
-    "album": "SING FOR YOU - Winter Special Album, 2015",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/f2/e4/32f2e470-e83f-3039-0cd4-9292a4cd5fbe/mzaf_17150232364389818139.plus.aac.p.m4a",
-    "duration": 203328,
-    "trackUrl": "https://music.apple.com/us/album/on-the-snow/1064933592?i=1064933620",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
-    "trackId": "1064933620"
-  },
-  {
-    "id": "applemusic-1057540790",
-    "name": "LIGHTSABER",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LIGHTSABER - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e4/d4/2e/e4d42e70-4b95-d744-9802-43f7d7c5183f/mzaf_8074343746459055674.plus.aac.p.m4a",
-    "duration": 184935,
-    "trackUrl": "https://music.apple.com/us/album/lightsaber/1057540277?i=1057540790",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/09/9e/b4/099eb47a-97a4-9a11-d6e7-c85a8a094b4a/mzm.ihgajcjn.jpg/300x300bb.jpg",
-    "trackId": "1057540790"
-  },
-  {
-    "id": "applemusic-1691686192",
-    "name": "Let Me In",
-    "artists": [
-      "EXO"
-    ],
-    "album": "Let Me In - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/2e/12/38/2e123835-51e3-b425-8698-860d80c6c1e3/mzaf_4056113011864031752.plus.aac.p.m4a",
-    "duration": 197533,
-    "trackUrl": "https://music.apple.com/us/album/let-me-in/1691686191?i=1691686192",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/16/4c/b9164c19-e0e0-9abb-d929-3fe9c46cb5ab/EXO_R07_Pre-Single_Let-Me-In_DC.png/300x300bb.jpg",
-    "trackId": "1691686192"
-  },
-  {
-    "id": "applemusic-1695833433",
-    "name": "Cream Soda",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/d6/89/b7/d689b74b-0d37-c21e-2536-7da2f56ea27d/mzaf_1235834821833529854.plus.aac.p.m4a",
-    "duration": 185320,
-    "trackUrl": "https://music.apple.com/us/album/cream-soda/1695833432?i=1695833433",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833433"
-  },
-  {
-    "id": "applemusic-1695833434",
-    "name": "Regret It",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a7/d9/de/a7d9decd-3b8d-add9-6f3a-ed1fd92770a6/mzaf_4712741978173607878.plus.aac.p.m4a",
-    "duration": 175840,
-    "trackUrl": "https://music.apple.com/us/album/regret-it/1695833432?i=1695833434",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833434"
-  },
-  {
-    "id": "applemusic-1695833436",
-    "name": "Hear Me Out",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/77/7d/84/777d844f-1ea9-babb-c2f8-aaddd651663e/mzaf_14394602961883576419.plus.aac.p.m4a",
-    "duration": 204093,
-    "trackUrl": "https://music.apple.com/us/album/hear-me-out/1695833432?i=1695833436",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833436"
-  },
-  {
-    "id": "applemusic-1695833437",
-    "name": "Private Party",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/48/cf/d5/48cfd553-6aba-e6f6-4583-26a2953adbdd/mzaf_2357447461977173273.plus.aac.p.m4a",
-    "duration": 189813,
-    "trackUrl": "https://music.apple.com/us/album/private-party/1695833432?i=1695833437",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833437"
-  },
-  {
-    "id": "applemusic-1695833438",
-    "name": "Cinderella",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a7/7f/9f/a77f9fae-a155-b9b7-9ecc-43bdc7deb69f/mzaf_140327663603348298.plus.aac.p.m4a",
-    "duration": 154573,
-    "trackUrl": "https://music.apple.com/us/album/cinderella/1695833432?i=1695833438",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833438"
-  },
-  {
-    "id": "applemusic-1695833440",
-    "name": "No Makeup",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/79/65/ec/7965ec8e-9f51-efb6-09ec-685e296b77e3/mzaf_2961875957511343482.plus.aac.p.m4a",
-    "duration": 204853,
-    "trackUrl": "https://music.apple.com/us/album/no-makeup/1695833432?i=1695833440",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833440"
-  },
-  {
-    "id": "applemusic-1695833441",
-    "name": "Love Fool",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/bf/49/a7/bf49a7f7-9a79-f6e1-d03d-74e42b5894a4/mzaf_12359098167347788667.plus.aac.p.m4a",
-    "duration": 202733,
-    "trackUrl": "https://music.apple.com/us/album/love-fool/1695833432?i=1695833441",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833441"
-  },
-  {
-    "id": "applemusic-1695833442",
-    "name": "Another Day",
-    "artists": [
-      "EXO"
-    ],
-    "album": "EXIST - The 7th Album",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/0f/29/1b/0f291b11-3dff-663e-fcc0-57c5242b2bc0/mzaf_12028439925227774099.plus.aac.p.m4a",
-    "duration": 191067,
-    "trackUrl": "https://music.apple.com/us/album/another-day/1695833432?i=1695833442",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b4/a4/45/b4a445fb-e3f6-8c42-73c7-1cd99fa1a129/dj.uwnxssra.jpg/300x300bb.jpg",
-    "trackId": "1695833442"
-  },
-  {
-    "id": "applemusic-1446231541",
-    "name": "Love Shot",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE SHOT – The 5th Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/27/04/63/2704633d-4b20-9102-3e4e-dfe949a12db7/mzaf_15666174515800722032.plus.aac.p.m4a",
-    "duration": 200306,
-    "trackUrl": "https://music.apple.com/us/album/love-shot/1446231540?i=1446231541",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/9a/62/419a621b-bd1a-c9ba-2c77-fe3b233a33b4/EXO_DC.jpg/300x300bb.jpg",
-    "trackId": "1446231541"
-  },
-  {
-    "id": "applemusic-1446231542",
-    "name": "Trauma",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE SHOT – The 5th Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/de/8c/52de8cbe-6bda-851f-e5a2-0d58a4426350/mzaf_17546920598201838523.plus.aac.p.m4a",
-    "duration": 222010,
-    "trackUrl": "https://music.apple.com/us/album/trauma/1446231540?i=1446231542",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/9a/62/419a621b-bd1a-c9ba-2c77-fe3b233a33b4/EXO_DC.jpg/300x300bb.jpg",
-    "trackId": "1446231542"
-  },
-  {
-    "id": "applemusic-1446231543",
-    "name": "Wait",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE SHOT – The 5th Album Repackage - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/63/db/d0/63dbd0ad-e63d-2423-3aff-5d915746c3c6/mzaf_2189605619141383826.plus.aac.p.m4a",
-    "duration": 248768,
-    "trackUrl": "https://music.apple.com/us/album/wait/1446231540?i=1446231543",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/9a/62/419a621b-bd1a-c9ba-2c77-fe3b233a33b4/EXO_DC.jpg/300x300bb.jpg",
-    "trackId": "1446231543"
-  },
-  {
-    "id": "applemusic-1143528055",
-    "name": "Lotto",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOTTO - The 3rd Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/12/cb/68/12cb6893-d7d7-c902-0b9b-98f7132fad20/mzaf_5035133390813974896.plus.aac.p.m4a",
-    "duration": 189775,
-    "trackUrl": "https://music.apple.com/us/album/lotto/1143527580?i=1143528055",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/72/72/1872721d-9086-d6a3-b823-06ddd1997096/EXO_03_RE_DIGITAL_COVER-03.jpg/300x300bb.jpg",
-    "trackId": "1143528055"
-  },
-  {
-    "id": "applemusic-979878876",
-    "name": "CALL ME BABY",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/97/43/8d9743bb-53cb-ed50-a60b-9b2149c4f1e3/mzaf_13524117932247674480.plus.aac.p.m4a",
-    "duration": 211013,
-    "trackUrl": "https://music.apple.com/us/album/call-me-baby/979878364?i=979878876",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878876"
-  },
-  {
-    "id": "applemusic-979878877",
-    "name": "TRANSFORMER",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/8d/92/fb/8d92fb20-4831-6bb4-6ba5-a379d997628a/mzaf_5487249973171313216.plus.aac.p.m4a",
-    "duration": 227519,
-    "trackUrl": "https://music.apple.com/us/album/transformer/979878364?i=979878877",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878877"
-  },
-  {
-    "id": "applemusic-979878878",
-    "name": "What If..",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e5/43/77/e5437769-14a3-a4dc-d569-752841389378/mzaf_972940212892324079.plus.aac.p.m4a",
-    "duration": 258955,
-    "trackUrl": "https://music.apple.com/us/album/what-if/979878364?i=979878878",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878878"
-  },
-  {
-    "id": "applemusic-979878879",
-    "name": "MY ANSWER",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/91/f9/2b91f979-83d2-e165-7ad0-749666e7fa28/mzaf_6261429361706979322.plus.aac.p.m4a",
-    "duration": 213133,
-    "trackUrl": "https://music.apple.com/us/album/my-answer/979878364?i=979878879",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878879"
-  },
-  {
-    "id": "applemusic-979878880",
-    "name": "EXODUS",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/67/46/1e/67461e9d-1a90-ec59-888d-7769ef690313/mzaf_7604030347516381457.plus.aac.p.m4a",
-    "duration": 199980,
-    "trackUrl": "https://music.apple.com/us/album/exodus/979878364?i=979878880",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878880"
-  },
-  {
-    "id": "applemusic-979878881",
-    "name": "EL DORADO",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/58/ec/25/58ec25b2-3ad0-751e-6643-522597cb2ccb/mzaf_18053793203774821107.plus.aac.p.m4a",
-    "duration": 239597,
-    "trackUrl": "https://music.apple.com/us/album/el-dorado/979878364?i=979878881",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878881"
-  },
-  {
-    "id": "applemusic-979878882",
-    "name": "PLAYBOY",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ac/df/1b/acdf1b66-2a69-22d2-1bf2-3a233a4dbc70/mzaf_3471393833449332133.plus.aac.p.m4a",
-    "duration": 212132,
-    "trackUrl": "https://music.apple.com/us/album/playboy/979878364?i=979878882",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878882"
-  },
-  {
-    "id": "applemusic-979878883",
-    "name": "HURT",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e5/c7/04/e5c704fc-26cd-f742-f8e0-61c78eab7983/mzaf_10039252518981760048.plus.aac.p.m4a",
-    "duration": 219483,
-    "trackUrl": "https://music.apple.com/us/album/hurt/979878364?i=979878883",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878883"
-  },
-  {
-    "id": "applemusic-979878884",
-    "name": "Lady Luck",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/4b/c3/a94bc3d8-746c-4069-26ab-e49aebf33496/mzaf_6270375341763082875.plus.aac.p.m4a",
-    "duration": 213266,
-    "trackUrl": "https://music.apple.com/us/album/lady-luck/979878364?i=979878884",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878884"
-  },
-  {
-    "id": "applemusic-979878885",
-    "name": "BEAUTIFUL",
-    "artists": [
-      "EXO"
-    ],
-    "album": "The 2nd Album ‘EXODUS’",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/65/7c/72657c74-1598-b681-95dc-ac878da85d9d/mzaf_17856287740779047273.plus.aac.p.m4a",
-    "duration": 243055,
-    "trackUrl": "https://music.apple.com/us/album/beautiful/979878364?i=979878885",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5b/b4/90/5bb490f9-4db6-44be-7183-b6e844ec75db/EXO_2_EXODUS_KORver.jpg/300x300bb.jpg",
-    "trackId": "979878885"
-  },
-  {
-    "id": "applemusic-1570253221",
-    "name": "Don't fight the feeling",
-    "artists": [
-      "EXO"
-    ],
-    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b0/99/92/b09992f0-87f1-2067-2433-966d475fc4fe/mzaf_13192375696218252743.plus.aac.p.m4a",
-    "duration": 176547,
-    "trackUrl": "https://music.apple.com/us/album/dont-fight-the-feeling/1570253219?i=1570253221",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1570253221"
-  },
-  {
-    "id": "applemusic-1570253448",
-    "name": "Paradise",
-    "artists": [
-      "EXO"
-    ],
-    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/68/c1/f0/68c1f001-ac23-11cd-9430-78232e679cef/mzaf_6511839418321519751.plus.aac.p.m4a",
-    "duration": 217320,
-    "trackUrl": "https://music.apple.com/us/album/paradise/1570253219?i=1570253448",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1570253448"
-  },
-  {
-    "id": "applemusic-1570253449",
-    "name": "No matter",
-    "artists": [
-      "EXO"
-    ],
-    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/41/9f/98/419f9870-67f2-2f73-28fa-257df59b3bed/mzaf_2395997061931987999.plus.aac.p.m4a",
-    "duration": 222933,
-    "trackUrl": "https://music.apple.com/us/album/no-matter/1570253219?i=1570253449",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1570253449"
-  },
-  {
-    "id": "applemusic-1570253451",
-    "name": "Runaway",
-    "artists": [
-      "EXO"
-    ],
-    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1f/85/ed/1f85ed00-f8da-cce2-d16e-6bfa6fed142f/mzaf_4059620973337115306.plus.aac.p.m4a",
-    "duration": 207733,
-    "trackUrl": "https://music.apple.com/us/album/runaway/1570253219?i=1570253451",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1570253451"
-  },
-  {
-    "id": "applemusic-1570253452",
-    "name": "Just as usual",
-    "artists": [
-      "EXO"
-    ],
-    "album": "DON'T FIGHT THE FEELING - Special Album - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e1/f4/78/e1f478ef-6337-36eb-246b-85b4604cf6d9/mzaf_7366899294115866487.plus.aac.p.m4a",
-    "duration": 207333,
-    "trackUrl": "https://music.apple.com/us/album/just-as-usual/1570253219?i=1570253452",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/dc/e2/a7/dce2a7a7-561a-838e-e509-1f9afe26e95d/EXO_DIGITAL_COVER.jpg/300x300bb.jpg",
-    "trackId": "1570253452"
-  },
-  {
-    "id": "applemusic-1187032659",
-    "name": "For Life",
-    "artists": [
-      "EXO"
-    ],
-    "album": "For Life - Winter Special Album, 2016",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4e/a1/5e/4ea15ed9-7d2a-964f-485f-d18b74969ea4/mzaf_5523013063942197448.plus.aac.p.m4a",
-    "duration": 238660,
-    "trackUrl": "https://music.apple.com/us/album/for-life/1187031996?i=1187032659",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
-    "trackId": "1187032659"
-  },
-  {
-    "id": "applemusic-1187032660",
-    "name": "Falling For You",
-    "artists": [
-      "EXO"
-    ],
-    "album": "For Life - Winter Special Album, 2016",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/18/1f/ff181f51-2bcc-b94f-f506-07dbe2bb1856/mzaf_10845000688648114082.plus.aac.p.m4a",
-    "duration": 204055,
-    "trackUrl": "https://music.apple.com/us/album/falling-for-you/1187031996?i=1187032660",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
-    "trackId": "1187032660"
-  },
-  {
-    "id": "applemusic-1187032661",
-    "name": "What I Want For Christmas",
-    "artists": [
-      "EXO"
-    ],
-    "album": "For Life - Winter Special Album, 2016",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/c3/5b/5fc35bc0-40f9-2512-9744-996ed5b89959/mzaf_14338338794509163390.plus.aac.p.m4a",
-    "duration": 202058,
-    "trackUrl": "https://music.apple.com/us/album/what-i-want-for-christmas/1187031996?i=1187032661",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
-    "trackId": "1187032661"
-  },
-  {
-    "id": "applemusic-1187032662",
-    "name": "Twenty Four",
-    "artists": [
-      "EXO"
-    ],
-    "album": "For Life - Winter Special Album, 2016",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/3e/4a/fa3e4a10-62ad-86eb-0a6f-589674b53ae3/mzaf_18253692909551855771.plus.aac.p.m4a",
-    "duration": 220020,
-    "trackUrl": "https://music.apple.com/us/album/twenty-four/1187031996?i=1187032662",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
-    "trackId": "1187032662"
-  },
-  {
-    "id": "applemusic-1187032663",
-    "name": "Winter Heat",
-    "artists": [
-      "EXO"
-    ],
-    "album": "For Life - Winter Special Album, 2016",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/71/a1/4371a18c-9b1e-1c20-dfca-ec32ffc04f9c/mzaf_14189820305378318438.plus.aac.p.m4a",
-    "duration": 215811,
-    "trackUrl": "https://music.apple.com/us/album/winter-heat/1187031996?i=1187032663",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
-    "trackId": "1187032663"
-  },
-  {
-    "id": "applemusic-999674732",
-    "name": "LOVE ME RIGHT",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f8/d7/f5/f8d7f574-b877-be4b-2df3-744c10d5789c/mzaf_8873900730570519415.plus.aac.p.m4a",
-    "duration": 205129,
-    "trackUrl": "https://music.apple.com/us/album/love-me-right/999674716?i=999674732",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
-    "trackId": "999674732"
-  },
-  {
-    "id": "applemusic-999674733",
-    "name": "TENDER LOVE",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/39/22/8d/39228dda-1188-12cc-9ad7-47c6621163b3/mzaf_6686931753916304878.plus.aac.p.m4a",
-    "duration": 216437,
-    "trackUrl": "https://music.apple.com/us/album/tender-love/999674716?i=999674733",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
-    "trackId": "999674733"
-  },
-  {
-    "id": "applemusic-999675341",
-    "name": "FIRST LOVE",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/06/25/31/0625319d-b66f-6581-7f85-099056f308ed/mzaf_4200199460505645194.plus.aac.p.m4a",
-    "duration": 242337,
-    "trackUrl": "https://music.apple.com/us/album/first-love/999674716?i=999675341",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
-    "trackId": "999675341"
-  },
-  {
-    "id": "applemusic-999675345",
-    "name": "Promise EXO 2014",
-    "artists": [
-      "EXO"
-    ],
-    "album": "LOVE ME RIGHT - The 2nd Album Repackage",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c8/1f/3b/c81f3b17-744d-388d-79a7-2a5ba48616e9/mzaf_2631854904789173633.plus.aac.p.m4a",
-    "duration": 286672,
-    "trackUrl": "https://music.apple.com/us/album/promise-exo-2014/999674716?i=999675345",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/36/ff/f4/36fff404-6b7d-2fc2-2c99-130686b722e2/224446663322113456.jpg/300x300bb.jpg",
-    "trackId": "999675345"
-  },
-  {
-    "id": "applemusic-854917384",
-    "name": "Mama",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "Mama (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/7c/f2/2d7cf222-2654-02a0-30ad-efc0d821a474/mzaf_11312766558975046300.plus.aac.p.m4a",
-    "duration": 270512,
-    "trackUrl": "https://music.apple.com/us/album/mama/854917291?i=854917384",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
-    "trackId": "854917384"
-  },
-  {
-    "id": "applemusic-854917385",
-    "name": "What Is Love",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "Mama (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/71/03/06/71030674-def8-5e44-caaa-fc979059f7e6/mzaf_17998105627814352563.plus.aac.p.m4a",
-    "duration": 261291,
-    "trackUrl": "https://music.apple.com/us/album/what-is-love/854917291?i=854917385",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
-    "trackId": "854917385"
-  },
-  {
-    "id": "applemusic-854917386",
-    "name": "History",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "Mama (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/06/d3/cd/06d3cd25-8ee6-e738-14e6-1a7af47b2033/mzaf_13756046491320756752.plus.aac.p.m4a",
-    "duration": 209856,
-    "trackUrl": "https://music.apple.com/us/album/history/854917291?i=854917386",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
-    "trackId": "854917386"
-  },
-  {
-    "id": "applemusic-854917387",
-    "name": "Angel",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "Mama (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/82/ff/73/82ff7359-57f6-3af2-c94e-96afd3a8824e/mzaf_7693741361665973725.plus.aac.p.m4a",
-    "duration": 180233,
-    "trackUrl": "https://music.apple.com/us/album/angel/854917291?i=854917387",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
-    "trackId": "854917387"
-  },
-  {
-    "id": "applemusic-854917388",
-    "name": "Two Moons (feat. Key)",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "Mama (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b5/7c/b9/b57cb917-01fc-1466-4c7e-63e38d80cae0/mzaf_17557293972175071529.plus.aac.p.m4a",
-    "duration": 177072,
-    "trackUrl": "https://music.apple.com/us/album/two-moons-feat-key/854917291?i=854917388",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
-    "trackId": "854917388"
-  },
-  {
-    "id": "applemusic-854917389",
-    "name": "Machine",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "Mama (The 1st Mini Album) - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/03/ca/ee/03caee79-7c99-b177-1625-a4aef4db0d8b/mzaf_2361218082195991165.plus.aac.p.m4a",
-    "duration": 204239,
-    "trackUrl": "https://music.apple.com/us/album/machine/854917291?i=854917389",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0e/d6/c0/0ed6c081-694e-36cc-e613-3f84359b493a/asset.jpg/300x300bb.jpg",
-    "trackId": "854917389"
-  },
-  {
     "id": "applemusic-1868596001",
     "name": "Crown",
     "artists": [
@@ -1493,6 +1441,58 @@
     "trackUrl": "https://music.apple.com/us/album/flatline/1868596000?i=1868596010",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e2/41/ca/e241cafc-1447-2edf-4ca3-cd11ec4b376d/888735954610.png/300x300bb.jpg",
     "trackId": "1868596010"
+  },
+  {
+    "id": "applemusic-1064933617",
+    "name": "Unfair",
+    "artists": [
+      "EXO"
+    ],
+    "album": "SING FOR YOU - Winter Special Album, 2015",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/b8/30/c2b8308d-1f5e-1426-7fea-1c094ad1ae50/mzaf_18172068010733157805.plus.aac.p.m4a",
+    "duration": 182322,
+    "trackUrl": "https://music.apple.com/us/album/unfair/1064933592?i=1064933617",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
+    "trackId": "1064933617"
+  },
+  {
+    "id": "applemusic-1064933618",
+    "name": "Sing For You",
+    "artists": [
+      "EXO"
+    ],
+    "album": "SING FOR YOU - Winter Special Album, 2015",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/3e/fd/653efd85-bb8d-a1ac-15d1-6454167b5483/mzaf_17168733470796935436.plus.aac.p.m4a",
+    "duration": 235036,
+    "trackUrl": "https://music.apple.com/us/album/sing-for-you/1064933592?i=1064933618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
+    "trackId": "1064933618"
+  },
+  {
+    "id": "applemusic-1064933619",
+    "name": "Girl x Friend",
+    "artists": [
+      "EXO"
+    ],
+    "album": "SING FOR YOU - Winter Special Album, 2015",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4a/00/59/4a0059ee-57fd-feff-6b1e-874a40b93a63/mzaf_3426270442888997432.plus.aac.p.m4a",
+    "duration": 221672,
+    "trackUrl": "https://music.apple.com/us/album/girl-x-friend/1064933592?i=1064933619",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
+    "trackId": "1064933619"
+  },
+  {
+    "id": "applemusic-1064933620",
+    "name": "On the Snow",
+    "artists": [
+      "EXO"
+    ],
+    "album": "SING FOR YOU - Winter Special Album, 2015",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/32/f2/e4/32f2e470-e83f-3039-0cd4-9292a4cd5fbe/mzaf_17150232364389818139.plus.aac.p.m4a",
+    "duration": 203328,
+    "trackUrl": "https://music.apple.com/us/album/on-the-snow/1064933592?i=1064933620",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c4/6e/09/c46e0919-9f49-debb-0e4a-ac0d54f69959/2.jpg/300x300bb.jpg",
+    "trackId": "1064933620"
   },
   {
     "id": "applemusic-1336848345",
@@ -1651,71 +1651,6 @@
     "trackId": "854908536"
   },
   {
-    "id": "applemusic-874164828",
-    "name": "Overdose",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "The 2nd Mini Album 'Overdose' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5a/f2/2f/5af22f94-1b06-cc8e-bf4d-eb082c7a522b/mzaf_14093963003369898623.plus.aac.p.m4a",
-    "duration": 205612,
-    "trackUrl": "https://music.apple.com/us/album/overdose/874164741?i=874164828",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
-    "trackId": "874164828"
-  },
-  {
-    "id": "applemusic-874164829",
-    "name": "Moonlight",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "The 2nd Mini Album 'Overdose' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/dd/71/e9/dd71e9f1-e1c0-daba-897e-bcdeb14d2fd0/mzaf_15484379760916851393.plus.aac.p.m4a",
-    "duration": 265254,
-    "trackUrl": "https://music.apple.com/us/album/moonlight/874164741?i=874164829",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
-    "trackId": "874164829"
-  },
-  {
-    "id": "applemusic-874164830",
-    "name": "Thunder",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "The 2nd Mini Album 'Overdose' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/75/c7/a1/75c7a180-b708-c1f4-b540-a70c3cb59734/mzaf_17592903763492192199.plus.aac.p.m4a",
-    "duration": 191488,
-    "trackUrl": "https://music.apple.com/us/album/thunder/874164741?i=874164830",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
-    "trackId": "874164830"
-  },
-  {
-    "id": "applemusic-874164831",
-    "name": "Run",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "The 2nd Mini Album 'Overdose' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fe/61/60/fe6160d4-c2c8-31e7-88f2-9fec2ae645df/mzaf_17746875021293454697.plus.aac.p.m4a",
-    "duration": 216197,
-    "trackUrl": "https://music.apple.com/us/album/run/874164741?i=874164831",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
-    "trackId": "874164831"
-  },
-  {
-    "id": "applemusic-874164834",
-    "name": "Love, Love, Love",
-    "artists": [
-      "EXO-K"
-    ],
-    "album": "The 2nd Mini Album 'Overdose' - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e6/71/7e/e6717e05-1d9e-6932-2355-268e546e2442/mzaf_10333006618411948203.plus.aac.p.m4a",
-    "duration": 233531,
-    "trackUrl": "https://music.apple.com/us/album/love-love-love/874164741?i=874164834",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0e/5c/8b/0e5c8b58-3a13-8852-f50e-59a23e0ca1b7/EXO-K.jpg/300x300bb.jpg",
-    "trackId": "874164834"
-  },
-  {
     "id": "applemusic-1481562278",
     "name": "BIRD",
     "artists": [
@@ -1727,6 +1662,84 @@
     "trackUrl": "https://music.apple.com/us/album/bird/1481562277?i=1481562278",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/86/17/ef/8617ef9b-d405-a6bd-8ac7-e4058b13c2a6/ANTCD-A0000000437.jpg/300x300bb.jpg",
     "trackId": "1481562278"
+  },
+  {
+    "id": "applemusic-1187032659",
+    "name": "For Life",
+    "artists": [
+      "EXO"
+    ],
+    "album": "For Life - Winter Special Album, 2016",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/4e/a1/5e/4ea15ed9-7d2a-964f-485f-d18b74969ea4/mzaf_5523013063942197448.plus.aac.p.m4a",
+    "duration": 238660,
+    "trackUrl": "https://music.apple.com/us/album/for-life/1187031996?i=1187032659",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
+    "trackId": "1187032659"
+  },
+  {
+    "id": "applemusic-1187032660",
+    "name": "Falling For You",
+    "artists": [
+      "EXO"
+    ],
+    "album": "For Life - Winter Special Album, 2016",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/18/1f/ff181f51-2bcc-b94f-f506-07dbe2bb1856/mzaf_10845000688648114082.plus.aac.p.m4a",
+    "duration": 204055,
+    "trackUrl": "https://music.apple.com/us/album/falling-for-you/1187031996?i=1187032660",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
+    "trackId": "1187032660"
+  },
+  {
+    "id": "applemusic-1187032661",
+    "name": "What I Want For Christmas",
+    "artists": [
+      "EXO"
+    ],
+    "album": "For Life - Winter Special Album, 2016",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5f/c3/5b/5fc35bc0-40f9-2512-9744-996ed5b89959/mzaf_14338338794509163390.plus.aac.p.m4a",
+    "duration": 202058,
+    "trackUrl": "https://music.apple.com/us/album/what-i-want-for-christmas/1187031996?i=1187032661",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
+    "trackId": "1187032661"
+  },
+  {
+    "id": "applemusic-1187032662",
+    "name": "Twenty Four",
+    "artists": [
+      "EXO"
+    ],
+    "album": "For Life - Winter Special Album, 2016",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fa/3e/4a/fa3e4a10-62ad-86eb-0a6f-589674b53ae3/mzaf_18253692909551855771.plus.aac.p.m4a",
+    "duration": 220020,
+    "trackUrl": "https://music.apple.com/us/album/twenty-four/1187031996?i=1187032662",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
+    "trackId": "1187032662"
+  },
+  {
+    "id": "applemusic-1187032663",
+    "name": "Winter Heat",
+    "artists": [
+      "EXO"
+    ],
+    "album": "For Life - Winter Special Album, 2016",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/71/a1/4371a18c-9b1e-1c20-dfca-ec32ffc04f9c/mzaf_14189820305378318438.plus.aac.p.m4a",
+    "duration": 215811,
+    "trackUrl": "https://music.apple.com/us/album/winter-heat/1187031996?i=1187032663",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/6e/07/59/6e0759e4-21d0-29ff-c899-f2e13355019b/EXO-K_COVER_4.jpg/300x300bb.jpg",
+    "trackId": "1187032663"
+  },
+  {
+    "id": "applemusic-1051220535",
+    "name": "Drop That",
+    "artists": [
+      "EXO"
+    ],
+    "album": "Love Me Right ~romantic universe~ - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/b3/5a/3ab35a9e-de8a-4b53-7a2a-558021b01ecd/mzaf_6303203631173504920.plus.aac.p.m4a",
+    "duration": 215027,
+    "trackUrl": "https://music.apple.com/us/album/drop-that/1051220136?i=1051220535",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/52/7f/2c527f46-daa5-a142-3eca-bb53035cbcad/mzm.gafmkcbj.jpg/300x300bb.jpg",
+    "trackId": "1051220535"
   },
   {
     "id": "applemusic-1155054505",
@@ -1742,16 +1755,29 @@
     "trackId": "1155054505"
   },
   {
-    "id": "applemusic-1051220535",
-    "name": "Drop That",
+    "id": "applemusic-1508321248",
+    "name": "BIRD (EXO PLANET #5 - EXplOration - in JAPAN)",
     "artists": [
       "EXO"
     ],
-    "album": "Love Me Right ~romantic universe~ - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3a/b3/5a/3ab35a9e-de8a-4b53-7a2a-558021b01ecd/mzaf_6303203631173504920.plus.aac.p.m4a",
-    "duration": 215027,
-    "trackUrl": "https://music.apple.com/us/album/drop-that/1051220136?i=1051220535",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/52/7f/2c527f46-daa5-a142-3eca-bb53035cbcad/mzm.gafmkcbj.jpg/300x300bb.jpg",
-    "trackId": "1051220535"
+    "album": "BIRD (EXO PLANET #5 - EXplOration - in JAPAN) - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2b/a2/f1/2ba2f1ee-6bdb-29fa-d52b-c1f961c035d0/mzaf_18290925072768851128.plus.aac.p.m4a",
+    "duration": 246310,
+    "trackUrl": "https://music.apple.com/us/album/bird-exo-planet-5-exploration-in-japan/1508321247?i=1508321248",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/76/7c/b0/767cb06c-a315-096c-5cd2-1a116df2b79b/ANTCD-A0000001566.jpg/300x300bb.jpg",
+    "trackId": "1508321248"
+  },
+  {
+    "id": "applemusic-1063997167",
+    "name": "LIGHTSABER Japanese Ver.",
+    "artists": [
+      "EXO"
+    ],
+    "album": "LIGHTSABER Japanese Ver.- Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2d/8a/83/2d8a830c-b8c7-f7b0-1509-d62bb247f1fd/mzaf_3156760424302128719.plus.aac.p.m4a",
+    "duration": 184852,
+    "trackUrl": "https://music.apple.com/us/album/lightsaber-japanese-ver/1063997160?i=1063997167",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/50/5a/11/505a1195-c9c3-3fe8-8b94-0d17131f6b5d/ANTCD-16827.jpg/300x300bb.jpg",
+    "trackId": "1063997167"
   }
 ]
