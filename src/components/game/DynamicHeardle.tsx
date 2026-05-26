@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { Logger } from '@/lib/utils/logger';
 import { useParams } from 'next/navigation';
 import { Song } from '@/types/song';
 import { GameLogic, GameMode, GameState } from '@/lib/game';
@@ -14,12 +15,13 @@ import { ArtistLoadingSpinner } from '@/components/ui/LoadingSpinner';
 import ErrorBoundary from '@/components/ui/ErrorBoundary';
 import { getArtistById } from '@/config/artists';
 import type { ArtistConfig } from '@/config/artists';
-import ClientDailyChallengeStorage from '@/lib/services/clientDailyChallengeStorage';
+import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import { StatisticsStorage } from '@/lib/services/statisticsStorage';
 import { PracticeModeStorage } from '@/lib/services/practiceModeStorage';
 import SupportButton from '@/components/ui/buttons/SupportButton';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
-import { DAILY_CHALLENGE_UPDATED_EVENT } from '@/lib/constants';
+import { useDailyRolloverDetection, useNewDailyChallengeListener } from '@/lib/hooks/useDailyRolloverDetection';
+import { useMediaQuery } from '@/lib/hooks/useMediaQuery';
 
 interface DynamicHeardleProps {
   mode: GameMode;
@@ -35,135 +37,41 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [artist, setArtist] = useState<ArtistConfig | null>(null);
-  const [isMobile, setIsMobile] = useState(false);
-  const [puzzleNumber, setPuzzleNumber] = useState<number>(getLocalPuzzleNumber());
 
-  useEffect(() => {
-    const artistId = params.artist as string;
-    const foundArtist = getArtistById(artistId);
-    if (foundArtist) {
-      setArtist(foundArtist);
-      loadSong(artistId);
-      loadAvailableSongs(artistId);
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params.artist, mode, gameLogic]);
+  // Keep the parent callback in a ref so callbacks that use it never need it as a dep.
+  const onGameStateChangeRef = useRef(onGameStateChange);
+  useEffect(() => { onGameStateChangeRef.current = onGameStateChange; }, [onGameStateChange]);
 
-  // Detect mobile (match Tailwind's lg breakpoint at 1024px)
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-    const mq = window.matchMedia('(max-width: 1023.98px)');
-    const update = () => setIsMobile(mq.matches);
-    update();
-    mq.addEventListener('change', update);
-    return () => mq.removeEventListener('change', update);
-  }, []);
-
-  // Rollover detection: if puzzle number changes while page is open, clear & reload
-  useEffect(() => {
-    if (mode !== 'daily' || typeof window === 'undefined') return;
-
-    const checkPuzzleRollover = () => {
-      const currentPuzzleNumber = getLocalPuzzleNumber();
-      if (currentPuzzleNumber !== puzzleNumber) {
-        console.log(`🔄 Puzzle rollover detected: ${puzzleNumber} → ${currentPuzzleNumber}`);
-        
-        const artistId = params.artist as string;
-        const storage = ClientDailyChallengeStorage.getInstance();
-        
-        // Clear old puzzle data
-        storage.clearDailyChallenge(artistId);
-        
-        // Reset game logic and load fresh daily
-        gameLogic.resetGame();
-        const newGameState = gameLogic.getGameState();
-        setGameState(newGameState);
-        setPuzzleNumber(currentPuzzleNumber);
-        
-        // Notify challenge card that new daily is available (not completed)
-        const challengeResetEvent = new CustomEvent(DAILY_CHALLENGE_UPDATED_EVENT, {
-          detail: { 
-            artistId, 
-            date: getTodayString(), 
-            completed: false,
-            isNewDaily: true // Flag to indicate this is a new daily challenge
-          }
-        });
-        window.dispatchEvent(challengeResetEvent);
-        console.log(`📡 Dispatched ${DAILY_CHALLENGE_UPDATED_EVENT} for ${artistId}`);
-        
-        // Notify parent component of reset
-        onGameStateChange?.(newGameState);
-        
-        // Load new daily puzzle
-        loadSong(artistId);
-      }
-    };
-
-    // Check every 30 seconds (lightweight check)
-    const intervalId = window.setInterval(checkPuzzleRollover, 30_000);
-    
-    // Check when tab becomes visible (user returns from another tab)
-    const handleVisibilityChange = () => {
-      if (!document.hidden) {
-        checkPuzzleRollover();
-      }
-    };
-    
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-
-    // One immediate check on mount (covers returning users)
-    checkPuzzleRollover();
-
-    return () => {
-      window.clearInterval(intervalId);
-      document.removeEventListener('visibilitychange', handleVisibilityChange);
-    };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mode, params.artist, puzzleNumber, gameLogic, onGameStateChange]);
+  // ── Core game data loading ────────────────────────────────────────────────
 
   const loadSong = useCallback(async (artistId: string) => {
     setIsLoading(true);
     setError(null);
     
     try {
-      // For daily mode, check if we have a saved game state
       if (mode === 'daily') {
-        const storage = ClientDailyChallengeStorage.getInstance();
+        const storage = DailyChallengeStorage.getInstance();
         const savedChallenge = storage.loadDailyChallenge(artistId);
         
         if (savedChallenge) {
-          // Load saved game state
-
           setCurrentSong(savedChallenge.gameState.currentSong);
           gameLogic.loadGameState(savedChallenge.gameState);
           const loadedGameState = gameLogic.getGameState();
           setGameState(loadedGameState);
-          
-          // Notify parent component of loaded game state
-          onGameStateChange?.(loadedGameState);
-          
+          onGameStateChangeRef.current?.(loadedGameState);
           setIsLoading(false);
           return;
         }
       }
       
-      // Load new song from API
       let endpoint = mode === 'daily' ? `/api/${artistId}/daily` : `/api/${artistId}/random`;
       
-      // For daily mode, pass the client's local date to ensure timezone consistency
       if (mode === 'daily') {
-        const clientDate = getTodayString(); // User's local timezone date
-        const currentPuzzleNumber = getLocalPuzzleNumber();
-        
-        // Enhanced debugging for timezone issues
-        console.log(`🔍 Timezone Debug: clientDate=${clientDate}, puzzleNumber=${currentPuzzleNumber}, time=${new Date().toISOString()}`);
-        
-        const params = new URLSearchParams({ date: clientDate });
-        endpoint = `${endpoint}?${params.toString()}`;
+        const clientDate = getTodayString();
+        const searchParams = new URLSearchParams({ date: clientDate });
+        endpoint = `${endpoint}?${searchParams.toString()}`;
       }
       
-      // For practice mode, exclude recently played songs
       if (mode === 'practice') {
         const practiceStorage = PracticeModeStorage.getInstance();
         const recentSongs = practiceStorage.getRecentSongs(artistId);
@@ -181,47 +89,15 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       }
       
       const data = await response.json();
-      const song = data.song;
-      
-
-      
-      setCurrentSong(song);
-      gameLogic.startGame(song);
+      setCurrentSong(data.song);
+      gameLogic.startGame(data.song);
       setGameState(gameLogic.getGameState());
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
     } finally {
       setIsLoading(false);
     }
-  }, [mode, gameLogic, onGameStateChange]);
-
-  /**
-   * Record game statistics and save daily challenge state after a guess/skip
-   */
-  const recordGameResult = useCallback((newGameState: GameState, song: Song | null) => {
-    const artistId = params.artist as string;
-    
-    // Save daily challenge state if in daily mode
-    if (mode === 'daily' && song) {
-      const storage = ClientDailyChallengeStorage.getInstance();
-      storage.saveDailyChallenge(artistId, song.id, newGameState, puzzleNumber);
-    }
-    
-    // Record statistics when game ends
-    if (newGameState.isGameOver && song) {
-      const statsStorage = StatisticsStorage.getInstance();
-      const tries = newGameState.currentTry + 1; // +1 because currentTry is 0-indexed
-      
-      if (mode === 'daily') {
-        statsStorage.recordDailyChallenge(artistId, newGameState.hasWon, tries);
-      } else {
-        statsStorage.recordPracticeGame(artistId, newGameState.hasWon, tries);
-      }
-    }
-    
-    // Notify parent component of game state change
-    onGameStateChange?.(newGameState);
-  }, [mode, params.artist, puzzleNumber, onGameStateChange]);
+  }, [mode, gameLogic]);
 
   const loadAvailableSongs = useCallback(async (artistId: string) => {
     try {
@@ -230,20 +106,78 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
         const data = await response.json();
         const songs = data.songs || [];
         setAvailableSongs(songs);
-
-        
         if (songs.length === 0) {
-          console.warn('No songs loaded for autocomplete - users will need to type manually');
+          Logger.warn('No songs loaded for autocomplete');
         }
       } else {
-        console.warn(`Failed to load available songs: ${response.status} ${response.statusText}`);
+        Logger.warn(`Failed to load available songs: ${response.status} ${response.statusText}`);
         setAvailableSongs([]);
       }
     } catch (err) {
-      console.warn('Failed to load available songs from iTunes for autocomplete:', err);
+      Logger.warn('Failed to load available songs for autocomplete:', err);
       setAvailableSongs([]);
     }
   }, []);
+
+  /**
+   * Record game statistics and save daily challenge state after a guess/skip.
+   */
+  const recordGameResult = useCallback((newGameState: GameState, song: Song | null) => {
+    const artistId = params.artist as string;
+    
+    if (mode === 'daily' && song) {
+      const storage = DailyChallengeStorage.getInstance();
+      storage.saveDailyChallenge(artistId, song.id, newGameState, getLocalPuzzleNumber());
+    }
+    
+    if (newGameState.isGameOver && song) {
+      const statsStorage = StatisticsStorage.getInstance();
+      const tries = newGameState.currentTry + 1;
+      
+      if (mode === 'daily') {
+        statsStorage.recordDailyChallenge(artistId, newGameState.hasWon, tries);
+      } else {
+        statsStorage.recordPracticeGame(artistId, newGameState.hasWon, tries);
+      }
+    }
+    
+    onGameStateChangeRef.current?.(newGameState);
+  }, [mode, params.artist]);
+
+  // ── Effects ───────────────────────────────────────────────────────────────
+
+  // Initial data load — re-runs only when the artist route changes.
+  // mode and gameLogic are stable within a component instance because
+  // the parent keys DynamicHeardle by mode, remounting on mode switches.
+  useEffect(() => {
+    const artistId = params.artist as string;
+    const foundArtist = getArtistById(artistId);
+    if (foundArtist) {
+      setArtist(foundArtist);
+      loadSong(artistId);
+      loadAvailableSongs(artistId);
+    }
+  }, [params.artist, loadSong, loadAvailableSongs]);
+
+  // 8c: Use the shared hook instead of a direct matchMedia effect.
+  // useMediaQuery includes the Safari-compatible addListener fallback.
+  const isMobile = useMediaQuery('(max-width: 1023.98px)');
+
+  // ── Rollover detection (single owner — not duplicated in the parent page) ─
+
+  useDailyRolloverDetection({
+    artistId: params.artist as string,
+    enabled: mode === 'daily',
+  });
+
+  useNewDailyChallengeListener(params.artist as string, useCallback(() => {
+    if (mode !== 'daily') return;
+    gameLogic.resetGame();
+    setGameState(gameLogic.getGameState());
+    loadSong(params.artist as string);
+  }, [mode, gameLogic, loadSong, params.artist]));
+
+  // ── Event handlers ────────────────────────────────────────────────────────
 
   const handleGuess = (guess: string) => {
     gameLogic.makeGuess(guess);
@@ -253,7 +187,7 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
   };
 
   const handleSkip = () => {
-    gameLogic.makeGuess(''); // Empty guess counts as a skip
+    gameLogic.makeGuess('');
     const newGameState = gameLogic.getGameState();
     setGameState(newGameState);
     recordGameResult(newGameState, currentSong);
@@ -261,13 +195,10 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
 
   const handleNewGame = () => {
     if (mode === 'practice') {
-      // Record the current song before loading a new one (to prevent immediate repeats)
       if (currentSong) {
         const practiceStorage = PracticeModeStorage.getInstance();
         practiceStorage.recordPlayedSong(params.artist as string, currentSong.trackId.toString());
-
       }
-      
       loadSong(params.artist as string);
     } else {
       gameLogic.resetGame();
@@ -275,9 +206,11 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     }
   };
 
-  const handleAudioEnded = () => {
-    // Audio preview ended, could add logic here if needed
-  };
+  const handleAudioEnded = useCallback(() => {
+    // No-op; extend here if game-over logic ever needs an audio-ended signal.
+  }, []);
+
+  // ── Render ────────────────────────────────────────────────────────────────
 
   if (!artist) {
     return (
@@ -321,19 +254,35 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
     );
   }
 
+  // Single source of truth for the side card content — rendered in both
+  // the mobile slot (left column, lg:hidden) and the desktop slot (third column).
+  const sideCardContent = gameState.isGameOver ? (
+    <GameResultCard
+      gameState={gameState}
+      currentSong={currentSong}
+      mode={mode}
+      artist={artist}
+      onNewGame={handleNewGame}
+    />
+  ) : (
+    <HowToPlayCard
+      artistDisplayName={artist.displayName}
+      availableSongs={availableSongs}
+      currentSong={currentSong}
+    />
+  );
+
   return (
     <ErrorBoundary>
       <div className="w-full pt-0 px-2 pb-2 sm:px-4 sm:pb-4 lg:px-6 lg:pb-6 xl:px-8 xl:pb-8 2xl:px-12 2xl:pb-12 max-w-[1400px] mx-auto">
-        {/* Header spacing removed; tagline moved to parent alongside countdown */}
-
         {/* Main Game Layout - Two columns on mobile, three on larger screens */}
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 lg:gap-6 items-stretch">
-          {/* Left Column - uniform gap-controlled stack */}
+          {/* Left Column */}
           <div className="col-span-1 flex flex-col h-full gap-2 sm:gap-3 lg:gap-4">
             {/* Audio card */}
             <GlassCard>
               <AudioPlayer
-                key={`${currentSong?.id}-${gameLogic.getCurrentAudioDuration()}`}
+                key={currentSong?.id}
                 song={currentSong}
                 duration={gameLogic.getCurrentAudioDuration()}
                 onEnded={handleAudioEnded}
@@ -355,53 +304,22 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
               </GlassCard>
             )}
 
-            {/* Final card (always last) */}
-            {!gameState.isGameOver ? (
-              <GlassCard padding="sm" className="lg:hidden">
-                <HowToPlayCard
-                  artistDisplayName={artist.displayName}
-                  availableSongs={availableSongs}
-                  currentSong={currentSong}
-                />
-              </GlassCard>
-            ) : (
-              <GlassCard className="lg:hidden">
-                <GameResultCard
-                  gameState={gameState}
-                  currentSong={currentSong}
-                  mode={mode}
-                  artist={artist}
-                  onNewGame={handleNewGame}
-                  variant="mobile"
-                />
-              </GlassCard>
-            )}
+            {/* Side card — mobile slot (hidden on lg+) */}
+            <GlassCard padding={gameState.isGameOver ? 'md' : 'sm'} className="lg:hidden">
+              {sideCardContent}
+            </GlassCard>
 
-            {/* Practice mode new song button on desktop - underneath audio card */}
-            {mode === 'practice' && gameState.isGameOver && (
-              <div className="text-center hidden lg:block">
-                <button
-                  onClick={handleNewGame}
-                  className={`px-6 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white rounded-2xl font-bold text-sm transition-all duration-300 transform hover:scale-105 hover:shadow-2xl`}
-                >
-                  🎵 New Song
-                </button>
-              </div>
-            )}
-
-            {/* Desktop-only donate stays as-is */}
             <div className="text-center hidden lg:block">
               <SupportButton />
             </div>
           </div>
 
-          {/* Right Column - Game Board */}
+          {/* Center Column - Game Board */}
           <div className="col-span-1 flex flex-col min-h-0 lg:min-h-[600px]">
             <GlassCard fullHeight flexCol>
               <div className="flex-1">
                 <GameBoard gameState={gameState} />
               </div>
-              {/* Support Button pinned to bottom on mobile, always visible on mobile */}
               <div
                 className="mt-2 sm:mt-3 lg:hidden text-center pt-1"
                 style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
@@ -411,33 +329,13 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
             </GlassCard>
           </div>
 
-          {/* Third Column - Game Instructions OR Game Results (hidden on mobile/tablet, shown on lg+ screens) */}
+          {/* Third Column — desktop slot (hidden on mobile) */}
           <div className="hidden lg:block">
-            {gameState.isGameOver ? (
-              // Game Results Card (replaces How to Play when game ends)
-              <GlassCard padding="lg" rounded="lg" fullHeight>
-                <GameResultCard
-                  gameState={gameState}
-                  currentSong={currentSong}
-                  mode={mode}
-                  artist={artist}
-                  variant="desktop"
-                />
-              </GlassCard>
-            ) : (
-              // How to Play Card (shown when game is not over)
-              <GlassCard padding="lg" rounded="lg" fullHeight>
-                <HowToPlayCard
-                  artistDisplayName={artist.displayName}
-                  availableSongs={availableSongs}
-                  currentSong={currentSong}
-                />
-              </GlassCard>
-            )}
+            <GlassCard padding="lg" rounded="lg" fullHeight>
+              {sideCardContent}
+            </GlassCard>
           </div>
         </div>
-
-
       </div>
     </ErrorBoundary>
   );

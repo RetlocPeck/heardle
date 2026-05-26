@@ -1,15 +1,19 @@
+import { BaseStorageService } from './baseStorageService';
+import { STORAGE_KEYS } from '@/lib/constants';
+
 export interface PracticeSongHistory {
   artistId: string;
   recentSongs: string[]; // Track IDs of recently played songs
   lastUpdated: number;
 }
 
-export class PracticeModeStorage {
+export class PracticeModeStorage extends BaseStorageService<Record<string, PracticeSongHistory>> {
   private static instance: PracticeModeStorage;
-  private readonly STORAGE_KEY = 'twice-heardle-practice-history';
-  private readonly MAX_RECENT_SONGS = 3; // Don't repeat songs for 3 plays
 
-  private constructor() {}
+  protected readonly STORAGE_KEY = STORAGE_KEYS.PRACTICE_HISTORY;
+  private readonly MAX_RECENT_SONGS = 3;
+
+  private constructor() { super(); }
 
   static getInstance(): PracticeModeStorage {
     if (!PracticeModeStorage.instance) {
@@ -18,105 +22,43 @@ export class PracticeModeStorage {
     return PracticeModeStorage.instance;
   }
 
-  private getStoredHistory(): Record<string, PracticeSongHistory> {
-    if (typeof window === 'undefined') {
-      return {};
-    }
-
-    try {
-      const stored = localStorage.getItem(this.STORAGE_KEY);
-      if (stored) {
-        return JSON.parse(stored);
-      }
-    } catch (error) {
-      console.error('Error reading practice history from localStorage:', error);
-    }
-
+  protected getDefault(): Record<string, PracticeSongHistory> {
     return {};
   }
 
-  private saveHistory(history: Record<string, PracticeSongHistory>): void {
-    if (typeof window === 'undefined') return;
-
-    try {
-      localStorage.setItem(this.STORAGE_KEY, JSON.stringify(history));
-    } catch (error) {
-      console.error('Error saving practice history to localStorage:', error);
-    }
-  }
-
-  /**
-   * Get list of recently played song track IDs for an artist
-   */
   getRecentSongs(artistId: string): string[] {
-    const history = this.getStoredHistory();
-    const artistHistory = history[artistId];
-    
-    if (!artistHistory) {
-      return [];
-    }
-
-    return artistHistory.recentSongs || [];
+    return this.getStored()[artistId]?.recentSongs ?? [];
   }
 
-  /**
-   * Record a song as played for an artist
-   */
   recordPlayedSong(artistId: string, trackId: string): void {
-    const history = this.getStoredHistory();
-    
+    const history = this.getStored();
+
     if (!history[artistId]) {
-      history[artistId] = {
-        artistId,
-        recentSongs: [],
-        lastUpdated: Date.now()
-      };
+      history[artistId] = { artistId, recentSongs: [], lastUpdated: Date.now() };
     }
 
     const artistHistory = history[artistId];
-    
-    // Remove the song if it already exists (move to front)
     artistHistory.recentSongs = artistHistory.recentSongs.filter(id => id !== trackId);
-    
-    // Add the song to the front
     artistHistory.recentSongs.unshift(trackId);
-    
-    // Keep only the last MAX_RECENT_SONGS
     artistHistory.recentSongs = artistHistory.recentSongs.slice(0, this.MAX_RECENT_SONGS);
-    
     artistHistory.lastUpdated = Date.now();
 
-    this.saveHistory(history);
+    this.save(history);
   }
 
-  /**
-   * Clear history for a specific artist
-   */
   clearArtistHistory(artistId: string): void {
-    const history = this.getStoredHistory();
+    const history = this.getStored();
     if (history[artistId]) {
       delete history[artistId];
-      this.saveHistory(history);
+      this.save(history);
     }
   }
 
-  /**
-   * Clear all practice history
-   */
   clearAllHistory(): void {
-    if (typeof window === 'undefined') return;
-
-    try {
-      localStorage.removeItem(this.STORAGE_KEY);
-    } catch (error) {
-      console.error('Error clearing practice history:', error);
-    }
+    this.clear();
   }
 
-  /**
-   * Get debug info about practice history
-   */
   getDebugInfo(): Record<string, PracticeSongHistory> {
-    return this.getStoredHistory();
+    return this.getStored();
   }
 }

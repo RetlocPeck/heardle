@@ -1,0 +1,7 @@
+{
+  "_comment": "Apple Music API constants shared between the TypeScript runtime service and the Node.js data-generation scripts.",
+  "baseUrl": "https://api.music.apple.com/v1",
+  "storefronts": ["us", "jp", "kr"],
+  "primaryStorefront": "us",
+  "delayBetweenRequestsMs": 30
+}

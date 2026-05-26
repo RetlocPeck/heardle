@@ -221,6 +221,97 @@
     "trackId": "1591510042"
   },
   {
+    "id": "applemusic-1635656417",
+    "name": "Talk that Talk",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/06/2d/af062de7-ce45-0e8f-d8b9-0ae4adf05bb4/mzaf_10856190615663409571.plus.aac.p.m4a",
+    "duration": 177467,
+    "trackUrl": "https://music.apple.com/us/album/talk-that-talk/1635656322?i=1635656417",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656417"
+  },
+  {
+    "id": "applemusic-1635656430",
+    "name": "Queen of Hearts",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/1f/02/741f0290-950f-f856-97f0-0f397d5ab2de/mzaf_16982149271380819433.plus.aac.p.m4a",
+    "duration": 186947,
+    "trackUrl": "https://music.apple.com/us/album/queen-of-hearts/1635656322?i=1635656430",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656430"
+  },
+  {
+    "id": "applemusic-1635656431",
+    "name": "Basics",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/65/e7/8765e7e4-09a7-58c4-f138-4abf4209d162/mzaf_15633896381988739813.plus.aac.p.m4a",
+    "duration": 176973,
+    "trackUrl": "https://music.apple.com/us/album/basics/1635656322?i=1635656431",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656431"
+  },
+  {
+    "id": "applemusic-1635656434",
+    "name": "Trouble",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/9c/a5/3c9ca5ba-ca96-56f4-77cd-429fb4c23563/mzaf_9778950243009366726.plus.aac.p.m4a",
+    "duration": 215400,
+    "trackUrl": "https://music.apple.com/us/album/trouble/1635656322?i=1635656434",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656434"
+  },
+  {
+    "id": "applemusic-1635656436",
+    "name": "Brave",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/1c/49/f11c49f6-1aa7-5a1e-2b6e-c38bf57fa6fc/mzaf_12971908334829292384.plus.aac.p.m4a",
+    "duration": 189200,
+    "trackUrl": "https://music.apple.com/us/album/brave/1635656322?i=1635656436",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656436"
+  },
+  {
+    "id": "applemusic-1635656439",
+    "name": "Gone",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/11/60/27116043-41ed-b79f-1f9d-6527bd9868b8/mzaf_17955051039400875033.plus.aac.p.m4a",
+    "duration": 195000,
+    "trackUrl": "https://music.apple.com/us/album/gone/1635656322?i=1635656439",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656439"
+  },
+  {
+    "id": "applemusic-1635656441",
+    "name": "When We Were Kids",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "BETWEEN 1&2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/5e/4e/e95e4e4d-b963-85d6-ae17-83165bfa3e65/mzaf_6603456267229307345.plus.aac.p.m4a",
+    "duration": 189347,
+    "trackUrl": "https://music.apple.com/us/album/when-we-were-kids/1635656322?i=1635656441",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
+    "trackId": "1635656441"
+  },
+  {
     "id": "applemusic-1535654244",
     "name": "I CAN'T STOP ME",
     "artists": [
@@ -559,6 +650,84 @@
     "trackId": "1515405108"
   },
   {
+    "id": "applemusic-1566636563",
+    "name": "Alcohol-Free",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Taste of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/4c/17/474c179f-3802-9d1c-b5c1-92bf28857f38/mzaf_12001485546764652394.plus.aac.p.m4a",
+    "duration": 210573,
+    "trackUrl": "https://music.apple.com/us/album/alcohol-free/1566636556?i=1566636563",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
+    "trackId": "1566636563"
+  },
+  {
+    "id": "applemusic-1566636574",
+    "name": "First Time",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Taste of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/2b/f1/172bf1b2-5a93-fd4e-2042-998f861b1cb3/mzaf_13504831566641708741.plus.aac.p.m4a",
+    "duration": 182947,
+    "trackUrl": "https://music.apple.com/us/album/first-time/1566636556?i=1566636574",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
+    "trackId": "1566636574"
+  },
+  {
+    "id": "applemusic-1566636877",
+    "name": "Scandal",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Taste of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/80/3d/7b/803d7b79-52d0-cda1-3933-dd2ee6390caf/mzaf_5474325749636865641.plus.aac.p.m4a",
+    "duration": 163333,
+    "trackUrl": "https://music.apple.com/us/album/scandal/1566636556?i=1566636877",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
+    "trackId": "1566636877"
+  },
+  {
+    "id": "applemusic-1566636879",
+    "name": "Conversation",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Taste of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/51/3d/cb/513dcb65-e244-2707-8198-5060c0b6f07d/mzaf_12210448684419695234.plus.aac.p.m4a",
+    "duration": 147320,
+    "trackUrl": "https://music.apple.com/us/album/conversation/1566636556?i=1566636879",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
+    "trackId": "1566636879"
+  },
+  {
+    "id": "applemusic-1566636886",
+    "name": "Baby Blue Love",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Taste of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/1a/7b/e01a7bab-9f6c-e427-39ed-b5d6500312b8/mzaf_9832842939309646975.plus.aac.p.m4a",
+    "duration": 166667,
+    "trackUrl": "https://music.apple.com/us/album/baby-blue-love/1566636556?i=1566636886",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
+    "trackId": "1566636886"
+  },
+  {
+    "id": "applemusic-1566636895",
+    "name": "SOS",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Taste of Love - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/a9/93/1ea993df-7681-f128-8013-d5ffb9951228/mzaf_8698977259167522271.plus.aac.p.m4a",
+    "duration": 173133,
+    "trackUrl": "https://music.apple.com/us/album/sos/1566636556?i=1566636895",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
+    "trackId": "1566636895"
+  },
+  {
     "id": "applemusic-1555390187",
     "name": "FANCY",
     "artists": [
@@ -780,182 +949,13 @@
     "trackId": "1726088038"
   },
   {
-    "id": "applemusic-1566636563",
-    "name": "Alcohol-Free",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Taste of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/47/4c/17/474c179f-3802-9d1c-b5c1-92bf28857f38/mzaf_12001485546764652394.plus.aac.p.m4a",
-    "duration": 210573,
-    "trackUrl": "https://music.apple.com/us/album/alcohol-free/1566636556?i=1566636563",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
-    "trackId": "1566636563"
-  },
-  {
-    "id": "applemusic-1566636574",
-    "name": "First Time",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Taste of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/2b/f1/172bf1b2-5a93-fd4e-2042-998f861b1cb3/mzaf_13504831566641708741.plus.aac.p.m4a",
-    "duration": 182947,
-    "trackUrl": "https://music.apple.com/us/album/first-time/1566636556?i=1566636574",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
-    "trackId": "1566636574"
-  },
-  {
-    "id": "applemusic-1566636877",
-    "name": "Scandal",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Taste of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/80/3d/7b/803d7b79-52d0-cda1-3933-dd2ee6390caf/mzaf_5474325749636865641.plus.aac.p.m4a",
-    "duration": 163333,
-    "trackUrl": "https://music.apple.com/us/album/scandal/1566636556?i=1566636877",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
-    "trackId": "1566636877"
-  },
-  {
-    "id": "applemusic-1566636879",
-    "name": "Conversation",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Taste of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/51/3d/cb/513dcb65-e244-2707-8198-5060c0b6f07d/mzaf_12210448684419695234.plus.aac.p.m4a",
-    "duration": 147320,
-    "trackUrl": "https://music.apple.com/us/album/conversation/1566636556?i=1566636879",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
-    "trackId": "1566636879"
-  },
-  {
-    "id": "applemusic-1566636886",
-    "name": "Baby Blue Love",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Taste of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e0/1a/7b/e01a7bab-9f6c-e427-39ed-b5d6500312b8/mzaf_9832842939309646975.plus.aac.p.m4a",
-    "duration": 166667,
-    "trackUrl": "https://music.apple.com/us/album/baby-blue-love/1566636556?i=1566636886",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
-    "trackId": "1566636886"
-  },
-  {
-    "id": "applemusic-1566636895",
-    "name": "SOS",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Taste of Love - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/a9/93/1ea993df-7681-f128-8013-d5ffb9951228/mzaf_8698977259167522271.plus.aac.p.m4a",
-    "duration": 173133,
-    "trackUrl": "https://music.apple.com/us/album/sos/1566636556?i=1566636895",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d6/02/45/d602455b-23ea-8b81-9ea2-f0931db4a1f9/738676858204_Cover.jpg/300x300bb.jpg",
-    "trackId": "1566636895"
-  },
-  {
-    "id": "applemusic-1635656417",
-    "name": "Talk that Talk",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/06/2d/af062de7-ce45-0e8f-d8b9-0ae4adf05bb4/mzaf_10856190615663409571.plus.aac.p.m4a",
-    "duration": 177467,
-    "trackUrl": "https://music.apple.com/us/album/talk-that-talk/1635656322?i=1635656417",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656417"
-  },
-  {
-    "id": "applemusic-1635656430",
-    "name": "Queen of Hearts",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/74/1f/02/741f0290-950f-f856-97f0-0f397d5ab2de/mzaf_16982149271380819433.plus.aac.p.m4a",
-    "duration": 186947,
-    "trackUrl": "https://music.apple.com/us/album/queen-of-hearts/1635656322?i=1635656430",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656430"
-  },
-  {
-    "id": "applemusic-1635656431",
-    "name": "Basics",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/65/e7/8765e7e4-09a7-58c4-f138-4abf4209d162/mzaf_15633896381988739813.plus.aac.p.m4a",
-    "duration": 176973,
-    "trackUrl": "https://music.apple.com/us/album/basics/1635656322?i=1635656431",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656431"
-  },
-  {
-    "id": "applemusic-1635656434",
-    "name": "Trouble",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/9c/a5/3c9ca5ba-ca96-56f4-77cd-429fb4c23563/mzaf_9778950243009366726.plus.aac.p.m4a",
-    "duration": 215400,
-    "trackUrl": "https://music.apple.com/us/album/trouble/1635656322?i=1635656434",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656434"
-  },
-  {
-    "id": "applemusic-1635656436",
-    "name": "Brave",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f1/1c/49/f11c49f6-1aa7-5a1e-2b6e-c38bf57fa6fc/mzaf_12971908334829292384.plus.aac.p.m4a",
-    "duration": 189200,
-    "trackUrl": "https://music.apple.com/us/album/brave/1635656322?i=1635656436",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656436"
-  },
-  {
-    "id": "applemusic-1635656439",
-    "name": "Gone",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/11/60/27116043-41ed-b79f-1f9d-6527bd9868b8/mzaf_17955051039400875033.plus.aac.p.m4a",
-    "duration": 195000,
-    "trackUrl": "https://music.apple.com/us/album/gone/1635656322?i=1635656439",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656439"
-  },
-  {
-    "id": "applemusic-1635656441",
-    "name": "When We Were Kids",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "BETWEEN 1&2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e9/5e/4e/e95e4e4d-b963-85d6-ae17-83165bfa3e65/mzaf_6603456267229307345.plus.aac.p.m4a",
-    "duration": 189347,
-    "trackUrl": "https://music.apple.com/us/album/when-we-were-kids/1635656322?i=1635656441",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/300x300bb.jpg",
-    "trackId": "1635656441"
-  },
-  {
     "id": "applemusic-1813490995",
     "name": "FOUR",
     "artists": [
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ec/4a/9e/ec4a9e97-efe8-7a46-dc19-23cca1f3e5f6/mzaf_4217461153676026119.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/fe/9d/9bfe9db4-08c3-561b-7861-0b4392ed0dcd/mzaf_12138252066832750315.plus.aac.p.m4a",
     "duration": 105800,
     "trackUrl": "https://music.apple.com/us/album/four/1813490993?i=1813490995",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -968,7 +968,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/8c/4e/798c4e9a-dc99-efa1-1b7d-8194e26a4f8b/mzaf_16685424372021073272.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c6/80/e4/c680e40e-69bb-1a6b-2617-d4ca4913478c/mzaf_5983222038257647492.plus.aac.p.m4a",
     "duration": 131098,
     "trackUrl": "https://music.apple.com/us/album/this-is-for/1813490993?i=1813490998",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -981,7 +981,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/31/57/eb3157a8-4d53-0142-ccaf-599c03271f86/mzaf_12190544929018064330.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/14/52/c3/1452c3e5-797a-63f3-6c28-a32f62d4b8f2/mzaf_7817474605878564189.plus.aac.p.m4a",
     "duration": 186453,
     "trackUrl": "https://music.apple.com/us/album/options/1813490993?i=1813491002",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -994,7 +994,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/98/80/0c98803f-a8bf-b59d-62a2-3635944af024/mzaf_848723612119991937.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/82/28/96/8228961f-2942-7fbf-ddd1-08fd71f3ab91/mzaf_17644165188210150199.plus.aac.p.m4a",
     "duration": 141053,
     "trackUrl": "https://music.apple.com/us/album/mars/1813490993?i=1813491006",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1007,7 +1007,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9e/bc/75/9ebc7583-5139-c6ba-5865-39e81b9eb035/mzaf_15590277716834554603.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2a/20/95/2a209541-8b84-c658-e6ec-27f629cfe336/mzaf_1576174737673630119.plus.aac.p.m4a",
     "duration": 151493,
     "trackUrl": "https://music.apple.com/us/album/right-hand-girl/1813490993?i=1813491013",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1020,7 +1020,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/c9/85/55c98502-17d4-9266-d3e2-a1cacb6a8198/mzaf_7986231999931403752.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fb/0f/17/fb0f1710-1897-d8ee-14c1-06eef6921a5e/mzaf_15193638877591642225.plus.aac.p.m4a",
     "duration": 138200,
     "trackUrl": "https://music.apple.com/us/album/peach-gelato/1813490993?i=1813491320",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1033,7 +1033,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/ea/d7/2dead718-e773-b668-9ee7-03dedc1fe084/mzaf_1632029216900508348.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dc/bc/67/dcbc678b-3551-3260-0f51-b52c65a78ebe/mzaf_18154372204320972480.plus.aac.p.m4a",
     "duration": 127027,
     "trackUrl": "https://music.apple.com/us/album/hi-hello/1813490993?i=1813491326",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1046,7 +1046,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/65/6d/e0656dc4-9644-a0f7-28c1-c0e381529678/mzaf_10230633221125429683.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/33/eb/0a33ebd0-bfc8-af8f-0a78-df8de739c1a7/mzaf_7021178104955751208.plus.aac.p.m4a",
     "duration": 146667,
     "trackUrl": "https://music.apple.com/us/album/battitude-nayeon-jeongyeon-momo-mina/1813490993?i=1813491330",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1059,7 +1059,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/af/b1/75afb118-66ee-8d95-095a-744ef7912905/mzaf_16333985891670652369.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/29/cd/8829cda5-7dc2-bb16-145e-f75292d965c3/mzaf_14319532065530841707.plus.aac.p.m4a",
     "duration": 148760,
     "trackUrl": "https://music.apple.com/us/album/dat-ahh-dat-ooh-sana-jihyo-dahyun-chaeyoung-tzuyu/1813490993?i=1813491335",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1072,7 +1072,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/e1/3d/5de13da2-6db2-ef7c-ce80-3b5489a419d9/mzaf_15788723817119319235.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8c/55/24/8c552413-9ae0-13a3-0ac4-7abe1a0a0e66/mzaf_2524429426696257517.plus.aac.p.m4a",
     "duration": 178000,
     "trackUrl": "https://music.apple.com/us/album/let-love-go-jeongyeon-momo-sana-tzuyu/1813490993?i=1813491339",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1085,7 +1085,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ef/4a/03/ef4a036c-b5af-7ba9-b832-379081c3c2e9/mzaf_4107197356488312602.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/27/45/b3/2745b3d9-68c7-fa15-7a3e-2504abbba2e8/mzaf_13055199384482065932.plus.aac.p.m4a",
     "duration": 145027,
     "trackUrl": "https://music.apple.com/us/album/g-o-a-t-mina-dahyun-chaeyoung/1813490993?i=1813491340",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1098,7 +1098,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/cb/af/c2cbafc5-4e51-6dec-940f-62d071d4d5ce/mzaf_11207243322444097745.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/62/a6/c1/62a6c199-bede-c64e-1f30-6699a21d1c88/mzaf_281142371252251118.plus.aac.p.m4a",
     "duration": 168040,
     "trackUrl": "https://music.apple.com/us/album/talk-nayeon-jihyo/1813490993?i=1813491344",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1111,7 +1111,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/10/37/601037e7-6a99-4029-0f40-b3afdcc4bdc4/mzaf_15865983772131027199.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/87/21/9c872187-0297-78b8-f579-0687085627a7/mzaf_9478324090199802046.plus.aac.p.m4a",
     "duration": 210613,
     "trackUrl": "https://music.apple.com/us/album/seesaw/1813490993?i=1813491348",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1124,7 +1124,7 @@
       "TWICE"
     ],
     "album": "THIS IS FOR",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/c0/e7/35c0e72f-f713-a073-eebb-fbd7bbd195cb/mzaf_15928129832328190312.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/3c/f1/d33cf1d5-3b09-facb-dde4-4a77cf8823ad/mzaf_9587587140271544735.plus.aac.p.m4a",
     "duration": 196227,
     "trackUrl": "https://music.apple.com/us/album/heartbreak-avenue/1813490993?i=1813491566",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b3/a8/e2/b3a8e208-ebd1-831e-4d00-2bdddd99f54a/8809928955766_Cover.jpg/300x300bb.jpg",
@@ -1215,7 +1215,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/10/46/e6/1046e6bc-4199-d35b-2f10-112017f63cc5/mzaf_15044805339268380326.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/58/1f/3d581f70-4ec1-72da-bd12-08da12821a7b/mzaf_7891757419934114044.plus.aac.p.m4a",
     "duration": 175000,
     "trackUrl": "https://music.apple.com/us/album/me-you/1840284138?i=1840284140",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1228,7 +1228,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/9d/e7/859de793-253d-2a34-0cd9-73b356b5c7e2/mzaf_5898632929472831537.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/f4/97/45f49719-b04a-f016-c818-bc896cd6f6bf/mzaf_13529630992880724970.plus.aac.p.m4a",
     "duration": 166000,
     "trackUrl": "https://music.apple.com/us/album/meeeeee-nayeon/1840284138?i=1840284144",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1241,7 +1241,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c0/ce/f7/c0cef73b-4ae3-059a-ef4a-c105f099cbfe/mzaf_17353508995601705568.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a7/3a/16/a73a1610-6961-417f-dbf0-141c519711c1/mzaf_7966084028875826787.plus.aac.p.m4a",
     "duration": 178000,
     "trackUrl": "https://music.apple.com/us/album/fix-a-drink-jeongyeon/1840284138?i=1840284146",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1254,7 +1254,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/15/cf/ce/15cfce00-368f-7cd1-f05b-0b64ebefd57d/mzaf_10361596222859575104.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/9f/2f/969f2f66-520a-4202-3fa2-7e64fed99688/mzaf_13831348007350899447.plus.aac.p.m4a",
     "duration": 167000,
     "trackUrl": "https://music.apple.com/us/album/move-like-that-momo/1840284138?i=1840284297",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1267,7 +1267,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/a3/fe/dda3fe21-f7cd-49cc-9e07-0329630c5ab7/mzaf_9607337244951089877.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b3/53/d5/b353d571-6d32-fb28-275d-558c92c88a9f/mzaf_7054270807263188963.plus.aac.p.m4a",
     "duration": 180000,
     "trackUrl": "https://music.apple.com/us/album/decaffeinated-sana/1840284138?i=1840284300",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1280,7 +1280,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/8e/2f/e18e2f57-48ae-c26c-da1b-d9720bedf2d2/mzaf_12527813114499872141.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/4e/66/1d4e6637-7224-23ff-fad7-5cecd84baf16/mzaf_885531600357516439.plus.aac.p.m4a",
     "duration": 216000,
     "trackUrl": "https://music.apple.com/us/album/atm-jihyo/1840284138?i=1840284302",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1293,7 +1293,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d3/de/16/d3de16bb-630f-d333-afd9-840de06c5f1c/mzaf_443596666523633133.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/86/d6/1886d6f3-52f2-674d-98e6-65f638c09a15/mzaf_13227097860547456050.plus.aac.p.m4a",
     "duration": 165000,
     "trackUrl": "https://music.apple.com/us/album/stone-cold-mina/1840284138?i=1840284305",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1306,7 +1306,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/e7/8c/cae78c46-3ecc-9044-1a3e-cc71099b47f0/mzaf_15447354449182473263.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/30/98/a4309861-b24f-3e16-2bf3-c9e17c090234/mzaf_12182729574033073297.plus.aac.p.m4a",
     "duration": 149000,
     "trackUrl": "https://music.apple.com/us/album/chess-dahyun/1840284138?i=1840284309",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1319,7 +1319,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bf/34/07/bf34076a-36c8-8235-6e02-f9e32121cf70/mzaf_7337448043713504664.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/1c/b6/ce1cb616-294e-4544-1b0b-03c8615324c2/mzaf_8626269810380869734.plus.aac.p.m4a",
     "duration": 169000,
     "trackUrl": "https://music.apple.com/us/album/in-my-room-chaeyoung/1840284138?i=1840284310",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1332,7 +1332,7 @@
       "TWICE"
     ],
     "album": "TEN: The Story Goes On",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0b/37/18/0b37186d-3737-731a-d589-0bd392c40f17/mzaf_8979272878382305857.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/38/9a/56389afe-4c4e-2dcf-f1d3-3cfd77bad617/mzaf_1996122056518744077.plus.aac.p.m4a",
     "duration": 164000,
     "trackUrl": "https://music.apple.com/us/album/dive-in-tzuyu/1840284138?i=1840284313",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/d3/28/8fd328df-89b2-3460-d743-84c5d3921753/8809928954325_Cover.jpg/300x300bb.jpg",
@@ -1417,121 +1417,199 @@
     "trackId": "1555393706"
   },
   {
-    "id": "applemusic-1555396346",
-    "name": "KNOCK KNOCK",
+    "id": "applemusic-1555401454",
+    "name": "Dance The Night Away",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a6/51/74/a6517469-201f-9667-d016-af0b0412346d/mzaf_16992424951043883364.plus.aac.p.m4a",
-    "duration": 195747,
-    "trackUrl": "https://music.apple.com/us/album/knock-knock/1555396345?i=1555396346",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396346"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/28/e5/00/28e500e2-8f20-0385-f37b-84899a8384a0/mzaf_7117980557950201814.plus.aac.p.m4a",
+    "duration": 180800,
+    "trackUrl": "https://music.apple.com/us/album/dance-the-night-away/1555401452?i=1555401454",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401454"
   },
   {
-    "id": "applemusic-1555396348",
-    "name": "Ice Cream",
+    "id": "applemusic-1555401607",
+    "name": "CHILLAX",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/55/b8/b455b866-bc3d-62e0-dcd2-2a5814ac1e6d/mzaf_8347841909680667509.plus.aac.p.m4a",
-    "duration": 232067,
-    "trackUrl": "https://music.apple.com/us/album/ice-cream/1555396345?i=1555396348",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396348"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/3a/ea/c93aea42-29af-8507-8355-b96d9b7de29d/mzaf_18090825337682563413.plus.aac.p.m4a",
+    "duration": 186293,
+    "trackUrl": "https://music.apple.com/us/album/chillax/1555401452?i=1555401607",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401607"
   },
   {
-    "id": "applemusic-1555396349",
-    "name": "TT",
+    "id": "applemusic-1555401608",
+    "name": "Shot thru the heart",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/81/bb/b881bbdf-8a07-1af4-91cf-47461da8fb81/mzaf_6151657663732864056.plus.aac.p.m4a",
-    "duration": 212987,
-    "trackUrl": "https://music.apple.com/us/album/tt/1555396345?i=1555396349",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396349"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6a/62/12/6a62126d-4cd9-3666-987e-7f1f902ec64d/mzaf_5523809263226571116.plus.aac.p.m4a",
+    "duration": 205053,
+    "trackUrl": "https://music.apple.com/us/album/shot-thru-the-heart/1555401452?i=1555401608",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401608"
   },
   {
-    "id": "applemusic-1555396351",
-    "name": "1 TO 10",
+    "id": "applemusic-1555401611",
+    "name": "What is Love?",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/14/bd/90/14bd9044-c8ba-ded6-025d-1e6d9d977525/mzaf_16939453852136173505.plus.aac.p.m4a",
-    "duration": 175200,
-    "trackUrl": "https://music.apple.com/us/album/1-to-10/1555396345?i=1555396351",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396351"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/6d/0a/876d0a3e-806e-024b-dafc-abdf58d77c4f/mzaf_8856307591222303999.plus.aac.p.m4a",
+    "duration": 208240,
+    "trackUrl": "https://music.apple.com/us/album/what-is-love/1555401452?i=1555401611",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401611"
   },
   {
-    "id": "applemusic-1555396353",
-    "name": "PONYTAIL",
+    "id": "applemusic-1555401612",
+    "name": "SWEET TALKER",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/ba/9b/b9ba9b93-e925-d4e0-96a6-a5a91735be01/mzaf_15707928815557711607.plus.aac.p.m4a",
-    "duration": 206187,
-    "trackUrl": "https://music.apple.com/us/album/ponytail/1555396345?i=1555396353",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396353"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/13/1f/a1/131fa1c0-1728-f69c-3e95-d44b650bbaa6/mzaf_9706915994006098318.plus.aac.p.m4a",
+    "duration": 207747,
+    "trackUrl": "https://music.apple.com/us/album/sweet-talker/1555401452?i=1555401612",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401612"
   },
   {
-    "id": "applemusic-1555396355",
-    "name": "JELLY JELLY",
+    "id": "applemusic-1555401613",
+    "name": "HO!",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/6d/7f/fb6d7fa6-73d7-f90d-488b-3c437f9bcff8/mzaf_15166513739853397404.plus.aac.p.m4a",
-    "duration": 210627,
-    "trackUrl": "https://music.apple.com/us/album/jelly-jelly/1555396345?i=1555396355",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396355"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/28/df/0428df9f-4108-0b4b-546d-ed150681b55e/mzaf_2655526586778508988.plus.aac.p.m4a",
+    "duration": 189080,
+    "trackUrl": "https://music.apple.com/us/album/ho/1555401452?i=1555401613",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401613"
   },
   {
-    "id": "applemusic-1555396718",
-    "name": "PIT-A-PAT",
+    "id": "applemusic-1555401614",
+    "name": "DEJAVU",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/79/00/61/790061f2-f35b-82f5-04d1-e854b2c77ac2/mzaf_14212836137521218792.plus.aac.p.m4a",
-    "duration": 207507,
-    "trackUrl": "https://music.apple.com/us/album/pit-a-pat/1555396345?i=1555396718",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396718"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/a1/81/aaa18146-8085-8367-75ea-cd7d9a837838/mzaf_3401351402708075229.plus.aac.p.m4a",
+    "duration": 196413,
+    "trackUrl": "https://music.apple.com/us/album/dejavu/1555401452?i=1555401614",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401614"
   },
   {
-    "id": "applemusic-1555396721",
-    "name": "NEXT PAGE",
+    "id": "applemusic-1555401617",
+    "name": "SAY YES",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/72/ce/5272ceac-1c79-dc37-cbf0-3ca625ac7f82/mzaf_15816874526651719101.plus.aac.p.m4a",
-    "duration": 175947,
-    "trackUrl": "https://music.apple.com/us/album/next-page/1555396345?i=1555396721",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396721"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/01/f9/07/01f90775-e5cd-da75-90c1-b02336ac5f1b/mzaf_4874318263961418192.plus.aac.p.m4a",
+    "duration": 182947,
+    "trackUrl": "https://music.apple.com/us/album/say-yes/1555401452?i=1555401617",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401617"
   },
   {
-    "id": "applemusic-1555396722",
-    "name": "ONE IN A MILLION",
+    "id": "applemusic-1555401618",
+    "name": "STUCK",
     "artists": [
       "TWICE"
     ],
-    "album": "Twicecoaster: Lane 2",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6b/d2/af/6bd2afb5-9bdf-6c9a-bb03-2260f0f92f61/mzaf_15788554304132648778.plus.aac.p.m4a",
-    "duration": 175280,
-    "trackUrl": "https://music.apple.com/us/album/one-in-a-million/1555396345?i=1555396722",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555396722"
+    "album": "Summer Nights",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/51/7b/13517b03-be33-4a66-8fda-2ea05523af38/mzaf_6511289262181802382.plus.aac.p.m4a",
+    "duration": 215400,
+    "trackUrl": "https://music.apple.com/us/album/stuck/1555401452?i=1555401618",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555401618"
+  },
+  {
+    "id": "applemusic-1555389973",
+    "name": "Cheer Up",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Page Two - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/5d/8d/6b5d8dd0-5d86-bcbe-a05f-9e44a22f1ef6/mzaf_16229273177106518739.plus.aac.p.m4a",
+    "duration": 208853,
+    "trackUrl": "https://music.apple.com/us/album/cheer-up/1555389971?i=1555389973",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555389973"
+  },
+  {
+    "id": "applemusic-1555389975",
+    "name": "Precious Love",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Page Two - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/91/00/1c/91001c72-9be7-15bf-d848-560f539da306/mzaf_267422436201997168.plus.aac.p.m4a",
+    "duration": 230800,
+    "trackUrl": "https://music.apple.com/us/album/precious-love/1555389971?i=1555389975",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555389975"
+  },
+  {
+    "id": "applemusic-1555389978",
+    "name": "Touchdown",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Page Two - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0f/bf/c9/0fbfc95c-3606-059a-8756-bef492cee1f4/mzaf_17004015669124893846.plus.aac.p.m4a",
+    "duration": 202627,
+    "trackUrl": "https://music.apple.com/us/album/touchdown/1555389971?i=1555389978",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555389978"
+  },
+  {
+    "id": "applemusic-1555389979",
+    "name": "Tuk Tok",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Page Two - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/62/82/30/628230e5-7c7a-bc3b-9d43-38f4cce3f3ca/mzaf_7847828544503156151.plus.aac.p.m4a",
+    "duration": 196453,
+    "trackUrl": "https://music.apple.com/us/album/tuk-tok/1555389971?i=1555389979",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555389979"
+  },
+  {
+    "id": "applemusic-1555389980",
+    "name": "Woohoo",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Page Two - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/d3/3a/1ed33a11-ef51-cef0-02d7-6e36b25e43c1/mzaf_9556121406694031719.plus.aac.p.m4a",
+    "duration": 200813,
+    "trackUrl": "https://music.apple.com/us/album/woohoo/1555389971?i=1555389980",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555389980"
+  },
+  {
+    "id": "applemusic-1555389981",
+    "name": "My Headphones On",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Page Two - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3d/ee/6a/3dee6aa2-9fde-e8cc-f8b3-d3e9e2a6f1c5/mzaf_8264951225400647503.plus.aac.p.m4a",
+    "duration": 196267,
+    "trackUrl": "https://music.apple.com/us/album/my-headphones-on/1555389971?i=1555389981",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555389981"
   },
   {
     "id": "applemusic-1555405145",
@@ -1703,201 +1781,6 @@
     "trackId": "1555405320"
   },
   {
-    "id": "applemusic-1555389973",
-    "name": "Cheer Up",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Page Two - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6b/5d/8d/6b5d8dd0-5d86-bcbe-a05f-9e44a22f1ef6/mzaf_16229273177106518739.plus.aac.p.m4a",
-    "duration": 208853,
-    "trackUrl": "https://music.apple.com/us/album/cheer-up/1555389971?i=1555389973",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555389973"
-  },
-  {
-    "id": "applemusic-1555389975",
-    "name": "Precious Love",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Page Two - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/91/00/1c/91001c72-9be7-15bf-d848-560f539da306/mzaf_267422436201997168.plus.aac.p.m4a",
-    "duration": 230800,
-    "trackUrl": "https://music.apple.com/us/album/precious-love/1555389971?i=1555389975",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555389975"
-  },
-  {
-    "id": "applemusic-1555389978",
-    "name": "Touchdown",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Page Two - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0f/bf/c9/0fbfc95c-3606-059a-8756-bef492cee1f4/mzaf_17004015669124893846.plus.aac.p.m4a",
-    "duration": 202627,
-    "trackUrl": "https://music.apple.com/us/album/touchdown/1555389971?i=1555389978",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555389978"
-  },
-  {
-    "id": "applemusic-1555389979",
-    "name": "Tuk Tok",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Page Two - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/62/82/30/628230e5-7c7a-bc3b-9d43-38f4cce3f3ca/mzaf_7847828544503156151.plus.aac.p.m4a",
-    "duration": 196453,
-    "trackUrl": "https://music.apple.com/us/album/tuk-tok/1555389971?i=1555389979",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555389979"
-  },
-  {
-    "id": "applemusic-1555389980",
-    "name": "Woohoo",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Page Two - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/d3/3a/1ed33a11-ef51-cef0-02d7-6e36b25e43c1/mzaf_9556121406694031719.plus.aac.p.m4a",
-    "duration": 200813,
-    "trackUrl": "https://music.apple.com/us/album/woohoo/1555389971?i=1555389980",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555389980"
-  },
-  {
-    "id": "applemusic-1555389981",
-    "name": "My Headphones On",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Page Two - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/3d/ee/6a/3dee6aa2-9fde-e8cc-f8b3-d3e9e2a6f1c5/mzaf_8264951225400647503.plus.aac.p.m4a",
-    "duration": 196267,
-    "trackUrl": "https://music.apple.com/us/album/my-headphones-on/1555389971?i=1555389981",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7d/46/66/7d4666f3-1dec-c3ae-e81c-1efef0ae5d6b/00602508870033_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555389981"
-  },
-  {
-    "id": "applemusic-1555401454",
-    "name": "Dance The Night Away",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/28/e5/00/28e500e2-8f20-0385-f37b-84899a8384a0/mzaf_7117980557950201814.plus.aac.p.m4a",
-    "duration": 180800,
-    "trackUrl": "https://music.apple.com/us/album/dance-the-night-away/1555401452?i=1555401454",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401454"
-  },
-  {
-    "id": "applemusic-1555401607",
-    "name": "CHILLAX",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c9/3a/ea/c93aea42-29af-8507-8355-b96d9b7de29d/mzaf_18090825337682563413.plus.aac.p.m4a",
-    "duration": 186293,
-    "trackUrl": "https://music.apple.com/us/album/chillax/1555401452?i=1555401607",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401607"
-  },
-  {
-    "id": "applemusic-1555401608",
-    "name": "Shot thru the heart",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6a/62/12/6a62126d-4cd9-3666-987e-7f1f902ec64d/mzaf_5523809263226571116.plus.aac.p.m4a",
-    "duration": 205053,
-    "trackUrl": "https://music.apple.com/us/album/shot-thru-the-heart/1555401452?i=1555401608",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401608"
-  },
-  {
-    "id": "applemusic-1555401611",
-    "name": "What is Love?",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/6d/0a/876d0a3e-806e-024b-dafc-abdf58d77c4f/mzaf_8856307591222303999.plus.aac.p.m4a",
-    "duration": 208240,
-    "trackUrl": "https://music.apple.com/us/album/what-is-love/1555401452?i=1555401611",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401611"
-  },
-  {
-    "id": "applemusic-1555401612",
-    "name": "SWEET TALKER",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/13/1f/a1/131fa1c0-1728-f69c-3e95-d44b650bbaa6/mzaf_9706915994006098318.plus.aac.p.m4a",
-    "duration": 207747,
-    "trackUrl": "https://music.apple.com/us/album/sweet-talker/1555401452?i=1555401612",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401612"
-  },
-  {
-    "id": "applemusic-1555401613",
-    "name": "HO!",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/28/df/0428df9f-4108-0b4b-546d-ed150681b55e/mzaf_2655526586778508988.plus.aac.p.m4a",
-    "duration": 189080,
-    "trackUrl": "https://music.apple.com/us/album/ho/1555401452?i=1555401613",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401613"
-  },
-  {
-    "id": "applemusic-1555401614",
-    "name": "DEJAVU",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/aa/a1/81/aaa18146-8085-8367-75ea-cd7d9a837838/mzaf_3401351402708075229.plus.aac.p.m4a",
-    "duration": 196413,
-    "trackUrl": "https://music.apple.com/us/album/dejavu/1555401452?i=1555401614",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401614"
-  },
-  {
-    "id": "applemusic-1555401617",
-    "name": "SAY YES",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/01/f9/07/01f90775-e5cd-da75-90c1-b02336ac5f1b/mzaf_4874318263961418192.plus.aac.p.m4a",
-    "duration": 182947,
-    "trackUrl": "https://music.apple.com/us/album/say-yes/1555401452?i=1555401617",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401617"
-  },
-  {
-    "id": "applemusic-1555401618",
-    "name": "STUCK",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Summer Nights",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/13/51/7b/13517b03-be33-4a66-8fda-2ea05523af38/mzaf_6511289262181802382.plus.aac.p.m4a",
-    "duration": 215400,
-    "trackUrl": "https://music.apple.com/us/album/stuck/1555401452?i=1555401618",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5d/8d/ae/5d8daec6-bf17-9220-6ffb-d69981dd4ef6/00602508874840_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555401618"
-  },
-  {
     "id": "applemusic-1555401293",
     "name": "Like Ooh-Ahh",
     "artists": [
@@ -1974,19 +1857,6 @@
     "trackUrl": "https://music.apple.com/us/album/like-a-fool/1555401291?i=1555401596",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/0a/8b/630a8b70-f367-f5f4-1841-6c229313ebf8/00602508869884_Cover.jpg/300x300bb.jpg",
     "trackId": "1555401596"
-  },
-  {
-    "id": "applemusic-1826063663",
-    "name": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "THIS IS FOR DELUXE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/fc/ae/96fcae66-1179-768f-c8c1-e2ed78742b78/mzaf_9347078519952000684.plus.aac.p.m4a",
-    "duration": 180293,
-    "trackUrl": "https://music.apple.com/jp/album/takedown-jeongyeon-jihyo-chaeyoung/1826063226?i=1826063663",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/dd/fa/3cddfa1c-b2e9-8df6-b042-f4990a179388/8809928955216.jpg/300x300bb.jpg",
-    "trackId": "1826063663"
   },
   {
     "id": "applemusic-1555395988",
@@ -2067,6 +1937,123 @@
     "trackId": "1555396359"
   },
   {
+    "id": "applemusic-1555396346",
+    "name": "KNOCK KNOCK",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a6/51/74/a6517469-201f-9667-d016-af0b0412346d/mzaf_16992424951043883364.plus.aac.p.m4a",
+    "duration": 195747,
+    "trackUrl": "https://music.apple.com/us/album/knock-knock/1555396345?i=1555396346",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396346"
+  },
+  {
+    "id": "applemusic-1555396348",
+    "name": "Ice Cream",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b4/55/b8/b455b866-bc3d-62e0-dcd2-2a5814ac1e6d/mzaf_8347841909680667509.plus.aac.p.m4a",
+    "duration": 232067,
+    "trackUrl": "https://music.apple.com/us/album/ice-cream/1555396345?i=1555396348",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396348"
+  },
+  {
+    "id": "applemusic-1555396349",
+    "name": "TT",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b8/81/bb/b881bbdf-8a07-1af4-91cf-47461da8fb81/mzaf_6151657663732864056.plus.aac.p.m4a",
+    "duration": 212987,
+    "trackUrl": "https://music.apple.com/us/album/tt/1555396345?i=1555396349",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396349"
+  },
+  {
+    "id": "applemusic-1555396351",
+    "name": "1 TO 10",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/14/bd/90/14bd9044-c8ba-ded6-025d-1e6d9d977525/mzaf_16939453852136173505.plus.aac.p.m4a",
+    "duration": 175200,
+    "trackUrl": "https://music.apple.com/us/album/1-to-10/1555396345?i=1555396351",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396351"
+  },
+  {
+    "id": "applemusic-1555396353",
+    "name": "PONYTAIL",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/ba/9b/b9ba9b93-e925-d4e0-96a6-a5a91735be01/mzaf_15707928815557711607.plus.aac.p.m4a",
+    "duration": 206187,
+    "trackUrl": "https://music.apple.com/us/album/ponytail/1555396345?i=1555396353",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396353"
+  },
+  {
+    "id": "applemusic-1555396355",
+    "name": "JELLY JELLY",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/fb/6d/7f/fb6d7fa6-73d7-f90d-488b-3c437f9bcff8/mzaf_15166513739853397404.plus.aac.p.m4a",
+    "duration": 210627,
+    "trackUrl": "https://music.apple.com/us/album/jelly-jelly/1555396345?i=1555396355",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396355"
+  },
+  {
+    "id": "applemusic-1555396718",
+    "name": "PIT-A-PAT",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/79/00/61/790061f2-f35b-82f5-04d1-e854b2c77ac2/mzaf_14212836137521218792.plus.aac.p.m4a",
+    "duration": 207507,
+    "trackUrl": "https://music.apple.com/us/album/pit-a-pat/1555396345?i=1555396718",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396718"
+  },
+  {
+    "id": "applemusic-1555396721",
+    "name": "NEXT PAGE",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/52/72/ce/5272ceac-1c79-dc37-cbf0-3ca625ac7f82/mzaf_15816874526651719101.plus.aac.p.m4a",
+    "duration": 175947,
+    "trackUrl": "https://music.apple.com/us/album/next-page/1555396345?i=1555396721",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396721"
+  },
+  {
+    "id": "applemusic-1555396722",
+    "name": "ONE IN A MILLION",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Twicecoaster: Lane 2",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/6b/d2/af/6bd2afb5-9bdf-6c9a-bb03-2260f0f92f61/mzaf_15788554304132648778.plus.aac.p.m4a",
+    "duration": 175280,
+    "trackUrl": "https://music.apple.com/us/album/one-in-a-million/1555396345?i=1555396722",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/db/ff/88/dbff880c-4485-d42a-062b-c90b90d031d0/00602508870224_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555396722"
+  },
+  {
     "id": "applemusic-1555410490",
     "name": "Heart Shaker",
     "artists": [
@@ -2104,6 +2091,19 @@
     "trackUrl": "https://music.apple.com/us/album/candy-pop/1334756337?i=1334756373",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/37/69/c8/3769c87c-6a67-a131-7db9-858d0c0c0ba6/190295685256.jpg/300x300bb.jpg",
     "trackId": "1334756373"
+  },
+  {
+    "id": "applemusic-1394016307",
+    "name": "I WANT YOU BACK",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "I WANT YOU BACK - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/78/44/34/784434f6-3b82-7deb-55d8-d32834f7fc94/mzaf_17879292626498479621.plus.aac.p.m4a",
+    "duration": 203816,
+    "trackUrl": "https://music.apple.com/us/album/i-want-you-back/1394016295?i=1394016307",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/08/77/d80877e5-f5cd-ceec-f6d6-85afb52b0381/190295608460.jpg/300x300bb.jpg",
+    "trackId": "1394016307"
   },
   {
     "id": "applemusic-1572686076",
@@ -2236,19 +2236,6 @@
     "trackId": "1572686086"
   },
   {
-    "id": "applemusic-1394016307",
-    "name": "I WANT YOU BACK",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "I WANT YOU BACK - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/78/44/34/784434f6-3b82-7deb-55d8-d32834f7fc94/mzaf_17879292626498479621.plus.aac.p.m4a",
-    "duration": 203816,
-    "trackUrl": "https://music.apple.com/us/album/i-want-you-back/1394016295?i=1394016307",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d8/08/77/d80877e5-f5cd-ceec-f6d6-85afb52b0381/190295608460.jpg/300x300bb.jpg",
-    "trackId": "1394016307"
-  },
-  {
     "id": "applemusic-1427303712",
     "name": "BDZ",
     "artists": [
@@ -2260,19 +2247,6 @@
     "trackUrl": "https://music.apple.com/us/album/bdz/1427303630?i=1427303712",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/aa/ad/a2/aaada22f-e3ed-a768-f655-b6c0de82eae5/190295564124.jpg/300x300bb.jpg",
     "trackId": "1427303712"
-  },
-  {
-    "id": "applemusic-1613516517",
-    "name": "Just be yourself",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Just be yourself - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/72/3d/64723d10-1c01-cda0-4006-3e2452a1c140/mzaf_16894291069428254338.plus.aac.p.m4a",
-    "duration": 200213,
-    "trackUrl": "https://music.apple.com/us/album/just-be-yourself/1613516516?i=1613516517",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/88/0d/ef/880def80-1a28-e2d4-811b-662721cd9cd7/190296158148.jpg/300x300bb.jpg",
-    "trackId": "1613516517"
   },
   {
     "id": "applemusic-1754339023",
@@ -2405,17 +2379,160 @@
     "trackId": "1754339167"
   },
   {
-    "id": "applemusic-1555390355",
-    "name": "The Best Thing I Ever Did",
+    "id": "applemusic-1613516517",
+    "name": "Just be yourself",
     "artists": [
       "TWICE"
     ],
-    "album": "The year of \"YES\"",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/e8/5f/55e85fbf-3508-b162-e278-a1e445d73f09/mzaf_12808610919167971225.plus.aac.p.m4a",
-    "duration": 210440,
-    "trackUrl": "https://music.apple.com/us/album/the-best-thing-i-ever-did/1555390354?i=1555390355",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/7f/75/0a7f75b9-80d4-049d-e427-c811c9791394/00602508875205_Cover.jpg/300x300bb.jpg",
-    "trackId": "1555390355"
+    "album": "Just be yourself - Single",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/72/3d/64723d10-1c01-cda0-4006-3e2452a1c140/mzaf_16894291069428254338.plus.aac.p.m4a",
+    "duration": 200213,
+    "trackUrl": "https://music.apple.com/us/album/just-be-yourself/1613516516?i=1613516517",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/88/0d/ef/880def80-1a28-e2d4-811b-662721cd9cd7/190296158148.jpg/300x300bb.jpg",
+    "trackId": "1613516517"
+  },
+  {
+    "id": "applemusic-1496252721",
+    "name": "SWING",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/25/b5/8d/25b58d3c-b647-2cf5-aca4-ffda474ffee8/mzaf_1441152660883988508.plus.aac.p.m4a",
+    "duration": 202540,
+    "trackUrl": "https://music.apple.com/us/album/swing/1496252711?i=1496252721",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252721"
+  },
+  {
+    "id": "applemusic-1496252926",
+    "name": "Fake & True",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/65/88/a0/6588a010-aa6b-6b33-28a9-aa6333f4ed59/mzaf_13430872788000718459.plus.aac.p.m4a",
+    "duration": 219625,
+    "trackUrl": "https://music.apple.com/us/album/fake-true/1496252711?i=1496252926",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252926"
+  },
+  {
+    "id": "applemusic-1496252929",
+    "name": "Stronger",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/a9/a3/6f/a9a36fb5-5623-6abb-7ba0-012667bab09c/mzaf_14280249472438034989.plus.aac.p.m4a",
+    "duration": 194973,
+    "trackUrl": "https://music.apple.com/us/album/stronger/1496252711?i=1496252929",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252929"
+  },
+  {
+    "id": "applemusic-1496252930",
+    "name": "Breakthrough",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2c/e7/a7/2ce7a77f-b894-b2c4-712d-14076406b220/mzaf_15412246858507884406.plus.aac.p.m4a",
+    "duration": 217651,
+    "trackUrl": "https://music.apple.com/us/album/breakthrough/1496252711?i=1496252930",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252930"
+  },
+  {
+    "id": "applemusic-1496252931",
+    "name": "Changing!",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/06/07/b5/0607b5a8-3da6-4b9b-a8e9-3cfcf9ccdcdd/mzaf_3748658783513596303.plus.aac.p.m4a",
+    "duration": 222093,
+    "trackUrl": "https://music.apple.com/us/album/changing/1496252711?i=1496252931",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252931"
+  },
+  {
+    "id": "applemusic-1496252934",
+    "name": "HAPPY HAPPY",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/46/06/4a/46064a35-825d-b98d-6ef5-ded14529c1b3/mzaf_8604121204640530948.plus.aac.p.m4a",
+    "duration": 206974,
+    "trackUrl": "https://music.apple.com/us/album/happy-happy/1496252711?i=1496252934",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252934"
+  },
+  {
+    "id": "applemusic-1496252937",
+    "name": "What You Waiting For",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/da/b9/93/dab99389-8eec-fe4c-6833-41700e21b8b7/mzaf_17500795661808119110.plus.aac.p.m4a",
+    "duration": 201600,
+    "trackUrl": "https://music.apple.com/us/album/what-you-waiting-for/1496252711?i=1496252937",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252937"
+  },
+  {
+    "id": "applemusic-1496252938",
+    "name": "Be OK",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/13/14/b5/1314b506-0a8e-c630-8b6f-14efe477c397/mzaf_71314796545684647.plus.aac.p.m4a",
+    "duration": 188840,
+    "trackUrl": "https://music.apple.com/us/album/be-ok/1496252711?i=1496252938",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252938"
+  },
+  {
+    "id": "applemusic-1496252940",
+    "name": "POLISH",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/9f/e7/08/9fe708da-a937-72af-6309-42054fcdf99a/mzaf_18022855831207756353.plus.aac.p.m4a",
+    "duration": 181693,
+    "trackUrl": "https://music.apple.com/us/album/polish/1496252711?i=1496252940",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496252940"
+  },
+  {
+    "id": "applemusic-1496253378",
+    "name": "How u doin'",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/07/00/78/0700786f-6a57-e0c7-d09e-8975c88aef07/mzaf_14512200958489811540.plus.aac.p.m4a",
+    "duration": 209467,
+    "trackUrl": "https://music.apple.com/us/album/how-u-doin/1496252711?i=1496253378",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496253378"
+  },
+  {
+    "id": "applemusic-1496253383",
+    "name": "The Reason Why",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "&TWICE (Repackage)",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/58/87/db/5887db2b-c173-8b59-6de3-569942989bf5/mzaf_16872546317803454631.plus.aac.p.m4a",
+    "duration": 226173,
+    "trackUrl": "https://music.apple.com/us/album/the-reason-why/1496252711?i=1496253383",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
+    "trackId": "1496253383"
   },
   {
     "id": "applemusic-1289469862",
@@ -2535,212 +2652,108 @@
     "trackId": "1633009362"
   },
   {
-    "id": "applemusic-1483087463",
-    "name": "Fake & True",
+    "id": "applemusic-1555390355",
+    "name": "The Best Thing I Ever Did",
     "artists": [
       "TWICE"
     ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/4e/71/93/4e719341-2313-e56c-98e5-2498dfd5df0f/mzaf_13192806127840946738.plus.aac.p.m4a",
-    "duration": 219625,
-    "trackUrl": "https://music.apple.com/us/album/fake-true/1483087458?i=1483087463",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087463"
+    "album": "The year of \"YES\"",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/e8/5f/55e85fbf-3508-b162-e278-a1e445d73f09/mzaf_12808610919167971225.plus.aac.p.m4a",
+    "duration": 210440,
+    "trackUrl": "https://music.apple.com/us/album/the-best-thing-i-ever-did/1555390354?i=1555390355",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0a/7f/75/0a7f75b9-80d4-049d-e427-c811c9791394/00602508875205_Cover.jpg/300x300bb.jpg",
+    "trackId": "1555390355"
   },
   {
-    "id": "applemusic-1483087588",
-    "name": "Stronger",
+    "id": "applemusic-1445463648",
+    "name": "STAY BY MY SIDE",
     "artists": [
       "TWICE"
     ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/8b/34/ed/8b34ed30-bcce-9a43-2031-8297e45d7492/mzaf_914404706463852374.plus.aac.p.m4a",
-    "duration": 194973,
-    "trackUrl": "https://music.apple.com/us/album/stronger/1483087458?i=1483087588",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087588"
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c8/b4/5f/c8b45f5a-aaf7-794b-8909-bf5f51bd833c/mzaf_14017494714631486405.plus.aac.p.m4a",
+    "duration": 237490,
+    "trackUrl": "https://music.apple.com/us/album/stay-by-my-side/1445463549?i=1445463648",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463648"
   },
   {
-    "id": "applemusic-1483087589",
-    "name": "Breakthrough",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/6b/ce/a3/6bcea314-4cd4-3d53-3dd9-a63d237bce24/mzaf_1861133581358658339.plus.aac.p.m4a",
-    "duration": 217651,
-    "trackUrl": "https://music.apple.com/us/album/breakthrough/1483087458?i=1483087589",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087589"
-  },
-  {
-    "id": "applemusic-1483087591",
-    "name": "Changing!",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/e5/b8/b1/e5b8b1d2-8f58-d939-ba4a-7afc461cb177/mzaf_8095923960126598415.plus.aac.p.m4a",
-    "duration": 222093,
-    "trackUrl": "https://music.apple.com/us/album/changing/1483087458?i=1483087591",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087591"
-  },
-  {
-    "id": "applemusic-1483087593",
-    "name": "HAPPY HAPPY",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/eb/1f/ac/eb1fac66-d402-2647-e775-104bbb0e7c11/mzaf_3290595473982762948.plus.aac.p.m4a",
-    "duration": 206974,
-    "trackUrl": "https://music.apple.com/us/album/happy-happy/1483087458?i=1483087593",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087593"
-  },
-  {
-    "id": "applemusic-1483087594",
-    "name": "What You Waiting For",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6f/5c/b6/6f5cb692-f1eb-4ed3-eff5-d8cba7dda926/mzaf_6264784258525928602.plus.aac.p.m4a",
-    "duration": 201600,
-    "trackUrl": "https://music.apple.com/us/album/what-you-waiting-for/1483087458?i=1483087594",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087594"
-  },
-  {
-    "id": "applemusic-1483087597",
-    "name": "Be OK",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/20/c2/e7/20c2e7fe-d934-5c48-2bdb-fd467bb26db5/mzaf_12528242598991035092.plus.aac.p.m4a",
-    "duration": 188840,
-    "trackUrl": "https://music.apple.com/us/album/be-ok/1483087458?i=1483087597",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087597"
-  },
-  {
-    "id": "applemusic-1483087599",
-    "name": "POLISH",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/3f/12/6e/3f126ecb-6336-139e-04c0-0c24548966c6/mzaf_7912913889654104922.plus.aac.p.m4a",
-    "duration": 181693,
-    "trackUrl": "https://music.apple.com/us/album/polish/1483087458?i=1483087599",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087599"
-  },
-  {
-    "id": "applemusic-1483087600",
-    "name": "How u doin'",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/2a/47/2a/2a472ad2-455d-536b-570f-fdddbc97bd8a/mzaf_11432393286283700176.plus.aac.p.m4a",
-    "duration": 209467,
-    "trackUrl": "https://music.apple.com/us/album/how-u-doin/1483087458?i=1483087600",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087600"
-  },
-  {
-    "id": "applemusic-1483087606",
-    "name": "The Reason Why",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/0b/8a/7a/0b8a7a2b-22bf-9a55-a613-9a87aa3c07d4/mzaf_12809810254968121303.plus.aac.p.m4a",
-    "duration": 226173,
-    "trackUrl": "https://music.apple.com/us/album/the-reason-why/1483087458?i=1483087606",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/2d/b2/d7/2db2d7bb-8d7c-1419-8e6c-d7df03631413/190295329723.jpg/300x300bb.jpg",
-    "trackId": "1483087606"
-  },
-  {
-    "id": "applemusic-1423570473",
+    "id": "applemusic-1445463655",
     "name": "L.O.V.E",
     "artists": [
       "TWICE"
     ],
-    "album": "BDZ",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/da/85/a6/da85a62d-d10e-5ef1-08d0-5daebcac30f9/mzaf_12596757258546028938.plus.aac.p.m4a",
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/b9/9c/7d/b99c7da8-6a44-aa56-1e66-058a4849c049/mzaf_8262002198974318673.plus.aac.p.m4a",
     "duration": 203040,
-    "trackUrl": "https://music.apple.com/us/album/l-o-v-e/1423569986?i=1423570473",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/30/92/2a3092af-7c3d-65c9-504b-67198e92f0e5/190295564124.jpg/300x300bb.jpg",
-    "trackId": "1423570473"
+    "trackUrl": "https://music.apple.com/us/album/l-o-v-e/1445463549?i=1445463655",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463655"
   },
   {
-    "id": "applemusic-1423570474",
+    "id": "applemusic-1445463656",
     "name": "Wishing",
     "artists": [
       "TWICE"
     ],
-    "album": "BDZ",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/0e/93/ba/0e93ba36-aa3c-3139-c995-40a590a2031a/mzaf_7315108929475479342.plus.aac.p.m4a",
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/a2/b7/ec/a2b7ecef-4f30-3b3c-bdfe-3b245bd83b17/mzaf_18018035978660276623.plus.aac.p.m4a",
     "duration": 272493,
-    "trackUrl": "https://music.apple.com/us/album/wishing/1423569986?i=1423570474",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/30/92/2a3092af-7c3d-65c9-504b-67198e92f0e5/190295564124.jpg/300x300bb.jpg",
-    "trackId": "1423570474"
+    "trackUrl": "https://music.apple.com/us/album/wishing/1445463549?i=1445463656",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463656"
   },
   {
-    "id": "applemusic-1423570478",
+    "id": "applemusic-1445463660",
     "name": "Say it again",
     "artists": [
       "TWICE"
     ],
-    "album": "BDZ",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/20/b7/ac/20b7ac00-fee6-c597-51bc-01f0df5143e8/mzaf_5021950139870846411.plus.aac.p.m4a",
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/05/2d/49/052d492d-e663-640e-7650-e51a0671d5d9/mzaf_4777751193647114588.plus.aac.p.m4a",
     "duration": 203587,
-    "trackUrl": "https://music.apple.com/us/album/say-it-again/1423569986?i=1423570478",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/30/92/2a3092af-7c3d-65c9-504b-67198e92f0e5/190295564124.jpg/300x300bb.jpg",
-    "trackId": "1423570478"
+    "trackUrl": "https://music.apple.com/us/album/say-it-again/1445463549?i=1445463660",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463660"
   },
   {
-    "id": "applemusic-1423570479",
+    "id": "applemusic-1445463661",
     "name": "Wake Me Up",
     "artists": [
       "TWICE"
     ],
-    "album": "BDZ",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/81/5b/03/815b0390-5de8-e2da-836f-3a543efe5ebf/mzaf_3040130448369923530.plus.aac.p.m4a",
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/39/91/a1/3991a193-0c17-c31d-71f6-01d7d99746f7/mzaf_6616292823332119651.plus.aac.p.m4a",
     "duration": 211800,
-    "trackUrl": "https://music.apple.com/us/album/wake-me-up/1423569986?i=1423570479",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/30/92/2a3092af-7c3d-65c9-504b-67198e92f0e5/190295564124.jpg/300x300bb.jpg",
-    "trackId": "1423570479"
+    "trackUrl": "https://music.apple.com/us/album/wake-me-up/1445463549?i=1445463661",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463661"
   },
   {
-    "id": "applemusic-1423570480",
+    "id": "applemusic-1445463662",
     "name": "BRAND NEW GIRL",
     "artists": [
       "TWICE"
     ],
-    "album": "BDZ",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/da/01/50/da015055-a828-4fac-8003-5644ed6a66ba/mzaf_2070778084484544099.plus.aac.p.m4a",
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/3a/96/3b/3a963b86-e3a0-2495-f44e-5deee394bbaf/mzaf_7982976356826061079.plus.aac.p.m4a",
     "duration": 213956,
-    "trackUrl": "https://music.apple.com/us/album/brand-new-girl/1423569986?i=1423570480",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/30/92/2a3092af-7c3d-65c9-504b-67198e92f0e5/190295564124.jpg/300x300bb.jpg",
-    "trackId": "1423570480"
+    "trackUrl": "https://music.apple.com/us/album/brand-new-girl/1445463549?i=1445463662",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463662"
   },
   {
-    "id": "applemusic-1423570481",
+    "id": "applemusic-1445463665",
     "name": "Be as ONE",
     "artists": [
       "TWICE"
     ],
-    "album": "BDZ",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/6d/0f/70/6d0f703b-99c1-2be8-a828-231855e891ad/mzaf_12568974555912579253.plus.aac.p.m4a",
+    "album": "BDZ - Repackage -",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/52/fd/a7/52fda7f0-e519-f7ee-b80e-497b69084dd8/mzaf_778477646920776482.plus.aac.p.m4a",
     "duration": 231120,
-    "trackUrl": "https://music.apple.com/us/album/be-as-one/1423569986?i=1423570481",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2a/30/92/2a3092af-7c3d-65c9-504b-67198e92f0e5/190295564124.jpg/300x300bb.jpg",
-    "trackId": "1423570481"
+    "trackUrl": "https://music.apple.com/us/album/be-as-one/1445463549?i=1445463665",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/34/8e/79/348e799b-7829-a3c6-7d2e-9893373bbcf7/190295498986.jpg/300x300bb.jpg",
+    "trackId": "1445463665"
   },
   {
     "id": "applemusic-1828648305",
@@ -2749,7 +2762,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/bf/37/5ebf37b6-74f3-d15a-94bb-eb86eedc0792/mzaf_16543843335714184073.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/81/82/198182cb-5625-1bec-9fbe-04a855037d77/mzaf_6879944216611361193.plus.aac.p.m4a",
     "duration": 178185,
     "trackUrl": "https://music.apple.com/us/album/up-to-you/1828648304?i=1828648305",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2762,7 +2775,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/0b/14/ab0b140a-51ab-da1c-22c3-289eea584104/mzaf_17241234225021398471.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/e8/05/42e805d5-3b4c-2dfd-0148-2991c3b3df4c/mzaf_11814231005459871755.plus.aac.p.m4a",
     "duration": 161950,
     "trackUrl": "https://music.apple.com/us/album/enemy/1828648304?i=1828648306",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2775,7 +2788,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/f2/69/8cf269fd-b25e-5167-ee00-3e9dbe8bef7b/mzaf_11867534392407829653.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/91/64/a8916404-affd-0a60-681d-79d94e5ed6c1/mzaf_14601739011782152784.plus.aac.p.m4a",
     "duration": 180366,
     "trackUrl": "https://music.apple.com/us/album/fine/1828648304?i=1828648307",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2788,7 +2801,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/a4/07/4ca407dd-d0ec-9293-b0a9-dbf02db58407/mzaf_9725357222165003324.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b4/cb/c5/b4cbc52d-6c0b-d53e-db9f-438f4b800d91/mzaf_9943807735296281142.plus.aac.p.m4a",
     "duration": 191052,
     "trackUrl": "https://music.apple.com/us/album/one-day/1828648304?i=1828648308",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2801,7 +2814,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b5/06/7a/b5067a3f-a84e-9b7c-f061-c27c4ddcfd35/mzaf_12179503041966429103.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/1e/e3/041ee36f-7679-73dd-e538-9cf9cae63f78/mzaf_6385966368772291705.plus.aac.p.m4a",
     "duration": 163116,
     "trackUrl": "https://music.apple.com/us/album/blind-in-love/1828648304?i=1828648309",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2814,7 +2827,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/f8/de/c4f8de97-2b61-44af-2f12-b549c1f495d4/mzaf_5588002658614085780.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/31/17/d7311788-af58-8523-d77f-0d0c1b054571/mzaf_8408645283371484461.plus.aac.p.m4a",
     "duration": 175066,
     "trackUrl": "https://music.apple.com/us/album/love-is-more/1828648304?i=1828648311",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2827,7 +2840,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/42/65/ce/4265ce7b-89c4-0644-585d-24982cbde8e8/mzaf_9074730634370808445.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/be/ed/90beed4c-4ada-a0cc-0b08-5142ee1bc5b3/mzaf_16446701796257854282.plus.aac.p.m4a",
     "duration": 167627,
     "trackUrl": "https://music.apple.com/us/album/the-wish/1828648304?i=1828648314",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2840,7 +2853,7 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/7c/15/a37c15a3-7d8f-b37b-7b16-9cafc75345b8/mzaf_2998624090556223933.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/4e/d8/b24ed819-2a71-48f7-4093-41f6b38a1b8c/mzaf_4817015169256504946.plus.aac.p.m4a",
     "duration": 174233,
     "trackUrl": "https://music.apple.com/us/album/glow/1828648304?i=1828648316",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
@@ -2853,50 +2866,11 @@
       "TWICE"
     ],
     "album": "ENEMY",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/87/0b/f2870b88-f264-f1d7-30ad-8c52af8ad90b/mzaf_18303949311882129163.plus.aac.p.m4a",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/1d/ae/071dae26-97cf-31a0-40ea-662ceb7c501f/mzaf_11323094736140239445.plus.aac.p.m4a",
     "duration": 186893,
     "trackUrl": "https://music.apple.com/us/album/like-1/1828648304?i=1828648318",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/56/90/52/569052f6-765f-d987-ad02-a192a1911788/5021732888624.jpg/300x300bb.jpg",
     "trackId": "1828648318"
-  },
-  {
-    "id": "applemusic-1496252721",
-    "name": "SWING",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "&TWICE (Repackage)",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/25/b5/8d/25b58d3c-b647-2cf5-aca4-ffda474ffee8/mzaf_1441152660883988508.plus.aac.p.m4a",
-    "duration": 202540,
-    "trackUrl": "https://music.apple.com/us/album/swing/1496252711?i=1496252721",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d6/75/71/d6757170-b030-eff7-d5c9-7385e842a416/190295282844.jpg/300x300bb.jpg",
-    "trackId": "1496252721"
-  },
-  {
-    "id": "applemusic-1439570602",
-    "name": "STAY BY MY SIDE",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "STAY BY MY SIDE - Single",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/9f/32/c5/9f32c56e-af1e-323f-c8a1-333b18a34686/mzaf_16042523040001276145.plus.aac.p.m4a",
-    "duration": 237490,
-    "trackUrl": "https://music.apple.com/us/album/stay-by-my-side/1439570598?i=1439570602",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/3c/79/a1/3c79a16e-6e05-2e53-8624-a53cc6ae470f/190295519308.jpg/300x300bb.jpg",
-    "trackId": "1439570602"
-  },
-  {
-    "id": "applemusic-1595859607",
-    "name": "Wonderful Day",
-    "artists": [
-      "TWICE"
-    ],
-    "album": "Doughnut - EP",
-    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/22/51/db22514c-ec82-c08f-bce3-abd52e7c7161/mzaf_716795722788565400.plus.aac.p.m4a",
-    "duration": 211213,
-    "trackUrl": "https://music.apple.com/us/album/wonderful-day/1595859513?i=1595859607",
-    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e2/9e/98/e29e9850-45c1-fd3d-ac26-2d8baaf817d1/190296351020.jpg/300x300bb.jpg",
-    "trackId": "1595859607"
   },
   {
     "id": "applemusic-1686024825",
@@ -2938,6 +2912,19 @@
     "trackId": "1561940784"
   },
   {
+    "id": "applemusic-1595859607",
+    "name": "Wonderful Day",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "Doughnut - EP",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/22/51/db22514c-ec82-c08f-bce3-abd52e7c7161/mzaf_716795722788565400.plus.aac.p.m4a",
+    "duration": 211213,
+    "trackUrl": "https://music.apple.com/us/album/wonderful-day/1595859513?i=1595859607",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e2/9e/98/e29e9850-45c1-fd3d-ac26-2d8baaf817d1/190296351020.jpg/300x300bb.jpg",
+    "trackId": "1595859607"
+  },
+  {
     "id": "applemusic-1288112878",
     "name": "LUV ME",
     "artists": [
@@ -2975,5 +2962,18 @@
     "trackUrl": "https://music.apple.com/us/album/i-love-you-more-than-anyone/1575669260?i=1575669261",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ca/5d/58/ca5d5829-abcb-e52a-c481-50920702896f/888272083248_Cover.jpg/300x300bb.jpg",
     "trackId": "1575669261"
+  },
+  {
+    "id": "applemusic-1826063663",
+    "name": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
+    "artists": [
+      "TWICE"
+    ],
+    "album": "THIS IS FOR DELUXE",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5e/75/2f/5e752fa6-d271-3620-73bf-2fad47cd3476/mzaf_3265127186865729371.plus.aac.p.m4a",
+    "duration": 180293,
+    "trackUrl": "https://music.apple.com/jp/album/takedown-jeongyeon-jihyo-chaeyoung/1826063226?i=1826063663",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3c/dd/fa/3cddfa1c-b2e9-8df6-b042-f4990a179388/8809928955216.jpg/300x300bb.jpg",
+    "trackId": "1826063663"
   }
 ]

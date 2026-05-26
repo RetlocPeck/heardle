@@ -134,24 +134,3 @@ export abstract class BaseStorageService<T> {
   }
 }
 
-/**
- * Mixin for singleton pattern - use with storage services
- */
-export function createSingleton<T extends new () => InstanceType<T>>(
-  ServiceClass: T
-): T & { getInstance(): InstanceType<T> } {
-  let instance: InstanceType<T> | null = null;
-
-  return class extends (ServiceClass as new () => object) {
-    constructor() {
-      super();
-    }
-
-    static getInstance(): InstanceType<T> {
-      if (!instance) {
-        instance = new ServiceClass() as InstanceType<T>;
-      }
-      return instance;
-    }
-  } as T & { getInstance(): InstanceType<T> };
-}

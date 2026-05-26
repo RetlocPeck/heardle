@@ -121,6 +121,24 @@ export interface AppleMusicAlbum {
   };
 }
 
+/** Album tagged with the storefront it was fetched from, for multi-storefront catalog builds. */
+export interface AppleMusicAlbumWithStorefront extends AppleMusicAlbum {
+  _storefront: string;
+}
+
+/**
+ * Minimal track shape produced when adapting a cached `Song` into a filterable track.
+ * Satisfies `GenericTrack` (i.e. `AppleMusicTrack`) from `trackFilters.ts`.
+ */
+export interface SongFilterTrackAdapter {
+  id: string | number;
+  attributes: {
+    name: string;
+    albumName: string;
+    previews: Array<{ url: string }>;
+  };
+}
+
 // ============================================
 // Apple Music Conversion Functions
 // ============================================
@@ -166,14 +184,16 @@ export function convertAppleMusicTrackToSong(track: AppleMusicTrack): Song {
 /**
  * Check if an object is an Apple Music track
  */
-export function isAppleMusicTrack(obj: any): obj is AppleMusicTrack {
+export function isAppleMusicTrack(obj: unknown): obj is AppleMusicTrack {
   return (
-    obj &&
-    typeof obj.id === 'string' &&
-    obj.type === 'songs' &&
-    obj.attributes &&
-    typeof obj.attributes.name === 'string' &&
-    typeof obj.attributes.artistName === 'string'
+    typeof obj === 'object' &&
+    obj !== null &&
+    typeof (obj as Record<string, unknown>).id === 'string' &&
+    (obj as Record<string, unknown>).type === 'songs' &&
+    typeof (obj as Record<string, unknown>).attributes === 'object' &&
+    (obj as Record<string, unknown>).attributes !== null &&
+    typeof ((obj as Record<string, unknown>).attributes as Record<string, unknown>).name === 'string' &&
+    typeof ((obj as Record<string, unknown>).attributes as Record<string, unknown>).artistName === 'string'
   );
 }
 
@@ -181,18 +201,19 @@ export function isAppleMusicTrack(obj: any): obj is AppleMusicTrack {
 // Type guards and utility functions
 // ============================================
 
-export function isSong(obj: any): obj is Song {
+export function isSong(obj: unknown): obj is Song {
+  if (typeof obj !== 'object' || obj === null) return false;
+  const o = obj as Record<string, unknown>;
   return (
-    obj &&
-    typeof obj.id === 'string' &&
-    typeof obj.name === 'string' &&
-    Array.isArray(obj.artists) &&
-    typeof obj.album === 'string' &&
-    typeof obj.previewUrl === 'string' &&
-    typeof obj.duration === 'number' &&
-    typeof obj.trackUrl === 'string' &&
-    typeof obj.artworkUrl === 'string' &&
-    (typeof obj.trackId === 'number' || typeof obj.trackId === 'string')
+    typeof o.id === 'string' &&
+    typeof o.name === 'string' &&
+    Array.isArray(o.artists) &&
+    typeof o.album === 'string' &&
+    typeof o.previewUrl === 'string' &&
+    typeof o.duration === 'number' &&
+    typeof o.trackUrl === 'string' &&
+    typeof o.artworkUrl === 'string' &&
+    (typeof o.trackId === 'number' || typeof o.trackId === 'string')
   );
 }
 

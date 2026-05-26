@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { Logger } from '@/lib/utils/logger';
 import Image from 'next/image';
 
 interface ArtistImageProps {
@@ -98,8 +99,7 @@ export default function ArtistImage({
           const appleUrl = width > 600 ? artwork.highResUrl : artwork.standardUrl;
           
           if (!appleUrl) {
-            // If JSON exists but lacks required URL fields, try API fallback
-            console.warn(`⚠️ No artwork URL found in static file for ${artistId}, trying API fallback`);
+            Logger.warn(`No artwork URL found in static file for ${artistId}, trying API fallback`);
             throw new Error('Missing artwork URL in static file');
           }
           
@@ -117,11 +117,10 @@ export default function ArtistImage({
           throw new Error('Static artwork file not found');
         }
       } catch (error) {
-        console.error(`❌ Error loading artwork for ${artistId}:`, error);
+        Logger.error(`Error loading artwork for ${artistId}:`, error);
         
         // Try API fallback if static file load failed or was malformed
         try {
-          console.log(`🔄 Attempting API fallback for ${artistId}`);
           const apiResponse = await fetch(`/api/${artistId}/artwork`);
           
           if (apiResponse.ok) {
@@ -142,7 +141,7 @@ export default function ArtistImage({
             }
           }
         } catch (fallbackError) {
-          console.error(`❌ API fallback also failed for ${artistId}:`, fallbackError);
+          Logger.error(`API fallback also failed for ${artistId}:`, fallbackError);
         }
         
         setHasError(true);
@@ -189,7 +188,7 @@ export default function ArtistImage({
           unoptimized={true}
           onLoad={() => setIsLoading(false)}
           onError={() => {
-            console.error(`❌ Failed to load image for ${artistId}`);
+            Logger.error(`Failed to load image for ${artistId}`);
             setHasError(true);
             setIsLoading(false);
           }}

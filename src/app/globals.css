@@ -150,6 +150,14 @@ html {
   outline-offset: 2px;
 }
 
+/* Disable hover-scale effects on touch-only devices to prevent janky tap feedback */
+@media (hover: none) {
+  .hover\:scale-105:hover,
+  .hover\:scale-110:hover {
+    transform: none;
+  }
+}
+
 /* Keep dropdown scrollbar thin and inside the panel */
 .dropdown-scroll {
   scrollbar-width: thin;                       /* Firefox */

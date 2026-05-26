@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { createPortal } from 'react-dom';
 import { useFloating, flip, offset, size, autoUpdate } from '@floating-ui/react';
 import { Song } from '@/types/song';
@@ -29,6 +29,16 @@ export default function GuessInput({
   const [filteredSongs, setFilteredSongs] = useState<Song[]>([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef<HTMLInputElement>(null);
+  const blurTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Clear the blur timeout on unmount so it never fires against an unmounted component.
+  useEffect(() => {
+    return () => {
+      if (blurTimeoutRef.current !== null) {
+        clearTimeout(blurTimeoutRef.current);
+      }
+    };
+  }, []);
 
   // Floating UI setup for dropdown positioning
   const {refs, floatingStyles, placement} = useFloating({
@@ -60,8 +70,6 @@ export default function GuessInput({
   // (trackFilters.ts removes intro/outro/skit/version tracks)
   // No need to filter again here - just match by prefix
   useEffect(() => {
-    console.log(`🔍 GuessInput: Filtering songs. Input: "${guess}", Available songs: ${availableSongs.length}`);
-    
     if (guess.trim() && availableSongs.length > 0) {
       const filtered = availableSongs.filter(song => 
         song.name.toLowerCase().startsWith(guess.toLowerCase())
@@ -99,14 +107,10 @@ export default function GuessInput({
         setShowDropdown(false);
       }
       setSelectedIndex(-1);
-      console.log(`🔍 GuessInput: Found ${filtered.length} songs, deduplicated to ${uniqueSongs.length} unique titles starting with "${guess}"`);
     } else {
       setFilteredSongs([]);
       setShowDropdown(false);
       setSelectedIndex(-1);
-      if (guess.trim()) {
-        console.log(`🔍 GuessInput: No songs available for filtering`);
-      }
     }
   }, [guess, availableSongs]);
 
@@ -166,17 +170,20 @@ export default function GuessInput({
   };
 
   const handleInputFocus = () => {
-    console.log(`🔍 GuessInput: Input focused. Guess: "${guess}", Filtered songs: ${filteredSongs.length}`);
     if (guess.trim() && filteredSongs.length > 0) {
       setShowDropdown(true);
-      console.log(`🔍 GuessInput: Showing dropdown with ${filteredSongs.length} songs`);
     }
   };
 
-  const handleInputBlur = () => {
-    // Delay hiding dropdown to allow for clicks
-    setTimeout(() => setShowDropdown(false), 150);
-  };
+  const handleInputBlur = useCallback(() => {
+    if (blurTimeoutRef.current !== null) {
+      clearTimeout(blurTimeoutRef.current);
+    }
+    blurTimeoutRef.current = setTimeout(() => {
+      blurTimeoutRef.current = null;
+      setShowDropdown(false);
+    }, 150);
+  }, []);
 
   return (
     <div className="w-full relative">

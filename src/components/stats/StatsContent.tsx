@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { StatisticsStorage, ArtistStats, GlobalStats } from '@/lib/services/statisticsStorage';
 import type { GameMode } from '@/lib/game';
 import { TabGroup, MODE_TABS } from '@/components/ui/TabGroup';
+import { onStatisticsUpdated } from '@/lib/utils/customEvents';
 
 interface StatsContentProps {
   artistId?: string; // If provided, show artist-specific stats; if not, show global stats
@@ -27,19 +28,14 @@ export default function StatsContent({ artistId, defaultMode = 'daily' }: StatsC
       setIsGlobal(true);
     }
 
-    // Listen for statistics updates
-    const handleStatsUpdate = (event: CustomEvent) => {
+    const offStats = onStatisticsUpdated((detail) => {
       if (artistId) {
         setStats(storage.getArtistStats(artistId));
       } else {
-        setStats(event.detail);
+        setStats(detail);
       }
-    };
-
-    window.addEventListener('statistics-updated', handleStatsUpdate as EventListener);
-    return () => {
-      window.removeEventListener('statistics-updated', handleStatsUpdate as EventListener);
-    };
+    });
+    return offStats;
   }, [artistId]);
 
   if (!stats) return null;
