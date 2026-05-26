@@ -115,8 +115,18 @@ export function useNewDailyChallengeListener(artistId: string, onNewDaily?: () =
 
     const handleNewDaily = (event: CustomEvent) => {
       const detail = event.detail;
-      
-      // Check if this event is for our artist or is a global rollover
+
+      if (event.type === DAILY_CHALLENGE_UPDATED_EVENT) {
+        // Only respond to rollover events, not regular completion events.
+        // Completion events dispatched by the page on game-over do NOT have
+        // isNewDaily:true — responding to those causes an infinite reload loop.
+        if (detail?.isNewDaily && detail?.artistId === artistId) {
+          onNewDaily?.();
+        }
+        return;
+      }
+
+      // 'daily-rollover-detected' — always a genuine rollover
       if (detail?.artistId === artistId || (!detail?.artistId && detail?.currentPuzzleNumber)) {
         onNewDaily?.();
       }
