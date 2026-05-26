@@ -102,7 +102,6 @@ export default function HomePage() {
               <ArtistCard
                 key={artist.id}
                 artist={artist}
-                variant="home"
                 fetchDelay={staggerDelay}
               />
             );

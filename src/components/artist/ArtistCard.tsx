@@ -6,37 +6,26 @@ import type { ArtistConfig } from '@/config/artists';
 
 interface ArtistCardProps {
   artist: ArtistConfig;
-  /**
-   * 'home'     — rich card used on the home page grid (featured badge collapses on hover)
-   * 'featured' — always-gold card used on the featured page (whole card is a Link)
-   */
-  variant: 'home' | 'featured';
-  /** Stagger delay in ms for image fetching (home page only) */
+  /** Stagger delay in ms for image fetching */
   fetchDelay?: number;
 }
 
-const FeaturedBadge = ({ expanded = false }: { expanded?: boolean }) => (
+const FeaturedBadge = () => (
   <div
-    className={`
+    className="
       inline-flex items-center h-5 sm:h-6 lg:h-7 rounded-full bg-yellow-400 text-black
       pl-1.5 pr-1.5 sm:pl-2 sm:pr-2 overflow-hidden whitespace-nowrap
-      ${expanded
-        ? 'gap-1 px-3'
-        : 'transition-[max-width] duration-300 ease-out max-w-[24px] sm:max-w-[28px] lg:max-w-[32px] group-hover:max-w-[100px] sm:group-hover:max-w-[120px] lg:group-hover:max-w-[132px] gap-0 group-hover:gap-1'
-      }
-    `}
+      transition-[max-width] duration-300 ease-out
+      max-w-[24px] sm:max-w-[28px] lg:max-w-[32px]
+      group-hover:max-w-[100px] sm:group-hover:max-w-[120px] lg:group-hover:max-w-[132px]
+      gap-0 group-hover:gap-1
+    "
   >
     <svg className="w-3 h-3 sm:w-4 sm:h-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
       <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
     </svg>
     <span
-      className={`
-        text-xs sm:text-sm font-semibold
-        ${expanded
-          ? ''
-          : 'opacity-0 text-transparent transition-opacity duration-150 group-hover:opacity-100 group-hover:text-current'
-        }
-      `}
+      className="text-xs sm:text-sm font-semibold opacity-0 text-transparent transition-opacity duration-150 group-hover:opacity-100 group-hover:text-current"
       aria-hidden="true"
     >
       Featured
@@ -44,53 +33,7 @@ const FeaturedBadge = ({ expanded = false }: { expanded?: boolean }) => (
   </div>
 );
 
-export default function ArtistCard({ artist, variant, fetchDelay }: ArtistCardProps) {
-  if (variant === 'featured') {
-    return (
-      <Link
-        href={`/${artist.id}`}
-        className="group relative backdrop-blur-xl rounded-3xl overflow-hidden bg-gradient-to-br from-amber-50/20 to-yellow-400/10 border-2 border-amber-400/60 shadow-lg shadow-amber-400/20 hover:shadow-amber-400/40 transition-all duration-500 transform hover:scale-105 hover:-translate-y-2"
-      >
-        {/* Featured badge */}
-        <div className="absolute left-3 top-3 z-30">
-          <FeaturedBadge expanded />
-        </div>
-
-        {/* Artist Image */}
-        <div className="relative h-48 sm:h-56 lg:h-64 overflow-hidden">
-          <ArtistImage
-            artistId={artist.id}
-            alt={artist.displayName}
-            className="w-full h-full object-cover object-[center_30%] group-hover:scale-110 transition-transform duration-700"
-            width={400}
-            height={400}
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-        </div>
-
-        {/* Artist Info */}
-        <div className="p-4 sm:p-6">
-          <h3 className="text-xl sm:text-2xl font-bold text-amber-100 mb-2 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-amber-300 group-hover:to-yellow-400 group-hover:bg-clip-text transition-all duration-300">
-            {artist.displayName}
-          </h3>
-
-          {artist.fandom && (
-            <p className="text-white/60 text-sm mb-3">Fandom: {artist.fandom}</p>
-          )}
-
-          <div className={`w-full text-center px-4 py-3 bg-gradient-to-r ${artist.theme.gradientFrom} ${artist.theme.gradientTo} text-white font-bold rounded-xl transition-all duration-300 hover:shadow-2xl hover:shadow-amber-400/30 border border-amber-300/30`}>
-            <span className="flex items-center justify-center space-x-2">
-              <span>🎯</span>
-              <span>Play Heardle</span>
-            </span>
-          </div>
-        </div>
-      </Link>
-    );
-  }
-
-  // variant === 'home'
+export default function ArtistCard({ artist, fetchDelay }: ArtistCardProps) {
   return (
     <div className="group relative">
       <div className={`group relative rounded-3xl overflow-hidden hover:bg-white/20 transition-[transform,box-shadow] duration-300 transform hover:scale-105 hover:-translate-y-2 ${
