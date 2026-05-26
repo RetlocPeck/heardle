@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo } from 'react';
 import { getArtistsSorted } from '@/config/artists';
 import StatisticsButton from '@/components/stats/StatisticsButton';
 import SupportButton from '@/components/ui/buttons/SupportButton';
-import NotificationBanner from '@/components/ui/NotificationBanner';
 import ArtistCard from '@/components/artist/ArtistCard';
 import { PageShell, PageHeader, ResponsiveContainer } from '@/components/ui/PageShell';
 
@@ -45,12 +44,6 @@ export default function HomePage() {
           </div>
         </div>
       </PageHeader>
-
-      <NotificationBanner
-        id="new-artists-2026-02"
-        message="🎵 New Update! We've added over 100 K-pop artists to the collection. Explore and test your knowledge!"
-        icon="✨"
-      />
 
       <ResponsiveContainer className="py-8 sm:py-12 lg:py-16">
         {/* Hero Section */}

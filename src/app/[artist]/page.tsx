@@ -9,7 +9,6 @@ import StatisticsButton from '@/components/stats/StatisticsButton';
 import PageLoadingSpinner from '@/components/ui/LoadingSpinner';
 import { DailyChallengeStatus } from '@/components/artist/DailyChallengeStatus';
 import NextDailyCountdown from '@/components/game/NextDailyCountdown';
-import NotificationBanner from '@/components/ui/NotificationBanner';
 import { PageShell, PageHeader, ResponsiveContainer } from '@/components/ui/PageShell';
 import RelatedArtists from '@/components/artist/RelatedArtists';
 import FAQSection from '@/components/seo/FAQSection';
@@ -99,12 +98,6 @@ export default function ArtistPage({ params }: ArtistPageProps) {
           </div>
         </div>
       </PageHeader>
-
-      <NotificationBanner
-        id="new-artists-2026-02"
-        message="🎵 New Update! We've added over 100 K-pop artists. Explore more on the home page!"
-        icon="✨"
-      />
 
       <ResponsiveContainer className="py-4">
         <div className="flex flex-col items-stretch space-y-4 sm:space-y-5 lg:space-y-6">
