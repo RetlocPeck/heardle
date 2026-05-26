@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { Logger } from '@/lib/utils/logger';
 
 /**
  * Image Proxy API Route
@@ -95,7 +96,7 @@ export async function GET(request: NextRequest) {
 
     return response;
   } catch (error) {
-    console.error('Image proxy error:', error);
+    Logger.error('Image proxy error:', error);
     
     // Handle timeout errors properly
     // AbortSignal.timeout() throws DOMException, not Error

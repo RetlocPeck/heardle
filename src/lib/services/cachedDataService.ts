@@ -1,5 +1,6 @@
 import { Song } from '@/types/song';
 import { ArtistArtwork } from './appleMusicService';
+import { Logger } from '@/lib/utils/logger';
 import fs from 'fs';
 import path from 'path';
 
@@ -61,12 +62,11 @@ export class CachedDataService {
         
         // Store in memory cache
         this.songsCache.set(artistId, songs);
-        console.log(`📦 Loaded ${songs.length} cached songs for ${artistId}`);
         
         return songs;
       }
     } catch (error) {
-      console.error(`Failed to load cached songs for ${artistId}:`, error);
+      Logger.error(`Failed to load cached songs for ${artistId}:`, error);
     }
 
     return null;
@@ -95,7 +95,7 @@ export class CachedDataService {
         return artwork;
       }
     } catch (error) {
-      console.error(`Failed to load cached artwork for ${artistId}:`, error);
+      Logger.error(`Failed to load cached artwork for ${artistId}:`, error);
     }
 
     return null;
@@ -113,7 +113,7 @@ export class CachedDataService {
         return JSON.parse(data);
       }
     } catch (error) {
-      console.error('Failed to load summary:', error);
+      Logger.error('Failed to load summary:', error);
     }
 
     return null;

@@ -1,4 +1,5 @@
 import { generateTheme } from './theme';
+import { Logger } from '@/lib/utils/logger';
 
 export interface ArtistTheme {
   primaryColor: string;
@@ -277,13 +278,12 @@ if (process.env.NODE_ENV === 'development') {
   const ids = new Set<string>();
   for (const artist of ARTISTS) {
     if (ids.has(artist.id)) {
-      console.warn(`⚠️ Duplicate artist ID found: ${artist.id}`);
+      Logger.warn(`Duplicate artist ID found: ${artist.id}`);
     }
     ids.add(artist.id);
     
     if (!artist.theme) {
-      console.warn(`⚠️ Artist ${artist.id} has no theme`);
+      Logger.warn(`Artist ${artist.id} has no theme`);
     }
   }
-  console.log(`✅ Loaded ${ARTISTS.length} artists`);
 }

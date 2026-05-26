@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import { Logger } from '@/lib/utils/logger';
 
 interface NotificationBannerProps {
   /** Unique ID for this notification (used for dismissal tracking) */
@@ -51,7 +52,7 @@ export default function NotificationBanner({
     } catch (error) {
       // localStorage not available (private browsing, disabled, etc.)
       // Default to showing notification
-      console.warn('localStorage not available, notification will show every time:', error);
+      Logger.warn('localStorage not available, notification will show every time:', error);
     }
     
     if (!dismissed) {
@@ -99,7 +100,7 @@ export default function NotificationBanner({
     } catch (error) {
       // localStorage not available (private browsing, quota exceeded, etc.)
       // Notification will show again on next visit, but that's acceptable
-      console.warn('Failed to save notification dismissal:', error);
+      Logger.warn('Failed to save notification dismissal:', error);
     }
     
     setIsAnimating(false);

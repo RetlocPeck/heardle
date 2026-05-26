@@ -13,6 +13,7 @@ import { CachedDataService } from '@/lib/services/cachedDataService';
 import { hashCode } from '@/lib/utils/stringUtils';
 import { deduplicateSongVersions } from '@/lib/utils/songDeduplication';
 import { applyFilterChain, getDefaultFilterChain, getGenericTrackId } from './trackFilters';
+import { Logger } from '@/lib/utils/logger';
 
 export interface ArtistArtwork {
   standardUrl: string; // 600x600 or similar
@@ -49,7 +50,7 @@ export class AppleMusicService {
     const token = process.env.APPLE_MUSIC_DEV_TOKEN;
     
     if (!token) {
-      console.error('❌ APPLE_MUSIC_DEV_TOKEN not found in environment variables');
+      Logger.error('APPLE_MUSIC_DEV_TOKEN not configured');
       throw new Error('Apple Music developer token not configured');
     }
 
@@ -67,7 +68,6 @@ export class AppleMusicService {
     // Return memory-cached tracks if available
     const memoryCachedTracks = this.availableTracks.get(artistId);
     if (memoryCachedTracks && memoryCachedTracks.length > 1) {
-      console.log(`✅ Returning ${memoryCachedTracks.length} memory-cached tracks for ${artistId}`);
       return memoryCachedTracks;
     }
 
@@ -75,51 +75,37 @@ export class AppleMusicService {
     const cachedDataService = CachedDataService.getInstance();
     const staticCachedSongs = cachedDataService.getCachedSongs(artistId);
     if (staticCachedSongs && staticCachedSongs.length > 0) {
-      console.log(`📦 Found ${staticCachedSongs.length} pre-cached songs for ${artistId}`);
-      
       // IMPORTANT: Always apply runtime filters to static cached data
       // This ensures old cache files (built before filter updates) don't leak
       // intro/outro/skit/version tracks into the game
       const filteredSongs = this.applyRuntimeFiltersToSongs(staticCachedSongs);
-      
-      const filteredCount = staticCachedSongs.length - filteredSongs.length;
-      if (filteredCount > 0) {
-        console.log(`🔍 Runtime filter removed ${filteredCount} tracks from static cache`);
-      }
-      
-      console.log(`✅ Using ${filteredSongs.length} filtered songs for ${artistId}`);
       this.availableTracks.set(artistId, filteredSongs);
       return filteredSongs;
     }
 
     const artist = this.configService.getArtist(artistId);
     if (!artist) {
-      console.error(`Artist ${artistId} not found in configuration`);
+      Logger.error(`Artist ${artistId} not found in configuration`);
       return [];
     }
-
-    console.log(`🌐 No cache found for ${artistId}, fetching from Apple Music API...`);
 
     try {
       // Strategy 1: Use explicit Apple Music artist ID if configured (PRIORITY)
       // This is more reliable than searching by name, which can return incorrect matches
       if (artist.appleMusicArtistId) {
-        console.log(`🎵 Fetching tracks for ${artist.displayName} using explicit Apple Music ID: ${artist.appleMusicArtistId}`);
         const tracks = await this.fetchArtistTracks(artist.appleMusicArtistId);
         
         if (tracks.length > 0) {
           this.processAndCacheTracks(tracks, artistId);
           return this.availableTracks.get(artistId) || [];
         }
-        console.warn(`⚠️ Explicit ID ${artist.appleMusicArtistId} returned no tracks, falling back to search...`);
+        Logger.warn(`Explicit ID ${artist.appleMusicArtistId} returned no tracks, falling back to search`);
       }
 
       // Strategy 2: Search by artist name (fallback)
-      console.log(`🔍 Searching for "${artist.displayName}" by name...`);
       const searchedArtist = await this.searchArtistByName(artist.displayName);
       
       if (searchedArtist) {
-        console.log(`✅ Found artist: ${searchedArtist.attributes.name} (ID: ${searchedArtist.id})`);
         const tracks = await this.fetchArtistTracks(searchedArtist.id);
         
         if (tracks.length > 0) {
@@ -128,11 +114,11 @@ export class AppleMusicService {
         }
       }
 
-      console.warn(`❌ No ${artist.displayName} tracks found with any lookup strategy`);
+      Logger.warn(`No ${artist.displayName} tracks found with any lookup strategy`);
       return [];
       
     } catch (error) {
-      console.error(`Failed to fetch Apple Music tracks for ${artist.displayName}:`, error);
+      Logger.error(`Failed to fetch Apple Music tracks for ${artist.displayName}:`, error);
       return this.availableTracks.get(artistId) || [];
     }
   }
@@ -149,31 +135,21 @@ export class AppleMusicService {
       const allAlbums: AppleMusicAlbum[] = [];
       const seenAlbumIds = new Set<string>();
 
-      console.log(`🌏 Fetching albums from ${this.storefronts.length} storefronts: ${this.storefronts.join(', ')}`);
-
       for (const storefront of this.storefronts) {
         const albums = await this.fetchArtistAlbumsFromStorefront(appleMusicArtistId, storefront);
         
         // Add unique albums only (same album might exist in multiple storefronts)
-        let newCount = 0;
         for (const album of albums) {
           if (!seenAlbumIds.has(album.id)) {
             seenAlbumIds.add(album.id);
             allAlbums.push({ ...album, _storefront: storefront } as AppleMusicAlbum & { _storefront: string });
-            newCount++;
           }
-        }
-        
-        if (newCount > 0) {
-          console.log(`  📀 ${storefront.toUpperCase()}: ${albums.length} albums (${newCount} new, ${albums.length - newCount} duplicates)`);
         }
       }
 
-      console.log(`📀 Total ${allAlbums.length} unique albums across all storefronts`);
-
       if (allAlbums.length === 0) {
         // Fallback to direct songs endpoint (for artists with no albums listed)
-        console.log(`⚠️ No albums found, falling back to songs endpoint...`);
+        Logger.warn('No albums found, falling back to songs endpoint');
         return await this.fetchArtistSongsDirect(appleMusicArtistId);
       }
 
@@ -201,11 +177,10 @@ export class AppleMusicService {
         await new Promise(resolve => setTimeout(resolve, 30));
       }
 
-      console.log(`✅ Total ${allTracks.length} unique tracks from ${allAlbums.length} albums`);
       return allTracks;
       
     } catch (error) {
-      console.error('Failed to fetch artist tracks:', error);
+      Logger.error('Failed to fetch artist tracks:', error);
       return [];
     }
   }
@@ -229,7 +204,7 @@ export class AppleMusicService {
       if (!response.ok) {
         // 404 is normal for artists not in a storefront
         if (response.status !== 404) {
-          console.warn(`⚠️ Failed to fetch albums from ${storefront}: ${response.status}`);
+          Logger.warn(`Failed to fetch albums from ${storefront}: ${response.status}`);
         }
         break;
       }
@@ -268,7 +243,7 @@ export class AppleMusicService {
         if (storefront !== this.primaryStorefront) {
           return this.fetchAlbumTracksFromStorefront(albumId, albumName, this.primaryStorefront);
         }
-        console.warn(`⚠️ Failed to fetch tracks for album ${albumName}: ${response.status}`);
+        Logger.warn(`Failed to fetch tracks for album ${albumName}: ${response.status}`);
         return [];
       }
 
@@ -276,15 +251,10 @@ export class AppleMusicService {
       
       // Tracks are in the relationships.tracks.data array
       const tracks = data.data?.[0]?.relationships?.tracks?.data || [];
-      
-      if (tracks.length > 0) {
-        console.log(`  📝 ${albumName}: ${tracks.length} tracks`);
-      }
-      
       return tracks;
       
     } catch (error) {
-      console.warn(`⚠️ Error fetching album ${albumName}:`, error);
+      Logger.warn(`Error fetching album ${albumName}:`, error);
       return [];
     }
   }
@@ -322,7 +292,6 @@ export class AppleMusicService {
       }
     }
 
-    console.log(`✅ Fetched ${allTracks.length} songs (direct endpoint)`);
     return allTracks;
   }
 
@@ -333,16 +302,13 @@ export class AppleMusicService {
     try {
       const url = `${this.baseUrl}/catalog/${this.primaryStorefront}/search?types=artists&term=${encodeURIComponent(artistName)}&limit=5`;
       
-      console.log(`🔎 Searching Apple Music for: "${artistName}"`);
-      
       const response = await fetch(url, {
         headers: this.getAuthHeaders(),
       });
 
       if (!response.ok) {
         const errorText = await response.text();
-        console.error(`❌ Artist search failed: ${response.status} ${response.statusText}`);
-        console.error(`   Response: ${errorText.substring(0, 200)}`);
+        Logger.error(`Artist search failed: ${response.status} ${response.statusText}. ${errorText.substring(0, 200)}`);
         return null;
       }
 
@@ -350,16 +316,14 @@ export class AppleMusicService {
       
       if (data.results?.artists?.data && data.results.artists.data.length > 0) {
         // Return first match (usually most relevant)
-        const foundArtist = data.results.artists.data[0];
-        console.log(`✅ Found artist: "${foundArtist.attributes.name}" (ID: ${foundArtist.id})`);
-        return foundArtist;
+        return data.results.artists.data[0];
       }
 
-      console.warn(`⚠️ No artists found for search term: "${artistName}"`);
+      Logger.warn(`No artists found for search term: "${artistName}"`);
       return null;
       
     } catch (error) {
-      console.error('Failed to search for artist:', error);
+      Logger.error('Failed to search for artist:', error);
       return null;
     }
   }
@@ -399,8 +363,6 @@ export class AppleMusicService {
     const filters = getDefaultFilterChain();
     const { valid: validTracks, filtered: filteredOutTracks } = applyFilterChain(tracks, filters);
 
-    console.log(`🎯 Filtering: ${tracks.length} total → ${validTracks.length} valid, ${filteredOutTracks.length} filtered out`);
-
     // Smart deduplication
     const deduplicatedTracks = deduplicateSongVersions(validTracks, filteredOutTracks);
 
@@ -413,7 +375,6 @@ export class AppleMusicService {
     const processedTracks = uniqueById.map(track => convertAppleMusicTrackToSong(track as AppleMusicTrack));
 
     this.availableTracks.set(artistId, processedTracks);
-    console.log(`✅ Cached ${processedTracks.length} songs for ${artistId}`);
   }
 
   /**
@@ -434,7 +395,7 @@ export class AppleMusicService {
     
     // If all songs are excluded, fall back to full catalog
     if (availableSongs.length === 0) {
-      console.warn(`🎵 All songs excluded for ${artistId}, falling back to full catalog`);
+      Logger.warn(`All songs excluded for ${artistId}, falling back to full catalog`);
       availableSongs = songs;
     }
     
@@ -473,7 +434,6 @@ export class AppleMusicService {
     const cachedDataService = CachedDataService.getInstance();
     const staticCachedArtwork = cachedDataService.getCachedArtwork(artistId);
     if (staticCachedArtwork) {
-      console.log(`📦 Using pre-cached artwork for ${artistId}`);
       this.artistArtwork.set(artistId, staticCachedArtwork);
       return staticCachedArtwork;
     }
@@ -482,8 +442,6 @@ export class AppleMusicService {
     if (!artist) {
       return null;
     }
-
-    console.log(`🌐 No cached artwork for ${artistId}, fetching from API...`);
 
     try {
       // Try explicit Apple Music ID first (priority)
@@ -498,7 +456,7 @@ export class AppleMusicService {
       }
 
       if (!appleMusicId) {
-        console.warn(`No Apple Music ID found for ${artist.displayName}`);
+        Logger.warn(`No Apple Music ID found for ${artist.displayName}`);
         return null;
       }
 
@@ -509,7 +467,7 @@ export class AppleMusicService {
       });
 
       if (!response.ok) {
-        console.warn(`Failed to fetch artist artwork: ${response.status}`);
+        Logger.warn(`Failed to fetch artist artwork: ${response.status}`);
         return null;
       }
 
@@ -530,14 +488,13 @@ export class AppleMusicService {
         };
 
         this.artistArtwork.set(artistId, result);
-        console.log(`✅ Cached artwork for ${artistId}`);
         return result;
       }
 
       return null;
       
     } catch (error) {
-      console.error('Failed to fetch artist artwork:', error);
+      Logger.error('Failed to fetch artist artwork:', error);
       return null;
     }
   }
@@ -550,7 +507,7 @@ export class AppleMusicService {
       const songs = await this.searchSongs(artistId);
       return songs.length;
     } catch (error) {
-      console.error('Failed to get song count:', error);
+      Logger.error('Failed to get song count:', error);
       return 0;
     }
   }
@@ -570,7 +527,6 @@ export class AppleMusicService {
   clearAllCache(): void {
     this.availableTracks.clear();
     this.artistArtwork.clear();
-    console.log('🗑️ Cleared all Apple Music cache');
   }
 
   /**

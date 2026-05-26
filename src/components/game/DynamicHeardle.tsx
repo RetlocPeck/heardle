@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { Logger } from '@/lib/utils/logger';
 import { useParams } from 'next/navigation';
 import { Song } from '@/types/song';
 import { GameLogic, GameMode, GameState } from '@/lib/game';
@@ -102,11 +103,6 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
       // For daily mode, pass the client's local date to ensure timezone consistency
       if (mode === 'daily') {
         const clientDate = getTodayString(); // User's local timezone date
-        const currentPuzzleNumber = getLocalPuzzleNumber();
-        
-        // Enhanced debugging for timezone issues
-        console.log(`🔍 Timezone Debug: clientDate=${clientDate}, puzzleNumber=${currentPuzzleNumber}, time=${new Date().toISOString()}`);
-        
         const params = new URLSearchParams({ date: clientDate });
         endpoint = `${endpoint}?${params.toString()}`;
       }
@@ -181,14 +177,14 @@ export default function DynamicHeardle({ mode, onGameStateChange }: DynamicHeard
 
         
         if (songs.length === 0) {
-          console.warn('No songs loaded for autocomplete - users will need to type manually');
+          Logger.warn('No songs loaded for autocomplete');
         }
       } else {
-        console.warn(`Failed to load available songs: ${response.status} ${response.statusText}`);
+        Logger.warn(`Failed to load available songs: ${response.status} ${response.statusText}`);
         setAvailableSongs([]);
       }
     } catch (err) {
-      console.warn('Failed to load available songs from iTunes for autocomplete:', err);
+      Logger.warn('Failed to load available songs for autocomplete:', err);
       setAvailableSongs([]);
     }
   }, []);

@@ -3,6 +3,7 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import { Song } from '@/types/song';
 import { useAudioControl } from '@/lib/hooks/useAudioControl';
+import { Logger } from '@/lib/utils/logger';
 
 interface AudioPlayerProps {
   song: Song;
@@ -87,7 +88,7 @@ export default function AudioPlayer({
             setTimeout(() => { if (audioRef.current) audioRef.current.muted = false; }, 150);
           })
           .catch((err) => {
-            if ((err as Error)?.name !== 'AbortError') console.warn('Autoplay failed:', err);
+            if ((err as Error)?.name !== 'AbortError') Logger.warn('Autoplay failed:', err);
             if (audioRef.current) audioRef.current.muted = false;
           });
       }, 100);

@@ -17,7 +17,6 @@ export function DailyChallengeStatus({ artistId }: { artistId: string }) {
       const challenge = storage.loadDailyChallenge(artistId);
       const hasWon = challenge?.gameState.hasWon || false;
       
-      console.log(`📊 DailyChallengeStatus for ${artistId}:`, { isCompleted, hasWon, hasChallenge: !!challenge });
       setChallengeData({ isCompleted, hasWon });
     };
 
@@ -26,11 +25,8 @@ export function DailyChallengeStatus({ artistId }: { artistId: string }) {
     
     // Listen for storage changes to update the status immediately
     const handleStorageChange = (event: any) => {
-      console.log(`📡 DailyChallengeStatus received event for ${artistId}:`, event.detail);
-      
       // If this is a new daily challenge event for this artist, force reset to available
       if (event.detail?.isNewDaily && event.detail?.artistId === artistId) {
-        console.log(`🎯 New daily challenge detected for ${artistId}, resetting card to available`);
         setChallengeData({ isCompleted: false, hasWon: false });
         return;
       }

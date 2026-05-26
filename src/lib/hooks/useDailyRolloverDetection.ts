@@ -4,6 +4,7 @@
  */
 
 import { useEffect, useRef } from 'react';
+import { Logger } from '@/lib/utils/logger';
 import { getLocalPuzzleNumber, getTodayString } from '@/lib/utils/dateUtils';
 import DailyChallengeStorage from '@/lib/services/dailyChallengeStorage';
 import { DAILY_CHALLENGE_UPDATED_EVENT, ROLLOVER_CHECK_INTERVAL_MS } from '@/lib/constants';
@@ -32,7 +33,7 @@ export function useDailyRolloverDetection(options: RolloverDetectionOptions = {}
       const lastPuzzleNumber = lastPuzzleNumberRef.current;
 
       if (currentPuzzleNumber !== lastPuzzleNumber) {
-        console.log(`🔄 Global rollover detected: ${lastPuzzleNumber} → ${currentPuzzleNumber}`);
+        Logger.debug(`Global rollover detected: ${lastPuzzleNumber} → ${currentPuzzleNumber}`);
         
         // Update our reference
         lastPuzzleNumberRef.current = currentPuzzleNumber;
@@ -117,7 +118,6 @@ export function useNewDailyChallengeListener(artistId: string, onNewDaily?: () =
       
       // Check if this event is for our artist or is a global rollover
       if (detail?.artistId === artistId || (!detail?.artistId && detail?.currentPuzzleNumber)) {
-        console.log(`🎯 New daily challenge listener triggered for ${artistId}:`, detail);
         onNewDaily?.();
       }
     };

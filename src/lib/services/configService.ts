@@ -1,4 +1,5 @@
 import { ArtistConfig, getArtistById, getAllArtists, ARTISTS } from '@/config/artists';
+import { Logger } from '@/lib/utils/logger';
 
 export class ConfigService {
   private static instance: ConfigService;
@@ -16,7 +17,7 @@ export class ConfigService {
   getArtist(id: string): ArtistConfig | null {
     const artist = getArtistById(id);
     if (!artist) {
-      console.warn(`Artist with ID '${id}' not found`);
+      Logger.warn(`Artist with ID '${id}' not found`);
       return null;
     }
     return artist;

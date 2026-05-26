@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { Logger } from '@/lib/utils/logger';
 
 /**
  * Standardized error response for API routes
@@ -20,7 +21,7 @@ export function handleApiError(
   artist: string,
   operation: string
 ): NextResponse<ApiErrorResponse> {
-  console.error(`Failed to ${operation} for ${artist}:`, error);
+  Logger.error(`Failed to ${operation} for ${artist}:`, error);
   
   return NextResponse.json(
     { error: `Failed to ${operation}` },
@@ -35,7 +36,7 @@ export function createNotFoundResponse(
   resource: string,
   artist: string
 ): NextResponse<ApiErrorResponse> {
-  console.warn(`${resource} not found for ${artist}`);
+  Logger.warn(`${resource} not found for ${artist}`);
   
   return NextResponse.json(
     { error: `${resource} not found` },

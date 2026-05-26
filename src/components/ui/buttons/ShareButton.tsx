@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { buildShareText, ShareGameState } from '@/lib/utils/share';
+import { Logger } from '@/lib/utils/logger';
 
 export default function ShareButton({ state, className }: { state: ShareGameState; className?: string }) {
   const [isCopied, setIsCopied] = useState(false);
@@ -16,7 +17,7 @@ export default function ShareButton({ state, className }: { state: ShareGameStat
       setTimeout(() => setIsCopied(false), 2000);
     } catch (error) {
       // Fallback for older browsers or if clipboard fails
-      console.error('Clipboard copy failed:', error);
+      Logger.error('Clipboard copy failed:', error);
       // Show error state briefly
       setIsCopied(true);
       setTimeout(() => setIsCopied(false), 2000);

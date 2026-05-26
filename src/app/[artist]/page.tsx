@@ -148,7 +148,6 @@ export default function ArtistPage({ params }: ArtistPageProps) {
                   detail: { artistId: artist.id, date: getTodayString(), completed: gameState.isGameOver }
                 });
                 window.dispatchEvent(event);
-                console.log(`📡 Artist page dispatched ${DAILY_CHALLENGE_UPDATED_EVENT}:`, event.detail);
               }
             }}
           />

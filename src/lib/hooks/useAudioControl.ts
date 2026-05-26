@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useEffect, useState, useCallback } from 'react';
+import { Logger } from '@/lib/utils/logger';
 
 export interface AudioControlReturn {
   audioRef: React.RefObject<HTMLAudioElement | null>;
@@ -133,7 +134,7 @@ export function useAudioControl(onEnded?: () => void): AudioControlReturn {
       await audio.play();
     } catch (e) {
       if ((e as Error).name !== 'AbortError') {
-        console.error('Audio play error:', e);
+        Logger.error('Audio play error:', e);
       }
     }
   }, []);

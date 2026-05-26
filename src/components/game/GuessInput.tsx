@@ -60,8 +60,6 @@ export default function GuessInput({
   // (trackFilters.ts removes intro/outro/skit/version tracks)
   // No need to filter again here - just match by prefix
   useEffect(() => {
-    console.log(`🔍 GuessInput: Filtering songs. Input: "${guess}", Available songs: ${availableSongs.length}`);
-    
     if (guess.trim() && availableSongs.length > 0) {
       const filtered = availableSongs.filter(song => 
         song.name.toLowerCase().startsWith(guess.toLowerCase())
@@ -99,14 +97,10 @@ export default function GuessInput({
         setShowDropdown(false);
       }
       setSelectedIndex(-1);
-      console.log(`🔍 GuessInput: Found ${filtered.length} songs, deduplicated to ${uniqueSongs.length} unique titles starting with "${guess}"`);
     } else {
       setFilteredSongs([]);
       setShowDropdown(false);
       setSelectedIndex(-1);
-      if (guess.trim()) {
-        console.log(`🔍 GuessInput: No songs available for filtering`);
-      }
     }
   }, [guess, availableSongs]);
 
@@ -166,10 +160,8 @@ export default function GuessInput({
   };
 
   const handleInputFocus = () => {
-    console.log(`🔍 GuessInput: Input focused. Guess: "${guess}", Filtered songs: ${filteredSongs.length}`);
     if (guess.trim() && filteredSongs.length > 0) {
       setShowDropdown(true);
-      console.log(`🔍 GuessInput: Showing dropdown with ${filteredSongs.length} songs`);
     }
   };
 
